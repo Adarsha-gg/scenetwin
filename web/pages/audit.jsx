@@ -57,9 +57,39 @@ function idleStages(names) {
   return names.map(name => ({ name, ok: null, message: 'pending' }));
 }
 
+function parseStartSeconds(raw) {
+  if (!raw) return 0;
+  const text = String(raw).trim().toLowerCase();
+  if (/^\d+$/.test(text)) return Number(text);
+  const h = Number((text.match(/(\d+(?:\.\d+)?)h/) || [0, 0])[1]);
+  const m = Number((text.match(/(\d+(?:\.\d+)?)m/) || [0, 0])[1]);
+  const s = Number((text.match(/(\d+(?:\.\d+)?)s/) || [0, 0])[1]);
+  return Math.round(h * 3600 + m * 60 + s);
+}
+
+function youtubePreview(url) {
+  try {
+    const parsed = new URL(url);
+    let id = '';
+    if (parsed.hostname.includes('youtu.be')) id = parsed.pathname.replace('/', '');
+    else id = parsed.searchParams.get('v') || '';
+    if (!id) return null;
+    const start = parseStartSeconds(parsed.searchParams.get('t') || parsed.searchParams.get('start'));
+    return {
+      id,
+      start,
+      embedUrl: `https://www.youtube.com/embed/${id}?start=${start}`,
+      label: start ? `${start}s` : 't=0',
+    };
+  } catch (e) {
+    return null;
+  }
+}
+
 function AuditPage() {
   const [presets, setPresets] = useState([]);
   const [url, setUrl] = useState('https://www.youtube.com/watch?v=avz06PDqDbM');
+  const [selectedPreset, setSelectedPreset] = useState(null);
   const [ad, setAd] = useState('');
   const [running, setRunning] = useState(false);
   const [phase, setPhase] = useState(0);
@@ -71,7 +101,10 @@ function AuditPage() {
       .then(r => r.json())
       .then(items => {
         setPresets(items);
-        if (items?.[0]?.url) setUrl(items[0].url);
+        if (items?.[0]?.url) {
+          setUrl(items[0].url);
+          setSelectedPreset(items[0]);
+        }
       })
       .catch(() => setError('API is not reachable on port 8000.'));
   }, []);
@@ -83,6 +116,14 @@ function AuditPage() {
   }, [running]);
 
   const presetGroups = useMemo(() => groupPresets(presets), [presets]);
+  const preview = useMemo(() => youtubePreview(url), [url]);
+
+  function selectPreset(preset) {
+    setSelectedPreset(preset);
+    setUrl(preset.url);
+    setResult(null);
+    setError('');
+  }
 
   async function runAudit(nextUrl = url) {
     if (!nextUrl || running) return;
@@ -139,7 +180,11 @@ function AuditPage() {
               <span className="eyebrow">YouTube URL</span>
               <input
                 value={url}
-                onChange={e => setUrl(e.target.value)}
+                onChange={e => {
+                  setUrl(e.target.value);
+                  setSelectedPreset(null);
+                  setResult(null);
+                }}
                 className="mono"
                 style={{
                   height: 42,
@@ -164,7 +209,7 @@ function AuditPage() {
             <div className="col gap-8">
               <div className="row justify-between items-center">
                 <div className="eyebrow">Tested presets</div>
-                <div className="mono" style={{ fontSize: 11, color: 'var(--fg-muted)' }}>click to run</div>
+                <div className="mono" style={{ fontSize: 11, color: 'var(--fg-muted)' }}>click to preview</div>
               </div>
               <div className="col gap-12" style={{ maxHeight: 360, overflowY: 'auto', paddingRight: 4 }}>
                 {presetGroups.map(group => (
@@ -184,7 +229,7 @@ function AuditPage() {
                           padding: '8px 10px',
                           borderColor: url === p.url ? 'var(--accent)' : 'var(--border-strong)',
                         }}
-                        onClick={() => runAudit(p.url)}
+                        onClick={() => selectPreset(p)}
                       >
                         <span className="col gap-4" style={{ textAlign: 'left', minWidth: 0 }}>
                           <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: 245 }}>{p.label}</span>
@@ -262,8 +307,28 @@ function AuditPage() {
           <div className="card" style={{ padding: 18 }}>
             {result?.video ? (
               <video src={absoluteMediaUrl(result.video.url)} controls style={{ width: '100%', display: 'block', border: '1px solid var(--border)' }} />
+            ) : !running && preview ? (
+              <div>
+                <iframe
+                  title="Selected clip preview"
+                  src={preview.embedUrl}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowFullScreen
+                  style={{
+                    width: '100%',
+                    aspectRatio: '16 / 9',
+                    display: 'block',
+                    border: '1px solid var(--border)',
+                    background: 'var(--panel-2)',
+                  }}
+                />
+                <div className="row justify-between items-center" style={{ marginTop: 10, color: 'var(--fg-muted)', fontSize: 12 }}>
+                  <span>{selectedPreset?.label || 'Custom YouTube clip'}</span>
+                  <span className="mono">{selectedPreset?.start_label || preview.label}</span>
+                </div>
+              </div>
             ) : (
-              <VideoFrame width="100%" height={9} seed={72} label={running ? 'loading clip' : 'select preset to run'} active />
+              <VideoFrame width="100%" height={9} seed={72} label={running ? 'loading clip' : 'paste a YouTube URL'} active />
             )}
           </div>
 
