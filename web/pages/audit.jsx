@@ -29,6 +29,30 @@ function verdictFor(result) {
   return { label: 'Likely misses visual content', color: 'var(--bad)' };
 }
 
+function adqaLabel(score) {
+  if (score === null || score === undefined) return 'ADQA —';
+  return `ADQA ${Math.round(score * 3)}/3`;
+}
+
+function clipLabel(score) {
+  if (score === null || score === undefined) return 'CLIP —';
+  return `CLIP ${score.toFixed(3)}`;
+}
+
+function groupPresets(presets) {
+  const groups = [];
+  for (const preset of presets) {
+    const name = preset.group || 'Tested presets';
+    let group = groups.find(g => g.name === name);
+    if (!group) {
+      group = { name, items: [] };
+      groups.push(group);
+    }
+    group.items.push(preset);
+  }
+  return groups;
+}
+
 function AuditPage() {
   const [presets, setPresets] = useState([]);
   const [url, setUrl] = useState('https://www.youtube.com/watch?v=avz06PDqDbM');
@@ -53,6 +77,8 @@ function AuditPage() {
     const id = setInterval(() => setPhase(p => Math.min(p + 1, 4)), 1800);
     return () => clearInterval(id);
   }, [running]);
+
+  const presetGroups = useMemo(() => groupPresets(presets), [presets]);
 
   async function runAudit() {
     setRunning(true);
@@ -122,17 +148,38 @@ function AuditPage() {
 
             <div className="col gap-8">
               <div className="eyebrow">Tested presets</div>
-              <div className="col gap-6">
-                {presets.slice(0, 5).map((p, idx) => (
-                  <button
-                    key={p.url}
-                    className="btn"
-                    style={{ justifyContent: 'space-between', height: 34 }}
-                    onClick={() => setUrl(p.url)}
-                  >
-                    <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{p.label.split(' - ')[0]}</span>
-                    <span className="mono" style={{ color: 'var(--fg-muted)' }}>{idx === 4 ? '55s' : 't=0'}</span>
-                  </button>
+              <div className="col gap-12" style={{ maxHeight: 420, overflowY: 'auto', paddingRight: 4 }}>
+                {presetGroups.map(group => (
+                  <div key={group.name} className="col gap-6">
+                    <div className="mono" style={{ fontSize: 11, color: 'var(--fg-muted)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
+                      {group.name}
+                    </div>
+                    {group.items.map(p => (
+                      <button
+                        key={p.url}
+                        className="btn"
+                        style={{
+                          justifyContent: 'space-between',
+                          alignItems: 'stretch',
+                          height: 'auto',
+                          minHeight: 48,
+                          padding: '8px 10px',
+                          borderColor: url === p.url ? 'var(--accent)' : 'var(--border-strong)',
+                        }}
+                        onClick={() => setUrl(p.url)}
+                      >
+                        <span className="col gap-4" style={{ textAlign: 'left', minWidth: 0 }}>
+                          <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: 245 }}>{p.label}</span>
+                          <span className="mono" style={{ color: 'var(--fg-muted)', fontSize: 11 }}>
+                            {clipLabel(p.clip_top3)} · {adqaLabel(p.adqa_score)}
+                          </span>
+                        </span>
+                        <span className="mono" style={{ color: 'var(--fg-muted)', alignSelf: 'center', marginLeft: 10, whiteSpace: 'nowrap' }}>
+                          {p.start_label || 't=0'}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
                 ))}
               </div>
             </div>
@@ -243,4 +290,3 @@ function AuditPage() {
 }
 
 Object.assign(window, { AuditPage });
-

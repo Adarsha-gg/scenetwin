@@ -20,7 +20,7 @@ if str(DEMO_DIR) not in sys.path:
     sys.path.insert(0, str(DEMO_DIR))
 
 import live_pipeline as lp  # noqa: E402
-from live_presets import LIVE_DEMO_PRESETS  # noqa: E402
+from live_presets import LIVE_DEMO_PRESET_GROUPS  # noqa: E402
 
 
 class StageResult(BaseModel):
@@ -32,8 +32,10 @@ class StageResult(BaseModel):
 class Preset(BaseModel):
     label: str
     url: str
+    group: str
     clip_top3: Optional[float] = None
     adqa_score: Optional[float] = None
+    start_label: Optional[str] = None
 
 
 class AuditRequest(BaseModel):
@@ -191,15 +193,18 @@ def health() -> dict[str, Any]:
 
 @app.get("/api/presets", response_model=list[Preset])
 def presets() -> list[Preset]:
-    return [
-        Preset(
-            label=label,
-            url=url,
-            clip_top3=_preset_score(label, "CLIP "),
-            adqa_score=_preset_score(label, "ADQA "),
-        )
-        for label, url in LIVE_DEMO_PRESETS.items()
-    ]
+    out: list[Preset] = []
+    for group in LIVE_DEMO_PRESET_GROUPS:
+        for item in group["items"]:
+            out.append(Preset(
+                label=item["label"],
+                url=item["url"],
+                group=group["group"],
+                clip_top3=item.get("clip_top3"),
+                adqa_score=item.get("adqa_score"),
+                start_label=item.get("start_label"),
+            ))
+    return out
 
 
 @app.post("/api/audit", response_model=AuditResponse)
