@@ -42,7 +42,6 @@ function TopBar({ page, setPage }) {
           ))}
         </nav>
         <div className="topbar-right">
-          <span className="pill">arXiv:2509.14211</span>
           <a className="mono" href="../output/scenetwin_njbda_poster.pdf" target="_blank">poster</a>
           <a className="mono" href="https://github.com/Adarsha-gg/scenetwin" target="_blank">github</a>
           <button className="icon-btn" title="Toggle theme" onClick={() => document.documentElement.classList.toggle('light')}>
@@ -80,7 +79,7 @@ function Footer() {
         <div>
           <h5>Research</h5>
           <ul>
-            <li><a>Paper (arXiv)</a></li>
+            <li><a>Poster</a></li>
             <li><a>Benchmark v1</a></li>
             <li><a>TRIBE forecaster</a></li>
             <li><a>Citation</a></li>

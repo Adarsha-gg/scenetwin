@@ -1,6 +1,13 @@
 // SceneTwin overview page
 
 function HeroPage({ setPage }) {
+  const previewFrames = [
+    { label: 'motorcycle ridge', score: 0.33 },
+    { label: 'steep drop', score: 0.31 },
+    { label: 'dust hallway', score: 0.29 },
+    { label: 'backlit figure', score: 0.28 },
+  ];
+
   return (
     <main className="page" style={{ paddingTop: 56 }}>
       <section style={{
@@ -45,32 +52,53 @@ function HeroPage({ setPage }) {
             <Tag color="var(--good)">API READY</Tag>
           </div>
           <div style={{ marginTop: 18 }}>
-            <VideoFrame width="100%" height={9} seed={31} label="youtube clip" active>
-              <div style={{ position: 'absolute', inset: 0, display: 'grid', placeItems: 'center' }}>
-                <div style={{ width: 74, height: 74, border: '1px solid var(--border-strong)', display: 'grid', placeItems: 'center', background: 'var(--panel)' }}>
-                  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" style={{ marginLeft: 3 }}>
-                    <path d="M8 5v14l11-7z" />
-                  </svg>
-                </div>
-              </div>
-            </VideoFrame>
+            <iframe
+              title="SceneTwin demo preview"
+              src="https://www.youtube.com/embed/avz06PDqDbM?start=0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+              style={{
+                width: '100%',
+                aspectRatio: '16 / 9',
+                display: 'block',
+                border: '1px solid var(--border)',
+                background: 'var(--panel-2)',
+              }}
+            />
+            <div className="row justify-between items-center" style={{ marginTop: 10, color: 'var(--fg-muted)', fontSize: 12 }}>
+              <span>Mission Impossible trailer from start</span>
+              <span className="mono">t=0</span>
+            </div>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12, marginTop: 16 }}>
             <div className="card card-pad"><Stat label="CLIP top3" value="0.333" /></div>
             <div className="card card-pad"><Stat label="ADQA" value="3/3" /></div>
             <div className="card card-pad"><Stat label="frames" value="8" /></div>
           </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, minmax(0, 1fr))', gap: 8, marginTop: 16 }}>
+            {previewFrames.map((frame, i) => (
+              <VideoFrame key={frame.label} width="100%" height={9} seed={90 + i} label={`f${i + 1}`} score={frame.score} />
+            ))}
+          </div>
           <div className="card card-pad" style={{ marginTop: 16 }}>
-            <div className="eyebrow">Current best t=0 demos</div>
-            <div className="col gap-12" style={{ marginTop: 14 }}>
-              {['Mission Impossible', 'John Wick 4', 'Spider-Man', 'The Batman'].map((name, i) => (
-                <div key={name} className="row items-center gap-12">
-                  <VideoFrame width={96} height={54} seed={40 + i} label={`0${i + 1}`} />
-                  <div className="flex-1">
-                    <div style={{ fontWeight: 600 }}>{name}</div>
-                    <div className="mono" style={{ fontSize: 12, color: 'var(--fg-muted)', marginTop: 4 }}>ADQA 3/3</div>
+            <div className="row justify-between items-center">
+              <div className="eyebrow">What the audit returns</div>
+              <Tag color="var(--accent)">sample output</Tag>
+            </div>
+            <div className="col gap-10" style={{ marginTop: 14 }}>
+              {[
+                ['Motorcyclist on a high mountain peak?', true],
+                ['Rider descends a steep rocky slope?', true],
+                ['Backlit silhouetted figure appears?', true],
+              ].map(([question, ok], i) => (
+                <div key={question} className="card" style={{ padding: 12, borderLeft: `3px solid ${ok ? 'var(--good)' : 'var(--bad)'}` }}>
+                  <div className="row justify-between gap-12">
+                    <strong style={{ fontSize: 13 }}>{question}</strong>
+                    <span className="mono" style={{ color: ok ? 'var(--good)' : 'var(--bad)', fontSize: 11 }}>{ok ? 'YES' : 'NO'}</span>
                   </div>
-                  <ScoreBar value={[0.333, 0.332, 0.317, 0.305][i]} width={90} />
+                  <div style={{ color: 'var(--fg-muted)', fontSize: 12, lineHeight: 1.45, marginTop: 6 }}>
+                    The generated AD mentions the visible scene evidence.
+                  </div>
                 </div>
               ))}
             </div>
@@ -82,4 +110,3 @@ function HeroPage({ setPage }) {
 }
 
 Object.assign(window, { HeroPage });
-
