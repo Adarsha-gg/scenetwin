@@ -53,6 +53,10 @@ function groupPresets(presets) {
   return groups;
 }
 
+function idleStages(names) {
+  return names.map(name => ({ name, ok: null, message: 'pending' }));
+}
+
 function AuditPage() {
   const [presets, setPresets] = useState([]);
   const [url, setUrl] = useState('https://www.youtube.com/watch?v=avz06PDqDbM');
@@ -80,7 +84,9 @@ function AuditPage() {
 
   const presetGroups = useMemo(() => groupPresets(presets), [presets]);
 
-  async function runAudit() {
+  async function runAudit(nextUrl = url) {
+    if (!nextUrl || running) return;
+    setUrl(nextUrl);
     setRunning(true);
     setError('');
     setResult(null);
@@ -90,7 +96,7 @@ function AuditPage() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          url,
+          url: nextUrl,
           candidate_ad: ad.trim() || null,
           run_tribe: false,
           max_seconds: 30,
@@ -146,9 +152,21 @@ function AuditPage() {
               />
             </label>
 
+            <button
+              className="btn primary lg"
+              onClick={() => runAudit(url)}
+              disabled={running}
+              style={{ justifyContent: 'center', opacity: running ? 0.75 : 1 }}
+            >
+              {running ? 'Running audit' : 'Run selected clip'}
+            </button>
+
             <div className="col gap-8">
-              <div className="eyebrow">Tested presets</div>
-              <div className="col gap-12" style={{ maxHeight: 420, overflowY: 'auto', paddingRight: 4 }}>
+              <div className="row justify-between items-center">
+                <div className="eyebrow">Tested presets</div>
+                <div className="mono" style={{ fontSize: 11, color: 'var(--fg-muted)' }}>click to run</div>
+              </div>
+              <div className="col gap-12" style={{ maxHeight: 360, overflowY: 'auto', paddingRight: 4 }}>
                 {presetGroups.map(group => (
                   <div key={group.name} className="col gap-6">
                     <div className="mono" style={{ fontSize: 11, color: 'var(--fg-muted)', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
@@ -166,7 +184,7 @@ function AuditPage() {
                           padding: '8px 10px',
                           borderColor: url === p.url ? 'var(--accent)' : 'var(--border-strong)',
                         }}
-                        onClick={() => setUrl(p.url)}
+                        onClick={() => runAudit(p.url)}
                       >
                         <span className="col gap-4" style={{ textAlign: 'left', minWidth: 0 }}>
                           <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', maxWidth: 245 }}>{p.label}</span>
@@ -190,7 +208,7 @@ function AuditPage() {
                 value={ad}
                 onChange={e => setAd(e.target.value)}
                 placeholder="Leave blank to generate one."
-                rows={6}
+                rows={4}
                 style={{
                   resize: 'vertical',
                   padding: 12,
@@ -202,10 +220,6 @@ function AuditPage() {
               />
             </label>
 
-            <button className="btn primary lg" onClick={runAudit} disabled={running} style={{ justifyContent: 'center', opacity: running ? 0.75 : 1 }}>
-              {running ? 'Running audit' : 'Run audit'}
-            </button>
-
             {error && <div className="card card-pad" style={{ borderColor: 'var(--bad)', color: 'var(--bad)' }}>{error}</div>}
           </div>
         </aside>
@@ -215,21 +229,31 @@ function AuditPage() {
             <div className="row justify-between items-center">
               <div>
                 <div className="eyebrow">Pipeline</div>
-                <div style={{ fontSize: 18, fontWeight: 600, marginTop: 4 }}>{result ? verdict.label : running ? previewStages[phase] || 'Scoring' : 'Ready'}</div>
+                <div style={{ fontSize: 18, fontWeight: 600, marginTop: 4 }}>{result ? verdict.label : running ? previewStages[phase] || 'Scoring' : 'Choose a preset or paste a URL'}</div>
               </div>
               <div className="mono" style={{ color: result ? verdict.color : 'var(--fg-muted)' }}>
                 {result ? `CLIP ${result.clip.top3.toFixed(3)} / ADQA ${Math.round(result.adqa.score * 3)}/3` : '30s / 8 frames'}
               </div>
             </div>
             <div className="row gap-8 wrap" style={{ marginTop: 16 }}>
-              {(result?.stages || previewStages.map((s, i) => ({ name: s, ok: !running || i <= phase, message: running && i === phase ? 'running' : '' }))).map((s, idx) => (
+              {(result?.stages || (running
+                ? previewStages.map((s, i) => ({
+                    name: s,
+                    ok: i < phase ? true : null,
+                    message: i === phase ? 'running' : i < phase ? 'ok' : 'pending',
+                  }))
+                : idleStages(previewStages))).map((s, idx) => (
                 <div key={`${s.name}-${idx}`} className="card" style={{
                   padding: '10px 12px',
                   minWidth: 118,
-                  borderColor: s.ok ? (result ? 'var(--good)' : 'var(--border)') : 'var(--bad)',
+                  borderColor: s.ok === true ? 'var(--good)' : s.ok === false ? 'var(--bad)' : 'var(--border)',
                 }}>
                   <div className="eyebrow">{stageLabel(s.name)}</div>
-                  <div className="mono" style={{ marginTop: 5, fontSize: 11, color: s.ok ? 'var(--good)' : 'var(--bad)' }}>{s.ok ? 'ok' : 'failed'}</div>
+                  <div className="mono" style={{
+                    marginTop: 5,
+                    fontSize: 11,
+                    color: s.ok === true ? 'var(--good)' : s.ok === false ? 'var(--bad)' : 'var(--fg-muted)',
+                  }}>{s.ok === true ? 'ok' : s.ok === false ? 'failed' : s.message}</div>
                 </div>
               ))}
             </div>
@@ -239,7 +263,7 @@ function AuditPage() {
             {result?.video ? (
               <video src={absoluteMediaUrl(result.video.url)} controls style={{ width: '100%', display: 'block', border: '1px solid var(--border)' }} />
             ) : (
-              <VideoFrame width="100%" height={9} seed={72} label="clip preview" active />
+              <VideoFrame width="100%" height={9} seed={72} label={running ? 'loading clip' : 'select preset to run'} active />
             )}
           </div>
 
