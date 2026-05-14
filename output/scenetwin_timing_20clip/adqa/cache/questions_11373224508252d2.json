@@ -1,0 +1,45 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What key visual detail is described here: In a bustling kitchen, a chef holds a cherry tomato and counts down in Spanish?",
+      "answer_key": "In a bustling kitchen, a chef holds a cherry tomato and counts down in Spanish",
+      "required_visual_evidence": [
+        "bustling",
+        "spanish",
+        "kitchen",
+        "tomato",
+        "counts"
+      ],
+      "importance": "critical",
+      "rationale": "offline fallback"
+    },
+    {
+      "q_idx": 1,
+      "question": "What key visual detail is described here: With precision, he throws the tomato at a wall, followed by a knife, which pins the tomato in place?",
+      "answer_key": "With precision, he throws the tomato at a wall, followed by a knife, which pins the tomato in place",
+      "required_visual_evidence": [
+        "precision",
+        "followed",
+        "throws",
+        "tomato",
+        "which"
+      ],
+      "importance": "useful",
+      "rationale": "offline fallback"
+    },
+    {
+      "q_idx": 2,
+      "question": "What key visual detail is described here: The chef smiles, showcasing his skill?",
+      "answer_key": "The chef smiles, showcasing his skill",
+      "required_visual_evidence": [
+        "showcasing",
+        "smiles",
+        "skill",
+        "chef"
+      ],
+      "importance": "useful",
+      "rationale": "offline fallback"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in these frames?",
+      "answer_key": "A person is falling or tumbling through snow",
+      "required_visual_evidence": [
+        "person in dark clothing",
+        "snow-covered ground",
+        "dynamic falling motion",
+        "blue object visible"
+      ],
+      "importance": "critical",
+      "rationale": "The primary action is essential for understanding the clip's narrative and context."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or environment where this action takes place?",
+      "answer_key": "A snowy outdoor location, possibly a slope or mountainside",
+      "required_visual_evidence": [
+        "white snow covering ground",
+        "light blue sky",
+        "steep or uneven terrain"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context and helps listeners visualize the scene's geography and conditions."
+    },
+    {
+      "q_idx": 2,
+      "question": "What blue object is visible in the later frames?",
+      "answer_key": "A blue ski or snowboard equipment",
+      "required_visual_evidence": [
+        "bright blue object",
+        "visible in lower frames",
+        "associated with person"
+      ],
+      "importance": "useful",
+      "rationale": "The equipment clarifies the activity type and is prominent enough for AD inclusion."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing that makes them visible against the snow?",
+      "answer_key": "Dark-colored clothing, appearing black or dark blue",
+      "required_visual_evidence": [
+        "dark silhouette",
+        "contrasts with white snow",
+        "visible throughout frames"
+      ],
+      "importance": "useful",
+      "rationale": "Clothing color contrast helps listeners distinguish the subject from the snowy background."
+    },
+    {
+      "q_idx": 4,
+      "question": "Is the person in control of their movement or falling uncontrollably?",
+      "answer_key": "The person appears to be falling or tumbling uncontrollably through the snow",
+      "required_visual_evidence": [
+        "chaotic body position",
+        "snow spray around person",
+        "dynamic motion across frames"
+      ],
+      "importance": "critical",
+      "rationale": "Distinguishing controlled versus uncontrolled movement is crucial for understanding the situation's severity."
+    }
+  ]
+}

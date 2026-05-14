@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes kitchen/chef, not skiing. Cross-category content."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes kitchen, not snow-covered slope or nighttime setting."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes knife and tomato, not ski poles."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes throwing tomato, not skiing action."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing description; wrong category entirely."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man is skiing",
+      "rationale": "Directly states skiing activity."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snowy hill",
+      "rationale": "Names snow and hill but omits nighttime setting."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "between poles",
+      "rationale": "Mentions poles but not as held equipment; unclear if ski poles."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man is skiing",
+      "rationale": "Directly states skiing action on snowy hill."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing color description provided."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "Someone is skiing",
+      "rationale": "Directly states skiing activity."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "at night around several poles in an alternating left then right pattern",
+      "rationale": "Explicitly states nighttime and snowy context with movement pattern."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "around several poles",
+      "rationale": "Mentions poles but not as held equipment in hands."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "skiing at night around several poles in an alternating left then right pattern",
+      "rationale": "Describes skiing action with clear directional movement pattern."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing color description provided."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a skier navigates a snowy hill",
+      "rationale": "Directly identifies skiing activity."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "At night, a skier navigates a snowy hill",
+      "rationale": "Explicitly states nighttime and snowy slope setting."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "flexible poles",
+      "rationale": "Mentions poles but not as held ski poles in hands."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "The skier moves swiftly, alternating left and right, purposefully making contact with each pole as they descend the slope",
+      "rationale": "Describes skiing action with clear movement and progression."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing color description provided."
+    }
+  ]
+}

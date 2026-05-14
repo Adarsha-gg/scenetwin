@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about zoo/deer, not snowy travel scene."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description, no weather information provided."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description, no rope or ground details."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of object color or lower right portion."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "in the snow",
+      "rationale": "Clearly identifies snowy weather conditions."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of rope or cord lines on ground."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No object color or location details provided."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "through snow and ice",
+      "rationale": "Clearly describes snowy winter weather conditions."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of rope or cord lines."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "blue sled behind him",
+      "rationale": "Identifies blue object; sled is in towed position (lower right area)."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "snowy landscape, snow",
+      "rationale": "Clearly describes snowy winter weather conditions."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "connected by a wire",
+      "rationale": "Identifies rope/wire on ground connecting sled to motorcycle."
+    }
+  ]
+}

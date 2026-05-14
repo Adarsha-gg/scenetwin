@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "girl in a red hat runs up a steep, snow-covered hill between two blue slides. She slips halfway and slides back down",
+      "rationale": "Describes sliding activity but conflates hill-climbing with sledding; unclear if inflatable slide is the main apparatus."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "In a snowy playground",
+      "rationale": "Confirms snowy outdoor setting but omits fence, trees, and specific environmental details from answer key."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "between two blue slides",
+      "rationale": "Mentions blue slides but describes hill-climbing, not inflatable tube slide structure with striping."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a girl in a red hat...Another girl, wearing a knitted hat",
+      "rationale": "Clearly identifies two people participating in the activity."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "girl in a red hat",
+      "rationale": "Directly states red hat worn by main participant."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "girls are trying to climb up a snowy hill",
+      "rationale": "Describes hill-climbing, not sledding/sliding down inflatable slide as shown in frames."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snowy hill",
+      "rationale": "Confirms snowy setting but lacks fence, trees, and environmental context details."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of inflatable slide structure or equipment used."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A couple of girls",
+      "rationale": "Identifies two people present in the activity."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of headwear or red hat."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "girl tries to run up a steep icy slope, gets half way, slips and slides all the way down",
+      "rationale": "Describes sliding motion but frames it as hill-climbing with accidental slide, not intentional sledding activity."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of fence, trees, or specific outdoor environment details."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of inflatable slide structure or equipment."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a girl...then a second girl starts her attempt",
+      "rationale": "Identifies two people participating sequentially."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of red hat or any headwear."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles pause to converse...rev their engines and ride off",
+      "rationale": "Describes snowmobile riding, completely contradicts sledding/sliding activity."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snow-covered terrain",
+      "rationale": "Generic snowy setting; contradicts actual location with fence and trees."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes snowmobiles, not inflatable slide structure."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Identifies two people present, though activity is incorrect."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "One rider, wearing a helmet",
+      "rationale": "Describes helmet, not red hat; contradicts answer key."
+    }
+  ]
+}

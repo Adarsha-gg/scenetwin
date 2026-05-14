@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "One cat is lying on the ground as another looks around.",
+      "rationale": "Describes cat lying and another cat present, but 'looks around' is vague; doesn't clearly indicate watching."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No setting information provided; fails to mention lighting or floor type."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No objects mentioned; does not address television or table."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "One cat is lying on the ground",
+      "rationale": "Confirms cat lying down but doesn't specify 'on its back' position."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Does not address presence or absence of on-screen text."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "An orange cat stands over a black and white cat that is lying down",
+      "rationale": "Describes interaction but 'stands over' and 'swatting' differs from 'sitting and watching'."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a dimly lit living room... on a hardwood floor",
+      "rationale": "Directly states dimly lit room and hardwood floor."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Mentions cats and floor but no television or table."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a black and white cat that is lying down",
+      "rationale": "Confirms lying down but does not specify 'on its back' position."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Does not address presence or absence of on-screen text."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes snowmobiles and people, not cats; completely wrong scene."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes snowy landscape, not dimly lit room with wooden floors."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No television or table mentioned; describes snowmobiles instead."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No cats present in description; contradicts answer key."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes completely different scene; does not address text."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes people conversating and cats relaxing; doesn't match 'cat sitting and watching another cat'."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "hardwood floor",
+      "rationale": "Mentions hardwood floor but omits 'dimly lit' lighting condition."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No television or table mentioned; focuses on people and cats."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes cats 'relaxing' and being massaged; doesn't specify 'lying on back'."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Does not address presence or absence of on-screen text."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing, not cooking with utensils and pan."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing course, not food in pan."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes snowy hill, not kitchen countertop."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skier, not children in kitchen."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing poles, not kitchen equipment."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "making scrambled eggs on the stove",
+      "rationale": "Names cooking action but not spatula or pan type explicitly."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "scrambled eggs",
+      "rationale": "Describes eggs, not diced vegetables/potatoes in answer key."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on the stove",
+      "rationale": "Implies kitchen but lacks countertop/counter surface detail."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Only mentions one girl, not two children."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of specific equipment like skillet, plate, or container."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "cooking eggs in a frying pan",
+      "rationale": "Names cooking and pan but not spatula or stirring action explicitly."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "eggs",
+      "rationale": "Describes eggs, contradicts answer key of diced vegetables/potatoes."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "",
+      "rationale": "Implies kitchen setting but lacks explicit countertop or location detail."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Only mentions one girl, not two children."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of specific equipment or containers."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "stirring scrambled eggs in a frying pan with a spatula",
+      "rationale": "Names stirring, spatula, and pan but describes eggs not vegetables."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "scrambled eggs",
+      "rationale": "Describes eggs, contradicts answer key of diced vegetables/potatoes."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a cozy kitchen...granite countertop",
+      "rationale": "Explicitly states kitchen with granite countertop and wooden cabinets."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a young girl",
+      "rationale": "Only mentions one girl, not two children as required."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "frying pan with a spatula...granite countertop",
+      "rationale": "Names frying pan and spatula but misses white plate and blue container."
+    }
+  ]
+}

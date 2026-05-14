@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 45,
+      "completeness": 25,
+      "specificity": 20,
+      "concision": 90,
+      "listener_utility": 30,
+      "overall": 42,
+      "rationale": "Partially accurate but severely incomplete. Correctly identifies cats and basic positioning, but misses the setting (staircase, wooden floor, indoor home), multiple cats (appears to be 4+), and specific interactions. Too vague to be useful for understanding the scene."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 70,
+      "completeness": 75,
+      "specificity": 80,
+      "concision": 75,
+      "listener_utility": 75,
+      "overall": 75,
+      "rationale": "Good accuracy and specificity. Correctly identifies cats, hardwood floor, and interaction (swatting). Mentions dimly lit room and background audio. Minor issues: doesn't clearly mention the staircase/railing visible in frames, and the exact number of cats could be clearer. Overall helpful and detailed without excessive filler."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Complete hallucination. Describes snowmobiles, snow, people, and helmets—none of which appear in the video. This is an indoor scene with cats, not an outdoor winter scene. Entirely inaccurate and misleading."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 20,
+      "completeness": 40,
+      "specificity": 30,
+      "concision": 70,
+      "listener_utility": 25,
+      "overall": 37,
+      "rationale": "Significant hallucinations: no visible people or conversation in frames. Correctly identifies cats and hardwood floor, but invents human interaction. The mention of someone massaging a cat's head is not clearly visible in the frames. Misleading and inaccurate despite some correct elements."
+    }
+  ]
+}

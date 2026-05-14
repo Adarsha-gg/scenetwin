@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier navigates a snowy hill",
+      "rationale": "Describes skiing, not cooking. Completely off-topic."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier navigates a snowy hill",
+      "rationale": "Describes skiing, not pouring liquid. Completely off-topic."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a snowy hill",
+      "rationale": "Describes outdoor ski slope, not kitchen. Contradicts answer key."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "flexible poles in a slalom course",
+      "rationale": "Describes ski poles, not cooking equipment. Completely off-topic."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of oil or branded products. Completely off-topic."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A man is holding a frying pan with food",
+      "rationale": "Mentions food in pan but doesn't specify omelet or peppers."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of liquid being poured or oil bottle."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "over a stove",
+      "rationale": "Mentions stove but lacks kitchen context and counter details."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "holding a frying pan",
+      "rationale": "Mentions one pan but doesn't specify two skillets or stovetop setup."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of branded oil or labeled bottle."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "stirring food in a cast iron skillet",
+      "rationale": "Mentions food but doesn't specify omelet or red peppers."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of liquid being poured or oil bottle."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No kitchen context, counter, or appliances mentioned."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "cast iron skillet",
+      "rationale": "Mentions one skillet but doesn't specify two pans or stovetop."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of branded oil or labeled bottle."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "cook an omelette with spaghetti and eggs",
+      "rationale": "Mentions omelet and eggs but says spaghetti, not red peppers."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of liquid being poured or oil bottle."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man in a grey shirt stands at a stove",
+      "rationale": "Clearly establishes kitchen setting with stove."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "black cast iron skillet",
+      "rationale": "Specifies black skillet on stove; implies stovetop setup."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of branded oil or labeled bottle."
+    }
+  ]
+}

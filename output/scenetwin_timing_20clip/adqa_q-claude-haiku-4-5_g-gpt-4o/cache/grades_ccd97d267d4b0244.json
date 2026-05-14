@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef holds a cherry tomato",
+      "rationale": "Describes a kitchen scene."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "bustling kitchen",
+      "rationale": "Describes a kitchen, not a lab."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "empty",
+      "rationale": "No mention of a wooden board."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef",
+      "rationale": "Describes a chef, not a bald man."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "showcasing his skill",
+      "rationale": "Describes throwing a knife."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "skier navigates a snowy hill",
+      "rationale": "Describes skiing, not holding an insect."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "slalom course",
+      "rationale": "Describes a ski slope, not a lab."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "empty",
+      "rationale": "No mention of a wooden board."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "skier",
+      "rationale": "Describes a skier, not a bald man."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "navigates a snowy hill",
+      "rationale": "Describes skiing, not gesturing."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "pins a cherry tomato",
+      "rationale": "Describes a tomato, not an insect."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "empty",
+      "rationale": "No setting described."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "empty",
+      "rationale": "No mention of a wooden board."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "empty",
+      "rationale": "No description of appearance."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "pins a cherry tomato",
+      "rationale": "Describes throwing a knife."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef in a kitchen",
+      "rationale": "Describes a kitchen scene."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "kitchen",
+      "rationale": "Describes a kitchen, not a lab."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "empty",
+      "rationale": "No mention of a wooden board."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef",
+      "rationale": "Describes a chef, not a bald man."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "throwing a knife",
+      "rationale": "Describes throwing a knife."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Describes snowmobiles and snow, not exercising/stretching near fence."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy landscape",
+      "rationale": "Describes snow terrain, not farm/ranch with wooden fences."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "helmet",
+      "rationale": "Mentions helmet only; no green shirt, shorts, or shoes described."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snow-covered terrain",
+      "rationale": "No mention of logs, branches, or wooden debris."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No fencing described; entirely different setting."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A guy has a small deer follow him alongside a fence",
+      "rationale": "Names man and fence but describes following deer, not stretching/exercising."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "alongside a fence",
+      "rationale": "Mentions fence but no detail on farm setting, grass, or structures."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing details provided."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of logs, branches, or wooden debris."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "alongside a fence",
+      "rationale": "Mentions fence but no type specification (wooden vs chain-link)."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A guy with green top and navy bottom is playing with a deer",
+      "rationale": "Names man and green shirt but describes playing with deer, not stretching."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "fenced up to other side of the fence",
+      "rationale": "Mentions fence but unclear setting; no farm/ranch/grass details."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "green top and navy bottom",
+      "rationale": "Directly states green shirt and navy shorts."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of logs, branches, or wooden debris."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "fenced",
+      "rationale": "Mentions fence but no type specification."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "man in a green shirt and navy shorts walks back and forth along a fence",
+      "rationale": "Names man, green shirt, fence but describes walking/playing, not stretching."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a zoo or animal enclosure, with the man playfully engaging",
+      "rationale": "Mentions fence and setting but describes zoo, not farm/ranch/pasture."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "man in a green shirt and navy shorts",
+      "rationale": "Directly states green shirt and navy shorts."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of logs, branches, or wooden debris."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "along a fence",
+      "rationale": "Mentions fence but no type specification (wooden vs chain-link)."
+    }
+  ]
+}

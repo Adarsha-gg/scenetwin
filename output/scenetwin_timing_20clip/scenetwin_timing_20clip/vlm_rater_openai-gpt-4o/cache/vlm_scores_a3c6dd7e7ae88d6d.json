@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 80,
+      "completeness": 70,
+      "specificity": 70,
+      "concision": 90,
+      "listener_utility": 75,
+      "overall": 77,
+      "rationale": "Accurately describes the main action and objects, but lacks detail about the setting and specifics of the sled."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 85,
+      "completeness": 80,
+      "specificity": 75,
+      "concision": 85,
+      "listener_utility": 80,
+      "overall": 81,
+      "rationale": "Provides a clear description of the action and setting, with a slight addition of the sled grinding to a halt."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 90,
+      "completeness": 90,
+      "specificity": 85,
+      "concision": 80,
+      "listener_utility": 85,
+      "overall": 86,
+      "rationale": "Detailed and accurate description, including the color of the sled and the connection by a wire, enhancing listener understanding."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely inaccurate; describes a different scene not present in the images."
+    }
+  ]
+}

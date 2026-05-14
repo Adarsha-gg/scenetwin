@@ -1,0 +1,60 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity are the people playing?",
+      "answer_key": "Badminton or volleyball",
+      "required_visual_evidence": [
+        "net dividing the court",
+        "players in ready positions",
+        "ball in flight"
+      ],
+      "importance": "critical",
+      "rationale": "Main activity visible across multiple frames with clear net setup"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of surface is the playing area made of?",
+      "answer_key": "Red or reddish-brown dirt or clay court",
+      "required_visual_evidence": [
+        "ground surface",
+        "consistent color throughout frames"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive surface visible in all frames, affects gameplay context"
+    },
+    {
+      "q_idx": 2,
+      "question": "What structures or barriers are visible around the playing area?",
+      "answer_key": "Green fencing and metal net divider",
+      "required_visual_evidence": [
+        "green fence in background",
+        "net in center of court"
+      ],
+      "importance": "useful",
+      "rationale": "Key environmental features defining the court boundaries"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many players are actively visible on the court?",
+      "answer_key": "Three to four players",
+      "required_visual_evidence": [
+        "multiple people in different positions",
+        "consistent across frames"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener understand game setup and team configuration"
+    },
+    {
+      "q_idx": 4,
+      "question": "What natural features are present in the setting?",
+      "answer_key": "Large trees providing shade",
+      "required_visual_evidence": [
+        "prominent tree canopy",
+        "visible in multiple frames"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes outdoor recreational facility context"
+    }
+  ]
+}

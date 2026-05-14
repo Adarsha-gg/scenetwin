@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "rides on a horse",
+      "rationale": "Fenced area not mentioned."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Setting not described."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "rides on a horse",
+      "rationale": "Horse interaction clear."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Background not described."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Clothing not mentioned."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "rides a horse in a fenced paddock",
+      "rationale": "Main action and setting clear."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "near a stable",
+      "rationale": "Stable setting mentioned."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "rides a horse",
+      "rationale": "Horse interaction clear."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "near a stable",
+      "rationale": "Stable mentioned, not additional buildings."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "pink cap and casual attire",
+      "rationale": "Clothing described."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "riding a horse in a paddock",
+      "rationale": "Main action and setting clear."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "in a paddock",
+      "rationale": "Paddock mentioned, not stable."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "riding a horse",
+      "rationale": "Horse interaction clear."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Background not described."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Clothing not mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Different scenario described."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Different setting described."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No horse interaction."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Different background described."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Different clothing described."
+    }
+  ]
+}

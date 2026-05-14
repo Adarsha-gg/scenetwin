@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man is playing the sport curling",
+      "rationale": "Mentions curling explicitly."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "pushing the object across the ice",
+      "rationale": "Mentions pushing but not sliding."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on the ice",
+      "rationale": "Mentions ice but not indoor rink."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "pushing the object",
+      "rationale": "Object is not specified as stone."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "other people stand around",
+      "rationale": "Mentions others present."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen",
+      "rationale": "Describes a kitchen, not curling."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef holds a cherry tomato",
+      "rationale": "Describes cooking, not curling."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen",
+      "rationale": "Describes a kitchen, not a rink."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "throws the tomato",
+      "rationale": "No mention of curling stone."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef smiles",
+      "rationale": "No mention of other people."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "pushing a curling block",
+      "rationale": "Mentions curling block."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "walks on the ice pushing",
+      "rationale": "Mentions pushing, not sliding."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on the ice",
+      "rationale": "Mentions ice but not indoor rink."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "pushing a curling block",
+      "rationale": "Mentions curling block."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of other people."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "indoor curling rink",
+      "rationale": "Mentions curling rink."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "slides a curling stone",
+      "rationale": "Describes sliding and releasing."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "indoor curling rink",
+      "rationale": "Mentions indoor rink."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "slides a curling stone",
+      "rationale": "Mentions curling stone."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "small group of onlookers",
+      "rationale": "Mentions onlookers."
+    }
+  ]
+}

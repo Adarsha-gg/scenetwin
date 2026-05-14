@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Riding a snowmobile.",
+      "required_visual_evidence": [
+        "person on snowmobile",
+        "snowy terrain"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of terrain is the scene set in?",
+      "answer_key": "Snow-covered landscape.",
+      "required_visual_evidence": [
+        "snow on ground",
+        "snow on trees"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the setting."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main object being used?",
+      "answer_key": "Snowmobile.",
+      "required_visual_evidence": [
+        "snowmobile",
+        "person operating snowmobile"
+      ],
+      "importance": "critical",
+      "rationale": "Key object in the scene."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on the snowmobile?",
+      "answer_key": "Crossfire text.",
+      "required_visual_evidence": [
+        "text on snowmobile"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the snowmobile model."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the weather condition in the scene?",
+      "answer_key": "Clear and sunny.",
+      "required_visual_evidence": [
+        "clear sky",
+        "sunlight on snow"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the setting."
+    }
+  ]
+}

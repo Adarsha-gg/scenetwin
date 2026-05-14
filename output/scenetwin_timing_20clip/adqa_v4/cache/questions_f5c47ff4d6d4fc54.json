@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Skiing down a slope.",
+      "required_visual_evidence": [
+        "subject skiing",
+        "movement down slope"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A snowy ski slope at night.",
+      "required_visual_evidence": [
+        "snowy slope",
+        "nighttime lighting"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the location and time."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key objects are involved in the scene?",
+      "answer_key": "Ski poles and skis.",
+      "required_visual_evidence": [
+        "ski poles",
+        "skis"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies important equipment."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the background?",
+      "answer_key": "Lights and distant trees.",
+      "required_visual_evidence": [
+        "lights",
+        "trees"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the setting."
+    },
+    {
+      "q_idx": 4,
+      "question": "Is there any visible on-screen text?",
+      "answer_key": "No visible on-screen text.",
+      "required_visual_evidence": [
+        "absence of text"
+      ],
+      "importance": "useful",
+      "rationale": "Confirms lack of text information."
+    }
+  ]
+}

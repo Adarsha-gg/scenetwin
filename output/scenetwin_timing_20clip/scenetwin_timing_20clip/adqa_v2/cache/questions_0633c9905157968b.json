@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is being played on the marked surface?",
+      "answer_key": "Curling",
+      "required_visual_evidence": [
+        "circular target with red center and white rings",
+        "player in sliding position",
+        "curling stone on ice"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the sport and primary activity shown in all frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the player's body position during the delivery in the first frame.",
+      "answer_key": "The player is in a low, extended sliding position with one leg stretched back",
+      "required_visual_evidence": [
+        "player bent forward",
+        "extended leg position",
+        "sliding on ice"
+      ],
+      "importance": "critical",
+      "rationale": "Key curling technique visible; essential for understanding the sport's mechanics"
+    },
+    {
+      "q_idx": 2,
+      "question": "What color is the center of the target visible on the ice?",
+      "answer_key": "Red",
+      "required_visual_evidence": [
+        "circular target",
+        "red center circle",
+        "white outer rings",
+        "blue outer ring"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the curling house design and visual layout of the playing surface"
+    }
+  ]
+}

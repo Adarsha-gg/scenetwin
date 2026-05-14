@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 45,
+      "completeness": 70,
+      "specificity": 75,
+      "concision": 70,
+      "listener_utility": 65,
+      "overall": 65,
+      "rationale": "Describes the main action (throwing knife at tomato on wall) and setting (kitchen) with reasonable specificity. However, hallucination: no evidence of Spanish countdown or the chef throwing the tomato first—the frames show him holding a tomato and then a knife being thrown. The sequence and some details are inaccurate."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Complete hallucination. Describes skiing and a slalom course with no connection to the actual frames showing a man in a kitchen with a tomato and knife. Entirely inaccurate and misleading."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 70,
+      "completeness": 65,
+      "specificity": 60,
+      "concision": 85,
+      "listener_utility": 70,
+      "overall": 70,
+      "rationale": "Accurately identifies the main action (knife pinning tomato to wall) and mentions Spanish countdown. Correctly notes two people and the kitchen setting. Concise and useful. Minor issue: doesn't clearly establish that this is a demonstration/skill showcase, and 'the man holding the camera' is somewhat ambiguous for audio description purposes."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 85,
+      "completeness": 40,
+      "specificity": 35,
+      "concision": 95,
+      "listener_utility": 35,
+      "overall": 45,
+      "rationale": "Accurate but severely incomplete. Identifies the chef, kitchen, and knife-throwing action, but omits the tomato, the wall, the second person, and the Spanish countdown. Too vague and generic for effective audio description; lacks critical details needed for listener understanding."
+    }
+  ]
+}

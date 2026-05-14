@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main action being performed with the greens in the bowl?",
+      "answer_key": "Tossing or mixing leafy greens in a wooden bowl",
+      "required_visual_evidence": [
+        "hands tossing greens",
+        "wooden bowl",
+        "leafy vegetables"
+      ],
+      "importance": "critical",
+      "rationale": "Core action that defines the entire clip and cooking activity shown."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of container is being used to hold the food?",
+      "answer_key": "A large wooden bowl with handles",
+      "required_visual_evidence": [
+        "wooden bowl",
+        "handles on sides",
+        "large size"
+      ],
+      "importance": "critical",
+      "rationale": "Essential setting detail that frames the entire cooking preparation scene."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the primary ingredient visible in the bowl?",
+      "answer_key": "Fresh leafy greens, appearing to be salad greens or lettuce",
+      "required_visual_evidence": [
+        "green leaves",
+        "fresh appearance",
+        "mixed varieties"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the main food item being prepared for viewer context."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many hands are visible performing the action?",
+      "answer_key": "Two hands belonging to one person",
+      "required_visual_evidence": [
+        "two hands",
+        "same person",
+        "tossing motion"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies that a single person is performing the food preparation task."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the work surface beside the bowl?",
+      "answer_key": "A wooden cutting board with what appears to be white cheese or dairy product",
+      "required_visual_evidence": [
+        "wooden cutting board",
+        "white ingredient",
+        "beside bowl"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates additional ingredients prepared for the cooking process."
+    }
+  ]
+}

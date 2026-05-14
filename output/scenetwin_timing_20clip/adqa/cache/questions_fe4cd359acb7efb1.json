@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What object does the chef throw at the wall, and what happens to it?",
+      "answer_key": "The chef throws a cherry tomato at the wall, and a knife pins it in place.",
+      "required_visual_evidence": [
+        "cherry tomato",
+        "throws at wall",
+        "knife pins tomato"
+      ],
+      "importance": "critical",
+      "rationale": "Core action sequence central to the clip's narrative."
+    },
+    {
+      "q_idx": 1,
+      "question": "What language does the chef use when counting down before throwing?",
+      "answer_key": "Spanish",
+      "required_visual_evidence": [
+        "counts down",
+        "Spanish"
+      ],
+      "importance": "useful",
+      "rationale": "Adds cultural context and auditory detail to the scene."
+    },
+    {
+      "q_idx": 2,
+      "question": "What does the chef's facial expression convey after the tomato is pinned?",
+      "answer_key": "The chef smiles, showcasing his skill and confidence.",
+      "required_visual_evidence": [
+        "smiles",
+        "skill",
+        "precision"
+      ],
+      "importance": "useful",
+      "rationale": "Reveals character emotion and attitude toward the demonstration."
+    }
+  ]
+}

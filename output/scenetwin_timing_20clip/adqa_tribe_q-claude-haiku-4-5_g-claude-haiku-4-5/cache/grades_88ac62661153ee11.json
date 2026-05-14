@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "plays a game of volleyball",
+      "rationale": "Directly states volleyball activity."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of court surface or surroundings."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Does not specify number of players visible."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of player clothing colors."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of background structures or infrastructure."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "playing Volley Ball",
+      "rationale": "Directly identifies volleyball activity."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of court surface or surroundings."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Does not specify number of players."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of clothing colors."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of background structures."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "playing volleyball on an outdoor dirt court",
+      "rationale": "Directly states volleyball activity and setting."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "outdoor dirt court",
+      "rationale": "Mentions dirt court but omits tree, fence, grass details."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "One boy serves the ball, and another jumps to spike it",
+      "rationale": "Implies multiple players but doesn't specify count of four."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "wearing shorts",
+      "rationale": "Mentions shorts but omits specific shirt colors (blue, striped)."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of fence, green structure, or trees."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes kitchen scene, not volleyball."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes kitchen, contradicts outdoor volleyball court."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes chef, not volleyball players."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes chef, not player clothing."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes kitchen wall, not volleyball court infrastructure."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 80,
+      "completeness": 70,
+      "specificity": 70,
+      "concision": 80,
+      "listener_utility": 75,
+      "overall": 75,
+      "rationale": "Accurately describes the man eating and drinking at Burger King, but lacks detail about the writing on the tray liner."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 50,
+      "completeness": 40,
+      "specificity": 40,
+      "concision": 70,
+      "listener_utility": 50,
+      "overall": 50,
+      "rationale": "Mentions eating and feeling sick, but lacks detail and accuracy about the setting and actions."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely unrelated to the images provided."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 90,
+      "completeness": 90,
+      "specificity": 90,
+      "concision": 80,
+      "listener_utility": 90,
+      "overall": 88,
+      "rationale": "Provides a detailed and accurate description of the scene, including the setting, actions, and writing on the tray liner."
+    }
+  ]
+}

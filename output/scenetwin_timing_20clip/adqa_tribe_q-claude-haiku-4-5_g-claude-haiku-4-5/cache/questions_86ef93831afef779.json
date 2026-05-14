@@ -1,0 +1,61 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person doing in the snow, and what equipment are they using?",
+      "answer_key": "Person is skiing or snowboarding down a snowy slope with visible skis or board.",
+      "required_visual_evidence": [
+        "skis or snowboard",
+        "downward motion",
+        "snow-covered terrain"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window 14.9–16.4s: core action defining the entire clip activity."
+    },
+    {
+      "q_idx": 1,
+      "question": "What color is the main equipment visible in the frames?",
+      "answer_key": "Blue skis or snowboard visible against white snow.",
+      "required_visual_evidence": [
+        "blue equipment",
+        "snow background"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener visualize the contrast and identify the equipment clearly."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or terrain where this activity is taking place?",
+      "answer_key": "A snowy mountain slope or ski run covered in white snow.",
+      "required_visual_evidence": [
+        "snow-covered slope",
+        "winter terrain"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window 11.9–14.9s: establishes location context essential for understanding scene."
+    },
+    {
+      "q_idx": 3,
+      "question": "What visual pattern or marks are visible on the snow surface?",
+      "answer_key": "Tracks or lines visible in the snow from skiing/snowboarding movement.",
+      "required_visual_evidence": [
+        "snow tracks",
+        "linear patterns"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates motion and terrain texture; helps blind listener understand slope conditions."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the perspective or camera angle showing in these frames?",
+      "answer_key": "First-person or close overhead view of skier/snowboarder moving down slope.",
+      "required_visual_evidence": [
+        "downward angle",
+        "equipment in foreground",
+        "slope ahead"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window 8.9–11.9s: perspective is essential for spatial understanding of action."
+    }
+  ]
+}

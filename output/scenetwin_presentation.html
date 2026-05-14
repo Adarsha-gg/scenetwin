@@ -1,0 +1,677 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SceneTwin Presentation</title>
+  <style>
+    :root {
+      --ink: #121212;
+      --muted: #555b60;
+      --paper: #f7f7f4;
+      --panel: #ffffff;
+      --line: #d7d7d2;
+      --red: #d83b32;
+      --green: #168557;
+      --teal: #007f8f;
+      --yellow: #f2c94c;
+      --black: #050505;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: var(--paper);
+      overflow: hidden;
+    }
+
+    .deck {
+      height: 100vh;
+      width: 100vw;
+      position: relative;
+    }
+
+    .slide {
+      display: none;
+      min-height: 100vh;
+      padding: 5vh 6vw 7vh;
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(90deg, rgba(216, 59, 50, 0.08), transparent 22%),
+        var(--paper);
+    }
+
+    .slide.active {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 24px;
+    }
+
+    .eyebrow {
+      color: var(--teal);
+      font-size: clamp(12px, 1.1vw, 16px);
+      font-weight: 800;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    h1, h2 {
+      margin: 0;
+      letter-spacing: 0;
+      line-height: 1.02;
+    }
+
+    h1 {
+      font-size: clamp(48px, 8vw, 112px);
+      max-width: 1100px;
+    }
+
+    h2 {
+      font-size: clamp(38px, 5.6vw, 80px);
+      max-width: 1150px;
+    }
+
+    p {
+      font-size: clamp(20px, 2.1vw, 34px);
+      line-height: 1.28;
+      margin: 0;
+      max-width: 1050px;
+    }
+
+    .lead {
+      font-size: clamp(26px, 3vw, 46px);
+      line-height: 1.18;
+      font-weight: 750;
+    }
+
+    .sublead {
+      color: var(--muted);
+      font-size: clamp(18px, 1.75vw, 28px);
+      margin-top: 20px;
+      max-width: 960px;
+    }
+
+    .content {
+      align-self: center;
+      display: grid;
+      gap: 26px;
+      width: 100%;
+    }
+
+    .two {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 32px;
+      align-items: center;
+    }
+
+    .three {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+      align-items: stretch;
+    }
+
+    .band {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-left: 8px solid var(--teal);
+      border-radius: 8px;
+      padding: 26px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+    }
+
+    .band.red {
+      border-left-color: var(--red);
+    }
+
+    .band.green {
+      border-left-color: var(--green);
+    }
+
+    .band.yellow {
+      border-left-color: var(--yellow);
+    }
+
+    .band h3 {
+      margin: 0 0 12px;
+      font-size: clamp(20px, 2vw, 34px);
+      letter-spacing: 0;
+    }
+
+    .band p,
+    .band li {
+      font-size: clamp(18px, 1.45vw, 25px);
+      line-height: 1.32;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 1.2em;
+    }
+
+    li {
+      margin: 0.45em 0;
+      font-size: clamp(20px, 2vw, 32px);
+      line-height: 1.24;
+    }
+
+    .quote {
+      font-size: clamp(30px, 4vw, 64px);
+      font-weight: 850;
+      line-height: 1.08;
+      max-width: 1150px;
+      border-left: 10px solid var(--red);
+      padding-left: 28px;
+    }
+
+    .formula {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      background: var(--black);
+      color: #f9f9f4;
+      border-radius: 8px;
+      padding: 22px 24px;
+      font-size: clamp(20px, 2vw, 34px);
+      line-height: 1.45;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      overflow: hidden;
+      font-size: clamp(16px, 1.5vw, 26px);
+    }
+
+    th, td {
+      padding: 15px 18px;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+    }
+
+    th {
+      background: #111111;
+      color: white;
+      font-weight: 800;
+    }
+
+    tr:last-child td {
+      border-bottom: 0;
+    }
+
+    .bad {
+      color: var(--red);
+      font-weight: 850;
+    }
+
+    .good {
+      color: var(--green);
+      font-weight: 850;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 8px 12px;
+      border-radius: 8px;
+      background: #111;
+      color: #fff;
+      font-size: clamp(14px, 1.2vw, 18px);
+      font-weight: 800;
+    }
+
+    .image-frame {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 12px;
+      box-shadow: 0 10px 28px rgba(0, 0, 0, 0.08);
+    }
+
+    .image-frame img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    .image-row {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+      align-items: center;
+    }
+
+    .caption {
+      margin-top: 10px;
+      color: var(--muted);
+      font-size: clamp(14px, 1.1vw, 20px);
+      line-height: 1.25;
+    }
+
+    .nav {
+      position: fixed;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 52px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 18px;
+      background: rgba(247, 247, 244, 0.92);
+      border-top: 1px solid var(--line);
+      backdrop-filter: blur(8px);
+      z-index: 10;
+    }
+
+    .nav button {
+      border: 1px solid var(--ink);
+      background: var(--panel);
+      color: var(--ink);
+      border-radius: 8px;
+      padding: 8px 14px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .nav button:hover {
+      background: var(--ink);
+      color: #fff;
+    }
+
+    .progress-wrap {
+      flex: 1;
+      height: 8px;
+      margin: 0 16px;
+      background: #dfdfd8;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .progress {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, var(--red), var(--teal), var(--green));
+    }
+
+    .counter {
+      font-weight: 850;
+      min-width: 72px;
+      text-align: right;
+    }
+
+    .small {
+      font-size: clamp(16px, 1.4vw, 24px);
+      color: var(--muted);
+    }
+
+    @media (max-width: 800px) {
+      .slide {
+        padding: 4vh 5vw 8vh;
+        overflow-y: auto;
+      }
+
+      .two,
+      .three,
+      .image-row {
+        grid-template-columns: 1fr;
+      }
+
+      body {
+        overflow: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="deck" aria-live="polite">
+    <section class="slide active">
+      <header>
+        <div class="eyebrow">NJBDA 2026 • Accessible AI</div>
+        <h1>SceneTwin</h1>
+      </header>
+      <div class="content">
+        <p class="lead">A scoring system for AI-generated audio descriptions of video.</p>
+        <p class="sublead">TRIBE v2 checks predicted cortical alignment. CLIP checks visual grounding. Together, they catch vague and hallucinated descriptions.</p>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">The Problem</div>
+        <h2>Fluent descriptions can still be wrong.</h2>
+      </header>
+      <div class="content two">
+        <div>
+          <p>Blind and low-vision users rely on audio descriptions to access visual video content.</p>
+          <p class="sublead">As AI generates these descriptions at scale, the risk is not just bad writing. The risk is a confident description of the wrong scene.</p>
+        </div>
+        <div class="band red">
+          <h3>Failure modes</h3>
+          <ul>
+            <li>Too vague</li>
+            <li>Missing key action</li>
+            <li>Too much detail</li>
+            <li>Fluent but hallucinated</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">Core Question</div>
+        <h2>Did the description preserve the scene?</h2>
+      </header>
+      <div class="content">
+        <div class="quote">Accessibility is not just adding words to video. It is preserving the experience across senses.</div>
+        <p class="sublead">SceneTwin treats audio-description quality as a cross-modal alignment problem.</p>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">Method</div>
+        <h2>Two signals, one score.</h2>
+      </header>
+      <div class="content three">
+        <div class="band">
+          <h3>1. TRIBE v2</h3>
+          <p>Predicts fMRI-like cortical response maps for video, audio, and text.</p>
+        </div>
+        <div class="band green">
+          <h3>2. CLIP</h3>
+          <p>Checks whether the description is visually grounded in sampled video frames.</p>
+        </div>
+        <div class="band yellow">
+          <h3>3. SceneTwin</h3>
+          <p>Rewards descriptions that are both rich and faithful to the actual scene.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">Scoring</div>
+        <h2>The current metric</h2>
+      </header>
+      <div class="content">
+        <div class="formula">BrainAlignment(v, d) = cosine(TRIBE_video(v), TRIBE_description(d))
+
+VisualGrounding(v, d) = CLIP(video_frames(v), description(d))
+
+SceneTwinScore(v, d) = normalized(BrainAlignment) × normalized(VisualGrounding)</div>
+        <p class="small">A description must pass both tests: it must evoke a rich cross-modal response and actually match the scene.</p>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">Proof Of Concept</div>
+        <h2>One clip, four descriptions.</h2>
+      </header>
+      <div class="content two">
+        <div>
+          <ul>
+            <li>Video: first 30 seconds of the open Sintel clip</li>
+            <li>TRIBE output: <span class="pill">30 × 20,484</span></li>
+            <li>Descriptions: accurate concise, accurate detailed, vague, hallucinated</li>
+          </ul>
+        </div>
+        <div class="image-frame">
+          <img src="scenetwin_assets/brain_video.png" alt="TRIBE brain render for video" />
+          <div class="caption">TRIBE predicted cortical response for the video clip.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">First Result</div>
+        <h2>TRIBE alone got fooled.</h2>
+      </header>
+      <div class="content two">
+        <table>
+          <thead>
+            <tr><th>Description</th><th>TRIBE score</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>accurate concise</td><td>0.7446</td></tr>
+            <tr><td>accurate detailed</td><td>0.7602</td></tr>
+            <tr><td>bad vague</td><td>0.3850</td></tr>
+            <tr><td>hallucinated beach scene</td><td class="bad">0.7908</td></tr>
+          </tbody>
+        </table>
+        <div class="band red">
+          <h3>Finding</h3>
+          <p>TRIBE-only scoring detects descriptive richness, but vivid hallucinations can still score high.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">Fix</div>
+        <h2>CLIP caught the hallucination.</h2>
+      </header>
+      <div class="content two">
+        <table>
+          <thead>
+            <tr><th>Description</th><th>CLIP grounding</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>accurate concise</td><td>0.2525</td></tr>
+            <tr><td>accurate detailed</td><td class="good">0.2931</td></tr>
+            <tr><td>bad vague</td><td>0.2335</td></tr>
+            <tr><td>hallucinated beach scene</td><td class="bad">0.1737</td></tr>
+          </tbody>
+        </table>
+        <div class="band green">
+          <h3>Why it matters</h3>
+          <p>CLIP checks whether the words actually match the frames. The tropical beach hallucination does not match the snowy scene.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">Corrected Result</div>
+        <h2>SceneTwin ranks correctly.</h2>
+      </header>
+      <div class="content two">
+        <table>
+          <thead>
+            <tr><th>Description</th><th>Final score</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>accurate detailed</td><td class="good">0.9245</td></tr>
+            <tr><td>accurate concise</td><td>0.5847</td></tr>
+            <tr><td>bad vague</td><td>0.0000</td></tr>
+            <tr><td>hallucinated beach scene</td><td class="bad">0.0000</td></tr>
+          </tbody>
+        </table>
+        <div class="image-frame">
+          <img src="scenetwin_assets/scenetwin_barchart.png" alt="Bar chart of SceneTwin scores" />
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">Visual Evidence</div>
+        <h2>Brain-map comparison</h2>
+      </header>
+      <div class="content">
+        <div class="image-row">
+          <div class="image-frame">
+            <img src="scenetwin_assets/brain_video.png" alt="Video brain map" />
+            <div class="caption">Original video</div>
+          </div>
+          <div class="image-frame">
+            <img src="scenetwin_assets/brain_accurate_detailed.png" alt="Accurate detailed description brain map" />
+            <div class="caption">Accurate detailed description</div>
+          </div>
+          <div class="image-frame">
+            <img src="scenetwin_assets/brain_hallucinated.png" alt="Hallucinated description brain map" />
+            <div class="caption">Vivid hallucinated description</div>
+          </div>
+        </div>
+        <p class="small">These are current proof-of-concept renders. Poster version should use cleaner single-brain renders.</p>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">What We Can Claim</div>
+        <h2>Working prototype, not overclaiming.</h2>
+      </header>
+      <div class="content two">
+        <div class="band green">
+          <h3>We can say</h3>
+          <p>TRIBE predicts partially overlapping response patterns for videos and rich descriptions, and CLIP grounding catches scene mismatch.</p>
+        </div>
+        <div class="band red">
+          <h3>We should not say</h3>
+          <p>SceneTwin measures actual blind-user experience or proves video and description produce identical brain activity.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">Stronger Next Metric</div>
+        <h2>Account for original movie sound.</h2>
+      </header>
+      <div class="content">
+        <p>A real audio description is added on top of the original soundtrack, not used alone.</p>
+        <div class="formula">AV = original video + original audio
+A  = original audio only
+AD = original audio + description
+
+Description Gain = cosine(TRIBE_AV, TRIBE_AD) - cosine(TRIBE_AV, TRIBE_A)</div>
+        <p class="small">This asks how much missing visual information the description restores beyond the original audio.</p>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">Scientific Anchor</div>
+        <h2>101 Dalmatians fMRI dataset</h2>
+      </header>
+      <div class="content two">
+        <div>
+          <p>The dataset gives credibility because it studies naturalistic movie perception across sensory conditions.</p>
+        </div>
+        <div class="band">
+          <h3>Why it helps</h3>
+          <ul>
+            <li>Real fMRI movie data</li>
+            <li>Typical, blind, and deaf groups</li>
+            <li>Audio, visual, and audiovisual conditions</li>
+            <li>Annotations and computational features</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">NJBDA Fit</div>
+        <h2>Accessible AI infrastructure</h2>
+      </header>
+      <div class="content three">
+        <div class="band"><h3>People</h3><p>Blind and low-vision users.</p></div>
+        <div class="band"><h3>Data</h3><p>Video, audio, text, embeddings, cortical maps.</p></div>
+        <div class="band"><h3>Ethics</h3><p>Prevent fluent but wrong accessibility content.</p></div>
+      </div>
+      <p class="sublead">SceneTwin is a pre-screening layer for AI-generated descriptions before human accessibility review.</p>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">Next Work</div>
+        <h2>What happens before the poster</h2>
+      </header>
+      <div class="content">
+        <ul>
+          <li>Test real AI-generated descriptions from GPT, Claude, or Gemini.</li>
+          <li>Add baselines: BLEU, ROUGE-L, BERTScore, CLIP-only, TRIBE-only.</li>
+          <li>Run a contrastive matrix across multiple clips.</li>
+          <li>Create poster-quality single-brain renders.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide">
+      <header>
+        <div class="eyebrow">One-Minute Explanation</div>
+        <h2>What I’m doing</h2>
+      </header>
+      <div class="content">
+        <p class="lead">I’m building a quality-control metric for AI-generated audio descriptions. TRIBE checks whether a description evokes a similar predicted cortical response to the video, and CLIP checks whether the description is actually grounded in the frames. In the first test, TRIBE alone was fooled by a vivid hallucination, but the combined SceneTwin score ranked the accurate description highest and the hallucination lowest.</p>
+      </div>
+    </section>
+  </main>
+
+  <nav class="nav" aria-label="Presentation navigation">
+    <button type="button" id="prev">Back</button>
+    <div class="progress-wrap"><div class="progress" id="progress"></div></div>
+    <button type="button" id="next">Next</button>
+    <div class="counter" id="counter">1 / 16</div>
+  </nav>
+
+  <script>
+    const slides = Array.from(document.querySelectorAll(".slide"));
+    const progress = document.getElementById("progress");
+    const counter = document.getElementById("counter");
+    const prev = document.getElementById("prev");
+    const next = document.getElementById("next");
+    let index = 0;
+
+    function showSlide(nextIndex) {
+      index = Math.max(0, Math.min(slides.length - 1, nextIndex));
+      slides.forEach((slide, i) => slide.classList.toggle("active", i === index));
+      const pct = ((index + 1) / slides.length) * 100;
+      progress.style.width = `${pct}%`;
+      counter.textContent = `${index + 1} / ${slides.length}`;
+      prev.disabled = index === 0;
+      next.disabled = index === slides.length - 1;
+    }
+
+    prev.addEventListener("click", () => showSlide(index - 1));
+    next.addEventListener("click", () => showSlide(index + 1));
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key === "ArrowRight" || event.key === " " || event.key === "PageDown") {
+        event.preventDefault();
+        showSlide(index + 1);
+      }
+      if (event.key === "ArrowLeft" || event.key === "PageUp") {
+        event.preventDefault();
+        showSlide(index - 1);
+      }
+      if (event.key === "Home") {
+        event.preventDefault();
+        showSlide(0);
+      }
+      if (event.key === "End") {
+        event.preventDefault();
+        showSlide(slides.length - 1);
+      }
+    });
+
+    showSlide(0);
+  </script>
+</body>
+</html>

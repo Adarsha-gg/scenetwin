@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What activity are the people engaged in?",
+      "answer_key": "Playing volleyball.",
+      "required_visual_evidence": [
+        "volleyball net",
+        "ball being hit"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the activity?",
+      "answer_key": "An outdoor area with trees and buildings.",
+      "required_visual_evidence": [
+        "trees",
+        "buildings"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is used in the activity?",
+      "answer_key": "A volleyball.",
+      "required_visual_evidence": [
+        "ball being hit",
+        "volleyball net"
+      ],
+      "importance": "critical",
+      "rationale": "Essential for understanding the activity."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are visible participating in the activity?",
+      "answer_key": "At least four people.",
+      "required_visual_evidence": [
+        "four people visible",
+        "engaged in play"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates level of participation."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible in the background?",
+      "answer_key": "Trees and a building.",
+      "required_visual_evidence": [
+        "trees",
+        "building"
+      ],
+      "importance": "useful",
+      "rationale": "Adds detail to the setting."
+    }
+  ]
+}

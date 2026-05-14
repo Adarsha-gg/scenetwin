@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What are the two animals doing?",
+      "answer_key": "One cat is sitting, another is lying down.",
+      "required_visual_evidence": [
+        "cat sitting",
+        "cat lying down"
+      ],
+      "importance": "critical",
+      "rationale": "Main action involving the animals."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A living room with a staircase.",
+      "required_visual_evidence": [
+        "living room",
+        "staircase"
+      ],
+      "importance": "critical",
+      "rationale": "Provides context for the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What furniture is visible in the scene?",
+      "answer_key": "A table and a television.",
+      "required_visual_evidence": [
+        "table",
+        "television"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects in the setting."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many animals are visible in the frames?",
+      "answer_key": "Three animals are visible.",
+      "required_visual_evidence": [
+        "three animals"
+      ],
+      "importance": "useful",
+      "rationale": "Gives a count of the main subjects."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the position of the third animal?",
+      "answer_key": "The third animal is sitting in the foreground.",
+      "required_visual_evidence": [
+        "third animal",
+        "foreground"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the position of all animals."
+    }
+  ]
+}

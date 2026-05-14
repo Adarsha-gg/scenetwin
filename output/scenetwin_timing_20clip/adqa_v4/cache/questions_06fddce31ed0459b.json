@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Cooking in a pan on a stove.",
+      "required_visual_evidence": [
+        "holding a pan",
+        "stove visible"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A kitchen with a stove and countertop.",
+      "required_visual_evidence": [
+        "stove",
+        "countertop"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key objects are involved in the cooking?",
+      "answer_key": "A pan, fork, and cooking ingredients.",
+      "required_visual_evidence": [
+        "pan",
+        "fork"
+      ],
+      "importance": "useful",
+      "rationale": "Highlights main objects used."
+    },
+    {
+      "q_idx": 3,
+      "question": "What visible text is on the container?",
+      "answer_key": "Morton Salt.",
+      "required_visual_evidence": [
+        "Morton Salt container"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies on-screen text."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the main subject using to stir the food?",
+      "answer_key": "A fork.",
+      "required_visual_evidence": [
+        "holding a fork"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the tool used."
+    }
+  ]
+}

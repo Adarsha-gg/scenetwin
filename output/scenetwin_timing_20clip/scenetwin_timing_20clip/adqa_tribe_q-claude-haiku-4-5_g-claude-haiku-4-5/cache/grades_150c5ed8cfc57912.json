@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "stirring scrambled eggs in a frying pan with a spatula",
+      "rationale": "Describes spatula, not tongs as shown in answer key."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "stirring scrambled eggs in a frying pan",
+      "rationale": "Directly identifies scrambled eggs in skillet."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "kitchen is warm and inviting, with a granite countertop",
+      "rationale": "Clearly states kitchen setting with granite counter."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of white plate or blue container."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "focused and seems to enjoy the cooking process, occasionally glancing at the camera with a smile",
+      "rationale": "Directly describes smiling, engaged, positive emotional state."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "cooking eggs in a frying pan",
+      "rationale": "Confirms cooking activity but omits tool identification."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "cooking eggs in a frying pan",
+      "rationale": "Identifies eggs in frying pan."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No location or setting details provided."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of counter items."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No emotional state or expression described."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "skier navigates a snowy hill",
+      "rationale": "Describes skiing, completely unrelated to kitchen scene."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "skier navigates a snowy hill",
+      "rationale": "Describes skiing, not food or cooking."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "Describes outdoor skiing, not kitchen."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No counter items mentioned."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skier, not child's emotional state."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "making scrambled eggs on the stove",
+      "rationale": "Confirms cooking activity but omits tool and counter details."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "making scrambled eggs",
+      "rationale": "Directly identifies scrambled eggs."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on the stove",
+      "rationale": "Implies kitchen but lacks granite counter or setting details."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of counter items."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No emotional state or expression described."
+    }
+  ]
+}

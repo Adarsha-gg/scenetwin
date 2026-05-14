@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "plays a game of volleyball",
+      "rationale": "Directly states volleyball activity."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of trees, buildings, or outdoor setting details."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "bouncing the ball",
+      "rationale": "Identifies ball as key object in volleyball."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A man",
+      "rationale": "Only mentions one person; answer requires at least four."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of background elements."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "playing Volley Ball",
+      "rationale": "Directly states volleyball activity."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of setting, trees, or buildings."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "playing Volley Ball",
+      "rationale": "Implies ball but doesn't explicitly describe it."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "Some boys",
+      "rationale": "Indicates multiple people but no specific count."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No background description provided."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "playing volleyball",
+      "rationale": "Directly states volleyball activity."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "outdoor dirt court",
+      "rationale": "Describes outdoor setting but no trees or buildings mentioned."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "One boy serves the ball, and another jumps to spike it",
+      "rationale": "Explicitly describes ball and player interaction."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A group of boys",
+      "rationale": "Indicates multiple players; details confirm at least four."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No trees or buildings mentioned in background."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef holds a cherry tomato",
+      "rationale": "Describes kitchen activity, not volleyball."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen",
+      "rationale": "Describes kitchen, contradicts outdoor volleyball setting."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "cherry tomato",
+      "rationale": "Describes tomato, not volleyball."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a chef",
+      "rationale": "Describes one person in kitchen, not volleyball players."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "kitchen",
+      "rationale": "Describes kitchen interior, not outdoor background."
+    }
+  ]
+}

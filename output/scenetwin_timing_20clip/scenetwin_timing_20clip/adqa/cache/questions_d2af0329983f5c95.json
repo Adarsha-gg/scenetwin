@@ -1,0 +1,38 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animal is featured on the KOA Ranch sign?",
+      "answer_key": "A horse silhouette",
+      "required_visual_evidence": [
+        "KOA Ranch sign",
+        "horse silhouette"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies key branding element and opening visual"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe what the horses are doing in the pasture scene.",
+      "answer_key": "Horses are grazing peacefully in sunlit pasture",
+      "required_visual_evidence": [
+        "horses grazing",
+        "sunlit pasture",
+        "peaceful"
+      ],
+      "importance": "critical",
+      "rationale": "Core visual action establishing the campground experience"
+    },
+    {
+      "q_idx": 2,
+      "question": "What activity are the people shown doing on the wooded trail?",
+      "answer_key": "Riding horses along a wooded trail",
+      "required_visual_evidence": [
+        "people riding horses",
+        "wooded trail"
+      ],
+      "importance": "useful",
+      "rationale": "Describes main recreational activity promoted by KOA"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Pulling a sled through snow.",
+      "required_visual_evidence": [
+        "person pulling",
+        "sled in snow"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "Snowy outdoor area.",
+      "required_visual_evidence": [
+        "snow on ground",
+        "outdoor environment"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the action."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is visible in the frames?",
+      "answer_key": "A blue sled.",
+      "required_visual_evidence": [
+        "blue sled",
+        "sled being pulled"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies a central object in the scene."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main subject wearing?",
+      "answer_key": "Dark clothing.",
+      "required_visual_evidence": [
+        "dark clothing",
+        "person in snow"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the appearance of the subject."
+    },
+    {
+      "q_idx": 4,
+      "question": "Is there any visible text on screen?",
+      "answer_key": "No visible text.",
+      "required_visual_evidence": [
+        "absence of text"
+      ],
+      "importance": "useful",
+      "rationale": "Confirms lack of on-screen text."
+    }
+  ]
+}

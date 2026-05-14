@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the orange cat doing to the black and white cat?",
+      "answer_key": "The orange cat stands over the black and white cat and gently swats at it",
+      "required_visual_evidence": [
+        "orange cat",
+        "black and white cat",
+        "standing over",
+        "swatting"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and interaction between primary subjects"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the positions of the cats in the scene.",
+      "answer_key": "An orange cat stands over a lying black and white cat, with another cat partially visible sitting nearby",
+      "required_visual_evidence": [
+        "orange cat stands",
+        "black and white cat lying down",
+        "third cat partially visible",
+        "sitting nearby"
+      ],
+      "importance": "critical",
+      "rationale": "Spatial relationships essential for scene comprehension"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of flooring and lighting are visible in the room?",
+      "answer_key": "The room has hardwood flooring and is dimly lit",
+      "required_visual_evidence": [
+        "hardwood floor",
+        "dimly lit"
+      ],
+      "importance": "useful",
+      "rationale": "Environmental context helps establish scene atmosphere"
+    }
+  ]
+}

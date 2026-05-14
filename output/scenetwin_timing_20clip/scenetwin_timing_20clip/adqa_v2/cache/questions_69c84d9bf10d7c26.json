@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What object is being worn as a head covering in the first frame?",
+      "answer_key": "A large metal bucket or container with a tire around it",
+      "required_visual_evidence": [
+        "metal bucket",
+        "tire",
+        "head covering",
+        "white clothing"
+      ],
+      "importance": "critical",
+      "rationale": "Distinctive visual element that defines the scene's unusual setup and context"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person in the second frame holding up to their face?",
+      "answer_key": "A blue container or bucket",
+      "required_visual_evidence": [
+        "blue container",
+        "holding up",
+        "face level",
+        "white cap"
+      ],
+      "importance": "useful",
+      "rationale": "Shows specific action and object interaction central to the clip's activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "What color is the clothing worn by the person visible in the bottom frame?",
+      "answer_key": "White or light gray jacket or shirt",
+      "required_visual_evidence": [
+        "white clothing",
+        "light colored jacket",
+        "person's torso"
+      ],
+      "importance": "useful",
+      "rationale": "Helps establish consistent character identification across multiple frames"
+    }
+  ]
+}

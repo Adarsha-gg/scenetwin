@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 90,
+      "completeness": 90,
+      "specificity": 85,
+      "concision": 85,
+      "listener_utility": 90,
+      "overall": 88,
+      "rationale": "Accurately describes the scene with details about the actions and setting. Captures the playful nature and attempts to climb the hill."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 70,
+      "completeness": 60,
+      "specificity": 50,
+      "concision": 90,
+      "listener_utility": 65,
+      "overall": 67,
+      "rationale": "Very brief and lacks detail. Captures the main action but misses specifics about the setting and actions."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 85,
+      "completeness": 75,
+      "specificity": 75,
+      "concision": 80,
+      "listener_utility": 80,
+      "overall": 79,
+      "rationale": "Describes the main actions accurately but lacks detail about the setting and the playful nature of the scene."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely inaccurate description of the scene."
+    }
+  ]
+}

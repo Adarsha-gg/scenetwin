@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is being played in this video?",
+      "answer_key": "Curling",
+      "required_visual_evidence": [
+        "curling rink with house markings",
+        "player in delivery position",
+        "red and blue circular target"
+      ],
+      "importance": "critical",
+      "rationale": "The distinctive curling house and player stance identify the sport."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the player doing in the first frames?",
+      "answer_key": "Delivering or sliding the curling stone down the rink",
+      "required_visual_evidence": [
+        "player in extended horizontal position",
+        "low sliding stance",
+        "stone on ice"
+      ],
+      "importance": "critical",
+      "rationale": "The delivery motion is the primary action shown throughout the sequence."
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does this curling match take place?",
+      "answer_key": "Indoor curling rink with spectators watching",
+      "required_visual_evidence": [
+        "indoor arena ceiling",
+        "spectators in background",
+        "professional rink setup"
+      ],
+      "importance": "useful",
+      "rationale": "Setting establishes context for the competitive environment."
+    },
+    {
+      "q_idx": 3,
+      "question": "What happens to the player after releasing the stone?",
+      "answer_key": "The player falls or slides to the ground",
+      "required_visual_evidence": [
+        "player horizontal on ice",
+        "loss of balance",
+        "player lying on rink surface"
+      ],
+      "importance": "critical",
+      "rationale": "The fall is a significant event visible in the final frames."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many other people are visible on or near the rink?",
+      "answer_key": "At least two other people standing and watching",
+      "required_visual_evidence": [
+        "figures in background",
+        "spectators near rink",
+        "officials or teammates present"
+      ],
+      "importance": "useful",
+      "rationale": "Other people provide context for the competitive setting."
+    }
+  ]
+}

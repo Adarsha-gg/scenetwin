@@ -1,0 +1,61 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity are the people playing?",
+      "answer_key": "Badminton or volleyball on a court",
+      "required_visual_evidence": [
+        "net dividing the court",
+        "players in athletic stance",
+        "outdoor sports court"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the main activity and purpose of the gathering"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the playing surface made of?",
+      "answer_key": "Red or reddish-brown dirt or clay",
+      "required_visual_evidence": [
+        "ground surface throughout frames",
+        "consistent earth-toned floor"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the distinctive setting characteristic of the venue"
+    },
+    {
+      "q_idx": 2,
+      "question": "What structure divides the two sides of the playing area?",
+      "answer_key": "A net stretched across the court",
+      "required_visual_evidence": [
+        "net visible in multiple frames",
+        "net separating players"
+      ],
+      "importance": "critical",
+      "rationale": "Essential for understanding the sport setup and player positioning"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the background of this outdoor venue?",
+      "answer_key": "Green fencing, trees, and a covered structure",
+      "required_visual_evidence": [
+        "green fence",
+        "large trees",
+        "building or shelter"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the location as an organized sports facility or school grounds"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many players are actively visible on the court at once?",
+      "answer_key": "Three to four players visible simultaneously",
+      "required_visual_evidence": [
+        "multiple people in frame",
+        "players positioned on court"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener understand the scale and number of participants"
+    }
+  ]
+}

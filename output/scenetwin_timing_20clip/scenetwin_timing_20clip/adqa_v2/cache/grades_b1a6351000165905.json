@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing, not eating a burger. Cross-category content."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of Burger King. Cross-category content."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes outdoor snowy slope, not indoor location."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No food item mentioned. Cross-category content."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No packaging visible. Cross-category content."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man eats a lot of burgers",
+      "rationale": "Directly states man eating burgers."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No restaurant name mentioned."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No setting or location described."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man eats a lot of burgers",
+      "rationale": "Explicitly identifies burgers as food item."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No packaging details or text mentioned."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man is at Burger King, eating a hamburger",
+      "rationale": "Directly states man eating hamburger."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man is at Burger King",
+      "rationale": "Explicitly names Burger King restaurant."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of indoor setting, windows, or lighting."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "eating a hamburger",
+      "rationale": "Clearly identifies hamburger as food item."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No packaging text or 'Eating' label mentioned."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a bald man in a gray hoodie is rapidly eating a hamburger",
+      "rationale": "Directly states man in gray hoodie eating hamburger."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a Burger King restaurant",
+      "rationale": "Explicitly identifies Burger King location."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of glass windows, fluorescent lighting, or interior details."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "eating a hamburger",
+      "rationale": "Clearly identifies hamburger as food item."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "someone uses ketchup to write 'BURGER EATING' on a tray liner",
+      "rationale": "Describes packaging text reading 'BURGER EATING'."
+    }
+  ]
+}

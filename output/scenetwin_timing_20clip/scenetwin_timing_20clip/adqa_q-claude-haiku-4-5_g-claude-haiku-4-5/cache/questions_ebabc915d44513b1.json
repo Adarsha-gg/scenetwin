@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What winter sport activity is the person in the center engaged in?",
+      "answer_key": "Snowmobiling or riding a snowmobile across a snowy field",
+      "required_visual_evidence": [
+        "person on snowmobile",
+        "snow-covered terrain",
+        "winter landscape"
+      ],
+      "importance": "critical",
+      "rationale": "Main subject and primary action throughout all frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the terrain like where the snowmobiler is riding?",
+      "answer_key": "A wide, open snowy field with visible track patterns and bare trees",
+      "required_visual_evidence": [
+        "open snowy field",
+        "track marks in snow",
+        "bare trees along edges"
+      ],
+      "importance": "critical",
+      "rationale": "Setting is essential context for understanding the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What other snowmobiles are visible in the frames?",
+      "answer_key": "At least two other snowmobiles visible in the foreground on the left side",
+      "required_visual_evidence": [
+        "green and yellow snowmobile",
+        "orange/red snowmobile",
+        "foreground left"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects that indicate group activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on the left side of the frames in the foreground?",
+      "answer_key": "Parts of other snowmobiles, including a green and yellow one and an orange one",
+      "required_visual_evidence": [
+        "green snowmobile",
+        "yellow accents",
+        "orange snowmobile"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates perspective and group context"
+    },
+    {
+      "q_idx": 4,
+      "question": "What time of day does the lighting suggest in these frames?",
+      "answer_key": "Daytime with clear, bright sunlight creating distinct shadows",
+      "required_visual_evidence": [
+        "bright sunlight",
+        "clear shadows",
+        "blue sky",
+        "high visibility"
+      ],
+      "importance": "useful",
+      "rationale": "Lighting conditions affect scene atmosphere and visibility"
+    }
+  ]
+}

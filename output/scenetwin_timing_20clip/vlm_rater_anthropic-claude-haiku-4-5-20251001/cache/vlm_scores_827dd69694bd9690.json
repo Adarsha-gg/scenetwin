@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 100,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely hallucinated content. Describes skiing and slalom poles when the frames show cooking an omelette at a stove. No connection to actual visual content."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 85,
+      "completeness": 60,
+      "specificity": 50,
+      "concision": 95,
+      "listener_utility": 65,
+      "overall": 71,
+      "rationale": "Accurate basic description of the cooking action and pan. Correctly identifies man, frying pan, stove, and fork stirring. Missing details: cast iron skillet material, omelette with vegetables/ingredients visible, the oil being drizzled, kitchen setting details. Vague on what food is being cooked."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 90,
+      "completeness": 70,
+      "specificity": 65,
+      "concision": 100,
+      "listener_utility": 75,
+      "overall": 80,
+      "rationale": "Accurate and concise. Correctly identifies cast iron skillet, stirring with fork, and cooking action. Specifies the pan type. Missing: man's appearance, kitchen setting, what specific food (omelette with vegetables), oil being added. Good balance of accuracy and brevity."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 75,
+      "completeness": 85,
+      "specificity": 85,
+      "concision": 60,
+      "listener_utility": 80,
+      "overall": 77,
+      "rationale": "Good detail and specificity about the cooking demonstration, omelette with spaghetti/eggs, cast iron skillet, and man's appearance. Correctly describes stirring and pan movement. However, includes unverifiable claims ('explains each step' - no audio heard in frames, 'sizzle' - cannot confirm from video). Slightly verbose but informative. Minor hallucination about verbal explanation."
+    }
+  ]
+}

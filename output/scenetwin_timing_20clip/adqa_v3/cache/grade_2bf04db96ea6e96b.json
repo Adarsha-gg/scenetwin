@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a girl in a red hat runs up a steep, snow-covered hill",
+      "rationale": "No sledding or sliding down an inflatable slide."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "between two blue slides",
+      "rationale": "No inflatable slide mentioned."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snow-covered hill",
+      "rationale": "Snow mentioned but not on flat ground."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No background details provided."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "Another girl, wearing a knitted hat",
+      "rationale": "Two people mentioned, but no observers."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "trying to climb up a snowy hill",
+      "rationale": "No sledding or sliding mentioned."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "No inflatable slide mentioned."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snowy hill",
+      "rationale": "Snow mentioned but not on flat ground."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No background details provided."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A couple of girls",
+      "rationale": "Two people mentioned, but no observers."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "slips and slides all the way down",
+      "rationale": "Sliding mentioned, but not on an inflatable slide."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "steep icy slope",
+      "rationale": "No inflatable slide mentioned."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of snow on ground."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No background details provided."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a second girl starts her attempt",
+      "rationale": "Two people mentioned, but no observers."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles pause to converse",
+      "rationale": "No sledding or sliding mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowmobiles",
+      "rationale": "No inflatable slide mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snow-covered terrain",
+      "rationale": "Snow mentioned but not on flat ground."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No background details provided."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Two people mentioned, but no observers."
+    }
+  ]
+}

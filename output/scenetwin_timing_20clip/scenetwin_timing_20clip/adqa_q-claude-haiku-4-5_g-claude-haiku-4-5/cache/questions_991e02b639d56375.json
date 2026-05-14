@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in these frames?",
+      "answer_key": "A person is falling or tumbling through snow",
+      "required_visual_evidence": [
+        "person in dark clothing",
+        "snow-covered ground",
+        "dynamic falling motion"
+      ],
+      "importance": "critical",
+      "rationale": "Primary action visible across multiple frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or environment shown?",
+      "answer_key": "A snowy outdoor location, likely a slope or mountainside",
+      "required_visual_evidence": [
+        "white snow covering ground",
+        "steep angle",
+        "winter conditions"
+      ],
+      "importance": "critical",
+      "rationale": "Setting essential for understanding context of action"
+    },
+    {
+      "q_idx": 2,
+      "question": "What blue object is visible in the later frames?",
+      "answer_key": "A blue ski or snowboard equipment",
+      "required_visual_evidence": [
+        "blue object",
+        "frames 4-6",
+        "winter sports context"
+      ],
+      "importance": "useful",
+      "rationale": "Key object that clarifies the activity type"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing that stands out visually?",
+      "answer_key": "Dark-colored clothing contrasting against white snow",
+      "required_visual_evidence": [
+        "dark silhouette",
+        "snow background",
+        "high contrast"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener visualize the scene composition"
+    },
+    {
+      "q_idx": 4,
+      "question": "Is the person in control or losing control during this action?",
+      "answer_key": "The person appears to be losing control, tumbling through snow",
+      "required_visual_evidence": [
+        "chaotic motion",
+        "body position",
+        "snow spray"
+      ],
+      "importance": "critical",
+      "rationale": "Conveys the nature and severity of the action"
+    }
+  ]
+}

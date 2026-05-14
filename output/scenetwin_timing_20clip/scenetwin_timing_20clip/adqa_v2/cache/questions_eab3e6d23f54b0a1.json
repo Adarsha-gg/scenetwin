@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or athletic activity is taking place at this facility?",
+      "answer_key": "Track and field; running and jumping events",
+      "required_visual_evidence": [
+        "red running track",
+        "hurdles",
+        "high jump equipment",
+        "soccer goal"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the primary setting and activity type for the entire clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A yellow t-shirt",
+      "required_visual_evidence": [
+        "young person in yellow shirt",
+        "close-up portrait"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the primary person featured in the opening shot"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment is visible on the field in the second sequence?",
+      "answer_key": "High jump bar and stand with black padding",
+      "required_visual_evidence": [
+        "black horizontal bar",
+        "red and blue support structure",
+        "soccer goal behind"
+      ],
+      "importance": "useful",
+      "rationale": "Describes key athletic apparatus shown in the middle frames"
+    },
+    {
+      "q_idx": 3,
+      "question": "What action is being performed in the final frame?",
+      "answer_key": "An athlete is performing a high jump, clearing the bar",
+      "required_visual_evidence": [
+        "person horizontal in air",
+        "legs up",
+        "bar beneath athlete"
+      ],
+      "importance": "critical",
+      "rationale": "Captures the main athletic action occurring in the clip"
+    },
+    {
+      "q_idx": 4,
+      "question": "What type of facility is hosting these athletic events?",
+      "answer_key": "An outdoor stadium or sports complex with a red track",
+      "required_visual_evidence": [
+        "red running track",
+        "white soccer goal",
+        "stadium seating",
+        "floodlights"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the venue context for understanding the setting"
+    }
+  ]
+}

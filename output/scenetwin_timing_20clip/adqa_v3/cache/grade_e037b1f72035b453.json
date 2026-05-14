@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "skillfully stirring scrambled eggs in a frying pan",
+      "rationale": "Directly states stirring with spatula."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a cozy kitchen",
+      "rationale": "Directly states kitchen setting."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "stirring scrambled eggs",
+      "rationale": "Directly states scrambled eggs."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "with a spatula",
+      "rationale": "Directly states spatula use."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "granite countertop",
+      "rationale": "Mentions countertop but not items."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "cooking eggs in a frying pan",
+      "rationale": "Mentions cooking but not stirring."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "cooking eggs",
+      "rationale": "Implies kitchen but not explicit."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "cooking eggs",
+      "rationale": "Mentions eggs but not appearance."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of utensil."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of counter items."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing, not cooking."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing, not kitchen."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing, not food."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing, not utensil."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing, not counter."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "making scrambled eggs",
+      "rationale": "Mentions making but not stirring."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on the stove",
+      "rationale": "Implies kitchen but not explicit."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "scrambled eggs",
+      "rationale": "Mentions eggs but not appearance."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of utensil."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of counter items."
+    }
+  ]
+}

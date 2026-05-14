@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about snowmobiles, not about bucket/tire head covering."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description, no mention of blue container or face-level holding."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description, irrelevant to clothing color question."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of bucket, tire, or head covering worn as object."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "drinks water out of a cup",
+      "rationale": "Mentions cup but not blue, not held to face, vague context."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of person's clothing color."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "removes the bee suits head cover",
+      "rationale": "Mentions head cover removal but not bucket/tire combination or initial wearing."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "drinking from a cup",
+      "rationale": "Mentions cup and drinking but not blue color or held to face."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of clothing color for person in bottom frame."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "removes his protective hood",
+      "rationale": "Describes hood removal, not bucket/tire worn as head covering in first frame."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "holding a large blue canister",
+      "rationale": "Clearly identifies blue container held by person, matches answer key."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "another man, dressed casually",
+      "rationale": "Describes casual clothing; context supports light-colored attire description."
+    }
+  ]
+}

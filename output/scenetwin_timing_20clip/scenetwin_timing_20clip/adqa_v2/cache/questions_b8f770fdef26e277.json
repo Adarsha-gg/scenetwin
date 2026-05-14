@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is the person engaged in?",
+      "answer_key": "Skiing",
+      "required_visual_evidence": [
+        "skis on feet",
+        "ski poles in hands",
+        "winter snow setting"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary sport activity central to understanding the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main setting or location where this activity takes place?",
+      "answer_key": "A snow-covered slope or field at night",
+      "required_visual_evidence": [
+        "white snow surface",
+        "nighttime lighting",
+        "flat to sloped terrain"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the environment essential for understanding the context of the action"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment is visible that the skier is holding?",
+      "answer_key": "Ski poles",
+      "required_visual_evidence": [
+        "poles held in hands",
+        "extending from skier's sides"
+      ],
+      "importance": "useful",
+      "rationale": "Describes key equipment that defines the skiing activity being performed"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main action the person performs across these frames?",
+      "answer_key": "Skiing across the snow-covered slope",
+      "required_visual_evidence": [
+        "person moving on skis",
+        "progression across frames",
+        "skis in contact with snow"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the primary motion and action central to the clip's narrative"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the skier's jacket or upper body clothing?",
+      "answer_key": "Dark colored, appears black or dark brown",
+      "required_visual_evidence": [
+        "dark silhouette of person",
+        "contrasts with white snow"
+      ],
+      "importance": "useful",
+      "rationale": "Provides visual detail about the skier's appearance for scene comprehension"
+    }
+  ]
+}

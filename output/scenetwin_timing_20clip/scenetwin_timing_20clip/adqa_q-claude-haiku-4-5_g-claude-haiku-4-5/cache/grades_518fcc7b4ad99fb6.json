@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "young girl stands at the stove, skillfully stirring scrambled eggs in a frying pan with a spatula",
+      "rationale": "Directly states child cooking eggs in skillet with utensil at stove."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "stirring scrambled eggs in a frying pan",
+      "rationale": "Explicitly identifies eggs as scrambled, directly answering question."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a cozy kitchen...at the stove...granite countertop and wooden cabinets",
+      "rationale": "Clearly establishes kitchen setting with stove, counter, and cabinets."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "stirring scrambled eggs in a frying pan with a spatula",
+      "rationale": "Explicitly names spatula as utensil used for cooking."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of white plate or blue container on counter."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "young girl is shown cooking eggs in a frying pan",
+      "rationale": "Directly states child cooking eggs in pan."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "cooking eggs in a frying pan",
+      "rationale": "Identifies eggs being cooked, though scrambled status not explicit."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "",
+      "rationale": "Implies kitchen setting but provides no explicit location details."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of specific utensil used."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of counter items."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "skier navigates a snowy hill",
+      "rationale": "Describes skiing, contradicts kitchen cooking scene entirely."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "skier navigates a snowy hill",
+      "rationale": "Describes skiing, not food preparation."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "Describes outdoor ski slope, not kitchen."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing poles, not cooking utensils."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes ski slope, no counter items mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "preteen girl is making scrambled eggs on the stove",
+      "rationale": "Directly states child cooking eggs on stove."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "making scrambled eggs",
+      "rationale": "Explicitly identifies scrambled eggs."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on the stove",
+      "rationale": "Mentions stove but no other kitchen details provided."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No specific utensil mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of counter items."
+    }
+  ]
+}

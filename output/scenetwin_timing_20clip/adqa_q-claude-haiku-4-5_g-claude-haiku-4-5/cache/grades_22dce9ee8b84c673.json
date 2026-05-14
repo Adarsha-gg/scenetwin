@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "young hockey players practice their skills",
+      "rationale": "Directly states ice hockey activity."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In an indoor ice rink",
+      "rationale": "Clearly identifies indoor ice rink setting."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "controlling the puck with precision",
+      "rationale": "Implies hockey sticks through puck control action."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a group of young hockey players",
+      "rationale": "References multiple players in action."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "skates swiftly, controlling the puck, passing back and forth",
+      "rationale": "Describes skating, puck control, and competitive play."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "hockey players are on the rink",
+      "rationale": "Directly identifies hockey as the sport."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on the rink at mid court",
+      "rationale": "Mentions rink but lacks indoor/lighting details."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "skating around with the puck",
+      "rationale": "Implies sticks through puck handling but not explicit."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A group of hockey players",
+      "rationale": "Vague count; does not specify number of players."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "skating around with the puck and attempts to score",
+      "rationale": "Describes skating and puck competition action."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen, a chef",
+      "rationale": "Describes kitchen scene; contradicts ice hockey."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen",
+      "rationale": "Describes kitchen, not ice hockey arena."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "holds a cherry tomato and a knife",
+      "rationale": "Describes kitchen tools, not hockey sticks."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a chef",
+      "rationale": "Describes single chef, not multiple players."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "throws the tomato at a wall",
+      "rationale": "Describes kitchen activity, not hockey gameplay."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "hockey players",
+      "rationale": "Directly identifies hockey as the sport."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on a hockey rink",
+      "rationale": "Mentions rink but lacks indoor/lighting specifics."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of hockey sticks or equipment."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A group of hockey players",
+      "rationale": "Vague reference; no specific player count."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "practices their skills",
+      "rationale": "Generic; lacks specific action details like skating or puck control."
+    }
+  ]
+}

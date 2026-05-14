@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity is the person performing on the snowy surface?",
+      "answer_key": "Skiing down a snowy slope at night",
+      "required_visual_evidence": [
+        "person in dark clothing",
+        "skis on feet",
+        "snow-covered ground",
+        "nighttime setting with artificial lighting"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the main action and activity central to understanding the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of location or venue is shown in these frames?",
+      "answer_key": "A ski slope or ski run with gate markers",
+      "required_visual_evidence": [
+        "snow-covered slope",
+        "pole markers/gates",
+        "nighttime lighting",
+        "buildings/structures in background"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the setting necessary for understanding the context of the action"
+    },
+    {
+      "q_idx": 2,
+      "question": "What objects are visible on the slope that mark the course?",
+      "answer_key": "Poles or gate markers positioned on the slope",
+      "required_visual_evidence": [
+        "vertical poles",
+        "multiple markers visible",
+        "positioned at intervals"
+      ],
+      "importance": "useful",
+      "rationale": "Key environmental details that structure the skiing activity shown"
+    },
+    {
+      "q_idx": 3,
+      "question": "What time of day is this skiing activity taking place?",
+      "answer_key": "At night, under artificial lighting",
+      "required_visual_evidence": [
+        "dark sky",
+        "artificial lights visible",
+        "illuminated slope"
+      ],
+      "importance": "useful",
+      "rationale": "Important contextual detail affecting visibility and atmosphere of the scene"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the skier wearing that is visible in the frames?",
+      "answer_key": "Dark-colored jacket or coat and skis with boots",
+      "required_visual_evidence": [
+        "dark upper body clothing",
+        "skis visible on feet",
+        "person in motion"
+      ],
+      "importance": "useful",
+      "rationale": "Basic appearance details help listeners visualize the main subject"
+    }
+  ]
+}

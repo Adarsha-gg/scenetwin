@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about deer, not KOA Ranch sign or horses."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes deer following man, not horses grazing in pasture."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category; describes zoo enclosure, not horse riding on trail."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of KOA Ranch sign or horse silhouette."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of horses grazing or pasture scene."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "people are riding horses through the woods",
+      "rationale": "Clearly describes people riding horses on wooded trail."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A horse ranch sign is shown",
+      "rationale": "Mentions sign but lacks detail about horse silhouette specifically."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "horses grazing",
+      "rationale": "Mentions grazing but omits sunlit pasture and peaceful context."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "people riding horses through woods",
+      "rationale": "Clearly describes people riding horses on wooded trail."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "KOA Ranch, featuring a silhouette of a horse",
+      "rationale": "Explicitly identifies sign and horse silhouette."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "Horses graze peacefully in a sunlit pasture",
+      "rationale": "Covers all required elements: grazing, sunlit, peaceful."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "people riding horses along a wooded trail",
+      "rationale": "Clearly describes people riding horses on wooded trail."
+    }
+  ]
+}

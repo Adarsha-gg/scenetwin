@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a skier navigates a snowy hill",
+      "rationale": "Directly states skiing on snow surface."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "At night, a skier navigates",
+      "rationale": "States nighttime but omits artificial lighting details."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "weaving between flexible poles in a slalom course",
+      "rationale": "Clearly describes poles marking the ski run."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "alternating left and right, purposefully making contact with each pole as they descend",
+      "rationale": "Describes downslope movement and body positioning."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of background structures or buildings."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "Someone is skiing at night",
+      "rationale": "Directly states skiing activity on snow."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "skiing at night",
+      "rationale": "States nighttime but lacks artificial lighting description."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "around several poles",
+      "rationale": "Identifies poles as boundary markers."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "alternating left then right pattern",
+      "rationale": "Describes movement pattern but lacks posture/descent details."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of background structures."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man is skiing between poles on a snowy hill",
+      "rationale": "Directly states skiing on snow."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Omits nighttime and artificial lighting entirely."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "between poles",
+      "rationale": "Identifies poles on slope."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of body position or movement direction."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of background structures."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen, a chef holds a cherry tomato",
+      "rationale": "Describes kitchen scene, contradicts skiing context entirely."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen",
+      "rationale": "Describes kitchen, not nighttime skiing conditions."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No ski slope markers mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef holds a cherry tomato and counts down",
+      "rationale": "Describes kitchen activity, not skiing movement."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No ski area structures mentioned."
+    }
+  ]
+}

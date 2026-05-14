@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "indoor ice rink, a group of young hockey players",
+      "rationale": "Directly states ice hockey sport and indoor facility."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "One player skates swiftly across the ice, controlling the puck with precision",
+      "rationale": "Clearly describes player skating forward with puck control."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "controlling the puck with precision",
+      "rationale": "Identifies puck on ice being tracked by player."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "aiming to score goals",
+      "rationale": "Implies goal net but doesn't explicitly describe rink structures."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "other players engage in drills, passing the puck back and forth",
+      "rationale": "Indicates multiple players in different activities on ice."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "hockey players are on the rink",
+      "rationale": "Directly identifies hockey sport and rink location."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "hockey player is skating around with the puck",
+      "rationale": "Describes player skating with puck in motion."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "skating around with the puck",
+      "rationale": "Identifies puck as object being tracked."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of goal net, boards, or rink structures."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A group of hockey players are on the rink",
+      "rationale": "Mentions multiple players but vague on count and positioning."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen, a chef holds a cherry tomato",
+      "rationale": "Describes kitchen scene, completely contradicts ice hockey context."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef holds a cherry tomato and counts down in Spanish",
+      "rationale": "Describes unrelated kitchen activity, not hockey player movement."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "cherry tomato",
+      "rationale": "Identifies wrong object entirely; not a puck."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "wall, knife",
+      "rationale": "Describes kitchen elements, not rink structures."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef",
+      "rationale": "Describes single person in kitchen, not multiple hockey players."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "hockey players practices their skills on a hockey rink",
+      "rationale": "Directly identifies hockey sport and rink location."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of player position, movement, or puck control."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of puck or what player is tracking."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of rink equipment or structures."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A group of hockey players",
+      "rationale": "Mentions multiple players but provides no detail on count or positioning."
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of facility or venue is shown in the middle frames?",
+      "answer_key": "An equestrian facility or horse ranch with competition grounds",
+      "required_visual_evidence": [
+        "flags",
+        "manicured grounds",
+        "wooden fencing",
+        "horses grazing"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes primary setting and context for entire sequence"
+    },
+    {
+      "q_idx": 1,
+      "question": "What animals are visible in the pasture scenes?",
+      "answer_key": "Two horses, one brown and one brown and white",
+      "required_visual_evidence": [
+        "brown horse",
+        "brown and white horse",
+        "grazing",
+        "pasture"
+      ],
+      "importance": "critical",
+      "rationale": "Main subjects of the video sequence"
+    },
+    {
+      "q_idx": 2,
+      "question": "What does the entrance sign display?",
+      "answer_key": "A silhouette of a horse in motion",
+      "required_visual_evidence": [
+        "horse silhouette",
+        "sign",
+        "entrance"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies facility purpose and branding"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the wooded area scenes?",
+      "answer_key": "A horse tied to a tree among dense forest vegetation",
+      "required_visual_evidence": [
+        "horse",
+        "tree",
+        "rope",
+        "forest",
+        "woods"
+      ],
+      "importance": "critical",
+      "rationale": "Shows different location and horse activity within facility"
+    },
+    {
+      "q_idx": 4,
+      "question": "What logo appears consistently throughout the video?",
+      "answer_key": "KOA logo in yellow and red",
+      "required_visual_evidence": [
+        "KOA",
+        "yellow",
+        "red",
+        "logo"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies sponsorship or facility affiliation"
+    }
+  ]
+}

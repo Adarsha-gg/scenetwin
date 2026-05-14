@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of facility or venue is shown in the middle frames?",
+      "answer_key": "An equestrian facility or horse ranch with flags and jumping obstacles",
+      "required_visual_evidence": [
+        "flags",
+        "wooden fences",
+        "manicured grounds",
+        "horse jumping course"
+      ],
+      "importance": "critical",
+      "rationale": "Main setting visible across multiple frames with distinctive features"
+    },
+    {
+      "q_idx": 1,
+      "question": "What animals are visible in the pasture scenes?",
+      "answer_key": "Horses, including a brown horse and a brown and white horse",
+      "required_visual_evidence": [
+        "brown horse",
+        "brown and white horse",
+        "grazing",
+        "pasture"
+      ],
+      "importance": "critical",
+      "rationale": "Primary subjects in frames 3-4, essential to understanding the content"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is displayed on the entrance sign in the first frame?",
+      "answer_key": "A silhouette of a horse in motion or running",
+      "required_visual_evidence": [
+        "entrance sign",
+        "horse silhouette",
+        "arch-shaped sign"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the facility and appears prominently in opening frame"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the wooded area shown in the final frames?",
+      "answer_key": "A horse standing among trees, partially obscured by foliage and branches",
+      "required_visual_evidence": [
+        "horse in woods",
+        "dense foliage",
+        "tree trunks",
+        "forest setting"
+      ],
+      "importance": "critical",
+      "rationale": "Significant location change and main subject in closing frames"
+    },
+    {
+      "q_idx": 4,
+      "question": "What logo appears consistently throughout the video frames?",
+      "answer_key": "KOA logo in yellow and red",
+      "required_visual_evidence": [
+        "KOA logo",
+        "yellow and red",
+        "bottom left corner"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text identifying the source or sponsor of the footage"
+    }
+  ]
+}

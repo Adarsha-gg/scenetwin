@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What ingredient is being dropped into the bowl, and what tool is used to drop it?",
+      "answer_key": "Chopped garlic is dropped from a knife into the bowl",
+      "required_visual_evidence": [
+        "chopped garlic",
+        "knife",
+        "dropping action"
+      ],
+      "importance": "critical",
+      "rationale": "Core action demonstrating the first preparation step"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of bowl is used, and what ingredient is already in it?",
+      "answer_key": "A large wooden bowl filled with fresh spinach leaves",
+      "required_visual_evidence": [
+        "large wooden bowl",
+        "fresh spinach leaves"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the base ingredient and cooking vessel"
+    },
+    {
+      "q_idx": 2,
+      "question": "How does the second person combine the garlic and spinach together?",
+      "answer_key": "They use their hands to thoroughly mix the ingredients",
+      "required_visual_evidence": [
+        "hands",
+        "mixing",
+        "combining garlic and spinach"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the mixing technique essential to the recipe"
+    }
+  ]
+}

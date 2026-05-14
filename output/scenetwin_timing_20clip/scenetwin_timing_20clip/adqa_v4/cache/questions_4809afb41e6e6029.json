@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Holding and pointing with a small object.",
+      "required_visual_evidence": [
+        "holding object",
+        "pointing gesture"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A kitchen with industrial equipment.",
+      "required_visual_evidence": [
+        "kitchen equipment",
+        "industrial setting"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key objects are visible in the background?",
+      "answer_key": "Mixers and trays.",
+      "required_visual_evidence": [
+        "mixers",
+        "trays"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context about the setting."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A white chef's coat.",
+      "required_visual_evidence": [
+        "chef's coat"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates the subject's role."
+    },
+    {
+      "q_idx": 4,
+      "question": "What text is visible on the subject's coat?",
+      "answer_key": "Logo and text on the left side.",
+      "required_visual_evidence": [
+        "logo",
+        "text on coat"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies branding or affiliation."
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man in the white shirt holding and demonstrating?",
+      "answer_key": "A small insect or specimen, appears to be a fly or similar bug",
+      "required_visual_evidence": [
+        "man holding small object in hand",
+        "gesturing while speaking",
+        "object visible in palm"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and key object throughout frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is this demonstration taking place?",
+      "answer_key": "A laboratory or research facility with scientific equipment",
+      "required_visual_evidence": [
+        "lab equipment in background",
+        "workbenches",
+        "storage containers",
+        "industrial machinery"
+      ],
+      "importance": "critical",
+      "rationale": "Setting is essential context for understanding the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the wooden board or surface in the background?",
+      "answer_key": "Papers, documents, and sticky notes posted on the board",
+      "required_visual_evidence": [
+        "wooden board",
+        "white and pink papers",
+        "sticky notes"
+      ],
+      "importance": "useful",
+      "rationale": "Notable background element visible in multiple frames"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the man's apparent role or profession based on the setting?",
+      "answer_key": "A scientist or researcher conducting an entomology demonstration",
+      "required_visual_evidence": [
+        "lab setting",
+        "specimen in hand",
+        "professional attire",
+        "equipment"
+      ],
+      "importance": "useful",
+      "rationale": "Context helps listener understand the demonstration's purpose"
+    },
+    {
+      "q_idx": 4,
+      "question": "What containers or equipment are visible on the shelves behind the man?",
+      "answer_key": "Glass tanks, storage containers, and industrial machinery",
+      "required_visual_evidence": [
+        "shelving with containers",
+        "glass tanks",
+        "green machinery",
+        "equipment"
+      ],
+      "importance": "useful",
+      "rationale": "Background details establish laboratory environment authenticity"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 85,
+      "completeness": 80,
+      "specificity": 75,
+      "concision": 80,
+      "listener_utility": 80,
+      "overall": 80,
+      "rationale": "Accurately describes the snowy landscape, two snowmobilers, pausing/conversing, helmet-wearing, engine revving, and riding off with tracks. Minor issue: frames show one person stationary while another approaches/departs, not clearly two people pausing together. Good specificity about actions and setting. Well-balanced detail without excess."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 40,
+      "completeness": 25,
+      "specificity": 15,
+      "concision": 95,
+      "listener_utility": 20,
+      "overall": 19,
+      "rationale": "Severely incomplete and vague. Describes only one person's actions (getting off/on/riding) when frames clearly show two snowmobiles and two riders. Missing setting details, landscape context, and the interaction between riders. Too generic and lacks specificity. Fails to capture the main visual content."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 75,
+      "completeness": 60,
+      "specificity": 50,
+      "concision": 90,
+      "listener_utility": 55,
+      "overall": 56,
+      "rationale": "Captures basic action (stopping, speaking, starting again) and identifies two snowmobiles. However, lacks setting description (snowy landscape, trees, terrain), lacks detail about the environment, and is quite vague about what's happening. Doesn't mention helmets, gesturing, or other visual details. Concise but too sparse for full utility."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Complete hallucination. Describes a man in colored clothing, a deer, a fence, and a zoo setting. None of this is visible in the frames. The actual content shows snowmobiles on a frozen landscape with bare trees. This is entirely inaccurate and misleading."
+    }
+  ]
+}

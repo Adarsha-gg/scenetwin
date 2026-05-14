@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 50,
+      "completeness": 30,
+      "specificity": 30,
+      "concision": 60,
+      "listener_utility": 40,
+      "overall": 42,
+      "rationale": "Accurately mentions a woman riding a horse, but lacks detail about the setting and actions. No mention of the paddock or stable."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 90,
+      "completeness": 90,
+      "specificity": 85,
+      "concision": 80,
+      "listener_utility": 90,
+      "overall": 87,
+      "rationale": "Provides a detailed and accurate description of the scene, including the setting, attire, and actions. Very useful for a listener."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 80,
+      "completeness": 70,
+      "specificity": 70,
+      "concision": 85,
+      "listener_utility": 75,
+      "overall": 76,
+      "rationale": "Accurately describes the main action and setting but lacks detail about the woman's attire and the environment."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely inaccurate; describes a scene unrelated to the images."
+    }
+  ]
+}

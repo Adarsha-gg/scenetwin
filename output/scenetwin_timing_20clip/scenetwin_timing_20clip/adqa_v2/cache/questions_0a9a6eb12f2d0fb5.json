@@ -1,0 +1,61 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What object is being worn as a head covering by the person in the video?",
+      "answer_key": "A large metal bucket or container with a tire around it",
+      "required_visual_evidence": [
+        "metal bucket on head",
+        "tire wrapped around bucket",
+        "white protective clothing"
+      ],
+      "importance": "critical",
+      "rationale": "The unusual bucket-and-tire headgear is the dominant visual element and primary action focus."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main setting or location where this video takes place?",
+      "answer_key": "Outdoors in a wooded or rural area with bare trees",
+      "required_visual_evidence": [
+        "bare trees in background",
+        "outdoor natural setting",
+        "daylight"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is essential for understanding the scene and activity being documented."
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of protective clothing is the person wearing?",
+      "answer_key": "White protective suit or coveralls",
+      "required_visual_evidence": [
+        "white full-body covering",
+        "protective suit visible across frames"
+      ],
+      "importance": "useful",
+      "rationale": "The protective gear suggests a specific purpose or activity relevant to understanding the clip."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on the person's torso in one of the frames?",
+      "answer_key": "A letter or marking on the white suit",
+      "required_visual_evidence": [
+        "marking on white suit",
+        "visible letter or symbol"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text or markings help identify purpose or context of the activity."
+    },
+    {
+      "q_idx": 4,
+      "question": "What object is the second person holding in the middle frame?",
+      "answer_key": "A blue container or bucket",
+      "required_visual_evidence": [
+        "blue container held by second person",
+        "visible in middle frame"
+      ],
+      "importance": "useful",
+      "rationale": "Secondary objects and actions provide context for understanding the overall activity."
+    }
+  ]
+}

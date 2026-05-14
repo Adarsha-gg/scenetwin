@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity is taking place in this video?",
+      "answer_key": "Ice hockey",
+      "required_visual_evidence": [
+        "ice rink",
+        "hockey sticks",
+        "puck",
+        "goal net"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the primary activity and setting for all subsequent action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main subject holding and using?",
+      "answer_key": "A hockey stick",
+      "required_visual_evidence": [
+        "player with stick",
+        "stick in hand",
+        "stick on ice"
+      ],
+      "importance": "critical",
+      "rationale": "Key object essential to understanding the sport and player actions."
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this activity taking place?",
+      "answer_key": "An indoor ice hockey arena or rink",
+      "required_visual_evidence": [
+        "indoor facility",
+        "ice surface",
+        "arena lighting",
+        "boards/barriers"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context necessary for understanding the environment and scale."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main player attempting to do with the puck?",
+      "answer_key": "Shoot or pass the puck toward the goal",
+      "required_visual_evidence": [
+        "player with stick near puck",
+        "puck on ice",
+        "goal net visible"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the primary action and objective of the player's movement."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many players are visible on the ice during the action?",
+      "answer_key": "Multiple players; at least 4-6 visible on ice",
+      "required_visual_evidence": [
+        "multiple figures on ice",
+        "players in different positions"
+      ],
+      "importance": "useful",
+      "rationale": "Conveys that this is a team activity with multiple participants engaged."
+    }
+  ]
+}

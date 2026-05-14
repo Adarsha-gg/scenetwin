@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "helmet",
+      "rationale": "Describes helmet, not metal pipe or cylindrical container."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "gestures while speaking",
+      "rationale": "Describes conversation, not examining/looking through pipe."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy landscape",
+      "rationale": "Describes snow, not wooded/forested area with bare trees."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "helmet",
+      "rationale": "No mention of white jacket or white cap."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Confirms second person but no blue clothing or assistance mentioned."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "drinks water out of a cup",
+      "rationale": "No mention of metal pipe or cylindrical container on head."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "drinks water out of a cup",
+      "rationale": "Describes drinking, not examining pipe."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No setting or location information provided."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing description provided."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "bee keeper",
+      "rationale": "Confirms second person but no blue clothing or action described."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "removes the bee suits head cover",
+      "rationale": "Mentions head cover removal but doesn't clearly identify it as metal pipe."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "drinking from a cup",
+      "rationale": "Describes drinking, not examining pipe or looking through it."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No setting or location information provided."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "bee suit",
+      "rationale": "Mentions bee suit but no white jacket or white cap specified."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "another guy",
+      "rationale": "Confirms second person but no blue clothing mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "protective hood",
+      "rationale": "Describes hood removal, not metal pipe or cylindrical container."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "removes his protective hood",
+      "rationale": "Describes hood removal, not examining or looking through pipe."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a wooded area",
+      "rationale": "Directly states wooded area setting."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "beekeeper's suit",
+      "rationale": "Mentions suit but no white jacket or white cap explicitly stated."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "another man, dressed casually, sits holding a large blue canister",
+      "rationale": "Confirms second person in blue and describes their action."
+    }
+  ]
+}

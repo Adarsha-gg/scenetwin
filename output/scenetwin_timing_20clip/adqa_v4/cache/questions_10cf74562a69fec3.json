@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Running and jumping over a high jump bar.",
+      "required_visual_evidence": [
+        "running",
+        "jumping over bar"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action performed."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is the scene taking place?",
+      "answer_key": "On a track and field area.",
+      "required_visual_evidence": [
+        "track",
+        "field"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the setting of the action."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key objects are involved in the action?",
+      "answer_key": "High jump bar and mat.",
+      "required_visual_evidence": [
+        "bar",
+        "mat"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies objects central to the action."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A yellow shirt.",
+      "required_visual_evidence": [
+        "yellow shirt"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the main subject's appearance."
+    },
+    {
+      "q_idx": 4,
+      "question": "What visible text is on the banners?",
+      "answer_key": "No visible text is clear.",
+      "required_visual_evidence": [
+        "banners"
+      ],
+      "importance": "useful",
+      "rationale": "Addresses visible on-screen text."
+    }
+  ]
+}

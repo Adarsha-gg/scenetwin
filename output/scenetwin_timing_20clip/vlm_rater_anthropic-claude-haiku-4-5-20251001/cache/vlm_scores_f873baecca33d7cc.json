@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 85,
+      "completeness": 90,
+      "specificity": 85,
+      "concision": 80,
+      "listener_utility": 88,
+      "overall": 86,
+      "rationale": "Accurately describes nighttime skiing with slalom poles, the weaving pattern, and downhill movement. Mentions 'flexible poles' and 'purposefully making contact' which adds specificity. Well-structured for listener understanding. Minor: 'flexible poles' is slightly interpretive but reasonable."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 90,
+      "completeness": 60,
+      "specificity": 50,
+      "concision": 95,
+      "listener_utility": 65,
+      "overall": 72,
+      "rationale": "Accurate but minimal. Correctly identifies skiing at night around poles in alternating pattern. Lacks context about setting (hill/slope), course type (slalom), speed, or lighting conditions. Too vague for optimal listener utility despite being concise."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 85,
+      "completeness": 50,
+      "specificity": 40,
+      "concision": 95,
+      "listener_utility": 55,
+      "overall": 65,
+      "rationale": "Accurate but extremely sparse. Identifies basic elements (man, skiing, poles, snow, hill) but omits critical context: nighttime setting, slalom course, alternating pattern, speed, and lighting. Insufficient detail for meaningful scene understanding."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Complete hallucination. Describes a kitchen scene with a chef, tomato, and knife. The actual video shows nighttime skiing on a snowy slope with poles. No overlap with visual content whatsoever."
+    }
+  ]
+}

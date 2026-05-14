@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing, not food preparation or mixing greens."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description; no container information."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes skiing slope, not food ingredients."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes one skier, not hands mixing food."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes snowy hill, not kitchen work surface."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "mix spinach in a bowl",
+      "rationale": "Names mixing and bowl but lacks detail on tossing motion and hands."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Does not describe bowl type, handles, or size."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "spinach in a bowl",
+      "rationale": "Directly identifies spinach as primary ingredient."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Does not specify number of hands or people."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of cutting board or adjacent ingredients."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "another person starts mixing the garlic and spinach leaves with their hands",
+      "rationale": "Explicitly describes mixing action with hands in bowl."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "wooden bowl",
+      "rationale": "Names wooden bowl but omits handles and size details."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "spinach leaves",
+      "rationale": "Directly identifies spinach as primary ingredient in bowl."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "another person uses their hands to thoroughly mix",
+      "rationale": "Clearly indicates two people and hands performing mixing action."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "drops chopped garlic from a knife",
+      "rationale": "Mentions garlic but no cutting board or cheese visible in description."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "uses their hands to thoroughly mix the garlic and spinach together",
+      "rationale": "Explicitly describes mixing action with hands in wooden bowl."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "large wooden bowl",
+      "rationale": "Directly identifies large wooden bowl; handles implied by context."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "fresh spinach leaves",
+      "rationale": "Explicitly identifies fresh spinach as primary ingredient."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "two individuals demonstrate...The other person uses their hands",
+      "rationale": "Clearly specifies two people and hands performing the action."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of cutting board or white cheese/dairy beside bowl."
+    }
+  ]
+}

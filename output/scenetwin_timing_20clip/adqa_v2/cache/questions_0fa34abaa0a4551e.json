@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main action being performed with the greens in the wooden bowl?",
+      "answer_key": "Tossing or mixing the greens with hands",
+      "required_visual_evidence": [
+        "hands in bowl",
+        "leafy greens",
+        "wooden bowl",
+        "motion across frames"
+      ],
+      "importance": "critical",
+      "rationale": "Core action that defines the entire clip; essential for understanding the activity."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of container holds the greens being prepared?",
+      "answer_key": "A large wooden bowl",
+      "required_visual_evidence": [
+        "wooden bowl",
+        "light wood color",
+        "large round shape"
+      ],
+      "importance": "critical",
+      "rationale": "Key object that frames the activity; important for setting and context."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the cutting board to the right of the bowl?",
+      "answer_key": "A white block of cheese or similar ingredient",
+      "required_visual_evidence": [
+        "cutting board",
+        "white object",
+        "right side of frame"
+      ],
+      "importance": "useful",
+      "rationale": "Secondary ingredient visible throughout; helps establish food preparation context."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many hands are visible performing the action in the bowl?",
+      "answer_key": "Two hands",
+      "required_visual_evidence": [
+        "two hands",
+        "both hands in bowl",
+        "consistent across frames"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies whether one or multiple people are involved in the preparation."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the primary ingredient being handled in the wooden bowl?",
+      "answer_key": "Fresh leafy greens, appearing to be salad greens or herbs",
+      "required_visual_evidence": [
+        "green leaves",
+        "leafy texture",
+        "fresh appearance"
+      ],
+      "importance": "critical",
+      "rationale": "Main ingredient; essential for understanding what food is being prepared."
+    }
+  ]
+}

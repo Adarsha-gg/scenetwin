@@ -1,0 +1,2 @@
+spearman_rho,spearman_p,kendall_tau,kendall_p,pairwise_wins,pairwise_total,full_order_clips,full_order_total,question_model,grader_model
+0.864678831618589,1.2820778589531894e-22,0.7743677413568103,1.9019312988894783e-16,51,54,13,18,openai:gpt-4o,openai:gpt-4o

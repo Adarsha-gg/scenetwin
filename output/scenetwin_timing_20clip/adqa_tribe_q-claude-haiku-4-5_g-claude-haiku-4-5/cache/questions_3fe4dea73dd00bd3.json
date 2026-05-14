@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person cooking in the black skillet?",
+      "answer_key": "An omelet with red peppers or tomatoes",
+      "required_visual_evidence": [
+        "yellow omelet",
+        "red ingredients mixed in",
+        "black skillet on stovetop"
+      ],
+      "importance": "critical",
+      "rationale": "Main action in high-need window; blind listener needs to know what dish is being prepared"
+    },
+    {
+      "q_idx": 1,
+      "question": "What cooking utensil is the person using to manipulate the omelet?",
+      "answer_key": "A fork or spatula",
+      "required_visual_evidence": [
+        "utensil in hand",
+        "touching omelet in pan"
+      ],
+      "importance": "critical",
+      "rationale": "Key action detail in opening seconds; essential for understanding cooking technique"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of cooking surface or appliance is visible in the background?",
+      "answer_key": "A white electric stove or cooktop",
+      "required_visual_evidence": [
+        "white appliance",
+        "stovetop burners",
+        "kitchen setting"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes kitchen setting and cooking context for blind listener"
+    },
+    {
+      "q_idx": 3,
+      "question": "What liquid ingredient is the person pouring into the second skillet?",
+      "answer_key": "Oil or cooking liquid from a bottle",
+      "required_visual_evidence": [
+        "bottle being held",
+        "liquid pouring",
+        "second black pan"
+      ],
+      "importance": "critical",
+      "rationale": "Visible action in high-need window; shows preparation step blind listener cannot see"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many black skillets are on the stovetop during this cooking sequence?",
+      "answer_key": "Two black skillets",
+      "required_visual_evidence": [
+        "two pans visible",
+        "one with omelet",
+        "one being prepared"
+      ],
+      "importance": "useful",
+      "rationale": "Helps blind listener understand the spatial setup and parallel cooking tasks"
+    }
+  ]
+}

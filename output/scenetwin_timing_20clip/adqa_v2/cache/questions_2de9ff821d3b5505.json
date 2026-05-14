@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animals are the main subjects in this video?",
+      "answer_key": "Multiple cats (appears to be 3-4 cats)",
+      "required_visual_evidence": [
+        "cats on wooden floor",
+        "multiple feline silhouettes",
+        "cat tails visible"
+      ],
+      "importance": "critical",
+      "rationale": "Identifying the main subjects is essential for understanding the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action the cats are performing?",
+      "answer_key": "Playing or interacting with each other on the floor",
+      "required_visual_evidence": [
+        "cats in motion",
+        "cats positioned near each other",
+        "dynamic positioning across frames"
+      ],
+      "importance": "critical",
+      "rationale": "The main action defines what is happening in the clip"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of flooring is visible in this indoor setting?",
+      "answer_key": "Wooden floor with warm/golden lighting",
+      "required_visual_evidence": [
+        "wooden floor surface",
+        "warm amber/golden tones",
+        "reflective floor"
+      ],
+      "importance": "useful",
+      "rationale": "Setting details help establish the environment and context"
+    },
+    {
+      "q_idx": 3,
+      "question": "What architectural features are visible in the background?",
+      "answer_key": "Staircase with wooden railings and yellow/cream colored walls",
+      "required_visual_evidence": [
+        "wooden staircase",
+        "stair railings",
+        "wall color"
+      ],
+      "importance": "useful",
+      "rationale": "Background elements establish the indoor residential location"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many cats can be clearly identified in the scene?",
+      "answer_key": "Three to four cats visible throughout the frames",
+      "required_visual_evidence": [
+        "multiple cat silhouettes",
+        "distinct cat positions",
+        "visible across multiple frames"
+      ],
+      "importance": "useful",
+      "rationale": "Quantity of subjects helps listeners understand the scale of activity"
+    }
+  ]
+}

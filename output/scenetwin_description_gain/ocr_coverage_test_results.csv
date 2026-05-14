@@ -1,0 +1,9 @@
+clip_idx,tier,gt,ocr_windows,weighted_ocr_score,weighted_token_coverage,weighted_phrase_coverage
+0,tier3_va11y,3,0,,,
+0,tier2_vatex_long,2,0,,,
+0,tier1_vatex_short,1,0,,,
+0,tier0_cross,0,0,,,
+1,tier3_va11y,3,1,1.0,1.0,1.0
+1,tier2_vatex_long,2,1,0.39999999999999997,1.0,0.0
+1,tier1_vatex_short,1,1,0.39999999999999997,1.0,0.0
+1,tier0_cross,0,1,0.0,0.0,0.0

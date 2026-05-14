@@ -1,0 +1,43 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport facility and equipment are visible in these frames?",
+      "answer_key": "A soccer/football field with a goal, net, and high jump equipment on a red running track",
+      "required_visual_evidence": [
+        "soccer goal with white net",
+        "red running track",
+        "high jump bar and standards",
+        "brick pathway"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the athletic venue and multiple sports activities occurring simultaneously"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the young person in the yellow shirt doing in the first frame?",
+      "answer_key": "Standing and smiling at the camera on the track",
+      "required_visual_evidence": [
+        "yellow shirt",
+        "smiling expression",
+        "track setting",
+        "curly dark hair"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies a key subject and their demeanor during the sports event"
+    },
+    {
+      "q_idx": 2,
+      "question": "What athletic action is occurring in the third frame?",
+      "answer_key": "A person is performing a high jump, clearing the bar with legs up",
+      "required_visual_evidence": [
+        "person horizontal in air",
+        "legs elevated",
+        "high jump bar",
+        "black clothing"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main athletic action captured in the sequence"
+    }
+  ]
+}

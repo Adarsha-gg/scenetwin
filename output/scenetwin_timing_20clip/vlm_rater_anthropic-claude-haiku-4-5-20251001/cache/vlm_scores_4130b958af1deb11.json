@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 75,
+      "completeness": 85,
+      "specificity": 80,
+      "concision": 70,
+      "listener_utility": 78,
+      "overall": 78,
+      "rationale": "Accurately describes the main action (girl climbing snowy hill, slipping, sliding back down, second girl attempting). Correctly identifies blue slides/tubes and red hat. However, adds interpretive elements ('laughing,' 'eagerly,' 'filled with laughter') not clearly visible in frames. Includes unnecessary emotional embellishment. Good specificity about the setting and sequence of events. Useful for understanding the scene despite minor hallucinations."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 95,
+      "completeness": 35,
+      "specificity": 15,
+      "concision": 95,
+      "listener_utility": 25,
+      "overall": 32,
+      "rationale": "Factually accurate but severely lacking in detail. Fails to describe the distinctive blue slide/tube structures, the red hat, the slipping/sliding action, or the sequence of events. Too vague to be useful for a blind listener who needs to understand the specific setting, objects, and actions occurring. While concise, it sacrifices essential information."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 90,
+      "completeness": 80,
+      "specificity": 85,
+      "concision": 90,
+      "listener_utility": 85,
+      "overall": 86,
+      "rationale": "Highly accurate description of the core action sequence: girl attempting to run up slope, slipping halfway, sliding down, second girl starting her attempt. Correctly identifies the icy/snowy slope and the progression of events. Specific about the action without unnecessary embellishment. Minor: doesn't mention the blue slide structures or distinctive clothing (red hat), but focuses on the essential action. Excellent balance of detail and concision. Very useful for a blind listener."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 5,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 85,
+      "listener_utility": 0,
+      "overall": 18,
+      "rationale": "Completely inaccurate and hallucinatory. Describes snowmobiles, riders, helmets, engines, and conversation—none of which appear in the frames. The actual scene shows children on a snowy slope with blue slide structures. This description would severely mislead a blind listener and is entirely disconnected from the visual content. Major failure in visual accuracy and listener utility."
+    }
+  ]
+}

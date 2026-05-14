@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "runs up a steep, snow-covered hill...slides back down",
+      "rationale": "Directly states climbing and sliding actions."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "snowy playground...two blue slides",
+      "rationale": "Explicitly identifies snowy playground and slides."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "between two blue slides",
+      "rationale": "Clearly identifies large blue slide as prominent feature."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a girl...Another girl",
+      "rationale": "Mentions two girls explicitly; answer key requires three people."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "girl in a red hat",
+      "rationale": "Identifies red hat; white jacket not mentioned but red hat confirmed."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "trying to climb up a snowy hill",
+      "rationale": "Mentions climbing but omits sliding action entirely."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snowy hill",
+      "rationale": "Identifies snow but lacks playground and slide context."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of blue slide or any prominent object."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A couple of girls",
+      "rationale": "States two girls; answer key requires three people."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing details provided."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "run up a steep icy slope...slips and slides all the way down",
+      "rationale": "Directly states climbing and sliding actions."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snowy hill",
+      "rationale": "Identifies snow but lacks playground and slide context."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of blue slide or prominent object."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a girl...a second girl",
+      "rationale": "Mentions two girls; answer key requires three people."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing details provided."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowmobiles...rev their engines and ride off",
+      "rationale": "Describes snowmobiling, contradicts climbing and sliding."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy landscape",
+      "rationale": "Generic snow setting; contradicts playground with slides."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowmobiles",
+      "rationale": "Features snowmobiles, not blue slide."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Identifies two people; answer key requires three."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "helmet",
+      "rationale": "Mentions helmet, not red hat or white jacket."
+    }
+  ]
+}

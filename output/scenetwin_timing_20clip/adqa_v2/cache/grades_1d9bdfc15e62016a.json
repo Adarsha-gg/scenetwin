@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Describes snowmobiling, not sledding/sliding down inflatable slide."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy landscape",
+      "rationale": "Cross-category description; no residential/fencing details match."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowmobiles",
+      "rationale": "Describes snowmobiles, not inflatable slide equipment."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Wrong activity; no mention of multiple people on slide."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "wearing a helmet",
+      "rationale": "Mentions helmet, not red jacket at top of slide."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "trying to climb up a snowy hill",
+      "rationale": "Describes climbing hill, not sledding down inflatable slide."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snowy hill",
+      "rationale": "Confirms snowy setting but omits residential details, fencing, trees."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "No mention of inflatable slide or its features."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A couple of girls",
+      "rationale": "Names multiple people but unclear how many actively on slide."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of red jacket or distinctive clothing."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "run up a steep icy slope, slips and slides",
+      "rationale": "Describes climbing/sliding down hill, not sledding inflatable slide."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "steep icy slope",
+      "rationale": "Confirms snowy outdoor setting but lacks residential/fencing details."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "steep icy slope",
+      "rationale": "No mention of inflatable slide structure or coloring."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a girl...a second girl",
+      "rationale": "Identifies two people but unclear if both actively on slide simultaneously."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of red jacket; mentions red hat instead."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "runs up a steep, snow-covered hill...slides back down",
+      "rationale": "Describes climbing/sliding hill, not sledding down inflatable slide."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snowy playground...snow-covered hill",
+      "rationale": "Confirms snowy outdoor setting but lacks residential/fencing/tree details."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "between two blue slides",
+      "rationale": "Mentions blue slides but no inflatable structure or white/dark blue coloring details."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a girl...Another girl...takes her turn",
+      "rationale": "Clearly identifies two people actively engaged in the activity."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a girl in a red hat",
+      "rationale": "Mentions red clothing but specifies hat, not jacket as answer key states."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "skier navigates a snowy hill, weaving between flexible poles",
+      "rationale": "Describes skiing, not salad preparation. Completely unrelated content."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "Describes outdoor skiing scene, not kitchen bowl."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "flexible poles",
+      "rationale": "Describes ski poles, not cutting board or cheese."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier",
+      "rationale": "Describes one skier, not hands in a bowl."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "Describes skiing, not leafy greens."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "mix spinach in a bowl",
+      "rationale": "Names mixing action and bowl, but lacks detail about hands or motion."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "in a bowl",
+      "rationale": "Mentions bowl but doesn't specify wooden or describe appearance."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of cutting board or cheese."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Does not specify number of hands."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "spinach",
+      "rationale": "Directly names spinach as primary ingredient."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "uses their hands to thoroughly mix the garlic and spinach together",
+      "rationale": "Explicitly describes hand mixing action in bowl."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "large wooden bowl",
+      "rationale": "Directly states wooden bowl with size descriptor."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of cutting board or white object to the right."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "One person drops... The other person uses their hands",
+      "rationale": "Clearly indicates two people/two hands performing actions."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "fresh spinach leaves",
+      "rationale": "Directly names fresh spinach as primary ingredient."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "another person starts mixing the garlic and spinach leaves with their hands",
+      "rationale": "Explicitly describes hand mixing action in bowl."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "wooden bowl",
+      "rationale": "Directly states wooden bowl."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of cutting board or white object."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A person drops... another person starts mixing with their hands",
+      "rationale": "Clearly indicates two people/two hands performing actions."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "spinach leaves",
+      "rationale": "Directly names spinach as primary ingredient."
+    }
+  ]
+}

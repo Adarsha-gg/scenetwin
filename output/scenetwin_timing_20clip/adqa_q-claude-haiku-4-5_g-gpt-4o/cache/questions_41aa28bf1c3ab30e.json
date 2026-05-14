@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is the person participating in?",
+      "answer_key": "Skiing",
+      "required_visual_evidence": [
+        "person on skis",
+        "snow-covered slope",
+        "ski poles"
+      ],
+      "importance": "critical",
+      "rationale": "Main activity visible throughout frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What time of day is this activity taking place?",
+      "answer_key": "Night or evening",
+      "required_visual_evidence": [
+        "dark sky",
+        "artificial lighting",
+        "illuminated slope"
+      ],
+      "importance": "critical",
+      "rationale": "Lighting conditions define the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What markers are visible on the ski slope?",
+      "answer_key": "Poles or gate markers",
+      "required_visual_evidence": [
+        "vertical poles",
+        "course markers"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects defining the ski course"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the surface condition of the slope?",
+      "answer_key": "Snow-covered and well-groomed",
+      "required_visual_evidence": [
+        "white snow surface",
+        "smooth terrain",
+        "visible tracks"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the skiing environment"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the skier wearing?",
+      "answer_key": "Dark jacket and yellow/neon accents",
+      "required_visual_evidence": [
+        "dark colored clothing",
+        "bright colored elements"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the main subject's appearance"
+    }
+  ]
+}

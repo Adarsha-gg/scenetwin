@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity are the people playing?",
+      "answer_key": "Badminton or volleyball on a dirt court",
+      "required_visual_evidence": [
+        "net dividing the court",
+        "players in athletic stance",
+        "dirt playing surface"
+      ],
+      "importance": "critical",
+      "rationale": "Main activity visible across multiple frames with clear net setup"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of surface is the playing area made of?",
+      "answer_key": "Red or brown dirt/clay",
+      "required_visual_evidence": [
+        "reddish-brown ground",
+        "consistent across all frames"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive surface characteristic visible throughout all video frames"
+    },
+    {
+      "q_idx": 2,
+      "question": "What structures or barriers are visible around the court?",
+      "answer_key": "Green metal fencing and green structures in background",
+      "required_visual_evidence": [
+        "metal fence",
+        "green painted structures",
+        "boundary markers"
+      ],
+      "importance": "useful",
+      "rationale": "Key environmental elements defining the court boundaries and setting"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is dividing the two sides of the playing area?",
+      "answer_key": "A net stretched across the middle of the court",
+      "required_visual_evidence": [
+        "net structure",
+        "separating players",
+        "vertical support"
+      ],
+      "importance": "critical",
+      "rationale": "Essential equipment defining the sport and court layout"
+    },
+    {
+      "q_idx": 4,
+      "question": "What natural features are present in the setting?",
+      "answer_key": "Large trees providing shade over the court area",
+      "required_visual_evidence": [
+        "mature trees",
+        "foliage overhead",
+        "shade coverage"
+      ],
+      "importance": "useful",
+      "rationale": "Prominent environmental feature visible in multiple frames"
+    }
+  ]
+}

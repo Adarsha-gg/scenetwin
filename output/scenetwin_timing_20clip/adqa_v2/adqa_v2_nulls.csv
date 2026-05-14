@@ -1,0 +1,3 @@
+metric,observed_rho,null_mean_rho,null_p_ge_observed,n_permutations,filter
+adqa_v2_score,0.8029279984245423,-0.0036767159717331307,0.0,2000,unfiltered
+adqa_v2_score,0.8037874651693125,0.0025685073606084535,0.0,2000,filtered_floor_zero_dropped

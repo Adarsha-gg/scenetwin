@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "One cat is lying on the ground as another looks around.",
+      "rationale": "Describes static positioning, not playing or interaction."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "One cat...another",
+      "rationale": "Mentions two cats but answer key requires at least three."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No setting or location details provided."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No color information mentioned."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "lying on the ground...looks around",
+      "rationale": "Describes static behavior, not playful wrestling or interaction."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "three cats...swatting at it...sits nearby",
+      "rationale": "Clearly identifies multiple cats playing/interacting on floor."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "three cats are on a hardwood floor",
+      "rationale": "Directly states three cats present."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "living room...hardwood floor",
+      "rationale": "Identifies indoor setting with wooden flooring."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "orange cat...black and white cat",
+      "rationale": "Specifies color variation among cats."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "swatting at it",
+      "rationale": "Describes playful physical interaction between cats."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Describes snowmobiles and people, not cats on floor."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No cats mentioned; completely different scene."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy landscape",
+      "rationale": "Describes outdoor snow terrain, not indoor home."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No cats or colors mentioned."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "rev their engines and ride off",
+      "rationale": "Describes snowmobile activity, not cat interaction."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "three cats are relaxing on a hardwood floor",
+      "rationale": "Identifies cats on floor but describes relaxing, not playing."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "three cats",
+      "rationale": "Directly states three cats present."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "hardwood floor",
+      "rationale": "Mentions floor but omits stairs and furniture details."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No cat colors mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "relaxing...massages one of the cats' head",
+      "rationale": "Describes relaxation and massage, not playful wrestling."
+    }
+  ]
+}

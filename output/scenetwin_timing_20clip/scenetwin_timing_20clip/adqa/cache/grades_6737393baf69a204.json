@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about skiing, not cooking."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about skiing, not cooking."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about skiing, not cooking."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A man is stirring food in a cast iron skillet with a fork.",
+      "rationale": "Missing shirt color; only identifies skillet type."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A man is stirring food in a cast iron skillet with a fork.",
+      "rationale": "Does not specify ingredients or identify omelette."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "stirring food in a cast iron skillet with a fork",
+      "rationale": "Identifies fork and stirring, missing pan movement detail."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A man is holding a frying pan",
+      "rationale": "Identifies cookware but not shirt color; calls it frying pan not cast iron."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A man is holding a frying pan with food",
+      "rationale": "Does not specify ingredients or identify omelette."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "he pushes the fork around in it",
+      "rationale": "Identifies fork and stirring, missing pan movement detail."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man in a grey shirt stands at a stove, demonstrating how to cook an omelette with spaghetti and eggs in a black cast iron skillet.",
+      "rationale": "Clearly identifies grey shirt and black cast iron skillet."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "cook an omelette with spaghetti and eggs in a black cast iron skillet",
+      "rationale": "Specifies all three required elements: spaghetti, eggs, omelette."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "He stirs the mixture with a fork, moving the pan back and forth to ensure even cooking.",
+      "rationale": "Identifies fork, stirring, pan movement, and even cooking technique."
+    }
+  ]
+}

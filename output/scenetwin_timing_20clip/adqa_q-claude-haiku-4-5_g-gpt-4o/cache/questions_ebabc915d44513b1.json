@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What winter sport activity is the person in the center engaged in?",
+      "answer_key": "Snowmobiling or riding a snowmobile across a snowy field",
+      "required_visual_evidence": [
+        "person on snowmobile",
+        "snow-covered terrain",
+        "winter landscape"
+      ],
+      "importance": "critical",
+      "rationale": "Main subject and primary action throughout all frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the terrain like where the snowmobiler is riding?",
+      "answer_key": "A wide, open snowy field with visible track patterns and bare trees",
+      "required_visual_evidence": [
+        "open snowy field",
+        "track marks in snow",
+        "bare trees along edges"
+      ],
+      "importance": "critical",
+      "rationale": "Setting is essential context for understanding the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What other snowmobiles are visible in the frames?",
+      "answer_key": "At least two other snowmobiles visible in the foreground on the left side",
+      "required_visual_evidence": [
+        "green and yellow snowmobile",
+        "orange/red snowmobile",
+        "foreground left"
+      ],
+      "importance": "useful",
+      "rationale": "Multiple riders present; important for understanding group activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the weather and lighting condition during this snowmobiling activity?",
+      "answer_key": "Clear, sunny day with bright blue sky and strong shadows cast by the rider",
+      "required_visual_evidence": [
+        "blue sky",
+        "bright sunlight",
+        "distinct shadows"
+      ],
+      "importance": "useful",
+      "rationale": "Weather conditions affect viewer understanding of conditions"
+    },
+    {
+      "q_idx": 4,
+      "question": "What perspective are these video frames shot from?",
+      "answer_key": "From another snowmobile following behind the central rider",
+      "required_visual_evidence": [
+        "foreground snowmobile parts visible",
+        "following perspective",
+        "multiple riders ahead"
+      ],
+      "importance": "useful",
+      "rationale": "Camera perspective helps orient listener to the scene composition"
+    }
+  ]
+}

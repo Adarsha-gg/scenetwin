@@ -1,0 +1,379 @@
+clip_idx,category,target,failed
+0,Food & Cooking,all4_mean_full_order_fail,0
+1,Food & Cooking,all4_mean_full_order_fail,0
+3,Food & Cooking,all4_mean_full_order_fail,0
+4,Food & Cooking,all4_mean_full_order_fail,0
+5,Food & Cooking,all4_mean_full_order_fail,0
+6,Travel,all4_mean_full_order_fail,0
+7,Travel,all4_mean_full_order_fail,0
+8,Travel,all4_mean_full_order_fail,0
+9,Sports,all4_mean_full_order_fail,0
+11,Sports,all4_mean_full_order_fail,0
+12,Sports,all4_mean_full_order_fail,1
+13,Sports,all4_mean_full_order_fail,0
+14,Sports,all4_mean_full_order_fail,0
+15,Pets & Animals,all4_mean_full_order_fail,1
+16,Pets & Animals,all4_mean_full_order_fail,0
+17,Pets & Animals,all4_mean_full_order_fail,0
+18,Pets & Animals,all4_mean_full_order_fail,0
+19,Pets & Animals,all4_mean_full_order_fail,0
+0,Food & Cooking,all4_mean_low_tier3_margin_lt_0.05,0
+1,Food & Cooking,all4_mean_low_tier3_margin_lt_0.05,0
+3,Food & Cooking,all4_mean_low_tier3_margin_lt_0.05,0
+4,Food & Cooking,all4_mean_low_tier3_margin_lt_0.05,0
+5,Food & Cooking,all4_mean_low_tier3_margin_lt_0.05,0
+6,Travel,all4_mean_low_tier3_margin_lt_0.05,0
+7,Travel,all4_mean_low_tier3_margin_lt_0.05,0
+8,Travel,all4_mean_low_tier3_margin_lt_0.05,0
+9,Sports,all4_mean_low_tier3_margin_lt_0.05,0
+11,Sports,all4_mean_low_tier3_margin_lt_0.05,0
+12,Sports,all4_mean_low_tier3_margin_lt_0.05,0
+13,Sports,all4_mean_low_tier3_margin_lt_0.05,0
+14,Sports,all4_mean_low_tier3_margin_lt_0.05,0
+15,Pets & Animals,all4_mean_low_tier3_margin_lt_0.05,1
+16,Pets & Animals,all4_mean_low_tier3_margin_lt_0.05,0
+17,Pets & Animals,all4_mean_low_tier3_margin_lt_0.05,0
+18,Pets & Animals,all4_mean_low_tier3_margin_lt_0.05,0
+19,Pets & Animals,all4_mean_low_tier3_margin_lt_0.05,0
+0,Food & Cooking,all4_mean_tier2_tier1_inversion,0
+1,Food & Cooking,all4_mean_tier2_tier1_inversion,0
+3,Food & Cooking,all4_mean_tier2_tier1_inversion,0
+4,Food & Cooking,all4_mean_tier2_tier1_inversion,0
+5,Food & Cooking,all4_mean_tier2_tier1_inversion,0
+6,Travel,all4_mean_tier2_tier1_inversion,0
+7,Travel,all4_mean_tier2_tier1_inversion,0
+8,Travel,all4_mean_tier2_tier1_inversion,0
+9,Sports,all4_mean_tier2_tier1_inversion,0
+11,Sports,all4_mean_tier2_tier1_inversion,0
+12,Sports,all4_mean_tier2_tier1_inversion,1
+13,Sports,all4_mean_tier2_tier1_inversion,0
+14,Sports,all4_mean_tier2_tier1_inversion,0
+15,Pets & Animals,all4_mean_tier2_tier1_inversion,0
+16,Pets & Animals,all4_mean_tier2_tier1_inversion,0
+17,Pets & Animals,all4_mean_tier2_tier1_inversion,0
+18,Pets & Animals,all4_mean_tier2_tier1_inversion,0
+19,Pets & Animals,all4_mean_tier2_tier1_inversion,0
+0,Food & Cooking,selected3_mean_full_order_fail,0
+1,Food & Cooking,selected3_mean_full_order_fail,0
+3,Food & Cooking,selected3_mean_full_order_fail,0
+4,Food & Cooking,selected3_mean_full_order_fail,0
+5,Food & Cooking,selected3_mean_full_order_fail,0
+6,Travel,selected3_mean_full_order_fail,0
+7,Travel,selected3_mean_full_order_fail,0
+8,Travel,selected3_mean_full_order_fail,0
+9,Sports,selected3_mean_full_order_fail,0
+11,Sports,selected3_mean_full_order_fail,0
+12,Sports,selected3_mean_full_order_fail,1
+13,Sports,selected3_mean_full_order_fail,0
+14,Sports,selected3_mean_full_order_fail,0
+15,Pets & Animals,selected3_mean_full_order_fail,1
+16,Pets & Animals,selected3_mean_full_order_fail,0
+17,Pets & Animals,selected3_mean_full_order_fail,0
+18,Pets & Animals,selected3_mean_full_order_fail,0
+19,Pets & Animals,selected3_mean_full_order_fail,0
+0,Food & Cooking,selected3_mean_low_tier3_margin_lt_0.05,0
+1,Food & Cooking,selected3_mean_low_tier3_margin_lt_0.05,0
+3,Food & Cooking,selected3_mean_low_tier3_margin_lt_0.05,0
+4,Food & Cooking,selected3_mean_low_tier3_margin_lt_0.05,0
+5,Food & Cooking,selected3_mean_low_tier3_margin_lt_0.05,0
+6,Travel,selected3_mean_low_tier3_margin_lt_0.05,0
+7,Travel,selected3_mean_low_tier3_margin_lt_0.05,0
+8,Travel,selected3_mean_low_tier3_margin_lt_0.05,0
+9,Sports,selected3_mean_low_tier3_margin_lt_0.05,0
+11,Sports,selected3_mean_low_tier3_margin_lt_0.05,0
+12,Sports,selected3_mean_low_tier3_margin_lt_0.05,0
+13,Sports,selected3_mean_low_tier3_margin_lt_0.05,0
+14,Sports,selected3_mean_low_tier3_margin_lt_0.05,0
+15,Pets & Animals,selected3_mean_low_tier3_margin_lt_0.05,1
+16,Pets & Animals,selected3_mean_low_tier3_margin_lt_0.05,0
+17,Pets & Animals,selected3_mean_low_tier3_margin_lt_0.05,0
+18,Pets & Animals,selected3_mean_low_tier3_margin_lt_0.05,0
+19,Pets & Animals,selected3_mean_low_tier3_margin_lt_0.05,0
+0,Food & Cooking,selected3_mean_tier2_tier1_inversion,0
+1,Food & Cooking,selected3_mean_tier2_tier1_inversion,0
+3,Food & Cooking,selected3_mean_tier2_tier1_inversion,0
+4,Food & Cooking,selected3_mean_tier2_tier1_inversion,0
+5,Food & Cooking,selected3_mean_tier2_tier1_inversion,0
+6,Travel,selected3_mean_tier2_tier1_inversion,0
+7,Travel,selected3_mean_tier2_tier1_inversion,0
+8,Travel,selected3_mean_tier2_tier1_inversion,0
+9,Sports,selected3_mean_tier2_tier1_inversion,0
+11,Sports,selected3_mean_tier2_tier1_inversion,0
+12,Sports,selected3_mean_tier2_tier1_inversion,1
+13,Sports,selected3_mean_tier2_tier1_inversion,0
+14,Sports,selected3_mean_tier2_tier1_inversion,0
+15,Pets & Animals,selected3_mean_tier2_tier1_inversion,0
+16,Pets & Animals,selected3_mean_tier2_tier1_inversion,0
+17,Pets & Animals,selected3_mean_tier2_tier1_inversion,0
+18,Pets & Animals,selected3_mean_tier2_tier1_inversion,0
+19,Pets & Animals,selected3_mean_tier2_tier1_inversion,0
+0,Food & Cooking,strict_all4_80adqa_20clip_full_order_fail,1
+1,Food & Cooking,strict_all4_80adqa_20clip_full_order_fail,0
+3,Food & Cooking,strict_all4_80adqa_20clip_full_order_fail,0
+4,Food & Cooking,strict_all4_80adqa_20clip_full_order_fail,0
+5,Food & Cooking,strict_all4_80adqa_20clip_full_order_fail,0
+6,Travel,strict_all4_80adqa_20clip_full_order_fail,0
+7,Travel,strict_all4_80adqa_20clip_full_order_fail,0
+8,Travel,strict_all4_80adqa_20clip_full_order_fail,0
+9,Sports,strict_all4_80adqa_20clip_full_order_fail,0
+11,Sports,strict_all4_80adqa_20clip_full_order_fail,0
+12,Sports,strict_all4_80adqa_20clip_full_order_fail,1
+13,Sports,strict_all4_80adqa_20clip_full_order_fail,0
+14,Sports,strict_all4_80adqa_20clip_full_order_fail,0
+15,Pets & Animals,strict_all4_80adqa_20clip_full_order_fail,0
+16,Pets & Animals,strict_all4_80adqa_20clip_full_order_fail,0
+17,Pets & Animals,strict_all4_80adqa_20clip_full_order_fail,0
+18,Pets & Animals,strict_all4_80adqa_20clip_full_order_fail,0
+19,Pets & Animals,strict_all4_80adqa_20clip_full_order_fail,0
+0,Food & Cooking,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+1,Food & Cooking,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+3,Food & Cooking,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+4,Food & Cooking,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+5,Food & Cooking,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+6,Travel,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+7,Travel,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+8,Travel,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+9,Sports,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+11,Sports,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+12,Sports,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+13,Sports,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+14,Sports,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+15,Pets & Animals,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,1
+16,Pets & Animals,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+17,Pets & Animals,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+18,Pets & Animals,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+19,Pets & Animals,strict_all4_80adqa_20clip_low_tier3_margin_lt_0.05,0
+0,Food & Cooking,strict_all4_80adqa_20clip_tier2_tier1_inversion,1
+1,Food & Cooking,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+3,Food & Cooking,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+4,Food & Cooking,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+5,Food & Cooking,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+6,Travel,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+7,Travel,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+8,Travel,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+9,Sports,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+11,Sports,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+12,Sports,strict_all4_80adqa_20clip_tier2_tier1_inversion,1
+13,Sports,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+14,Sports,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+15,Pets & Animals,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+16,Pets & Animals,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+17,Pets & Animals,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+18,Pets & Animals,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+19,Pets & Animals,strict_all4_80adqa_20clip_tier2_tier1_inversion,0
+0,Food & Cooking,clip_mean_norm_full_order_fail,1
+1,Food & Cooking,clip_mean_norm_full_order_fail,0
+3,Food & Cooking,clip_mean_norm_full_order_fail,0
+4,Food & Cooking,clip_mean_norm_full_order_fail,1
+5,Food & Cooking,clip_mean_norm_full_order_fail,0
+6,Travel,clip_mean_norm_full_order_fail,1
+7,Travel,clip_mean_norm_full_order_fail,0
+8,Travel,clip_mean_norm_full_order_fail,0
+9,Sports,clip_mean_norm_full_order_fail,0
+11,Sports,clip_mean_norm_full_order_fail,0
+12,Sports,clip_mean_norm_full_order_fail,1
+13,Sports,clip_mean_norm_full_order_fail,1
+14,Sports,clip_mean_norm_full_order_fail,1
+15,Pets & Animals,clip_mean_norm_full_order_fail,0
+16,Pets & Animals,clip_mean_norm_full_order_fail,1
+17,Pets & Animals,clip_mean_norm_full_order_fail,0
+18,Pets & Animals,clip_mean_norm_full_order_fail,0
+19,Pets & Animals,clip_mean_norm_full_order_fail,0
+0,Food & Cooking,clip_mean_norm_low_tier3_margin_lt_0.05,1
+1,Food & Cooking,clip_mean_norm_low_tier3_margin_lt_0.05,0
+3,Food & Cooking,clip_mean_norm_low_tier3_margin_lt_0.05,1
+4,Food & Cooking,clip_mean_norm_low_tier3_margin_lt_0.05,1
+5,Food & Cooking,clip_mean_norm_low_tier3_margin_lt_0.05,0
+6,Travel,clip_mean_norm_low_tier3_margin_lt_0.05,1
+7,Travel,clip_mean_norm_low_tier3_margin_lt_0.05,0
+8,Travel,clip_mean_norm_low_tier3_margin_lt_0.05,0
+9,Sports,clip_mean_norm_low_tier3_margin_lt_0.05,0
+11,Sports,clip_mean_norm_low_tier3_margin_lt_0.05,0
+12,Sports,clip_mean_norm_low_tier3_margin_lt_0.05,1
+13,Sports,clip_mean_norm_low_tier3_margin_lt_0.05,1
+14,Sports,clip_mean_norm_low_tier3_margin_lt_0.05,1
+15,Pets & Animals,clip_mean_norm_low_tier3_margin_lt_0.05,0
+16,Pets & Animals,clip_mean_norm_low_tier3_margin_lt_0.05,0
+17,Pets & Animals,clip_mean_norm_low_tier3_margin_lt_0.05,0
+18,Pets & Animals,clip_mean_norm_low_tier3_margin_lt_0.05,0
+19,Pets & Animals,clip_mean_norm_low_tier3_margin_lt_0.05,1
+0,Food & Cooking,clip_mean_norm_tier2_tier1_inversion,1
+1,Food & Cooking,clip_mean_norm_tier2_tier1_inversion,0
+3,Food & Cooking,clip_mean_norm_tier2_tier1_inversion,0
+4,Food & Cooking,clip_mean_norm_tier2_tier1_inversion,0
+5,Food & Cooking,clip_mean_norm_tier2_tier1_inversion,0
+6,Travel,clip_mean_norm_tier2_tier1_inversion,1
+7,Travel,clip_mean_norm_tier2_tier1_inversion,0
+8,Travel,clip_mean_norm_tier2_tier1_inversion,0
+9,Sports,clip_mean_norm_tier2_tier1_inversion,0
+11,Sports,clip_mean_norm_tier2_tier1_inversion,0
+12,Sports,clip_mean_norm_tier2_tier1_inversion,1
+13,Sports,clip_mean_norm_tier2_tier1_inversion,0
+14,Sports,clip_mean_norm_tier2_tier1_inversion,1
+15,Pets & Animals,clip_mean_norm_tier2_tier1_inversion,0
+16,Pets & Animals,clip_mean_norm_tier2_tier1_inversion,1
+17,Pets & Animals,clip_mean_norm_tier2_tier1_inversion,0
+18,Pets & Animals,clip_mean_norm_tier2_tier1_inversion,0
+19,Pets & Animals,clip_mean_norm_tier2_tier1_inversion,0
+0,Food & Cooking,claude_vlm_completeness_norm_full_order_fail,0
+1,Food & Cooking,claude_vlm_completeness_norm_full_order_fail,0
+3,Food & Cooking,claude_vlm_completeness_norm_full_order_fail,1
+4,Food & Cooking,claude_vlm_completeness_norm_full_order_fail,0
+5,Food & Cooking,claude_vlm_completeness_norm_full_order_fail,0
+6,Travel,claude_vlm_completeness_norm_full_order_fail,0
+7,Travel,claude_vlm_completeness_norm_full_order_fail,0
+8,Travel,claude_vlm_completeness_norm_full_order_fail,0
+9,Sports,claude_vlm_completeness_norm_full_order_fail,0
+11,Sports,claude_vlm_completeness_norm_full_order_fail,0
+12,Sports,claude_vlm_completeness_norm_full_order_fail,1
+13,Sports,claude_vlm_completeness_norm_full_order_fail,0
+14,Sports,claude_vlm_completeness_norm_full_order_fail,0
+15,Pets & Animals,claude_vlm_completeness_norm_full_order_fail,0
+16,Pets & Animals,claude_vlm_completeness_norm_full_order_fail,0
+17,Pets & Animals,claude_vlm_completeness_norm_full_order_fail,0
+18,Pets & Animals,claude_vlm_completeness_norm_full_order_fail,0
+19,Pets & Animals,claude_vlm_completeness_norm_full_order_fail,0
+0,Food & Cooking,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+1,Food & Cooking,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+3,Food & Cooking,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+4,Food & Cooking,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+5,Food & Cooking,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+6,Travel,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+7,Travel,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+8,Travel,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+9,Sports,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+11,Sports,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+12,Sports,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+13,Sports,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+14,Sports,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+15,Pets & Animals,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+16,Pets & Animals,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+17,Pets & Animals,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+18,Pets & Animals,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+19,Pets & Animals,claude_vlm_completeness_norm_low_tier3_margin_lt_0.05,0
+0,Food & Cooking,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+1,Food & Cooking,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+3,Food & Cooking,claude_vlm_completeness_norm_tier2_tier1_inversion,1
+4,Food & Cooking,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+5,Food & Cooking,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+6,Travel,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+7,Travel,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+8,Travel,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+9,Sports,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+11,Sports,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+12,Sports,claude_vlm_completeness_norm_tier2_tier1_inversion,1
+13,Sports,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+14,Sports,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+15,Pets & Animals,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+16,Pets & Animals,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+17,Pets & Animals,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+18,Pets & Animals,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+19,Pets & Animals,claude_vlm_completeness_norm_tier2_tier1_inversion,0
+0,Food & Cooking,claude_vlm_specificity_norm_full_order_fail,0
+1,Food & Cooking,claude_vlm_specificity_norm_full_order_fail,0
+3,Food & Cooking,claude_vlm_specificity_norm_full_order_fail,1
+4,Food & Cooking,claude_vlm_specificity_norm_full_order_fail,0
+5,Food & Cooking,claude_vlm_specificity_norm_full_order_fail,0
+6,Travel,claude_vlm_specificity_norm_full_order_fail,0
+7,Travel,claude_vlm_specificity_norm_full_order_fail,0
+8,Travel,claude_vlm_specificity_norm_full_order_fail,0
+9,Sports,claude_vlm_specificity_norm_full_order_fail,0
+11,Sports,claude_vlm_specificity_norm_full_order_fail,0
+12,Sports,claude_vlm_specificity_norm_full_order_fail,0
+13,Sports,claude_vlm_specificity_norm_full_order_fail,0
+14,Sports,claude_vlm_specificity_norm_full_order_fail,0
+15,Pets & Animals,claude_vlm_specificity_norm_full_order_fail,0
+16,Pets & Animals,claude_vlm_specificity_norm_full_order_fail,0
+17,Pets & Animals,claude_vlm_specificity_norm_full_order_fail,1
+18,Pets & Animals,claude_vlm_specificity_norm_full_order_fail,0
+19,Pets & Animals,claude_vlm_specificity_norm_full_order_fail,0
+0,Food & Cooking,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+1,Food & Cooking,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+3,Food & Cooking,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+4,Food & Cooking,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+5,Food & Cooking,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+6,Travel,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+7,Travel,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+8,Travel,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+9,Sports,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+11,Sports,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+12,Sports,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+13,Sports,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+14,Sports,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+15,Pets & Animals,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+16,Pets & Animals,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+17,Pets & Animals,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,1
+18,Pets & Animals,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+19,Pets & Animals,claude_vlm_specificity_norm_low_tier3_margin_lt_0.05,0
+0,Food & Cooking,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+1,Food & Cooking,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+3,Food & Cooking,claude_vlm_specificity_norm_tier2_tier1_inversion,1
+4,Food & Cooking,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+5,Food & Cooking,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+6,Travel,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+7,Travel,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+8,Travel,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+9,Sports,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+11,Sports,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+12,Sports,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+13,Sports,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+14,Sports,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+15,Pets & Animals,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+16,Pets & Animals,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+17,Pets & Animals,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+18,Pets & Animals,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+19,Pets & Animals,claude_vlm_specificity_norm_tier2_tier1_inversion,0
+0,Food & Cooking,vlm_best_dims_mean_full_order_fail,0
+1,Food & Cooking,vlm_best_dims_mean_full_order_fail,0
+3,Food & Cooking,vlm_best_dims_mean_full_order_fail,1
+4,Food & Cooking,vlm_best_dims_mean_full_order_fail,0
+5,Food & Cooking,vlm_best_dims_mean_full_order_fail,0
+6,Travel,vlm_best_dims_mean_full_order_fail,0
+7,Travel,vlm_best_dims_mean_full_order_fail,0
+8,Travel,vlm_best_dims_mean_full_order_fail,0
+9,Sports,vlm_best_dims_mean_full_order_fail,0
+11,Sports,vlm_best_dims_mean_full_order_fail,0
+12,Sports,vlm_best_dims_mean_full_order_fail,1
+13,Sports,vlm_best_dims_mean_full_order_fail,0
+14,Sports,vlm_best_dims_mean_full_order_fail,0
+15,Pets & Animals,vlm_best_dims_mean_full_order_fail,0
+16,Pets & Animals,vlm_best_dims_mean_full_order_fail,0
+17,Pets & Animals,vlm_best_dims_mean_full_order_fail,0
+18,Pets & Animals,vlm_best_dims_mean_full_order_fail,0
+19,Pets & Animals,vlm_best_dims_mean_full_order_fail,0
+0,Food & Cooking,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+1,Food & Cooking,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+3,Food & Cooking,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+4,Food & Cooking,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+5,Food & Cooking,vlm_best_dims_mean_low_tier3_margin_lt_0.05,1
+6,Travel,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+7,Travel,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+8,Travel,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+9,Sports,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+11,Sports,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+12,Sports,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+13,Sports,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+14,Sports,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+15,Pets & Animals,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+16,Pets & Animals,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+17,Pets & Animals,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+18,Pets & Animals,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+19,Pets & Animals,vlm_best_dims_mean_low_tier3_margin_lt_0.05,0
+0,Food & Cooking,vlm_best_dims_mean_tier2_tier1_inversion,0
+1,Food & Cooking,vlm_best_dims_mean_tier2_tier1_inversion,0
+3,Food & Cooking,vlm_best_dims_mean_tier2_tier1_inversion,1
+4,Food & Cooking,vlm_best_dims_mean_tier2_tier1_inversion,0
+5,Food & Cooking,vlm_best_dims_mean_tier2_tier1_inversion,0
+6,Travel,vlm_best_dims_mean_tier2_tier1_inversion,0
+7,Travel,vlm_best_dims_mean_tier2_tier1_inversion,0
+8,Travel,vlm_best_dims_mean_tier2_tier1_inversion,0
+9,Sports,vlm_best_dims_mean_tier2_tier1_inversion,0
+11,Sports,vlm_best_dims_mean_tier2_tier1_inversion,0
+12,Sports,vlm_best_dims_mean_tier2_tier1_inversion,1
+13,Sports,vlm_best_dims_mean_tier2_tier1_inversion,0
+14,Sports,vlm_best_dims_mean_tier2_tier1_inversion,0
+15,Pets & Animals,vlm_best_dims_mean_tier2_tier1_inversion,0
+16,Pets & Animals,vlm_best_dims_mean_tier2_tier1_inversion,0
+17,Pets & Animals,vlm_best_dims_mean_tier2_tier1_inversion,0
+18,Pets & Animals,vlm_best_dims_mean_tier2_tier1_inversion,0
+19,Pets & Animals,vlm_best_dims_mean_tier2_tier1_inversion,0

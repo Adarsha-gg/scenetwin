@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 75,
+      "completeness": 40,
+      "specificity": 50,
+      "concision": 95,
+      "listener_utility": 45,
+      "overall": 61,
+      "rationale": "Accurately identifies high jump activity and girl, but misses hurdle jumping, running, speaking segments, and track setting details. Too vague about the full sequence of events shown. Concise but incomplete for understanding the full video."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 70,
+      "completeness": 75,
+      "specificity": 60,
+      "concision": 50,
+      "listener_utility": 65,
+      "overall": 64,
+      "rationale": "Captures main activities (hurdles, running, high jump, speaking) and identifies multiple children. However, contains grammatical errors ('and and'), lacks specificity about setting/clothing, and is somewhat awkwardly structured. Covers key events but presentation could be clearer."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Complete hallucination. Describes a kitchen scene with a chef and tomato-throwing, which bears no relation to the track and field video shown. Entirely inaccurate and useless for understanding the actual visual content."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 85,
+      "completeness": 90,
+      "specificity": 85,
+      "concision": 70,
+      "listener_utility": 88,
+      "overall": 84,
+      "rationale": "Highly accurate and comprehensive. Includes specific details (yellow shirt, black pants, hurdles, high jump, cushioned surface, background children). Captures the sequence of events and setting. Slightly verbose but provides excellent detail for a blind listener to understand the scene. Minor: doesn't explicitly mention 'track meet' context, but clearly conveys track and field setting."
+    }
+  ]
+}

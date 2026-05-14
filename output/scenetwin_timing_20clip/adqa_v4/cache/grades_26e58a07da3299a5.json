@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A woman slowly rides on a horse",
+      "rationale": "Directly states riding a horse."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of fence, stable, or location."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of pink cap or hoodie."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "rides on a horse",
+      "rationale": "Clearly identifies horse as key object."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "",
+      "rationale": "No text mentioned, but absence not explicitly confirmed."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a woman in a pink cap and casual attire rides a horse",
+      "rationale": "Directly states riding a horse."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a fenced paddock...near a stable",
+      "rationale": "Explicitly mentions fence and stable."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a woman in a pink cap and casual attire",
+      "rationale": "Pink cap confirmed but hoodie not mentioned."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "rides a horse",
+      "rationale": "Clearly identifies horse interaction."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "",
+      "rationale": "No text mentioned, but absence not explicitly stated."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A girl is riding a horse",
+      "rationale": "Directly states riding a horse."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "in a paddock",
+      "rationale": "Mentions paddock but no fence or stable explicitly stated."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of pink cap or hoodie."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "riding a horse",
+      "rationale": "Clearly identifies horse interaction."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "",
+      "rationale": "No text mentioned, but absence not explicitly confirmed."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Describes snowmobiles, not horse riding."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy landscape",
+      "rationale": "Describes snow terrain, not fenced stable area."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "wearing a helmet",
+      "rationale": "Mentions helmet, not pink cap or hoodie."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowmobiles",
+      "rationale": "Describes snowmobiles, not horse."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "",
+      "rationale": "No text mentioned, but absence not explicitly confirmed."
+    }
+  ]
+}

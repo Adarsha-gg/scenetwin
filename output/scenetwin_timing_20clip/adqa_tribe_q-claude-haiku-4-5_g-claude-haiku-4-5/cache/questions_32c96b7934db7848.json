@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the child holding and doing with it at the kitchen counter?",
+      "answer_key": "Holding tongs, using them to cook or serve food from a skillet",
+      "required_visual_evidence": [
+        "child with tongs",
+        "black skillet with food",
+        "kitchen counter"
+      ],
+      "importance": "critical",
+      "rationale": "Main action in high-need window (0-3s); essential for understanding the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of food is visible in the skillet?",
+      "answer_key": "Scrambled eggs or similar yellow/white cooked food",
+      "required_visual_evidence": [
+        "yellow food in black skillet",
+        "cooked texture"
+      ],
+      "importance": "critical",
+      "rationale": "Key object in high-need window; helps blind listener visualize the cooking activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this scene taking place?",
+      "answer_key": "In a kitchen at a granite or speckled countertop",
+      "required_visual_evidence": [
+        "kitchen setting",
+        "granite counter",
+        "appliances in background"
+      ],
+      "importance": "useful",
+      "rationale": "Setting context needed for spatial understanding of the activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is on the counter next to the skillet?",
+      "answer_key": "A white plate and a blue container or seasoning bottle",
+      "required_visual_evidence": [
+        "white plate",
+        "blue container",
+        "counter items"
+      ],
+      "importance": "useful",
+      "rationale": "Supporting objects that contextualize the cooking/serving setup"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the child's apparent emotional state during this activity?",
+      "answer_key": "Happy and engaged, smiling while cooking",
+      "required_visual_evidence": [
+        "smiling expression",
+        "focused posture",
+        "positive body language"
+      ],
+      "importance": "critical",
+      "rationale": "Emotional tone in high-need window (0-6s) conveys the nature of the moment"
+    }
+  ]
+}

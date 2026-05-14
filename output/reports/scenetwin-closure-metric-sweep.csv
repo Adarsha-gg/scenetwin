@@ -1,0 +1,81 @@
+scope,clip,tier,metric,value
+whole_cortex,clip_01,tier0_cross,L2_closure (orig),-63.17524337768555
+whole_cortex,clip_01,tier0_cross,cosine_closure,-0.2856419086456299
+whole_cortex,clip_01,tier0_cross,per_voxel_corr,-0.697279155254364
+whole_cortex,clip_01,tier0_cross,voxel_direction,-0.5
+whole_cortex,clip_01,tier0_cross,topk10_gap_L2,-19.553186416625977
+whole_cortex,clip_01,tier1_vatex_short,L2_closure (orig),-62.22114181518555
+whole_cortex,clip_01,tier1_vatex_short,cosine_closure,-0.2945544123649597
+whole_cortex,clip_01,tier1_vatex_short,per_voxel_corr,-0.4106326103210449
+whole_cortex,clip_01,tier1_vatex_short,voxel_direction,-0.5
+whole_cortex,clip_01,tier1_vatex_short,topk10_gap_L2,-18.052263259887695
+whole_cortex,clip_01,tier2_vatex_long,L2_closure (orig),-70.47737121582031
+whole_cortex,clip_01,tier2_vatex_long,cosine_closure,-0.3543890714645386
+whole_cortex,clip_01,tier2_vatex_long,per_voxel_corr,-0.4779149293899536
+whole_cortex,clip_01,tier2_vatex_long,voxel_direction,-0.5
+whole_cortex,clip_01,tier2_vatex_long,topk10_gap_L2,-20.34579849243164
+whole_cortex,clip_01,tier3_va11y,L2_closure (orig),-64.42347717285156
+whole_cortex,clip_01,tier3_va11y,cosine_closure,-0.3335704803466797
+whole_cortex,clip_01,tier3_va11y,per_voxel_corr,-0.8102363049983978
+whole_cortex,clip_01,tier3_va11y,voxel_direction,-0.5
+whole_cortex,clip_01,tier3_va11y,topk10_gap_L2,-20.045265197753906
+whole_cortex,clip_03,tier0_cross,L2_closure (orig),-76.83074188232422
+whole_cortex,clip_03,tier0_cross,cosine_closure,-0.26811403036117554
+whole_cortex,clip_03,tier0_cross,per_voxel_corr,-0.4739651083946228
+whole_cortex,clip_03,tier0_cross,voxel_direction,-0.5
+whole_cortex,clip_03,tier0_cross,topk10_gap_L2,-24.534605026245117
+whole_cortex,clip_03,tier1_vatex_short,L2_closure (orig),-84.77165985107422
+whole_cortex,clip_03,tier1_vatex_short,cosine_closure,-0.33957183361053467
+whole_cortex,clip_03,tier1_vatex_short,per_voxel_corr,-0.3843732476234436
+whole_cortex,clip_03,tier1_vatex_short,voxel_direction,-0.5
+whole_cortex,clip_03,tier1_vatex_short,topk10_gap_L2,-27.21882438659668
+whole_cortex,clip_03,tier2_vatex_long,L2_closure (orig),-77.87422180175781
+whole_cortex,clip_03,tier2_vatex_long,cosine_closure,-0.26318562030792236
+whole_cortex,clip_03,tier2_vatex_long,per_voxel_corr,-0.2956710457801819
+whole_cortex,clip_03,tier2_vatex_long,voxel_direction,-0.5
+whole_cortex,clip_03,tier2_vatex_long,topk10_gap_L2,-25.404314041137695
+whole_cortex,clip_03,tier3_va11y,L2_closure (orig),-75.92122650146484
+whole_cortex,clip_03,tier3_va11y,cosine_closure,-0.26027464866638184
+whole_cortex,clip_03,tier3_va11y,per_voxel_corr,-0.546288400888443
+whole_cortex,clip_03,tier3_va11y,voxel_direction,-0.5
+whole_cortex,clip_03,tier3_va11y,topk10_gap_L2,-23.86749839782715
+visual_roi,clip_01,tier0_cross,L2_closure (orig),-12.695962905883789
+visual_roi,clip_01,tier0_cross,cosine_closure,-0.3587045669555664
+visual_roi,clip_01,tier0_cross,per_voxel_corr,-0.5836749970912933
+visual_roi,clip_01,tier0_cross,voxel_direction,-0.5
+visual_roi,clip_01,tier0_cross,topk10_gap_L2,-5.326467037200928
+visual_roi,clip_01,tier1_vatex_short,L2_closure (orig),-7.847619533538818
+visual_roi,clip_01,tier1_vatex_short,cosine_closure,-0.21067875623703003
+visual_roi,clip_01,tier1_vatex_short,per_voxel_corr,-0.5418303310871124
+visual_roi,clip_01,tier1_vatex_short,voxel_direction,-0.5
+visual_roi,clip_01,tier1_vatex_short,topk10_gap_L2,-2.9365007877349854
+visual_roi,clip_01,tier2_vatex_long,L2_closure (orig),-8.837286949157715
+visual_roi,clip_01,tier2_vatex_long,cosine_closure,-0.2769313454627991
+visual_roi,clip_01,tier2_vatex_long,per_voxel_corr,-0.6982747316360474
+visual_roi,clip_01,tier2_vatex_long,voxel_direction,-0.5
+visual_roi,clip_01,tier2_vatex_long,topk10_gap_L2,-3.365224599838257
+visual_roi,clip_01,tier3_va11y,L2_closure (orig),-8.880876541137695
+visual_roi,clip_01,tier3_va11y,cosine_closure,-0.2641252279281616
+visual_roi,clip_01,tier3_va11y,per_voxel_corr,-0.6349331736564636
+visual_roi,clip_01,tier3_va11y,voxel_direction,-0.5
+visual_roi,clip_01,tier3_va11y,topk10_gap_L2,-3.295638084411621
+visual_roi,clip_03,tier0_cross,L2_closure (orig),-12.494105339050293
+visual_roi,clip_03,tier0_cross,cosine_closure,-0.20391100645065308
+visual_roi,clip_03,tier0_cross,per_voxel_corr,-0.5446529686450958
+visual_roi,clip_03,tier0_cross,voxel_direction,-0.5
+visual_roi,clip_03,tier0_cross,topk10_gap_L2,-2.4008803367614746
+visual_roi,clip_03,tier1_vatex_short,L2_closure (orig),-12.383601188659668
+visual_roi,clip_03,tier1_vatex_short,cosine_closure,-0.18620073795318604
+visual_roi,clip_03,tier1_vatex_short,per_voxel_corr,-0.3980463147163391
+visual_roi,clip_03,tier1_vatex_short,voxel_direction,-0.5
+visual_roi,clip_03,tier1_vatex_short,topk10_gap_L2,-3.4555153846740723
+visual_roi,clip_03,tier2_vatex_long,L2_closure (orig),-10.890146255493164
+visual_roi,clip_03,tier2_vatex_long,cosine_closure,-0.1524658203125
+visual_roi,clip_03,tier2_vatex_long,per_voxel_corr,-0.4038779139518738
+visual_roi,clip_03,tier2_vatex_long,voxel_direction,-0.5
+visual_roi,clip_03,tier2_vatex_long,topk10_gap_L2,-2.3617711067199707
+visual_roi,clip_03,tier3_va11y,L2_closure (orig),-13.182976722717285
+visual_roi,clip_03,tier3_va11y,cosine_closure,-0.24080801010131836
+visual_roi,clip_03,tier3_va11y,per_voxel_corr,-0.6382099986076355
+visual_roi,clip_03,tier3_va11y,voxel_direction,-0.5
+visual_roi,clip_03,tier3_va11y,topk10_gap_L2,-2.582815170288086

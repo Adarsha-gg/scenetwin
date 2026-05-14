@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "girl in a red hat runs up a steep, snow-covered hill...slips halfway and slides back down",
+      "rationale": "Names red hat, snow, and sliding motion, but describes running/climbing uphill, not sledding down an inflatable slide."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "between two blue slides",
+      "rationale": "Mentions blue slides but describes them as separate structures to run between, not an inflatable slide with striped sections and tubes."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a snowy playground...snow-covered hill",
+      "rationale": "Clearly establishes snow coverage on ground and hill."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of trees, fences, or background landscape elements."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a girl in a red hat...Another girl, wearing a knitted hat",
+      "rationale": "Explicitly identifies two people participating in the activity."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "trying to climb up a snowy hill",
+      "rationale": "Describes climbing uphill, not sledding/sliding down an inflatable slide."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of inflatable slide or its structure."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "snowy hill",
+      "rationale": "Confirms snow coverage, though minimal detail."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No background details provided."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A couple of girls",
+      "rationale": "Identifies two people, though minimal context."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "girl tries to run up a steep icy slope...slips and slides all the way down",
+      "rationale": "Describes sliding motion and snow, but emphasizes running uphill rather than sledding down an inflatable slide."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "icy slope",
+      "rationale": "Describes a natural slope, not an inflatable slide with specific structure and coloring."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "steep icy slope",
+      "rationale": "Mentions icy/snowy surface but focuses on slope rather than ground coverage."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No background details provided."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a girl...then a second girl starts her attempt",
+      "rationale": "Identifies two people participating in the activity."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles...ride off across the snow-covered terrain",
+      "rationale": "Describes snowmobile riding, completely contradicts sledding down an inflatable slide."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowmobiles",
+      "rationale": "Describes snowmobiles, not an inflatable slide."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "snow-covered terrain",
+      "rationale": "Confirms snow coverage."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of trees, fences, or specific background elements."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Identifies two people, though in wrong activity context."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Eating a burger.",
+      "required_visual_evidence": [
+        "subject eating",
+        "burger in hand"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the subject."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "Inside a fast-food restaurant.",
+      "required_visual_evidence": [
+        "restaurant interior",
+        "fast-food branding"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes location context."
+    },
+    {
+      "q_idx": 2,
+      "question": "What brand is prominently featured?",
+      "answer_key": "Burger King.",
+      "required_visual_evidence": [
+        "Burger King logo",
+        "branding on tray"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the brand context."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is written on the tray liner?",
+      "answer_key": "BURGER EATING.",
+      "required_visual_evidence": [
+        "text on tray liner"
+      ],
+      "importance": "useful",
+      "rationale": "Highlights key on-screen text."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A gray hoodie.",
+      "required_visual_evidence": [
+        "subject's clothing"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the subject's appearance."
+    }
+  ]
+}

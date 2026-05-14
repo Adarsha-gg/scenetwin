@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport are the boys playing and where does it take place?",
+      "answer_key": "They are playing volleyball on an outdoor dirt court.",
+      "required_visual_evidence": [
+        "volleyball",
+        "outdoor dirt court"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the core activity and setting of the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the two main actions that occur during the game.",
+      "answer_key": "One boy serves the ball, and another boy jumps to spike it over the net.",
+      "required_visual_evidence": [
+        "serves the ball",
+        "jumps",
+        "spikes",
+        "over the net"
+      ],
+      "importance": "critical",
+      "rationale": "Captures the key volleyball movements that define the gameplay."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the condition of the net and what is the overall tone of the game?",
+      "answer_key": "The net is slightly broken, and the setting is casual with lively, energetic play.",
+      "required_visual_evidence": [
+        "net is slightly broken",
+        "casual",
+        "lively",
+        "energetic"
+      ],
+      "importance": "useful",
+      "rationale": "Conveys the informal atmosphere and physical energy of the scene."
+    }
+  ]
+}

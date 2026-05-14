@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animals are the main subjects in this clip?",
+      "answer_key": "Multiple cats, including black and white/tabby colored cats",
+      "required_visual_evidence": [
+        "multiple cats",
+        "black cats",
+        "white and dark colored cats"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary subjects essential to understanding the clip's content"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main action the cats are performing?",
+      "answer_key": "Playing, wrestling, or interacting with each other on the floor",
+      "required_visual_evidence": [
+        "cats on floor",
+        "cats in motion",
+        "cats interacting"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the primary activity that defines the clip's narrative"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does this scene take place?",
+      "answer_key": "Indoors on a wooden floor near stairs and railings",
+      "required_visual_evidence": [
+        "wooden floor",
+        "stairs",
+        "railings",
+        "indoor setting"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the setting necessary for spatial understanding of the action"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many cats are visible in the frames?",
+      "answer_key": "Four cats are visible in the scene",
+      "required_visual_evidence": [
+        "multiple cats",
+        "four distinct feline shapes"
+      ],
+      "importance": "useful",
+      "rationale": "Quantifies the subjects to help listeners understand the scale of interaction"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the lighting condition in this indoor space?",
+      "answer_key": "Warm, dim indoor lighting with purple and golden tones",
+      "required_visual_evidence": [
+        "warm lighting",
+        "dim interior",
+        "golden and purple tones"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the ambient conditions that affect visibility and mood of the scene"
+    }
+  ]
+}

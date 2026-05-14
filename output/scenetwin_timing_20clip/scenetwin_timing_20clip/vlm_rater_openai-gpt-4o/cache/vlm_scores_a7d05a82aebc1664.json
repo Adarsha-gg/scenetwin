@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Description is unrelated to the images, mentioning a skier and slalom course, which are not present."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 20,
+      "completeness": 20,
+      "specificity": 20,
+      "concision": 50,
+      "listener_utility": 20,
+      "overall": 26,
+      "rationale": "Mentions mixing spinach in a bowl but lacks detail about the garlic and the presence of two people."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 80,
+      "completeness": 80,
+      "specificity": 80,
+      "concision": 80,
+      "listener_utility": 80,
+      "overall": 80,
+      "rationale": "Accurately describes the actions and setting, including the garlic and two people mixing spinach."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 90,
+      "completeness": 90,
+      "specificity": 90,
+      "concision": 90,
+      "listener_utility": 90,
+      "overall": 90,
+      "rationale": "Provides a clear and concise description of the actions involving garlic and spinach mixing."
+    }
+  ]
+}

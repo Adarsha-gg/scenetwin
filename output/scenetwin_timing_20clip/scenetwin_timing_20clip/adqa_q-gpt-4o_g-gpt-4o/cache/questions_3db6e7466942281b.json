@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Cooking scrambled eggs in a pan.",
+      "required_visual_evidence": [
+        "holding a spatula",
+        "scrambled eggs in a pan"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is the main subject located?",
+      "answer_key": "In a kitchen.",
+      "required_visual_evidence": [
+        "kitchen counter",
+        "refrigerator"
+      ],
+      "importance": "useful",
+      "rationale": "Sets the scene."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is the main subject using?",
+      "answer_key": "A spatula.",
+      "required_visual_evidence": [
+        "holding a spatula"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies a key object in use."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is on the counter next to the main subject?",
+      "answer_key": "A pink bowl and a plate.",
+      "required_visual_evidence": [
+        "pink bowl",
+        "plate"
+      ],
+      "importance": "useful",
+      "rationale": "Describes key objects in the setting."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the subject's shirt?",
+      "answer_key": "A cartoon character.",
+      "required_visual_evidence": [
+        "cartoon character on shirt"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the subject's appearance."
+    }
+  ]
+}

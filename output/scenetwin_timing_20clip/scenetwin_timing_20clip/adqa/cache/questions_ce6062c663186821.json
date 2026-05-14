@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What are the two people riding on, and what is the landscape like?",
+      "answer_key": "They are riding snowmobiles in a snowy landscape.",
+      "required_visual_evidence": [
+        "snowmobiles",
+        "snowy landscape",
+        "snow-covered terrain"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the primary setting and vehicles essential to understanding the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "What does one of the riders do while they are paused and conversing?",
+      "answer_key": "One rider wearing a helmet gestures while speaking.",
+      "required_visual_evidence": [
+        "gestures",
+        "speaking",
+        "helmet",
+        "paused"
+      ],
+      "importance": "useful",
+      "rationale": "Describes specific character behavior and body language during the interaction."
+    },
+    {
+      "q_idx": 2,
+      "question": "What happens after the riders finish their conversation?",
+      "answer_key": "They both rev their engines and ride off across the snow, leaving tracks behind.",
+      "required_visual_evidence": [
+        "rev engines",
+        "ride off",
+        "tracks",
+        "snow-covered terrain"
+      ],
+      "importance": "critical",
+      "rationale": "Captures the concluding action and visual consequence of their departure."
+    }
+  ]
+}

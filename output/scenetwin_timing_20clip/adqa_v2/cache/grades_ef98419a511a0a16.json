@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man is playing the sport curling",
+      "rationale": "Directly states the sport is curling."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "pushing the object across the ice, the slips and falls",
+      "rationale": "Names action but unclear if sliding or pushing; object not identified as stone."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "pushing the object across the ice",
+      "rationale": "Mentions ice but no indoor venue or rink details provided."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "pushing the object across the ice",
+      "rationale": "Object not identified; 'object' is too vague to confirm curling stone."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "other people stand around and clap and react",
+      "rationale": "Clearly indicates multiple people present observing."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen, a chef holds a cherry tomato",
+      "rationale": "Describes kitchen and tomato, not curling. Contradicts answer key."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef holds a cherry tomato and counts down in Spanish",
+      "rationale": "Describes wrong activity entirely; not curling or sliding."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen",
+      "rationale": "Describes kitchen, not curling rink or ice venue."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "cherry tomato",
+      "rationale": "Describes tomato, not curling stone."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "no people mentioned",
+      "rationale": "Only chef mentioned; no observers or assistants on rink."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "pushing a curling block",
+      "rationale": "Directly identifies curling activity."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "walks on the ice pushing a curling block and then falls down",
+      "rationale": "Describes action but 'walks' and 'pushing' unclear; no sliding motion stated."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on the ice",
+      "rationale": "Mentions ice but no indoor rink or venue details."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "curling block",
+      "rationale": "Identifies the object as curling block/stone."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "no other people mentioned",
+      "rationale": "No observers or assistants mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In an indoor curling rink, a man skillfully slides a curling stone",
+      "rationale": "Directly states curling sport and venue."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "slides a curling stone down the ice. As he releases the stone, he loses his balance and falls",
+      "rationale": "Clearly describes sliding, releasing stone, and falling sequence."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In an indoor curling rink",
+      "rationale": "Explicitly states indoor curling rink venue."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "curling stone",
+      "rationale": "Directly identifies the object released."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A small group of onlookers reacts with laughter and concern",
+      "rationale": "Clearly indicates multiple people observing and reacting."
+    }
+  ]
+}

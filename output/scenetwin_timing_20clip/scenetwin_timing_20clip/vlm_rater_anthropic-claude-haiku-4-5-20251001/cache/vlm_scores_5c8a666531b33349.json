@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 100,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely hallucinated content. Describes skiing and slalom poles when the video shows kitchen food preparation with spinach and garlic. No accuracy to the actual visual content."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 50,
+      "completeness": 20,
+      "specificity": 30,
+      "concision": 100,
+      "listener_utility": 15,
+      "overall": 23,
+      "rationale": "Identifies the general activity (mixing spinach) and mentions a woman, but lacks critical details: no mention of garlic, the wooden bowl, the two-person demonstration, or the specific hand-mixing action. Too vague for useful audio description."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 85,
+      "completeness": 95,
+      "specificity": 90,
+      "concision": 70,
+      "listener_utility": 90,
+      "overall": 86,
+      "rationale": "Accurately describes the kitchen setting, wooden bowl, spinach, garlic being dropped from a knife, and hand-mixing. Mentions two individuals and the salad preparation context. Slightly verbose with 'healthy salad' being somewhat interpretive, but comprehensive and useful for a blind listener."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 95,
+      "completeness": 85,
+      "specificity": 85,
+      "concision": 95,
+      "listener_utility": 85,
+      "overall": 89,
+      "rationale": "Highly accurate and specific description of the visible actions: garlic being dropped from knife, wooden bowl, spinach, and hand-mixing. Concise without unnecessary elaboration. Only minor gap: doesn't explicitly mention kitchen setting or that this is salad preparation, but the core visual information is clear and useful."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Describes snowmobiles, not jogging/running on fenced path."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy landscape",
+      "rationale": "Describes snow terrain, not rural/farm with fences."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "No animal mentioned; cross-category description."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "helmet",
+      "rationale": "Describes helmet, not green shirt/shorts/shoes."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snow-covered terrain",
+      "rationale": "No fence structures described; cross-category."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "small deer follow him",
+      "rationale": "Describes deer following, not person jogging/running."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "alongside a fence",
+      "rationale": "Mentions fence but no detail on type or setting context."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "small deer follow him",
+      "rationale": "Names deer but not position/state (lying on ground)."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing description provided."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "alongside a fence",
+      "rationale": "Mentions fence but no specifics on wooden/chain-link types."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "playing with a deer",
+      "rationale": "Describes playing, not jogging/running motion."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "fenced up to other side of the fence",
+      "rationale": "Mentions fence but unclear setting; no rural/farm context."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "deer which fenced up to other side",
+      "rationale": "Names deer but position unclear; not explicitly lying on ground."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "green top and navy bottom",
+      "rationale": "Directly states green shirt and dark shorts."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "fenced",
+      "rationale": "Mentions fence but no specifics on wooden/chain-link types."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "walks back and forth",
+      "rationale": "Describes walking, not jogging/running motion."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "along a fence",
+      "rationale": "Mentions fence but no detail on wooden/chain-link or rural setting."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "small deer mirrors his movements",
+      "rationale": "Names deer but describes it moving, not lying on ground."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "green shirt and navy shorts",
+      "rationale": "Directly states green shirt and navy shorts."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "along a fence",
+      "rationale": "Mentions fence but no specifics on wooden/chain-link types."
+    }
+  ]
+}

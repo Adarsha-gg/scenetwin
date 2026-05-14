@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Riding a horse in a fenced area.",
+      "required_visual_evidence": [
+        "person on horse",
+        "fenced area"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of setting is shown in the frames?",
+      "answer_key": "A stable or barn area.",
+      "required_visual_evidence": [
+        "barn",
+        "stable"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is the main subject interacting with?",
+      "answer_key": "A horse.",
+      "required_visual_evidence": [
+        "horse"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the main object of interaction."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the background?",
+      "answer_key": "Additional stable buildings.",
+      "required_visual_evidence": [
+        "stable buildings"
+      ],
+      "importance": "useful",
+      "rationale": "Gives additional context to the setting."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A pink cap and casual clothing.",
+      "required_visual_evidence": [
+        "pink cap",
+        "casual clothing"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the main subject's appearance."
+    }
+  ]
+}

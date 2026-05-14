@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What color is the man's shirt and what type of cookware is he using?",
+      "answer_key": "The man wears a grey shirt and uses a black cast iron skillet",
+      "required_visual_evidence": [
+        "grey shirt",
+        "black cast iron skillet"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes scene setup and identifies key cooking equipment"
+    },
+    {
+      "q_idx": 1,
+      "question": "What ingredients are being cooked together in the skillet?",
+      "answer_key": "Spaghetti and eggs are being cooked together in an omelette",
+      "required_visual_evidence": [
+        "spaghetti",
+        "eggs",
+        "omelette"
+      ],
+      "importance": "critical",
+      "rationale": "Core content of the cooking demonstration being shown"
+    },
+    {
+      "q_idx": 2,
+      "question": "What utensil does the man use to cook, and what cooking technique does he demonstrate?",
+      "answer_key": "He uses a fork to stir the mixture and moves the pan back and forth for even cooking",
+      "required_visual_evidence": [
+        "fork",
+        "stirs",
+        "moves pan back and forth",
+        "even cooking"
+      ],
+      "importance": "useful",
+      "rationale": "Describes cooking method and technique being demonstrated"
+    }
+  ]
+}

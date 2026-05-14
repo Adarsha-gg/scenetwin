@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of winter sport is being performed in this clip?",
+      "answer_key": "Slalom skiing",
+      "required_visual_evidence": [
+        "skier",
+        "snowy hill",
+        "flexible poles",
+        "slalom course"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the core sport activity being described"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the skier's movement pattern as they descend the slope.",
+      "answer_key": "The skier weaves between poles, alternating left and right while moving swiftly downhill",
+      "required_visual_evidence": [
+        "weaving",
+        "alternating left and right",
+        "descending",
+        "poles"
+      ],
+      "importance": "critical",
+      "rationale": "Captures essential spatial movement and technique of the performance"
+    },
+    {
+      "q_idx": 2,
+      "question": "What time of day is this skiing event taking place?",
+      "answer_key": "At night",
+      "required_visual_evidence": [
+        "night",
+        "dark conditions"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the environmental context and lighting conditions"
+    }
+  ]
+}

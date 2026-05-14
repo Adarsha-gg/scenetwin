@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Riding a snowmobile.",
+      "required_visual_evidence": [
+        "person on snowmobile",
+        "snowmobile tracks"
+      ],
+      "importance": "critical",
+      "rationale": "Main action performed by the subject."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "Snow-covered landscape with trees.",
+      "required_visual_evidence": [
+        "snow on ground",
+        "trees in background"
+      ],
+      "importance": "critical",
+      "rationale": "Provides context for the action."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key objects are involved in the scene?",
+      "answer_key": "Snowmobiles.",
+      "required_visual_evidence": [
+        "multiple snowmobiles",
+        "snowmobile tracks"
+      ],
+      "importance": "critical",
+      "rationale": "Central to the action taking place."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on the snowmobile?",
+      "answer_key": "Arctic Cat logo.",
+      "required_visual_evidence": [
+        "logo on snowmobile"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the brand of the snowmobile."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the main subject wearing?",
+      "answer_key": "Helmet and winter gear.",
+      "required_visual_evidence": [
+        "helmet",
+        "winter clothing"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the subject's appearance."
+    }
+  ]
+}

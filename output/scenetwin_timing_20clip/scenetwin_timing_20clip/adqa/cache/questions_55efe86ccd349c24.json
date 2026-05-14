@@ -1,0 +1,37 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What does the man in the beekeeper's suit do with his protective hood?",
+      "answer_key": "He removes it, revealing his face.",
+      "required_visual_evidence": [
+        "removes protective hood",
+        "reveals face"
+      ],
+      "importance": "critical",
+      "rationale": "Key action that defines the scene's main moment."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the casually dressed man holding and doing?",
+      "answer_key": "He is holding a large blue canister and drinking from a cup.",
+      "required_visual_evidence": [
+        "large blue canister",
+        "drinks from cup"
+      ],
+      "importance": "useful",
+      "rationale": "Describes secondary character's visible objects and actions."
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does this scene take place and what is the beekeeper standing in?",
+      "answer_key": "In a wooded area, standing in the back of a truck.",
+      "required_visual_evidence": [
+        "wooded area",
+        "back of truck"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes setting and spatial context for understanding the scene."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "A cat is sitting and watching another cat.",
+      "required_visual_evidence": [
+        "cat sitting",
+        "cat watching"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A dimly lit room with wooden floors.",
+      "required_visual_evidence": [
+        "dimly lit room",
+        "wooden floors"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the action."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key objects are visible in the room?",
+      "answer_key": "A television and a small table.",
+      "required_visual_evidence": [
+        "television",
+        "small table"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies important objects in the setting."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the position of the second cat?",
+      "answer_key": "The second cat is lying on its back.",
+      "required_visual_evidence": [
+        "cat lying on back"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main subject's interaction."
+    },
+    {
+      "q_idx": 4,
+      "question": "Is there any visible on-screen text?",
+      "answer_key": "No visible on-screen text.",
+      "required_visual_evidence": [
+        "absence of text"
+      ],
+      "importance": "useful",
+      "rationale": "Confirms lack of text information."
+    }
+  ]
+}

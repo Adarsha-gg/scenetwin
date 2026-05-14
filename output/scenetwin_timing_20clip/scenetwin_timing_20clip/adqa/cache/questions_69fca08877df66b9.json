@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What color clothing is the girl wearing during the track and field event?",
+      "answer_key": "A yellow shirt and black pants",
+      "required_visual_evidence": [
+        "yellow shirt",
+        "black pants"
+      ],
+      "importance": "critical",
+      "rationale": "Basic character identification essential for following the narrative"
+    },
+    {
+      "q_idx": 1,
+      "question": "What two athletic activities does the girl perform in this clip?",
+      "answer_key": "She runs and leaps over hurdles, and performs a high jump",
+      "required_visual_evidence": [
+        "runs and leaps over hurdles",
+        "high jump",
+        "cushioned surface"
+      ],
+      "importance": "critical",
+      "rationale": "Core actions that define the sports content and clip structure"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the girl doing when she stands on the track speaking?",
+      "answer_key": "She is speaking confidently about her experience while other children play in the background",
+      "required_visual_evidence": [
+        "stands on the track",
+        "speaking confidently",
+        "other children play in background"
+      ],
+      "importance": "useful",
+      "rationale": "Describes a key narrative moment showing her reflection and social context"
+    }
+  ]
+}

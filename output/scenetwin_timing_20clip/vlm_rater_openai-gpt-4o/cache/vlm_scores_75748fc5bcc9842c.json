@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 60,
+      "completeness": 40,
+      "specificity": 50,
+      "concision": 70,
+      "listener_utility": 50,
+      "overall": 54,
+      "rationale": "Accurately describes two cats but misses the third cat and setting details."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 90,
+      "completeness": 90,
+      "specificity": 90,
+      "concision": 85,
+      "listener_utility": 90,
+      "overall": 89,
+      "rationale": "Provides a detailed and accurate description of the scene, including all visible elements and setting."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely unrelated to the visual content."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 40,
+      "completeness": 50,
+      "specificity": 40,
+      "concision": 50,
+      "listener_utility": 40,
+      "overall": 44,
+      "rationale": "Includes some correct elements but inaccurately describes human interaction and misses key details."
+    }
+  ]
+}

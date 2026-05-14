@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Running and attempting a high jump.",
+      "required_visual_evidence": [
+        "running",
+        "jumping over bar"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is the scene taking place?",
+      "answer_key": "On a track and field area.",
+      "required_visual_evidence": [
+        "track",
+        "field"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the setting."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is involved in the action?",
+      "answer_key": "A high jump bar and mat.",
+      "required_visual_evidence": [
+        "bar",
+        "mat"
+      ],
+      "importance": "useful",
+      "rationale": "Highlights objects related to the action."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the background?",
+      "answer_key": "People and sports equipment.",
+      "required_visual_evidence": [
+        "people",
+        "equipment"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the scene."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A yellow shirt.",
+      "required_visual_evidence": [
+        "yellow shirt"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the main subject's appearance."
+    }
+  ]
+}

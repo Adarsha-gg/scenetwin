@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a small deer mirrors his movements",
+      "rationale": "Describes a deer, not horses grazing in pasture."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a zoo or animal enclosure",
+      "rationale": "Describes zoo, not equestrian facility with flags and formal entrance."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of KOA logo or branding."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No entrance sign or horse silhouette mentioned."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No horse in wooded area described."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "people are riding horses",
+      "rationale": "Describes riding, not grazing; no color details of horses."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "riding horses through the woods",
+      "rationale": "Only mentions woods, not equestrian facility with flags and formal entrance."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No KOA logo mentioned."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No entrance sign described."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "riding horses through the woods",
+      "rationale": "Mentions horse in woods but no rope/lead or standing detail."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "horses grazing",
+      "rationale": "Confirms grazing but no color details of the two horses."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A horse ranch sign is shown",
+      "rationale": "Mentions ranch but lacks flags, manicured grounds, formal entrance details."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No KOA logo mentioned."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A horse ranch sign is shown",
+      "rationale": "Mentions sign but no horse silhouette detail."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "people riding horses through woods",
+      "rationale": "Mentions horse in woods but no rope/lead or standing detail."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "Horses graze peacefully in a sunlit pasture",
+      "rationale": "Directly states horses grazing; context implies pasture setting."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "KOA Ranch",
+      "rationale": "Mentions ranch but lacks flags, manicured grounds, formal entrance details."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "sign for KOA Ranch",
+      "rationale": "Directly names KOA logo/branding."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "sign for KOA Ranch, featuring a silhouette of a horse",
+      "rationale": "Directly states horse silhouette on entrance sign."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "people riding horses along a wooded trail",
+      "rationale": "Mentions horse in woods but no rope/lead or standing detail."
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the woman wearing on her head, and what color is it?",
+      "answer_key": "A pink cap",
+      "required_visual_evidence": [
+        "pink cap",
+        "woman's head"
+      ],
+      "importance": "critical",
+      "rationale": "Distinctive identifying detail of the main character"
+    },
+    {
+      "q_idx": 1,
+      "question": "What action does the woman perform with the horse while riding?",
+      "answer_key": "She gently pats the horse's head",
+      "required_visual_evidence": [
+        "pats",
+        "horse's head",
+        "gentle"
+      ],
+      "importance": "critical",
+      "rationale": "Key narrative action showing interaction between rider and animal"
+    },
+    {
+      "q_idx": 2,
+      "question": "Describe the setting where this scene takes place.",
+      "answer_key": "A fenced paddock outdoors near a stable with evening light",
+      "required_visual_evidence": [
+        "fenced paddock",
+        "outdoors",
+        "stable",
+        "evening light"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes spatial context and atmospheric conditions of scene"
+    }
+  ]
+}

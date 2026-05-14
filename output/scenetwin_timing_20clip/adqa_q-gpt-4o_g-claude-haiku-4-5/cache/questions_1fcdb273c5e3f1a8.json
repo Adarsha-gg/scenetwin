@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Skiing down a slope.",
+      "required_visual_evidence": [
+        "subject skiing",
+        "downhill movement"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A snowy ski slope at night.",
+      "required_visual_evidence": [
+        "snowy slope",
+        "nighttime lighting"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the location and time."
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment is the main subject using?",
+      "answer_key": "Skis and poles.",
+      "required_visual_evidence": [
+        "skis",
+        "poles"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies key objects used by the subject."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the background?",
+      "answer_key": "Lights and distant slopes.",
+      "required_visual_evidence": [
+        "background lights",
+        "distant slopes"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the setting."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A jacket and helmet.",
+      "required_visual_evidence": [
+        "jacket",
+        "helmet"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the subject's attire."
+    }
+  ]
+}

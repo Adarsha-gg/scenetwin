@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier navigates a snowy hill",
+      "rationale": "Describes skiing, not mixing spinach."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "flexible poles in a slalom course",
+      "rationale": "Describes ski poles, not wooden bowl."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "No cutting board or mozzarella mentioned."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "The skier moves",
+      "rationale": "Describes one skier, not two pairs of hands."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No leaves mentioned; completely wrong content."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "mix spinach in a bowl",
+      "rationale": "Mentions mixing spinach but lacks detail on hands/action."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "in a bowl",
+      "rationale": "Bowl mentioned but not identified as wooden."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No cutting board or mozzarella mentioned."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A woman is explaining",
+      "rationale": "Only one person mentioned; no two pairs of hands."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "mix spinach",
+      "rationale": "Directly states spinach leaves being mixed."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "uses their hands to thoroughly mix the garlic and spinach together",
+      "rationale": "Clearly describes mixing action with hands."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "large wooden bowl filled with fresh spinach leaves",
+      "rationale": "Directly identifies wooden bowl with spinach."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "drops chopped garlic from a knife",
+      "rationale": "Mentions knife but no cutting board or mozzarella explicitly."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "One person drops...The other person uses their hands",
+      "rationale": "Two individuals with hands clearly identified."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "fresh spinach leaves",
+      "rationale": "Directly states spinach leaves."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "another person starts mixing the garlic and spinach leaves with their hands",
+      "rationale": "Directly describes mixing action with hands."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "wooden bowl...spinach",
+      "rationale": "Identifies wooden bowl with spinach inside."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "drops chopped garlic from a knife",
+      "rationale": "Knife mentioned but no cutting board or mozzarella."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A person drops...another person starts mixing",
+      "rationale": "Two people with hands clearly involved."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "spinach leaves",
+      "rationale": "Directly identifies spinach leaves."
+    }
+  ]
+}

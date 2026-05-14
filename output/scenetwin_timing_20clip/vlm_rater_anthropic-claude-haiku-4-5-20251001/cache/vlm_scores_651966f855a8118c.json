@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely hallucinated content. Describes snowmobiles, snow, helmets, and engine revving—none of which appear in the frames. The actual scene shows a man in a green shirt and navy shorts interacting with a small deer across a wooden fence in a grassy enclosure. This is a fundamental failure of visual accuracy."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 70,
+      "completeness": 40,
+      "specificity": 30,
+      "concision": 95,
+      "listener_utility": 35,
+      "overall": 34,
+      "rationale": "Captures the core elements (man, deer, fence) but is vague and incomplete. 'Small deer' is accurate, 'follow him' is somewhat accurate but doesn't clarify the fence barrier or the interactive nature of the engagement. Missing setting details (zoo/enclosure), clothing description, and the playful dynamic. Too brief to be fully useful."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 75,
+      "completeness": 60,
+      "specificity": 50,
+      "concision": 85,
+      "listener_utility": 55,
+      "overall": 65,
+      "rationale": "Identifies key elements: man, green top, navy bottom, deer, and fence separation. Grammar is awkward ('fenced up to other side') but meaning is discernible. Lacks setting context (zoo/enclosure), doesn't describe the interactive movement pattern clearly, and misses the playful engagement aspect. More accurate than B but less complete than D."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 90,
+      "completeness": 95,
+      "specificity": 85,
+      "concision": 80,
+      "listener_utility": 90,
+      "overall": 88,
+      "rationale": "Highly accurate and comprehensive. Correctly describes clothing (green shirt, navy shorts), the man's movement pattern (back and forth), the deer's mirroring behavior, the fence barrier, and the setting (zoo/animal enclosure). Captures the playful interactive dynamic ('follow-the-leader'). Well-structured and useful for a blind listener to understand the scene. Minor: could specify 'wooden fence' but this is minor."
+    }
+  ]
+}

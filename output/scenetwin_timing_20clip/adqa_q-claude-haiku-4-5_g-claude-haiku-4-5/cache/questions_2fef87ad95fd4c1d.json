@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is being played in this video?",
+      "answer_key": "Ice hockey",
+      "required_visual_evidence": [
+        "ice rink",
+        "hockey sticks",
+        "puck",
+        "goal net"
+      ],
+      "importance": "critical",
+      "rationale": "Core activity; visible throughout all frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting where this activity takes place?",
+      "answer_key": "Indoor ice hockey arena with overhead lighting",
+      "required_visual_evidence": [
+        "indoor facility",
+        "ceiling lights",
+        "boards",
+        "rink boards"
+      ],
+      "importance": "critical",
+      "rationale": "Essential context for understanding the environment"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment do the players have in their hands?",
+      "answer_key": "Hockey sticks",
+      "required_visual_evidence": [
+        "sticks held by players",
+        "stick contact with puck"
+      ],
+      "importance": "useful",
+      "rationale": "Key object defining the sport and main action"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many players are visible on the ice during gameplay?",
+      "answer_key": "Multiple players; approximately 6-8 visible",
+      "required_visual_evidence": [
+        "players scattered on ice",
+        "teams in action"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener understand scale of activity"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the primary action occurring on the ice?",
+      "answer_key": "Players skating and competing for the puck with hockey sticks",
+      "required_visual_evidence": [
+        "skating motion",
+        "stick handling",
+        "puck movement"
+      ],
+      "importance": "critical",
+      "rationale": "Main action essential to understanding the scene"
+    }
+  ]
+}

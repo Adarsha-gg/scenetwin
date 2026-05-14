@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes snowmobiles, not girls on snowy hill. Cross-category mismatch."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes snowmobiles, not playground with slides. Cross-category mismatch."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Describes snowmobiles, not second girl climbing. Cross-category mismatch."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A couple of girls are trying to climb up a snowy hill.",
+      "rationale": "Missing slip, slide back down, and halfway details. Too vague."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snowy hill",
+      "rationale": "Mentions snowy hill but omits playground, blue slides, steep, snow-covered details."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A couple of girls are trying to climb",
+      "rationale": "Implies second girl but lacks 'takes her turn' and specific action details."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "gets half way, slips and slides all the way down",
+      "rationale": "Covers all required elements: slips, slides back down, halfway."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "steep icy slope",
+      "rationale": "Missing playground context and blue slides. Has steep and snow-covered implied."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a second girl starts her attempt",
+      "rationale": "Identifies second girl and attempt but lacks 'eagerly' and 'takes her turn' phrasing."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "She slips halfway and slides back down",
+      "rationale": "Explicitly covers all required elements: slips, slides back down, halfway."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "snowy playground, steep, snow-covered hill between two blue slides",
+      "rationale": "Covers all required visual evidence comprehensively."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "Another girl eagerly takes her turn, attempting to climb the same hill",
+      "rationale": "Covers all required elements: second girl, takes turn, attempts, same hill."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What color is the rider's hat or headwear?",
+      "answer_key": "Pink or magenta",
+      "required_visual_evidence": [
+        "pink/magenta hat",
+        "rider wearing headwear"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive visual detail identifying the person in the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of animal is the rider mounted on?",
+      "answer_key": "A horse",
+      "required_visual_evidence": [
+        "horse",
+        "dark-colored horse",
+        "rider on horseback"
+      ],
+      "importance": "critical",
+      "rationale": "Central to understanding the clip's content and animal interaction"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the color and material of the fence in the foreground?",
+      "answer_key": "Brown wooden fence",
+      "required_visual_evidence": [
+        "brown fence",
+        "wooden rails",
+        "fence in foreground"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the setting and spatial context of the equestrian activity"
+    }
+  ]
+}

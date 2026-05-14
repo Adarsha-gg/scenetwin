@@ -1,0 +1,68 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of animals are shown grazing in the pasture?",
+      "answer_key": "Horses; one brown and one white with brown markings",
+      "required_visual_evidence": [
+        "horses grazing",
+        "pasture with fence",
+        "brown horse",
+        "white horse"
+      ],
+      "importance": "critical",
+      "rationale": "Main subjects of the clip; essential for understanding the scene content"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the name of the ranch shown on the sign?",
+      "answer_key": "Ziller Ranch",
+      "required_visual_evidence": [
+        "ranch sign",
+        "silhouette of horse",
+        "text on sign"
+      ],
+      "importance": "critical",
+      "rationale": "On-screen text identifying the location; key identifying information"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of fencing surrounds the pasture where the horses are?",
+      "answer_key": "Wooden rail fence",
+      "required_visual_evidence": [
+        "wooden fence",
+        "horizontal rails",
+        "pasture enclosure"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the setting and containment structure visible in multiple frames"
+    },
+    {
+      "q_idx": 3,
+      "question": "What animals appear in the wooded area in the later frames?",
+      "answer_key": "Moose or elk; large brown animals among trees",
+      "required_visual_evidence": [
+        "forest setting",
+        "large brown animals",
+        "dense vegetation",
+        "trees"
+      ],
+      "importance": "critical",
+      "rationale": "Introduces new main subjects; represents shift in clip content and location"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the overall setting or environment shown in this clip?",
+      "answer_key": "A ranch with pasture and adjacent wooded forest area",
+      "required_visual_evidence": [
+        "ranch sign",
+        "open pasture",
+        "wooden fencing",
+        "dense forest",
+        "trees"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the travel/location context; helps orient listener to the scene"
+    }
+  ]
+}

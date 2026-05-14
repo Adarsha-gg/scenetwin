@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Riding a horse.",
+      "required_visual_evidence": [
+        "person on horse",
+        "holding reins"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is the main subject located?",
+      "answer_key": "In a fenced area near a stable.",
+      "required_visual_evidence": [
+        "fence",
+        "stable building"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the setting."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A pink cap and a hoodie.",
+      "required_visual_evidence": [
+        "pink cap",
+        "hoodie"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the main subject's appearance."
+    },
+    {
+      "q_idx": 3,
+      "question": "What key object is the main subject interacting with?",
+      "answer_key": "A horse.",
+      "required_visual_evidence": [
+        "horse",
+        "riding"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the main object involved."
+    },
+    {
+      "q_idx": 4,
+      "question": "Is there any visible on-screen text?",
+      "answer_key": "No visible on-screen text.",
+      "required_visual_evidence": [
+        "absence of text"
+      ],
+      "importance": "useful",
+      "rationale": "Confirms absence of text."
+    }
+  ]
+}

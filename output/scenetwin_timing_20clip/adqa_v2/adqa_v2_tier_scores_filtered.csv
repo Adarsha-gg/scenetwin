@@ -1,0 +1,73 @@
+clip_idx,video_id,category,tier,gt,adqa_v2_score,adqa_v2_yes_rate,n_questions
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,tier0_cross,0,1.0,1.0,1
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,tier1_vatex_short,1,0.5,0.0,1
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,tier2_vatex_long,2,0.5,0.0,1
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,tier3_va11y,3,1.0,1.0,1
+1,058y9xGmmTQ_000206_000216,Food & Cooking,tier0_cross,0,0.0,0.0,5
+1,058y9xGmmTQ_000206_000216,Food & Cooking,tier1_vatex_short,1,0.1,0.0,5
+1,058y9xGmmTQ_000206_000216,Food & Cooking,tier2_vatex_long,2,0.5,0.4,5
+1,058y9xGmmTQ_000206_000216,Food & Cooking,tier3_va11y,3,0.9,0.8,5
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,tier0_cross,0,0.0,0.0,3
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,tier1_vatex_short,1,0.16666666666666666,0.0,3
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,tier2_vatex_long,2,0.5,0.0,3
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,tier3_va11y,3,0.8333333333333334,0.6666666666666666,3
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,tier0_cross,0,0.0,0.0,4
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,tier1_vatex_short,1,0.5,0.25,4
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,tier2_vatex_long,2,0.5,0.25,4
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,tier3_va11y,3,1.0,1.0,4
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,tier0_cross,0,0.0,0.0,4
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,tier1_vatex_short,1,0.5,0.25,4
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,tier2_vatex_long,2,1.0,1.0,4
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,tier3_va11y,3,1.0,1.0,4
+6,0HEi6q3bGaw_000011_000021,Travel,tier0_cross,0,0.0,0.0,3
+6,0HEi6q3bGaw_000011_000021,Travel,tier1_vatex_short,1,0.16666666666666666,0.0,3
+6,0HEi6q3bGaw_000011_000021,Travel,tier2_vatex_long,2,0.3333333333333333,0.0,3
+6,0HEi6q3bGaw_000011_000021,Travel,tier3_va11y,3,0.6666666666666666,0.3333333333333333,3
+7,09dQut5GJ68_000049_000059,Travel,tier0_cross,0,0.0,0.0,2
+7,09dQut5GJ68_000049_000059,Travel,tier1_vatex_short,1,0.25,0.0,2
+7,09dQut5GJ68_000049_000059,Travel,tier2_vatex_long,2,0.25,0.0,2
+7,09dQut5GJ68_000049_000059,Travel,tier3_va11y,3,1.0,1.0,2
+8,hOirknJr3os_000001_000011,Travel,tier0_cross,0,0.0,0.0,5
+8,hOirknJr3os_000001_000011,Travel,tier1_vatex_short,1,0.1,0.0,5
+8,hOirknJr3os_000001_000011,Travel,tier2_vatex_long,2,0.4,0.0,5
+8,hOirknJr3os_000001_000011,Travel,tier3_va11y,3,0.8,0.6,5
+9,TF4q9y0rJoc_000000_000010,Sports,tier0_cross,0,0.0,0.0,5
+9,TF4q9y0rJoc_000000_000010,Sports,tier1_vatex_short,1,0.4,0.2,5
+9,TF4q9y0rJoc_000000_000010,Sports,tier2_vatex_long,2,0.7,0.6,5
+9,TF4q9y0rJoc_000000_000010,Sports,tier3_va11y,3,0.9,0.8,5
+11,z8Q-s8AthrA_000002_000012,Sports,tier0_cross,0,0.0,0.0,5
+11,z8Q-s8AthrA_000002_000012,Sports,tier1_vatex_short,1,0.3,0.0,5
+11,z8Q-s8AthrA_000002_000012,Sports,tier2_vatex_long,2,0.6,0.4,5
+11,z8Q-s8AthrA_000002_000012,Sports,tier3_va11y,3,0.8,0.6,5
+12,abaLFY_GI8k_000295_000305,Sports,tier0_cross,0,0.0,0.0,4
+12,abaLFY_GI8k_000295_000305,Sports,tier1_vatex_short,1,0.375,0.25,4
+12,abaLFY_GI8k_000295_000305,Sports,tier2_vatex_long,2,0.25,0.25,4
+12,abaLFY_GI8k_000295_000305,Sports,tier3_va11y,3,1.0,1.0,4
+13,KFcH6BYZWhc_000011_000021,Sports,tier0_cross,0,0.0,0.0,5
+13,KFcH6BYZWhc_000011_000021,Sports,tier1_vatex_short,1,0.4,0.2,5
+13,KFcH6BYZWhc_000011_000021,Sports,tier2_vatex_long,2,0.7,0.4,5
+13,KFcH6BYZWhc_000011_000021,Sports,tier3_va11y,3,0.9,0.8,5
+14,UDD6YcChywc_000000_000010,Sports,tier0_cross,0,0.0,0.0,5
+14,UDD6YcChywc_000000_000010,Sports,tier1_vatex_short,1,0.6,0.4,5
+14,UDD6YcChywc_000000_000010,Sports,tier2_vatex_long,2,0.6,0.4,5
+14,UDD6YcChywc_000000_000010,Sports,tier3_va11y,3,1.0,1.0,5
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,tier0_cross,0,0.0,0.0,4
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,tier1_vatex_short,1,0.375,0.0,4
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,tier2_vatex_long,2,0.625,0.25,4
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,tier3_va11y,3,0.625,0.25,4
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,tier0_cross,0,0.0,0.0,3
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,tier1_vatex_short,1,0.0,0.0,3
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,tier2_vatex_long,2,0.3333333333333333,0.0,3
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,tier3_va11y,3,0.5,0.0,3
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,tier0_cross,0,0.6666666666666666,0.6666666666666666,3
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,tier1_vatex_short,1,0.6666666666666666,0.6666666666666666,3
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,tier2_vatex_long,2,0.6666666666666666,0.3333333333333333,3
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,tier3_va11y,3,0.8333333333333334,0.6666666666666666,3
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,tier0_cross,0,0.125,0.0,4
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,tier1_vatex_short,1,0.125,0.0,4
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,tier2_vatex_long,2,0.375,0.0,4
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,tier3_va11y,3,0.625,0.5,4
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,tier0_cross,0,0.0,0.0,4
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,tier1_vatex_short,1,0.25,0.0,4
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,tier2_vatex_long,2,0.75,0.5,4
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,tier3_va11y,3,0.875,0.75,4

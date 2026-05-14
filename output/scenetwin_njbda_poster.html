@@ -1,0 +1,788 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SceneTwin NJBDA Poster</title>
+  <style>
+    @page {
+      size: 48in 36in;
+      margin: 0;
+    }
+
+    :root {
+      --ink: #192026;
+      --muted: #58636d;
+      --line: #d8dde2;
+      --paper: #fbfaf7;
+      --panel: #ffffff;
+      --teal: #0f8b8d;
+      --teal-dark: #09686a;
+      --rose: #b8325e;
+      --gold: #c98a18;
+      --green: #4f8a3b;
+      --blue: #315b8f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background: #e8e6df;
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.24;
+    }
+
+    body {
+      padding: 24px;
+    }
+
+    .poster {
+      width: 48in;
+      height: 36in;
+      margin: 0 auto;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(15, 139, 141, 0.09), rgba(255, 255, 255, 0) 8.5in),
+        var(--paper);
+      border: 1px solid #c8c3b8;
+      box-shadow: 0 18px 60px rgba(25, 32, 38, 0.18);
+      padding: 0.72in 0.78in 0.7in;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 0.34in;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr 10.8in;
+      gap: 0.5in;
+      align-items: end;
+      border-bottom: 0.035in solid var(--ink);
+      padding-bottom: 0.32in;
+    }
+
+    .eyebrow {
+      color: var(--teal-dark);
+      font-size: 0.32in;
+      font-weight: 800;
+      letter-spacing: 0;
+      text-transform: uppercase;
+      margin-bottom: 0.16in;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 34.6in;
+      font-size: 0.92in;
+      line-height: 0.98;
+      letter-spacing: 0;
+      font-weight: 900;
+    }
+
+    .subtitle {
+      margin: 0.24in 0 0;
+      max-width: 35.5in;
+      font-size: 0.36in;
+      color: #33404a;
+      font-weight: 540;
+    }
+
+    .hero-metric {
+      background: var(--ink);
+      color: #fff;
+      border-radius: 0.08in;
+      padding: 0.28in 0.32in;
+      display: grid;
+      gap: 0.16in;
+    }
+
+    .hero-metric .label {
+      color: #bce8e6;
+      font-size: 0.28in;
+      font-weight: 750;
+      text-transform: uppercase;
+    }
+
+    .hero-metric .rho {
+      font-size: 1.28in;
+      line-height: 0.9;
+      font-weight: 950;
+      letter-spacing: 0;
+    }
+
+    .hero-metric .small {
+      color: #f5f1e9;
+      font-size: 0.26in;
+      line-height: 1.22;
+      font-weight: 650;
+    }
+
+    .columns {
+      display: grid;
+      grid-template-columns: 1fr 1.04fr 1fr;
+      gap: 0.34in;
+      min-height: 0;
+    }
+
+    .col {
+      display: grid;
+      grid-auto-rows: min-content;
+      gap: 0.28in;
+      min-width: 0;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.9);
+      border: 0.018in solid var(--line);
+      border-top: 0.09in solid var(--teal);
+      border-radius: 0.08in;
+      padding: 0.25in 0.28in 0.27in;
+      break-inside: avoid;
+    }
+
+    section.problem {
+      border-top-color: var(--rose);
+    }
+
+    section.results {
+      border-top-color: var(--gold);
+    }
+
+    section.tribe {
+      border-top-color: var(--green);
+    }
+
+    h2 {
+      margin: 0 0 0.14in;
+      font-size: 0.42in;
+      line-height: 1.02;
+      letter-spacing: 0;
+      font-weight: 900;
+    }
+
+    h3 {
+      margin: 0.16in 0 0.08in;
+      font-size: 0.27in;
+      line-height: 1.1;
+      font-weight: 850;
+    }
+
+    p {
+      margin: 0 0 0.13in;
+      font-size: 0.245in;
+      color: #27333d;
+    }
+
+    .lead {
+      font-size: 0.31in;
+      color: var(--ink);
+      font-weight: 720;
+      line-height: 1.18;
+    }
+
+    .muted {
+      color: var(--muted);
+    }
+
+    .kicker {
+      color: var(--teal-dark);
+      font-weight: 850;
+    }
+
+    .callout {
+      border-left: 0.06in solid var(--rose);
+      padding: 0.08in 0 0.08in 0.18in;
+      margin-top: 0.16in;
+      font-size: 0.29in;
+      font-weight: 800;
+      color: #361b24;
+      background: #fff4f6;
+    }
+
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.14in;
+      margin-top: 0.16in;
+    }
+
+    .stat {
+      border: 0.016in solid #ccd6d8;
+      background: #f4fbfa;
+      border-radius: 0.07in;
+      padding: 0.14in;
+      min-height: 1.06in;
+    }
+
+    .stat strong {
+      display: block;
+      font-size: 0.42in;
+      line-height: 0.96;
+      color: var(--teal-dark);
+      font-weight: 930;
+    }
+
+    .stat span {
+      display: block;
+      margin-top: 0.08in;
+      font-size: 0.19in;
+      color: var(--muted);
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .pipeline {
+      display: grid;
+      gap: 0.13in;
+      margin-top: 0.12in;
+    }
+
+    .pipe-row {
+      display: grid;
+      grid-template-columns: 1.1fr 0.22in 1.1fr 0.22in 1.15fr;
+      align-items: stretch;
+      gap: 0.1in;
+    }
+
+    .pipe-box {
+      border-radius: 0.07in;
+      padding: 0.15in;
+      background: #f7f8fa;
+      border: 0.016in solid #d4d9df;
+      min-height: 1.24in;
+    }
+
+    .pipe-box b {
+      display: block;
+      font-size: 0.245in;
+      margin-bottom: 0.07in;
+    }
+
+    .pipe-box span {
+      display: block;
+      font-size: 0.19in;
+      color: var(--muted);
+    }
+
+    .arrow {
+      align-self: center;
+      text-align: center;
+      font-size: 0.34in;
+      font-weight: 900;
+      color: var(--teal-dark);
+    }
+
+    .two-signal {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.14in;
+      margin-top: 0.14in;
+    }
+
+    .signal {
+      border-radius: 0.07in;
+      padding: 0.16in;
+      min-height: 1.55in;
+      color: #fff;
+    }
+
+    .signal.clip {
+      background: var(--blue);
+    }
+
+    .signal.adqa {
+      background: var(--rose);
+    }
+
+    .signal b {
+      display: block;
+      font-size: 0.27in;
+      margin-bottom: 0.08in;
+    }
+
+    .signal span {
+      display: block;
+      font-size: 0.2in;
+      color: rgba(255, 255, 255, 0.9);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 0.1in;
+      font-size: 0.2in;
+    }
+
+    th,
+    td {
+      padding: 0.095in 0.08in;
+      border-bottom: 0.012in solid #dce1e5;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      font-size: 0.18in;
+      color: #3e4a54;
+      text-transform: uppercase;
+      font-weight: 900;
+      letter-spacing: 0;
+      background: #f3f5f7;
+    }
+
+    td.num,
+    th.num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    tr.best td {
+      background: #fff7e8;
+      font-weight: 840;
+    }
+
+    .bar-chart {
+      display: grid;
+      gap: 0.12in;
+      margin-top: 0.16in;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 2.1in 1fr 0.78in;
+      gap: 0.12in;
+      align-items: center;
+      font-size: 0.2in;
+    }
+
+    .bar-label {
+      font-weight: 760;
+      color: #33404a;
+    }
+
+    .track {
+      height: 0.26in;
+      background: #e6eaed;
+      border-radius: 0.04in;
+      overflow: hidden;
+    }
+
+    .bar {
+      height: 100%;
+      background: var(--teal);
+    }
+
+    .bar.gold {
+      background: var(--gold);
+    }
+
+    .bar.rose {
+      background: var(--rose);
+    }
+
+    .bar.blue {
+      background: var(--blue);
+    }
+
+    .bar-val {
+      text-align: right;
+      font-weight: 850;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .robust-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.12in;
+      margin-top: 0.14in;
+    }
+
+    .robust {
+      border: 0.016in solid #d9dee2;
+      border-radius: 0.07in;
+      padding: 0.13in;
+      background: #fafbfc;
+      min-height: 1.18in;
+    }
+
+    .robust b {
+      display: block;
+      font-size: 0.23in;
+      margin-bottom: 0.07in;
+    }
+
+    .robust strong {
+      font-size: 0.34in;
+      color: var(--teal-dark);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .checklist {
+      display: grid;
+      gap: 0.1in;
+      margin-top: 0.12in;
+    }
+
+    .check {
+      display: grid;
+      grid-template-columns: 0.38in 1fr;
+      gap: 0.12in;
+      align-items: start;
+      font-size: 0.22in;
+    }
+
+    .mark {
+      width: 0.3in;
+      height: 0.3in;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: #fff;
+      background: var(--green);
+      font-weight: 900;
+      font-size: 0.2in;
+      line-height: 1;
+      margin-top: 0.01in;
+    }
+
+    .mini-plot {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 0.16in;
+      align-items: center;
+      margin-top: 0.14in;
+    }
+
+    .forecast {
+      height: 2.6in;
+      border-left: 0.025in solid #6f7a83;
+      border-bottom: 0.025in solid #6f7a83;
+      position: relative;
+      background:
+        linear-gradient(0deg, transparent 24%, rgba(0,0,0,0.05) 25%, transparent 26%),
+        linear-gradient(90deg, transparent 24%, rgba(0,0,0,0.05) 25%, transparent 26%),
+        #fbfcfd;
+      background-size: 100% 25%, 25% 100%, auto;
+      border-radius: 0 0.04in 0.04in 0;
+      margin: 0.12in 0.1in 0.02in 0.04in;
+    }
+
+    .dot {
+      position: absolute;
+      width: 0.18in;
+      height: 0.18in;
+      margin: -0.09in;
+      border-radius: 50%;
+      background: #b7c0c7;
+      border: 0.018in solid #fff;
+      box-shadow: 0 0 0 0.01in rgba(25,32,38,0.15);
+    }
+
+    .dot.fail {
+      width: 0.28in;
+      height: 0.28in;
+      margin: -0.14in;
+      background: var(--rose);
+    }
+
+    .forecast-label {
+      font-size: 0.18in;
+      color: var(--muted);
+      margin-top: 0.06in;
+    }
+
+    .source {
+      font-size: 0.165in;
+      color: #66717a;
+      line-height: 1.25;
+      margin-top: 0.16in;
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.3in;
+      align-items: center;
+      border-top: 0.018in solid var(--line);
+      padding-top: 0.18in;
+      color: #4a5560;
+      font-size: 0.2in;
+    }
+
+    .tagline {
+      font-weight: 780;
+      color: var(--ink);
+    }
+
+    .qr {
+      width: 0.9in;
+      height: 0.9in;
+      display: grid;
+      place-items: center;
+      border: 0.018in solid #aeb6bd;
+      color: #68737d;
+      font-size: 0.16in;
+      text-align: center;
+      background: #fff;
+    }
+
+    @media screen and (max-width: 1400px) {
+      body {
+        padding: 0;
+        overflow: auto;
+      }
+
+      .poster {
+        transform: scale(0.24);
+        transform-origin: top left;
+        margin: 0;
+      }
+    }
+
+    @media print {
+      body {
+        padding: 0;
+        background: var(--paper);
+      }
+
+      .poster {
+        border: 0;
+        box-shadow: none;
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="poster">
+    <header>
+      <div>
+        <div class="eyebrow">SceneTwin · NJBDA 2026 · May 15, 2026</div>
+        <h1>Reference-free evaluation of audio description quality for blind and low-vision video access</h1>
+        <p class="subtitle">Frame-grounded comprehension QA plus video-text grounding ranks audio descriptions without requiring a human-written reference answer.</p>
+      </div>
+      <aside class="hero-metric" aria-label="Headline metric">
+        <div class="label">Best ensemble</div>
+        <div class="rho">ρ = 0.9354</div>
+        <div class="small">54/54 pairwise tier3 wins<br>15/18 fully ordered clips</div>
+      </aside>
+    </header>
+
+    <div class="columns">
+      <div class="col">
+        <section class="problem">
+          <h2>Problem</h2>
+          <p class="lead">Blind and low-vision viewers rely on audio descriptions to experience the same feeling as actually watching a video, but high-quality review is slow, subjective, and hard to scale.</p>
+          <p>Common automated scores need a reference caption or reward surface-level similarity. AD quality is different: a good description must help a listener answer the visual questions that matter.</p>
+          <div class="callout">Goal: score candidate AD text from the video itself, with no human reference description.</div>
+        </section>
+
+        <section>
+          <h2>Data</h2>
+          <div class="stat-grid">
+            <div class="stat"><strong>20</strong><span>Short video clips</span></div>
+            <div class="stat"><strong>4</strong><span>Quality tiers</span></div>
+            <div class="stat"><strong>80</strong><span>Candidate ADs</span></div>
+          </div>
+          <h3>Quality ladder</h3>
+          <table>
+            <thead>
+              <tr><th>Tier</th><th>Description source</th></tr>
+            </thead>
+            <tbody>
+              <tr><td><b>tier0</b></td><td>Cross-modal baseline from unrelated content</td></tr>
+              <tr><td><b>tier1</b></td><td>Short VATEX caption</td></tr>
+              <tr><td><b>tier2</b></td><td>Long VATEX caption</td></tr>
+              <tr><td><b>tier3</b></td><td>Professional VA11y audio description</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section>
+          <h2>Method</h2>
+          <p>SceneTwin combines two complementary signals, normalized within each clip and averaged 50/50.</p>
+          <div class="two-signal">
+            <div class="signal clip">
+              <b>CLIP-L14 grounding</b>
+              <span>Cosine similarity between candidate AD text and sampled video frames. Catches wrong or hallucinated descriptions.</span>
+            </div>
+            <div class="signal adqa">
+              <b>Frame-grounded ADQA</b>
+              <span>LLM writes visual comprehension questions from frames. A second LLM blindly grades candidate descriptions.</span>
+            </div>
+          </div>
+          <div class="pipeline" aria-label="Pipeline">
+            <div class="pipe-row">
+              <div class="pipe-box"><b>Video frames</b><span>Sample the visual evidence directly from the clip.</span></div>
+              <div class="arrow">→</div>
+              <div class="pipe-box"><b>Questions + grounding</b><span>Generate ADQA questions and CLIP frame-text scores.</span></div>
+              <div class="arrow">→</div>
+              <div class="pipe-box"><b>Tier ranking</b><span>Score each AD candidate against expected human quality order.</span></div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="col">
+        <section class="results">
+          <h2>Primary Results</h2>
+          <p class="lead">The ensemble separates professional AD from lower-quality descriptions on every pairwise comparison.</p>
+          <table>
+            <thead>
+              <tr>
+                <th>Config</th>
+                <th class="num">ρ</th>
+                <th class="num">Pairwise wins</th>
+                <th class="num">Fully ordered</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>CLIP only</td>
+                <td class="num">~0.73</td>
+                <td class="num">48/54</td>
+                <td class="num">10-11/18</td>
+              </tr>
+              <tr>
+                <td>ADQA only (Claude→Claude)</td>
+                <td class="num">0.803</td>
+                <td class="num">51/54</td>
+                <td class="num">8/18</td>
+              </tr>
+              <tr>
+                <td>Multi-judge ADQA mean</td>
+                <td class="num">0.933</td>
+                <td class="num">53/54</td>
+                <td class="num">16/18</td>
+              </tr>
+              <tr class="best">
+                <td>Frame-grounded ADQA + CLIP 50/50</td>
+                <td class="num">0.9354</td>
+                <td class="num">54/54</td>
+                <td class="num">15/18</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <div class="bar-chart" aria-label="Spearman rho bar chart">
+            <div class="bar-row">
+              <div class="bar-label">CLIP only</div>
+              <div class="track"><div class="bar blue" style="width: 73%;"></div></div>
+              <div class="bar-val">.73</div>
+            </div>
+            <div class="bar-row">
+              <div class="bar-label">ADQA only</div>
+              <div class="track"><div class="bar rose" style="width: 80.3%;"></div></div>
+              <div class="bar-val">.803</div>
+            </div>
+            <div class="bar-row">
+              <div class="bar-label">Multi-judge</div>
+              <div class="track"><div class="bar gold" style="width: 93.3%;"></div></div>
+              <div class="bar-val">.933</div>
+            </div>
+            <div class="bar-row">
+              <div class="bar-label">ADQA + CLIP</div>
+              <div class="track"><div class="bar" style="width: 93.54%;"></div></div>
+              <div class="bar-val">.9354</div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Bias Checks</h2>
+          <p>Professional AD is often longer. The score should not simply reward verbosity.</p>
+          <div class="stat-grid">
+            <div class="stat"><strong>0.318</strong><span>Word-count baseline ρ</span></div>
+            <div class="stat"><strong>0/18</strong><span>Word-count full order</span></div>
+            <div class="stat"><strong>0.874</strong><span>Length-residualized ρ</span></div>
+          </div>
+          <div class="checklist">
+            <div class="check"><div class="mark">✓</div><div><b>Length alone fails.</b> Word count cannot fully order any clip.</div></div>
+            <div class="check"><div class="mark">✓</div><div><b>Signal survives residualization.</b> Removing length still leaves strong rank correlation.</div></div>
+          </div>
+        </section>
+
+        <section>
+          <h2>Cross-Model Robustness</h2>
+          <p>Different questioner/grader pairs preserve the ranking signal, reducing concern that the result is a single-model artifact.</p>
+          <div class="robust-grid">
+            <div class="robust"><b>Claude→Claude</b><strong>0.803</strong></div>
+            <div class="robust"><b>Claude→GPT-4o</b><strong>0.730</strong></div>
+            <div class="robust"><b>GPT-4o→Claude</b><strong>0.789</strong></div>
+          </div>
+          <p class="source">All reported single-pair ADQA runs preserve positive tier ordering; averaging judges further stabilizes performance.</p>
+        </section>
+      </div>
+
+      <div class="col">
+        <section>
+          <h2>Why It Works</h2>
+          <p><span class="kicker">CLIP</span> asks whether the description is visually grounded. <span class="kicker">ADQA</span> asks whether the description supports comprehension.</p>
+          <table>
+            <thead>
+              <tr><th>Failure mode</th><th>Detected by</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Wrong scene or hallucinated action</td><td>CLIP-L14 grounding</td></tr>
+              <tr><td>Vague but visually plausible text</td><td>Frame-grounded ADQA</td></tr>
+              <tr><td>Overly generic caption that misses key facts</td><td>ADQA questions</td></tr>
+              <tr><td>Model-specific grader noise</td><td>Cross-model / multi-judge checks</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section class="tribe">
+          <h2>Secondary Finding: TRIBE Risk Forecast</h2>
+          <p class="lead">TRIBE is useful upstream: it forecasts which clips automatic comprehension scoring may fail on.</p>
+          <div class="stat-grid">
+            <div class="stat"><strong>100%</strong><span>Recall at top 2</span></div>
+            <div class="stat"><strong>1.0</strong><span>ROC-AUC pilot</span></div>
+            <div class="stat"><strong>0.065</strong><span>Bonferroni p</span></div>
+          </div>
+          <div class="mini-plot">
+            <div>
+              <div class="forecast" aria-label="Risk forecast plot">
+                <span class="dot fail" style="left: 88%; top: 18%;"></span>
+                <span class="dot fail" style="left: 78%; top: 28%;"></span>
+                <span class="dot" style="left: 69%; top: 48%;"></span>
+                <span class="dot" style="left: 52%; top: 42%;"></span>
+                <span class="dot" style="left: 45%; top: 55%;"></span>
+                <span class="dot" style="left: 36%; top: 61%;"></span>
+                <span class="dot" style="left: 30%; top: 66%;"></span>
+                <span class="dot" style="left: 24%; top: 62%;"></span>
+                <span class="dot" style="left: 19%; top: 72%;"></span>
+                <span class="dot" style="left: 14%; top: 70%;"></span>
+              </div>
+              <div class="forecast-label">TRIBE risk score ranks the two known ADQA full-order failures first.</div>
+            </div>
+            <p>Frame as pilot evidence: TRIBE does not improve the scorer directly, but can route high-risk clips to human review or stronger adjudication.</p>
+          </div>
+        </section>
+
+        <section>
+          <h2>Takeaway</h2>
+          <p class="lead">Reference-free AD evaluation is feasible when visual grounding and listener comprehension are scored together.</p>
+          <div class="checklist">
+            <div class="check"><div class="mark">✓</div><div>Scores candidate AD without a human reference description.</div></div>
+            <div class="check"><div class="mark">✓</div><div>Ranks professional VA11y descriptions above lower-quality tiers.</div></div>
+            <div class="check"><div class="mark">✓</div><div>Bias and cross-model checks support robustness beyond verbosity or one model pair.</div></div>
+          </div>
+          <p class="source">Primary data: <code>output/scenetwin_timing_20clip/ensemble/</code><br>Summaries: <code>wiki/research/scenetwin-multijudge-adqa.md</code>, <code>wiki/research/scenetwin-tribe-failure-forecast.md</code></p>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      <div><span class="tagline">SceneTwin:</span> scalable, reference-free audio-description quality evaluation for accessibility/HCI research.</div>
+      <div class="qr">QR / repo link</div>
+    </footer>
+  </main>
+</body>
+</html>

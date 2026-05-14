@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Describes snowmobiles, not person in red jacket. Cross-category content."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowmobiles...ride off across the snow",
+      "rationale": "No inflatable structure mentioned. Cross-category content."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Describes snowmobiles, not people on inflatable. Cross-category."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A couple of girls are trying to climb",
+      "rationale": "No mention of red jacket or person's clothing color."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "No inflatable structure mentioned. Missing critical detail."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A couple of girls",
+      "rationale": "Identifies two people but no details about their clothing or actions on inflatable."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A girl tries to run up a steep icy slope",
+      "rationale": "No mention of red jacket or clothing color."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "steep icy slope",
+      "rationale": "No inflatable structure mentioned. Missing critical detail."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a second girl starts her attempt",
+      "rationale": "Identifies two people but lacks clothing details and confirmation both on inflatable."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a girl in a red hat",
+      "rationale": "Describes red hat, not red jacket. Wrong clothing item."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "between two blue slides",
+      "rationale": "Mentions blue slides but no white sections or inflatable description. Vague structure details."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a girl in a red hat...Another girl, wearing a knitted hat, eagerly takes her turn",
+      "rationale": "Clearly identifies two people with clothing details attempting the hill."
+    }
+  ]
+}

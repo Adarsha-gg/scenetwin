@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Climbing a snowy hill.",
+      "required_visual_evidence": [
+        "subject climbing",
+        "snowy hill"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A snowy playground.",
+      "required_visual_evidence": [
+        "snow",
+        "playground equipment"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is involved in the scene?",
+      "answer_key": "A blue slide.",
+      "required_visual_evidence": [
+        "blue slide",
+        "playground"
+      ],
+      "importance": "useful",
+      "rationale": "Highlights a significant object."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A red hat and white jacket.",
+      "required_visual_evidence": [
+        "red hat",
+        "white jacket"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the main subject's appearance."
+    },
+    {
+      "q_idx": 4,
+      "question": "Is there any visible on-screen text?",
+      "answer_key": "No visible text.",
+      "required_visual_evidence": [
+        "absence of text"
+      ],
+      "importance": "useful",
+      "rationale": "Confirms lack of text."
+    }
+  ]
+}

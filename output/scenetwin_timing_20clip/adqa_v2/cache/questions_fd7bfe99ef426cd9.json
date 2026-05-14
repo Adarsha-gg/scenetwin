@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A yellow shirt and dark pants",
+      "required_visual_evidence": [
+        "yellow shirt",
+        "dark pants",
+        "consistent across frames"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the main subject visually throughout the sequence of activities"
+    },
+    {
+      "q_idx": 1,
+      "question": "What sport or activity is the person participating in?",
+      "answer_key": "Track and field, specifically hurdles or obstacle course training",
+      "required_visual_evidence": [
+        "red running track",
+        "hurdles/barriers",
+        "athletic field setting"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the primary activity and context for understanding the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this takes place?",
+      "answer_key": "An outdoor athletic stadium or sports complex with a red running track",
+      "required_visual_evidence": [
+        "red track surface",
+        "white goal/net",
+        "stadium buildings",
+        "night lighting"
+      ],
+      "importance": "critical",
+      "rationale": "Provides essential spatial context for the viewer to understand the environment"
+    },
+    {
+      "q_idx": 3,
+      "question": "What equipment or objects are visible on the track?",
+      "answer_key": "Red and blue hurdles, a white soccer goal, and training barriers",
+      "required_visual_evidence": [
+        "red hurdles",
+        "blue barriers",
+        "white goal net"
+      ],
+      "importance": "useful",
+      "rationale": "Describes key objects that define the training setup and activities"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the person's main action in the later frames?",
+      "answer_key": "Running toward and preparing to jump over or navigate the hurdles",
+      "required_visual_evidence": [
+        "running motion",
+        "approaching hurdles",
+        "athletic positioning"
+      ],
+      "importance": "critical",
+      "rationale": "Captures the dynamic action sequence essential to understanding the clip's narrative"
+    }
+  ]
+}

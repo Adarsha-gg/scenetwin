@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a small deer mirrors his movements",
+      "rationale": "Describes deer, not horses. Contradicts answer key."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No sign or ranch name mentioned. Cross-category description."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a fence",
+      "rationale": "Mentions fence generically, not wooden rail type."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No wooded animals mentioned. Describes zoo setting instead."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "zoo or animal enclosure",
+      "rationale": "Describes zoo, not ranch with pasture and forest."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "people are riding horses",
+      "rationale": "Mentions horses but not grazing or their colors/markings."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No ranch sign or name mentioned."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No fencing description provided."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "through the woods",
+      "rationale": "Mentions woods but not animals in wooded area."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "riding horses through the woods",
+      "rationale": "Mentions horses and woods but lacks ranch, pasture, fencing details."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "horses grazing",
+      "rationale": "Names horses grazing but omits colors/markings (brown, white)."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A horse ranch sign is shown",
+      "rationale": "Mentions sign but no ranch name given. Answer key is Ziller Ranch."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No fencing type described."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "people riding horses through woods",
+      "rationale": "Mentions woods but not moose/elk or large brown animals."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "horse ranch sign, horses grazing, wooded trail",
+      "rationale": "Directly conveys ranch, pasture, and wooded forest setting."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "Horses graze peacefully in a sunlit pasture",
+      "rationale": "Names horses grazing but omits specific colors/markings."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "KOA Ranch",
+      "rationale": "Names wrong ranch. Answer key is Ziller Ranch, not KOA."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No fencing type mentioned."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "riding horses along a wooded trail",
+      "rationale": "Mentions wooded trail but not moose/elk or large brown animals."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "ranch sign, horses graze in pasture, wooded trail",
+      "rationale": "Conveys ranch, pasture, and wooded forest environment clearly."
+    }
+  ]
+}

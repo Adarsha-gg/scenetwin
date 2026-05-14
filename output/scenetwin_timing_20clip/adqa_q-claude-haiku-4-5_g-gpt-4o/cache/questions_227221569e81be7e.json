@@ -1,0 +1,61 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man in the gray hoodie doing?",
+      "answer_key": "Eating food, appearing to eat a burger or sandwich",
+      "required_visual_evidence": [
+        "man in gray hoodie",
+        "eating motion",
+        "food in hands"
+      ],
+      "importance": "critical",
+      "rationale": "Main action visible across multiple frames showing eating behavior"
+    },
+    {
+      "q_idx": 1,
+      "question": "What fast food restaurant is referenced in the video?",
+      "answer_key": "Burger King",
+      "required_visual_evidence": [
+        "Burger King logo",
+        "on-screen text"
+      ],
+      "importance": "critical",
+      "rationale": "Clear on-screen text and branding visible in final frames"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this takes place?",
+      "answer_key": "Indoor institutional or commercial building with glass windows",
+      "required_visual_evidence": [
+        "glass windows",
+        "ceiling lights",
+        "interior walls"
+      ],
+      "importance": "useful",
+      "rationale": "Background environment consistent across frames shows indoor setting"
+    },
+    {
+      "q_idx": 3,
+      "question": "What text appears on the promotional material shown?",
+      "answer_key": "Burger King Burger Eating",
+      "required_visual_evidence": [
+        "on-screen text",
+        "promotional material"
+      ],
+      "importance": "useful",
+      "rationale": "Visible text on poster/material in final frames"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the man wearing?",
+      "answer_key": "Gray or blue hoodie sweatshirt",
+      "required_visual_evidence": [
+        "gray hoodie",
+        "clothing visible throughout"
+      ],
+      "importance": "useful",
+      "rationale": "Consistent identifying clothing visible in all frames"
+    }
+  ]
+}

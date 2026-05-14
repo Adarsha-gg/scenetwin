@@ -1,0 +1,61 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the child doing in the kitchen?",
+      "answer_key": "Cooking or preparing food in a skillet on the stove",
+      "required_visual_evidence": [
+        "child at stove",
+        "skillet with food",
+        "holding utensil"
+      ],
+      "importance": "critical",
+      "rationale": "Main action visible across all frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of food is being cooked in the pan?",
+      "answer_key": "Eggs, appears to be scrambled eggs",
+      "required_visual_evidence": [
+        "yellow food in skillet",
+        "cooked appearance"
+      ],
+      "importance": "useful",
+      "rationale": "Key object clearly visible in multiple frames"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this scene taking place?",
+      "answer_key": "In a kitchen at a countertop or stove area",
+      "required_visual_evidence": [
+        "kitchen counter",
+        "stove",
+        "cabinets"
+      ],
+      "importance": "critical",
+      "rationale": "Setting essential for understanding context"
+    },
+    {
+      "q_idx": 3,
+      "question": "What utensil is the child using to cook?",
+      "answer_key": "A spatula or cooking utensil",
+      "required_visual_evidence": [
+        "utensil in hand",
+        "stirring motion"
+      ],
+      "importance": "useful",
+      "rationale": "Key object used throughout the activity"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is on the counter next to the stove?",
+      "answer_key": "A white plate and a blue container or seasoning bottle",
+      "required_visual_evidence": [
+        "white plate",
+        "blue container"
+      ],
+      "importance": "useful",
+      "rationale": "Relevant objects in immediate cooking area"
+    }
+  ]
+}

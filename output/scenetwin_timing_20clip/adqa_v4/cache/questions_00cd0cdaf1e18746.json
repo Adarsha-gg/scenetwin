@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Removing a beekeeping hat.",
+      "required_visual_evidence": [
+        "removing hat",
+        "beekeeping suit"
+      ],
+      "importance": "critical",
+      "rationale": "Main action performed by the subject."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location?",
+      "answer_key": "A wooded area.",
+      "required_visual_evidence": [
+        "trees",
+        "outdoors"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the scene."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is the second person holding?",
+      "answer_key": "A large blue thermos.",
+      "required_visual_evidence": [
+        "blue thermos",
+        "holding"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies a significant object in the scene."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the second person doing?",
+      "answer_key": "Drinking from a cup.",
+      "required_visual_evidence": [
+        "drinking",
+        "cup"
+      ],
+      "importance": "critical",
+      "rationale": "Main action performed by the second person."
+    },
+    {
+      "q_idx": 4,
+      "question": "What visible text is on the second person's shirt?",
+      "answer_key": "Partial text: 'BRA'.",
+      "required_visual_evidence": [
+        "text on shirt"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies visible text on clothing."
+    }
+  ]
+}

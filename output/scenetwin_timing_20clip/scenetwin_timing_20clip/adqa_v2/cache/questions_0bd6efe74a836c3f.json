@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is being played in this clip?",
+      "answer_key": "Curling",
+      "required_visual_evidence": [
+        "curling rink with colored rings",
+        "red stone on white and blue target",
+        "player in delivery position"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the sport and primary context for understanding all actions shown."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main player doing in the first frame?",
+      "answer_key": "Delivering or sliding a curling stone toward the target",
+      "required_visual_evidence": [
+        "player in low extended position",
+        "stone on ice",
+        "forward motion"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the primary action that defines the clip's central moment."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the playing surface?",
+      "answer_key": "A curling stone and concentric colored rings marking the target",
+      "required_visual_evidence": [
+        "red stone",
+        "blue and white circular rings",
+        "white ice surface"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects essential to understanding the curling game setup and objective."
+    },
+    {
+      "q_idx": 3,
+      "question": "Where is this clip taking place?",
+      "answer_key": "Inside a curling rink or arena",
+      "required_visual_evidence": [
+        "indoor ice surface",
+        "arena walls and boards",
+        "overhead lighting"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the controlled indoor environment typical of competitive curling."
+    },
+    {
+      "q_idx": 4,
+      "question": "What happens to the player after the delivery?",
+      "answer_key": "The player slides across the ice and then lies or falls on the surface",
+      "required_visual_evidence": [
+        "player in extended horizontal position on ice",
+        "progression from frame 1 to frame 3"
+      ],
+      "importance": "useful",
+      "rationale": "Shows the follow-through and completion of the curling delivery technique."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animals are prominently featured in the frames?",
+      "answer_key": "Horses",
+      "required_visual_evidence": [
+        "horses grazing",
+        "horses in the forest"
+      ],
+      "importance": "critical",
+      "rationale": "Main subject of the frames."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the video?",
+      "answer_key": "A ranch with a forested area",
+      "required_visual_evidence": [
+        "ranch sign",
+        "trees and forest"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes location context."
+    },
+    {
+      "q_idx": 2,
+      "question": "What text is visible on the sign in the first frame?",
+      "answer_key": "Kohl Ranch",
+      "required_visual_evidence": [
+        "sign with text"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the location."
+    },
+    {
+      "q_idx": 3,
+      "question": "What flags are visible in the frames?",
+      "answer_key": "KOA, American, Canadian",
+      "required_visual_evidence": [
+        "flags in the background"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates international presence."
+    },
+    {
+      "q_idx": 4,
+      "question": "What activity are the horses engaged in?",
+      "answer_key": "Grazing and walking",
+      "required_visual_evidence": [
+        "horses grazing",
+        "horses walking in forest"
+      ],
+      "importance": "critical",
+      "rationale": "Describes main action."
+    }
+  ]
+}

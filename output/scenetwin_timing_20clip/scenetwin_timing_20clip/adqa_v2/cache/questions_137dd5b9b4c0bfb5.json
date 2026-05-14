@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What color jacket is the person wearing in the first frame?",
+      "answer_key": "Red jacket",
+      "required_visual_evidence": [
+        "person in red jacket",
+        "standing on snow slope"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies key visual characteristic of person in opening scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of inflatable structure is visible on the snowy surface?",
+      "answer_key": "Inflatable slide or bounce house with white and dark blue sections",
+      "required_visual_evidence": [
+        "white and dark blue inflatable",
+        "snow-covered ground",
+        "tube-like sections"
+      ],
+      "importance": "critical",
+      "rationale": "Central object defining the setting and activity being performed"
+    },
+    {
+      "q_idx": 2,
+      "question": "How many people are visible sliding or playing on the inflatable in the final frame?",
+      "answer_key": "Two people",
+      "required_visual_evidence": [
+        "person in brown/tan jacket",
+        "person in light colored clothing",
+        "both on inflatable surface"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the number of participants engaged in the activity"
+    }
+  ]
+}

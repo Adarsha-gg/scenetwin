@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this clip?",
+      "answer_key": "A person is walking or moving through snow",
+      "required_visual_evidence": [
+        "person in dark clothing",
+        "snow-covered ground",
+        "walking motion"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes primary action and subject for the entire clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or environment where this activity takes place?",
+      "answer_key": "A snowy outdoor area, possibly a street or path",
+      "required_visual_evidence": [
+        "heavy snow coverage",
+        "outdoor setting",
+        "buildings or structures visible"
+      ],
+      "importance": "critical",
+      "rationale": "Essential context for understanding the travel scenario and conditions"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the ground in the snow?",
+      "answer_key": "Footprints and rope or cord marks in the snow",
+      "required_visual_evidence": [
+        "rope or line visible",
+        "footprints in snow",
+        "ground markings"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates equipment or safety measures being used during the activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What color is the visible equipment or object in the lower frames?",
+      "answer_key": "Blue",
+      "required_visual_evidence": [
+        "blue object",
+        "lower portion of frame",
+        "equipment"
+      ],
+      "importance": "useful",
+      "rationale": "Helps identify specific gear being used in the snowy conditions"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible in this clip?",
+      "answer_key": "At least two people in dark winter clothing",
+      "required_visual_evidence": [
+        "multiple figures",
+        "dark clothing",
+        "different positions in frames"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies whether this is a solo or group travel activity"
+    }
+  ]
+}

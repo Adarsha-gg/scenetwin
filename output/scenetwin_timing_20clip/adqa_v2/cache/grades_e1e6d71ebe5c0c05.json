@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Cross-category description about snowmobiles, not cats."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy landscape",
+      "rationale": "Cross-category description about outdoor snow terrain, not indoor hallway."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "people on snowmobiles",
+      "rationale": "Cross-category description about people, not cats playing."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "One cat is lying on the ground as another looks around",
+      "rationale": "Describes only two cats, answer key requires four cats."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on the ground",
+      "rationale": "Mentions ground but lacks hallway, wooden floor, walls, staircase details."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "lying on the ground as another looks around",
+      "rationale": "Vague interaction; lacks dynamic play or wrestling description."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "three cats are relaxing",
+      "rationale": "Describes three cats, answer key requires four cats."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "hardwood floor",
+      "rationale": "Mentions hardwood floor but lacks hallway context, walls, staircase."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "three cats are relaxing",
+      "rationale": "Describes relaxing and massaging, contradicts playful wrestling interaction."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "three cats are on a hardwood floor",
+      "rationale": "Describes three cats, answer key requires four cats."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "hardwood floor",
+      "rationale": "Mentions hardwood floor and living room but lacks hallway, staircase, walls."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "orange cat stands over a black and white cat that is lying down, gently swatting at it",
+      "rationale": "Clearly describes playful interaction and dynamic poses between cats."
+    }
+  ]
+}

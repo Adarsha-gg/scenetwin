@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A man on a motorcycle pulls a sleigh in the snow.",
+      "rationale": "Describes motorcycle, not bicycle. Contradicts answer key."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "in the snow",
+      "rationale": "Explicitly states snowy outdoor setting."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "motorcycle",
+      "rationale": "Mentions motorcycle, not bicycle. Contradicts answer key."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing or footwear details provided."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "",
+      "rationale": "No text mentioned, but absence not explicitly confirmed."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A man on a motorbike is pulling a sled",
+      "rationale": "Describes motorbike, not bicycle. Contradicts answer key."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "through snow and ice",
+      "rationale": "Explicitly states snowy outdoor setting."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "motorbike",
+      "rationale": "Mentions motorbike, not bicycle. Contradicts answer key."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing or footwear details provided."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "",
+      "rationale": "No text mentioned, but absence not explicitly confirmed."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a man rides a motorcycle",
+      "rationale": "Describes motorcycle, not bicycle. Contradicts answer key."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a snowy landscape",
+      "rationale": "Explicitly states snowy outdoor setting."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "motorcycle",
+      "rationale": "Mentions motorcycle, not bicycle. Contradicts answer key."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No clothing or footwear details provided."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "",
+      "rationale": "No text mentioned, but absence not explicitly confirmed."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A man in a green shirt and navy shorts walks back and forth along a fence.",
+      "rationale": "Describes walking with deer, not bicycle riding. Completely different scene."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "The setting appears to be a zoo or animal enclosure",
+      "rationale": "Describes zoo setting, not snowy outdoor area. Contradicts answer key."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No bicycle mentioned. Completely different scene."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man in a green shirt and navy shorts",
+      "rationale": "Provides clothing details, though not dark clothing as answer key specifies."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "",
+      "rationale": "No text mentioned, but absence not explicitly confirmed."
+    }
+  ]
+}

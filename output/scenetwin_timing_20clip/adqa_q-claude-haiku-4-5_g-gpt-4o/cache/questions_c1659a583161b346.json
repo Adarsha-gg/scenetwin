@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the child doing in the kitchen?",
+      "answer_key": "Cooking or preparing food in a skillet on the stovetop",
+      "required_visual_evidence": [
+        "child at counter",
+        "skillet with food",
+        "cooking utensil"
+      ],
+      "importance": "critical",
+      "rationale": "Main action visible across all frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of food is visible in the skillet?",
+      "answer_key": "Scrambled eggs or chopped vegetables being cooked",
+      "required_visual_evidence": [
+        "yellow food in skillet",
+        "cooked mixture"
+      ],
+      "importance": "useful",
+      "rationale": "Key object and cooking content"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this scene taking place?",
+      "answer_key": "In a kitchen at a counter or stovetop",
+      "required_visual_evidence": [
+        "kitchen counter",
+        "stovetop",
+        "cabinets"
+      ],
+      "importance": "critical",
+      "rationale": "Setting essential for understanding context"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is on the counter next to the skillet?",
+      "answer_key": "A white plate and a pink bowl",
+      "required_visual_evidence": [
+        "white plate",
+        "pink bowl",
+        "counter items"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects in immediate cooking area"
+    },
+    {
+      "q_idx": 4,
+      "question": "What utensil is the child using to cook?",
+      "answer_key": "A spatula or cooking utensil to stir the food",
+      "required_visual_evidence": [
+        "utensil in hand",
+        "stirring motion"
+      ],
+      "importance": "useful",
+      "rationale": "Important detail of cooking technique"
+    }
+  ]
+}

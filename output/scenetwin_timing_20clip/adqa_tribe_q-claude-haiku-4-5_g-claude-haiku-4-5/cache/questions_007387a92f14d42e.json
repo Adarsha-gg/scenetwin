@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What winter sport or activity are the people participating in?",
+      "answer_key": "Sledding or snow tubing down an inflatable slope",
+      "required_visual_evidence": [
+        "inflatable tube slide",
+        "people sliding down snow",
+        "winter setting"
+      ],
+      "importance": "critical",
+      "rationale": "Core activity is invisible without AD; defines entire scene purpose"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the structure people are using to slide down.",
+      "answer_key": "A large inflatable tube slide with blue and white striped sections",
+      "required_visual_evidence": [
+        "inflatable structure",
+        "blue and white stripes",
+        "curved slide design"
+      ],
+      "importance": "critical",
+      "rationale": "Main object in scene; essential for understanding the activity setup"
+    },
+    {
+      "q_idx": 2,
+      "question": "What happens to the person in the red hat during the sequence?",
+      "answer_key": "They slide down the slope and reach the bottom of the inflatable slide",
+      "required_visual_evidence": [
+        "person in red hat",
+        "sliding motion",
+        "reaching bottom"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (11.9–14.9s); tracks main subject's progression through activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are visible actively sledding or waiting to sled?",
+      "answer_key": "At least three people; one sliding, others at top or bottom of slope",
+      "required_visual_evidence": [
+        "multiple participants",
+        "person in red",
+        "person in brown jacket"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener understand social context and activity flow"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the ground surface covered with throughout the scene?",
+      "answer_key": "Snow; the entire slope and surrounding area are snow-covered",
+      "required_visual_evidence": [
+        "white snow coverage",
+        "winter conditions",
+        "snowy ground"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes season and environmental context for the activity"
+    }
+  ]
+}

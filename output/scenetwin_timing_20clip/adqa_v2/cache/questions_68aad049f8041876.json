@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject wearing on their head?",
+      "answer_key": "A large metal pipe or cylindrical container",
+      "required_visual_evidence": [
+        "large metal pipe",
+        "cylindrical shape",
+        "worn over head"
+      ],
+      "importance": "critical",
+      "rationale": "Dominant visual element; essential to understanding the scene's unusual nature"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person's primary action throughout the video?",
+      "answer_key": "Looking through or examining the pipe on their head",
+      "required_visual_evidence": [
+        "hands near pipe",
+        "looking through opening",
+        "examining object"
+      ],
+      "importance": "critical",
+      "rationale": "Core action that defines the clip's content and comedic intent"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this takes place?",
+      "answer_key": "Outdoors in a wooded or forested area with bare trees",
+      "required_visual_evidence": [
+        "bare trees",
+        "outdoor setting",
+        "natural landscape"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes context for understanding the environment and activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What clothing is the main subject wearing?",
+      "answer_key": "White or light-colored jacket or shirt and a white cap",
+      "required_visual_evidence": [
+        "white jacket",
+        "white cap",
+        "light-colored clothing"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listeners visualize the person's appearance and overall scene composition"
+    },
+    {
+      "q_idx": 4,
+      "question": "Is there another person visible in the video, and what are they doing?",
+      "answer_key": "Yes, another person in blue clothing is visible, appearing to assist or observe",
+      "required_visual_evidence": [
+        "second person",
+        "blue clothing",
+        "nearby presence"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates this is a shared activity or demonstration with multiple participants"
+    }
+  ]
+}

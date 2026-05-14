@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Riding horses through a wooded area.",
+      "required_visual_evidence": [
+        "people on horses",
+        "wooded area"
+      ],
+      "importance": "critical",
+      "rationale": "Main action performed by the subjects."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location?",
+      "answer_key": "A ranch with horses and wooded trails.",
+      "required_visual_evidence": [
+        "ranch sign",
+        "horses",
+        "wooded trails"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the overall setting of the video."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key objects are involved?",
+      "answer_key": "Horses and a ranch sign.",
+      "required_visual_evidence": [
+        "horses",
+        "ranch sign"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies important objects in the scene."
+    },
+    {
+      "q_idx": 3,
+      "question": "What text is visible on the sign?",
+      "answer_key": "K-Hill Ranch",
+      "required_visual_evidence": [
+        "text on ranch sign"
+      ],
+      "importance": "critical",
+      "rationale": "Provides specific on-screen text information."
+    },
+    {
+      "q_idx": 4,
+      "question": "What flags are visible in the background?",
+      "answer_key": "Flags of the USA, Canada, and KOA.",
+      "required_visual_evidence": [
+        "flags in background"
+      ],
+      "importance": "useful",
+      "rationale": "Adds context to the location setting."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A man in a green shirt and navy shorts walks back and forth along a fence",
+      "rationale": "Describes walking, not horse riding. Wrong activity entirely."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "zoo or animal enclosure",
+      "rationale": "Describes zoo, not ranch with wooded trails."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a small deer",
+      "rationale": "Mentions deer, not horses or ranch sign."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No sign text mentioned. Wrong scene entirely."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No flags mentioned. Wrong scene entirely."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "people are riding horses through the woods",
+      "rationale": "Directly states main subject and activity with required elements."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "through the woods",
+      "rationale": "Mentions wooded area but no ranch identification or sign."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "riding horses",
+      "rationale": "Mentions horses but no ranch sign reference."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No sign or text mentioned."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No flags mentioned."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "people riding horses through woods",
+      "rationale": "Directly states main subject with both required elements."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "horse ranch sign, horses grazing, people riding horses through woods",
+      "rationale": "Mentions ranch sign and wooded area but lacks explicit ranch name/identification."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "horse ranch sign, horses",
+      "rationale": "Mentions both objects but vaguely; no specific ranch name."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A horse ranch sign is shown",
+      "rationale": "Sign mentioned but no text content provided."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No flags mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "group of people riding horses along a wooded trail",
+      "rationale": "Directly states main subject with both required elements."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "KOA Ranch, Horses graze, people riding horses along a wooded trail",
+      "rationale": "Explicitly identifies ranch, horses, and wooded trails."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "sign for KOA Ranch, featuring a silhouette of a horse. Horses graze",
+      "rationale": "Clearly identifies both ranch sign and horses."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "sign for KOA Ranch",
+      "rationale": "States 'KOA Ranch' but answer key is 'K-Hill Ranch'. Contradicts answer key."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No flags mentioned in description."
+    }
+  ]
+}

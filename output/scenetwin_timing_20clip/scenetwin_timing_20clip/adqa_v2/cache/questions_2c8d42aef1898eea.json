@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the child doing with the cooking pan?",
+      "answer_key": "Stirring or scooping food in a black pan with a spatula",
+      "required_visual_evidence": [
+        "child holding spatula",
+        "black pan with food",
+        "kitchen counter setting"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and primary object are central to understanding the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is this activity taking place?",
+      "answer_key": "In a kitchen at a counter or stovetop area",
+      "required_visual_evidence": [
+        "kitchen counter",
+        "granite countertop",
+        "white plate",
+        "cooking pan"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is essential for AD comprehension of the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of food appears to be in the pan?",
+      "answer_key": "Scrambled eggs or similar yellow/light-colored cooked food",
+      "required_visual_evidence": [
+        "yellow food in pan",
+        "cooked appearance",
+        "black cooking pan"
+      ],
+      "importance": "useful",
+      "rationale": "Food identification helps listeners understand the cooking activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What utensil is the child using to cook?",
+      "answer_key": "A black spatula or cooking utensil",
+      "required_visual_evidence": [
+        "black spatula",
+        "child's hand holding utensil",
+        "pan"
+      ],
+      "importance": "useful",
+      "rationale": "Tool identification clarifies the cooking method and technique"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the counter near the cooking area?",
+      "answer_key": "A white plate, a blue container, and a pink bowl",
+      "required_visual_evidence": [
+        "white plate",
+        "blue container",
+        "pink bowl",
+        "counter items"
+      ],
+      "importance": "useful",
+      "rationale": "Surrounding objects provide context for the cooking preparation scene"
+    }
+  ]
+}

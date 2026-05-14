@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Description is unrelated to the images, describing a skiing scene instead of cooking."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 90,
+      "completeness": 80,
+      "specificity": 70,
+      "concision": 85,
+      "listener_utility": 85,
+      "overall": 82,
+      "rationale": "Accurately describes the main action and setting. Could be more specific about the food."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 85,
+      "completeness": 75,
+      "specificity": 75,
+      "concision": 90,
+      "listener_utility": 80,
+      "overall": 81,
+      "rationale": "Describes the action and tool used. Lacks detail about the setting and specific food items."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 95,
+      "completeness": 95,
+      "specificity": 95,
+      "concision": 80,
+      "listener_utility": 95,
+      "overall": 92,
+      "rationale": "Provides a detailed and accurate description of the scene, including specific actions and ingredients."
+    }
+  ]
+}

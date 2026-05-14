@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef holds a cherry tomato and counts down in Spanish",
+      "rationale": "Cross-category description about kitchen, not curling."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "he throws the tomato at a wall",
+      "rationale": "Cross-category description about kitchen, not curling."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "cherry tomato and counts down in Spanish",
+      "rationale": "Cross-category description about kitchen, not curling."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man walks on the ice pushing a curling block",
+      "rationale": "Clearly identifies curling sport and equipment."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "walks on the ice pushing a curling block and then falls down",
+      "rationale": "Mentions ice and action but lacks detail on sliding position."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of target or its colors."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man is playing the sport curling",
+      "rationale": "Explicitly identifies curling as the sport."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "pushing the object across the ice, the slips and falls",
+      "rationale": "Describes action on ice but lacks detail on body position."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of target or colors."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In an indoor curling rink, a man skillfully slides a curling stone",
+      "rationale": "Clearly identifies curling sport and equipment."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "skillfully slides a curling stone down the ice. As he releases the stone, he loses his balance and falls",
+      "rationale": "Mentions sliding and ice but lacks specific body position details."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of target or its colors."
+    }
+  ]
+}

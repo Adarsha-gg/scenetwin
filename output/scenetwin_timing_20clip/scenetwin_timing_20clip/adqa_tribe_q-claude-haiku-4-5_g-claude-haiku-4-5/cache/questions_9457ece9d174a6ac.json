@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person wearing and what is their body position in the opening frames?",
+      "answer_key": "Green shirt, dark shorts, sneakers; bent forward at the waist in a stretching position.",
+      "required_visual_evidence": [
+        "green shirt",
+        "bent forward posture",
+        "stretching stance"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes subject identity and initial action during highest-need window (0-3s)."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of fencing and setting surrounds the person during the activity?",
+      "answer_key": "Black chain-link and wooden rail fencing; rural/farm setting with grass and trees.",
+      "required_visual_evidence": [
+        "chain-link fence",
+        "wooden rails",
+        "pastoral background"
+      ],
+      "importance": "critical",
+      "rationale": "Location context essential for blind listener to visualize the environment (3-6s window)."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the person doing with the wooden fence as they move along the path?",
+      "answer_key": "Jogging past and alongside the wooden fence in a rural pathway.",
+      "required_visual_evidence": [
+        "jogging motion",
+        "wooden fence",
+        "pathway"
+      ],
+      "importance": "critical",
+      "rationale": "Main action during peak-need window (6-8.9s); critical for understanding activity sequence."
+    },
+    {
+      "q_idx": 3,
+      "question": "What object is visible on the ground near the fence in the later frames?",
+      "answer_key": "A dark log or fallen tree branch lying on the ground beside the fence.",
+      "required_visual_evidence": [
+        "dark log",
+        "ground level",
+        "near fence"
+      ],
+      "importance": "useful",
+      "rationale": "Environmental detail that grounds the scene and aids spatial visualization."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the fence that provides information about the location?",
+      "answer_key": "A yellow sign or marker attached to the fence.",
+      "required_visual_evidence": [
+        "yellow sign",
+        "fence attachment"
+      ],
+      "importance": "useful",
+      "rationale": "Signage suggests official/managed location; helps contextualize the setting for listener."
+    }
+  ]
+}

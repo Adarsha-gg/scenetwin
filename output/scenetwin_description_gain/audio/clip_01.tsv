@@ -1,0 +1,22 @@
+text	start	duration	sequence_id	sentence
+Somebody's	0.352	0.46099999999999997	0	 Somebody's getting ready to crown him.
+getting	0.833	0.361	0	 Somebody's getting ready to crown him.
+ready	1.214	0.30099999999999993	0	 Somebody's getting ready to crown him.
+to	1.896	0.42100000000000026	0	 Somebody's getting ready to crown him.
+crown	2.377	0.5020000000000002	0	 Somebody's getting ready to crown him.
+him.	2.999	0.4209999999999998	0	 Somebody's getting ready to crown him.
+Somebody's	3.46	0.3210000000000002	1	Somebody's getting ready to crown him.
+getting	3.801	0.4820000000000002	1	Somebody's getting ready to crown him.
+ready	4.403	0.2810000000000006	1	Somebody's getting ready to crown him.
+to	4.704	0.08000000000000007	1	Somebody's getting ready to crown him.
+crown	5.065	0.5009999999999994	1	Somebody's getting ready to crown him.
+him.	5.606	0.6219999999999999	1	Somebody's getting ready to crown him.
+Somebody	6.348	0.38200000000000056	2	Somebody get a bucket.
+get	6.75	0.05999999999999961	2	Somebody get a bucket.
+a	6.89	0.040000000000000036	2	Somebody get a bucket.
+bucket.	6.95	0.36099999999999977	2	Somebody get a bucket.
+I	9.036	0.08000000000000007	3	I don't feel so hot.
+don't	9.136	0.261000000000001	3	I don't feel so hot.
+feel	9.417	0.2010000000000005	3	I don't feel so hot.
+so	9.658	0.14000000000000057	3	I don't feel so hot.
+hot.	9.838	0.18100000000000094	3	I don't feel so hot.

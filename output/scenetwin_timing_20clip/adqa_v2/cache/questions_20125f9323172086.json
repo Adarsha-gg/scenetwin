@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity is taking place in this venue?",
+      "answer_key": "Curling",
+      "required_visual_evidence": [
+        "curling rink with red and blue circular target",
+        "person in sliding position",
+        "person holding broom"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary activity and sport being performed in the setting."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main subject doing in the sequence of frames?",
+      "answer_key": "A curler slides across the ice while releasing a stone.",
+      "required_visual_evidence": [
+        "person in horizontal sliding position",
+        "curling stone on ice",
+        "progression from standing to sliding"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the central action that defines the clip's content and purpose."
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this activity taking place?",
+      "answer_key": "Inside a curling rink with a sheet of ice.",
+      "required_visual_evidence": [
+        "indoor venue with black ceiling",
+        "ice surface",
+        "curling sheet markings"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the location and environment essential for understanding the context."
+    },
+    {
+      "q_idx": 3,
+      "question": "What object does the curler release during the slide?",
+      "answer_key": "A curling stone",
+      "required_visual_evidence": [
+        "dark stone on ice surface",
+        "stone visible in multiple frames"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the key equipment involved in the primary action being performed."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many other people are visible observing or assisting during the play?",
+      "answer_key": "At least two to three other people are present on the rink.",
+      "required_visual_evidence": [
+        "figures standing on ice",
+        "people in background",
+        "broom holder visible"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context about the team structure and typical curling setup."
+    }
+  ]
+}

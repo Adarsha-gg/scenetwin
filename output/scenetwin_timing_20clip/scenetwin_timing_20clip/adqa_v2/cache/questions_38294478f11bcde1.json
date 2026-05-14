@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "A person is riding a horse over a wooden fence.",
+      "required_visual_evidence": [
+        "person on horseback",
+        "wooden fence",
+        "jumping motion"
+      ],
+      "importance": "critical",
+      "rationale": "Core action; essential for understanding the clip's primary activity."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person wearing on their head?",
+      "answer_key": "A pink or magenta-colored riding helmet.",
+      "required_visual_evidence": [
+        "bright pink/magenta helmet",
+        "worn on head"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive visible detail; helps establish the equestrian context and safety gear."
+    },
+    {
+      "q_idx": 2,
+      "question": "Describe the setting where this activity takes place.",
+      "answer_key": "A ranch or farm with white and metal buildings, fenced paddock area.",
+      "required_visual_evidence": [
+        "white buildings",
+        "metal structures",
+        "wooden fence",
+        "rural setting"
+      ],
+      "importance": "critical",
+      "rationale": "Location context essential for understanding the environment and activity type."
+    },
+    {
+      "q_idx": 3,
+      "question": "What color is the horse being ridden?",
+      "answer_key": "Dark brown or black.",
+      "required_visual_evidence": [
+        "dark-colored horse",
+        "consistent across frames"
+      ],
+      "importance": "useful",
+      "rationale": "Basic descriptive detail; helps paint a complete picture of the scene."
+    },
+    {
+      "q_idx": 4,
+      "question": "What type of fence is the horse jumping over?",
+      "answer_key": "A wooden rail fence with horizontal brown planks.",
+      "required_visual_evidence": [
+        "wooden construction",
+        "horizontal rails",
+        "brown color"
+      ],
+      "importance": "useful",
+      "rationale": "Key object detail; clarifies the obstacle and equestrian training context."
+    }
+  ]
+}

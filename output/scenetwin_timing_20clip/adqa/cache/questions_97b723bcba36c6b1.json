@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is being played and what object does the man slide down the ice?",
+      "answer_key": "Curling; he slides a curling stone down the ice",
+      "required_visual_evidence": [
+        "curling",
+        "curling stone",
+        "slides down the ice"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the sport and primary action of the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What happens to the man after he releases the curling stone?",
+      "answer_key": "He loses his balance and falls onto the ice",
+      "required_visual_evidence": [
+        "loses his balance",
+        "falls",
+        "onto the ice"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the key incident and consequence of his action"
+    },
+    {
+      "q_idx": 2,
+      "question": "How do the onlookers react to the man falling?",
+      "answer_key": "They react with laughter and concern, checking to see if he is okay",
+      "required_visual_evidence": [
+        "laughter",
+        "concern",
+        "checking if he is okay"
+      ],
+      "importance": "useful",
+      "rationale": "Captures the emotional response and social context of the scene"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man in the gray hoodie doing with his hands in the opening seconds?",
+      "answer_key": "He is eating food, bringing it to his mouth with both hands.",
+      "required_visual_evidence": [
+        "man eating",
+        "hands near mouth",
+        "food item"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (0-3s). Main action establishes context for entire clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "What food brand or restaurant signage is visible in the final frame?",
+      "answer_key": "Burger King signage with text reading 'BURGER EATING'",
+      "required_visual_evidence": [
+        "Burger King logo",
+        "text overlay",
+        "branded packaging"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the setting and context. Text overlay crucial for understanding the clip's purpose."
+    },
+    {
+      "q_idx": 2,
+      "question": "Describe the man's appearance and clothing in the opening shots.",
+      "answer_key": "Bald man wearing a light blue or gray hoodie sweatshirt.",
+      "required_visual_evidence": [
+        "bald head",
+        "gray hoodie",
+        "profile view"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes main subject identity for blind listener in high-need window."
+    },
+    {
+      "q_idx": 3,
+      "question": "What type of setting or location is shown in the background?",
+      "answer_key": "Indoor institutional or commercial space with glass windows and fluorescent lighting.",
+      "required_visual_evidence": [
+        "glass windows",
+        "ceiling lights",
+        "interior walls"
+      ],
+      "importance": "useful",
+      "rationale": "Contextualizes where the eating activity is taking place."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the man holding or consuming in the high-need opening sequence?",
+      "answer_key": "An orange or yellow-colored food item, likely a burger or sandwich.",
+      "required_visual_evidence": [
+        "orange food item",
+        "hands holding food",
+        "eating motion"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (0-3s). Identifies the key object central to the action."
+    }
+  ]
+}

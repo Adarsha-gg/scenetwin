@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the young person in the yellow shirt doing in these video clips?",
+      "answer_key": "Running and practicing hurdles on a track field",
+      "required_visual_evidence": [
+        "yellow shirt",
+        "running motion",
+        "red track",
+        "hurdles"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and subject clearly visible across multiple frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of athletic facility is shown in the background?",
+      "answer_key": "A stadium or sports complex with a soccer field and track",
+      "required_visual_evidence": [
+        "red running track",
+        "soccer goal",
+        "field",
+        "buildings"
+      ],
+      "importance": "critical",
+      "rationale": "Setting is essential context for understanding the activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment is visible on the track field?",
+      "answer_key": "Hurdles and a soccer goal with padding",
+      "required_visual_evidence": [
+        "red hurdles",
+        "white soccer net",
+        "blue padding"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects that define the training environment"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the time of day when this training occurs?",
+      "answer_key": "Evening or night, with artificial lighting illuminating the track",
+      "required_visual_evidence": [
+        "dark sky",
+        "artificial lights",
+        "lit field"
+      ],
+      "importance": "useful",
+      "rationale": "Lighting conditions are noticeable and contextually relevant"
+    },
+    {
+      "q_idx": 4,
+      "question": "What visible text or signage appears in the stadium background?",
+      "answer_key": "Sponsor banners and signage along the track perimeter",
+      "required_visual_evidence": [
+        "banners",
+        "text on boards",
+        "advertising"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text/signage is standard AD inclusion"
+    }
+  ]
+}

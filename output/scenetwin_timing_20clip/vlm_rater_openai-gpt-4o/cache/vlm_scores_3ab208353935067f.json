@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 50,
+      "completeness": 40,
+      "specificity": 40,
+      "concision": 60,
+      "listener_utility": 45,
+      "overall": 47,
+      "rationale": "Accurately describes a person running and playing volleyball, but lacks detail about the group and setting."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 30,
+      "completeness": 30,
+      "specificity": 20,
+      "concision": 50,
+      "listener_utility": 30,
+      "overall": 32,
+      "rationale": "Mentions boys playing volleyball but lacks detail and specificity about the scene."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 80,
+      "completeness": 80,
+      "specificity": 70,
+      "concision": 70,
+      "listener_utility": 75,
+      "overall": 75,
+      "rationale": "Provides a detailed and accurate description of the volleyball game, setting, and actions."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely unrelated to the visual content."
+    }
+  ]
+}

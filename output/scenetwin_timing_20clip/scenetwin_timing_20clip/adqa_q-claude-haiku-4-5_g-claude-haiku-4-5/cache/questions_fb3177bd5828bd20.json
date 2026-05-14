@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person wearing on their head and upper body?",
+      "answer_key": "A white protective suit with a large cylindrical pipe or tube covering their head",
+      "required_visual_evidence": [
+        "white protective suit",
+        "cylindrical pipe/tube",
+        "head covering"
+      ],
+      "importance": "critical",
+      "rationale": "Main subject's distinctive appearance across multiple frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action being performed in these clips?",
+      "answer_key": "A person demonstrating or examining a large cylindrical pipe or tube outdoors",
+      "required_visual_evidence": [
+        "person holding/examining pipe",
+        "outdoor setting",
+        "demonstration"
+      ],
+      "importance": "critical",
+      "rationale": "Central activity visible throughout the video sequence"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this activity takes place?",
+      "answer_key": "An outdoor wooded or rural area with bare trees and dirt ground",
+      "required_visual_evidence": [
+        "bare trees",
+        "outdoor",
+        "dirt/natural ground",
+        "wooded area"
+      ],
+      "importance": "useful",
+      "rationale": "Consistent background environment across all frames"
+    },
+    {
+      "q_idx": 3,
+      "question": "What color is the large cylindrical object being examined?",
+      "answer_key": "Dark gray or black with a ribbed or ridged texture",
+      "required_visual_evidence": [
+        "dark colored pipe",
+        "ribbed texture",
+        "cylindrical shape"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive appearance of main object in focus"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible in these video frames?",
+      "answer_key": "Two people; one in protective suit and one in casual clothing nearby",
+      "required_visual_evidence": [
+        "person in white suit",
+        "second person in blue/casual clothes",
+        "multiple people"
+      ],
+      "importance": "useful",
+      "rationale": "Second person visible in several frames during the activity"
+    }
+  ]
+}

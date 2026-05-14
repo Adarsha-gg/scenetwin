@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 95,
+      "completeness": 95,
+      "specificity": 90,
+      "concision": 90,
+      "listener_utility": 95,
+      "overall": 93,
+      "rationale": "Accurately describes the night skiing scene, including the slalom course and skier's actions."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 85,
+      "completeness": 80,
+      "specificity": 75,
+      "concision": 95,
+      "listener_utility": 85,
+      "overall": 84,
+      "rationale": "Provides a concise description of the skiing action but lacks detail about the setting and skier's interaction with poles."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 80,
+      "completeness": 75,
+      "specificity": 70,
+      "concision": 95,
+      "listener_utility": 80,
+      "overall": 80,
+      "rationale": "Describes the basic action but lacks detail about the night setting and skier's movements."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely unrelated to the visual content of skiing at night."
+    }
+  ]
+}

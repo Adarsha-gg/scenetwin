@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animals are shown grazing in the pasture?",
+      "answer_key": "Horses—one dark brown and one brown and white",
+      "required_visual_evidence": [
+        "horses grazing",
+        "pasture with fencing",
+        "two horses different colors"
+      ],
+      "importance": "critical",
+      "rationale": "Horses are the main subjects; their presence and coloring are essential to understanding the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of facility or location is shown in the middle frames?",
+      "answer_key": "An equestrian or horse facility with flags, manicured grounds, and formal entrance",
+      "required_visual_evidence": [
+        "flags",
+        "manicured lawn",
+        "formal entrance gate",
+        "wooded background"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is essential; the formal facility with flags distinguishes this from a simple farm."
+    },
+    {
+      "q_idx": 2,
+      "question": "What logo or branding appears in the bottom left corner of the frames?",
+      "answer_key": "KOA logo (yellow and red)",
+      "required_visual_evidence": [
+        "KOA logo",
+        "yellow and red colors",
+        "bottom left corner"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text/branding is a standard AD element; identifies the source or sponsor of the footage."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is depicted on the sign at the entrance of the property?",
+      "answer_key": "A silhouette of a horse in motion or running",
+      "required_visual_evidence": [
+        "entrance sign",
+        "horse silhouette",
+        "cream/tan colored sign"
+      ],
+      "importance": "useful",
+      "rationale": "The sign reinforces the equestrian theme and is a visible landmark in the opening frames."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the horse doing in the final frames among the trees?",
+      "answer_key": "Standing or moving through wooded area with rope or lead attached",
+      "required_visual_evidence": [
+        "horse in forest",
+        "trees",
+        "rope or lead visible"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the transition from pasture to forest setting and the horse's controlled movement."
+    }
+  ]
+}

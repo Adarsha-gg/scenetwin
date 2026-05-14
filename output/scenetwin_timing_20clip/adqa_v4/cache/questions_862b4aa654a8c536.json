@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Riding a bicycle in the snow.",
+      "required_visual_evidence": [
+        "bicycle",
+        "snow"
+      ],
+      "importance": "critical",
+      "rationale": "Main action performed by the subject."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location?",
+      "answer_key": "A snowy outdoor area.",
+      "required_visual_evidence": [
+        "snow",
+        "outdoor"
+      ],
+      "importance": "critical",
+      "rationale": "Provides context for the action."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is involved in the action?",
+      "answer_key": "A bicycle.",
+      "required_visual_evidence": [
+        "bicycle"
+      ],
+      "importance": "critical",
+      "rationale": "Central to the main action."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main subject wearing?",
+      "answer_key": "Dark clothing and boots.",
+      "required_visual_evidence": [
+        "dark clothing",
+        "boots"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the main subject's appearance."
+    },
+    {
+      "q_idx": 4,
+      "question": "Is there any visible on-screen text?",
+      "answer_key": "No visible on-screen text.",
+      "required_visual_evidence": [
+        "absence of text"
+      ],
+      "importance": "useful",
+      "rationale": "Confirms lack of text information."
+    }
+  ]
+}

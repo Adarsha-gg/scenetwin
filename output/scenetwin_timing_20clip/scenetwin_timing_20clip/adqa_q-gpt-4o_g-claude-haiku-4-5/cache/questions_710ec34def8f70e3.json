@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Sliding a stone on ice.",
+      "required_visual_evidence": [
+        "subject sliding",
+        "stone on ice"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the activity?",
+      "answer_key": "An indoor ice rink.",
+      "required_visual_evidence": [
+        "indoor setting",
+        "ice rink"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What happens to the main subject after sliding the stone?",
+      "answer_key": "Falls onto the ice.",
+      "required_visual_evidence": [
+        "subject falling",
+        "lying on ice"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the outcome of the action."
+    },
+    {
+      "q_idx": 3,
+      "question": "What key object is involved in the activity?",
+      "answer_key": "A curling stone.",
+      "required_visual_evidence": [
+        "curling stone",
+        "stone being slid"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the main object."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible in the frames?",
+      "answer_key": "At least four people.",
+      "required_visual_evidence": [
+        "multiple people",
+        "people standing"
+      ],
+      "importance": "useful",
+      "rationale": "Gives context about the scene."
+    }
+  ]
+}

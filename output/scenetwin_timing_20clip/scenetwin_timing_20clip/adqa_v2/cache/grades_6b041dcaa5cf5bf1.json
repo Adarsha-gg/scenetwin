@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen, a chef holds a cherry tomato",
+      "rationale": "Cross-category description about kitchen, not sports facility."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen, a chef holds a cherry tomato",
+      "rationale": "Cross-category description about kitchen, not person in yellow shirt."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen, a chef holds a cherry tomato",
+      "rationale": "Cross-category description about kitchen, not high jump action."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A girl performs the high jump at a track meet.",
+      "rationale": "Mentions high jump and track but omits goal, net, running track details."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A girl performs the high jump at a track meet.",
+      "rationale": "Does not describe first frame action or yellow shirt person."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A girl performs the high jump at a track meet.",
+      "rationale": "Clearly identifies high jump action in third frame."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A child jumps over a hurdle on a track",
+      "rationale": "Mentions track but omits soccer goal, net, high jump equipment details."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a child is talking while other kids are playing",
+      "rationale": "Does not describe yellow shirt, smiling, or first frame specifics."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "doing a high jump",
+      "rationale": "Identifies high jump action occurring in third frame."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "participates in a track and field event...performing a high jump, landing on a cushioned surface",
+      "rationale": "Mentions track and high jump but omits soccer goal, net, running track color."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A young girl in a yellow shirt...stands on the track, speaking confidently",
+      "rationale": "Clearly describes yellow shirt, track setting, and confident demeanor."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "performing a high jump, landing on a cushioned surface",
+      "rationale": "Clearly describes high jump action with person clearing bar."
+    }
+  ]
+}

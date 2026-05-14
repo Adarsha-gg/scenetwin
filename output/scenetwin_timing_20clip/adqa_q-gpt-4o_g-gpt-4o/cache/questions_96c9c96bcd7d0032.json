@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "The person is bending down near a fence.",
+      "required_visual_evidence": [
+        "bending down",
+        "near a fence"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of fence is visible?",
+      "answer_key": "A chain-link fence with wooden posts.",
+      "required_visual_evidence": [
+        "chain-link fence",
+        "wooden posts"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the setting."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible in the background?",
+      "answer_key": "A grassy area with trees and a wooden structure.",
+      "required_visual_evidence": [
+        "grassy area",
+        "trees",
+        "wooden structure"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the location."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing?",
+      "answer_key": "A green shirt, shorts, and sandals with socks.",
+      "required_visual_evidence": [
+        "green shirt",
+        "shorts",
+        "sandals with socks"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the main subject's appearance."
+    },
+    {
+      "q_idx": 4,
+      "question": "What signs are visible on the fence?",
+      "answer_key": "Signs with text and warning symbols.",
+      "required_visual_evidence": [
+        "signs",
+        "text",
+        "warning symbols"
+      ],
+      "importance": "critical",
+      "rationale": "Indicates important on-screen text."
+    }
+  ]
+}

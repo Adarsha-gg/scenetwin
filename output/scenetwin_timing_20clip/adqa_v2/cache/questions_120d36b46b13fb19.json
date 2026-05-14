@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What ingredient is being poured into the pan with the omelet?",
+      "answer_key": "Oil or cooking liquid from a bottle",
+      "required_visual_evidence": [
+        "bottle being tilted",
+        "liquid pouring",
+        "pan with yellow omelet"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies key cooking action and ingredient being added to the dish"
+    },
+    {
+      "q_idx": 1,
+      "question": "What color is the main dish being prepared in the pan?",
+      "answer_key": "Yellow",
+      "required_visual_evidence": [
+        "yellow omelet",
+        "black pan",
+        "red ingredients visible"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the visual appearance of the food being cooked"
+    },
+    {
+      "q_idx": 2,
+      "question": "How many black pans are visible on the stovetop?",
+      "answer_key": "Two",
+      "required_visual_evidence": [
+        "pan with omelet on left",
+        "empty pan on right",
+        "black cookware"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the cooking setup and workspace arrangement"
+    }
+  ]
+}

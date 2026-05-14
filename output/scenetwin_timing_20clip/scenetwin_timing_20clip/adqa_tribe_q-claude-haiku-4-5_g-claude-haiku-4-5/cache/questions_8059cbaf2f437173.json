@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity is taking place on the marked surface?",
+      "answer_key": "Curling; a person is sliding across a curling rink with a stone.",
+      "required_visual_evidence": [
+        "curling rink with red and blue circles",
+        "person in sliding position",
+        "curling stone"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the sport and main activity; essential context for understanding the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the person's body position and movement in the opening frames.",
+      "answer_key": "The curler is in a low, extended sliding position, propelling themselves across the ice.",
+      "required_visual_evidence": [
+        "person bent forward in lunge",
+        "extended leg position",
+        "forward motion"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (0–3s); visual description of the athletic posture is key for blind listeners."
+    },
+    {
+      "q_idx": 2,
+      "question": "What happens to the curler between the first and final frames shown?",
+      "answer_key": "The curler falls or slides to the ground and remains lying on the ice.",
+      "required_visual_evidence": [
+        "person upright in motion",
+        "person horizontal on ice",
+        "prone position"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (11.9–14.9s); the fall is a major visual event blind listeners must understand."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the setting or venue for this activity?",
+      "answer_key": "An indoor curling rink with a marked playing surface, boards, and spectators.",
+      "required_visual_evidence": [
+        "indoor facility",
+        "curling sheet with target circles",
+        "boards and railings"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the location and environment; helps blind listeners visualize the space."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible as active participants or observers in the scene?",
+      "answer_key": "At least three to four people: the curler and several others standing or watching nearby.",
+      "required_visual_evidence": [
+        "person sliding/falling",
+        "people in dark clothing standing",
+        "spectators in background"
+      ],
+      "importance": "useful",
+      "rationale": "Helps blind listeners understand the social context and whether this is a formal or casual setting."
+    }
+  ]
+}

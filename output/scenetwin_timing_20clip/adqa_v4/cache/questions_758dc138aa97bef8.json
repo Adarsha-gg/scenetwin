@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Skating on the ice rink.",
+      "required_visual_evidence": [
+        "skating",
+        "ice rink"
+      ],
+      "importance": "critical",
+      "rationale": "Main action performed by the subject."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "An indoor ice hockey rink.",
+      "required_visual_evidence": [
+        "indoor",
+        "ice rink"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location of the action."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is the main subject using?",
+      "answer_key": "A hockey stick.",
+      "required_visual_evidence": [
+        "hockey stick"
+      ],
+      "importance": "critical",
+      "rationale": "Essential for understanding the action."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the background?",
+      "answer_key": "Other players and a goal net.",
+      "required_visual_evidence": [
+        "players",
+        "goal net"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the scene."
+    },
+    {
+      "q_idx": 4,
+      "question": "What text is visible on the boards?",
+      "answer_key": "Text on the boards is not clear.",
+      "required_visual_evidence": [
+        "boards",
+        "text"
+      ],
+      "importance": "useful",
+      "rationale": "Describes visible on-screen text."
+    }
+  ]
+}

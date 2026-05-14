@@ -1,0 +1,91 @@
+clip_idx,video_id,category,question_model,q_idx,question,answer_key,required_visual_evidence,importance,rationale
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,openai:gpt-4o,0,What is the main subject doing?,Throwing a small object at a board.,subject holding object; object hitting board,critical,Describes the main action.
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,openai:gpt-4o,1,What is the setting of the scene?,A kitchen with industrial equipment.,kitchen equipment; industrial mixers,useful,Provides context for the action.
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,openai:gpt-4o,2,What object does the main subject throw?,A small red object.,subject holding red object; object in air,useful,Identifies the key object in action.
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,openai:gpt-4o,3,What is visible on the board where the object hits?,A piece of paper with text.,board with paper; object hitting paper,useful,Describes key interaction with the board.
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,openai:gpt-4o,4,What is the main subject's reaction after throwing the object?,The subject is smiling and laughing.,subject smiling; subject laughing,critical,Shows the subject's emotional response.
+1,058y9xGmmTQ_000206_000216,Food & Cooking,openai:gpt-4o,0,What is the main subject doing?,Eating a burger.,subject eating; burger in hand,critical,Main action of the subject.
+1,058y9xGmmTQ_000206_000216,Food & Cooking,openai:gpt-4o,1,What is the setting of the scene?,Inside a fast-food restaurant.,restaurant interior; fast-food branding,critical,Establishes location context.
+1,058y9xGmmTQ_000206_000216,Food & Cooking,openai:gpt-4o,2,What brand is prominently featured?,Burger King.,Burger King logo; branding on tray,critical,Identifies the brand context.
+1,058y9xGmmTQ_000206_000216,Food & Cooking,openai:gpt-4o,3,What is written on the tray liner?,BURGER EATING.,text on tray liner,useful,Highlights key on-screen text.
+1,058y9xGmmTQ_000206_000216,Food & Cooking,openai:gpt-4o,4,What is the main subject wearing?,A gray hoodie.,subject's clothing,useful,Describes the subject's appearance.
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,openai:gpt-4o,0,What is the main subject doing?,Cooking an omelette in a pan.,holding a pan; stirring with a fork,critical,Describes the main action.
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,openai:gpt-4o,1,What kitchen appliance is visible in the background?,A stove.,stove knobs; stove surface,useful,Sets the location context.
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,openai:gpt-4o,2,What container is near the stove?,A bottle of cooking oil.,bottle of oil; near stove,useful,Indicates cooking ingredients.
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,openai:gpt-4o,3,What is the main ingredient being cooked?,Noodles and vegetables.,noodles in pan; vegetables visible,critical,Identifies the dish being prepared.
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,openai:gpt-4o,4,What brand is visible on the salt container?,Morton.,Morton salt container,useful,Provides detail about ingredients.
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,openai:gpt-4o,0,What is the main subject doing?,Cooking scrambled eggs in a pan.,holding a spatula; scrambled eggs in a pan,critical,Describes the main action.
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,openai:gpt-4o,1,Where is the main subject located?,In a kitchen.,kitchen counter; refrigerator,useful,Sets the scene.
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,openai:gpt-4o,2,What key object is the main subject using?,A spatula.,holding a spatula,critical,Identifies a key object in use.
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,openai:gpt-4o,3,What is on the counter next to the main subject?,A pink bowl and a plate.,pink bowl; plate,useful,Describes key objects in the setting.
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,openai:gpt-4o,4,What is visible on the subject's shirt?,A cartoon character.,cartoon character on shirt,useful,Describes the subject's appearance.
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,openai:gpt-4o,0,What is the main subject doing?,Mixing greens in a wooden bowl.,hands mixing; greens in bowl,critical,Describes the main action.
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,openai:gpt-4o,1,What type of bowl is being used?,A wooden bowl.,wooden texture; bowl shape,useful,Identifies key object.
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,openai:gpt-4o,2,What is on the cutting board?,A ball of cheese.,cutting board; ball of cheese,useful,Describes a key object.
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,openai:gpt-4o,3,How many hands are involved in the action?,Four hands.,two pairs of hands; mixing action,critical,Indicates multiple participants.
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,openai:gpt-4o,4,What is the setting of the activity?,A kitchen or dining area.,wooden table; cutting board,useful,Provides context for the action.
+6,0HEi6q3bGaw_000011_000021,Travel,openai:gpt-4o,0,What is the main subject doing?,Riding a snowmobile.,person on snowmobile; snowy terrain,critical,Main action of the scene.
+6,0HEi6q3bGaw_000011_000021,Travel,openai:gpt-4o,1,What type of terrain is the scene set in?,Snow-covered landscape.,snow on ground; snow on trees,critical,Describes the setting.
+6,0HEi6q3bGaw_000011_000021,Travel,openai:gpt-4o,2,What is the main object being used?,Snowmobile.,snowmobile; person operating snowmobile,critical,Key object in the scene.
+6,0HEi6q3bGaw_000011_000021,Travel,openai:gpt-4o,3,What is visible on the snowmobile?,Crossfire text.,text on snowmobile,useful,Identifies the snowmobile model.
+6,0HEi6q3bGaw_000011_000021,Travel,openai:gpt-4o,4,What is the weather condition in the scene?,Clear and sunny.,clear sky; sunlight on snow,useful,Provides context for the setting.
+7,09dQut5GJ68_000049_000059,Travel,openai:gpt-4o,0,What is the main subject doing?,Pulling a sled through the snow.,person pulling; sled in snow,critical,Describes the main action.
+7,09dQut5GJ68_000049_000059,Travel,openai:gpt-4o,1,What is the setting of the scene?,Snowy outdoor environment.,snow on ground; outdoor setting,critical,Provides context for the action.
+7,09dQut5GJ68_000049_000059,Travel,openai:gpt-4o,2,What key object is visible in the frames?,A blue sled.,blue sled; sled being pulled,useful,Identifies a significant object.
+7,09dQut5GJ68_000049_000059,Travel,openai:gpt-4o,3,What is the main subject wearing?,Dark clothing.,dark clothing; person in snow,useful,Describes the appearance of the subject.
+7,09dQut5GJ68_000049_000059,Travel,openai:gpt-4o,4,Is there any visible text on screen?,No visible text.,absence of text,useful,Confirms lack of on-screen text.
+8,hOirknJr3os_000001_000011,Travel,openai:gpt-4o,0,What is depicted on the sign in the first frame?,A horse and the text 'K-Hill Ranch'.,horse; K-Hill Ranch,critical,Identifies the location.
+8,hOirknJr3os_000001_000011,Travel,openai:gpt-4o,1,What animals are shown in the third and fourth frames?,Two horses grazing.,two horses; grazing,critical,Main subjects of these frames.
+8,hOirknJr3os_000001_000011,Travel,openai:gpt-4o,2,What flags are visible in the second frame?,"KOA, American, Canadian, and another flag.",flags; KOA; American; Canadian,useful,Indicates international presence.
+8,hOirknJr3os_000001_000011,Travel,openai:gpt-4o,3,What activity is happening in the fifth to seventh frames?,Horseback riding through a forest.,horseback riding; forest,critical,Describes main action.
+8,hOirknJr3os_000001_000011,Travel,openai:gpt-4o,4,What logo is present in all frames?,KOA logo.,KOA logo,useful,Indicates branding.
+9,TF4q9y0rJoc_000000_000010,Sports,openai:gpt-4o,0,What is the main subject doing?,Skiing down a slope.,subject skiing; downhill movement,critical,Main action of the video.
+9,TF4q9y0rJoc_000000_000010,Sports,openai:gpt-4o,1,What is the setting of the scene?,A snowy ski slope at night.,snowy slope; nighttime lighting,critical,Establishes location and time.
+9,TF4q9y0rJoc_000000_000010,Sports,openai:gpt-4o,2,What key objects are visible on the slope?,Poles marking the path.,poles; path markers,useful,Indicates course layout.
+9,TF4q9y0rJoc_000000_000010,Sports,openai:gpt-4o,3,What is the main subject wearing?,Helmet and ski gear.,helmet; ski gear,useful,Describes the subject's appearance.
+9,TF4q9y0rJoc_000000_000010,Sports,openai:gpt-4o,4,What is the lighting condition in the scene?,Artificial lights illuminate the slope.,artificial lights; illuminated slope,useful,Sets the scene's atmosphere.
+11,z8Q-s8AthrA_000002_000012,Sports,openai:gpt-4o,0,What is the main subject doing?,Running and jumping over a high jump bar.,running; jumping over bar,critical,Describes the main action.
+11,z8Q-s8AthrA_000002_000012,Sports,openai:gpt-4o,1,Where is the activity taking place?,On a track and field area.,track; field,critical,Identifies the setting.
+11,z8Q-s8AthrA_000002_000012,Sports,openai:gpt-4o,2,What key object is involved in the activity?,A high jump bar and mat.,high jump bar; mat,useful,Highlights key objects in the scene.
+11,z8Q-s8AthrA_000002_000012,Sports,openai:gpt-4o,3,What is visible in the background?,A soccer goal and hurdles.,soccer goal; hurdles,useful,Provides context about the location.
+11,z8Q-s8AthrA_000002_000012,Sports,openai:gpt-4o,4,What is the main subject wearing?,A yellow shirt.,yellow shirt,useful,Describes the main subject's appearance.
+12,abaLFY_GI8k_000295_000305,Sports,openai:gpt-4o,0,What activity are the people engaged in?,Playing volleyball.,volleyball net; ball being hit,critical,Main action of the scene.
+12,abaLFY_GI8k_000295_000305,Sports,openai:gpt-4o,1,What is the setting of the activity?,An outdoor area with trees and buildings.,trees; buildings,useful,Provides context for the location.
+12,abaLFY_GI8k_000295_000305,Sports,openai:gpt-4o,2,What key object is used in the activity?,A volleyball.,ball being hit; volleyball net,critical,Essential for understanding the activity.
+12,abaLFY_GI8k_000295_000305,Sports,openai:gpt-4o,3,How many people are visible participating in the activity?,At least four people.,four people visible; engaged in play,useful,Indicates level of participation.
+12,abaLFY_GI8k_000295_000305,Sports,openai:gpt-4o,4,What is visible in the background?,Trees and a building.,trees; building,useful,Adds detail to the setting.
+13,KFcH6BYZWhc_000011_000021,Sports,openai:gpt-4o,0,What activity is taking place on the ice?,Ice hockey practice,players on ice; hockey sticks,critical,Main activity depicted in frames
+13,KFcH6BYZWhc_000011_000021,Sports,openai:gpt-4o,1,What is the main action of the players?,Skating and shooting pucks,players skating; pucks on ice,critical,Describes primary actions of subjects
+13,KFcH6BYZWhc_000011_000021,Sports,openai:gpt-4o,2,What equipment is visible on the ice?,Hockey sticks and pucks,hockey sticks; pucks,useful,Key objects used in the activity
+13,KFcH6BYZWhc_000011_000021,Sports,openai:gpt-4o,3,What is the setting of the activity?,Indoor ice rink,ice rink; indoor setting,critical,Provides context for the activity
+13,KFcH6BYZWhc_000011_000021,Sports,openai:gpt-4o,4,What is visible in the background?,Other players and a goal net,players in background; goal net,useful,Gives additional context to the scene
+14,UDD6YcChywc_000000_000010,Sports,openai:gpt-4o,0,What is the main subject doing?,Sliding a curling stone on ice.,main subject; curling stone,critical,Describes the main action.
+14,UDD6YcChywc_000000_000010,Sports,openai:gpt-4o,1,What happens to the main subject after releasing the stone?,Falls and lies on the ice.,subject falls; subject lies on ice,critical,Key outcome of the action.
+14,UDD6YcChywc_000000_000010,Sports,openai:gpt-4o,2,What is the setting of the activity?,An indoor curling rink.,curling rink; indoor setting,useful,Provides context for the action.
+14,UDD6YcChywc_000000_000010,Sports,openai:gpt-4o,3,What key object is involved in the activity?,A curling stone.,curling stone,critical,Central to the activity.
+14,UDD6YcChywc_000000_000010,Sports,openai:gpt-4o,4,How many people are visible in the frames?,At least four people.,multiple people,useful,Indicates group activity.
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,openai:gpt-4o,0,What is the main subject doing?,The person is bending down near a fence.,bending down; near a fence,critical,Describes the main action.
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,openai:gpt-4o,1,What type of fence is visible?,A chain-link fence with wooden posts.,chain-link fence; wooden posts,useful,Describes the setting.
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,openai:gpt-4o,2,What is visible in the background?,A grassy area with trees and a wooden structure.,grassy area; trees; wooden structure,useful,Provides context for the location.
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,openai:gpt-4o,3,What is the person wearing?,"A green shirt, shorts, and sandals with socks.",green shirt; shorts; sandals with socks,useful,Describes the main subject's appearance.
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,openai:gpt-4o,4,What signs are visible on the fence?,Signs with text and warning symbols.,signs; text; warning symbols,critical,Indicates important on-screen text.
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,openai:gpt-4o,0,What is the main subject doing?,Riding a horse in a fenced area.,person on horse; fenced area,critical,Describes the main action.
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,openai:gpt-4o,1,What type of setting is shown in the frames?,A stable or barn area.,barn; stable,useful,Provides context for the location.
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,openai:gpt-4o,2,What key object is the main subject interacting with?,A horse.,horse,critical,Identifies the main object of interaction.
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,openai:gpt-4o,3,What is visible in the background?,Additional stable buildings.,stable buildings,useful,Gives additional context to the setting.
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,openai:gpt-4o,4,What is the main subject wearing?,A pink cap and casual clothing.,pink cap; casual clothing,useful,Describes the main subject's appearance.
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,openai:gpt-4o,0,What is the main subject doing?,Climbing and sliding down a snowy hill.,climbing the hill; sliding down,critical,Describes the main action.
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,openai:gpt-4o,1,What is the setting of the scene?,A snowy playground with slides.,snowy playground; slides,critical,Identifies the location.
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,openai:gpt-4o,2,What key objects are visible in the scene?,Snow-covered slides and a wooden fence.,snow-covered slides; wooden fence,useful,Highlights important objects.
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,openai:gpt-4o,3,How many people are visible in the frames?,Three people.,three individuals,useful,Gives context about participants.
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,openai:gpt-4o,4,What are the people wearing on their heads?,Red and white hats.,red hat; white hat,useful,Describes distinguishing features.
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,openai:gpt-4o,0,What is the main subject doing?,Removing a protective hood.,removing hood; protective suit,critical,Main action of the subject.
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,openai:gpt-4o,1,What is the setting of the video?,A wooded area.,trees; outdoors,useful,Provides context for the location.
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,openai:gpt-4o,2,What is the second person holding?,A blue container and a cup.,blue container; cup,useful,Key objects in the scene.
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,openai:gpt-4o,3,What is visible on the vehicle?,A sign with text.,sign; text,useful,Visible on-screen text.
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,openai:gpt-4o,4,What is the main subject wearing?,A protective suit.,protective suit; hood,critical,Describes the main subject's attire.
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,openai:gpt-4o,0,What are the two animals doing?,"One cat is sitting, another is lying down.",cat sitting; cat lying down,critical,Main action involving the animals.
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,openai:gpt-4o,1,What is the setting of the scene?,A living room with a staircase.,living room; staircase,useful,Provides context for the location.
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,openai:gpt-4o,2,What furniture is visible in the room?,A table and a television.,table; television,useful,Key objects in the setting.
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,openai:gpt-4o,3,How many animals are visible in the frames?,Three animals.,three animals,critical,Important for understanding the scene.
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,openai:gpt-4o,4,What is the position of the third animal?,The third animal is sitting in the foreground.,third animal; foreground,useful,Describes the position of all animals.

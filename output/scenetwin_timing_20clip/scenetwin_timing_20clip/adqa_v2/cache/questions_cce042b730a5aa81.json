@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What color is the object visible in the lower right portion of the third frame?",
+      "answer_key": "Blue",
+      "required_visual_evidence": [
+        "blue object",
+        "lower right area",
+        "third frame"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies a distinct colored object in the snowy scene for spatial orientation."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of weather conditions are shown in these frames?",
+      "answer_key": "Snowy conditions with heavy snow coverage",
+      "required_visual_evidence": [
+        "snow on ground",
+        "white landscape",
+        "winter weather"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the primary environmental setting essential for understanding the travel context."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the ground in the snowy area across multiple frames?",
+      "answer_key": "Rope or cord lines",
+      "required_visual_evidence": [
+        "rope or cord",
+        "ground level",
+        "multiple frames"
+      ],
+      "importance": "useful",
+      "rationale": "Details equipment or safety measures present in the snowy travel environment."
+    }
+  ]
+}

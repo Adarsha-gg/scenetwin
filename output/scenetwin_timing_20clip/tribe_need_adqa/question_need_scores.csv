@@ -1,0 +1,45 @@
+source,clip_idx,q_idx,question_start_s,question_end_s,timestamp_source,question_need,question_recommendation,high_need,question,importance
+adqa_tribe_claude,0,0,0.0,3.0,parsed:rationale,0.4700725206876036,high_need,True,What is the man in the white shirt holding and demonstrating?,critical
+adqa_tribe_claude,0,1,0.0,3.0,parsed:rationale,0.4700725206876036,high_need,True,What type of setting or environment is the man in?,critical
+adqa_tribe_claude,0,2,8.9,14.9,parsed:rationale,0.5147801711429377,high_need,True,What is visible on the wooden board or surface shown in the later frames?,useful
+adqa_tribe_claude,0,3,0.0,3.0,parsed:rationale,0.4700725206876036,high_need,True,How many times does the man's facial expression or gesture change across the frames?,useful
+adqa_tribe_claude,0,4,11.9,14.9,parsed:rationale,0.4497106822621047,high_need,True,What organizational or planning materials are visible in the workspace?,useful
+adqa_tribe_claude,1,0,0.0,3.0,parsed:rationale,0.850572211723672,high_need,True,What is the man in the gray hoodie doing with his hands in the opening seconds?,critical
+adqa_tribe_claude,1,4,0.0,3.0,parsed:rationale,0.850572211723672,high_need,True,What is the man holding or consuming in the high-need opening sequence?,critical
+adqa_tribe_claude,4,0,0.0,3.0,parsed:rationale,0.5703806972135831,high_need,True,What is the child holding and doing with it at the kitchen counter?,critical
+adqa_tribe_claude,4,4,0.0,6.0,parsed:rationale,0.49732092851433957,high_need,True,What is the child's apparent emotional state during this activity?,critical
+adqa_tribe_claude,6,0,0.0,3.0,parsed:rationale,0.7612562725764201,high_need,True,"What vehicles are visible on the snowy surface, and what are they doing?",critical
+adqa_tribe_claude,6,1,0.0,3.0,parsed:rationale,0.7612562725764201,high_need,True,Describe the landscape and weather conditions visible in this scene.,critical
+adqa_tribe_claude,6,3,11.9,17.9,parsed:rationale,0.5312163646403234,high_need,True,What is the relative position of the snowmobiles as the sequence progresses?,critical
+adqa_tribe_claude,7,0,14.9,16.4,parsed:rationale,0.939134955406189,high_need,True,"What is the person doing in the snow, and what equipment are they using?",critical
+adqa_tribe_claude,7,2,11.9,14.9,parsed:rationale,0.7414645097028639,high_need,True,What is the setting or terrain where this activity is taking place?,critical
+adqa_tribe_claude,7,4,8.9,11.9,parsed:rationale,0.5433126215953212,high_need,True,What is the perspective or camera angle showing in these frames?,critical
+adqa_tribe_claude,9,0,0.0,3.0,parsed:rationale,0.7643380457852659,high_need,True,What sport or activity is the person performing on the snow-covered surface?,critical
+adqa_tribe_claude,9,1,3.0,6.0,parsed:rationale,0.6637677458453275,high_need,True,Describe the lighting conditions and time of day for this skiing activity.,critical
+adqa_tribe_claude,9,2,6.0,8.9,parsed:rationale,0.6147746391521982,high_need,True,What markers or boundary indicators are visible on the ski slope?,useful
+adqa_tribe_claude,9,3,8.9,11.9,parsed:rationale,0.6247465321874993,high_need,True,What is the skier's body position and movement direction as they descend?,critical
+adqa_tribe_claude,9,4,11.9,14.9,parsed:rationale,0.5384222624750463,high_need,True,What structures or buildings are visible in the background of the ski area?,useful
+adqa_tribe_claude,11,0,0.0,3.0,parsed:rationale,0.5100641192490857,high_need,True,What is the young person in the yellow shirt doing at the track?,critical
+adqa_tribe_claude,11,1,6.0,8.9,parsed:rationale,0.4249280078949282,high_need,True,What athletic equipment is visible on the track field?,critical
+adqa_tribe_claude,11,2,8.9,14.9,parsed:rationale,0.5907285764954471,high_need,True,What is the person attempting to do with the high jump bar?,critical
+adqa_tribe_claude,12,0,8.9,23.8,parsed:rationale,0.7493478671913645,high_need,True,What sport or activity are the young people playing in this outdoor setting?,critical
+adqa_tribe_claude,12,1,11.9,17.9,parsed:rationale,0.8469365964745483,high_need,True,Describe the playing surface and immediate surroundings of the volleyball court.,critical
+adqa_tribe_claude,12,2,14.9,20.9,parsed:rationale,0.8593496250851108,high_need,True,How many players are visible on the court at the moment shown in these frames?,useful
+adqa_tribe_claude,12,3,17.9,23.8,parsed:rationale,0.7902072610777042,high_need,True,What color clothing are the players wearing?,useful
+adqa_tribe_claude,12,4,11.9,14.9,parsed:rationale,0.8185434369080119,high_need,True,What infrastructure or structures are visible in the background of the court?,critical
+adqa_tribe_claude,13,1,0.0,3.0,parsed:rationale,0.6316933209115256,high_need,True,Describe the main player's position and movement during the opening seconds.,critical
+adqa_tribe_claude,13,3,8.9,11.9,parsed:rationale,0.5195473008318268,high_need,True,What equipment or structures are visible in the rink during the later sequence?,useful
+adqa_tribe_claude,14,1,0.0,3.0,parsed:rationale,0.48857157809252216,high_need,True,Describe the person's body position and movement in the opening frames.,critical
+adqa_tribe_claude,14,2,11.9,14.9,parsed:rationale,0.5349318782000374,high_need,True,What happens to the curler between the first and final frames shown?,critical
+adqa_tribe_claude,15,0,0.0,3.0,parsed:rationale,0.5114946333174631,high_need,True,What is the person wearing and what is their body position in the opening frames?,critical
+adqa_tribe_claude,15,1,3.0,6.0,parsed:rationale,0.6143664889345589,high_need,True,What type of fencing and setting surrounds the person during the activity?,critical
+adqa_tribe_claude,15,2,6.0,8.9,parsed:rationale,0.633079272327266,high_need,True,What is the person doing with the wooden fence as they move along the path?,critical
+adqa_tribe_claude,17,2,11.9,14.9,parsed:rationale,0.9884878385277255,high_need,True,What happens to the person in the red hat during the sequence?,critical
+adqa_tribe_claude,18,0,3.0,6.0,parsed:rationale,0.5965567866632182,high_need,True,What is covering the person's head and face in the first image?,critical
+adqa_tribe_claude,18,1,8.9,11.9,parsed:rationale,0.7005899843162737,high_need,True,What is the person holding in their hands during the middle sequence?,critical
+adqa_tribe_claude,18,3,11.9,14.9,parsed:rationale,0.79355584785525,high_need,True,What is the person wearing on their upper body?,useful
+adqa_tribe_claude,18,4,14.9,16.4,parsed:rationale,0.6837089417348918,high_need,True,What happens to the basket covering in the final images?,critical
+adqa_tribe_claude,19,0,0.0,3.0,parsed:rationale,0.5760032161779703,high_need,True,"What animals are visible on the wooden floor, and what are they doing?",critical
+adqa_tribe_claude,19,1,0.0,6.0,parsed:rationale,0.5299548228635517,high_need,True,How many cats are present in this scene?,critical
+adqa_tribe_claude,19,2,3.0,6.0,parsed:rationale,0.48390642954913304,high_need,True,What is the setting or location where this activity takes place?,useful
+adqa_tribe_claude,19,4,6.0,8.9,parsed:rationale,0.4427657704022679,high_need,True,What is the primary type of interaction happening between the cats?,critical

@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What activity is taking place in the images?",
+      "answer_key": "Ice hockey practice",
+      "required_visual_evidence": [
+        "ice rink",
+        "hockey sticks"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the main activity."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main action happening in the images?",
+      "answer_key": "Players are skating and shooting pucks.",
+      "required_visual_evidence": [
+        "skating",
+        "shooting pucks"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the primary action."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting of the images?",
+      "answer_key": "Indoor ice rink",
+      "required_visual_evidence": [
+        "indoor setting",
+        "ice rink"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the activity."
+    },
+    {
+      "q_idx": 3,
+      "question": "What key objects are visible in the images?",
+      "answer_key": "Hockey sticks and pucks",
+      "required_visual_evidence": [
+        "hockey sticks",
+        "pucks"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies important objects."
+    },
+    {
+      "q_idx": 4,
+      "question": "What on-screen text is visible in the images?",
+      "answer_key": "No visible text",
+      "required_visual_evidence": [
+        "absence of text"
+      ],
+      "importance": "useful",
+      "rationale": "Confirms lack of text."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Throwing a knife at a board.",
+      "required_visual_evidence": [
+        "subject holding knife",
+        "knife in board"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is the setting of the scene?",
+      "answer_key": "A kitchen with equipment and shelves.",
+      "required_visual_evidence": [
+        "kitchen equipment",
+        "shelves"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is the subject holding?",
+      "answer_key": "A knife.",
+      "required_visual_evidence": [
+        "subject holding knife"
+      ],
+      "importance": "useful",
+      "rationale": "Highlights a key object."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on the board?",
+      "answer_key": "A piece of paper with text.",
+      "required_visual_evidence": [
+        "paper on board"
+      ],
+      "importance": "useful",
+      "rationale": "Describes visible text."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the subject's reaction after throwing the knife?",
+      "answer_key": "The subject is smiling and laughing.",
+      "required_visual_evidence": [
+        "subject smiling",
+        "subject laughing"
+      ],
+      "importance": "useful",
+      "rationale": "Conveys the subject's emotion."
+    }
+  ]
+}

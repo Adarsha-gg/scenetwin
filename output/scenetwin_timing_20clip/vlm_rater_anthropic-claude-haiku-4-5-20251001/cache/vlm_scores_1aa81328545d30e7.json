@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 15,
+      "completeness": 20,
+      "specificity": 30,
+      "concision": 85,
+      "listener_utility": 15,
+      "overall": 33,
+      "rationale": "Describes a man running and bouncing a ball, but frames are unclear about whether this is actually happening or if it's setup. Misses key details: outdoor dirt court, multiple players, net condition, group activity. Hallucination risk on 'bouncing the ball' specifics. Too vague about the actual game action visible."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 60,
+      "completeness": 35,
+      "specificity": 25,
+      "concision": 90,
+      "listener_utility": 35,
+      "overall": 49,
+      "rationale": "Correctly identifies volleyball and multiple boys. Accurately notes foreign language communication. However, extremely vague—lacks setting details (outdoor dirt court), player positions, actions, net condition, clothing, or spatial arrangement. Too generic to help a blind listener visualize the scene. Concise but sacrifices necessary detail."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 45,
+      "completeness": 75,
+      "specificity": 70,
+      "concision": 60,
+      "listener_utility": 65,
+      "overall": 63,
+      "rationale": "Covers setting (outdoor dirt court), multiple players, net condition, clothing, and energy level well. Mentions serving and spiking actions. However, contains hallucinations: frames don't clearly show a spike or jump action—mostly show players standing/walking. 'Slightly broken net' is interpretive. Foreign language detail is accurate. Good structure but overstates action specificity not clearly visible in frames."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Complete hallucination. Describes a kitchen scene with a chef, tomato, knife, and Spanish countdown. Frames show an outdoor volleyball court with boys playing. No kitchen, chef, tomato, knife, or wall-throwing action visible. Entirely fabricated content with zero relevance to actual visual content."
+    }
+  ]
+}

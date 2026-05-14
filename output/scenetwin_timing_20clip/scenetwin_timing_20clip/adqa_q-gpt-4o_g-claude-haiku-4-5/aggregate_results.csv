@@ -1,0 +1,2 @@
+spearman_rho,spearman_p,kendall_tau,kendall_p,pairwise_wins,pairwise_total,full_order_clips,full_order_total,question_model,grader_model
+0.8396686388619743,3.110112968804382e-20,0.732742051228059,4.606932062186094e-15,52,54,13,18,openai:gpt-4o,anthropic:claude-haiku-4-5-20251001

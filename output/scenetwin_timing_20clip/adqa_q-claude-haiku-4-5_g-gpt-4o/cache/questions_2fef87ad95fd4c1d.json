@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is being played in this video?",
+      "answer_key": "Ice hockey",
+      "required_visual_evidence": [
+        "ice rink",
+        "hockey sticks",
+        "puck",
+        "players in dark uniforms"
+      ],
+      "importance": "critical",
+      "rationale": "Core activity visible throughout all frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary setting or location shown?",
+      "answer_key": "An indoor ice hockey arena or rink",
+      "required_visual_evidence": [
+        "ice surface",
+        "boards",
+        "overhead lighting",
+        "spectator seating"
+      ],
+      "importance": "critical",
+      "rationale": "Essential context for understanding the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment do the players have in their hands?",
+      "answer_key": "Hockey sticks",
+      "required_visual_evidence": [
+        "sticks held by players",
+        "stick-puck interaction"
+      ],
+      "importance": "useful",
+      "rationale": "Key object defining the sport and action"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many teams appear to be playing?",
+      "answer_key": "Two teams",
+      "required_visual_evidence": [
+        "players in dark uniforms",
+        "players in different colored uniforms",
+        "opposing sides"
+      ],
+      "importance": "useful",
+      "rationale": "Basic game structure visible in multiple frames"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the small object players are trying to control?",
+      "answer_key": "A puck",
+      "required_visual_evidence": [
+        "small dark object on ice",
+        "players positioning around it"
+      ],
+      "importance": "useful",
+      "rationale": "Central to hockey gameplay and visible in frames"
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "Describes snowmobiles and people, not cats. Cross-category mismatch."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "rev their engines and ride off",
+      "rationale": "Describes snowmobile action, not cat behavior."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy landscape",
+      "rationale": "Describes outdoor snow, not indoor wooden floor setting."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "two people on snowmobiles",
+      "rationale": "No cats mentioned; cross-category content."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy landscape",
+      "rationale": "Outdoor snow lighting, not indoor warm/dim lighting."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "One cat...another",
+      "rationale": "Names cats but only mentions two, not multiple colors/types."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "lying on the ground...looks around",
+      "rationale": "Describes minimal action; missing wrestling/playing interaction detail."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "on the ground",
+      "rationale": "No mention of wooden floor, stairs, or railings."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "One cat...another",
+      "rationale": "Only two cats mentioned; answer key requires four."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No lighting description provided."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "three cats",
+      "rationale": "Names cats but only three mentioned, missing color details and fourth cat."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "massages one of the cats' head",
+      "rationale": "Describes human-cat interaction, not cat-to-cat playing/wrestling."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "hardwood floor",
+      "rationale": "Directly states hardwood floor and indoor setting."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "three cats",
+      "rationale": "States three cats; answer key requires four."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No lighting description provided."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "orange cat...black and white cat...Another cat",
+      "rationale": "Names multiple cats with color descriptions matching answer key."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "gently swatting at it",
+      "rationale": "Describes cat-to-cat interaction/playing action on floor."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "living room...hardwood floor",
+      "rationale": "Directly states indoor setting and hardwood floor."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "three cats...Another cat, partially visible",
+      "rationale": "Mentions three plus one partially visible, gestures at four but unclear."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "dimly lit living room",
+      "rationale": "Directly states dim lighting matching answer key."
+    }
+  ]
+}

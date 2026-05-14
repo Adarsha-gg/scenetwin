@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animals are visible in this video clip?",
+      "answer_key": "Multiple cats, including brown/dark and white colored cats",
+      "required_visual_evidence": [
+        "brown cat",
+        "white cat",
+        "multiple cats on floor"
+      ],
+      "importance": "critical",
+      "rationale": "Main subjects are clearly identifiable across all frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action occurring in this scene?",
+      "answer_key": "Cats are playing or interacting with each other on the floor",
+      "required_visual_evidence": [
+        "cats on floor",
+        "cats in motion",
+        "interactive positioning"
+      ],
+      "importance": "critical",
+      "rationale": "Central action visible throughout the sequence of frames"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does this scene take place?",
+      "answer_key": "Inside a home, in a hallway or entryway near stairs",
+      "required_visual_evidence": [
+        "wooden stairs",
+        "railing",
+        "wooden floor",
+        "indoor setting"
+      ],
+      "importance": "useful",
+      "rationale": "Setting clearly established by visible architectural elements"
+    },
+    {
+      "q_idx": 3,
+      "question": "What furniture or structural elements are visible in the background?",
+      "answer_key": "Wooden staircase with railing and a dark wooden chair",
+      "required_visual_evidence": [
+        "wooden stairs",
+        "railing",
+        "chair near stairs"
+      ],
+      "importance": "useful",
+      "rationale": "Key background objects that orient viewer to location"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many cats appear to be present in this scene?",
+      "answer_key": "At least three or four cats of different colors",
+      "required_visual_evidence": [
+        "multiple distinct cats",
+        "brown cat",
+        "white cat",
+        "dark cat"
+      ],
+      "importance": "useful",
+      "rationale": "Number of main subjects is important for scene comprehension"
+    }
+  ]
+}

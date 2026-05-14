@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "throws the tomato at a wall, followed by a knife, which pins the tomato",
+      "rationale": "Describes throwing knife but at tomato, not board as answer key states."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a bustling kitchen",
+      "rationale": "Directly identifies kitchen setting with equipment implied."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "he throws the tomato at a wall, followed by a knife",
+      "rationale": "Clearly states subject holding and throwing knife."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "pins the tomato in place",
+      "rationale": "Describes tomato on board, not paper with text."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "The chef smiles, showcasing his skill",
+      "rationale": "Mentions smiling but not laughing; incomplete emotional response."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier navigates a snowy hill",
+      "rationale": "Describes skiing, completely unrelated to knife throwing."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "At night, a skier navigates a snowy hill",
+      "rationale": "Describes outdoor ski slope, not kitchen setting."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "weaving between flexible poles",
+      "rationale": "No mention of knife; describes ski poles instead."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "alternating left and right",
+      "rationale": "No board or paper mentioned; irrelevant content."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No emotional reaction described; wrong scene entirely."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "pins a cherry tomato to the wall by throwing a knife",
+      "rationale": "Directly states knife throwing action pinning object."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "pins a cherry tomato to the wall",
+      "rationale": "Implies kitchen but no explicit kitchen equipment or shelves mentioned."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "throwing a knife",
+      "rationale": "Clearly identifies knife as key object being thrown."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "cherry tomato to the wall",
+      "rationale": "Describes tomato, not paper with text on board."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No reaction or emotion described after throwing."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "throwing a knife",
+      "rationale": "Mentions knife throwing but lacks target/board detail."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A chef in a kitchen",
+      "rationale": "Identifies kitchen but no equipment or shelves specified."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "throwing a knife",
+      "rationale": "Directly identifies knife as object being thrown."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of board contents or paper."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No reaction or emotional response described."
+    }
+  ]
+}

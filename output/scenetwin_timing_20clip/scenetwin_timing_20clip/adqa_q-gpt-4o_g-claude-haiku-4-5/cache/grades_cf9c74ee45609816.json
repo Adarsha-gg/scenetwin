@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a small deer mirrors his movements",
+      "rationale": "Describes deer, not horses. Contradicts answer key."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a zoo or animal enclosure",
+      "rationale": "Describes zoo, not ranch with forest. Contradicts answer key."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No sign text mentioned. Ignores question."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No flags mentioned. Ignores question."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "playfully engaging the deer",
+      "rationale": "Describes deer interaction, not horse grazing/walking."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "riding horses through the woods",
+      "rationale": "Directly identifies horses as featured animals."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "through the woods",
+      "rationale": "Mentions woods but not ranch setting explicitly."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No sign or text mentioned. Ignores question."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No flags mentioned. Ignores question."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "riding horses through the woods",
+      "rationale": "Directly describes horse activity: riding/walking."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "horses grazing, and after this people riding horses",
+      "rationale": "Directly identifies horses as featured animals."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A horse ranch sign is shown, then horses grazing",
+      "rationale": "Mentions ranch and woods but lacks explicit forest detail."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A horse ranch sign is shown",
+      "rationale": "Mentions sign but does not state text 'Kohl Ranch'."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No flags mentioned. Ignores question."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "horses grazing, and after this people riding horses through woods",
+      "rationale": "Directly describes grazing and riding activities."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "Horses graze peacefully, people riding horses",
+      "rationale": "Directly identifies horses as prominently featured."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "KOA Ranch, pasture, wooded trail",
+      "rationale": "Clearly describes ranch with forest/wooded setting."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "sign for KOA Ranch",
+      "rationale": "Directly states sign text 'KOA Ranch'."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No flags mentioned. Ignores question."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "Horses graze peacefully, people riding horses along wooded trail",
+      "rationale": "Directly describes grazing and riding activities."
+    }
+  ]
+}

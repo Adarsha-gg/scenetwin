@@ -1,0 +1,11 @@
+scope,metric,n_clips,fully_monotonic,tier3_ranked_top,tier3_beats_tier0
+whole_cortex,L2_closure (orig),2,0,1,1
+whole_cortex,cosine_closure,2,0,1,1
+whole_cortex,topk10_gap_L2,2,0,1,1
+visual_roi,L2_closure (orig),2,0,0,1
+visual_roi,cosine_closure,2,0,0,1
+visual_roi,topk10_gap_L2,2,0,0,1
+visual_roi,per_voxel_corr,2,0,0,0
+visual_roi,voxel_direction,2,0,0,0
+whole_cortex,per_voxel_corr,2,0,0,0
+whole_cortex,voxel_direction,2,0,0,0

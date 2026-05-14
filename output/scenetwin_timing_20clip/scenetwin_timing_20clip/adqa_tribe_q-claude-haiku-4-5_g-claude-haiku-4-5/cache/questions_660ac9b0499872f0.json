@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is covering the person's head and face in the first image?",
+      "answer_key": "A large woven basket or cylindrical wicker container",
+      "required_visual_evidence": [
+        "woven basket",
+        "head covering",
+        "dark opening"
+      ],
+      "importance": "critical",
+      "rationale": "Dominant visual element in high-need window (t=3.0–6.0s); essential for understanding the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person holding in their hands during the middle sequence?",
+      "answer_key": "A blue container or bucket and what appears to be a yellow object",
+      "required_visual_evidence": [
+        "blue bucket",
+        "yellow object",
+        "holding"
+      ],
+      "importance": "critical",
+      "rationale": "Key action in high-need window (t=8.9–11.9s); clarifies what the person is doing"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of outdoor setting is visible in these images?",
+      "answer_key": "A wooded area with bare or sparse trees and natural ground",
+      "required_visual_evidence": [
+        "trees",
+        "woodland",
+        "outdoor",
+        "bare branches"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes location context for blind listener; visible across multiple frames"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing on their upper body?",
+      "answer_key": "A white or light-colored jacket or shirt over other clothing",
+      "required_visual_evidence": [
+        "white jacket",
+        "light clothing",
+        "layered"
+      ],
+      "importance": "useful",
+      "rationale": "Visible in high-need window (t=11.9–14.9s); helps listener visualize the person"
+    },
+    {
+      "q_idx": 4,
+      "question": "What happens to the basket covering in the final images?",
+      "answer_key": "The basket is removed, revealing the person's face underneath",
+      "required_visual_evidence": [
+        "basket removed",
+        "face visible",
+        "uncovered"
+      ],
+      "importance": "critical",
+      "rationale": "Major visual transition in high-need window (t=14.9–16.4s); critical narrative moment"
+    }
+  ]
+}

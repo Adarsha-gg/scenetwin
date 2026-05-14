@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 45,
+      "completeness": 20,
+      "specificity": 15,
+      "concision": 95,
+      "listener_utility": 25,
+      "overall": 40,
+      "rationale": "Accurately identifies woman and horse riding, but omits critical visual details: setting (paddock, fence, stable buildings), attire (pink cap, casual clothes), actions (patting horse), and time of day. The mention of 'pop music' is not verifiable from video frames alone. Too vague for meaningful scene understanding."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 90,
+      "completeness": 95,
+      "specificity": 90,
+      "concision": 85,
+      "listener_utility": 92,
+      "overall": 90,
+      "rationale": "Highly accurate and comprehensive. Correctly identifies woman, pink cap, casual attire, horse, paddock, fence, stable buildings, and the action of patting the horse's head. Includes helpful contextual details (evening light, outdoor setting). Minor: 'guiding it around the corral' is slightly interpretive but reasonable. Excellent utility for blind listener."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 85,
+      "completeness": 70,
+      "specificity": 65,
+      "concision": 90,
+      "listener_utility": 70,
+      "overall": 76,
+      "rationale": "Accurate core elements: girl/woman riding horse in paddock, patting horse's head. Good concision. Lacks important details: pink cap, casual attire, fence type, stable buildings, time of day. 'Side of the horse's head' is slightly less precise than 'head' but acceptable. Useful but less comprehensive than B."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Complete hallucination. Describes snowmobiles, snow, two people, helmets, engines, and snow-covered terrain—none of which appear in the frames. The actual scene shows a woman on a horse in a paddock near a stable. This is entirely inaccurate and misleading."
+    }
+  ]
+}

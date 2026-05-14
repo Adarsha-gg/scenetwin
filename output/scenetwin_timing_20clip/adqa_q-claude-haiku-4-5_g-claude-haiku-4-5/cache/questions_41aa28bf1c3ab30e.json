@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity is the person performing?",
+      "answer_key": "Skiing down a snowy slope at night",
+      "required_visual_evidence": [
+        "person in motion on snow",
+        "skis visible",
+        "nighttime setting with artificial lighting"
+      ],
+      "importance": "critical",
+      "rationale": "Main activity is central to understanding the video content"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of course markers are visible on the slope?",
+      "answer_key": "Poles marking a ski course or gate",
+      "required_visual_evidence": [
+        "vertical poles",
+        "course markers",
+        "gate structure"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects that define the skiing context and course structure"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the lighting condition during this skiing activity?",
+      "answer_key": "Nighttime with artificial floodlights illuminating the slope",
+      "required_visual_evidence": [
+        "dark sky",
+        "artificial lighting",
+        "lit snow surface"
+      ],
+      "importance": "useful",
+      "rationale": "Setting detail essential for understanding the environment"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on the snow surface in the early frames?",
+      "answer_key": "Text or markings etched or written on the snow",
+      "required_visual_evidence": [
+        "visible marks on snow",
+        "text-like patterns",
+        "surface markings"
+      ],
+      "importance": "useful",
+      "rationale": "Notable visual element that appears in multiple frames"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the skier's clothing?",
+      "answer_key": "Dark colored jacket with yellow or neon accents",
+      "required_visual_evidence": [
+        "dark jacket",
+        "bright colored trim or details",
+        "visible on skier"
+      ],
+      "importance": "useful",
+      "rationale": "Helps identify and describe the main subject clearly"
+    }
+  ]
+}

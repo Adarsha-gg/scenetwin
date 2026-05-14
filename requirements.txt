@@ -1,0 +1,17 @@
+# Core API backend
+fastapi
+uvicorn[standard]
+
+# SceneTwin live pipeline
+anthropic
+openai
+yt-dlp
+opencv-python
+open-clip-torch
+Pillow
+numpy
+pandas
+
+# Existing fallback/demo UI
+gradio
+

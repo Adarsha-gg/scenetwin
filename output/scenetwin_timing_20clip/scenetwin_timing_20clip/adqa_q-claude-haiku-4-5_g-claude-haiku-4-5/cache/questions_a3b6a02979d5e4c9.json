@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main activity taking place in these video frames?",
+      "answer_key": "A person is sledding or sliding down an inflatable snow slide.",
+      "required_visual_evidence": [
+        "person in red hat",
+        "inflatable tube slide structure",
+        "snow-covered surface",
+        "downward motion"
+      ],
+      "importance": "critical",
+      "rationale": "Core action visible across multiple frames showing sledding activity."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location where this activity occurs?",
+      "answer_key": "An outdoor snowy area with a metal fence and bare trees visible.",
+      "required_visual_evidence": [
+        "snow-covered ground",
+        "metal corrugated fence",
+        "bare winter trees",
+        "outdoor environment"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for the activity and is clearly visible throughout."
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment or structure is used for the main activity?",
+      "answer_key": "An inflatable snow slide with white and dark blue striped tubes.",
+      "required_visual_evidence": [
+        "inflatable tube structure",
+        "white and blue striping",
+        "multiple connected tubes",
+        "slide apparatus"
+      ],
+      "importance": "critical",
+      "rationale": "The slide structure is prominent and essential to understanding the activity."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are visible participating in this activity?",
+      "answer_key": "At least two people are visible in the frames.",
+      "required_visual_evidence": [
+        "person in red hat",
+        "person in brown jacket",
+        "multiple individuals present"
+      ],
+      "importance": "useful",
+      "rationale": "Multiple participants are clearly visible across different frames."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the person wearing on their head?",
+      "answer_key": "A red winter hat or beanie.",
+      "required_visual_evidence": [
+        "red hat visible",
+        "person wearing headwear",
+        "consistent across frames"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive red hat is visible on main subject throughout the sequence."
+    }
+  ]
+}

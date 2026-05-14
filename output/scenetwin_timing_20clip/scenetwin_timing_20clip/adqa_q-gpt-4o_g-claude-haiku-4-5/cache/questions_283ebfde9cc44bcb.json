@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Riding a snowmobile.",
+      "required_visual_evidence": [
+        "person on snowmobile",
+        "snowy terrain"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of terrain is visible?",
+      "answer_key": "Snow-covered ground.",
+      "required_visual_evidence": [
+        "snow",
+        "tracks in snow"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the setting."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A snowy outdoor area with trees.",
+      "required_visual_evidence": [
+        "trees",
+        "snow"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the action."
+    },
+    {
+      "q_idx": 3,
+      "question": "What key objects are visible besides the snowmobile?",
+      "answer_key": "Another snowmobile and tracks.",
+      "required_visual_evidence": [
+        "second snowmobile",
+        "tracks"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates presence of multiple vehicles."
+    },
+    {
+      "q_idx": 4,
+      "question": "What text is visible on the snowmobile?",
+      "answer_key": "CROSSTREK.",
+      "required_visual_evidence": [
+        "text on snowmobile"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the snowmobile model."
+    }
+  ]
+}

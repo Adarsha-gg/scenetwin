@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 100,
+      "listener_utility": 0,
+      "overall": 5,
+      "rationale": "Completely inaccurate. Describes snowmobiles, snow, helmets, and engine revving—none of which are present in the frames. The actual scene shows people in a wooded area with a beekeeper suit and truck. Major hallucination makes this entirely unhelpful."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 50,
+      "completeness": 20,
+      "specificity": 30,
+      "concision": 100,
+      "listener_utility": 15,
+      "overall": 23,
+      "rationale": "Partially accurate (person drinking from cup, beekeeper present) but extremely vague and incomplete. Misses critical context: the beekeeper suit details, the truck setting, the wooded location, the second person's casual clothing, and the blue canister. Too minimal to be useful."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 85,
+      "completeness": 70,
+      "specificity": 65,
+      "concision": 85,
+      "listener_utility": 72,
+      "overall": 75,
+      "rationale": "Accurate core elements: beekeeper suit, person drinking from cup, removal of hood. Captures main actions and subjects. Minor gaps: doesn't mention truck, wooded setting, or blue canister. Grammar is slightly awkward ('the other guy removes') but meaning is clear. Reasonably useful for a blind listener."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 95,
+      "completeness": 95,
+      "specificity": 90,
+      "concision": 85,
+      "listener_utility": 93,
+      "overall": 92,
+      "rationale": "Highly accurate and comprehensive. Correctly identifies: wooded setting, truck, beekeeper suit, hood removal, casual-dressed person, blue canister, drinking action, and conversational context. Specific details (protective hood, large blue canister, back of truck) enhance understanding. Well-structured and concise without sacrificing important information. Excellent utility for blind listener."
+    }
+  ]
+}

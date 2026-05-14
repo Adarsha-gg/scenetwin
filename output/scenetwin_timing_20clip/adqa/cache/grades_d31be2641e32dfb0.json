@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about snowmobiles, not cats."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about snowmobiles, not cats."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about snowmobiles, not cats."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "One cat is lying on the ground as another looks around.",
+      "rationale": "No mention of swatting action or standing over behavior."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "One cat is lying on the ground as another looks around.",
+      "rationale": "Identifies lying cat and another cat, but missing orange/black-white colors and third cat."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of flooring type or lighting conditions."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "three cats are relaxing on a hardwood floor, and someone massages one of the cats' head.",
+      "rationale": "Describes massaging, not swatting. No orange/black-white cat identification."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "three cats are relaxing on a hardwood floor",
+      "rationale": "Mentions three cats and hardwood floor, but no color identification or specific positions."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "hardwood floor",
+      "rationale": "Mentions hardwood floor but no lighting description."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "An orange cat stands over a black and white cat that is lying down, gently swatting at it.",
+      "rationale": "Clearly identifies both cats, standing over position, and swatting action."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "An orange cat stands over a black and white cat that is lying down... Another cat, partially visible, sits nearby.",
+      "rationale": "All required elements: orange cat standing, black-white cat lying, third cat partially visible sitting."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a dimly lit living room... on a hardwood floor.",
+      "rationale": "Clearly identifies both hardwood flooring and dim lighting."
+    }
+  ]
+}

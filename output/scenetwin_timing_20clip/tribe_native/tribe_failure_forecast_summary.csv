@@ -1,0 +1,2 @@
+target,feature,direction,n,positives,review_budget_clips,review_budget_frac,captured_in_topk,recall_at_topk,hypergeom_p_at_least,exact_all_positive_topk_p
+all4_fail,mean_standard_slot_score,high,18,2,2,0.1111111111111111,2,1.0,0.0065359477124183,0.006535947712418301

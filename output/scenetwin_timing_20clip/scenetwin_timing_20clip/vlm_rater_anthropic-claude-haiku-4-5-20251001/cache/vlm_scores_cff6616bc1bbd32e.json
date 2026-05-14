@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 75,
+      "completeness": 70,
+      "specificity": 65,
+      "concision": 60,
+      "listener_utility": 68,
+      "overall": 68,
+      "rationale": "Accurately describes an indoor ice rink with hockey players practicing. However, contains some generic language ('lively,' 'honing abilities') and doesn't specify observable details like the number of players, their positions, or specific drills visible. The description of 'aiming to score goals' is somewhat assumed rather than directly observable from the frames. Reasonably useful but somewhat padded with interpretive language."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 70,
+      "completeness": 55,
+      "specificity": 50,
+      "concision": 85,
+      "listener_utility": 60,
+      "overall": 64,
+      "rationale": "Concise and mostly accurate—correctly identifies hockey players on a rink with one player skating with the puck. However, 'mid court' is imprecise terminology for hockey (should be 'center ice' or similar), and the description lacks detail about the setting, number of players, or specific observable actions. Minimal but somewhat vague."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 100,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Complete hallucination. The frames clearly show an ice hockey rink with players, not a kitchen scene. No chef, tomato, knife, or Spanish countdown is visible. This description is entirely inaccurate and would severely mislead a blind listener."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 95,
+      "completeness": 35,
+      "specificity": 20,
+      "concision": 100,
+      "listener_utility": 30,
+      "overall": 36,
+      "rationale": "Accurate but extremely vague and generic. While it correctly identifies the setting (hockey rink) and activity (practice), it provides almost no useful detail about what is actually happening, the number of players, their positions, specific actions, or the rink environment. Too minimal to be helpful for a blind listener trying to understand the scene."
+    }
+  ]
+}

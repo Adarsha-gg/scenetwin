@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A girl performs the high jump",
+      "rationale": "Mentions high jump but omits yellow shirt, smiling, stadium setting."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "high jump at a track meet",
+      "rationale": "Implies equipment but doesn't describe bar, standards, or mat."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "performs the high jump",
+      "rationale": "Directly states jumping over bar action."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "at a track meet",
+      "rationale": "Mentions track but lacks stadium details, red surface, structures."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of landing mat or its colors."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "jumps over a hurdle",
+      "rationale": "Describes hurdles, not standing/smiling; omits yellow shirt."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "high jump",
+      "rationale": "Mentions high jump but conflates with hurdles; no mat description."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "doing a high jump",
+      "rationale": "States high jump but unclear if bar clearance; mixed with hurdles."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "on a track",
+      "rationale": "Mentions track but no stadium structure, red surface, or field details."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of landing mat or colors."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen, a chef holds a cherry tomato",
+      "rationale": "Describes kitchen scene; completely unrelated to track/athletics."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "chef holds a cherry tomato",
+      "rationale": "Kitchen scene; no athletic equipment mentioned."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "throws the tomato at a wall",
+      "rationale": "Describes tomato throwing; contradicts high jump activity."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen",
+      "rationale": "Kitchen setting; contradicts athletic stadium location."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No landing mat or athletic equipment mentioned."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "young girl in a yellow shirt",
+      "rationale": "Directly states yellow shirt; track/field event context clear."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "performing a high jump, landing on a cushioned surface",
+      "rationale": "Mentions high jump and mat but omits bar, standards, mat colors."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "performing a high jump, landing on a cushioned surface",
+      "rationale": "Clearly describes high jump action and landing."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "track and field event",
+      "rationale": "Mentions track/field but lacks red surface, stadium structure details."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "cushioned surface",
+      "rationale": "Mentions mat but omits blue and red colors."
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+metric,spearman_rho,spearman_p,kendall_tau,kendall_p,pairwise_wins,pairwise_total,full_order_clips,full_order_total
+adqa_score,0.9416794417917417,7.818836216571767e-35,0.889348693044911,4.6288676991125594e-20,53,54,11,18

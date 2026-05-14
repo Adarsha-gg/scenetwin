@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the young person in the yellow shirt doing at the track?",
+      "answer_key": "Standing and smiling at an athletic stadium or training facility",
+      "required_visual_evidence": [
+        "yellow shirt",
+        "athletic track",
+        "smiling at camera"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes main subject and setting during opening high-need window (0-3s)"
+    },
+    {
+      "q_idx": 1,
+      "question": "What athletic equipment is visible on the track field?",
+      "answer_key": "High jump bar and standards with a landing mat beneath",
+      "required_visual_evidence": [
+        "high jump apparatus",
+        "red/brown track",
+        "landing mat"
+      ],
+      "importance": "critical",
+      "rationale": "Key visual context for understanding the athletic activity in high-need window (6-8.9s)"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the person attempting to do with the high jump bar?",
+      "answer_key": "Jump over the horizontal bar using the high jump technique",
+      "required_visual_evidence": [
+        "person near bar",
+        "jumping motion",
+        "bar clearance attempt"
+      ],
+      "importance": "critical",
+      "rationale": "Main action occurs in critical high-need window (8.9-14.9s) where visual info is most missed"
+    },
+    {
+      "q_idx": 3,
+      "question": "Describe the location and setting where this athletic activity takes place.",
+      "answer_key": "Professional or school athletic stadium with red track, field, and spectator areas",
+      "required_visual_evidence": [
+        "red track surface",
+        "goal posts",
+        "stadium structure",
+        "buildings"
+      ],
+      "importance": "useful",
+      "rationale": "Spatial context helps blind listener understand the athletic venue and environment"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the landing mat beneath the high jump bar?",
+      "answer_key": "Blue and red colored mat positioned under the jump apparatus",
+      "required_visual_evidence": [
+        "blue mat section",
+        "red mat section",
+        "safety padding"
+      ],
+      "importance": "useful",
+      "rationale": "Safety equipment detail relevant to understanding the high jump setup and sport"
+    }
+  ]
+}

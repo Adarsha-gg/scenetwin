@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about snowmobiles, not relevant."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about snowmobiles, not relevant."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "Cross-category description about snowmobiles, not relevant."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A guy has a small deer follow him alongside a fence.",
+      "rationale": "Missing clothing details and walking action description."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A guy has a small deer follow him alongside a fence.",
+      "rationale": "Mentions deer and following, but vague on mirroring movements."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of playful engagement or follow-the-leader game."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A guy with green top and navy bottom is playing with a deer",
+      "rationale": "Has clothing and activity, but lacks walking back-and-forth detail."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a deer which fenced up to other side of the fence",
+      "rationale": "Mentions deer and fence side, but grammar unclear; missing mirror/follow details."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "playing with a deer",
+      "rationale": "Mentions playing but lacks follow-the-leader game specificity."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man in a green shirt and navy shorts walks back and forth along a fence.",
+      "rationale": "All required details present: clothing, action, fence."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "On the other side, a small deer mirrors his movements, following him closely.",
+      "rationale": "All required details: small deer, other side, mirrors, follows."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "playfully engaging the deer in a game of follow-the-leader.",
+      "rationale": "Explicitly describes playful engagement and follow-the-leader game."
+    }
+  ]
+}

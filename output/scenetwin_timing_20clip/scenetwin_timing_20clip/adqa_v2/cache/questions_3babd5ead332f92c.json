@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of establishment is shown in the first frame based on the signage?",
+      "answer_key": "A ranch, indicated by the sign showing a horse silhouette with 'Ranch' text",
+      "required_visual_evidence": [
+        "horse silhouette on sign",
+        "ranch name on wooden sign",
+        "KOA logo"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location type and setting for the travel clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What animals are visible in the second frame and what are they doing?",
+      "answer_key": "Two horses, one brown and one white with brown patches, grazing in a fenced pasture",
+      "required_visual_evidence": [
+        "brown horse",
+        "white horse with brown markings",
+        "wooden fence",
+        "grass field",
+        "grazing"
+      ],
+      "importance": "critical",
+      "rationale": "Describes main subjects and their activity in the travel destination"
+    },
+    {
+      "q_idx": 2,
+      "question": "What animal appears in the third and fourth frames and where is it located?",
+      "answer_key": "A bear in a wooded forest area among trees and vegetation",
+      "required_visual_evidence": [
+        "bear",
+        "dense trees",
+        "green foliage",
+        "forest setting",
+        "branches"
+      ],
+      "importance": "useful",
+      "rationale": "Documents wildlife encounter at the travel location"
+    }
+  ]
+}

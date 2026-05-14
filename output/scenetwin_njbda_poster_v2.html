@@ -1,0 +1,944 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SceneTwin NJBDA Poster v2</title>
+  <style>
+    @page {
+      size: 36in 48in;
+      margin: 0;
+    }
+
+    :root {
+      --ink: #161a1d;
+      --muted: #56636d;
+      --line: #cdd6dc;
+      --paper: #fbfaf6;
+      --white: #ffffff;
+      --teal: #0d7f83;
+      --teal-soft: #dff3f2;
+      --blue: #285a8f;
+      --rose: #b73558;
+      --gold: #c88a20;
+      --green: #4d7f3a;
+      --violet: #6f5c9a;
+      --slate: #26313a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background: #e3e0d7;
+      color: var(--ink);
+      font-family: Inter, Avenir, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.18;
+    }
+
+    body {
+      padding: 0;
+    }
+
+    .poster {
+      width: 36in;
+      height: 48in;
+      margin: 0 auto;
+      overflow: hidden;
+      background:
+        linear-gradient(180deg, rgba(13, 127, 131, 0.16), rgba(255, 255, 255, 0) 7.8in),
+        linear-gradient(90deg, rgba(183, 53, 88, 0.075), rgba(255, 255, 255, 0) 8.5in),
+        var(--paper);
+      display: grid;
+      grid-template-rows: 5.45in 8.05in 10.8in 9.4in 8.55in 1.35in 0.65in;
+      padding: 0.62in 0.72in 0.5in;
+      gap: 0.34in;
+    }
+
+    .header {
+      display: grid;
+      grid-template-columns: 1fr 8.25in;
+      gap: 0.42in;
+      border-bottom: 0.055in solid var(--ink);
+      padding-bottom: 0.32in;
+      align-items: end;
+    }
+
+    .eyebrow {
+      color: var(--teal);
+      font-size: 0.27in;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      margin-bottom: 0.16in;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 0.86in;
+      line-height: 0.96;
+      letter-spacing: 0;
+      max-width: 25.6in;
+      font-weight: 950;
+    }
+
+    .subtitle {
+      margin: 0.22in 0 0;
+      max-width: 25.7in;
+      color: #33404a;
+      font-size: 0.31in;
+      line-height: 1.18;
+      font-weight: 620;
+    }
+
+    .byline {
+      margin-top: 0.2in;
+      font-size: 0.225in;
+      color: #4a5660;
+      font-weight: 720;
+    }
+
+    .hero {
+      background: var(--slate);
+      color: white;
+      padding: 0.26in 0.28in;
+      border-radius: 0.08in;
+      min-height: 4.7in;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 0.18in;
+    }
+
+    .hero .label {
+      color: #bfeae8;
+      font-size: 0.22in;
+      font-weight: 850;
+      text-transform: uppercase;
+    }
+
+    .rho {
+      font-size: 1.24in;
+      line-height: 0.88;
+      font-weight: 950;
+      letter-spacing: 0;
+      align-self: center;
+    }
+
+    .hero .submetric {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.14in;
+      font-size: 0.22in;
+      line-height: 1.14;
+      color: #f2efe8;
+      font-weight: 720;
+    }
+
+    .band {
+      display: grid;
+      gap: 0.28in;
+      min-height: 0;
+    }
+
+    .band.two {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .band.three {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .band.main-result {
+      grid-template-columns: 10.4in 1fr;
+    }
+
+    .band.visual-method {
+      grid-template-columns: 12.6in 1fr;
+    }
+
+    .band.tribe-fails {
+      grid-template-columns: 12.5in 1fr;
+    }
+
+    section {
+      background: rgba(255, 255, 255, 0.86);
+      border: 0.018in solid var(--line);
+      border-top: 0.09in solid var(--teal);
+      border-radius: 0.08in;
+      padding: 0.24in 0.26in 0.24in;
+      min-width: 0;
+      overflow: hidden;
+    }
+
+    section.gold {
+      border-top-color: var(--gold);
+    }
+
+    section.rose {
+      border-top-color: var(--rose);
+    }
+
+    section.green {
+      border-top-color: var(--green);
+    }
+
+    section.blue {
+      border-top-color: var(--blue);
+    }
+
+    section.violet {
+      border-top-color: var(--violet);
+    }
+
+    h2 {
+      margin: 0 0 0.13in;
+      font-size: 0.37in;
+      line-height: 1.02;
+      letter-spacing: 0;
+      font-weight: 930;
+    }
+
+    h3 {
+      margin: 0.13in 0 0.07in;
+      font-size: 0.23in;
+      line-height: 1.08;
+      font-weight: 880;
+    }
+
+    p {
+      margin: 0 0 0.12in;
+      color: #2e3941;
+      font-size: 0.205in;
+      line-height: 1.24;
+    }
+
+    .lead {
+      font-size: 0.255in;
+      line-height: 1.16;
+      color: var(--ink);
+      font-weight: 780;
+    }
+
+    .small {
+      color: var(--muted);
+      font-size: 0.155in;
+      line-height: 1.22;
+    }
+
+    .source {
+      color: #66717a;
+      font-size: 0.14in;
+      line-height: 1.22;
+      margin-top: 0.1in;
+    }
+
+    .metric-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.14in;
+      margin-top: 0.18in;
+    }
+
+    .metric {
+      background: #f5faf9;
+      border: 0.014in solid #c9dddd;
+      border-radius: 0.07in;
+      padding: 0.14in;
+      min-height: 1.05in;
+    }
+
+    .metric b {
+      display: block;
+      color: var(--teal);
+      font-size: 0.38in;
+      line-height: 0.94;
+      font-weight: 950;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .metric span {
+      display: block;
+      margin-top: 0.07in;
+      color: #54616b;
+      font-size: 0.15in;
+      line-height: 1.1;
+      font-weight: 760;
+      text-transform: uppercase;
+    }
+
+    .chart {
+      margin-top: 0.14in;
+      border: 0.014in solid #d5dde2;
+      background: #fbfcfd;
+      border-radius: 0.06in;
+      padding: 0.16in;
+    }
+
+    .bars {
+      display: grid;
+      gap: 0.13in;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 2.25in 1fr 0.66in;
+      gap: 0.12in;
+      align-items: center;
+      font-size: 0.17in;
+      color: #33404a;
+      font-weight: 760;
+    }
+
+    .track {
+      height: 0.25in;
+      background: #e6ebef;
+      border-radius: 0.04in;
+      overflow: hidden;
+    }
+
+    .bar {
+      height: 100%;
+      background: var(--teal);
+    }
+
+    .bar.blue {
+      background: var(--blue);
+    }
+
+    .bar.rose {
+      background: var(--rose);
+    }
+
+    .bar.gold {
+      background: var(--gold);
+    }
+
+    .bar.green {
+      background: var(--green);
+    }
+
+    .bar-val {
+      text-align: right;
+      font-weight: 900;
+      font-variant-numeric: tabular-nums;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.158in;
+      line-height: 1.15;
+      margin-top: 0.08in;
+    }
+
+    th,
+    td {
+      padding: 0.074in 0.065in;
+      border-bottom: 0.012in solid #dbe2e6;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background: #f0f4f6;
+      color: #3f4b54;
+      font-size: 0.13in;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+
+    td.num,
+    th.num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+
+    tr.hl td {
+      background: #fff5df;
+      font-weight: 820;
+    }
+
+    .pipeline {
+      display: grid;
+      grid-template-columns: 1fr 0.36in 1fr 0.36in 1fr;
+      align-items: stretch;
+      gap: 0.12in;
+      margin-top: 0.12in;
+    }
+
+    .pipe {
+      min-height: 1.24in;
+      background: #f7f9fa;
+      border: 0.014in solid #d4dde1;
+      border-radius: 0.07in;
+      padding: 0.14in;
+    }
+
+    .pipe b {
+      display: block;
+      font-size: 0.215in;
+      margin-bottom: 0.06in;
+    }
+
+    .pipe span {
+      display: block;
+      color: #59656e;
+      font-size: 0.154in;
+      line-height: 1.17;
+    }
+
+    .arrow {
+      display: grid;
+      place-items: center;
+      color: var(--teal);
+      font-size: 0.34in;
+      font-weight: 950;
+    }
+
+    .signal-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.14in;
+      margin-top: 0.14in;
+    }
+
+    .signal {
+      color: white;
+      border-radius: 0.07in;
+      padding: 0.15in;
+      min-height: 1.3in;
+    }
+
+    .signal b {
+      display: block;
+      font-size: 0.225in;
+      margin-bottom: 0.06in;
+    }
+
+    .signal span {
+      display: block;
+      font-size: 0.152in;
+      line-height: 1.18;
+      color: rgba(255, 255, 255, 0.92);
+    }
+
+    .signal.clip {
+      background: var(--blue);
+    }
+
+    .signal.adqa {
+      background: var(--rose);
+    }
+
+    .frame-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.09in;
+      margin-top: 0.13in;
+    }
+
+    .frame-grid img,
+    .photo img,
+    .brain-row img,
+    .sheet img {
+      width: 100%;
+      display: block;
+      object-fit: cover;
+      border-radius: 0.045in;
+      border: 0.012in solid #cbd4da;
+      background: #eef2f4;
+    }
+
+    .frame-grid img {
+      aspect-ratio: 16 / 9;
+    }
+
+    .photo {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.12in;
+      margin-top: 0.12in;
+    }
+
+    .photo img {
+      height: 2.12in;
+    }
+
+    .caption {
+      margin-top: 0.06in;
+      color: #5a6670;
+      font-size: 0.132in;
+      line-height: 1.16;
+    }
+
+    .brain-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 0.1in;
+      margin-top: 0.12in;
+    }
+
+    .brain-row img {
+      height: 1.55in;
+      object-fit: contain;
+      background: #f7f8fa;
+    }
+
+    .sheet {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.12in;
+      margin-top: 0.12in;
+    }
+
+    .sheet img {
+      height: 4.35in;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    .failed-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.13in;
+      margin-top: 0.12in;
+    }
+
+    .failed {
+      border: 0.014in solid #d9dfe3;
+      border-left: 0.06in solid var(--rose);
+      background: #fff8f8;
+      border-radius: 0.055in;
+      padding: 0.12in 0.13in;
+      min-height: 1.05in;
+    }
+
+    .failed b {
+      display: block;
+      font-size: 0.18in;
+      margin-bottom: 0.05in;
+    }
+
+    .failed span {
+      display: block;
+      color: #5a4650;
+      font-size: 0.136in;
+      line-height: 1.18;
+    }
+
+    .risk-list {
+      display: grid;
+      gap: 0.09in;
+      margin-top: 0.14in;
+    }
+
+    .risk-item {
+      display: grid;
+      grid-template-columns: 0.6in 1fr 1.1in;
+      gap: 0.1in;
+      align-items: center;
+      padding: 0.11in;
+      border: 0.014in solid #d8e0e5;
+      border-radius: 0.06in;
+      background: #fbfcfd;
+      font-size: 0.158in;
+    }
+
+    .risk-item.fail {
+      border-color: #e6b8c5;
+      background: #fff4f7;
+    }
+
+    .rank {
+      width: 0.42in;
+      height: 0.42in;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      color: white;
+      background: var(--rose);
+      font-size: 0.19in;
+      font-weight: 900;
+    }
+
+    .risk-score {
+      text-align: right;
+      font-weight: 900;
+      color: var(--slate);
+      font-variant-numeric: tabular-nums;
+    }
+
+    .tile-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.13in;
+      margin-top: 0.14in;
+    }
+
+    .tile {
+      background: #f7faf8;
+      border: 0.014in solid #d5e0d5;
+      border-radius: 0.06in;
+      padding: 0.12in;
+      min-height: 1.0in;
+    }
+
+    .tile b {
+      display: block;
+      font-size: 0.32in;
+      line-height: 0.95;
+      color: var(--green);
+      font-weight: 950;
+    }
+
+    .tile span {
+      display: block;
+      margin-top: 0.06in;
+      font-size: 0.135in;
+      color: #52605a;
+      text-transform: uppercase;
+      font-weight: 780;
+    }
+
+    .takeaway {
+      background: var(--ink);
+      color: white;
+      border: 0;
+      border-radius: 0.08in;
+      display: grid;
+      grid-template-columns: 1fr 2.0in;
+      gap: 0.18in;
+      align-items: center;
+      padding: 0.22in 0.24in;
+    }
+
+    .takeaway p {
+      color: #f4f0e8;
+      margin: 0;
+      font-size: 0.205in;
+      line-height: 1.17;
+      font-weight: 690;
+    }
+
+    .qr {
+      width: 1.52in;
+      height: 1.52in;
+      justify-self: end;
+      background:
+        linear-gradient(90deg, #111 16%, transparent 16% 28%, #111 28% 44%, transparent 44% 56%, #111 56% 72%, transparent 72%),
+        linear-gradient(#111 16%, transparent 16% 28%, #111 28% 44%, transparent 44% 56%, #111 56% 72%, transparent 72%),
+        white;
+      background-size: 0.42in 0.42in;
+      border: 0.08in solid white;
+      box-shadow: 0 0 0 0.016in rgba(255,255,255,0.6);
+      position: relative;
+    }
+
+    .qr::after {
+      content: "QR";
+      position: absolute;
+      inset: 0.38in;
+      display: grid;
+      place-items: center;
+      background: white;
+      color: #111;
+      font-size: 0.22in;
+      font-weight: 950;
+    }
+
+    footer {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.25in;
+      align-items: end;
+      border-top: 0.018in solid var(--line);
+      padding-top: 0.14in;
+      color: #4e5962;
+      font-size: 0.155in;
+      line-height: 1.18;
+    }
+
+    code {
+      font-family: "SFMono-Regular", Consolas, Menlo, monospace;
+      font-size: 0.92em;
+    }
+
+    @media screen and (max-width: 1200px) {
+      .poster {
+        transform: scale(0.28);
+        transform-origin: top left;
+        margin: 0;
+      }
+    }
+
+    @media print {
+      body {
+        background: var(--paper);
+      }
+
+      .poster {
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="poster">
+    <header class="header">
+      <div>
+        <div class="eyebrow">NJBDA 2026 &middot; Rowan University &middot; Wednesday, May 20, 2026</div>
+        <h1>SceneTwin: reference-free audit of audio description quality</h1>
+        <p class="subtitle">A scalable pipeline for checking whether audio descriptions are visually grounded and answer the questions a blind or low-vision viewer would need answered.</p>
+        <div class="byline">Adarsha Subedi &middot; West Liberty University</div>
+      </div>
+      <aside class="hero" aria-label="Headline result">
+        <div class="label">Primary result on 18 complete clips</div>
+        <div class="rho">&rho; = 0.929</div>
+        <div class="submetric">
+          <div><b>54/54</b><br>professional AD pairwise wins</div>
+          <div><b>15/18</b><br>clips fully ordered by tier</div>
+        </div>
+      </aside>
+    </header>
+
+    <div class="band main-result">
+      <section class="gold">
+        <h2>Reference-Free AD Evaluation Works</h2>
+        <p class="lead">SceneTwin ranked four candidate descriptions per video without using a human-written reference answer.</p>
+        <div class="metric-row">
+          <div class="metric"><b>20</b><span>VideoA11y / VATEX clips</span></div>
+          <div class="metric"><b>4</b><span>AD quality tiers per clip</span></div>
+          <div class="metric"><b>72</b><span>Complete scored rows</span></div>
+          <div class="metric"><b>0.000</b><span>Permutation p &ge; observed</span></div>
+        </div>
+        <div class="chart">
+          <div class="bars">
+            <div class="bar-row">
+              <div>CLIP only</div>
+              <div class="track"><div class="bar blue" style="width:72.5%"></div></div>
+              <div class="bar-val">.725</div>
+            </div>
+            <div class="bar-row">
+              <div>ADQA only</div>
+              <div class="track"><div class="bar rose" style="width:80.3%"></div></div>
+              <div class="bar-val">.803</div>
+            </div>
+            <div class="bar-row">
+              <div>Multi-judge ADQA</div>
+              <div class="track"><div class="bar gold" style="width:93.3%"></div></div>
+              <div class="bar-val">.933</div>
+            </div>
+            <div class="bar-row">
+              <div>ADQA + CLIP</div>
+              <div class="track"><div class="bar" style="width:92.9%"></div></div>
+              <div class="bar-val">.929</div>
+            </div>
+          </div>
+        </div>
+        <p class="source">Main score: equal-weight fusion of clip-normalized frame-grounded ADQA and CLIP mean. Bootstrap CI for ensemble &rho;: [0.904, 0.957].</p>
+      </section>
+
+      <section class="blue">
+        <h2>What Gets Ranked</h2>
+        <p>Each video has a controlled quality ladder: unrelated text, short caption, longer caption, and professional audio description.</p>
+        <table>
+          <thead>
+            <tr><th>Tier</th><th>Candidate</th><th class="num">Expected</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>tier0</td><td>Cross-category control</td><td class="num">worst</td></tr>
+            <tr><td>tier1</td><td>Short VATEX caption</td><td class="num">low</td></tr>
+            <tr><td>tier2</td><td>Long VATEX caption</td><td class="num">mid</td></tr>
+            <tr class="hl"><td>tier3</td><td>Professional VideoA11y AD</td><td class="num">best</td></tr>
+          </tbody>
+        </table>
+        <div class="photo">
+          <div>
+            <img src="scenetwin_timing_20clip/adqa_frames/clip_12/frame_02_t4.70.jpg" alt="Volleyball clip frame">
+            <div class="caption">Failure-risk clip #1: volleyball action with incomplete tier ordering.</div>
+          </div>
+          <div>
+            <img src="scenetwin_timing_20clip/adqa_frames/clip_15/frame_02_t4.59.jpg" alt="Deer-following clip frame">
+            <div class="caption">Failure-risk clip #2: animal interaction where professional AD barely leads.</div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="band visual-method">
+      <section>
+        <h2>How SceneTwin Scores AD</h2>
+        <p class="lead">The pipeline checks both grounding and comprehension. CLIP catches wrong-scene text; ADQA catches vague text that looks plausible but does not answer visual questions.</p>
+        <div class="pipeline">
+          <div class="pipe"><b>Video evidence</b><span>Sample frames directly from the clip, not from the professional AD.</span></div>
+          <div class="arrow">&rarr;</div>
+          <div class="pipe"><b>Two judges</b><span>CLIP-L14 grounding plus frame-grounded question answering.</span></div>
+          <div class="arrow">&rarr;</div>
+          <div class="pipe"><b>Clip-local rank</b><span>Normalize within clip, then rank four candidate descriptions.</span></div>
+        </div>
+        <div class="signal-grid">
+          <div class="signal clip">
+            <b>CLIP-L14</b>
+            <span>Measures whether description text matches sampled video frames. Strong against hallucinated or wrong-scene AD.</span>
+          </div>
+          <div class="signal adqa">
+            <b>Frame-Grounded ADQA</b>
+            <span>Generates visual comprehension questions from frames, then grades anonymized candidate ADs blind.</span>
+          </div>
+        </div>
+        <h3>Example visual evidence</h3>
+        <div class="frame-grid">
+          <img src="scenetwin_timing_20clip/adqa_frames/clip_01/frame_00_t0.82.jpg" alt="Burger eating clip frame 1">
+          <img src="scenetwin_timing_20clip/adqa_frames/clip_01/frame_02_t4.12.jpg" alt="Burger eating clip frame 2">
+          <img src="scenetwin_timing_20clip/adqa_frames/clip_01/frame_04_t7.41.jpg" alt="Burger eating clip frame 3">
+          <img src="scenetwin_timing_20clip/adqa_frames/clip_01/frame_05_t9.06.jpg" alt="Burger eating clip frame 4">
+        </div>
+        <p class="source">Stage 4 ADQA generated 90 frame-grounded questions and graded 360 anonymized candidate-question pairs.</p>
+      </section>
+
+      <section class="rose">
+        <h2>Bias Checks</h2>
+        <p>Good ADs are often longer, so verbosity has to be ruled out as the easy explanation.</p>
+        <div class="chart">
+          <div class="bars">
+            <div class="bar-row">
+              <div>Word count</div>
+              <div class="track"><div class="bar rose" style="width:31.8%"></div></div>
+              <div class="bar-val">.318</div>
+            </div>
+            <div class="bar-row">
+              <div>CLIP mean</div>
+              <div class="track"><div class="bar blue" style="width:79.9%"></div></div>
+              <div class="bar-val">.799</div>
+            </div>
+            <div class="bar-row">
+              <div>All-judge ADQA</div>
+              <div class="track"><div class="bar gold" style="width:93.3%"></div></div>
+              <div class="bar-val">.933</div>
+            </div>
+            <div class="bar-row">
+              <div>Length-residualized</div>
+              <div class="track"><div class="bar green" style="width:87.4%"></div></div>
+              <div class="bar-val">.874</div>
+            </div>
+          </div>
+        </div>
+        <table>
+          <thead>
+            <tr><th>Check</th><th>Result</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Length-only baseline</td><td>0/18 fully ordered clips</td></tr>
+            <tr><td>Within-clip length residualization</td><td>&rho; remains 0.874</td></tr>
+            <tr><td>Equal all-judge ADQA mean</td><td>&rho; 0.933, no cherry-picked judge subset</td></tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <div class="band two">
+      <section class="violet">
+        <h2>SceneTwin Visuals: Brain-Like Prediction Space</h2>
+        <p class="lead">The brain-model branch gives the poster a useful visual story, but it should be framed carefully: TRIBE is strongest as triage and timing, not direct text correctness scoring.</p>
+        <div class="brain-row">
+          <div>
+            <img src="scenetwin_assets/brain_video.png" alt="Brain prediction map for video">
+            <div class="caption">Audiovisual scene</div>
+          </div>
+          <div>
+            <img src="scenetwin_assets/brain_accurate_detailed.png" alt="Brain prediction map for accurate detailed description">
+            <div class="caption">Accurate detailed AD</div>
+          </div>
+          <div>
+            <img src="scenetwin_assets/brain_hallucinated.png" alt="Brain prediction map for hallucinated description">
+            <div class="caption">Hallucinated AD</div>
+          </div>
+        </div>
+        <div class="sheet">
+          <div>
+            <img src="scenetwin_need_validation/clip_00_need_validation.jpg" alt="Need validation sheet for clip 00">
+            <div class="caption">Silent visual-action windows become standard AD slots.</div>
+          </div>
+          <div>
+            <img src="scenetwin_need_validation/clip_01_need_validation.jpg" alt="Need validation sheet for clip 01">
+            <div class="caption">High need under speech suggests extended or integrated AD.</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blue">
+        <h2>Cross-Model Robustness</h2>
+        <p>Different questioner/grader model pairs preserve positive tier signal. Multi-judge averaging stabilizes the final score.</p>
+        <table>
+          <thead>
+            <tr><th>Questioner &rarr; Grader</th><th class="num">&rho;</th><th class="num">Role</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Claude &rarr; Claude</td><td class="num">0.803</td><td class="num">baseline</td></tr>
+            <tr><td>Claude &rarr; GPT-4o</td><td class="num">0.730</td><td class="num">swap</td></tr>
+            <tr><td>GPT-4o &rarr; Claude</td><td class="num">0.789</td><td class="num">swap</td></tr>
+            <tr class="hl"><td>All-four judge mean</td><td class="num">0.933</td><td class="num">fair primary check</td></tr>
+          </tbody>
+        </table>
+        <h3>Complementary signal</h3>
+        <p>Mean per-clip CLIP-to-ADQA Spearman was 0.761. They overlap enough to be coherent, but not enough to be redundant.</p>
+        <div class="tile-row">
+          <div class="tile"><b>94%</b><span>CLIP and ADQA agree on direction</span></div>
+          <div class="tile"><b>0.076</b><span>Ensemble lift over ADQA v2</span></div>
+          <div class="tile"><b>0</b><span>Permutation hits above observed</span></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="band tribe-fails">
+      <section class="green">
+        <h2>TRIBE as a Risk Forecast</h2>
+        <p class="lead">TRIBE is most useful before scoring: it flags clips where automatic evaluation is likely to be fragile.</p>
+        <div class="tile-row">
+          <div class="tile"><b>100%</b><span>Recall at top 2 risk clips</span></div>
+          <div class="tile"><b>11.1%</b><span>Review budget</span></div>
+          <div class="tile"><b>0.0065</b><span>Exact uncorrected p</span></div>
+        </div>
+        <div class="risk-list">
+          <div class="risk-item fail"><div class="rank">1</div><div><b>Clip 12 &middot; Sports</b><br>tier2/tier1 inversion risk</div><div class="risk-score">0.281</div></div>
+          <div class="risk-item fail"><div class="rank">2</div><div><b>Clip 15 &middot; Pets</b><br>professional AD barely leads</div><div class="risk-score">0.245</div></div>
+          <div class="risk-item"><div class="rank" style="background:var(--green)">3</div><div><b>Clip 11 &middot; Sports</b><br>clean but high standard-slot pressure</div><div class="risk-score">0.215</div></div>
+          <div class="risk-item"><div class="rank" style="background:var(--green)">4</div><div><b>Clip 04 &middot; Food</b><br>clean lower-risk clip</div><div class="risk-score">0.124</div></div>
+        </div>
+        <p class="source">Caveat: this is a strong pilot, not finished proof. There are only two known all-judge full-order failures.</p>
+      </section>
+
+      <section class="rose">
+        <h2>What We Tried That Failed</h2>
+        <p>These branches matter because they narrow the honest claim. The survivor is reference-free scoring plus TRIBE triage.</p>
+        <div class="failed-grid">
+          <div class="failed"><b>Raw neural text scoring</b><span>Rich wrong descriptions can still look neurally plausible.</span></div>
+          <div class="failed"><b>Description Gain / MVRR</b><span>Unstable at small scale; not reliable enough for the headline.</span></div>
+          <div class="failed"><b>ROI content typing</b><span>Glasser/Destrieux proxy typing was near weak-prototype territory, not a final claim.</span></div>
+          <div class="failed"><b>TRIBE need-weighted ADQA</b><span>Adaptive weighting changed &rho; by less than ~0.002 versus fixed 50/50.</span></div>
+          <div class="failed"><b>Neural closure</b><span>P<sub>A</sub>+AD to P<sub>AV</sub> remained hard to interpret; verbosity dominated language-network signal.</span></div>
+          <div class="failed"><b>OCR-only coverage</b><span>Useful as a feature, not sufficient as a general AD quality metric.</span></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="takeaway">
+      <p><b>Takeaway:</b> SceneTwin makes audio-description QA scalable by separating the problem into grounded visual evidence, listener-style comprehension, and upstream risk triage. The strongest claim is practical: good AD can be audited without a reference description.</p>
+      <div class="qr" aria-label="QR placeholder"></div>
+    </section>
+
+    <footer>
+      <div>
+        Code/data outputs: <code>output/scenetwin_timing_20clip/</code> &middot; Reports: <code>output/reports/</code><br>
+        Primary sources: ensemble validation, bias reduction, Stage 4 frame-grounded ADQA, TRIBE failure forecast.
+      </div>
+      <div>SceneTwin &middot; NJBDA Symposium 2026</div>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the child doing with the cooking utensil and pan?",
+      "answer_key": "Stirring or mixing food in a skillet with a spatula",
+      "required_visual_evidence": [
+        "child holding spatula",
+        "black skillet with food",
+        "kitchen counter"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and central focus of the clip; essential for understanding the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of food appears to be cooking in the pan?",
+      "answer_key": "Diced or chopped vegetables, appears to be potatoes or similar",
+      "required_visual_evidence": [
+        "yellow/white diced pieces in skillet",
+        "black pan"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the food being prepared; relevant to cooking context"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this cooking activity taking place?",
+      "answer_key": "In a kitchen, at a countertop or counter surface",
+      "required_visual_evidence": [
+        "granite or tile countertop",
+        "kitchen appliances",
+        "white plate"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the setting; necessary for spatial orientation"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many children are visible in the frames?",
+      "answer_key": "Two children are present in the kitchen",
+      "required_visual_evidence": [
+        "child in foreground with spatula",
+        "second child visible in background"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies number of people involved in the cooking activity"
+    },
+    {
+      "q_idx": 4,
+      "question": "What cooking equipment is visible on the counter?",
+      "answer_key": "A black skillet, white plate, and a blue container or seasoning jar",
+      "required_visual_evidence": [
+        "black skillet with food",
+        "white plate",
+        "blue container"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies key objects in the cooking setup; helps visualize the scene"
+    }
+  ]
+}

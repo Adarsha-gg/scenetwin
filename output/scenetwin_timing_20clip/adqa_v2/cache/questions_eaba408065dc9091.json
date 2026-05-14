@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main activity taking place in this clip?",
+      "answer_key": "People are sledding or sliding down an inflatable snow slide.",
+      "required_visual_evidence": [
+        "inflatable slide structure",
+        "people sliding down",
+        "snow-covered surface"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the primary action and context essential to understanding the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location where this activity occurs?",
+      "answer_key": "A snowy backyard or outdoor residential area with fencing and bare trees.",
+      "required_visual_evidence": [
+        "snow-covered ground",
+        "metal fencing",
+        "residential structure",
+        "bare trees"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the environment necessary for listeners to visualize the scene."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main object or equipment used in this activity?",
+      "answer_key": "A large inflatable slide with white and dark blue sections and tunnel openings.",
+      "required_visual_evidence": [
+        "inflatable structure",
+        "white and blue coloring",
+        "tunnel sections"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the key apparatus central to the activity being performed."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are visible actively using the slide in the frames?",
+      "answer_key": "At least two to three people are sliding or positioned on the inflatable slide.",
+      "required_visual_evidence": [
+        "person in red jacket",
+        "person in dark clothing",
+        "multiple figures on slide"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listeners understand the scale of participation in the activity."
+    },
+    {
+      "q_idx": 4,
+      "question": "What distinctive feature does the person in the red jacket wear?",
+      "answer_key": "A bright red jacket or coat visible at the top of the slide.",
+      "required_visual_evidence": [
+        "red jacket",
+        "top of slide",
+        "person"
+      ],
+      "importance": "useful",
+      "rationale": "Provides a visual reference point to track movement and identify participants."
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier navigates a snowy hill",
+      "rationale": "Describes skiing, not vegetable preparation."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "weaving between flexible poles",
+      "rationale": "Describes skiing motions, not mixing vegetables."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "No mention of wooden bowl or container."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "slalom course",
+      "rationale": "Describes skiing slope, not food preparation surface."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier",
+      "rationale": "Describes one skier, not multiple people preparing food."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "mix spinach in a bowl",
+      "rationale": "Mentions spinach and bowl but lacks detail on greens and mixing action."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "explaining how to mix",
+      "rationale": "Describes explanation, not actual hand motions being performed."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "bowl",
+      "rationale": "Mentions bowl but no details on wooden material, shape, or handles."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No mention of cheese, cutting board, or wooden surface."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A woman",
+      "rationale": "Describes one person, not two people collaborating."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "fresh spinach leaves...mix the garlic and spinach together",
+      "rationale": "Clearly states greens being mixed by hands in wooden bowl."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "uses their hands to thoroughly mix the garlic and spinach",
+      "rationale": "Explicitly describes hand mixing action combining ingredients."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "large wooden bowl",
+      "rationale": "Identifies wooden bowl; implies round shape and capacity for two people."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "chopped garlic from a knife",
+      "rationale": "Mentions garlic and knife but no explicit cheese, cutting board, or wooden surface detail."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "two individuals...One person drops...The other person uses their hands",
+      "rationale": "Clearly identifies two people with distinct collaborative actions."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "spinach...wooden bowl...mixing...with their hands",
+      "rationale": "States greens in wooden bowl being mixed by hands."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "another person starts mixing the garlic and spinach leaves with their hands",
+      "rationale": "Describes hand mixing action combining ingredients."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "wooden bowl",
+      "rationale": "Identifies wooden bowl but lacks details on shape and handles."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "chopped garlic from a knife",
+      "rationale": "Mentions garlic and knife but no explicit cheese, cutting board, or surface detail."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "One person drops...another person...mixing",
+      "rationale": "Clearly identifies two people with distinct collaborative actions."
+    }
+  ]
+}

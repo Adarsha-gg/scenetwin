@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Cooking an omelette in a pan.",
+      "required_visual_evidence": [
+        "holding a pan",
+        "stirring with a fork"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What kitchen appliance is visible in the background?",
+      "answer_key": "A stove.",
+      "required_visual_evidence": [
+        "stove knobs",
+        "stove surface"
+      ],
+      "importance": "useful",
+      "rationale": "Sets the location context."
+    },
+    {
+      "q_idx": 2,
+      "question": "What container is near the stove?",
+      "answer_key": "A bottle of cooking oil.",
+      "required_visual_evidence": [
+        "bottle of oil",
+        "near stove"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates cooking ingredients."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main ingredient being cooked?",
+      "answer_key": "Noodles and vegetables.",
+      "required_visual_evidence": [
+        "noodles in pan",
+        "vegetables visible"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the dish being prepared."
+    },
+    {
+      "q_idx": 4,
+      "question": "What brand is visible on the salt container?",
+      "answer_key": "Morton.",
+      "required_visual_evidence": [
+        "Morton salt container"
+      ],
+      "importance": "useful",
+      "rationale": "Provides detail about ingredients."
+    }
+  ]
+}

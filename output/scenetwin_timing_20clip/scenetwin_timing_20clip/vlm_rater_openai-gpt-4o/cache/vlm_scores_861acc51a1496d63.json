@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "The description is completely inaccurate as it describes a snowy landscape and snowmobiles, which are not present in the images."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 50,
+      "completeness": 40,
+      "specificity": 40,
+      "concision": 60,
+      "listener_utility": 45,
+      "overall": 47,
+      "rationale": "The description mentions a person drinking water and a beekeeper, which is partially accurate. However, it lacks detail about the setting and actions, such as the removal of the beekeeper's hood."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 70,
+      "completeness": 60,
+      "specificity": 60,
+      "concision": 70,
+      "listener_utility": 65,
+      "overall": 65,
+      "rationale": "The description accurately mentions the beekeeper's suit and the removal of the hood, as well as the person drinking. It could be more detailed about the setting and context."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 90,
+      "completeness": 85,
+      "specificity": 85,
+      "concision": 80,
+      "listener_utility": 88,
+      "overall": 86,
+      "rationale": "The description is detailed and accurate, covering the beekeeper's suit, the removal of the hood, the person drinking, and the setting. It provides a clear understanding of the scene."
+    }
+  ]
+}

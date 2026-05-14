@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 85,
+      "completeness": 70,
+      "specificity": 60,
+      "concision": 95,
+      "listener_utility": 75,
+      "overall": 77,
+      "rationale": "Accurately describes the core action (man on motorcycle pulling sleigh in snow). Concise and clear. Missing details about the blue sled, wire connection, and the apparent stopping/crashing motion visible in frames. Generic 'sleigh' vs. 'sled' is minor."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 90,
+      "completeness": 75,
+      "specificity": 70,
+      "concision": 85,
+      "listener_utility": 80,
+      "overall": 80,
+      "rationale": "Accurately captures the main action and adds the detail about coming to a halt, which is visible in the frames. Mentions 'motorbike' and 'sled' with specificity. Missing color details (blue sled) and the wire connection. Good balance of detail and concision."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 95,
+      "completeness": 90,
+      "specificity": 85,
+      "concision": 70,
+      "listener_utility": 85,
+      "overall": 85,
+      "rationale": "Highly accurate with specific details: blue sled, wire connection, snowy landscape. Describes the action clearly. Slightly verbose with 'captures the thrill of the ride' which is interpretive rather than purely descriptive, but adds context. Most complete and specific description overall."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Complete hallucination. Describes a man and deer in a zoo/enclosure scenario with no basis in the visible frames. The frames clearly show a motorcycle pulling a sled in snow. This is entirely inaccurate and misleading."
+    }
+  ]
+}

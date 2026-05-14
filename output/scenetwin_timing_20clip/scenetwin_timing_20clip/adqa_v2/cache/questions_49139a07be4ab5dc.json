@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animal is present in the frames?",
+      "answer_key": "A dog",
+      "required_visual_evidence": [
+        "brown dog",
+        "lying on ground",
+        "near fence"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the main subject; essential for understanding the clip's content."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person wearing on their upper body?",
+      "answer_key": "A green shirt",
+      "required_visual_evidence": [
+        "green t-shirt",
+        "short sleeves"
+      ],
+      "importance": "useful",
+      "rationale": "Describes visible clothing details that help establish the scene visually."
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of fencing surrounds the area where the person and dog are located?",
+      "answer_key": "Wooden rail fencing and chain-link fencing",
+      "required_visual_evidence": [
+        "wooden fence rails",
+        "chain-link fence",
+        "metal gate"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the setting and spatial context of the outdoor area."
+    }
+  ]
+}

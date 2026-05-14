@@ -1,0 +1,39 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity are the people playing in these frames?",
+      "answer_key": "Volleyball",
+      "required_visual_evidence": [
+        "net visible in frames",
+        "ball in air",
+        "people in playing positions"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary sport activity central to understanding the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What color is the court surface where the game is being played?",
+      "answer_key": "Red or reddish-brown clay",
+      "required_visual_evidence": [
+        "red-brown ground",
+        "clay court surface"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the playing environment and setting for spatial orientation"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible in the background behind the volleyball net?",
+      "answer_key": "Green fence or barrier and trees",
+      "required_visual_evidence": [
+        "green fence",
+        "large trees",
+        "background structures"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the outdoor venue context and surrounding environment"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Eating a burger.",
+      "required_visual_evidence": [
+        "holding food",
+        "eating motion"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the subject."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location?",
+      "answer_key": "Inside a Burger King.",
+      "required_visual_evidence": [
+        "Burger King logo",
+        "indoor setting"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is the subject holding?",
+      "answer_key": "A drink cup.",
+      "required_visual_evidence": [
+        "holding cup",
+        "drinking motion"
+      ],
+      "importance": "useful",
+      "rationale": "Describes interaction with objects."
+    },
+    {
+      "q_idx": 3,
+      "question": "What text is visible on the tray?",
+      "answer_key": "BURGER EATING",
+      "required_visual_evidence": [
+        "text on tray",
+        "Burger King logo"
+      ],
+      "importance": "critical",
+      "rationale": "Key on-screen text."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the subject wearing?",
+      "answer_key": "A gray hoodie.",
+      "required_visual_evidence": [
+        "gray hoodie",
+        "subject's clothing"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the subject's appearance."
+    }
+  ]
+}

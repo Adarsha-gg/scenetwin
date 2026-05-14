@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What food item is being cooked in the black skillet?",
+      "answer_key": "Corn or corn kernels",
+      "required_visual_evidence": [
+        "black skillet",
+        "yellow corn kernels",
+        "cooking surface"
+      ],
+      "importance": "critical",
+      "rationale": "Central to understanding the cooking activity shown throughout the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What utensil is the child using to stir the food?",
+      "answer_key": "A black spatula or cooking utensil",
+      "required_visual_evidence": [
+        "black handle",
+        "child holding utensil",
+        "stirring motion"
+      ],
+      "importance": "critical",
+      "rationale": "Key action and tool visible in multiple frames showing the cooking process"
+    },
+    {
+      "q_idx": 2,
+      "question": "What color is the bowl or container visible on the kitchen counter?",
+      "answer_key": "Pink",
+      "required_visual_evidence": [
+        "pink container",
+        "kitchen counter",
+        "right side of counter"
+      ],
+      "importance": "useful",
+      "rationale": "Helps establish the kitchen setting and spatial layout of the cooking scene"
+    }
+  ]
+}

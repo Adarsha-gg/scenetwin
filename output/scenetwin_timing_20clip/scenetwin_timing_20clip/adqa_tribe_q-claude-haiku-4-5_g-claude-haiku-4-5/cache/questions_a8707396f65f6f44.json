@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is being played in this indoor facility?",
+      "answer_key": "Ice hockey",
+      "required_visual_evidence": [
+        "ice rink",
+        "hockey sticks",
+        "puck",
+        "goal net"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes setting and activity; essential context for understanding all subsequent action."
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the main player's position and movement during the opening seconds.",
+      "answer_key": "Player in dark clothing skating forward with hockey stick, pursuing the puck.",
+      "required_visual_evidence": [
+        "player skating",
+        "hockey stick",
+        "puck on ice",
+        "forward motion"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (0–3s); captures primary action blind listener cannot see without AD."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the ice surface that the player is tracking?",
+      "answer_key": "A small black puck",
+      "required_visual_evidence": [
+        "puck",
+        "ice surface",
+        "player focus"
+      ],
+      "importance": "critical",
+      "rationale": "The puck is the focal point of action; essential for understanding gameplay."
+    },
+    {
+      "q_idx": 3,
+      "question": "What equipment or structures are visible in the rink during the later sequence?",
+      "answer_key": "Goal net, boards, penalty box, overhead lighting",
+      "required_visual_evidence": [
+        "goal net",
+        "boards",
+        "rink structure",
+        "lighting"
+      ],
+      "importance": "useful",
+      "rationale": "High-need window (8.9–11.9s); spatial context helps blind listener orient to rink layout."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many players are actively visible on the ice in the final frames?",
+      "answer_key": "Multiple players; at least three to four visible in different areas.",
+      "required_visual_evidence": [
+        "multiple skaters",
+        "distributed positions",
+        "team play"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates team activity and game context; helps listener understand scale of play."
+    }
+  ]
+}

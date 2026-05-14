@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is being performed in this nighttime scene?",
+      "answer_key": "Skiing",
+      "required_visual_evidence": [
+        "person holding ski poles",
+        "skis on feet",
+        "snow-covered ground",
+        "nighttime lighting"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary sport activity essential to understanding the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What color is the skier's jacket?",
+      "answer_key": "Black",
+      "required_visual_evidence": [
+        "dark-colored jacket",
+        "person in center of frames"
+      ],
+      "importance": "useful",
+      "rationale": "Describes visible clothing details that help listeners visualize the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment is visible on the snowy surface besides the skier?",
+      "answer_key": "Ski poles or gate markers",
+      "required_visual_evidence": [
+        "vertical poles in snow",
+        "poles marking a course",
+        "multiple frames showing poles"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates course setup typical of competitive skiing events"
+    }
+  ]
+}

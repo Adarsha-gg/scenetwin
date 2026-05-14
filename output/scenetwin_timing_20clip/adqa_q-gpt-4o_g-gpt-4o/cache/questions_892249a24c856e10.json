@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Throwing a small object at a board.",
+      "required_visual_evidence": [
+        "subject holding object",
+        "object hitting board"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A kitchen with industrial equipment.",
+      "required_visual_evidence": [
+        "kitchen equipment",
+        "industrial mixers"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the action."
+    },
+    {
+      "q_idx": 2,
+      "question": "What object does the main subject throw?",
+      "answer_key": "A small red object.",
+      "required_visual_evidence": [
+        "subject holding red object",
+        "object in air"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the key object in action."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on the board where the object hits?",
+      "answer_key": "A piece of paper with text.",
+      "required_visual_evidence": [
+        "board with paper",
+        "object hitting paper"
+      ],
+      "importance": "useful",
+      "rationale": "Describes key interaction with the board."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the main subject's reaction after throwing the object?",
+      "answer_key": "The subject is smiling and laughing.",
+      "required_visual_evidence": [
+        "subject smiling",
+        "subject laughing"
+      ],
+      "importance": "critical",
+      "rationale": "Shows the subject's emotional response."
+    }
+  ]
+}

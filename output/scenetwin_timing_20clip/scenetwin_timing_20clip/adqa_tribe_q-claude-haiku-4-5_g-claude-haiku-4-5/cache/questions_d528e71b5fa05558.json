@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animals are visible on the wooden floor, and what are they doing?",
+      "answer_key": "Multiple cats playing and interacting with each other on the floor.",
+      "required_visual_evidence": [
+        "cats on floor",
+        "playing/wrestling",
+        "multiple animals"
+      ],
+      "importance": "critical",
+      "rationale": "Main action in high-need window (0-3s); establishes scene subject and primary activity."
+    },
+    {
+      "q_idx": 1,
+      "question": "How many cats are present in this scene?",
+      "answer_key": "At least three cats visible on the floor.",
+      "required_visual_evidence": [
+        "multiple cats",
+        "distinct animals"
+      ],
+      "importance": "critical",
+      "rationale": "Essential for understanding the scope of action in high-need window (0-6s)."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this activity takes place?",
+      "answer_key": "An indoor home with wooden flooring, stairs, and furniture visible.",
+      "required_visual_evidence": [
+        "wooden floor",
+        "stairs",
+        "indoor setting"
+      ],
+      "importance": "useful",
+      "rationale": "Spatial context helps blind listener orient to the scene during high-need window (3-6s)."
+    },
+    {
+      "q_idx": 3,
+      "question": "What colors are the cats, and are they all the same color?",
+      "answer_key": "Mix of dark/black and white cats; at least one appears to be black and white.",
+      "required_visual_evidence": [
+        "dark cats",
+        "white cats",
+        "color variation"
+      ],
+      "importance": "useful",
+      "rationale": "Visual distinction helps listener differentiate between individual animals during action sequences."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the primary type of interaction happening between the cats?",
+      "answer_key": "Playful wrestling, chasing, and tumbling with each other on the floor.",
+      "required_visual_evidence": [
+        "wrestling",
+        "physical contact",
+        "playful movement"
+      ],
+      "importance": "critical",
+      "rationale": "Core action in high-need window (6-8.9s); essential for understanding the scene's dynamic."
+    }
+  ]
+}

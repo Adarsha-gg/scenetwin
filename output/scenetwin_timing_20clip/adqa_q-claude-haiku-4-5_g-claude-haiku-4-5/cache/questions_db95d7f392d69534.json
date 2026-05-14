@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in these frames?",
+      "answer_key": "A person is mounting or getting on a horse at a ranch.",
+      "required_visual_evidence": [
+        "person in pink cap",
+        "horse",
+        "wooden fence",
+        "mounting action"
+      ],
+      "importance": "critical",
+      "rationale": "Core action visible across all frames showing progression of mounting."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of setting or location is shown?",
+      "answer_key": "A ranch or farm with white buildings and wooden fencing.",
+      "required_visual_evidence": [
+        "white barn buildings",
+        "wooden rail fence",
+        "rural setting"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for the activity and is prominent throughout."
+    },
+    {
+      "q_idx": 2,
+      "question": "What color is the horse in these frames?",
+      "answer_key": "Dark brown or black.",
+      "required_visual_evidence": [
+        "dark-colored horse",
+        "visible in all frames"
+      ],
+      "importance": "useful",
+      "rationale": "Horse color is a basic descriptive detail an AD would include."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing on their head?",
+      "answer_key": "A pink or magenta colored cap or hat.",
+      "required_visual_evidence": [
+        "pink/magenta headwear",
+        "visible throughout frames"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive clothing detail that helps identify the main subject."
+    },
+    {
+      "q_idx": 4,
+      "question": "What key object separates the person from the horse's body?",
+      "answer_key": "A wooden rail fence.",
+      "required_visual_evidence": [
+        "wooden fence rails",
+        "between person and horse"
+      ],
+      "importance": "useful",
+      "rationale": "Fence is a prominent structural element framing the action throughout."
+    }
+  ]
+}

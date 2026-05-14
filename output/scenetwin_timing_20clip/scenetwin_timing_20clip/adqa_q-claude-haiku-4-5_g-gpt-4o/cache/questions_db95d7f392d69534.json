@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in these frames?",
+      "answer_key": "A person is mounting or getting on a horse at a ranch.",
+      "required_visual_evidence": [
+        "person in pink cap",
+        "horse",
+        "wooden fence",
+        "mounting action"
+      ],
+      "importance": "critical",
+      "rationale": "Core action visible across all frames showing progression of mounting."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of setting or location is shown?",
+      "answer_key": "A ranch or farm with white buildings and wooden fencing.",
+      "required_visual_evidence": [
+        "white barn buildings",
+        "wooden corral fence",
+        "rural setting"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for the equestrian activity."
+    },
+    {
+      "q_idx": 2,
+      "question": "What color is the horse in the frames?",
+      "answer_key": "Dark brown or black.",
+      "required_visual_evidence": [
+        "dark-colored horse",
+        "visible throughout frames"
+      ],
+      "importance": "useful",
+      "rationale": "Basic descriptive detail about main animal subject."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing on their head?",
+      "answer_key": "A pink or magenta colored cap or hat.",
+      "required_visual_evidence": [
+        "pink/magenta headwear",
+        "visible in all frames"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive visible clothing detail for person identification."
+    },
+    {
+      "q_idx": 4,
+      "question": "What key object is used to contain or control the horse?",
+      "answer_key": "A wooden corral fence with horizontal rails.",
+      "required_visual_evidence": [
+        "wooden fence",
+        "horizontal rails",
+        "corral structure"
+      ],
+      "importance": "useful",
+      "rationale": "Important environmental object framing the action."
+    }
+  ]
+}

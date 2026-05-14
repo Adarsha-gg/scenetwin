@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of food is being prepared in the wooden bowl?",
+      "answer_key": "Green leafy vegetables or salad greens",
+      "required_visual_evidence": [
+        "wooden bowl",
+        "dark green leaves",
+        "leafy vegetables"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the main ingredient and food type being handled throughout the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What action are the hands performing on the greens?",
+      "answer_key": "Tossing, mixing, or turning over the greens",
+      "required_visual_evidence": [
+        "hands moving",
+        "greens being lifted",
+        "greens in motion"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the primary cooking action visible across all frames"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment is visible on the wooden surface to the right of the bowl?",
+      "answer_key": "A white bowl or container, possibly containing dressing or seasoning",
+      "required_visual_evidence": [
+        "wooden cutting board",
+        "white bowl",
+        "right side of frame"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context about additional ingredients or tools used in food preparation"
+    }
+  ]
+}

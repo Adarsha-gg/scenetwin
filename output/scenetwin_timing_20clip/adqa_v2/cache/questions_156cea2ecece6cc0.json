@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this clip?",
+      "answer_key": "A person is jogging or running along a fenced path.",
+      "required_visual_evidence": [
+        "person in green shirt",
+        "running/jogging motion",
+        "fenced pathway"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary action and establishes the main activity of the clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of setting or location is shown?",
+      "answer_key": "A rural or farm area with wooden and chain-link fences.",
+      "required_visual_evidence": [
+        "wooden fences",
+        "chain-link fencing",
+        "open grassy area",
+        "trees"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the outdoor rural/farm environment essential to understanding the scene."
+    },
+    {
+      "q_idx": 2,
+      "question": "What animal is visible in the clip?",
+      "answer_key": "A dog is lying on the ground near the fence.",
+      "required_visual_evidence": [
+        "dog on ground",
+        "near fence",
+        "brown/dark colored animal"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the animal present, relevant to the Pets & Animals category."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing?",
+      "answer_key": "A green shirt, dark shorts, and athletic shoes.",
+      "required_visual_evidence": [
+        "green shirt",
+        "dark shorts",
+        "athletic footwear"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the runner's attire, helping listeners visualize the scene clearly."
+    },
+    {
+      "q_idx": 4,
+      "question": "What structures enclose the area where the person is running?",
+      "answer_key": "Wooden rail fences and chain-link fencing.",
+      "required_visual_evidence": [
+        "wooden fence rails",
+        "chain-link fence",
+        "metal fencing"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the enclosure type, important for understanding the confined farm/rural setting."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Sliding a curling stone on ice.",
+      "required_visual_evidence": [
+        "main subject",
+        "curling stone"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What happens to the main subject after releasing the stone?",
+      "answer_key": "Falls and lies on the ice.",
+      "required_visual_evidence": [
+        "subject falls",
+        "subject lies on ice"
+      ],
+      "importance": "critical",
+      "rationale": "Key outcome of the action."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting of the activity?",
+      "answer_key": "An indoor curling rink.",
+      "required_visual_evidence": [
+        "curling rink",
+        "indoor setting"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the action."
+    },
+    {
+      "q_idx": 3,
+      "question": "What key object is involved in the activity?",
+      "answer_key": "A curling stone.",
+      "required_visual_evidence": [
+        "curling stone"
+      ],
+      "importance": "critical",
+      "rationale": "Central to the activity."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible in the frames?",
+      "answer_key": "At least four people.",
+      "required_visual_evidence": [
+        "multiple people"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates group activity."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person cooking in the skillet?",
+      "answer_key": "An omelet with red peppers or tomatoes",
+      "required_visual_evidence": [
+        "yellow omelet",
+        "red ingredients mixed in",
+        "black skillet on stovetop"
+      ],
+      "importance": "critical",
+      "rationale": "Main subject and primary cooking action visible throughout frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What cooking ingredient is being added to the omelet?",
+      "answer_key": "Oil or liquid from a bottle",
+      "required_visual_evidence": [
+        "bottle being held",
+        "liquid pouring",
+        "stream into pan"
+      ],
+      "importance": "useful",
+      "rationale": "Clear pouring action shown in multiple frames with visible bottle"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this cooking taking place?",
+      "answer_key": "A kitchen with an electric stovetop",
+      "required_visual_evidence": [
+        "electric stove",
+        "kitchen counter",
+        "microwave in background"
+      ],
+      "importance": "critical",
+      "rationale": "Setting clearly established by visible appliances and countertop"
+    },
+    {
+      "q_idx": 3,
+      "question": "What utensil is the person using to cook the omelet?",
+      "answer_key": "A spatula or cooking utensil",
+      "required_visual_evidence": [
+        "utensil in hand",
+        "stirring/flipping motion",
+        "contact with food"
+      ],
+      "importance": "useful",
+      "rationale": "Cooking tool visible in multiple frames during food preparation"
+    },
+    {
+      "q_idx": 4,
+      "question": "What beverage bottle is visible on the counter?",
+      "answer_key": "A bottle with a dark label, possibly Horton brand",
+      "required_visual_evidence": [
+        "dark labeled bottle",
+        "left side of counter",
+        "near glass"
+      ],
+      "importance": "useful",
+      "rationale": "Prominent object on counter visible in most frames"
+    }
+  ]
+}

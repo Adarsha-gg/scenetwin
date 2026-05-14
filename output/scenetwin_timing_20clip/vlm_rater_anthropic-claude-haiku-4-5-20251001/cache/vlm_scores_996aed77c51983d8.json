@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 5,
+      "completeness": 10,
+      "specificity": 15,
+      "concision": 20,
+      "listener_utility": 5,
+      "overall": 11,
+      "rationale": "Severely inaccurate. Describes a man and deer, but frames show horses and KOA signage. Hallucinates a zoo/follow-the-leader game. Misidentifies all main subjects. Not useful for understanding actual content."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 70,
+      "completeness": 40,
+      "specificity": 25,
+      "concision": 85,
+      "listener_utility": 35,
+      "overall": 51,
+      "rationale": "Accurate about horses and woods, but omits crucial opening content (KOA sign, grazing horses, pasture setting). Too vague and incomplete. Misses significant portions of the video sequence and context."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 85,
+      "completeness": 75,
+      "specificity": 60,
+      "concision": 80,
+      "listener_utility": 72,
+      "overall": 74,
+      "rationale": "Accurate and covers main sequence: ranch sign, grazing horses, riding through woods, music. Appropriately concise. Mentions KOA implicitly via 'ranch sign.' Good structural overview, though lacks some detail about setting and atmosphere."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 90,
+      "completeness": 90,
+      "specificity": 85,
+      "concision": 75,
+      "listener_utility": 88,
+      "overall": 86,
+      "rationale": "Highly accurate and comprehensive. Explicitly names KOA, describes sign details, grazing scene, wooded trail riding, and music. Provides context about camping/advertisement. Specific and useful. Slightly verbose but justified by detail level."
+    }
+  ]
+}

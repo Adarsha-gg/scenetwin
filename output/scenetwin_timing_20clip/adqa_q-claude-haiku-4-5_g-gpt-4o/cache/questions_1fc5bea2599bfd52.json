@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man in the white shirt holding and demonstrating?",
+      "answer_key": "A small insect or specimen, appears to be a fly or similar bug",
+      "required_visual_evidence": [
+        "man in white shirt",
+        "holding small object in hand",
+        "gesturing toward it"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and object throughout most frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of setting or location is shown in the video?",
+      "answer_key": "A laboratory or research facility with scientific equipment and storage",
+      "required_visual_evidence": [
+        "lab equipment on tables",
+        "specimen containers",
+        "organized workspace"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for the demonstration"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the wooden board or surface in the background?",
+      "answer_key": "Papers, documents, and sticky notes posted on a wooden board",
+      "required_visual_evidence": [
+        "wooden board",
+        "white papers",
+        "yellow and pink sticky notes"
+      ],
+      "importance": "useful",
+      "rationale": "Visible organizational elements in the workspace"
+    },
+    {
+      "q_idx": 3,
+      "question": "Describe the man's appearance and attire.",
+      "answer_key": "Bald man with facial hair wearing a white collared shirt",
+      "required_visual_evidence": [
+        "bald head",
+        "goatee or facial hair",
+        "white shirt"
+      ],
+      "importance": "critical",
+      "rationale": "Primary subject identification for listener"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the man's primary action throughout the video frames?",
+      "answer_key": "Speaking and gesturing while holding up a specimen to show the camera",
+      "required_visual_evidence": [
+        "hand gestures",
+        "holding specimen",
+        "speaking expression"
+      ],
+      "importance": "critical",
+      "rationale": "Core action that defines the video's purpose"
+    }
+  ]
+}

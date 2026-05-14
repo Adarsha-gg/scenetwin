@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What restaurant brand is shown on the packaging in the third frame?",
+      "answer_key": "Burger King",
+      "required_visual_evidence": [
+        "Burger King logo",
+        "orange and red branding",
+        "crown symbol"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the food establishment and context for the eating scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person in the gray hoodie doing with their hands in the first two frames?",
+      "answer_key": "Eating or holding food to their mouth",
+      "required_visual_evidence": [
+        "hand raised to mouth",
+        "gray hoodie",
+        "eating gesture"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action occurring in the clip"
+    },
+    {
+      "q_idx": 2,
+      "question": "What text is visible on the Burger King packaging shown in the third frame?",
+      "answer_key": "Burger Eating",
+      "required_visual_evidence": [
+        "text overlay on packaging",
+        "brown lettering",
+        "Burger King wrapper"
+      ],
+      "importance": "useful",
+      "rationale": "Provides specific details about the food product being consumed"
+    }
+  ]
+}

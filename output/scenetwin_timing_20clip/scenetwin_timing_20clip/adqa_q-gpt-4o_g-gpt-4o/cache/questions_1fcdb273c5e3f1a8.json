@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Skiing down a slope.",
+      "required_visual_evidence": [
+        "subject skiing",
+        "downhill movement"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the video."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A snowy ski slope at night.",
+      "required_visual_evidence": [
+        "snowy slope",
+        "nighttime lighting"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes location and time."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key objects are visible on the slope?",
+      "answer_key": "Poles marking the path.",
+      "required_visual_evidence": [
+        "poles",
+        "path markers"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates course layout."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main subject wearing?",
+      "answer_key": "Helmet and ski gear.",
+      "required_visual_evidence": [
+        "helmet",
+        "ski gear"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the subject's appearance."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the lighting condition in the scene?",
+      "answer_key": "Artificial lights illuminate the slope.",
+      "required_visual_evidence": [
+        "artificial lights",
+        "illuminated slope"
+      ],
+      "importance": "useful",
+      "rationale": "Sets the scene's atmosphere."
+    }
+  ]
+}

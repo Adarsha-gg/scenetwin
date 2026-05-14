@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man in the gray hoodie doing, and what physical signs of difficulty does he show?",
+      "answer_key": "He is rapidly eating a hamburger and taking quick bites, but he appears to struggle and coughs at times.",
+      "required_visual_evidence": [
+        "bald man",
+        "gray hoodie",
+        "rapidly eating",
+        "quick bites",
+        "coughing",
+        "struggling"
+      ],
+      "importance": "critical",
+      "rationale": "Core action and character behavior essential to understanding the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "How are the people around the man reacting to what he is doing?",
+      "answer_key": "People are laughing and clapping, encouraging him to finish.",
+      "required_visual_evidence": [
+        "laughing",
+        "clapping",
+        "encouraging"
+      ],
+      "importance": "critical",
+      "rationale": "Social context and atmosphere crucial to scene comprehension"
+    },
+    {
+      "q_idx": 2,
+      "question": "What text is written on the tray liner, and what is used to write it?",
+      "answer_key": "The text 'BURGER EATING' is written on a tray liner using ketchup.",
+      "required_visual_evidence": [
+        "ketchup",
+        "tray liner",
+        "BURGER EATING",
+        "writing"
+      ],
+      "importance": "useful",
+      "rationale": "Readable text and concluding action provide narrative closure"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person wearing on their head?",
+      "answer_key": "A bright pink or magenta colored hat or cap",
+      "required_visual_evidence": [
+        "pink/magenta hat",
+        "person's head"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive visual identifier of the person in the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What animal is the person interacting with?",
+      "answer_key": "A dark-colored horse or pony",
+      "required_visual_evidence": [
+        "horse",
+        "dark colored animal",
+        "person mounted"
+      ],
+      "importance": "critical",
+      "rationale": "Main subject of the action; essential for understanding the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this scene taking place?",
+      "answer_key": "At a ranch or farm with wooden fencing and barn buildings",
+      "required_visual_evidence": [
+        "wooden fence",
+        "barn",
+        "ranch setting",
+        "buildings"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context crucial for blind listener to visualize the environment"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person doing with the horse?",
+      "answer_key": "Riding or mounted on the horse in the fenced area",
+      "required_visual_evidence": [
+        "person on horse",
+        "mounted position",
+        "fence"
+      ],
+      "importance": "critical",
+      "rationale": "Main action in high-need window; core activity blind listener must understand"
+    },
+    {
+      "q_idx": 4,
+      "question": "What type of barrier separates the horse area from the surroundings?",
+      "answer_key": "Wooden ranch-style fencing with horizontal rails",
+      "required_visual_evidence": [
+        "wooden fence",
+        "horizontal rails",
+        "brown wood"
+      ],
+      "importance": "useful",
+      "rationale": "Key environmental detail that frames the activity space"
+    }
+  ]
+}

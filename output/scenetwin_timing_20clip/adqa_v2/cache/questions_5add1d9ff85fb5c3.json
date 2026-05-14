@@ -1,0 +1,61 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man in the gray hoodie doing in the first sequence?",
+      "answer_key": "Eating food, appearing to bite or chew on something",
+      "required_visual_evidence": [
+        "man in gray hoodie",
+        "eating/chewing motion",
+        "food in hand"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the primary subject across multiple frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "Where does this video take place?",
+      "answer_key": "Indoors in what appears to be a cafeteria or institutional setting",
+      "required_visual_evidence": [
+        "interior setting",
+        "fluorescent ceiling lights",
+        "windows/glass panels"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for understanding the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What restaurant or brand is visible on the packaging shown?",
+      "answer_key": "Burger King",
+      "required_visual_evidence": [
+        "Burger King logo",
+        "packaging with branding"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the food source and brand context in the video"
+    },
+    {
+      "q_idx": 3,
+      "question": "What text appears on the Burger King packaging?",
+      "answer_key": "Burger eating",
+      "required_visual_evidence": [
+        "text overlay on packaging",
+        "Burger King branding"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text provides additional context about the content"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the man wearing?",
+      "answer_key": "A gray or blue-gray hoodie or sweatshirt",
+      "required_visual_evidence": [
+        "gray hoodie",
+        "casual clothing"
+      ],
+      "importance": "useful",
+      "rationale": "Describes appearance of main subject for scene comprehension"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What vehicles are visible on the snowy surface, and what are they doing?",
+      "answer_key": "Multiple snowmobiles are lined up and riding across a snowy field or frozen lake.",
+      "required_visual_evidence": [
+        "snowmobiles",
+        "snowy terrain",
+        "riders in motion"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (0-3s): establishes main action and setting for entire clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the landscape and weather conditions visible in this scene.",
+      "answer_key": "Open snowy field or frozen lake with bare trees lining the edges, clear blue sky, bright sunlight.",
+      "required_visual_evidence": [
+        "snow-covered ground",
+        "bare trees",
+        "clear sky",
+        "shadows"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (0-3s): visual context essential for understanding setting and safety conditions."
+    },
+    {
+      "q_idx": 2,
+      "question": "What color are the snowmobiles visible in the foreground of the frames?",
+      "answer_key": "Green and orange/red snowmobiles are visible in the foreground.",
+      "required_visual_evidence": [
+        "green snowmobile",
+        "orange/red snowmobile",
+        "foreground position"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener distinguish between multiple vehicles and track spatial positioning."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the relative position of the snowmobiles as the sequence progresses?",
+      "answer_key": "The black snowmobile moves away from the camera while foreground snowmobiles remain stationary or closer.",
+      "required_visual_evidence": [
+        "receding snowmobile",
+        "distance change",
+        "perspective shift"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (11.9-17.9s): motion and spatial relationships critical for understanding action."
+    },
+    {
+      "q_idx": 4,
+      "question": "What terrain features or obstacles are visible on the snowy surface?",
+      "answer_key": "Tracks and grooves from previous snowmobile use are visible across the snow.",
+      "required_visual_evidence": [
+        "snow tracks",
+        "grooved patterns",
+        "worn paths"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates established trail usage and helps listener understand the riding environment."
+    }
+  ]
+}

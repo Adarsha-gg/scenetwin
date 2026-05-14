@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity are the young people playing in this outdoor setting?",
+      "answer_key": "Volleyball; they are playing volleyball on a dirt court.",
+      "required_visual_evidence": [
+        "net stretched across court",
+        "players in ready positions",
+        "dirt playing surface"
+      ],
+      "importance": "critical",
+      "rationale": "Core activity is invisible to blind listener; happens throughout high-need windows (8.9–23.8s)."
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the playing surface and immediate surroundings of the volleyball court.",
+      "answer_key": "Red-brown dirt court with large tree, green fence, and grass field visible beyond.",
+      "required_visual_evidence": [
+        "dirt/clay court",
+        "large tree trunk",
+        "metal fence",
+        "green grass"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context essential for spatial understanding; visible in frames from high-need window t=11.9–17.9s."
+    },
+    {
+      "q_idx": 2,
+      "question": "How many players are visible on the court at the moment shown in these frames?",
+      "answer_key": "Four players; two on each side of the net.",
+      "required_visual_evidence": [
+        "player in blue shirt",
+        "player in striped shirt",
+        "opposing players"
+      ],
+      "importance": "useful",
+      "rationale": "Team composition and positioning critical for understanding game dynamics in high-need window t=14.9–20.9s."
+    },
+    {
+      "q_idx": 3,
+      "question": "What color clothing are the players wearing?",
+      "answer_key": "Blue shirts and dark shorts; one player wears striped red and dark shirt.",
+      "required_visual_evidence": [
+        "blue shirt",
+        "striped shirt",
+        "dark shorts"
+      ],
+      "importance": "useful",
+      "rationale": "Visual distinction helps blind listener track individual players during action sequences (t=17.9–23.8s)."
+    },
+    {
+      "q_idx": 4,
+      "question": "What infrastructure or structures are visible in the background of the court?",
+      "answer_key": "Metal mesh fence, green storage structure or building, and trees frame the court.",
+      "required_visual_evidence": [
+        "metal fence",
+        "green structure",
+        "trees"
+      ],
+      "importance": "critical",
+      "rationale": "Environmental context establishes location as organized sports facility; visible in high-need window t=11.9–14.9s."
+    }
+  ]
+}

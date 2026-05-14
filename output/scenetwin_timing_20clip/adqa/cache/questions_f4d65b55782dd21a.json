@@ -1,0 +1,44 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the girl doing with the eggs, and what utensil is she using?",
+      "answer_key": "She is stirring scrambled eggs in a frying pan with a spatula.",
+      "required_visual_evidence": [
+        "stirring",
+        "scrambled eggs",
+        "frying pan",
+        "spatula"
+      ],
+      "importance": "critical",
+      "rationale": "Core action and primary cooking activity in the clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "Who does the girl say the eggs are for?",
+      "answer_key": "The eggs are for her and her mother, if her mother wants some.",
+      "required_visual_evidence": [
+        "eggs for her",
+        "mother",
+        "conditional offer"
+      ],
+      "importance": "useful",
+      "rationale": "Captures the girl's spoken intent and relationship context."
+    },
+    {
+      "q_idx": 2,
+      "question": "Describe the kitchen setting and the girl's demeanor while cooking.",
+      "answer_key": "The kitchen is cozy and warm with granite countertop and wooden cabinets. The girl is focused, enjoys the process, and occasionally glances at the camera with a smile.",
+      "required_visual_evidence": [
+        "cozy kitchen",
+        "granite countertop",
+        "wooden cabinets",
+        "focused",
+        "smiling",
+        "glancing at camera"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes atmosphere and character engagement with the viewer."
+    }
+  ]
+}

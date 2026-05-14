@@ -1,0 +1,60 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "The person is bending down near a fence.",
+      "required_visual_evidence": [
+        "bending down",
+        "near a fence"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of fence is visible?",
+      "answer_key": "A chain-link fence with wooden posts.",
+      "required_visual_evidence": [
+        "chain-link fence",
+        "wooden posts"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the setting."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting of the scene?",
+      "answer_key": "An outdoor area with grass and trees.",
+      "required_visual_evidence": [
+        "outdoor area",
+        "grass and trees"
+      ],
+      "importance": "critical",
+      "rationale": "Provides context for the location."
+    },
+    {
+      "q_idx": 3,
+      "question": "What key objects are near the fence?",
+      "answer_key": "Logs and a sign are near the fence.",
+      "required_visual_evidence": [
+        "logs",
+        "sign"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies key objects in the scene."
+    },
+    {
+      "q_idx": 4,
+      "question": "What text is visible on the signs?",
+      "answer_key": "The signs read 'KINDER' and 'PRIVAT'.",
+      "required_visual_evidence": [
+        "text on signs",
+        "'KINDER'",
+        "'PRIVAT'"
+      ],
+      "importance": "critical",
+      "rationale": "Conveys important on-screen text."
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of vehicles are the people operating on the snowy surface?",
+      "answer_key": "Snowmobiles",
+      "required_visual_evidence": [
+        "snowmobiles",
+        "snow-covered terrain",
+        "riders in winter gear"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary activity and vehicles central to the travel clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What landscape features are visible in the background of this snowy scene?",
+      "answer_key": "Bare trees and a forested area",
+      "required_visual_evidence": [
+        "bare branches",
+        "tree line",
+        "winter forest",
+        "distant trees"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the setting and environment where the snowmobiling occurs"
+    },
+    {
+      "q_idx": 2,
+      "question": "What color is the snowmobile visible in the lower left portion of the frames?",
+      "answer_key": "Bright green or lime green",
+      "required_visual_evidence": [
+        "green snowmobile",
+        "lower left corner",
+        "neon green"
+      ],
+      "importance": "useful",
+      "rationale": "Provides specific visual detail about equipment visible in the scene"
+    }
+  ]
+}

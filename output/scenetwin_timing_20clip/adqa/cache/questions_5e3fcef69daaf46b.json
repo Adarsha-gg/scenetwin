@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What happens to the first girl as she runs up the snowy hill?",
+      "answer_key": "She slips halfway up and slides back down",
+      "required_visual_evidence": [
+        "slips",
+        "slides back down",
+        "halfway"
+      ],
+      "importance": "critical",
+      "rationale": "Core action sequence that defines the scene's narrative"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the playground setting and what's between the two blue slides.",
+      "answer_key": "A snowy playground with a steep, snow-covered hill between two blue slides",
+      "required_visual_evidence": [
+        "snowy playground",
+        "steep hill",
+        "snow-covered",
+        "two blue slides"
+      ],
+      "importance": "critical",
+      "rationale": "Essential spatial context for understanding the scene's layout"
+    },
+    {
+      "q_idx": 2,
+      "question": "What does the second girl do after the first girl's attempt?",
+      "answer_key": "She eagerly takes her turn and attempts to climb the same hill",
+      "required_visual_evidence": [
+        "second girl",
+        "takes her turn",
+        "attempts to climb",
+        "same hill"
+      ],
+      "importance": "useful",
+      "rationale": "Shows continuation of playful activity and character engagement"
+    }
+  ]
+}

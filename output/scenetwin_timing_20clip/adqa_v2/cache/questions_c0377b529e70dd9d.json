@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man wearing and what color is it?",
+      "answer_key": "A white chef's coat or white shirt",
+      "required_visual_evidence": [
+        "white chef's coat",
+        "white shirt",
+        "man in professional kitchen attire"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the professional kitchen setting and the man's role as a chef or food professional."
+    },
+    {
+      "q_idx": 1,
+      "question": "What equipment or machinery is visible in the background of this kitchen workspace?",
+      "answer_key": "An aquarium or tank with red contents, industrial machinery, and a green machine on a wooden table",
+      "required_visual_evidence": [
+        "aquarium with red contents",
+        "industrial equipment",
+        "green machine",
+        "wooden table"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the specialized kitchen environment and equipment relevant to the food preparation context."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the man holding in his hand while speaking?",
+      "answer_key": "A small red object or ingredient",
+      "required_visual_evidence": [
+        "man holding red object",
+        "hand gesture",
+        "small item in palm"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies what the man is demonstrating or discussing, central to the instructional food content."
+    }
+  ]
+}

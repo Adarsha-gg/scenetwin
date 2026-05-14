@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Mixing spinach leaves in a bowl.",
+      "required_visual_evidence": [
+        "hands mixing",
+        "spinach leaves"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A kitchen or dining area.",
+      "required_visual_evidence": [
+        "wooden bowl",
+        "cutting board"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the action."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key objects are involved in the action?",
+      "answer_key": "Spinach leaves and a wooden bowl.",
+      "required_visual_evidence": [
+        "spinach leaves",
+        "wooden bowl"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies main objects in use."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is on the cutting board?",
+      "answer_key": "A ball of mozzarella cheese.",
+      "required_visual_evidence": [
+        "cutting board",
+        "mozzarella cheese"
+      ],
+      "importance": "useful",
+      "rationale": "Highlights additional objects present."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many hands are involved in the action?",
+      "answer_key": "Two pairs of hands.",
+      "required_visual_evidence": [
+        "two pairs of hands"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates collaboration or assistance."
+    }
+  ]
+}

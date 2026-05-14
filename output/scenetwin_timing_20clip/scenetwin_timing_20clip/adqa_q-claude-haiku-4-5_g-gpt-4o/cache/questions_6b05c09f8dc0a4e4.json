@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is being played in this video?",
+      "answer_key": "Curling",
+      "required_visual_evidence": [
+        "curling rink with house markings",
+        "player in delivery position",
+        "red and blue circular target"
+      ],
+      "importance": "critical",
+      "rationale": "The distinctive curling house and player stance identify the sport."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the player doing in the first frames?",
+      "answer_key": "Delivering or sliding the curling stone down the rink",
+      "required_visual_evidence": [
+        "player in extended lunge position",
+        "low body posture",
+        "forward motion"
+      ],
+      "importance": "critical",
+      "rationale": "The delivery is the main action shown in opening frames."
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this curling match taking place?",
+      "answer_key": "Indoor curling rink with spectators and boards",
+      "required_visual_evidence": [
+        "indoor arena setting",
+        "rink boards",
+        "people standing nearby"
+      ],
+      "importance": "useful",
+      "rationale": "Setting context helps listeners understand the environment."
+    },
+    {
+      "q_idx": 3,
+      "question": "What happens to the player after releasing the stone?",
+      "answer_key": "The player falls or slides onto the ice",
+      "required_visual_evidence": [
+        "player horizontal on ice",
+        "prone position",
+        "loss of balance"
+      ],
+      "importance": "critical",
+      "rationale": "This is the significant event that occurs in the sequence."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many other people are visible on the rink during the play?",
+      "answer_key": "At least two other people standing and observing",
+      "required_visual_evidence": [
+        "figures in background",
+        "people in dark clothing",
+        "stationary observers"
+      ],
+      "importance": "useful",
+      "rationale": "Presence of teammates or officials is relevant context."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 80,
+      "completeness": 80,
+      "specificity": 75,
+      "concision": 70,
+      "listener_utility": 80,
+      "overall": 77,
+      "rationale": "Accurately describes the scene with players practicing on the ice rink. Provides details about the players' actions and the setting, though some parts are slightly embellished."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 85,
+      "completeness": 70,
+      "specificity": 70,
+      "concision": 85,
+      "listener_utility": 75,
+      "overall": 77,
+      "rationale": "Accurate and concise description of the scene. Covers the main actions but lacks some detail about the setting and other players."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely inaccurate; describes a kitchen scene unrelated to the images."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 90,
+      "completeness": 60,
+      "specificity": 60,
+      "concision": 90,
+      "listener_utility": 70,
+      "overall": 74,
+      "rationale": "Accurate but very brief. Lacks detail about specific actions and setting, though it correctly identifies the main activity."
+    }
+  ]
+}

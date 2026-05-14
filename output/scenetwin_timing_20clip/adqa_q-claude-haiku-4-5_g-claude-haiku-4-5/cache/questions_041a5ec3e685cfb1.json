@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animals are visible in this video clip?",
+      "answer_key": "Multiple cats, including brown/dark and white colored cats",
+      "required_visual_evidence": [
+        "brown cat",
+        "white cat",
+        "multiple cats on floor"
+      ],
+      "importance": "critical",
+      "rationale": "Main subjects are clearly visible throughout all frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action taking place in the video?",
+      "answer_key": "Cats are playing, wrestling, or interacting with each other on the floor",
+      "required_visual_evidence": [
+        "cats on floor",
+        "cats in motion",
+        "cats engaging"
+      ],
+      "importance": "critical",
+      "rationale": "Central action visible across multiple frames showing cat interaction"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does this scene take place?",
+      "answer_key": "Indoors on a wooden floor near stairs with a railing",
+      "required_visual_evidence": [
+        "wooden floor",
+        "staircase",
+        "railing",
+        "indoor setting"
+      ],
+      "importance": "useful",
+      "rationale": "Setting elements are consistent and visible throughout frames"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many cats are present in the scene?",
+      "answer_key": "At least three cats visible in the frames",
+      "required_visual_evidence": [
+        "multiple cats",
+        "brown cat",
+        "white cat",
+        "dark cat"
+      ],
+      "importance": "useful",
+      "rationale": "Multiple distinct cats visible across frames, countable in sequence"
+    },
+    {
+      "q_idx": 4,
+      "question": "What furniture or architectural features are visible in the background?",
+      "answer_key": "Wooden staircase with railing and what appears to be exercise equipment",
+      "required_visual_evidence": [
+        "staircase",
+        "railing",
+        "wooden structure",
+        "equipment"
+      ],
+      "importance": "useful",
+      "rationale": "Consistent background elements visible in all frames"
+    }
+  ]
+}

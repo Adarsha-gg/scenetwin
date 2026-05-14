@@ -1,0 +1,5 @@
+metric,spearman_rho,spearman_p,kendall_tau,kendall_p,tier3_gt_tier2_vatex_long_wins,tier3_gt_tier2_vatex_long_total,tier3_gt_tier1_vatex_short_wins,tier3_gt_tier1_vatex_short_total,tier3_gt_tier0_cross_wins,tier3_gt_tier0_cross_total,pairwise_wins,pairwise_total,full_order_clips,full_order_total
+resampled_traj_cos,0.0,1.0,0.0,1.0,2,2,2,2,1,2,5,6,0,2
+resampled_traj_gain_vs_audio,0.29277002188455997,0.4816178143121545,0.23145502494313788,0.4435984319578372,1,2,1,2,2,2,4,6,0,2
+shift_curve_corr,-0.19518001458970666,0.6432255386372303,-0.23145502494313788,0.4435984319578372,2,2,1,2,1,2,4,6,0,2
+dtw_traj_similarity,-0.048795003647426664,0.908654487655341,-0.07715167498104596,0.798431964808643,0,2,1,2,1,2,2,6,0,2

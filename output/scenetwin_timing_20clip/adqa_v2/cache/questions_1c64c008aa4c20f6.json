@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity are the people playing?",
+      "answer_key": "Volleyball",
+      "required_visual_evidence": [
+        "net visible in frames",
+        "ball in air",
+        "people in athletic stance"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the main sport activity central to understanding the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of surface is the game being played on?",
+      "answer_key": "A reddish-brown dirt or clay court",
+      "required_visual_evidence": [
+        "reddish-brown ground",
+        "outdoor court",
+        "dirt surface"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the playing environment and setting for the activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible in the background of the playing area?",
+      "answer_key": "Trees, a fence, and a building or structure",
+      "required_visual_evidence": [
+        "large tree",
+        "white fence",
+        "building structure"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context about the location and surroundings of the court"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are actively visible playing in the frames?",
+      "answer_key": "Multiple players, at least three to four people",
+      "required_visual_evidence": [
+        "person in blue shirt",
+        "person jumping",
+        "additional players"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes that this is a group activity with multiple participants"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the ball doing in the second frame?",
+      "answer_key": "The ball is in the air above a player's head",
+      "required_visual_evidence": [
+        "ball visible in sky",
+        "player reaching up",
+        "mid-play action"
+      ],
+      "importance": "useful",
+      "rationale": "Captures a key moment of active gameplay for scene understanding"
+    }
+  ]
+}

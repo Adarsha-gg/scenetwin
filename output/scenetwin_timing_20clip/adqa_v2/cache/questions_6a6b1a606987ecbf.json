@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject of this clip?",
+      "answer_key": "A person riding a horse",
+      "required_visual_evidence": [
+        "person on horseback",
+        "dark horse",
+        "rider in pink hat"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary subject and action central to the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of structure surrounds the horse and rider?",
+      "answer_key": "A wooden fence or corral",
+      "required_visual_evidence": [
+        "brown wooden fence rails",
+        "enclosed area",
+        "multiple fence sections"
+      ],
+      "importance": "critical",
+      "rationale": "Key environmental detail defining the setting and containment"
+    },
+    {
+      "q_idx": 2,
+      "question": "What buildings are visible in the background?",
+      "answer_key": "White or light-colored barns or stables",
+      "required_visual_evidence": [
+        "white barn structure",
+        "multiple buildings",
+        "open barn doors"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the rural/farm setting context for the scene"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the rider wearing on their head?",
+      "answer_key": "A pink or magenta colored hat or helmet",
+      "required_visual_evidence": [
+        "bright pink headwear",
+        "visible across frames",
+        "rider's head"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive visible detail that helps identify the main subject"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the color of the horse being ridden?",
+      "answer_key": "Dark brown or black",
+      "required_visual_evidence": [
+        "dark-colored horse",
+        "consistent across frames",
+        "contrasts with fence"
+      ],
+      "importance": "useful",
+      "rationale": "Basic descriptive detail for visualizing the animal subject"
+    }
+  ]
+}

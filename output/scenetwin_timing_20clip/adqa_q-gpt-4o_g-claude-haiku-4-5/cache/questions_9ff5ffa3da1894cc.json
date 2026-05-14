@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Mixing spinach leaves in a bowl.",
+      "required_visual_evidence": [
+        "hands mixing",
+        "spinach leaves"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main object being used?",
+      "answer_key": "A large wooden bowl.",
+      "required_visual_evidence": [
+        "wooden bowl",
+        "spinach inside"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the key object in use."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is on the cutting board?",
+      "answer_key": "A ball of mozzarella cheese.",
+      "required_visual_evidence": [
+        "cutting board",
+        "mozzarella cheese"
+      ],
+      "importance": "useful",
+      "rationale": "Highlights a key object nearby."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many hands are involved in the action?",
+      "answer_key": "Two pairs of hands.",
+      "required_visual_evidence": [
+        "two pairs of hands",
+        "mixing"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates collaboration in the action."
+    },
+    {
+      "q_idx": 4,
+      "question": "What type of leaves are being mixed?",
+      "answer_key": "Spinach leaves.",
+      "required_visual_evidence": [
+        "spinach leaves",
+        "green leaves"
+      ],
+      "importance": "critical",
+      "rationale": "Specifies the main ingredient."
+    }
+  ]
+}

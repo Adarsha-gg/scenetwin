@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 70,
+      "completeness": 70,
+      "specificity": 70,
+      "concision": 70,
+      "listener_utility": 70,
+      "overall": 70,
+      "rationale": "Accurately describes the snowy setting and snowmobiles, but includes some assumptions about conversation and gestures not clearly visible."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 50,
+      "completeness": 40,
+      "specificity": 40,
+      "concision": 60,
+      "listener_utility": 50,
+      "overall": 48,
+      "rationale": "Briefly describes the action but lacks detail and context about the setting and other snowmobiles."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 80,
+      "completeness": 60,
+      "specificity": 60,
+      "concision": 70,
+      "listener_utility": 65,
+      "overall": 67,
+      "rationale": "Accurately describes the stopping and starting of snowmobiles, but lacks detail about the setting."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely unrelated to the images, describing a different scene entirely."
+    }
+  ]
+}

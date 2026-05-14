@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A man on a motorcycle pulls a sleigh",
+      "rationale": "Describes controlled pulling, not falling/tumbling motion"
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "in the snow",
+      "rationale": "Correctly identifies snowy outdoor setting"
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "pulls a sleigh",
+      "rationale": "No mention of blue object or winter sports equipment"
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of person's clothing or appearance"
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "pulls a sleigh",
+      "rationale": "Implies control, contradicts loss of control"
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "motorbike is pulling a sled",
+      "rationale": "Describes controlled pulling, not falling/tumbling"
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "through snow and ice",
+      "rationale": "Correctly identifies snowy outdoor environment"
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "pulling a sled",
+      "rationale": "No mention of blue object or specific equipment"
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of person's clothing or appearance"
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "pulling a sled",
+      "rationale": "Implies control; contradicts loss of control scenario"
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a man rides a motorcycle, pulling a blue sled",
+      "rationale": "Describes controlled riding/pulling, not falling/tumbling"
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In a snowy landscape",
+      "rationale": "Correctly identifies snowy outdoor setting"
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a blue sled behind him",
+      "rationale": "Directly identifies blue object in winter sports context"
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No description of person's clothing or dark silhouette"
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "rides a motorcycle",
+      "rationale": "Implies control; contradicts loss of control scenario"
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A man in a green shirt walks back and forth",
+      "rationale": "Describes walking with deer, not falling/tumbling in snow"
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "zoo or animal enclosure",
+      "rationale": "Describes zoo setting, not snowy slope/mountainside"
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a small deer",
+      "rationale": "No blue object; describes deer instead"
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A man in a green shirt and navy shorts",
+      "rationale": "Describes clothing but wrong colors; no contrast with snow"
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "playfully engaging the deer",
+      "rationale": "Describes controlled playful interaction, not loss of control"
+    }
+  ]
+}

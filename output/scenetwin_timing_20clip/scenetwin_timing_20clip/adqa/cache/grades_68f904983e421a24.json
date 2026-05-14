@@ -1,0 +1,100 @@
+{
+  "grades": [
+    {
+      "tier": "tier0_cross",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "In a bustling kitchen, a chef holds a cherry tomato",
+      "rationale": "Cross-category description about kitchen, not hockey or ice rink."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "he throws the tomato at a wall",
+      "rationale": "Describes tomato throwing, not hockey puck control."
+    },
+    {
+      "tier": "tier0_cross",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "followed by a knife, which pins the tomato",
+      "rationale": "Cross-category; no hockey drills or passing described."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "hockey players practices their skills on a hockey rink",
+      "rationale": "Identifies hockey and rink but omits 'indoor' and lacks specificity."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "A group of hockey players practices their skills",
+      "rationale": "No description of individual player actions or puck control."
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "practices their skills on a hockey rink",
+      "rationale": "No mention of passing drills or back-and-forth puck movement."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "hockey players practices their skills on a hockey rink",
+      "rationale": "Identifies hockey and rink but omits 'indoor' designation."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "another hockey player is skating around with the puck",
+      "rationale": "Describes skating with puck but lacks 'swiftly' and 'precision' details."
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "attempts to score a goal",
+      "rationale": "No description of passing drills or back-and-forth puck movement."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "In an indoor ice rink, a group of young hockey players practice",
+      "rationale": "Clearly states hockey, indoor, and ice rink with all required elements."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "One player skates swiftly across the ice, controlling the puck with precision",
+      "rationale": "Directly matches answer key with all required visual evidence."
+    },
+    {
+      "tier": "tier3_va11y",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "other players engage in drills, passing the puck back and forth",
+      "rationale": "Fully describes passing drills with back-and-forth movement."
+    }
+  ]
+}

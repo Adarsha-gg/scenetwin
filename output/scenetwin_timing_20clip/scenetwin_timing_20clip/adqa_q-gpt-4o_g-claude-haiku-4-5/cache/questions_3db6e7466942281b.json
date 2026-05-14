@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Cooking scrambled eggs in a pan.",
+      "required_visual_evidence": [
+        "holding a spatula",
+        "stirring eggs in a pan"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What kitchen appliance is visible in the background?",
+      "answer_key": "A refrigerator.",
+      "required_visual_evidence": [
+        "refrigerator in the background"
+      ],
+      "importance": "useful",
+      "rationale": "Sets the scene in a kitchen."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A gray t-shirt with a cartoon character.",
+      "required_visual_evidence": [
+        "gray t-shirt",
+        "cartoon character"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the subject's appearance."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is on the counter next to the stove?",
+      "answer_key": "A pink bowl and a plate.",
+      "required_visual_evidence": [
+        "pink bowl",
+        "plate"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies key objects in the setting."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the main subject's expression?",
+      "answer_key": "Smiling.",
+      "required_visual_evidence": [
+        "smiling face"
+      ],
+      "importance": "useful",
+      "rationale": "Conveys the subject's mood."
+    }
+  ]
+}

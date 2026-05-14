@@ -1,0 +1,41 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport is being played in this indoor facility?",
+      "answer_key": "Ice hockey",
+      "required_visual_evidence": [
+        "ice rink surface",
+        "hockey sticks",
+        "goal nets",
+        "players in dark uniforms"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the sport and setting essential to understanding the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What color uniform is the player wearing in the foreground?",
+      "answer_key": "Black",
+      "required_visual_evidence": [
+        "player in dark/black jersey",
+        "ice rink",
+        "hockey stick"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies specific player appearance for scene comprehension"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment is visible on the ice in the bottom frame?",
+      "answer_key": "A goal net and a player in a red uniform",
+      "required_visual_evidence": [
+        "goal net structure",
+        "player wearing red jersey",
+        "ice surface"
+      ],
+      "importance": "useful",
+      "rationale": "Describes key objects and players positioned on the rink"
+    }
+  ]
+}

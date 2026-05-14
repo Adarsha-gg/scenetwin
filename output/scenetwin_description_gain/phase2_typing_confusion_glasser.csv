@@ -1,0 +1,5 @@
+pro_ad_dominant,face_character,motion_action,object_body,scene_spatial,visual_form
+face_character,2,0,1,4,1
+language_auditory,1,0,0,0,0
+motion_action,2,1,0,3,0
+object_body,4,0,1,1,0

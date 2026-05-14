@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Sliding a stone on ice.",
+      "required_visual_evidence": [
+        "subject sliding",
+        "stone on ice"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "An indoor curling rink.",
+      "required_visual_evidence": [
+        "curling rink",
+        "indoor setting"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What happens to the main subject at the end?",
+      "answer_key": "Lies down on the ice.",
+      "required_visual_evidence": [
+        "subject lying down",
+        "end of action"
+      ],
+      "importance": "useful",
+      "rationale": "Concludes the action sequence."
+    },
+    {
+      "q_idx": 3,
+      "question": "What key object is involved in the action?",
+      "answer_key": "A curling stone.",
+      "required_visual_evidence": [
+        "curling stone",
+        "object being slid"
+      ],
+      "importance": "critical",
+      "rationale": "Central to the action."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the ice surface?",
+      "answer_key": "Circular target markings.",
+      "required_visual_evidence": [
+        "circular markings",
+        "ice surface"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the action."
+    }
+  ]
+}

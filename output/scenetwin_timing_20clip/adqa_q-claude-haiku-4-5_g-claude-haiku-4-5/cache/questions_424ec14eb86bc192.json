@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the young person in the yellow shirt doing in these video clips?",
+      "answer_key": "Running and practicing hurdles on a track field",
+      "required_visual_evidence": [
+        "yellow shirt",
+        "running motion",
+        "red track",
+        "hurdles"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and subject clearly visible across multiple frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of athletic facility is shown in the background?",
+      "answer_key": "A stadium or sports complex with a soccer field and track",
+      "required_visual_evidence": [
+        "red running track",
+        "soccer goal",
+        "field",
+        "buildings"
+      ],
+      "importance": "critical",
+      "rationale": "Setting is essential context for understanding the activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment is visible on the track field?",
+      "answer_key": "Hurdles and a soccer goal with padding",
+      "required_visual_evidence": [
+        "red hurdles",
+        "white soccer net",
+        "blue padding"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects that define the training environment"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the surface of the running area made of?",
+      "answer_key": "A red synthetic or rubber track material",
+      "required_visual_evidence": [
+        "red track surface",
+        "brick pathway"
+      ],
+      "importance": "useful",
+      "rationale": "Important detail about the athletic facility type"
+    },
+    {
+      "q_idx": 4,
+      "question": "What time of day are these training activities taking place?",
+      "answer_key": "Evening or night, as indicated by artificial lighting",
+      "required_visual_evidence": [
+        "artificial lights",
+        "dark sky",
+        "lit field"
+      ],
+      "importance": "useful",
+      "rationale": "Lighting conditions are visible and contextually relevant"
+    }
+  ]
+}

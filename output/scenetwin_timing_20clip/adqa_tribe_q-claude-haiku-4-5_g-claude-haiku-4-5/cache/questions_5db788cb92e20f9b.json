@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is being prepared in the wooden bowl?",
+      "answer_key": "Fresh green leafy vegetables or salad greens are being mixed by hand",
+      "required_visual_evidence": [
+        "wooden bowl",
+        "green leafy vegetables",
+        "hands mixing"
+      ],
+      "importance": "critical",
+      "rationale": "Main action across all high-need windows; establishes core activity for blind listener"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the hand motions being used to prepare the vegetables.",
+      "answer_key": "Hands are tossing, turning, and mixing the greens together in the bowl",
+      "required_visual_evidence": [
+        "hands in motion",
+        "vegetables being lifted",
+        "mixing action"
+      ],
+      "importance": "critical",
+      "rationale": "Visible throughout high-need windows; essential for understanding the preparation technique"
+    },
+    {
+      "q_idx": 2,
+      "question": "What container holds the vegetables being prepared?",
+      "answer_key": "A large round wooden bowl with handles on the sides",
+      "required_visual_evidence": [
+        "wooden bowl",
+        "round shape",
+        "handles"
+      ],
+      "importance": "useful",
+      "rationale": "Key object visible in all frames; helps blind listener visualize the workspace"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on the wooden surface to the right of the bowl?",
+      "answer_key": "A white block of cheese or similar ingredient on a cutting board",
+      "required_visual_evidence": [
+        "wooden surface",
+        "white block",
+        "cutting board"
+      ],
+      "importance": "useful",
+      "rationale": "Secondary ingredient visible in high-need windows; indicates multi-step food preparation"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible preparing the food in this clip?",
+      "answer_key": "Two people; their hands are visible working with the vegetables together",
+      "required_visual_evidence": [
+        "multiple hands",
+        "different arm positions",
+        "collaborative action"
+      ],
+      "importance": "critical",
+      "rationale": "Visible throughout; establishes that this is a shared cooking activity, not solo"
+    }
+  ]
+}

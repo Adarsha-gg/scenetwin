@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Playing volleyball.",
+      "required_visual_evidence": [
+        "hitting the ball",
+        "jumping near the net"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the activity?",
+      "answer_key": "An outdoor volleyball court.",
+      "required_visual_evidence": [
+        "volleyball net",
+        "open ground"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key object is involved in the activity?",
+      "answer_key": "A volleyball.",
+      "required_visual_evidence": [
+        "ball in the air",
+        "ball being hit"
+      ],
+      "importance": "critical",
+      "rationale": "Central to the action."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are actively participating?",
+      "answer_key": "Three people.",
+      "required_visual_evidence": [
+        "three individuals near the net"
+      ],
+      "importance": "useful",
+      "rationale": "Gives context to the action."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the buildings in the background?",
+      "answer_key": "Green and white paint.",
+      "required_visual_evidence": [
+        "painted buildings"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the background setting."
+    }
+  ]
+}

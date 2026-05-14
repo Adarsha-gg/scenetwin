@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 75,
+      "completeness": 85,
+      "specificity": 80,
+      "concision": 60,
+      "listener_utility": 78,
+      "overall": 76,
+      "rationale": "Accurately describes the main action (stirring eggs in pan with spatula) and setting (kitchen with granite countertop, wooden cabinets). Includes relevant details about the girl's demeanor and mentions the conversational context. However, contains some inferred details (\"skillfully,\" \"enjoys the cooking process\") not directly observable, and is somewhat verbose. The description of the girl's speech is paraphrased rather than direct, which is acceptable but slightly interpretive."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 95,
+      "completeness": 60,
+      "specificity": 50,
+      "concision": 95,
+      "listener_utility": 55,
+      "overall": 61,
+      "rationale": "Highly accurate and concise, correctly identifying the core action (cooking eggs, talking about who it's for). However, lacks important contextual details about the setting, the girl's appearance, the specific cooking implement (spatula), and other visible elements like the countertop and kitchen layout. Too vague to give a blind listener a complete picture of the scene."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely hallucinated content. The frames show a kitchen scene with a girl cooking eggs, not a nighttime skiing scene with slalom poles. This is a fundamental failure of visual accuracy and makes it entirely unusable."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 95,
+      "completeness": 40,
+      "specificity": 35,
+      "concision": 98,
+      "listener_utility": 35,
+      "overall": 41,
+      "rationale": "Accurate but extremely minimal. Correctly identifies the girl, the action (making scrambled eggs), and the location (stove). However, omits nearly all useful details: setting description, cooking implements, the girl's engagement with the camera, her speech, kitchen features, and other contextual information. While concise, it sacrifices too much completeness and specificity to be truly useful for a blind listener."
+    }
+  ]
+}

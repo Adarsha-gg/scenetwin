@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 60,
+      "completeness": 50,
+      "specificity": 50,
+      "concision": 80,
+      "listener_utility": 60,
+      "overall": 60,
+      "rationale": "Accurately describes the high jump but lacks detail about the setting and other actions."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 70,
+      "completeness": 70,
+      "specificity": 70,
+      "concision": 60,
+      "listener_utility": 70,
+      "overall": 68,
+      "rationale": "Describes multiple actions and the setting, but mentions a hurdle which is not visible."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely unrelated to the video content."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 90,
+      "completeness": 90,
+      "specificity": 85,
+      "concision": 85,
+      "listener_utility": 90,
+      "overall": 88,
+      "rationale": "Provides a detailed and accurate description of the actions, setting, and emotions."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Climbing and sliding down a snowy hill.",
+      "required_visual_evidence": [
+        "climbing the hill",
+        "sliding down"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the scene?",
+      "answer_key": "A snowy playground with slides.",
+      "required_visual_evidence": [
+        "snowy playground",
+        "slides"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What key objects are visible in the scene?",
+      "answer_key": "Snow-covered slides and a wooden fence.",
+      "required_visual_evidence": [
+        "snow-covered slides",
+        "wooden fence"
+      ],
+      "importance": "useful",
+      "rationale": "Highlights important objects."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are visible in the frames?",
+      "answer_key": "Three people.",
+      "required_visual_evidence": [
+        "three individuals"
+      ],
+      "importance": "useful",
+      "rationale": "Gives context about participants."
+    },
+    {
+      "q_idx": 4,
+      "question": "What are the people wearing on their heads?",
+      "answer_key": "Red and white hats.",
+      "required_visual_evidence": [
+        "red hat",
+        "white hat"
+      ],
+      "importance": "useful",
+      "rationale": "Describes distinguishing features."
+    }
+  ]
+}

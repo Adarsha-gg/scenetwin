@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Mixing greens in a wooden bowl.",
+      "required_visual_evidence": [
+        "hands mixing",
+        "greens in bowl"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of bowl is being used?",
+      "answer_key": "A wooden bowl.",
+      "required_visual_evidence": [
+        "wooden texture",
+        "bowl shape"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies key object."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is on the cutting board?",
+      "answer_key": "A ball of cheese.",
+      "required_visual_evidence": [
+        "cutting board",
+        "ball of cheese"
+      ],
+      "importance": "useful",
+      "rationale": "Describes a key object."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many hands are involved in the action?",
+      "answer_key": "Four hands.",
+      "required_visual_evidence": [
+        "two pairs of hands",
+        "mixing action"
+      ],
+      "importance": "critical",
+      "rationale": "Indicates multiple participants."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the setting of the activity?",
+      "answer_key": "A kitchen or dining area.",
+      "required_visual_evidence": [
+        "wooden table",
+        "cutting board"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the action."
+    }
+  ]
+}

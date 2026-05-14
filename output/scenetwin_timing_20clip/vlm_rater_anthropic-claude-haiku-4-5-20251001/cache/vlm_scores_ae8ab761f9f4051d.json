@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 75,
+      "completeness": 70,
+      "specificity": 65,
+      "concision": 80,
+      "listener_utility": 72,
+      "overall": 72,
+      "rationale": "Correctly identifies curling sport, the push/slide action, and the fall. Mentions onlookers reacting. Minor inaccuracy: says 'slips and falls' when frames show a deliberate fall during delivery. 'Clap and react' is somewhat vague but captures the general response. Good concision and covers main elements."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Complete hallucination. Describes a kitchen, chef, cherry tomato, knife, and Spanish countdown—none of which appear in the curling rink footage. Fails on all accuracy metrics."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 85,
+      "completeness": 45,
+      "specificity": 50,
+      "concision": 95,
+      "listener_utility": 50,
+      "overall": 55,
+      "rationale": "Accurate core facts: man on ice, pushes curling block, falls. However, severely incomplete—omits setting details (indoor rink), onlookers, and context. Too minimal for useful audio description. Extremely concise but sacrifices necessary detail."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 90,
+      "completeness": 85,
+      "specificity": 85,
+      "concision": 75,
+      "listener_utility": 88,
+      "overall": 85,
+      "rationale": "Excellent accuracy and specificity. Correctly identifies indoor curling rink, skillful slide, loss of balance, and fall. Describes onlooker reactions with appropriate detail ('laughter and concern'). Slightly speculative about internal states ('checking if okay') but reasonable inference. Comprehensive without excessive filler. Most useful for blind listener."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in these frames?",
+      "answer_key": "A man is exercising or stretching near a wooden fence gate.",
+      "required_visual_evidence": [
+        "man in green shirt",
+        "bending/stretching posture",
+        "wooden fence"
+      ],
+      "importance": "critical",
+      "rationale": "Primary action visible across all frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of setting or location is shown?",
+      "answer_key": "A farm or ranch area with wooden fencing and pasture land.",
+      "required_visual_evidence": [
+        "wooden rail fence",
+        "chain-link fence",
+        "grass field",
+        "rural setting"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context essential for understanding scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the man wearing on his upper body?",
+      "answer_key": "A green short-sleeved shirt or t-shirt.",
+      "required_visual_evidence": [
+        "green shirt",
+        "short sleeves"
+      ],
+      "importance": "useful",
+      "rationale": "Visible identifying detail in all frames"
+    },
+    {
+      "q_idx": 3,
+      "question": "What key objects are visible in the immediate area?",
+      "answer_key": "Wooden fence, gate, logs or wood pieces on ground.",
+      "required_visual_evidence": [
+        "wooden fence",
+        "gate",
+        "logs/wood on ground"
+      ],
+      "importance": "useful",
+      "rationale": "Objects define the exercise location"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the fence in the background?",
+      "answer_key": "A yellow warning sign and an information sign or notice.",
+      "required_visual_evidence": [
+        "yellow sign",
+        "information sign",
+        "fence background"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text/signage visible in frames"
+    }
+  ]
+}

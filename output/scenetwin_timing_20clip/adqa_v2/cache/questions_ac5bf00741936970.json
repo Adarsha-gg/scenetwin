@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man in the white coat doing in this clip?",
+      "answer_key": "Speaking or presenting, gesturing with his hand while talking",
+      "required_visual_evidence": [
+        "man in white coat",
+        "hand gestures",
+        "speaking position"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies main subject and primary action central to the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of setting or location is shown in the clip?",
+      "answer_key": "A laboratory or food science facility with equipment and machinery",
+      "required_visual_evidence": [
+        "industrial equipment",
+        "machinery in background",
+        "work tables"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes context and environment essential for understanding the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the table or work surface behind the man?",
+      "answer_key": "An aquarium or tank with red contents, and various laboratory equipment",
+      "required_visual_evidence": [
+        "tank with red contents",
+        "equipment on tables",
+        "work surface"
+      ],
+      "importance": "useful",
+      "rationale": "Describes key objects in the setting relevant to food/cooking context"
+    },
+    {
+      "q_idx": 3,
+      "question": "What does the man's attire suggest about his role?",
+      "answer_key": "He is a professional, likely a chef, scientist, or food industry expert",
+      "required_visual_evidence": [
+        "white coat",
+        "professional appearance",
+        "workplace setting"
+      ],
+      "importance": "useful",
+      "rationale": "Helps establish credibility and expertise of the main speaker"
+    },
+    {
+      "q_idx": 4,
+      "question": "What visible text or branding appears on the man's clothing?",
+      "answer_key": "A logo or text on his white coat indicating his organization or company",
+      "required_visual_evidence": [
+        "logo on coat",
+        "text on clothing",
+        "professional branding"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies institutional affiliation relevant to understanding the presentation context"
+    }
+  ]
+}

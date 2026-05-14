@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "Riding a snowmobile across a snowy frozen landscape",
+      "required_visual_evidence": [
+        "person on snowmobile",
+        "snow-covered ground",
+        "forward motion across terrain"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary action and activity central to the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of environment or setting is shown?",
+      "answer_key": "A frozen lake or snowy field with bare trees and clear sky",
+      "required_visual_evidence": [
+        "snow-covered flat terrain",
+        "bare trees in background",
+        "clear blue sky",
+        "winter landscape"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the outdoor winter setting essential for scene comprehension"
+    },
+    {
+      "q_idx": 2,
+      "question": "What vehicles are visible in the foreground of the frames?",
+      "answer_key": "Multiple snowmobiles, including one orange/red and one green/yellow",
+      "required_visual_evidence": [
+        "orange snowmobile",
+        "green/yellow snowmobile",
+        "multiple vehicles"
+      ],
+      "importance": "useful",
+      "rationale": "Describes visible equipment and suggests group activity or multiple riders"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the perspective or camera viewpoint in this video?",
+      "answer_key": "First-person view from a snowmobile rider's perspective",
+      "required_visual_evidence": [
+        "snowmobile handlebars visible",
+        "forward-facing view",
+        "rider's point of view"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies the immersive perspective crucial for understanding viewer positioning"
+    },
+    {
+      "q_idx": 4,
+      "question": "What visible text or branding appears on the snowmobiles?",
+      "answer_key": "Green and yellow branding visible on the snowmobiles in frame",
+      "required_visual_evidence": [
+        "green text/logo",
+        "yellow text/logo",
+        "snowmobile markings"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies brand or model information visible on the main equipment"
+    }
+  ]
+}

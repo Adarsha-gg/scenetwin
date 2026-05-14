@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person cooking in the skillet?",
+      "answer_key": "An omelet or egg dish with vegetables",
+      "required_visual_evidence": [
+        "yellow egg-based dish",
+        "black skillet",
+        "red ingredients mixed in"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and primary food item are central to understanding the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What liquid is being poured onto the omelet?",
+      "answer_key": "Oil from a bottle",
+      "required_visual_evidence": [
+        "bottle pouring",
+        "liquid stream",
+        "onto cooking surface"
+      ],
+      "importance": "useful",
+      "rationale": "Key cooking action visible across multiple frames showing technique"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this cooking taking place?",
+      "answer_key": "In a kitchen on a stovetop",
+      "required_visual_evidence": [
+        "stovetop",
+        "kitchen appliances",
+        "countertop"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context essential for understanding the activity environment"
+    },
+    {
+      "q_idx": 3,
+      "question": "What cookware is being used in this clip?",
+      "answer_key": "A black skillet and a black pan",
+      "required_visual_evidence": [
+        "black skillet with omelet",
+        "black pan nearby",
+        "stovetop"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects needed to visualize the cooking setup and process"
+    },
+    {
+      "q_idx": 4,
+      "question": "What brand of oil is visible in the clip?",
+      "answer_key": "Carton brand oil",
+      "required_visual_evidence": [
+        "bottle label",
+        "text on bottle"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text identifying a product used in the cooking demonstration"
+    }
+  ]
+}

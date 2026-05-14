@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "How many cats are visible in the frames?",
+      "answer_key": "Four cats",
+      "required_visual_evidence": [
+        "multiple dark-colored cats",
+        "wooden floor",
+        "cats in different positions"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the number of animals present in the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary setting where these animals are located?",
+      "answer_key": "An indoor hallway or entryway with wooden flooring",
+      "required_visual_evidence": [
+        "wooden floor",
+        "staircase with railing",
+        "yellow/warm-toned walls",
+        "indoor setting"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the spatial environment essential for understanding the scene context"
+    },
+    {
+      "q_idx": 2,
+      "question": "What are the cats doing in these frames?",
+      "answer_key": "Playing, wrestling, or interacting with each other on the floor",
+      "required_visual_evidence": [
+        "cats in motion",
+        "cats positioned close together",
+        "dynamic poses",
+        "playful interaction"
+      ],
+      "importance": "useful",
+      "rationale": "Captures the behavioral activity and engagement level of the animals"
+    }
+  ]
+}

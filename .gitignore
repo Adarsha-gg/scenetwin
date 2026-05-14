@@ -1,0 +1,52 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS/editor/cache noise
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pycache_tmp/
+.runtime/
+
+# Python environments and local package caches
+.venv/
+.venv*/
+venv/
+env/
+workspace/tribev2/.venv/
+
+# Nested upstream repos and heavyweight external checkouts
+workspace/101_Dalmatians/
+workspace/tribev2/
+
+# Live/download caches
+demo/clips/
+demo/frames/
+demo/live_cache/
+output/visual_closure_cache/
+output/visual_closure_preds/
+output/scenetwin_preds/
+output/colab_upload_closure/
+
+# Downloaded source video corpora outside the compact demo bundle
+workspace/clips/
+workspace/frames/
+workspace/va11y_clips/
+workspace/va11y_frames/
+workspace/vatex_clips/
+workspace/vatex_frames/
+workspace/sintel_frames/
+
+# Large archive/model/data artifacts
+*.zip
+*.pkl
+*.npy
+*.npz
+*.pt
+*.pth
+*.nii
+*.nii.gz
+*.mgz

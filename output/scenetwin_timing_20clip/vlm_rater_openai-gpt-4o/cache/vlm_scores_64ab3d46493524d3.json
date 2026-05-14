@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 90,
+      "completeness": 85,
+      "specificity": 85,
+      "concision": 80,
+      "listener_utility": 85,
+      "overall": 85,
+      "rationale": "Accurately describes the scene with details about the girl's actions and the kitchen setting. Provides context about the eggs being for her and her mother, which adds to the completeness and specificity."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 80,
+      "completeness": 60,
+      "specificity": 60,
+      "concision": 90,
+      "listener_utility": 70,
+      "overall": 72,
+      "rationale": "Accurate but lacks detail. Provides basic information about the girl cooking eggs but misses specifics about the setting and actions."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 0,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely unrelated to the images provided."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 85,
+      "completeness": 70,
+      "specificity": 70,
+      "concision": 85,
+      "listener_utility": 75,
+      "overall": 77,
+      "rationale": "Accurate and concise but lacks detail about the setting and the girl's interaction with the camera."
+    }
+  ]
+}

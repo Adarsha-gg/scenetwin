@@ -1,0 +1,46 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What key visual detail is described here: In a Burger King restaurant, a bald man in a gray hoodie is rapidly eating a hamburger?",
+      "answer_key": "In a Burger King restaurant, a bald man in a gray hoodie is rapidly eating a hamburger",
+      "required_visual_evidence": [
+        "restaurant",
+        "hamburger",
+        "rapidly",
+        "burger",
+        "hoodie"
+      ],
+      "importance": "critical",
+      "rationale": "offline fallback"
+    },
+    {
+      "q_idx": 1,
+      "question": "What key visual detail is described here: He takes quick bites and washes them down with a drink?",
+      "answer_key": "He takes quick bites and washes them down with a drink",
+      "required_visual_evidence": [
+        "washes",
+        "bites",
+        "takes",
+        "quick",
+        "drink"
+      ],
+      "importance": "useful",
+      "rationale": "offline fallback"
+    },
+    {
+      "q_idx": 2,
+      "question": "What key visual detail is described here: As he continues, he appears to struggle slightly, coughing at times?",
+      "answer_key": "As he continues, he appears to struggle slightly, coughing at times",
+      "required_visual_evidence": [
+        "continues",
+        "struggle",
+        "coughing",
+        "slightly",
+        "appears"
+      ],
+      "importance": "useful",
+      "rationale": "offline fallback"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+clip_idx,video_id,category,question_model,q_idx,question,answer_key,required_visual_evidence,importance,question_rationale
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,gpt-4o,0,What is the main subject doing?,Holding and pointing with a small object.,holding object; pointing gesture,critical,Describes the main action.
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,gpt-4o,1,What is the setting of the scene?,A kitchen with industrial equipment.,kitchen equipment; industrial setting,critical,Identifies the location.
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,gpt-4o,2,What key objects are visible in the background?,Mixers and trays.,mixers; trays,useful,Provides context about the setting.
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,gpt-4o,3,What is the main subject wearing?,A white chef's coat.,chef's coat,useful,Indicates the subject's role.
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,gpt-4o,4,What text is visible on the subject's coat?,Logo and text on the left side.,logo; text on coat,useful,Identifies branding or affiliation.
+1,058y9xGmmTQ_000206_000216,Food & Cooking,gpt-4o,0,What is the main subject doing?,Eating a burger.,subject eating; burger in hand,critical,Describes the main action.
+1,058y9xGmmTQ_000206_000216,Food & Cooking,gpt-4o,1,Where is the main subject located?,Inside a Burger King.,Burger King logo; fast food setting,critical,Identifies the setting.
+1,058y9xGmmTQ_000206_000216,Food & Cooking,gpt-4o,2,What is the main subject wearing?,A gray hoodie.,gray hoodie,useful,Describes the subject's appearance.
+1,058y9xGmmTQ_000206_000216,Food & Cooking,gpt-4o,3,What key object is the subject holding?,A Burger King cup.,cup in hand; Burger King logo,useful,Identifies a key object.
+1,058y9xGmmTQ_000206_000216,Food & Cooking,gpt-4o,4,What text is visible on the tray?,BURGER EATING,text on tray,critical,Conveys visible on-screen text.
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,gpt-4o,0,What is the main subject doing?,Cooking in a pan on a stove.,holding a pan; stove visible,critical,Describes the main action.
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,gpt-4o,1,What is the setting of the scene?,A kitchen with a stove and countertop.,stove; countertop,critical,Identifies the location.
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,gpt-4o,2,What key objects are involved in the cooking?,"A pan, fork, and cooking ingredients.",pan; fork,useful,Highlights main objects used.
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,gpt-4o,3,What visible text is on the container?,Morton Salt.,Morton Salt container,useful,Identifies on-screen text.
+3,vLGOZvJ_v4Q_000285_000295,Food & Cooking,gpt-4o,4,What is the main subject using to stir the food?,A fork.,holding a fork,critical,Describes the tool used.
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,gpt-4o,0,What is the main subject doing?,Cooking scrambled eggs in a pan.,holding a spatula; scrambled eggs in a pan,critical,Describes the main action.
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,gpt-4o,1,Where is the main subject located?,In a kitchen.,kitchen counter; stove,critical,Identifies the setting.
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,gpt-4o,2,What key object is the main subject using?,A spatula.,holding a spatula,useful,Identifies a key object involved.
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,gpt-4o,3,What is on the counter next to the stove?,A pink bowl and a plate.,pink bowl; plate,useful,Describes key objects in the setting.
+4,B0EKYDSv_yQ_000002_000012,Food & Cooking,gpt-4o,4,What is visible on the subject's shirt?,A graphic with text.,graphic on shirt,useful,Describes visible on-screen text.
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,gpt-4o,0,What is the main subject doing?,Mixing spinach leaves in a bowl.,hands mixing; spinach leaves,critical,Describes the main action.
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,gpt-4o,1,What is the setting of the scene?,A kitchen or dining area.,wooden bowl; cutting board,useful,Provides context for the action.
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,gpt-4o,2,What key objects are involved in the action?,Spinach leaves and a wooden bowl.,spinach leaves; wooden bowl,critical,Identifies main objects in use.
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,gpt-4o,3,What is on the cutting board?,A ball of mozzarella cheese.,cutting board; mozzarella cheese,useful,Highlights additional objects present.
+5,PbGvLf7HvXQ_000063_000073,Food & Cooking,gpt-4o,4,How many hands are involved in the action?,Two pairs of hands.,two pairs of hands,useful,Indicates collaboration or assistance.
+6,0HEi6q3bGaw_000011_000021,Travel,gpt-4o,0,What is the main subject doing?,Riding a snowmobile.,person on snowmobile; snowmobile tracks,critical,Main action performed by the subject.
+6,0HEi6q3bGaw_000011_000021,Travel,gpt-4o,1,What is the setting of the scene?,Snow-covered landscape with trees.,snow on ground; trees in background,critical,Provides context for the action.
+6,0HEi6q3bGaw_000011_000021,Travel,gpt-4o,2,What key objects are involved in the scene?,Snowmobiles.,multiple snowmobiles; snowmobile tracks,critical,Central to the action taking place.
+6,0HEi6q3bGaw_000011_000021,Travel,gpt-4o,3,What is visible on the snowmobile?,Arctic Cat logo.,logo on snowmobile,useful,Identifies the brand of the snowmobile.
+6,0HEi6q3bGaw_000011_000021,Travel,gpt-4o,4,What is the main subject wearing?,Helmet and winter gear.,helmet; winter clothing,useful,Describes the subject's appearance.
+7,09dQut5GJ68_000049_000059,Travel,gpt-4o,0,What is the main subject doing?,Riding a bicycle in the snow.,bicycle; snow,critical,Main action performed by the subject.
+7,09dQut5GJ68_000049_000059,Travel,gpt-4o,1,What is the setting or location?,A snowy outdoor area.,snow; outdoor,critical,Provides context for the action.
+7,09dQut5GJ68_000049_000059,Travel,gpt-4o,2,What key object is involved in the action?,A bicycle.,bicycle,critical,Central to the main action.
+7,09dQut5GJ68_000049_000059,Travel,gpt-4o,3,What is the main subject wearing?,Dark clothing and boots.,dark clothing; boots,useful,Describes the main subject's appearance.
+7,09dQut5GJ68_000049_000059,Travel,gpt-4o,4,Is there any visible on-screen text?,No visible on-screen text.,absence of text,useful,Confirms lack of text information.
+8,hOirknJr3os_000001_000011,Travel,gpt-4o,0,What is the main subject doing?,Riding horses through a wooded area.,people on horses; wooded area,critical,Main action performed by the subjects.
+8,hOirknJr3os_000001_000011,Travel,gpt-4o,1,What is the setting or location?,A ranch with horses and wooded trails.,ranch sign; horses; wooded trails,critical,Describes the overall setting of the video.
+8,hOirknJr3os_000001_000011,Travel,gpt-4o,2,What key objects are involved?,Horses and a ranch sign.,horses; ranch sign,useful,Identifies important objects in the scene.
+8,hOirknJr3os_000001_000011,Travel,gpt-4o,3,What text is visible on the sign?,K-Hill Ranch,text on ranch sign,critical,Provides specific on-screen text information.
+8,hOirknJr3os_000001_000011,Travel,gpt-4o,4,What flags are visible in the background?,"Flags of the USA, Canada, and KOA.",flags in background,useful,Adds context to the location setting.
+9,TF4q9y0rJoc_000000_000010,Sports,gpt-4o,0,What is the main subject doing?,Skiing down a slope.,subject skiing; movement down slope,critical,Describes the main action.
+9,TF4q9y0rJoc_000000_000010,Sports,gpt-4o,1,What is the setting of the scene?,A snowy ski slope at night.,snowy slope; nighttime lighting,critical,Establishes the location and time.
+9,TF4q9y0rJoc_000000_000010,Sports,gpt-4o,2,What key objects are involved in the scene?,Ski poles and skis.,ski poles; skis,useful,Identifies important equipment.
+9,TF4q9y0rJoc_000000_000010,Sports,gpt-4o,3,What is visible in the background?,Lights and distant trees.,lights; trees,useful,Provides context for the setting.
+9,TF4q9y0rJoc_000000_000010,Sports,gpt-4o,4,Is there any visible on-screen text?,No visible on-screen text.,absence of text,useful,Confirms lack of text information.
+11,z8Q-s8AthrA_000002_000012,Sports,gpt-4o,0,What is the main subject doing?,Running and jumping over a high jump bar.,running; jumping over bar,critical,Describes the main action performed.
+11,z8Q-s8AthrA_000002_000012,Sports,gpt-4o,1,Where is the scene taking place?,On a track and field area.,track; field,critical,Identifies the setting of the action.
+11,z8Q-s8AthrA_000002_000012,Sports,gpt-4o,2,What key objects are involved in the action?,High jump bar and mat.,bar; mat,critical,Identifies objects central to the action.
+11,z8Q-s8AthrA_000002_000012,Sports,gpt-4o,3,What is the main subject wearing?,A yellow shirt.,yellow shirt,useful,Describes the main subject's appearance.
+11,z8Q-s8AthrA_000002_000012,Sports,gpt-4o,4,What visible text is on the banners?,No visible text is clear.,banners,useful,Addresses visible on-screen text.
+12,abaLFY_GI8k_000295_000305,Sports,gpt-4o,0,What is the main subject doing?,Playing volleyball.,hitting the ball; jumping near the net,critical,Describes the main action.
+12,abaLFY_GI8k_000295_000305,Sports,gpt-4o,1,What is the setting of the activity?,An outdoor volleyball court.,volleyball net; open ground,critical,Identifies the location.
+12,abaLFY_GI8k_000295_000305,Sports,gpt-4o,2,What key object is involved in the activity?,A volleyball.,ball in the air; ball being hit,critical,Central to the action.
+12,abaLFY_GI8k_000295_000305,Sports,gpt-4o,3,How many people are actively participating?,Three people.,three individuals near the net,useful,Gives context to the action.
+12,abaLFY_GI8k_000295_000305,Sports,gpt-4o,4,What is visible on the buildings in the background?,Green and white paint.,painted buildings,useful,Describes the background setting.
+13,KFcH6BYZWhc_000011_000021,Sports,gpt-4o,0,What is the main subject doing?,Skating on the ice rink.,skating; ice rink,critical,Main action performed by the subject.
+13,KFcH6BYZWhc_000011_000021,Sports,gpt-4o,1,What is the setting of the scene?,An indoor ice hockey rink.,indoor; ice rink,critical,Identifies the location of the action.
+13,KFcH6BYZWhc_000011_000021,Sports,gpt-4o,2,What key object is the main subject using?,A hockey stick.,hockey stick,critical,Essential for understanding the action.
+13,KFcH6BYZWhc_000011_000021,Sports,gpt-4o,3,What is visible in the background?,Other players and a goal net.,players; goal net,useful,Provides context for the scene.
+13,KFcH6BYZWhc_000011_000021,Sports,gpt-4o,4,What text is visible on the boards?,Text on the boards is not clear.,boards; text,useful,Describes visible on-screen text.
+14,UDD6YcChywc_000000_000010,Sports,gpt-4o,0,What is the main subject doing?,Sliding a stone on ice.,subject sliding; stone on ice,critical,Describes the main action.
+14,UDD6YcChywc_000000_000010,Sports,gpt-4o,1,What is the setting of the scene?,An indoor curling rink.,curling rink; indoor setting,critical,Identifies the location.
+14,UDD6YcChywc_000000_000010,Sports,gpt-4o,2,What happens to the main subject at the end?,Lies down on the ice.,subject lying down; end of action,useful,Concludes the action sequence.
+14,UDD6YcChywc_000000_000010,Sports,gpt-4o,3,What key object is involved in the action?,A curling stone.,curling stone; object being slid,critical,Central to the action.
+14,UDD6YcChywc_000000_000010,Sports,gpt-4o,4,What is visible on the ice surface?,Circular target markings.,circular markings; ice surface,useful,Provides context for the action.
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,gpt-4o,0,What is the main subject doing?,The person is bending down near a fence.,bending down; near a fence,critical,Describes the main action.
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,gpt-4o,1,What type of fence is visible?,A chain-link fence with wooden posts.,chain-link fence; wooden posts,useful,Describes the setting.
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,gpt-4o,2,What is the setting of the scene?,An outdoor area with grass and trees.,outdoor area; grass and trees,critical,Provides context for the location.
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,gpt-4o,3,What key objects are near the fence?,Logs and a sign are near the fence.,logs; sign,useful,Identifies key objects in the scene.
+15,OGWuj_FtaQc_000010_000020,Pets & Animals,gpt-4o,4,What text is visible on the signs?,The signs read 'KINDER' and 'PRIVAT'.,text on signs; 'KINDER'; 'PRIVAT',critical,Conveys important on-screen text.
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,gpt-4o,0,What is the main subject doing?,Riding a horse.,person on horse; holding reins,critical,Describes the main action.
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,gpt-4o,1,Where is the main subject located?,In a fenced area near a stable.,fence; stable building,critical,Identifies the setting.
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,gpt-4o,2,What is the main subject wearing?,A pink cap and a hoodie.,pink cap; hoodie,useful,Describes the main subject's appearance.
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,gpt-4o,3,What key object is the main subject interacting with?,A horse.,horse; riding,critical,Identifies the main object involved.
+16,kOf-vl-GmVI_000115_000125,Pets & Animals,gpt-4o,4,Is there any visible on-screen text?,No visible on-screen text.,absence of text,useful,Confirms absence of text.
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,gpt-4o,0,What is the main subject doing?,Climbing a snowy hill.,subject climbing; snowy hill,critical,Describes the main action.
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,gpt-4o,1,What is the setting of the scene?,A snowy playground.,snow; playground equipment,critical,Identifies the location.
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,gpt-4o,2,What key object is involved in the scene?,A blue slide.,blue slide; playground,useful,Highlights a significant object.
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,gpt-4o,3,What is the main subject wearing?,A red hat and white jacket.,red hat; white jacket,useful,Describes the main subject's appearance.
+17,gjoZic4WjiQ_000012_000022,Pets & Animals,gpt-4o,4,Is there any visible on-screen text?,No visible text.,absence of text,useful,Confirms lack of text.
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,gpt-4o,0,What is the main subject doing?,Removing a beekeeping hat.,removing hat; beekeeping suit,critical,Main action performed by the subject.
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,gpt-4o,1,What is the setting or location?,A wooded area.,trees; outdoors,useful,Provides context for the scene.
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,gpt-4o,2,What key object is the second person holding?,A large blue thermos.,blue thermos; holding,useful,Identifies a significant object in the scene.
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,gpt-4o,3,What is the second person doing?,Drinking from a cup.,drinking; cup,critical,Main action performed by the second person.
+18,q2ZBVyR1k-U_000021_000031,Pets & Animals,gpt-4o,4,What visible text is on the second person's shirt?,Partial text: 'BRA'.,text on shirt,useful,Identifies visible text on clothing.
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,gpt-4o,0,What is the main subject doing?,A cat is sitting and watching another cat.,cat sitting; cat watching,critical,Describes the main action.
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,gpt-4o,1,What is the setting of the scene?,A dimly lit room with wooden floors.,dimly lit room; wooden floors,useful,Provides context for the action.
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,gpt-4o,2,What key objects are visible in the room?,A television and a small table.,television; small table,useful,Identifies important objects in the setting.
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,gpt-4o,3,What is the position of the second cat?,The second cat is lying on its back.,cat lying on back,critical,Describes the main subject's interaction.
+19,qIWQHyOIpEY_000003_000013,Pets & Animals,gpt-4o,4,Is there any visible on-screen text?,No visible on-screen text.,absence of text,useful,Confirms lack of text information.

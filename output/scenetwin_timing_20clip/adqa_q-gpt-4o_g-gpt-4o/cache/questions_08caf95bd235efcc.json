@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What activity is taking place on the ice?",
+      "answer_key": "Ice hockey practice",
+      "required_visual_evidence": [
+        "players on ice",
+        "hockey sticks"
+      ],
+      "importance": "critical",
+      "rationale": "Main activity depicted in frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main action of the players?",
+      "answer_key": "Skating and shooting pucks",
+      "required_visual_evidence": [
+        "players skating",
+        "pucks on ice"
+      ],
+      "importance": "critical",
+      "rationale": "Describes primary actions of subjects"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment is visible on the ice?",
+      "answer_key": "Hockey sticks and pucks",
+      "required_visual_evidence": [
+        "hockey sticks",
+        "pucks"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects used in the activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the setting of the activity?",
+      "answer_key": "Indoor ice rink",
+      "required_visual_evidence": [
+        "ice rink",
+        "indoor setting"
+      ],
+      "importance": "critical",
+      "rationale": "Provides context for the activity"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible in the background?",
+      "answer_key": "Other players and a goal net",
+      "required_visual_evidence": [
+        "players in background",
+        "goal net"
+      ],
+      "importance": "useful",
+      "rationale": "Gives additional context to the scene"
+    }
+  ]
+}

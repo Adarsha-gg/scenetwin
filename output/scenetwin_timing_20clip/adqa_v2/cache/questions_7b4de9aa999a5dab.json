@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this clip?",
+      "answer_key": "Riding a snowmobile across a snowy frozen landscape",
+      "required_visual_evidence": [
+        "person on snowmobile",
+        "snow-covered ground",
+        "forward motion across terrain"
+      ],
+      "importance": "critical",
+      "rationale": "Core action defines the entire clip and viewer understanding of activity"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of environment or terrain is visible in this clip?",
+      "answer_key": "A frozen lake or snowy field with bare trees and hills in background",
+      "required_visual_evidence": [
+        "snow-covered flat surface",
+        "bare trees",
+        "distant landscape",
+        "clear sky"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context essential for understanding where the snowmobiling occurs"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment or vehicles are visible being used?",
+      "answer_key": "Snowmobiles, with at least one in foreground and another in distance",
+      "required_visual_evidence": [
+        "snowmobile in foreground",
+        "second snowmobile visible",
+        "riders on machines"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies primary equipment central to the travel activity shown"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many snowmobiles are visible in the frames?",
+      "answer_key": "At least two snowmobiles are visible in the clip",
+      "required_visual_evidence": [
+        "snowmobile in foreground",
+        "snowmobile in background/distance"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates group activity rather than solo travel experience"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible in the foreground on the left side of the frames?",
+      "answer_key": "A green and yellow snowmobile or equipment visible at frame edge",
+      "required_visual_evidence": [
+        "green and yellow colored object",
+        "left frame edge",
+        "consistent across frames"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies perspective as first-person POV from another snowmobile rider"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of facility or venue is shown in the video?",
+      "answer_key": "An equestrian center or horse ranch with riding facilities",
+      "required_visual_evidence": [
+        "horse ranch sign with silhouette",
+        "wooden fencing",
+        "flags",
+        "manicured grounds"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes setting context immediately; blind listener needs to understand location type early"
+    },
+    {
+      "q_idx": 1,
+      "question": "What animals are visible in the middle section of the video?",
+      "answer_key": "Two horses—one dark brown and one brown and white",
+      "required_visual_evidence": [
+        "horses grazing",
+        "contrasting coat colors",
+        "pasture setting"
+      ],
+      "importance": "critical",
+      "rationale": "Main visual subject during high-need window; essential for understanding scene content"
+    },
+    {
+      "q_idx": 2,
+      "question": "What signage or branding appears throughout the video?",
+      "answer_key": "KOA logo appears in corner of frames",
+      "required_visual_evidence": [
+        "KOA yellow and red logo",
+        "consistent watermark"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies video source; helps blind listener understand context and organization"
+    },
+    {
+      "q_idx": 3,
+      "question": "What structures or infrastructure are visible at the facility?",
+      "answer_key": "Wooden rail fencing, flagpoles, yellow directional markers, and covered structures",
+      "required_visual_evidence": [
+        "wooden fencing",
+        "multiple flags",
+        "yellow signs",
+        "overhead structures"
+      ],
+      "importance": "critical",
+      "rationale": "Describes physical layout; helps blind listener visualize the equestrian facility environment"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is happening in the final frames of the video?",
+      "answer_key": "A horse is shown in a wooded or forested area among trees and vegetation",
+      "required_visual_evidence": [
+        "horse in forest",
+        "dense green foliage",
+        "natural woodland setting"
+      ],
+      "importance": "useful",
+      "rationale": "Transition to different location; shows facility includes natural trail or wooded areas"
+    }
+  ]
+}

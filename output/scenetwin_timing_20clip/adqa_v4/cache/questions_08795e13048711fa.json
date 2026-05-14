@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Eating a burger.",
+      "required_visual_evidence": [
+        "subject eating",
+        "burger in hand"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is the main subject located?",
+      "answer_key": "Inside a Burger King.",
+      "required_visual_evidence": [
+        "Burger King logo",
+        "fast food setting"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the setting."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A gray hoodie.",
+      "required_visual_evidence": [
+        "gray hoodie"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the subject's appearance."
+    },
+    {
+      "q_idx": 3,
+      "question": "What key object is the subject holding?",
+      "answer_key": "A Burger King cup.",
+      "required_visual_evidence": [
+        "cup in hand",
+        "Burger King logo"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies a key object."
+    },
+    {
+      "q_idx": 4,
+      "question": "What text is visible on the tray?",
+      "answer_key": "BURGER EATING",
+      "required_visual_evidence": [
+        "text on tray"
+      ],
+      "importance": "critical",
+      "rationale": "Conveys visible on-screen text."
+    }
+  ]
+}

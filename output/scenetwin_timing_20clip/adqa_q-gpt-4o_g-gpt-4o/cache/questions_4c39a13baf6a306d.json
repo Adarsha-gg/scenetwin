@@ -1,0 +1,60 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is depicted on the sign in the first frame?",
+      "answer_key": "A horse and the text 'K-Hill Ranch'.",
+      "required_visual_evidence": [
+        "horse",
+        "K-Hill Ranch"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the location."
+    },
+    {
+      "q_idx": 1,
+      "question": "What animals are shown in the third and fourth frames?",
+      "answer_key": "Two horses grazing.",
+      "required_visual_evidence": [
+        "two horses",
+        "grazing"
+      ],
+      "importance": "critical",
+      "rationale": "Main subjects of these frames."
+    },
+    {
+      "q_idx": 2,
+      "question": "What flags are visible in the second frame?",
+      "answer_key": "KOA, American, Canadian, and another flag.",
+      "required_visual_evidence": [
+        "flags",
+        "KOA",
+        "American",
+        "Canadian"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates international presence."
+    },
+    {
+      "q_idx": 3,
+      "question": "What activity is happening in the fifth to seventh frames?",
+      "answer_key": "Horseback riding through a forest.",
+      "required_visual_evidence": [
+        "horseback riding",
+        "forest"
+      ],
+      "importance": "critical",
+      "rationale": "Describes main action."
+    },
+    {
+      "q_idx": 4,
+      "question": "What logo is present in all frames?",
+      "answer_key": "KOA logo.",
+      "required_visual_evidence": [
+        "KOA logo"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates branding."
+    }
+  ]
+}

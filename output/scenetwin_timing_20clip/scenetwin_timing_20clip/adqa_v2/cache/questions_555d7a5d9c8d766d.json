@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man in the gray hoodie doing with the food item?",
+      "answer_key": "Eating or about to eat a burger",
+      "required_visual_evidence": [
+        "man in gray hoodie",
+        "holding food to mouth",
+        "burger visible"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and subject are central to understanding the clip's content"
+    },
+    {
+      "q_idx": 1,
+      "question": "What fast food restaurant is featured in this clip?",
+      "answer_key": "Burger King",
+      "required_visual_evidence": [
+        "Burger King logo",
+        "Burger King branding on packaging"
+      ],
+      "importance": "critical",
+      "rationale": "On-screen text and branding are essential context for the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this scene takes place?",
+      "answer_key": "Indoor location with glass windows and fluorescent lighting",
+      "required_visual_evidence": [
+        "glass windows/doors",
+        "ceiling lights",
+        "interior walls"
+      ],
+      "importance": "useful",
+      "rationale": "Setting helps listeners visualize the environment and context"
+    },
+    {
+      "q_idx": 3,
+      "question": "What type of food item is the man holding?",
+      "answer_key": "A burger",
+      "required_visual_evidence": [
+        "burger in hand",
+        "food packaging",
+        "Burger King context"
+      ],
+      "importance": "critical",
+      "rationale": "Identifying the specific food item is key to understanding the action"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the Burger King packaging shown in the clip?",
+      "answer_key": "Text reading 'Burger King' and 'Eating'",
+      "required_visual_evidence": [
+        "packaging with text",
+        "Burger King branding",
+        "word 'Eating'"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text provides important context about the clip's theme"
+    }
+  ]
+}

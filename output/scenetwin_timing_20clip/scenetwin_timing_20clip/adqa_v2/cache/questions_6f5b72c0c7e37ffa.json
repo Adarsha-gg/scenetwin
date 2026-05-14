@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "A person in a red hat is sledding or sliding down a snowy inflatable slide.",
+      "required_visual_evidence": [
+        "person wearing red hat",
+        "snow-covered surface",
+        "inflatable slide with white and dark blue sections",
+        "downward motion"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary action and main subject essential to understanding the clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of structure or equipment is the person sliding on?",
+      "answer_key": "An inflatable slide with white and dark blue striped sections and cylindrical tubes.",
+      "required_visual_evidence": [
+        "inflatable material",
+        "white and dark blue coloring",
+        "cylindrical tube sections",
+        "structured slide design"
+      ],
+      "importance": "critical",
+      "rationale": "Key object that defines the setting and activity; essential for scene comprehension."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the ground surface covered with?",
+      "answer_key": "Snow covers the ground around and beneath the inflatable slide.",
+      "required_visual_evidence": [
+        "white snow coverage",
+        "winter setting",
+        "snow on flat ground area"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the season and environmental context for the activity."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the background of this outdoor scene?",
+      "answer_key": "Bare trees and a metal fence or railing structure are visible in the background.",
+      "required_visual_evidence": [
+        "bare deciduous trees",
+        "metal fence or railing",
+        "winter landscape"
+      ],
+      "importance": "useful",
+      "rationale": "Provides location context and reinforces the winter outdoor setting."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible participating in or observing the activity?",
+      "answer_key": "At least two people are visible; one sliding and others standing or present nearby.",
+      "required_visual_evidence": [
+        "person in red hat sliding",
+        "additional people in background",
+        "multiple figures on snowy surface"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates whether this is a solo or group activity; helps establish scene dynamics."
+    }
+  ]
+}

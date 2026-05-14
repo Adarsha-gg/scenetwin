@@ -1,0 +1,3 @@
+metric,spearman_rho,spearman_p,kendall_tau,kendall_p,pairwise_wins,pairwise_total,full_order_clips,full_order_total,filter
+adqa_v2_score,0.8029279984245423,2.1928779813496476e-17,0.6959315317081162,1.1733705949785366e-13,51,54,8,18,unfiltered
+adqa_v2_score,0.8037874651693125,1.9115128294736605e-17,0.7126930410736966,1.2268441586735058e-14,51,54,8,18,filtered_floor_zero_dropped

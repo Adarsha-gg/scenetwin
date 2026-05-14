@@ -1,0 +1,734 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SceneTwin NJBDA Poster - Chart Draft</title>
+  <style>
+    @page {
+      size: 36in 48in;
+      margin: 0;
+    }
+
+    :root {
+      --ink: #171d21;
+      --muted: #53606a;
+      --paper: #fbfaf7;
+      --line: #cfd8de;
+      --teal: #0d8587;
+      --teal-dark: #0a696b;
+      --rose: #b8325b;
+      --gold: #ca8a1c;
+      --blue: #2f6195;
+      --slate: #1d272f;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background: #dedbd3;
+      color: var(--ink);
+      font-family: Inter, Avenir, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.18;
+    }
+
+    .poster {
+      width: 36in;
+      height: 48in;
+      margin: 0 auto;
+      overflow: hidden;
+      padding: 0.56in 0.66in 0.46in;
+      background: var(--paper);
+      display: grid;
+      grid-template-rows: 4.8in 7.0in 5.65in 7.55in 5.9in 7.45in 5.95in;
+      gap: 0.26in;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr 8.15in;
+      gap: 0.42in;
+      align-items: end;
+      border-bottom: 0.05in solid var(--ink);
+      padding-bottom: 0.24in;
+    }
+
+    .top-logos {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 0.34in;
+      margin-bottom: 0;
+    }
+
+    .top-logos img {
+      display: block;
+      max-width: 4.1in;
+      max-height: 1.18in;
+      object-fit: contain;
+      mix-blend-mode: multiply;
+    }
+
+    .top-logos .njbda-logo {
+      max-width: 3.0in;
+      max-height: 1.05in;
+    }
+
+    .topline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.46in;
+      margin-bottom: 0.06in;
+    }
+
+    .eyebrow {
+      margin-bottom: 0;
+      color: var(--teal-dark);
+      font-size: 0.25in;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: 0;
+      white-space: nowrap;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 25.5in;
+      font-size: 0.76in;
+      line-height: 0.97;
+      letter-spacing: 0;
+      font-weight: 950;
+    }
+
+    .subtitle {
+      margin: 0.18in 0 0;
+      max-width: 25.8in;
+      color: #33414a;
+      font-size: 0.275in;
+      line-height: 1.18;
+      font-weight: 650;
+    }
+
+    .byline {
+      margin-top: 0.15in;
+      color: #4d5962;
+      font-size: 0.2in;
+      font-weight: 760;
+    }
+
+    .hero {
+      min-height: 3.95in;
+      padding: 0.24in 0.25in;
+      border-radius: 0.08in;
+      background: var(--slate);
+      color: white;
+      display: grid;
+      grid-template-rows: auto 1fr auto;
+      gap: 0.14in;
+    }
+
+    .hero .label {
+      color: #bce9e7;
+      font-size: 0.2in;
+      font-weight: 850;
+      text-transform: uppercase;
+    }
+
+    .rho {
+      align-self: center;
+      font-size: 1.12in;
+      line-height: 0.9;
+      letter-spacing: 0;
+      font-weight: 950;
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 0.11in;
+    }
+
+    .hero-stat {
+      border: 0.012in solid rgba(255, 255, 255, 0.24);
+      border-radius: 0.05in;
+      padding: 0.1in;
+      color: #f4f1ea;
+      font-size: 0.165in;
+      line-height: 1.1;
+      font-weight: 700;
+    }
+
+    .hero-stat b {
+      display: block;
+      color: #ffdd73;
+      font-size: 0.31in;
+      line-height: 0.95;
+      font-weight: 950;
+    }
+
+    section {
+      min-width: 0;
+      overflow: hidden;
+      border: 0.017in solid var(--line);
+      border-radius: 0.08in;
+      background: #ffffff;
+      padding: 0.16in;
+    }
+
+    section.rose {
+      border-color: var(--line);
+    }
+
+    section.gold {
+      border-color: var(--line);
+    }
+
+    section.blue {
+      border-color: var(--line);
+    }
+
+    .fig {
+      height: 100%;
+      display: grid;
+      grid-template-rows: 1fr auto;
+      gap: 0.08in;
+    }
+
+    .fig img {
+      width: 100%;
+      height: 100%;
+      min-height: 0;
+      display: block;
+      object-fit: fill;
+      background: #fff;
+      border-radius: 0.045in;
+    }
+
+    .caption {
+      color: #4f5b64;
+      font-size: 0.145in;
+      line-height: 1.2;
+      font-weight: 640;
+    }
+
+    .row {
+      display: grid;
+      gap: 0.26in;
+      min-height: 0;
+    }
+
+    .row.two {
+      grid-template-columns: 0.82fr 1.18fr;
+    }
+
+    .row.two > section:first-child {
+      border: 0.03in solid var(--teal);
+      background: #ffffff;
+      padding: 0.20in;
+    }
+
+    .row.two > section:first-child .fig img {
+      border: 0.018in solid var(--line);
+    }
+
+    .row.main {
+      grid-template-columns: 1.2fr 0.8fr;
+    }
+
+    .row.bottom {
+      grid-template-columns: 1.45fr 1fr;
+    }
+
+    .refs-ack-stack {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      gap: 0.22in;
+      min-height: 0;
+    }
+
+    .row.archrow {
+      grid-template-columns: 0.9fr 1.5fr;
+    }
+
+    .row.heatrow {
+      grid-template-columns: 19.0in 1fr;
+    }
+
+    .row.problemrow {
+      grid-template-columns: 1.12fr 0.88fr;
+    }
+
+    .intro {
+      padding: 0.18in 0.20in;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 0.13in;
+      align-items: start;
+    }
+
+    .intro h2 {
+      margin: 0;
+      color: var(--teal-dark);
+      font-size: 0.52in;
+      line-height: 1.05;
+      font-weight: 920;
+      letter-spacing: 0;
+    }
+
+    .intro h2 span {
+      display: block;
+      margin-top: 0.12in;
+      color: var(--muted);
+      font-size: 0.235in;
+      font-weight: 600;
+      font-style: italic;
+      line-height: 1.16;
+    }
+
+    .intro > div {
+      display: block;
+    }
+
+    .intro p {
+      margin: 0 0 0.24in;
+      color: #1f2a31;
+      font-size: 0.245in;
+      line-height: 1.18;
+      font-weight: 560;
+    }
+
+    .intro p:last-child {
+      margin-bottom: 0;
+    }
+
+    .intro p b {
+      color: var(--ink);
+      font-weight: 820;
+    }
+
+    .callout-panel {
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 0.16in;
+    }
+
+    .callout-title {
+      color: var(--ink);
+      font-size: 0.34in;
+      line-height: 1.03;
+      font-weight: 930;
+      letter-spacing: 0;
+    }
+
+    .callout-list {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.13in;
+      align-content: stretch;
+    }
+
+    .callout-list.one {
+      grid-template-columns: 1fr;
+    }
+
+    .big-stat {
+      min-height: 1.05in;
+      border: 0.015in solid #d7e0e4;
+      border-radius: 0.065in;
+      background: #fff;
+      padding: 0.15in;
+    }
+
+    .big-stat b {
+      display: block;
+      color: var(--teal-dark);
+      font-size: 0.36in;
+      line-height: 0.95;
+      font-weight: 950;
+    }
+
+    .big-stat span {
+      display: block;
+      margin-top: 0.07in;
+      color: #36434b;
+      font-size: 0.165in;
+      line-height: 1.18;
+      font-weight: 640;
+    }
+
+    .big-stat.rose b {
+      color: var(--rose);
+    }
+
+    .big-stat.gold b {
+      color: var(--gold);
+    }
+
+    .mini-copy {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0.14in;
+      align-content: stretch;
+      min-height: 0;
+    }
+
+    .copy-card {
+      border: 0.015in solid #d9e0e4;
+      border-radius: 0.07in;
+      background: #fff;
+      padding: 0.18in;
+    }
+
+    .copy-card b {
+      display: block;
+      margin-bottom: 0.08in;
+      color: var(--teal-dark);
+      font-size: 0.255in;
+      line-height: 1.02;
+      font-weight: 920;
+    }
+
+    .copy-card span {
+      display: block;
+      color: #344047;
+      font-size: 0.178in;
+      line-height: 1.23;
+      font-weight: 600;
+    }
+
+    .copy-card.rose b {
+      color: var(--rose);
+    }
+
+    .copy-card.gold b {
+      color: var(--gold);
+    }
+
+    footer {
+      display: flex;
+      align-items: center;
+      gap: 0.30in;
+      border-top: 0.018in solid var(--line);
+      padding-top: 0.16in;
+      color: #4d5962;
+      font-size: 0.18in;
+      line-height: 1.22;
+      font-weight: 620;
+    }
+
+    footer .footer-line {
+      display: flex;
+      align-items: center;
+      gap: 0.24in;
+      flex: 1;
+    }
+
+    footer .footer-line p {
+      margin: 0;
+      color: #36434b;
+    }
+
+    footer .footer-line b {
+      color: var(--ink);
+      font-weight: 820;
+    }
+
+    .ack-card,
+    .refs-card {
+      min-height: 1.75in;
+      border-radius: 0.08in;
+      padding: 0.16in 0.2in;
+    }
+
+    .ack-card {
+      display: grid;
+      grid-template-columns: 1.35in 1fr;
+      gap: 0.2in;
+      align-items: center;
+      border: 0.017in solid var(--line);
+      background: #ffffff;
+    }
+
+    .footer-logo {
+      width: 1.22in;
+      max-height: 0.78in;
+      object-fit: contain;
+      justify-self: start;
+    }
+
+    .ack-copy {
+      display: grid;
+      gap: 0.06in;
+    }
+
+    .ack-title {
+      color: var(--gold);
+      font-size: 0.26in;
+      font-weight: 920;
+    }
+
+    .ack-copy p {
+      margin: 0;
+      color: #3e4a52;
+      font-size: 0.15in;
+      line-height: 1.18;
+      font-weight: 620;
+    }
+
+    .refs-card,
+    .ack-card2 {
+      border: 0.02in solid var(--teal);
+      background: #ffffff;
+      color: var(--ink);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0.28in 0.30in;
+      gap: 0.18in;
+    }
+
+    .refs-title,
+    .ack-block-title {
+      margin: 0;
+      text-align: center;
+      color: var(--gold);
+      font-family: Georgia, "Times New Roman", serif;
+      font-size: 0.46in;
+      line-height: 1;
+      font-weight: 900;
+    }
+
+    .refs-list {
+      margin: 0;
+      padding-left: 0.40in;
+      color: var(--ink);
+      font-size: 0.20in;
+      line-height: 1.32;
+      font-weight: 650;
+    }
+
+    .refs-list li {
+      margin: 0.075in 0;
+    }
+
+    .refs-list em {
+      font-style: italic;
+      font-weight: 520;
+    }
+
+    .ack-card2 .ack-body {
+      display: grid;
+      grid-template-columns: 1.40in 1fr;
+      gap: 0.26in;
+      align-items: center;
+    }
+
+    .ack-card2 img {
+      width: 1.40in;
+      max-height: 1.10in;
+      object-fit: contain;
+      justify-self: center;
+    }
+
+    .ack-card2 p {
+      margin: 0;
+      color: #2a3640;
+      font-size: 0.20in;
+      line-height: 1.32;
+      font-weight: 620;
+      text-align: left;
+    }
+
+    .ack-card2 p b {
+      color: var(--ink);
+      font-weight: 820;
+    }
+
+    code {
+      font-family: "SFMono-Regular", Consolas, Menlo, monospace;
+      font-size: 0.92em;
+    }
+
+    .qr {
+      width: 1.22in;
+      height: 1.22in;
+      justify-self: end;
+      border: 0.035in solid #111;
+      background:
+        linear-gradient(90deg, #111 18%, transparent 18% 31%, #111 31% 46%, transparent 46% 59%, #111 59% 75%, transparent 75%),
+        linear-gradient(#111 18%, transparent 18% 31%, #111 31% 46%, transparent 46% 59%, #111 59% 75%, transparent 75%),
+        white;
+      background-size: 0.34in 0.34in;
+      position: relative;
+    }
+
+    .qr::after {
+      content: "QR";
+      position: absolute;
+      inset: 0.34in;
+      display: grid;
+      place-items: center;
+      background: white;
+      color: #111;
+      font-size: 0.18in;
+      font-weight: 950;
+    }
+
+    @media screen and (max-width: 1200px) {
+      .poster {
+        transform: scale(0.28);
+        transform-origin: top left;
+        margin: 0;
+      }
+    }
+
+    @media print {
+      body {
+        background: var(--paper);
+      }
+
+      .poster {
+        margin: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="poster">
+    <header>
+      <div>
+        <div class="topline">
+          <div class="top-logos">
+            <img src="logos/wpu_cropped.webp" alt="William Paterson University logo">
+            <img class="njbda-logo" src="logos/njbda_cropped.webp" alt="NJ Big Data Alliance logo">
+          </div>
+          
+        </div>
+        <div class="eyebrow">NJBDA 2026 &middot; Rowan University &middot; May 20, 2026</div>
+        <h1>SceneTwin: a reference-free audit of audio description for blind and low vision users</h1>
+        <p class="subtitle">A visual grounding and comprehension pipeline that scores whether an audio description actually conveys what a blind or low vision user cannot see, without needing a single human reference script.</p>
+        <div class="byline">Adarsha Mishra &middot; Department of Computer Science &middot; William Paterson University &middot; Advisors: Dr. Nan Wang, Bohan Fan, Xiaoshan Wang</div>
+      </div>
+      <aside class="hero">
+        <div class="label">Main result &middot; ranking AD by how well it serves BLV users</div>
+        <div class="rho">&rho; = 0.929</div>
+        <div class="hero-grid">
+          <div class="hero-stat"><b>54/54</b>professional AD pairwise wins</div>
+          <div class="hero-stat"><b>15/18</b>clips fully ordered</div>
+          <div class="hero-stat"><b>0.90-0.96</b>bootstrap 95% CI</div>
+        </div>
+      </aside>
+    </header>
+
+    <div class="row archrow">
+      <section class="intro">
+        <h2>What is SceneTwin?<span>An automated quality audit for audio description, the spoken narration blind and low vision users depend on to experience the same feeling as actually watching a video.</span></h2>
+        <div>
+          <p>Audio description is how blind and low vision users experience video. SceneTwin takes one clip and one candidate description and returns a single audit score plus a flag for whether the score is likely to be reliable. The audit grounds the description against the actual video frames, not against another text, so no reference script is required and AD can be checked at the scale BLV users actually consume video.</p>
+          <p>Two reference free signals run in parallel. <b>CLIP visual grounding</b> measures cosine similarity between sampled frames and the description text and catches hallucinated or wrong scene descriptions. <b>Frame grounded ADQA</b> has a vision language model write comprehension questions from the frames, then a separate language model grades the description blind, catching vague or under specified text. The two signals are averaged with fixed equal weights.</p>
+          <p>A separate <b>TRIBE fMRI encoder</b> runs alongside the main pipeline and forecasts which clips are likely to be hard for the automated scorer, allowing a small fraction of clips to be flagged for human review with full recall on known scorer failures.</p>
+        </div>
+      </section>
+      <section class="blue">
+        <div class="fig">
+          <img src="charts/scenetwin_methodology.png" alt="SceneTwin methodology pipeline">
+          <div class="caption">Methodology. One clip and one candidate description go in. Two reference free signals run in parallel and are averaged into a single audit score that tells whether the description preserves the visual content a blind or low vision user would otherwise miss. A separate fMRI encoder forecasts fragile evaluations from video and audio alone.</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="row problemrow">
+      <section class="gold">
+        <div class="fig">
+          <img src="charts/scenetwin_why_it_matters.png" alt="Why audio description quality needs an automated audit">
+          <div class="caption">Problem statement. Roughly 285 million blind and low vision people worldwide rely on audio description to follow video. Availability alone does not tell whether an AD matches the visual scene a sighted user would see.</div>
+        </div>
+      </section>
+      <section class="rose">
+        <div class="fig">
+          <img src="charts/scenetwin_current_solution_comparison.png" alt="Current AD QA solution compared with SceneTwin">
+          <div class="caption">Positioning. SceneTwin is not just checking whether AD exists; it tests grounding, answerability, and fragility at scale.</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="row heatrow">
+      <section class="gold">
+        <div class="fig">
+          <img src="charts/scenetwin_per_tier_heatmap.png" alt="Per-tier SceneTwin audit heatmap">
+          <div class="caption">Main evidence. Each column is a clip; each row is a quality tier of audio description offered to a BLV user. The professional AD row is consistently darkest: SceneTwin recovers the same ordering a human reviewer would.</div>
+        </div>
+      </section>
+      <section class="rose">
+        <div class="fig">
+          <img src="charts/scenetwin_failure_forecast.png" alt="TRIBE flags fragile evaluations">
+          <div class="caption">TRIBE flags fragile evaluations before any AD is scored, so a small human review queue can be used to protect BLV users from descriptions the audit is least sure about. Both known ADQA full order failures are the top two review targets.</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="row two">
+      <section>
+        <div class="fig">
+          <img src="charts/scenetwin_bootstrap_ci.png" alt="Bootstrap confidence intervals for CLIP, ADQA, and ensemble">
+          <div class="caption">Ensemble confidence interval sits above the CLIP-only upper bound.</div>
+        </div>
+      </section>
+      <section class="rose">
+        <div class="fig">
+          <img src="charts/scenetwin_technical_methodology_summary.png" alt="Technical methodology summary">
+          <div class="caption">Technical methodology summary. Full details are in output/reports/scenetwin-technical-methodology.md.</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="row main">
+      <section class="blue">
+        <div class="fig">
+          <img src="charts/scenetwin_brain_three_panel.png" alt="How the TRIBE accessibility gap is built">
+          <div class="caption">Brain-model visual: useful for timing and risk triage, not the final text-quality score.</div>
+        </div>
+      </section>
+      <section>
+        <div class="fig">
+          <img src="charts/scenetwin_accessibility_gap_brain_annotated.png" alt="TRIBE average accessibility-gap brain render">
+          <div class="caption">Average TRIBE accessibility gap across 20 clips. The bright regions are where audiovisual viewing drives brain activity that the audio track alone cannot recreate. This is exactly the information BLV users depend on audio description to recover.</div>
+        </div>
+      </section>
+    </div>
+
+    <div class="row bottom">
+      <section class="rose">
+        <div class="fig">
+          <img src="charts/scenetwin_killed_branches.png" alt="Failed SceneTwin branches">
+          <div class="caption">Negative results kept the final claim narrow: reference-free scoring survived; direct neural text scoring did not.</div>
+        </div>
+      </section>
+      <div class="refs-ack-stack">
+        <section class="refs-card">
+          <div class="refs-title">References</div>
+          <ol class="refs-list">
+            <li>Radford, A., et al. (2021). <em>Learning Transferable Visual Models From Natural Language Supervision.</em> ICML.</li>
+            <li>d'Ascoli, S., et al. (2026). <em>A foundation model of vision, audition, and language for in-silico neuroscience.</em> arXiv:2605.04326.</li>
+            <li>Li, C., et al. (2025). <em>VideoA11y: Method and Dataset for Accessible Video Description.</em> arXiv:2502.20480.</li>
+            <li>Wang, X., et al. (2019). <em>VATEX: A Large-Scale, High-Quality Multilingual Dataset for Video-and-Language Research.</em> ICCV.</li>
+          </ol>
+        </section>
+        <section class="ack-card2">
+          <div class="ack-block-title">Acknowledgements</div>
+          <div class="ack-body">
+            <img src="logos/nsf.webp" alt="National Science Foundation logo">
+            <p>Supported by <b>NSF Grant #2028011</b>. Thank you to <b>Dr. Nan Wang</b>, <b>Bohan Fan</b>, and <b>Xiaoshan Wang</b> for their guidance, and to the Department of Computer Science and the College of Science and Health at William Paterson University for their support.</p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

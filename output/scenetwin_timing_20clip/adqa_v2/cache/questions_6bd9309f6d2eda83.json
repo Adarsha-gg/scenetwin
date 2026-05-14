@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "A man is exercising or stretching near a wooden fence gate.",
+      "required_visual_evidence": [
+        "man in green shirt",
+        "bending/stretching posture",
+        "wooden fence",
+        "outdoor setting"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary action and subject essential to understanding the clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of location or setting is shown in the video?",
+      "answer_key": "An outdoor farm or ranch area with wooden fences and pasture.",
+      "required_visual_evidence": [
+        "wooden rail fences",
+        "chain-link fence",
+        "grass field",
+        "rural/farm structures"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is fundamental for listeners to visualize the scene."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the man wearing?",
+      "answer_key": "A green short-sleeved shirt, dark shorts, and athletic shoes.",
+      "required_visual_evidence": [
+        "green shirt",
+        "dark shorts",
+        "athletic footwear"
+      ],
+      "importance": "useful",
+      "rationale": "Clothing details help establish the activity and context of the scene."
+    },
+    {
+      "q_idx": 3,
+      "question": "What prominent objects are visible in the foreground of the video?",
+      "answer_key": "Wooden logs or branches on the ground near the fence.",
+      "required_visual_evidence": [
+        "logs on ground",
+        "wooden debris",
+        "near fence gate"
+      ],
+      "importance": "useful",
+      "rationale": "Foreground objects provide spatial context and environmental detail."
+    },
+    {
+      "q_idx": 4,
+      "question": "What type of fencing is visible in this video?",
+      "answer_key": "Wooden rail fences and chain-link fencing surrounding the area.",
+      "required_visual_evidence": [
+        "wooden horizontal rails",
+        "chain-link fence",
+        "fence gate"
+      ],
+      "importance": "useful",
+      "rationale": "Fence types establish the farm/ranch setting and spatial boundaries."
+    }
+  ]
+}

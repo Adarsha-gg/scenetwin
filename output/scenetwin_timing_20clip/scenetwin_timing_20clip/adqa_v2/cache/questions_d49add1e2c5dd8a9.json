@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person cooking in the skillet?",
+      "answer_key": "An omelet or egg dish with red peppers",
+      "required_visual_evidence": [
+        "yellow egg-based dish",
+        "red pepper pieces",
+        "black skillet on stovetop"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and food being prepared are central to understanding the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What liquid is being poured into the pan?",
+      "answer_key": "Oil from a bottle",
+      "required_visual_evidence": [
+        "bottle being held",
+        "liquid pouring",
+        "skillet receiving liquid"
+      ],
+      "importance": "useful",
+      "rationale": "Key cooking action visible across multiple frames showing technique"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this cooking activity taking place?",
+      "answer_key": "A kitchen with a stovetop and counter",
+      "required_visual_evidence": [
+        "electric stovetop",
+        "kitchen counter",
+        "appliances in background"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for the entire activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What cooking equipment is visible on the stovetop?",
+      "answer_key": "Two black skillets or pans",
+      "required_visual_evidence": [
+        "black skillet with omelet",
+        "empty black pan",
+        "stovetop burners"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects needed to describe the cooking setup and workspace"
+    },
+    {
+      "q_idx": 4,
+      "question": "What brand of oil is being used?",
+      "answer_key": "Morton salt or a branded cooking product",
+      "required_visual_evidence": [
+        "labeled bottle on counter",
+        "visible branding on container"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text/branding visible on counter provides specific product detail"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+metric,observed_rho,null_mean_rho,null_p_ge_observed,n_permutations,model
+overall,0.8816888376951199,-0.001634397649576189,0.0,2000,anthropic:claude-haiku-4-5-20251001

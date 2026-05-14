@@ -1,0 +1,44 @@
+{
+  "scores": [
+    {
+      "candidate_id": "A",
+      "visual_accuracy": 70,
+      "completeness": 50,
+      "specificity": 60,
+      "concision": 85,
+      "listener_utility": 55,
+      "overall": 64,
+      "rationale": "Accurately identifies the man, setting (Burger King), and main action (eating hamburger fast). However, misses the competitive/challenge context, the writing on the tray liner, and other people present. The description of 'going to take a drink' is speculative. Concise but lacks important context about what's actually happening."
+    },
+    {
+      "candidate_id": "B",
+      "visual_accuracy": 20,
+      "completeness": 30,
+      "specificity": 25,
+      "concision": 90,
+      "listener_utility": 15,
+      "overall": 16,
+      "rationale": "Contains significant hallucinations: no clear evidence he 'gets sick' in the frames shown. Vague and inaccurate ('eats a lot of burgers' is not clearly shown). Misses the Burger King setting, the man's appearance, the tray liner writing, and the social context. Too speculative and inaccurate to be useful."
+    },
+    {
+      "candidate_id": "C",
+      "visual_accuracy": 0,
+      "completeness": 0,
+      "specificity": 0,
+      "concision": 85,
+      "listener_utility": 0,
+      "overall": 0,
+      "rationale": "Completely hallucinated content with no connection to the actual video frames. Describes skiing and a slalom course when the frames clearly show a man eating at Burger King. This is entirely inaccurate and useless for understanding the actual scene."
+    },
+    {
+      "candidate_id": "D",
+      "visual_accuracy": 85,
+      "completeness": 90,
+      "specificity": 85,
+      "concision": 75,
+      "listener_utility": 88,
+      "overall": 85,
+      "rationale": "Accurately describes the setting (Burger King restaurant), the man's appearance (bald, gray hoodie), his actions (rapidly eating, drinking), and visible reactions (coughing, struggling). Captures the social context (people laughing, clapping) and the key detail of the tray liner with 'BURGER EATING' written on it. Provides specific, useful details that help a blind listener understand this is a competitive eating challenge. Minor: 'coughing' is inferred rather than explicitly visible, but reasonable interpretation of his expressions."
+    }
+  ]
+}

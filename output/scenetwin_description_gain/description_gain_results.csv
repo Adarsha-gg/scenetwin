@@ -1,0 +1,9 @@
+clip_idx,video_id,category,tier,gt,av_desc_cos,av_audio_cos,description_gain,desc_words,video_path
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,tier3_va11y,3,0.6576477885246277,0.8415278792381287,-0.18388009071350098,40,/content/scenetwin_real_eval/vatex_clips/clip_00.mp4
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,tier2_vatex_long,2,0.6045585870742798,0.8415278792381287,-0.23696929216384888,25,/content/scenetwin_real_eval/vatex_clips/clip_00.mp4
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,tier1_vatex_short,1,0.5808345675468445,0.8415278792381287,-0.2606933116912842,11,/content/scenetwin_real_eval/vatex_clips/clip_00.mp4
+0,Q76JRCyTnSc_000007_000017,Food & Cooking,tier0_cross,0,0.6163910031318665,0.8415278792381287,-0.2251368761062622,35,/content/scenetwin_real_eval/vatex_clips/clip_00.mp4
+1,058y9xGmmTQ_000206_000216,Food & Cooking,tier3_va11y,3,0.7134308815002441,0.9231690764427185,-0.20973819494247437,62,/content/scenetwin_real_eval/vatex_clips/clip_01.mp4
+1,058y9xGmmTQ_000206_000216,Food & Cooking,tier2_vatex_long,2,0.4911791682243347,0.9231690764427185,-0.4319899082183838,19,/content/scenetwin_real_eval/vatex_clips/clip_01.mp4
+1,058y9xGmmTQ_000206_000216,Food & Cooking,tier1_vatex_short,1,0.44683143496513367,0.9231690764427185,-0.47633764147758484,13,/content/scenetwin_real_eval/vatex_clips/clip_01.mp4
+1,058y9xGmmTQ_000206_000216,Food & Cooking,tier0_cross,0,0.7774339318275452,0.9231690764427185,-0.14573514461517334,35,/content/scenetwin_real_eval/vatex_clips/clip_01.mp4

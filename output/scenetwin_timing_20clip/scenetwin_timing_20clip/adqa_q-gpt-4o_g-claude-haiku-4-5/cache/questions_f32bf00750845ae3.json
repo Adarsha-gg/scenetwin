@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing?",
+      "answer_key": "Removing a protective hood.",
+      "required_visual_evidence": [
+        "removing hood",
+        "protective suit"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the subject."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting of the video?",
+      "answer_key": "A wooded area.",
+      "required_visual_evidence": [
+        "trees",
+        "outdoors"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the second person doing?",
+      "answer_key": "Drinking from a cup.",
+      "required_visual_evidence": [
+        "drinking",
+        "holding cup"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the action of another person."
+    },
+    {
+      "q_idx": 3,
+      "question": "What key object is the second person holding?",
+      "answer_key": "A blue container.",
+      "required_visual_evidence": [
+        "blue container",
+        "holding"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies a significant object in the scene."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the vehicle's window?",
+      "answer_key": "A sticker with text.",
+      "required_visual_evidence": [
+        "sticker",
+        "text on window"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates presence of on-screen text."
+    }
+  ]
+}

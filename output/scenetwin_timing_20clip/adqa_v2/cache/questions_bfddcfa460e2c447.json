@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man in the white shirt holding and demonstrating?",
+      "answer_key": "A small insect or specimen, appears to be holding it between his fingers",
+      "required_visual_evidence": [
+        "man in white shirt",
+        "holding small object between fingers",
+        "laboratory/workspace setting"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and object central to understanding the video's purpose and content"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of setting or location is shown in most of the frames?",
+      "answer_key": "A laboratory or scientific workspace with equipment, tanks, and workstations",
+      "required_visual_evidence": [
+        "laboratory equipment",
+        "workbenches",
+        "storage tanks in background",
+        "scientific apparatus"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for the demonstration and helps orient the listener"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the wooden board or surface in one of the frames?",
+      "answer_key": "Papers, documents, and sticky notes with writing or markings on them",
+      "required_visual_evidence": [
+        "wooden board",
+        "papers attached",
+        "sticky notes",
+        "written markings"
+      ],
+      "importance": "useful",
+      "rationale": "Shows documentation or record-keeping typical of scientific work environments"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are clearly visible as the main focus throughout the video?",
+      "answer_key": "One man, the primary subject demonstrating or presenting the specimen",
+      "required_visual_evidence": [
+        "single man in white shirt",
+        "consistent main subject",
+        "addressing camera/audience"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies that this is a single-person demonstration or presentation"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the man's apparent role or activity in this setting?",
+      "answer_key": "Scientist or researcher demonstrating or explaining a specimen to an audience",
+      "required_visual_evidence": [
+        "white lab coat",
+        "holding specimen",
+        "laboratory setting",
+        "gesturing while speaking"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the man's professional context and the nature of the activity"
+    }
+  ]
+}

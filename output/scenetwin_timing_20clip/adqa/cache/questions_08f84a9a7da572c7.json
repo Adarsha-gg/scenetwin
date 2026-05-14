@@ -1,0 +1,36 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man doing on the motorcycle?",
+      "answer_key": "He is riding a motorcycle and pulling a blue sled behind him",
+      "required_visual_evidence": [
+        "man rides motorcycle",
+        "pulling blue sled"
+      ],
+      "importance": "critical",
+      "rationale": "Core action that defines the scene's primary activity"
+    },
+    {
+      "q_idx": 1,
+      "question": "What connects the sled to the motorcycle?",
+      "answer_key": "A wire connects the sled to the motorcycle",
+      "required_visual_evidence": [
+        "wire",
+        "connected"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies the mechanical relationship between objects"
+    },
+    {
+      "q_idx": 2,
+      "question": "What color is the sled being pulled?",
+      "answer_key": "The sled is blue",
+      "required_visual_evidence": [
+        "blue sled"
+      ],
+      "importance": "useful",
+      "rationale": "Specific visual detail that aids scene visualization"
+    }
+  ]
+}

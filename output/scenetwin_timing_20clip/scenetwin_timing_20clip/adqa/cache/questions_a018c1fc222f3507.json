@@ -1,0 +1,42 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man wearing, and what is he doing along the fence?",
+      "answer_key": "A man in a green shirt and navy shorts walks back and forth along a fence.",
+      "required_visual_evidence": [
+        "green shirt",
+        "navy shorts",
+        "walks back and forth",
+        "fence"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes main character appearance and primary action."
+    },
+    {
+      "q_idx": 1,
+      "question": "What animal is on the other side of the fence, and how does it respond to the man?",
+      "answer_key": "A small deer mirrors his movements and follows him closely.",
+      "required_visual_evidence": [
+        "small deer",
+        "other side of fence",
+        "mirrors movements",
+        "follows closely"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the animal and its interactive behavior with the man."
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of game or interaction is happening between the man and the deer?",
+      "answer_key": "The man is playfully engaging the deer in a game of follow-the-leader.",
+      "required_visual_evidence": [
+        "playful engagement",
+        "follow-the-leader",
+        "game"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies the nature and intent of their interaction."
+    }
+  ]
+}

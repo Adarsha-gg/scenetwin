@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity is the person performing on the snow-covered surface?",
+      "answer_key": "Skiing down a snowy slope at night",
+      "required_visual_evidence": [
+        "person in dark clothing",
+        "skis on feet",
+        "white snow surface",
+        "nighttime setting with artificial lighting"
+      ],
+      "importance": "critical",
+      "rationale": "Main action in high-need window (0-3s); establishes core activity and setting for entire clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the lighting conditions and time of day for this skiing activity.",
+      "answer_key": "Nighttime skiing with artificial floodlights illuminating the slope",
+      "required_visual_evidence": [
+        "dark sky",
+        "artificial lights visible",
+        "lit snow surface",
+        "shadows cast by lights"
+      ],
+      "importance": "critical",
+      "rationale": "Essential context in high-need window (3-6s); affects how listener understands the environment and safety setup"
+    },
+    {
+      "q_idx": 2,
+      "question": "What markers or boundary indicators are visible on the ski slope?",
+      "answer_key": "Tall poles or gates marking the ski run boundaries",
+      "required_visual_evidence": [
+        "vertical poles on slope",
+        "poles in multiple frames",
+        "spaced along the run"
+      ],
+      "importance": "useful",
+      "rationale": "Visible in high-need window (6-8.9s); helps listener understand slope structure and course layout"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the skier's body position and movement direction as they descend?",
+      "answer_key": "Skier moving downslope with forward-leaning posture, navigating the marked course",
+      "required_visual_evidence": [
+        "person leaning forward",
+        "downward movement across frames",
+        "skis pointing downslope"
+      ],
+      "importance": "critical",
+      "rationale": "Key visual information in high-need window (8.9-11.9s); describes active skiing technique and progression"
+    },
+    {
+      "q_idx": 4,
+      "question": "What structures or buildings are visible in the background of the ski area?",
+      "answer_key": "Dark buildings and structures visible at the edges of the illuminated slope",
+      "required_visual_evidence": [
+        "structures in background",
+        "buildings at slope perimeter",
+        "dark silhouettes"
+      ],
+      "importance": "useful",
+      "rationale": "Provides spatial context in high-need window (11.9-14.9s); helps listener understand the ski facility setting"
+    }
+  ]
+}

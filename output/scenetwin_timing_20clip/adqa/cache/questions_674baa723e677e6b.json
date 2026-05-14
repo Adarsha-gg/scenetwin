@@ -1,0 +1,40 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport are the players practicing, and where does this take place?",
+      "answer_key": "Hockey players practice in an indoor ice rink",
+      "required_visual_evidence": [
+        "hockey",
+        "ice rink",
+        "indoor"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the fundamental setting and sport activity"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe what one player is doing with the puck during the scene.",
+      "answer_key": "One player skates swiftly across the ice, controlling the puck with precision",
+      "required_visual_evidence": [
+        "skating swiftly",
+        "controlling the puck",
+        "precision"
+      ],
+      "importance": "critical",
+      "rationale": "Captures specific player action and skill demonstration"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of drills are the other players engaged in?",
+      "answer_key": "Players pass the puck back and forth in drills",
+      "required_visual_evidence": [
+        "passing the puck",
+        "back and forth",
+        "drills"
+      ],
+      "importance": "useful",
+      "rationale": "Describes team practice activity and coordination"
+    }
+  ]
+}

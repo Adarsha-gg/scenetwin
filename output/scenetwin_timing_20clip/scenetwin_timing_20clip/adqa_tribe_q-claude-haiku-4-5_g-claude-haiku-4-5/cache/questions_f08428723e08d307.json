@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man in the white shirt holding and demonstrating?",
+      "answer_key": "A small mechanical or electronic device, possibly a component or tool",
+      "required_visual_evidence": [
+        "man holding small object in hand",
+        "gesturing toward object",
+        "white shirt"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (0-3s): main action is holding/presenting an object; essential for understanding the clip's purpose"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of setting or environment is the man in?",
+      "answer_key": "A laboratory or technical workspace with equipment, computers, and machinery",
+      "required_visual_evidence": [
+        "aquarium/tank in background",
+        "computer monitors",
+        "industrial equipment on shelves",
+        "workbenches"
+      ],
+      "importance": "critical",
+      "rationale": "High-need window (0-3s): setting context helps blind listener understand the professional/technical nature of the demonstration"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the wooden board or surface shown in the later frames?",
+      "answer_key": "Documents, papers, and sticky notes with yellow and pink highlighting attached to board",
+      "required_visual_evidence": [
+        "wooden board/door",
+        "papers with text",
+        "yellow sticky notes",
+        "pink papers"
+      ],
+      "importance": "useful",
+      "rationale": "High-need window (8.9-14.9s): visual documentation of work or planning; indicates organized project management"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many times does the man's facial expression or gesture change across the frames?",
+      "answer_key": "His expression shifts from neutral/serious to smiling, showing engagement or enthusiasm",
+      "required_visual_evidence": [
+        "neutral expression in first frames",
+        "smile in third frame"
+      ],
+      "importance": "useful",
+      "rationale": "High-need window (0-3s): emotional tone conveys confidence and positive attitude toward the demonstration"
+    },
+    {
+      "q_idx": 4,
+      "question": "What organizational or planning materials are visible in the workspace?",
+      "answer_key": "Multiple printed documents and sticky notes organized on a board, suggesting active project tracking",
+      "required_visual_evidence": [
+        "board with papers",
+        "sticky notes",
+        "organized layout",
+        "multiple documents"
+      ],
+      "importance": "useful",
+      "rationale": "High-need window (11.9-14.9s): visual evidence of systematic work process; helps blind listener understand scope of activity"
+    }
+  ]
+}

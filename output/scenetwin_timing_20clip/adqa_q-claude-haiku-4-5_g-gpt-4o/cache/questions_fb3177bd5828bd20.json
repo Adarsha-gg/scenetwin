@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person wearing on their head and upper body?",
+      "answer_key": "A white protective suit with a large cylindrical pipe or tube covering their head",
+      "required_visual_evidence": [
+        "white protective suit",
+        "cylindrical pipe/tube",
+        "head covering"
+      ],
+      "importance": "critical",
+      "rationale": "Main subject's distinctive appearance across multiple frames"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary activity shown in these video frames?",
+      "answer_key": "A person demonstrating or examining beekeeping equipment outdoors",
+      "required_visual_evidence": [
+        "protective suit",
+        "cylindrical equipment",
+        "outdoor wooded setting"
+      ],
+      "importance": "critical",
+      "rationale": "Central action and context for understanding the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of environment or setting is visible in the background?",
+      "answer_key": "A wooded area with bare and leafy trees on a hillside",
+      "required_visual_evidence": [
+        "trees",
+        "hillside",
+        "outdoor woodland"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes location context for the activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the cylindrical object the person is holding or displaying?",
+      "answer_key": "A large metal pipe or tube, possibly beekeeping equipment",
+      "required_visual_evidence": [
+        "cylindrical metal object",
+        "threaded/ridged surface",
+        "person handling it"
+      ],
+      "importance": "critical",
+      "rationale": "Key object central to the demonstration"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible in these frames?",
+      "answer_key": "Two people: one in protective suit and one in casual clothing nearby",
+      "required_visual_evidence": [
+        "person in white suit",
+        "second person in blue/casual clothes"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies presence of multiple participants in activity"
+    }
+  ]
+}

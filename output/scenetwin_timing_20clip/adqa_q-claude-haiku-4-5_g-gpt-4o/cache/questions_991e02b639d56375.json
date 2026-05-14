@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in these frames?",
+      "answer_key": "A person is falling or tumbling through snow",
+      "required_visual_evidence": [
+        "person in dark clothing",
+        "snow-covered ground",
+        "dynamic falling motion",
+        "multiple sequential positions"
+      ],
+      "importance": "critical",
+      "rationale": "Core action visible across all frames showing movement through snow"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of environment or setting is shown?",
+      "answer_key": "A snowy outdoor location, possibly a slope or mountainside",
+      "required_visual_evidence": [
+        "white snow covering ground",
+        "light blue sky",
+        "steep terrain",
+        "winter conditions"
+      ],
+      "importance": "critical",
+      "rationale": "Setting essential for understanding context of the action"
+    },
+    {
+      "q_idx": 2,
+      "question": "What equipment or objects are visible with the person?",
+      "answer_key": "A blue ski pole or similar winter sports equipment",
+      "required_visual_evidence": [
+        "bright blue object",
+        "held or near person",
+        "winter sports context"
+      ],
+      "importance": "useful",
+      "rationale": "Key object suggesting skiing or snowsports activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are visible in these frames?",
+      "answer_key": "One person in dark clothing",
+      "required_visual_evidence": [
+        "single dark figure",
+        "consistent throughout frames"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies whether this is solo or group activity"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the weather condition visible in the frames?",
+      "answer_key": "Snowy and overcast with light blue-gray sky",
+      "required_visual_evidence": [
+        "snow coverage",
+        "overcast sky",
+        "winter conditions",
+        "low visibility"
+      ],
+      "importance": "useful",
+      "rationale": "Weather context important for understanding hazard level"
+    }
+  ]
+}
