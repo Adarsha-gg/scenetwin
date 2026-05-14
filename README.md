@@ -36,10 +36,21 @@ curl -X POST http://127.0.0.1:8000/api/audit \
   -d '{"url":"https://www.youtube.com/watch?v=avz06PDqDbM","run_tribe":false}'
 ```
 
+## Run The JavaScript Frontend
+
+The current frontend lives in `web/` and uses the FastAPI backend at `http://127.0.0.1:8000`.
+
+```bash
+python3 -m http.server 5174
+```
+
+Open `http://localhost:5174/web/`.
+
 ## Key Files
 
 - `demo/scenetwin_demo.py` - Gradio app.
 - `api/server.py` - FastAPI backend for a JS frontend.
+- `web/` - JavaScript frontend shell and live audit UI.
 - `demo/live_pipeline.py` - fault-tolerant live pipeline stages.
 - `demo/live_presets.py` - shared Live YouTube demo presets.
 - `tools/scenetwin_queryd_gemini_eval.py` - QuerYD video-native Gemini evaluation.

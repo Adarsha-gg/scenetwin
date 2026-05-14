@@ -1,0 +1,246 @@
+// SceneTwin live audit page
+
+const API_BASE = window.SCENETWIN_API || 'http://127.0.0.1:8000';
+
+function absoluteMediaUrl(path) {
+  if (!path) return '';
+  if (/^https?:\/\//.test(path)) return path;
+  return `${API_BASE}${path}`;
+}
+
+function stageLabel(name) {
+  const labels = {
+    download: 'Download',
+    frames: 'Frames',
+    ad_generation: 'AD',
+    clip: 'CLIP',
+    adqa: 'ADQA',
+    tribe: 'TRIBE',
+  };
+  return labels[name] || name;
+}
+
+function verdictFor(result) {
+  if (!result?.ok) return { label: 'Needs attention', color: 'var(--bad)' };
+  const clip = result.clip?.top3 || 0;
+  const adqa = result.adqa?.score || 0;
+  if (adqa >= 1 && clip >= 0.3) return { label: 'Strong visual match', color: 'var(--good)' };
+  if (adqa >= 0.67) return { label: 'Mostly covered', color: 'var(--warn)' };
+  return { label: 'Likely misses visual content', color: 'var(--bad)' };
+}
+
+function AuditPage() {
+  const [presets, setPresets] = useState([]);
+  const [url, setUrl] = useState('https://www.youtube.com/watch?v=avz06PDqDbM');
+  const [ad, setAd] = useState('');
+  const [running, setRunning] = useState(false);
+  const [phase, setPhase] = useState(0);
+  const [error, setError] = useState('');
+  const [result, setResult] = useState(null);
+
+  useEffect(() => {
+    fetch(`${API_BASE}/api/presets`)
+      .then(r => r.json())
+      .then(items => {
+        setPresets(items);
+        if (items?.[0]?.url) setUrl(items[0].url);
+      })
+      .catch(() => setError('API is not reachable on port 8000.'));
+  }, []);
+
+  useEffect(() => {
+    if (!running) return undefined;
+    const id = setInterval(() => setPhase(p => Math.min(p + 1, 4)), 1800);
+    return () => clearInterval(id);
+  }, [running]);
+
+  async function runAudit() {
+    setRunning(true);
+    setError('');
+    setResult(null);
+    setPhase(0);
+    try {
+      const response = await fetch(`${API_BASE}/api/audit`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          url,
+          candidate_ad: ad.trim() || null,
+          run_tribe: false,
+          max_seconds: 30,
+          frame_count: 8,
+        }),
+      });
+      const json = await response.json();
+      if (!response.ok || !json.ok) throw new Error(json.error || `Audit failed (${response.status})`);
+      setResult(json);
+    } catch (e) {
+      setError(e.message || String(e));
+    } finally {
+      setRunning(false);
+      setPhase(5);
+    }
+  }
+
+  const verdict = verdictFor(result);
+  const previewStages = ['Download', 'Sample frames', 'Generate AD', 'CLIP', 'ADQA'];
+
+  return (
+    <main className="page" style={{ paddingTop: 28 }}>
+      <section style={{
+        display: 'grid',
+        gridTemplateColumns: 'minmax(360px, 420px) minmax(0, 1fr)',
+        gap: 24,
+        alignItems: 'start',
+      }}>
+        <aside className="card" style={{ padding: 18, position: 'sticky', top: 72 }}>
+          <div className="row justify-between items-center">
+            <div>
+              <div className="eyebrow accent">Live YouTube</div>
+              <h1 style={{ margin: '8px 0 0', fontSize: 30, fontWeight: 500, letterSpacing: 0 }}>Audit a clip</h1>
+            </div>
+            <Tag color="var(--good)">FastAPI</Tag>
+          </div>
+
+          <div className="col gap-12" style={{ marginTop: 22 }}>
+            <label className="col gap-6">
+              <span className="eyebrow">YouTube URL</span>
+              <input
+                value={url}
+                onChange={e => setUrl(e.target.value)}
+                className="mono"
+                style={{
+                  height: 42,
+                  padding: '0 12px',
+                  background: 'var(--panel-2)',
+                  border: '1px solid var(--border-strong)',
+                  outline: 'none',
+                  fontSize: 12,
+                }}
+              />
+            </label>
+
+            <div className="col gap-8">
+              <div className="eyebrow">Tested presets</div>
+              <div className="col gap-6">
+                {presets.slice(0, 5).map((p, idx) => (
+                  <button
+                    key={p.url}
+                    className="btn"
+                    style={{ justifyContent: 'space-between', height: 34 }}
+                    onClick={() => setUrl(p.url)}
+                  >
+                    <span style={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{p.label.split(' - ')[0]}</span>
+                    <span className="mono" style={{ color: 'var(--fg-muted)' }}>{idx === 4 ? '55s' : 't=0'}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <label className="col gap-6">
+              <span className="eyebrow">Candidate AD</span>
+              <textarea
+                value={ad}
+                onChange={e => setAd(e.target.value)}
+                placeholder="Leave blank to generate one."
+                rows={6}
+                style={{
+                  resize: 'vertical',
+                  padding: 12,
+                  background: 'var(--panel-2)',
+                  border: '1px solid var(--border-strong)',
+                  outline: 'none',
+                  lineHeight: 1.45,
+                }}
+              />
+            </label>
+
+            <button className="btn primary lg" onClick={runAudit} disabled={running} style={{ justifyContent: 'center', opacity: running ? 0.75 : 1 }}>
+              {running ? 'Running audit' : 'Run audit'}
+            </button>
+
+            {error && <div className="card card-pad" style={{ borderColor: 'var(--bad)', color: 'var(--bad)' }}>{error}</div>}
+          </div>
+        </aside>
+
+        <section className="col gap-16">
+          <div className="card" style={{ padding: 18 }}>
+            <div className="row justify-between items-center">
+              <div>
+                <div className="eyebrow">Pipeline</div>
+                <div style={{ fontSize: 18, fontWeight: 600, marginTop: 4 }}>{result ? verdict.label : running ? previewStages[phase] || 'Scoring' : 'Ready'}</div>
+              </div>
+              <div className="mono" style={{ color: result ? verdict.color : 'var(--fg-muted)' }}>
+                {result ? `CLIP ${result.clip.top3.toFixed(3)} / ADQA ${Math.round(result.adqa.score * 3)}/3` : '30s / 8 frames'}
+              </div>
+            </div>
+            <div className="row gap-8 wrap" style={{ marginTop: 16 }}>
+              {(result?.stages || previewStages.map((s, i) => ({ name: s, ok: !running || i <= phase, message: running && i === phase ? 'running' : '' }))).map((s, idx) => (
+                <div key={`${s.name}-${idx}`} className="card" style={{
+                  padding: '10px 12px',
+                  minWidth: 118,
+                  borderColor: s.ok ? (result ? 'var(--good)' : 'var(--border)') : 'var(--bad)',
+                }}>
+                  <div className="eyebrow">{stageLabel(s.name)}</div>
+                  <div className="mono" style={{ marginTop: 5, fontSize: 11, color: s.ok ? 'var(--good)' : 'var(--bad)' }}>{s.ok ? 'ok' : 'failed'}</div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="card" style={{ padding: 18 }}>
+            {result?.video ? (
+              <video src={absoluteMediaUrl(result.video.url)} controls style={{ width: '100%', display: 'block', border: '1px solid var(--border)' }} />
+            ) : (
+              <VideoFrame width="100%" height={9} seed={72} label="clip preview" active />
+            )}
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 12 }}>
+            <div className="card card-pad"><Stat label="CLIP top3" value={result?.clip ? result.clip.top3.toFixed(3) : '—'} /></div>
+            <div className="card card-pad"><Stat label="ADQA" value={result?.adqa ? `${Math.round(result.adqa.score * 3)}/3` : '—'} /></div>
+            <div className="card card-pad"><Stat label="Frames" value={result?.frames?.length || '—'} /></div>
+          </div>
+
+          <div className="card card-pad">
+            <SectionHead eyebrow="Audio description" title="Candidate text" sub={null} />
+            <p style={{ margin: 0, color: result?.ad ? 'var(--fg)' : 'var(--fg-muted)', lineHeight: 1.6 }}>
+              {result?.ad || 'Run a clip to see the generated or supplied description.'}
+            </p>
+          </div>
+
+          <div className="card card-pad">
+            <SectionHead eyebrow="Sampled frames" title="Visual evidence" sub={null} />
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 10 }}>
+              {result?.frames?.length ? result.frames.map((f, i) => (
+                <div key={f.url} style={{ position: 'relative', border: '1px solid var(--border)', background: 'var(--panel-2)' }}>
+                  <img src={absoluteMediaUrl(f.url)} style={{ width: '100%', display: 'block', aspectRatio: '16 / 9', objectFit: 'cover' }} />
+                  <div className="mono" style={{ position: 'absolute', left: 6, bottom: 6, fontSize: 10, background: 'var(--panel)', border: '1px solid var(--border)', padding: '1px 5px' }}>f{i + 1}</div>
+                </div>
+              )) : Array.from({ length: 8 }).map((_, i) => <VideoFrame key={i} width="100%" height={9} seed={80 + i} label={`f${i + 1}`} />)}
+            </div>
+          </div>
+
+          <div className="card card-pad">
+            <SectionHead eyebrow="ADQA" title="Question-level grade" sub={null} />
+            <div className="col gap-10">
+              {(result?.adqa?.graded || []).map((g, i) => (
+                <div key={i} className="card" style={{ padding: 14, borderLeft: `3px solid ${g.score ? 'var(--good)' : 'var(--bad)'}` }}>
+                  <div className="row justify-between gap-12">
+                    <strong>{g.question}</strong>
+                    <Tag color={g.score ? 'var(--good)' : 'var(--bad)'}>{g.score ? 'YES' : 'NO'}</Tag>
+                  </div>
+                  <div style={{ marginTop: 8, color: 'var(--fg-muted)', lineHeight: 1.5 }}>{g.rationale}</div>
+                </div>
+              ))}
+              {!result?.adqa?.graded?.length && <div style={{ color: 'var(--fg-muted)' }}>No grades yet.</div>}
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+  );
+}
+
+Object.assign(window, { AuditPage });
+
