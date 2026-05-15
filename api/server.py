@@ -192,6 +192,17 @@ def _read_csv_records(path: Path) -> list[dict[str, Any]]:
         return []
 
 
+def _web_rel(path: Path) -> str:
+    return f"../{path.relative_to(ROOT).as_posix()}"
+
+
+def _first_existing(paths: list[Path]) -> Optional[Path]:
+    for p in paths:
+        if p.exists():
+            return p
+    return None
+
+
 @app.get("/health")
 def health() -> dict[str, Any]:
     return {
@@ -323,6 +334,110 @@ def tribe_risk() -> dict[str, Any]:
         "clips": clips,
         "correlations": correlations[:8],
         "headline_correlation": headline_corr,
+    }
+
+
+@app.get("/api/cached-clips")
+def cached_clips() -> dict[str, Any]:
+    base = ROOT / "output" / "scenetwin_timing_20clip"
+    forecast_rows = _read_csv_records(base / "tribe_native" / "tribe_failure_forecast.csv")
+    score_rows = _read_csv_records(base / "ensemble" / "adqa_clip_ensemble_scores.csv")
+    question_rows = _read_csv_records(base / "adqa_v2" / "adqa_v2_questions.csv")
+    grade_rows = _read_csv_records(base / "adqa_v2" / "adqa_v2_grades.csv")
+
+    scores: dict[tuple[int, str], dict[str, Any]] = {}
+    for r in score_rows:
+        cidx = int(r.get("clip_idx") or 0)
+        tier = str(r.get("tier") or "")
+        scores[(cidx, tier)] = r
+
+    questions: dict[tuple[int, int], dict[str, Any]] = {}
+    for r in question_rows:
+        cidx = int(r.get("clip_idx") or 0)
+        qidx = int(r.get("q_idx") or 0)
+        questions[(cidx, qidx)] = r
+
+    grades: dict[tuple[int, str], list[dict[str, Any]]] = {}
+    for r in grade_rows:
+        cidx = int(r.get("clip_idx") or 0)
+        tier = str(r.get("tier") or "")
+        qidx = int(r.get("q_idx") or 0)
+        q = questions.get((cidx, qidx), {})
+        grades.setdefault((cidx, tier), []).append({
+            "q_idx": qidx,
+            "question": q.get("question") or "",
+            "answer_key": q.get("answer_key") or "",
+            "required_visual_evidence": q.get("required_visual_evidence") or "",
+            "importance": q.get("importance") or "",
+            "score": float(r.get("score") or 0),
+            "label": r.get("label") or "",
+            "evidence_quote": r.get("evidence_quote") or "",
+            "grade_rationale": r.get("grade_rationale") or "",
+        })
+
+    tier_defs = [
+        ("tier0_cross", "Cross-video negative", "Wrong clip AD, used as a hard negative."),
+        ("tier1_vatex_short", "VATEX short", "Short caption-style candidate."),
+        ("tier2_vatex_long", "VATEX long", "Longer caption-style candidate."),
+        ("tier3_va11y", "Professional AD", "Human/pro-style AD candidate."),
+    ]
+
+    clips = []
+    for r in sorted(forecast_rows, key=lambda x: int(x.get("clip_idx") or 0)):
+        cidx = int(r.get("clip_idx") or 0)
+        frame_dir = base / "adqa_v2" / "frames" / f"clip_{cidx:02d}"
+        frame_paths = sorted(
+            frame_dir.glob("*.jpg"),
+            key=lambda p: (p.name.split("_t")[-1], p.name),
+        )
+        # Keep the gallery compact while preserving temporal coverage.
+        frames = [{"url": _web_rel(p), "name": p.name} for p in frame_paths[:12]]
+        video = _first_existing([
+            base / "adqa_v2" / "videos" / f"clip_{cidx:02d}.mp4",
+            base / "adqa_v2" / "videos" / f"clip_{cidx:02d}.mkv",
+        ])
+
+        texts = {
+            "tier0_cross": r.get("tier0_cross_text") or "",
+            "tier1_vatex_short": r.get("tier1_vatex_short_text") or "",
+            "tier2_vatex_long": r.get("tier2_vatex_long_text") or "",
+            "tier3_va11y": r.get("tier3_va11y_text") or "",
+        }
+        candidates = []
+        for tier, label, kind in tier_defs:
+            s = scores.get((cidx, tier), {})
+            candidates.append({
+                "tier": tier,
+                "label": label,
+                "kind": kind,
+                "gt": int(s.get("gt") if s.get("gt") is not None else {"tier0_cross": 0, "tier1_vatex_short": 1, "tier2_vatex_long": 2, "tier3_va11y": 3}[tier]),
+                "text": texts[tier],
+                "word_count": len(str(texts[tier]).split()),
+                "clip_top3": float(s.get("clip_top3") or 0),
+                "clip_mean": float(s.get("clip_mean") or 0),
+                "adqa_score": float(s.get("adqa_v2_score") or 0),
+                "adqa_yes_rate": float(s.get("adqa_v2_yes_rate") or 0),
+                "ensemble": float(s.get("ensemble_mean_clip_top3") or 0),
+                "grades": sorted(grades.get((cidx, tier), []), key=lambda g: int(g["q_idx"])),
+            })
+
+        clips.append({
+            "clip_idx": cidx,
+            "video_id": r.get("video_id"),
+            "category": r.get("category"),
+            "duration_s": float(r.get("duration_s") or 0),
+            "risk_rank": int(r.get("risk_rank") or 0),
+            "risk_score": float(r.get("risk_score") or 0),
+            "quality_risk": r.get("quality_risk") or "",
+            "video_url": _web_rel(video) if video else "",
+            "frames": frames,
+            "candidates": candidates,
+        })
+
+    return {
+        "n": len(clips),
+        "tier_order": [t[0] for t in tier_defs],
+        "clips": clips,
     }
 
 

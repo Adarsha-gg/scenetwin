@@ -17,6 +17,7 @@ function TopBar({ page, setPage }) {
   const links = [
     { id: 'hero', label: 'Overview' },
     { id: 'audit', label: 'Live audit' },
+    { id: 'cached', label: 'Cached clips' },
     { id: 'benchmark', label: 'Benchmark' },
     { id: 'tribe', label: 'TRIBE risk' },
     { id: 'compare', label: 'Compare' },
