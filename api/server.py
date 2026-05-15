@@ -221,14 +221,58 @@ def presets() -> list[Preset]:
 @app.get("/api/tribe-risk")
 def tribe_risk() -> dict[str, Any]:
     tribe_dir = ROOT / "output" / "scenetwin_timing_20clip" / "tribe_native"
+    need_dir = ROOT / "output" / "scenetwin_timing_20clip" / "need"
+    roi_path = ROOT / "output" / "scenetwin_timing_20clip" / "tribe_only_per_roi.csv"
+
     rows = _read_csv_records(tribe_dir / "tribe_failure_forecast.csv")
     summary = _read_csv_records(tribe_dir / "tribe_failure_forecast_summary.csv")
     correlations = _read_csv_records(tribe_dir / "tribe_native_correlations.csv")
+    need_curve_rows = _read_csv_records(need_dir / "neural_description_need_curve.csv")
+    coarse_rows = _read_csv_records(need_dir / "coarse_need_windows.csv")
+    roi_rows = _read_csv_records(roi_path)
+
+    need_by_clip: dict[int, list[dict[str, Any]]] = {}
+    for r in need_curve_rows:
+        cidx = int(r.get("clip_idx") or 0)
+        need_by_clip.setdefault(cidx, []).append({
+            "t": float(r.get("t") or 0),
+            "start_s": float(r.get("start_s") or 0),
+            "end_s": float(r.get("end_s") or 0),
+            "need_score": float(r.get("need_score") or 0),
+            "speech_density": float(r.get("speech_density") or 0),
+        })
+
+    coarse_by_clip: dict[int, list[dict[str, Any]]] = {}
+    for r in coarse_rows:
+        cidx = int(r.get("clip_idx") or 0)
+        coarse_by_clip.setdefault(cidx, []).append({
+            "start_s": float(r.get("start_s") or 0),
+            "end_s": float(r.get("end_s") or 0),
+            "need_score": float(r.get("need_score") or 0),
+            "speech_density": float(r.get("speech_density") or 0),
+            "recommendation": r.get("recommendation") or "low_ad_need",
+        })
+
+    roi_by_clip: dict[int, list[dict[str, Any]]] = {}
+    for r in roi_rows:
+        cidx = int(r.get("clip_idx") or 0)
+        roi_by_clip.setdefault(cidx, []).append({
+            "roi": r.get("roi") or "",
+            "cos_gap": float(r.get("av_a_gap_cos") or 0),
+            "residual_norm": float(r.get("av_a_residual_norm_per_t") or 0),
+            "n_vertices": int(r.get("n_vertices") or 0),
+        })
 
     clips = []
     for r in sorted(rows, key=lambda x: int(x.get("risk_rank") or 999)):
+        cidx = int(r.get("clip_idx") or 0)
+        speech_density = r.get("mean_speech_density")
+        try:
+            speech_density = float(speech_density) if speech_density is not None else None
+        except Exception:
+            speech_density = None
         clips.append({
-            "clip_idx": int(r.get("clip_idx") or 0),
+            "clip_idx": cidx,
             "video_id": r.get("video_id"),
             "category": r.get("category"),
             "risk_rank": int(r.get("risk_rank") or 0),
@@ -240,16 +284,34 @@ def tribe_risk() -> dict[str, Any]:
             "max_need": float(r.get("max_need") or 0),
             "high_need_seconds_frac": float(r.get("high_need_seconds_frac") or 0),
             "tribe_pressure": float(r.get("tribe_pressure") or 0),
+            "mean_speech_density": speech_density,
             "tier3_margin": float(r.get("all4_mean_tier3_margin") or 0),
             "tier2_vs_tier1": float(r.get("all4_mean_tier2_vs_tier1") or 0),
             "pro_ad_words": int(r.get("tier3_va11y_words") or 0),
             "pro_ad_text": r.get("tier3_va11y_text"),
             "short_text": r.get("tier1_vatex_short_text"),
             "long_text": r.get("tier2_vatex_long_text"),
-            "brain_map_url": f"../output/charts/tribe_clip_brains/clip_{int(r.get('clip_idx') or 0):02d}_tribe_gap.png",
+            "brain_map_url": f"../output/charts/tribe_clip_brains/clip_{cidx:02d}_tribe_gap.png",
+            "need_curve": need_by_clip.get(cidx, []),
+            "coarse_windows": coarse_by_clip.get(cidx, []),
+            "per_roi": roi_by_clip.get(cidx, []),
         })
 
     top_summary = summary[0] if summary else {}
+
+    headline_corr = None
+    for c in correlations:
+        if (c.get("tribe_feature") == "mean_standard_slot_score"
+                and c.get("outcome") == "all4_mean_full_order"):
+            headline_corr = {
+                "feature": c.get("tribe_feature"),
+                "outcome": c.get("outcome"),
+                "rho": float(c.get("spearman_rho") or 0),
+                "p": float(c.get("p") or 1),
+                "n": int(c.get("n") or 0),
+            }
+            break
+
     return {
         "n": len(clips),
         "positives": int(top_summary.get("positives") or 2),
@@ -260,6 +322,7 @@ def tribe_risk() -> dict[str, Any]:
         "best_feature_direction": top_summary.get("direction") or "high",
         "clips": clips,
         "correlations": correlations[:8],
+        "headline_correlation": headline_corr,
     }
 
 

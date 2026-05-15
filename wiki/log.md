@@ -1,5 +1,22 @@
 # SceneTwin Log
 
+## [2026-05-14] web | TRIBE page expanded with five new signals
+
+Added all five planned TRIBE additions to `web/pages/tribe.jsx` and
+`api/server.py` `/api/tribe-risk`. (1) Headline correlation surfaced as a
+fifth stat card and callout: TRIBE `mean_standard_slot_score` predicts
+4-judge ADQA full-order agreement at rho = -0.751, p = 0.0003 on n=18
+from video/audio alone, before any AD is written. (2) Per-ROI cortical
+accessibility gap chart on Glasser HCP-MMP1.0 atlas (retrosplenial 0.96,
+scene PPA 0.79, V1 0.25 on clip 00) for the two clips with full TRIBE
+tensors; honest fallback message for the rest. (3) Inline SVG AD-need
+curve over time per clip with 3s coarse-window bands underneath
+(extended / standard / inspect / low) for all 20 clips. (4) Colored TRIBE
+route badge in sidebar (extended AD / standard AD / low pressure). (5)
+Speech density chip (silent / talky / mixed) in sidebar and as a fifth
+selected-clip stat. Wiring plan in
+[`output/reports/tribe-demo-additions.md`](../output/reports/tribe-demo-additions.md).
+
 ## [2026-05-14] web demo | TRIBE risk and comparison tabs
 
 Added the FastAPI `/api/tribe-risk` endpoint and wired it into the JavaScript frontend.

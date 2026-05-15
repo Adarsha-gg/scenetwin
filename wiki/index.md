@@ -1,6 +1,10 @@
 # SceneTwin Wiki Index
 _Last updated: 2026-05-13, migrated from Knowledge_
 
+## Reference
+- [TRIBE metric glossary](../output/reports/tribe-metric-glossary.md) — plain English of every number on the TRIBE page: rho sign, route badge, speech chip, need timeline, per-ROI gap
+- [TRIBE demo additions plan](../output/reports/tribe-demo-additions.md) — the five TRIBE signals wired into the web page on 2026-05-14
+
 ## Research
 - [[research/scenetwin-queryd-video-native-eval]] — Gemini video-native ADQA on real human QuerYD AD transcript windows: ADQA rho=0.865, CLIP+ADQA rho=0.932 on n=5
 - [[research/scenetwin-frame-sampling-temporal-blindspot]] — live demo on held out VATEX beer pour clip: auto AD beat pro AD because frame sampling rewards static composition over temporal action
