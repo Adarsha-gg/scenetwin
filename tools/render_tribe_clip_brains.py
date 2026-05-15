@@ -42,7 +42,24 @@ def robust_max(values: np.ndarray, pct: float = 98.0) -> float:
     return max(val, 1e-6)
 
 
-def plot_hemi_pair(fig, axes, fs, brain: np.ndarray, *, title: str, cmap: str, vmin: float, vmax: float) -> None:
+def hot_overlay_limits(values: np.ndarray, threshold_pct: float = 72.0) -> tuple[float, float]:
+    """Return threshold/vmax for poster-style gray cortex with hot overlay."""
+    finite = values[np.isfinite(values)]
+    if finite.size == 0:
+        return 0.0, 1.0
+    threshold = float(np.percentile(finite, threshold_pct))
+    vmax = float(np.percentile(finite, 98.5))
+    if vmax <= threshold:
+        vmax = threshold + 1e-6
+    return threshold, vmax
+
+
+def positive_response(values: np.ndarray) -> np.ndarray:
+    """Render positive predicted response intensity, not signed model residuals."""
+    return np.maximum(values, 0)
+
+
+def plot_hemi_pair(fig, axes, fs, brain: np.ndarray, *, title: str, threshold: float, vmax: float) -> None:
     left = brain[:N_VERTS]
     right = brain[N_VERTS:]
     plot_surf_stat_map(
@@ -52,9 +69,11 @@ def plot_hemi_pair(fig, axes, fs, brain: np.ndarray, *, title: str, cmap: str, v
         view=(0, 180),
         colorbar=False,
         bg_on_data=True,
-        cmap=cmap,
-        vmin=vmin,
+        cmap="hot",
+        threshold=threshold,
+        vmin=threshold,
         vmax=vmax,
+        darkness=None,
     )
     plot_surf_stat_map(
         fs["inflated"].parts["right"],
@@ -63,15 +82,17 @@ def plot_hemi_pair(fig, axes, fs, brain: np.ndarray, *, title: str, cmap: str, v
         view=(0, 0),
         colorbar=False,
         bg_on_data=True,
-        cmap=cmap,
-        vmin=vmin,
+        cmap="hot",
+        threshold=threshold,
+        vmin=threshold,
         vmax=vmax,
+        darkness=None,
     )
     for ax in axes:
         ax.set_axis_off()
         ax.set_box_aspect(None, zoom=1.38)
     x0 = (axes[0].get_position().x0 + axes[1].get_position().x1) / 2
-    fig.text(x0, 0.88, title, ha="center", va="center", fontsize=11, fontweight="bold")
+    fig.text(x0, 0.82, title, ha="center", va="center", fontsize=11, fontweight="bold")
 
 
 def render_clip(row: pd.Series, fs) -> Path:
@@ -81,12 +102,12 @@ def render_clip(row: pd.Series, fs) -> Path:
     if not av_path.exists() or not a_path.exists():
         raise FileNotFoundError(f"Missing TRIBE preds for clip_{clip_idx:02d}")
 
-    av = brain_mean(av_path)
-    audio = brain_mean(a_path)
+    av = positive_response(brain_mean(av_path))
+    audio = positive_response(brain_mean(a_path))
     gap = np.abs(av - audio)
 
-    response_max = robust_max(np.concatenate([av, audio]))
-    gap_max = robust_max(gap)
+    response_threshold, response_max = hot_overlay_limits(np.concatenate([av, audio]))
+    gap_threshold, gap_max = hot_overlay_limits(gap)
 
     fig, axes = plt.subplots(
         1,
@@ -116,13 +137,28 @@ def render_clip(row: pd.Series, fs) -> Path:
         color="#57606a",
     )
 
-    plot_hemi_pair(fig, axes[0:2], fs, av, title="Audiovisual viewing  P_AV", cmap="hot", vmin=0, vmax=response_max)
-    plot_hemi_pair(fig, axes[2:4], fs, audio, title="Audio only  P_A", cmap="hot", vmin=0, vmax=response_max)
-    plot_hemi_pair(fig, axes[4:6], fs, gap, title="Accessibility gap", cmap="inferno", vmin=0, vmax=gap_max)
+    plot_hemi_pair(
+        fig, axes[0:2], fs, av,
+        title="Audiovisual viewing  P_AV",
+        threshold=response_threshold,
+        vmax=response_max,
+    )
+    plot_hemi_pair(
+        fig, axes[2:4], fs, audio,
+        title="Audio only  P_A",
+        threshold=response_threshold,
+        vmax=response_max,
+    )
+    plot_hemi_pair(
+        fig, axes[4:6], fs, gap,
+        title="Accessibility gap",
+        threshold=gap_threshold,
+        vmax=gap_max,
+    )
 
     fig.text(0.18, 0.045, "visual + audio predicted cortex", ha="center", fontsize=9, style="italic", color="#6e7781")
     fig.text(0.50, 0.045, "soundtrack-only predicted cortex", ha="center", fontsize=9, style="italic", color="#6e7781")
-    fig.text(0.82, 0.045, "visual information not recoverable from audio alone", ha="center", fontsize=9, style="italic", color="#6e7781")
+    fig.text(0.82, 0.045, "yellow/red = strongest visual-only need", ha="center", fontsize=9, style="italic", color="#6e7781")
 
     OUT.mkdir(parents=True, exist_ok=True)
     out = OUT / f"clip_{clip_idx:02d}_tribe_gap.png"
