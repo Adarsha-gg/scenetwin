@@ -6,7 +6,7 @@ const APP_DEFAULTS = /*EDITMODE-BEGIN*/{
 }/*EDITMODE-END*/;
 
 function App() {
-  const [page, setPage] = useState('audit');
+  const [page, setPage] = useState('hero');
   const [tweaks, setTweak] = useTweaks(APP_DEFAULTS);
 
   // Apply theme + accent globally

@@ -2,6 +2,16 @@
 
 ## What Changed
 
+- Current status as of the latest JS demo pass:
+  - GitHub repo is live at `https://github.com/Adarsha-gg/scenetwin`.
+  - Backend FastAPI is running at `http://127.0.0.1:8000`.
+  - Frontend is running at `http://localhost:5174/web/`.
+  - Default frontend page is now the polished Overview preview, not the audit form.
+  - Live Audit keeps the run button at the top; preset clicks only select and preview clips.
+  - Added Benchmark, TRIBE Risk, and Compare tabs to explain the poster result and why this is not just a generic VLM grader.
+  - Added `/api/tribe-risk`, backed by the cached 18-clip TRIBE failure forecast.
+  - TRIBE Risk shows the brain imagery, recall@2 = 100%, p = 0.0065, the 18-clip risk ranking, and selected-clip details.
+  - Compare explains SceneTwin's blind/low-vision value: missing visual evidence, no reference AD requirement for live clips, CLIP grounding, frame-grounded ADQA, and TRIBE risk routing.
 - Added repo hygiene files:
   - `.gitignore`
   - `.env.example`
@@ -57,23 +67,6 @@ http://127.0.0.1:7860
 
 ## GitHub Push Status
 
-- The local directory is still not initialized as a git repo.
-- GitHub repo creation/push was not completed before interruption.
-- Secrets are protected by `.gitignore`; `.env` should not be committed.
-- Recommended next commands:
-
-```bash
-git init
-git branch -M main
-git add .
-git commit -m "Initial SceneTwin demo and evaluation workspace"
-gh repo create scenetwin --public --source=. --remote=origin
-git push -u origin main
-```
-
-Before running `git add .`, confirm `.env` is ignored:
-
-```bash
-git check-ignore -v .env
-```
-
+- Repo is initialized and pushed to `https://github.com/Adarsha-gg/scenetwin`.
+- Latest pushed feature commit before this note: `4ee57ec Add TRIBE risk and comparison tabs`.
+- Secrets are protected by `.gitignore`; `.env` is not committed.

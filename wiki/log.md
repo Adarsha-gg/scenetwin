@@ -1,5 +1,15 @@
 # SceneTwin Log
 
+## [2026-05-14] web demo | TRIBE risk and comparison tabs
+
+Added the FastAPI `/api/tribe-risk` endpoint and wired it into the JavaScript frontend.
+The TRIBE tab now shows the cached 18-clip neural risk forecast, brain imagery, recall@2
+= 100%, p = 0.0065, and clickable risk-ranked clips. Added a Compare tab to explain why
+SceneTwin is not just a VLM grader: CLIP grounds the AD in visual evidence, ADQA checks
+whether blind/low-vision viewers receive needed scene facts, and TRIBE routes likely
+comprehension failures to human review. The web demo now opens on the Overview preview,
+with Live Audit, Benchmark, TRIBE Risk, and Compare available from the top nav.
+
 ## [2026-05-13] demo | t=0 high-motion trailer sweep
 
 Reran high-motion trailer candidates from the actual start of each YouTube video, because
