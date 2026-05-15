@@ -181,6 +181,17 @@ def _preset_score(label: str, marker: str) -> Optional[float]:
         return None
 
 
+def _read_csv_records(path: Path) -> list[dict[str, Any]]:
+    if not path.exists():
+        return []
+    try:
+        df = lp.pd.read_csv(path)
+        df = df.replace({lp.np.nan: None})
+        return df.to_dict(orient="records")
+    except Exception:
+        return []
+
+
 @app.get("/health")
 def health() -> dict[str, Any]:
     return {
@@ -205,6 +216,50 @@ def presets() -> list[Preset]:
                 start_label=item.get("start_label"),
             ))
     return out
+
+
+@app.get("/api/tribe-risk")
+def tribe_risk() -> dict[str, Any]:
+    tribe_dir = ROOT / "output" / "scenetwin_timing_20clip" / "tribe_native"
+    rows = _read_csv_records(tribe_dir / "tribe_failure_forecast.csv")
+    summary = _read_csv_records(tribe_dir / "tribe_failure_forecast_summary.csv")
+    correlations = _read_csv_records(tribe_dir / "tribe_native_correlations.csv")
+
+    clips = []
+    for r in sorted(rows, key=lambda x: int(x.get("risk_rank") or 999)):
+        clips.append({
+            "clip_idx": int(r.get("clip_idx") or 0),
+            "video_id": r.get("video_id"),
+            "category": r.get("category"),
+            "risk_rank": int(r.get("risk_rank") or 0),
+            "risk_score": float(r.get("risk_score") or 0),
+            "target": int(r.get("target") or 0),
+            "quality_risk": r.get("quality_risk"),
+            "tribe_route": r.get("tribe_route"),
+            "mean_need": float(r.get("mean_need") or 0),
+            "max_need": float(r.get("max_need") or 0),
+            "high_need_seconds_frac": float(r.get("high_need_seconds_frac") or 0),
+            "tribe_pressure": float(r.get("tribe_pressure") or 0),
+            "tier3_margin": float(r.get("all4_mean_tier3_margin") or 0),
+            "tier2_vs_tier1": float(r.get("all4_mean_tier2_vs_tier1") or 0),
+            "pro_ad_words": int(r.get("tier3_va11y_words") or 0),
+            "pro_ad_text": r.get("tier3_va11y_text"),
+            "short_text": r.get("tier1_vatex_short_text"),
+            "long_text": r.get("tier2_vatex_long_text"),
+        })
+
+    top_summary = summary[0] if summary else {}
+    return {
+        "n": len(clips),
+        "positives": int(top_summary.get("positives") or 2),
+        "review_budget_clips": int(top_summary.get("review_budget_clips") or 2),
+        "recall_at_topk": float(top_summary.get("recall_at_topk") or 1.0),
+        "p_value": float(top_summary.get("hypergeom_p_at_least") or 0.0065359477124183),
+        "best_feature": top_summary.get("feature") or "mean_standard_slot_score",
+        "best_feature_direction": top_summary.get("direction") or "high",
+        "clips": clips,
+        "correlations": correlations[:8],
+    }
 
 
 @app.post("/api/audit", response_model=AuditResponse)

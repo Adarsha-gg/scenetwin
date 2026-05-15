@@ -18,8 +18,8 @@ function TopBar({ page, setPage }) {
     { id: 'hero', label: 'Overview' },
     { id: 'audit', label: 'Live audit' },
     { id: 'benchmark', label: 'Benchmark' },
-    { id: 'tribe', label: 'TRIBE risk', disabled: true },
-    { id: 'compare', label: 'Compare', disabled: true },
+    { id: 'tribe', label: 'TRIBE risk' },
+    { id: 'compare', label: 'Compare' },
   ];
   return (
     <header className="topbar">

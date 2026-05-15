@@ -24,6 +24,8 @@ function App() {
   let content;
   if (page === 'audit') content = <AuditPage />;
   else if (page === 'benchmark') content = <BenchmarkPage />;
+  else if (page === 'tribe') content = <TribeRiskPage />;
+  else if (page === 'compare') content = <ComparePage setPage={setPage} />;
   else content = <HeroPage setPage={setPage} />;
 
   return (
