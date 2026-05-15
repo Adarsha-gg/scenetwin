@@ -1,7 +1,7 @@
 """Render per-clip TRIBE brain panels for the web demo.
 
 Each panel shows the predicted audiovisual response, audio-only response, and
-the absolute accessibility gap |P_AV - P_A| for one cached benchmark clip.
+the directional visual lift max(P_AV - P_A, 0) for one cached benchmark clip.
 """
 from __future__ import annotations
 
@@ -45,6 +45,9 @@ def robust_max(values: np.ndarray, pct: float = 98.0) -> float:
 def hot_overlay_limits(values: np.ndarray, threshold_pct: float = 72.0) -> tuple[float, float]:
     """Return threshold/vmax for poster-style gray cortex with hot overlay."""
     finite = values[np.isfinite(values)]
+    positive = finite[finite > 1e-8]
+    if positive.size:
+        finite = positive
     if finite.size == 0:
         return 0.0, 1.0
     threshold = float(np.percentile(finite, threshold_pct))
@@ -104,10 +107,10 @@ def render_clip(row: pd.Series, fs) -> Path:
 
     av = positive_response(brain_mean(av_path))
     audio = positive_response(brain_mean(a_path))
-    gap = np.abs(av - audio)
+    visual_lift = np.maximum(av - audio, 0)
 
     response_threshold, response_max = hot_overlay_limits(np.concatenate([av, audio]))
-    gap_threshold, gap_max = hot_overlay_limits(gap)
+    lift_threshold, lift_max = hot_overlay_limits(visual_lift)
 
     fig, axes = plt.subplots(
         1,
@@ -130,7 +133,7 @@ def render_clip(row: pd.Series, fs) -> Path:
     fig.text(
         0.02,
         0.90,
-        f"TRIBE accessibility gap: |P_AV - P_A| · risk {float(row['risk_score']):.3f} · mean need {float(row['mean_need']):.2f}",
+        f"TRIBE visual lift: max(P_AV - P_A, 0) · risk {float(row['risk_score']):.3f} · mean need {float(row['mean_need']):.2f}",
         ha="left",
         va="center",
         fontsize=10,
@@ -150,15 +153,15 @@ def render_clip(row: pd.Series, fs) -> Path:
         vmax=response_max,
     )
     plot_hemi_pair(
-        fig, axes[4:6], fs, gap,
-        title="Accessibility gap",
-        threshold=gap_threshold,
-        vmax=gap_max,
+        fig, axes[4:6], fs, visual_lift,
+        title="Visual-only lift",
+        threshold=lift_threshold,
+        vmax=lift_max,
     )
 
     fig.text(0.18, 0.045, "visual + audio predicted cortex", ha="center", fontsize=9, style="italic", color="#6e7781")
     fig.text(0.50, 0.045, "soundtrack-only predicted cortex", ha="center", fontsize=9, style="italic", color="#6e7781")
-    fig.text(0.82, 0.045, "yellow/red = strongest visual-only need", ha="center", fontsize=9, style="italic", color="#6e7781")
+    fig.text(0.82, 0.045, "only lights up when video adds signal beyond audio", ha="center", fontsize=9, style="italic", color="#6e7781")
 
     OUT.mkdir(parents=True, exist_ok=True)
     out = OUT / f"clip_{clip_idx:02d}_tribe_gap.png"
