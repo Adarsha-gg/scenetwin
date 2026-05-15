@@ -10,6 +10,11 @@ whether blind/low-vision viewers receive needed scene facts, and TRIBE routes li
 comprehension failures to human review. The web demo now opens on the Overview preview,
 with Live Audit, Benchmark, TRIBE Risk, and Compare available from the top nav.
 
+Rendered per-clip TRIBE brain panels for all 18 cached benchmark clips from the saved
+`P_AV` and `P_A` prediction arrays. Each panel shows audiovisual viewing, audio-only
+viewing, and the absolute accessibility gap `|P_AV - P_A|`. The TRIBE Risk tab now swaps
+the large brain map when a clip row is selected.
+
 ## [2026-05-13] demo | t=0 high-motion trailer sweep
 
 Reran high-motion trailer candidates from the actual start of each YouTube video, because

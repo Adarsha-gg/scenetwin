@@ -11,6 +11,7 @@
   - Added Benchmark, TRIBE Risk, and Compare tabs to explain the poster result and why this is not just a generic VLM grader.
   - Added `/api/tribe-risk`, backed by the cached 18-clip TRIBE failure forecast.
   - TRIBE Risk shows the brain imagery, recall@2 = 100%, p = 0.0065, the 18-clip risk ranking, and selected-clip details.
+  - Rendered 18 per-clip TRIBE surface panels into `output/charts/tribe_clip_brains/`; the selected TRIBE Risk row now changes the large brain map.
   - Compare explains SceneTwin's blind/low-vision value: missing visual evidence, no reference AD requirement for live clips, CLIP grounding, frame-grounded ADQA, and TRIBE risk routing.
 - Added repo hygiene files:
   - `.gitignore`

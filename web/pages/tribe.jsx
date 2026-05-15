@@ -46,23 +46,20 @@ function TribeRiskPage() {
         <div className="card" style={{ padding: 18 }}>
           <div className="row justify-between items-center" style={{ marginBottom: 14 }}>
             <div>
-              <div className="eyebrow">Brain-backed risk map</div>
-              <h2 style={{ margin: '6px 0 0', fontSize: 23, fontWeight: 500 }}>Where visual description is neurologically needed</h2>
+              <div className="eyebrow">Selected clip brain map</div>
+              <h2 style={{ margin: '6px 0 0', fontSize: 23, fontWeight: 500 }}>
+                {selected ? `clip_${String(selected.clip_idx).padStart(2, '0')} · ${selected.category}` : 'Where visual description is neurologically needed'}
+              </h2>
             </div>
-            <Tag color="var(--good)">TRIBE</Tag>
+            <Tag color={selected ? riskColor(selected.risk_score) : 'var(--good)'}>{selected ? `rank #${selected.risk_rank}` : 'TRIBE'}</Tag>
           </div>
-          <img src="../output/charts/scenetwin_brain_three_panel.png" style={{ width: '100%', display: 'block', border: '1px solid var(--border)', background: '#fff' }} />
-          <div style={{ marginTop: 14, display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 10 }}>
-            {[
-              ['Video only', '../output/scenetwin_assets/brain_video.png'],
-              ['Accurate AD', '../output/scenetwin_assets/brain_accurate_detailed.png'],
-              ['Bad AD', '../output/scenetwin_assets/brain_hallucinated.png'],
-            ].map(([label, src]) => (
-              <div key={label} className="card" style={{ padding: 10 }}>
-                <img src={src} style={{ width: '100%', display: 'block', background: '#fff' }} />
-                <div className="mono" style={{ marginTop: 8, color: 'var(--fg-muted)', fontSize: 11 }}>{label}</div>
-              </div>
-            ))}
+          <img
+            src={selected?.brain_map_url || '../output/charts/scenetwin_brain_three_panel.png'}
+            style={{ width: '100%', display: 'block', border: '1px solid var(--border)', background: '#fff' }}
+          />
+          <div className="row justify-between gap-16" style={{ marginTop: 12, color: 'var(--fg-muted)', fontSize: 12, lineHeight: 1.45 }}>
+            <span>Each cached benchmark clip has its own TRIBE surface panel.</span>
+            <span className="mono">P_AV / P_A / |gap|</span>
           </div>
         </div>
 
@@ -93,6 +90,7 @@ function TribeRiskPage() {
                   <span className="mono" style={{ color: 'var(--fg-muted)', fontSize: 11 }}>{clip.risk_score.toFixed(3)}</span>
                 </div>
                 <div style={{ marginTop: 8, color: 'var(--fg-muted)', fontSize: 12 }}>{clip.quality_risk}</div>
+                <div className="mono" style={{ marginTop: 8, color: 'var(--fg-muted)', fontSize: 10 }}>brain map ready</div>
               </button>
             ))}
           </div>
@@ -136,4 +134,3 @@ function TribeRiskPage() {
 }
 
 Object.assign(window, { TribeRiskPage });
-

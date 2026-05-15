@@ -246,6 +246,7 @@ def tribe_risk() -> dict[str, Any]:
             "pro_ad_text": r.get("tier3_va11y_text"),
             "short_text": r.get("tier1_vatex_short_text"),
             "long_text": r.get("tier2_vatex_long_text"),
+            "brain_map_url": f"../output/charts/tribe_clip_brains/clip_{int(r.get('clip_idx') or 0):02d}_tribe_gap.png",
         })
 
     top_summary = summary[0] if summary else {}
