@@ -82,7 +82,21 @@ function CachedClipsPage() {
                   <strong style={{ fontSize: 13 }}>clip_{String(clip.clip_idx).padStart(2, '0')} · {clip.category}</strong>
                   <span className="mono" style={{ color: 'var(--fg-muted)', fontSize: 11 }}>{clip.duration_s.toFixed(1)}s</span>
                 </div>
-                <div style={{ marginTop: 8, color: 'var(--fg-muted)', fontSize: 11, lineHeight: 1.35 }}>
+                <div className="row items-center gap-6" style={{ marginTop: 8, flexWrap: 'wrap' }}>
+                  <span className="mono" style={{
+                    fontSize: 10,
+                    padding: '2px 6px',
+                    border: `1px solid ${clip.demo_rank_score >= 0.9 ? 'var(--good)' : clip.demo_rank_score >= 0.7 ? 'var(--warn)' : 'var(--border-strong)'}`,
+                    color: clip.demo_rank_score >= 0.9 ? 'var(--good)' : clip.demo_rank_score >= 0.7 ? 'var(--warn)' : 'var(--fg-muted)',
+                    textTransform: 'uppercase',
+                  }}>
+                    pro ADQA {scorePct(clip.demo_rank_score)}%
+                  </span>
+                  <span className="mono" style={{ color: 'var(--fg-muted)', fontSize: 10 }}>
+                    best {scorePct(clip.best_adqa_score)}% · {clip.best_candidate_label}
+                  </span>
+                </div>
+                <div style={{ marginTop: 7, color: 'var(--fg-muted)', fontSize: 11, lineHeight: 1.35 }}>
                   {clip.video_id}
                 </div>
                 <div className="row items-center gap-8" style={{ marginTop: 8 }}>

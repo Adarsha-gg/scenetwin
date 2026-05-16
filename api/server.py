@@ -420,12 +420,17 @@ def cached_clips() -> dict[str, Any]:
                 "ensemble": float(s.get("ensemble_mean_clip_top3") or 0),
                 "grades": sorted(grades.get((cidx, tier), []), key=lambda g: int(g["q_idx"])),
             })
+        pro_candidate = next((c for c in candidates if c["tier"] == "tier3_va11y"), candidates[-1])
+        best_candidate = max(candidates, key=lambda c: c["adqa_score"])
 
         clips.append({
             "clip_idx": cidx,
             "video_id": r.get("video_id"),
             "category": r.get("category"),
             "duration_s": float(r.get("duration_s") or 0),
+            "demo_rank_score": float(pro_candidate["adqa_score"]),
+            "best_adqa_score": float(best_candidate["adqa_score"]),
+            "best_candidate_label": best_candidate["label"],
             "risk_rank": int(r.get("risk_rank") or 0),
             "risk_score": float(r.get("risk_score") or 0),
             "quality_risk": r.get("quality_risk") or "",
@@ -433,6 +438,7 @@ def cached_clips() -> dict[str, Any]:
             "frames": frames,
             "candidates": candidates,
         })
+    clips.sort(key=lambda c: (-c["demo_rank_score"], -c["best_adqa_score"], c["clip_idx"]))
 
     return {
         "n": len(clips),
