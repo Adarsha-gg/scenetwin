@@ -2,6 +2,7 @@
 _Last updated: 2026-05-13, migrated from Knowledge_
 
 ## Reference
+- [Presenter demo runbook](demo-runbook.md) — stable NJBDA walkthrough: Overview, Cached clips, TRIBE risk, Compare, optional Live Audit
 - [TRIBE metric glossary](../output/reports/tribe-metric-glossary.md) — plain English of every number on the TRIBE page: rho sign, route badge, speech chip, need timeline, per-ROI gap
 - [TRIBE demo additions plan](../output/reports/tribe-demo-additions.md) — the five TRIBE signals wired into the web page on 2026-05-14
 
