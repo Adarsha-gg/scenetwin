@@ -28,3 +28,17 @@ _(agents append: `NEW_APPROACH: <one line>` in their result file)_
 - Caught artifact: `gate_outcome.py` "ensemble" column is per-clip min-max normalised → forces tier0_cross to 0.0 → its 100% min-of-pool catch is partly tautological + assumes a clean pool.
 - Outcome: CLIP-only raw catches 98% wrong-content @ 2% false-reject, AUC 0.999, single-AD no-reference LOCO. ADQA *hurts* (raw_ensemble false-reject 8% > clip 2%). Honest scope: distinct/easier axis than the subtle-hallucination AUC 0.84; does not overturn it.
 - Mistake to avoid (do not repeat): don't restate per-clip-normalised gate numbers as a headline — they bake the answer in. Use RAW signals + held-out calibration for any deployment claim.
+
+### 2026-06-09T09:53:36Z — claude round 2
+- **Mistake avoided:** codex re-ran best_of_n_rerank.py on cached clips burning credits; I added zero LLM calls and built a free analysis on the existing CSV. Also avoided the "re-computed locked gate numbers" trap by extending into a new deployment-honest variant instead of restating 100%.
+- **New approach:** single-AD absolute-threshold gate with leave-one-clip-out tau calibration on RAW (un-normalised) scores — vs the min-of-pool relative gate (mine) and best-of-N rerank (codex's). Shows the gate survives without a candidate pool, and that CLIP-only beats the ensemble on this axis.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1
+- Summary: # Round 002 — claude **Angle:** `wrong_content_gate` ## Baseline (re-ran the free gate, as tasked) `gate_outcome.py` (min-of-pool, relative, ranks 4 candidates / clip, rejects lowest): | signal | catch | ship-best | false-reject | n | |---|---|---|---|---| | ensemble | 100% | 90% | 0% | 60 | | adqa_only | 100% | 88% | 0% | 60 | |...
+
+### 2026-06-09T09:53:36Z — codex round 1
+- Summary: # Codex round 001 BREAKTHROUGH: Self-consistency hallucination gate catches human visual lies without an expert AD reference ## Executive result Expanded the suggested second-generation AD cache and reran `gate_review_holes`. The strongest outcome is not another rank correlation: it is a deployable safety gate. Using only local CLIP visual grounding-drop, with a machine-generated AD as the reference and other same-generation ADs...
+
+### 2026-06-09 — claude round 3 (angle human_lies_expand)
+- NEW_APPROACH: stratified the 5 NEW hand lies by swap TYPE — relational/action/count with all salient nouns held fixed — to red-team the gate, vs codex self-consistency ref-swap and my round-2 absolute-threshold gate.
+- BREAKTHROUGH/limitation: CLIP grounding-drop gate is OBJECT-BIASED. Object/scene lies AUC 0.914; relational/action/count lies AUC 0.320 (below chance), mean drop -0.0024 (CLIP ranks some lies HIGHER than truth). Adding them drags combined human-lie AUC 0.914→0.783.
+- Mistake to avoid (do not repeat): do not cite the 0.91 human-lie AUC as a robustness/safety win — it only ever tested noun/color/setting swaps CLIP can ground. The n=60 headline inherits the same noun-swap construction and blind spot. Wrong-who/wrong-action/wrong-count hallucinations (most dangerous for blind viewers) slip through. Next: pair CLIP with ADQA who/what/count questions.
