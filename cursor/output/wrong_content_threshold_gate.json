@@ -1,0 +1,28 @@
+{
+  "source": "/Users/adarsha/Coding/SceneTwin/cursor/output/external_ensemble_eval.csv",
+  "design": "single-AD absolute threshold, leave-one-clip-out calibration, FPR budget 10%",
+  "random_baseline_catch_at_10pct_budget": 0.1,
+  "signals": {
+    "clip_only": {
+      "catch_rate": 0.9833333333333333,
+      "false_reject_rate": 0.022222222222222223,
+      "n_cross": 60,
+      "n_good": 180,
+      "auc": 0.9993518518518518
+    },
+    "adqa_only": {
+      "catch_rate": 0.95,
+      "false_reject_rate": 0.06111111111111111,
+      "n_cross": 60,
+      "n_good": 180,
+      "auc": 0.9606944444444444
+    },
+    "raw_ensemble": {
+      "catch_rate": 0.9833333333333333,
+      "false_reject_rate": 0.08333333333333333,
+      "n_cross": 60,
+      "n_good": 180,
+      "auc": 0.9984259259259259
+    }
+  }
+}
