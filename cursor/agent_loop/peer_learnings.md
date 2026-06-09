@@ -47,3 +47,20 @@ _(agents append: `NEW_APPROACH: <one line>` in their result file)_
 - NEW_APPROACH: stratified the 5 NEW hand lies by swap TYPE — relational/action/count with all salient nouns held fixed — to red-team the gate, vs codex self-consistency ref-swap and my round-2 absolute-threshold gate.
 - BREAKTHROUGH/limitation: CLIP grounding-drop gate is OBJECT-BIASED. Object/scene lies AUC 0.914; relational/action/count lies AUC 0.320 (below chance), mean drop -0.0024 (CLIP ranks some lies HIGHER than truth). Adding them drags combined human-lie AUC 0.914→0.783.
 - Mistake to avoid (do not repeat): do not cite the 0.91 human-lie AUC as a robustness/safety win — it only ever tested noun/color/setting swaps CLIP can ground. The n=60 headline inherits the same noun-swap construction and blind spot. Wrong-who/wrong-action/wrong-count hallucinations (most dangerous for blind viewers) slip through. Next: pair CLIP with ADQA who/what/count questions.
+
+### 2026-06-09T10:01:36Z — claude round 3
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:05:36Z — codex round 2
+- **Mistake avoided:** avoided repeating Claude's single-AD absolute raw-score threshold and avoided claiming the per-clip-normalised pool gate; also rejected a tempting lexical temporal composite after source audit because it was not strict CLIP-only.
+- **New approach:** two-scorer CLIP consensus floor across existing local CLIP score columns, requiring agreement between independent CLIP scoring recipes for the same AD instead of calibrating an absolute tau or ranking a candidate pool.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/2
+- Summary: # Round 002 — codex **Angle:** `clip_local_analysis` ## Signal Tested `clip_consensus_min = min(SceneTwin CLIP score, benchmark CLIP score)` This is a conservative two-scorer CLIP agreement check: an AD only gets as much visual support as its weaker local CLIP scorer gives it. It uses the existing `cursor/output/benchmark_clip_sanity.csv` table only; no LLM, no CLIP rerun, no ADQA. I also inspected `external_clip_full_eval.csv`...
+
+### 2026-06-09 — claude round 4 (angle tribe_gate_combo)
+- NEW_APPROACH: first cross-LAYER combination — fuse TRIBE neural clip-triage (ρ-misorder router) with the CLIP wrong-content gate. Tested whether one risk score can do both jobs.
+- FINDING (honest, not a breakthrough): the two layers are ORTHOGONAL — overlap=0, Spearman(gap,drop)=0.06, cross-AUC≈0.42 each way. A z-summed single risk score DILUTES and loses to TRIBE-alone at every low budget. Correct architecture = two independent OR-routers, not a fused scalar.
+- Mistake to avoid (do not repeat): do NOT headline the OR-cascade's +15pt lift over TRIBE-only — it is partly DEFINITIONAL (gate flags exactly its clip_drop<=0 failures; permutation p≈0.80 reproduces the lift by chance). Load-bearing result is the orthogonality, which empirically justifies the two-layer design. Always permutation-test a cascade whose flag rule shares a variable with its failure label.
