@@ -60,3 +60,5 @@ the 100% headline degrades by <1pp — the gate is **noise-robust, not a knife-e
 COMMANDS_RUN: .venv/bin/python cursor/pipeline/gate_outcome.py, .venv/bin/python cursor/pipeline/gate_margin_robustness.py, .venv/bin/python output/charts/scenetwin_gate_margin_robustness.py
 MISTAKE_AVOIDED: peer (codex) and my own prior rounds all reported catch on noise-free scores and never tested whether the 100% survives measurement error; I refused to restate the headline and instead stress-tested its margin, exposing that single-signal separation is brittle (25% <1σ, min 0σ) and quantifying why the ensemble is required.
 NEW_APPROACH: separation-margin distribution + Monte-Carlo measurement-noise perturbation of the locked gate decision (argmin re-normalised per trial) — answers "how brittle is the 100%" rather than recall/precision/prevalence. Different from codex's two-scorer consensus floor (a decision rule) and from my r2 tau, r68 threshold, r69 Bayesian base-rate. First round to characterise the gate's noise robustness and z-margin headroom.
+
+PR: https://github.com/Adarsha-gg/scenetwin/pull/5
