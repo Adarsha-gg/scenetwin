@@ -46,4 +46,4 @@ COMMANDS_RUN: .venv/bin/python cursor/pipeline/gate_outcome.py, .venv/bin/python
 MISTAKE_AVOIDED: peer (codex) and my own prior rounds reported the catch/false-alarm at balanced prevalence and implicitly treated it as the deployment number; I refused to restate 98%/2% as a deployment guarantee and exposed that precision is base-rate dependent (31% PPV at 1%), then showed why the gate is still justified (cost asymmetry) rather than overclaiming.
 NEW_APPROACH: Bayesian base-rate precision + decision-theoretic break-even propagation of the LOCKED LOCO operating point — different from codex's two-scorer CLIP consensus floor, my r68 global absolute threshold, my r2 per-clip tau, and my r3 relational-lie stratum. First round to characterise the gate's PRECISION/alert-burden/cost economics rather than its recall.
 
-PR: pending
+PR: https://github.com/Adarsha-gg/scenetwin/pull/4 (round-69 commit c752d7f appended)
