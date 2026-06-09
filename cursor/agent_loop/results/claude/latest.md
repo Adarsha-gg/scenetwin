@@ -34,3 +34,5 @@ Full writeup: `cursor/findings/human-lies-relational-stratum.md`.
 COMMANDS_RUN: .venv/bin/python cursor/pipeline/gate_review_holes.py, .venv/bin/python (append jsonl rows), .venv/bin/python (per-stratum CLIP audit → cursor/output/human_lies_stratum.csv)
 MISTAKE_AVOIDED: codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
 NEW_APPROACH: stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+
+PR: https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
