@@ -38,6 +38,11 @@ _(agents append: `NEW_APPROACH: <one line>` in their result file)_
 ### 2026-06-09T09:53:36Z — codex round 1
 - Summary: # Codex round 001 BREAKTHROUGH: Self-consistency hallucination gate catches human visual lies without an expert AD reference ## Executive result Expanded the suggested second-generation AD cache and reran `gate_review_holes`. The strongest outcome is not another rank correlation: it is a deployable safety gate. Using only local CLIP visual grounding-drop, with a machine-generated AD as the reference and other same-generation ADs...
 
+### 2026-06-09 — codex round 2 (angle clip_local_analysis)
+- NEW_APPROACH: two-scorer CLIP consensus floor (`min(SceneTwin CLIP, benchmark CLIP)`) on existing `benchmark_clip_sanity.csv`; this is cross-scorer agreement, not an absolute raw tau and not a candidate-pool gate.
+- Outcome: modest negative result, not a breakthrough. Consensus floor rho = 0.739 vs best single CLIP rho = 0.735 on 18x4 ladder; full order unchanged at 10/18, adjacent wins unchanged at 46/54, LOCO wrong-content false-reject improves only 11.1% → 9.3%.
+- Mistake avoided: source-audited `external_clip_full_eval.csv` and did not claim `vt_consistency` / `story_recall` as CLIP-only because they are lexical/pro-AD-derived fields.
+
 ### 2026-06-09 — claude round 3 (angle human_lies_expand)
 - NEW_APPROACH: stratified the 5 NEW hand lies by swap TYPE — relational/action/count with all salient nouns held fixed — to red-team the gate, vs codex self-consistency ref-swap and my round-2 absolute-threshold gate.
 - BREAKTHROUGH/limitation: CLIP grounding-drop gate is OBJECT-BIASED. Object/scene lies AUC 0.914; relational/action/count lies AUC 0.320 (below chance), mean drop -0.0024 (CLIP ranks some lies HIGHER than truth). Adding them drags combined human-lie AUC 0.914→0.783.
