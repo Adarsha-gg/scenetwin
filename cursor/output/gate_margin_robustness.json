@@ -1,0 +1,92 @@
+{
+  "source": "/Users/adarsha/Coding/SceneTwin/cursor/output/external_ensemble_eval.csv",
+  "n_clips": 60,
+  "noise_free_catch": 1.0,
+  "separation_margin": {
+    "normalised_ensemble": {
+      "median": 0.594,
+      "min": 0.2239,
+      "p10": 0.4196,
+      "frac_le_0": 0.0
+    },
+    "z_margin_raw_signals": {
+      "median": 4.243,
+      "min": 0.0,
+      "p10": 0.53,
+      "frac_lt_1sigma": 0.2521
+    },
+    "pooled_genuine_sd": {
+      "adqa_score": 0.1648,
+      "clip_top3": 0.0188
+    }
+  },
+  "noise_robustness_curve": [
+    {
+      "sigma_frac": 0.0,
+      "catch_rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "sigma_frac": 0.1,
+      "catch_rate": 1.0,
+      "ci95": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "sigma_frac": 0.25,
+      "catch_rate": 0.9978,
+      "ci95": [
+        0.9833,
+        1.0
+      ]
+    },
+    {
+      "sigma_frac": 0.5,
+      "catch_rate": 0.9912,
+      "ci95": [
+        0.9667,
+        1.0
+      ]
+    },
+    {
+      "sigma_frac": 0.75,
+      "catch_rate": 0.9821,
+      "ci95": [
+        0.95,
+        1.0
+      ]
+    },
+    {
+      "sigma_frac": 1.0,
+      "catch_rate": 0.9699,
+      "ci95": [
+        0.9167,
+        1.0
+      ]
+    },
+    {
+      "sigma_frac": 1.5,
+      "catch_rate": 0.9407,
+      "ci95": [
+        0.8833,
+        0.9833
+      ]
+    },
+    {
+      "sigma_frac": 2.0,
+      "catch_rate": 0.9061,
+      "ci95": [
+        0.8333,
+        0.9667
+      ]
+    }
+  ],
+  "catch_below_99pct_at_sigma_frac": 0.75,
+  "catch_below_95pct_at_sigma_frac": 1.5,
+  "interpretation": "Gate flags argmin of per-clip ensemble. Headroom = median z-margin of 4.24 genuine-AD SDs; 100% catch tolerates Gaussian measurement noise up to the reported sigma before degrading."
+}

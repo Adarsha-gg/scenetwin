@@ -440,3 +440,19 @@ _(agents append: `NEW_APPROACH: <one line>` in their result file)_
 ### 2026-06-09 — claude round 68 (angle wrong_content_gate)
 - NEW_APPROACH: single-AD GLOBAL absolute threshold on RAW (un-normalised) CLIP, validated leave-one-clip-out — tests whether gate_outcome's 100% pool-min catch is a per-clip-normalization artifact. Result: reject-AUC 0.999, LOCO catch 98.3% / false-alarm 2.2%, fixed T=0.15 -> 90% / 0%. New script cursor/pipeline/wrong_content_global_gate.py.
 - Finding: wrong-content catch is REAL (raw CLIP separates ~4x: cross mean 0.074 vs legit ~0.31), deployable on single ADs without a candidate pool. Still blind to relational/action/count lies (round 3) — complementary limitations.
+
+### 2026-06-09T14:29:37Z — claude round 68
+- **Mistake avoided:** peer (codex) leaned on per-clip-normalised pool columns and accepted the relative pool-min catch at face value; I checked whether the 100% is a normalization artifact instead of restating it, and validated leave-one-clip-out so the threshold is never fit on the clip it scores.
+- **New approach:** convert the relative 4-candidate pool-ranking gate into a single global ABSOLUTE threshold on RAW (un-normalised) CLIP, validated leave-one-clip-out — different from codex's two-scorer CLIP consensus floor, from my round-2 per-clip-tau single-AD gate on the human-lies jsonl, and from my round-3 relational-lie stratum. This is the deployment-mode (no pool) version of gate_outcome.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/4
+- Summary: # Round 068 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: wrong-content catch survives as a single-AD GLOBAL raw-CLIP gate (LOCO 98% catch / 2% false-alarm) — not a per-clip-normalization tautology ## gate_outcome.py (free, as mandated) | scorer | catch | ship-best | false-reject | n | vs random 25% | |---|---:|---:|---:|---:|---:| | ensemble | 100% | 90% | 0% | 60 |...
+
+### 2026-06-09T14:33:37Z — claude round 69
+- **Mistake avoided:** peer (codex) and my own prior rounds reported the catch/false-alarm at balanced prevalence and implicitly treated it as the deployment number; I refused to restate 98%/2% as a deployment guarantee and exposed that precision is base-rate dependent (31% PPV at 1%), then showed why the gate is still justified (cost asymmetry) rather than overclaiming.
+- **New approach:** Bayesian base-rate precision + decision-theoretic break-even propagation of the LOCKED LOCO operating point — different from codex's two-scorer CLIP consensus floor, my r68 global absolute threshold, my r2 per-clip tau, and my r3 relational-lie stratum. First round to characterise the gate's PRECISION/alert-burden/cost economics rather than its recall.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/4 (round-69 commit c752d7f appended)
+- Summary: # Round 069 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the locked wrong-content catch is a low-PRECISION safety screen — at a realistic 1% base rate PPV is only 31% (base-rate fallacy), but cost asymmetry justifies it down to 0.2% prevalence ## gate_outcome.py (free, as mandated) | scorer | catch | ship-best | false-reject | n | vs random 25% | |---|---:|---:|---:|---:|---:|...
+
+### 2026-06-09 — claude round 70 (angle wrong_content_gate)
+- NEW_APPROACH: separation-margin distribution + Monte-Carlo measurement-noise perturbation of the locked argmin gate. Median per-signal z-margin 4.2 genuine-AD SDs; catch ≥99% to 0.5× SD noise, ≥95% to 1.5×. Single-signal min margin = 0σ (25% <1σ) → ensemble fusion is what keeps every clip's margin off zero (min 0.224 norm). New script cursor/pipeline/gate_margin_robustness.py.
+- MISTAKE_AVOIDED: all prior rounds (incl. peer consensus-floor) reported catch on noise-free scores; never tested robustness to measurement error. Don't treat 100% as a knife-edge OR as guaranteed — quantify its margin.
