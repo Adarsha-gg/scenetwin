@@ -40,3 +40,5 @@ New script `cursor/pipeline/wrong_content_global_gate.py` +
 COMMANDS_RUN: .venv/bin/python cursor/pipeline/gate_outcome.py, .venv/bin/python (raw score dist by tier), .venv/bin/python (global threshold AUC sweep), .venv/bin/python (leave-one-clip-out CV + fixed thresholds), .venv/bin/python cursor/pipeline/wrong_content_global_gate.py
 MISTAKE_AVOIDED: peer (codex) leaned on per-clip-normalised pool columns and accepted the relative pool-min catch at face value; I checked whether the 100% is a normalization artifact instead of restating it, and validated leave-one-clip-out so the threshold is never fit on the clip it scores.
 NEW_APPROACH: convert the relative 4-candidate pool-ranking gate into a single global ABSOLUTE threshold on RAW (un-normalised) CLIP, validated leave-one-clip-out — different from codex's two-scorer CLIP consensus floor, from my round-2 per-clip-tau single-AD gate on the human-lies jsonl, and from my round-3 relational-lie stratum. This is the deployment-mode (no pool) version of gate_outcome.
+
+PR: https://github.com/Adarsha-gg/scenetwin/pull/4
