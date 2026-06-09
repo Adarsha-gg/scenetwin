@@ -338,6 +338,26 @@ function AuditPage() {
             <div className="card card-pad"><Stat label="Frames" value={result?.frames?.length || '—'} /></div>
           </div>
 
+          {result?.qc && (
+            <div className="card card-pad" style={{
+              borderColor: result.qc.flagged ? 'var(--bad)' : 'var(--good)',
+              borderLeft: `3px solid ${result.qc.flagged ? 'var(--bad)' : 'var(--good)'}`,
+            }}>
+              <SectionHead eyebrow="Research QC" title={result.qc.flagged ? 'Review before trusting scores' : 'QC clear'} sub={null} />
+              <div className="row justify-between items-center gap-12" style={{ marginTop: 8 }}>
+                <p style={{ margin: 0, color: 'var(--fg-muted)', lineHeight: 1.55, flex: 1 }}>{result.qc.summary}</p>
+                <Tag color={result.qc.flagged ? 'var(--bad)' : 'var(--good)'}>risk {(result.qc.risk_score || 0).toFixed(2)}</Tag>
+              </div>
+              {(result.qc.flags || []).length > 0 && (
+                <ul style={{ margin: '12px 0 0', paddingLeft: 18, color: 'var(--fg-muted)', lineHeight: 1.5, fontSize: 13 }}>
+                  {result.qc.flags.map(f => (
+                    <li key={f.id}><strong>{f.label}</strong> — {f.reason}</li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+
           <div className="card card-pad">
             <SectionHead eyebrow="Audio description" title="Candidate text" sub={null} />
             <p style={{ margin: 0, color: result?.ad ? 'var(--fg)' : 'var(--fg-muted)', lineHeight: 1.6 }}>

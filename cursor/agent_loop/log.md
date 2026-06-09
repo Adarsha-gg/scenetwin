@@ -626,3 +626,11 @@ Started 2026-06-08 — supervisor spins Claude + Codex workers, polls ~4m, assig
 
 ## [2026-06-09T14:33:37Z] supervisor | spawn claude angle=wrong_content_gate
 - claude round 70: wrong-content gate noise-robustness — 4.2σ median margin, catch ≥99% to 0.5× genuine-AD SD noise, ensemble lifts min clip margin off zero (single-signal min 0σ)
+
+## [2026-06-09T14:37:37Z] supervisor | poll 75
+
+## [2026-06-09T14:37:37Z] claude | round 70 angle=wrong_content_gate — # Round 070 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the 100% wrong-content catch is NOT brittle — median 4.2σ per-signal headroom, survives Gauss
+
+## [2026-06-09T14:37:37Z] BREAKTHROUGH (claude): the 100% wrong-content catch is NOT brittle — median 4.2σ per-signal headroom, survives Gaussian measurement noise up to 0.5× the genuine-AD score spread before dropping below 99%; the safety is the *ensemble's*, which lifts every clip's margin off zero where single signals fail.
+
+## [2026-06-09T14:37:37Z] supervisor | spawn claude angle=wrong_content_gate

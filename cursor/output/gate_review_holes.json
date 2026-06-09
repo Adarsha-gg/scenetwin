@@ -1,6 +1,6 @@
 {
   "human_fabrications_n": 23,
-  "self_consistency_clips": 14,
+  "self_consistency_clips": 16,
   "expert_reference_clip_gate_n60": {
     "auc": 0.8352777777777778,
     "recall": 0.7,
@@ -26,14 +26,14 @@
     "mean_drop_lie": 0.04500194347423056
   },
   "human_lies_self_consistency_ref": {
-    "auc": 0.9030612244897959,
-    "recall": 0.7857142857142857,
-    "fpr": 0.11904761904761904,
-    "tau": 0.033162999153137196,
-    "n_clips": 14,
-    "n_clean_pairs": 42,
-    "mean_drop_lie": 0.07669779871191297,
-    "mean_drop_clean": -0.0024125512157167706
+    "auc": 0.8945312499999999,
+    "recall": 0.6875,
+    "fpr": 0.10416666666666667,
+    "tau": 0.03943604528903963,
+    "n_clips": 16,
+    "n_clean_pairs": 48,
+    "mean_drop_lie": 0.07239328511059284,
+    "mean_drop_clean": 0.0016208564241727192
   },
   "headline_defensible": "CLIP grounding-drop gate, expert reference, n=60: AUC 0.84, 70% recall @ 10% FPR"
 }

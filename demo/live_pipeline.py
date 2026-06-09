@@ -609,55 +609,133 @@ def _load_tribe() -> tuple[bool, str]:
     return True, "loaded"
 
 
-def _tribe_predict(video_path: str, text: str | None) -> np.ndarray | None:
-    model = _TRIBE_MODEL
-    if model is None:
-        return None
+def _tribe_predict_events(model: Any, events: pd.DataFrame) -> np.ndarray | None:
     try:
-        events = model.get_events_dataframe(video_path=video_path)
-        if text is not None and "text" in events.columns:
-            events = events.copy()
-            events["text"] = text
         preds, _ = model.predict(events)
         return np.asarray(preds)
     except Exception:
         return None
 
 
-def stage_tribe_proxy(video_path: str, ad: str) -> tuple[bool, str, dict[str, Any]]:
-    """Predicted neural alignment: cosine(B_video, B_video+AD) versus
-    cosine(B_video, B_AD). Higher first cosine, lower second means the AD is
-    'video flavored', a proxy for AD doing visual substitution.
+def _tribe_from_path(model: Any, *, video_path: str | None = None, audio_path: str | None = None, text_path: str | None = None) -> np.ndarray | None:
+    try:
+        events = model.get_events_dataframe(
+            video_path=video_path,
+            audio_path=audio_path,
+            text_path=text_path,
+        )
+        return _tribe_predict_events(model, events)
+    except Exception:
+        return None
 
-    Note: this is a proxy. The paper's AUC=1.00 result needs real fMRI.
+
+def _extract_audio_for_tribe(video_path: str) -> str | None:
+    """Extract mono audio track for TRIBE audio-only counterfactual."""
+    slug = _slug(video_path)
+    out = CACHE_DIR / f"{slug}_tribe_audio.wav"
+    if out.exists() and out.stat().st_size > 0:
+        return str(out)
+    try:
+        subprocess.run(
+            ["ffmpeg", "-y", "-i", video_path, "-vn", "-ac", "1", "-ar", "16000", str(out)],
+            check=True,
+            capture_output=True,
+            timeout=120,
+        )
+        return str(out) if out.exists() else None
+    except Exception:
+        return None
+
+
+def _tribe_cos(a: np.ndarray, b: np.ndarray) -> float:
+    a = a.mean(axis=0).flatten().astype(float)
+    b = b.mean(axis=0).flatten().astype(float)
+    return float(np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b) + 1e-9))
+
+
+def stage_tribe_proxy(video_path: str, ad: str) -> tuple[bool, str, dict[str, Any]]:
+    """TRIBE counterfactual proxy (paper-aligned).
+
+    P_AV  = full video
+    P_A   = audio-only (extracted wav)
+    P_AD  = AD text-only (.txt → TTS pipeline inside TRIBE)
+
+    Reports accessibility_gap = 1 - cos(P_AV, P_A) and
+    description_gain = cos(P_AV, P_AD) - cos(P_AV, P_A).
     """
     if not video_path or not Path(video_path).exists():
         return False, "no video for TRIBE", {}
     ok, msg = _load_tribe()
     if not ok:
         return False, msg, {}
-    b_v = _tribe_predict(video_path, text=None)
-    if b_v is None:
-        return False, "video-only prediction failed", {}
-    b_va = _tribe_predict(video_path, text=ad) if ad else None
-    if b_va is None:
-        return False, "video+AD prediction failed", {}
+    model = _TRIBE_MODEL
 
-    def cos(a: np.ndarray, b: np.ndarray) -> float:
-        a = a.flatten()
-        b = b.flatten()
-        na = np.linalg.norm(a) + 1e-9
-        nb = np.linalg.norm(b) + 1e-9
-        return float(np.dot(a, b) / (na * nb))
+    p_av = _tribe_from_path(model, video_path=video_path)
+    if p_av is None:
+        return False, "P_AV prediction failed", {}
 
-    align_va = cos(b_v.mean(axis=0), b_va.mean(axis=0))
-    # Magnitude per hemisphere as a quick visual
-    avg_v = b_v.mean(axis=0)
-    avg_va = b_va.mean(axis=0)
-    return True, f"alignment cosine {align_va:.3f}", {
+    audio_path = _extract_audio_for_tribe(video_path)
+    p_a = _tribe_from_path(model, audio_path=audio_path) if audio_path else None
+    audio_only_ok = p_a is not None
+    if p_a is None:
+        p_a = p_av
+
+    accessibility_gap = 1.0 - _tribe_cos(p_av, p_a)
+
+    description_gain = 0.0
+    align_va = 0.0
+    p_av_ad = None
+    ad_txt: Path | None = None
+    if ad.strip():
+        ad_txt = CACHE_DIR / f"{_slug(video_path)}_ad.txt"
+        ad_txt.write_text(ad.strip(), encoding="utf-8")
+        p_ad = _tribe_from_path(model, text_path=str(ad_txt))
+        if p_ad is not None:
+            description_gain = _tribe_cos(p_av, p_ad) - _tribe_cos(p_av, p_a)
+        # Legacy: video + AD text overlay (approximate integrated narration)
+        try:
+            events = model.get_events_dataframe(video_path=video_path)
+            if "text" in events.columns:
+                events = events.copy()
+                events["text"] = ad.strip()
+                p_av_ad = _tribe_predict_events(model, events)
+                if p_av_ad is not None:
+                    align_va = _tribe_cos(p_av, p_av_ad)
+        except Exception:
+            pass
+
+    # Optional tensor-save side effect. Set TRIBE_TENSOR_DIR=/path/to/dir
+    # in the environment to dump P_AV, P_A, P_AD, P_AV_AD as .npz per clip.
+    # Off by default so the Gradio demo / API don't bloat memory or disk.
+    tensor_dir = os.environ.get("TRIBE_TENSOR_DIR")
+    if tensor_dir:
+        try:
+            td = Path(tensor_dir)
+            td.mkdir(parents=True, exist_ok=True)
+            npz_path = td / f"{_slug(video_path)}.npz"
+            if not npz_path.exists():
+                np.savez_compressed(
+                    npz_path,
+                    P_AV=p_av.astype(np.float32),
+                    P_A=p_a.astype(np.float32),
+                    P_AD=(p_ad if 'p_ad' in dir() and p_ad is not None else np.zeros_like(p_av)).astype(np.float32),
+                    P_AV_AD=(p_av_ad if p_av_ad is not None else np.zeros_like(p_av)).astype(np.float32),
+                )
+        except Exception:
+            pass
+
+    av_mean = p_av.mean(axis=0)
+    va_mean = p_av_ad.mean(axis=0) if p_av_ad is not None else av_mean
+    parts = [f"gap {accessibility_gap:.3f}", f"DG {description_gain:.3f}"]
+    if not audio_only_ok:
+        parts.append("audio-only fallback")
+    return True, ", ".join(parts), {
         "alignment_cosine": align_va,
-        "video_mean_lh": float(avg_v[:10242].mean()),
-        "video_mean_rh": float(avg_v[10242:].mean()),
-        "video_ad_mean_lh": float(avg_va[:10242].mean()),
-        "video_ad_mean_rh": float(avg_va[10242:].mean()),
+        "accessibility_gap": accessibility_gap,
+        "description_gain": description_gain,
+        "audio_only_ok": audio_only_ok,
+        "video_mean_lh": float(av_mean[:10242].mean()),
+        "video_mean_rh": float(av_mean[10242:].mean()),
+        "video_ad_mean_lh": float(va_mean[:10242].mean()),
+        "video_ad_mean_rh": float(va_mean[10242:].mean()),
     }
