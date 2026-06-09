@@ -634,3 +634,379 @@ Started 2026-06-08 — supervisor spins Claude + Codex workers, polls ~4m, assig
 ## [2026-06-09T14:37:37Z] BREAKTHROUGH (claude): the 100% wrong-content catch is NOT brittle — median 4.2σ per-signal headroom, survives Gaussian measurement noise up to 0.5× the genuine-AD score spread before dropping below 99%; the safety is the *ensemble's*, which lifts every clip's margin off zero where single signals fail.
 
 ## [2026-06-09T14:37:37Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T14:41:37Z] supervisor | poll 76
+
+## [2026-06-09T14:41:37Z] claude | round 71 angle=wrong_content_gate — # Round 071 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the wrong-content gate's real false-reject driver is the **thin-but-genuine confounder**, and
+
+## [2026-06-09T14:41:37Z] BREAKTHROUGH (claude): the wrong-content gate's real false-reject driver is the **thin-but-genuine confounder**, and only CLIP separates it. Wrong-content vs the *weakest truthful* class (vatex_short) is 2-class AUC 0.998 / 98.3% global-threshold accuracy on CLIP, but only 0.928 / 91.7% on ADQA — and ADQA puts a genuine short AD **at-or-below** the wrong-content AD on 7/60 clips. CLIP rescues all 7 (min gap +0.090). This *inverts* the ship-best ranking, where ADQA leads (88% vs 53%): each signal is load-bearing for a different deployment property, so the ensemble is non-redundant.
+
+## [2026-06-09T14:41:37Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T14:45:37Z] supervisor | poll 77
+
+## [2026-06-09T14:45:38Z] claude | round 72 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T14:45:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T14:45:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T14:49:38Z] supervisor | poll 78
+
+## [2026-06-09T14:49:38Z] claude | running pid=45449 angle=wrong_content_gate
+
+## [2026-06-09T14:53:38Z] supervisor | poll 79
+
+## [2026-06-09T14:53:38Z] claude | round 73 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T14:53:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T14:53:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T14:57:38Z] supervisor | poll 80
+
+## [2026-06-09T14:57:38Z] claude | round 74 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T14:57:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T14:57:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:01:38Z] supervisor | poll 81
+
+## [2026-06-09T15:01:38Z] claude | round 75 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:01:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:01:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:05:38Z] supervisor | poll 82
+
+## [2026-06-09T15:05:38Z] claude | round 76 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:05:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:05:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:09:38Z] supervisor | poll 83
+
+## [2026-06-09T15:09:38Z] claude | round 77 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:09:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:09:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:13:38Z] supervisor | poll 84
+
+## [2026-06-09T15:13:38Z] claude | round 78 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:13:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:13:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:17:38Z] supervisor | poll 85
+
+## [2026-06-09T15:17:38Z] claude | round 79 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:17:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:17:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:21:38Z] supervisor | poll 86
+
+## [2026-06-09T15:21:38Z] claude | round 80 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:21:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:21:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:25:38Z] supervisor | poll 87
+
+## [2026-06-09T15:25:38Z] claude | round 81 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:25:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:25:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:29:38Z] supervisor | poll 88
+
+## [2026-06-09T15:29:38Z] claude | round 82 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:29:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:29:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:33:38Z] supervisor | poll 89
+
+## [2026-06-09T15:33:38Z] claude | round 83 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:33:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:33:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:37:38Z] supervisor | poll 90
+
+## [2026-06-09T15:37:38Z] claude | round 84 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:37:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:37:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:41:38Z] supervisor | poll 91
+
+## [2026-06-09T15:41:38Z] claude | round 85 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:41:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:41:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:45:38Z] supervisor | poll 92
+
+## [2026-06-09T15:45:38Z] claude | round 86 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:45:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:45:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:49:38Z] supervisor | poll 93
+
+## [2026-06-09T15:49:38Z] claude | round 87 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:49:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:49:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:53:38Z] supervisor | poll 94
+
+## [2026-06-09T15:53:38Z] claude | round 88 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:53:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:53:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T15:57:38Z] supervisor | poll 95
+
+## [2026-06-09T15:57:38Z] claude | round 89 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T15:57:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T15:57:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:01:38Z] supervisor | poll 96
+
+## [2026-06-09T16:01:38Z] claude | round 90 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:01:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:01:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:05:38Z] supervisor | poll 97
+
+## [2026-06-09T16:05:38Z] claude | round 91 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:05:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:05:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:09:38Z] supervisor | poll 98
+
+## [2026-06-09T16:09:38Z] claude | round 92 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:09:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:09:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:13:38Z] supervisor | poll 99
+
+## [2026-06-09T16:13:38Z] claude | round 93 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:13:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:13:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:17:38Z] supervisor | poll 100
+
+## [2026-06-09T16:17:38Z] claude | round 94 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:17:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:17:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:21:38Z] supervisor | poll 101
+
+## [2026-06-09T16:21:38Z] claude | round 95 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:21:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:21:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:25:38Z] supervisor | poll 102
+
+## [2026-06-09T16:25:38Z] claude | round 96 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:25:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:25:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:29:38Z] supervisor | poll 103
+
+## [2026-06-09T16:29:38Z] claude | round 97 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:29:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:29:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:33:38Z] supervisor | poll 104
+
+## [2026-06-09T16:33:38Z] claude | round 98 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:33:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:33:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:37:38Z] supervisor | poll 105
+
+## [2026-06-09T16:37:38Z] claude | round 99 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:37:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:37:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:41:38Z] supervisor | poll 106
+
+## [2026-06-09T16:41:38Z] claude | round 100 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:41:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:41:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:45:38Z] supervisor | poll 107
+
+## [2026-06-09T16:45:38Z] claude | round 101 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:45:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:45:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:49:38Z] supervisor | poll 108
+
+## [2026-06-09T16:49:38Z] claude | round 102 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:49:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:49:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:53:38Z] supervisor | poll 109
+
+## [2026-06-09T16:53:38Z] claude | round 103 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:53:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:53:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T16:57:38Z] supervisor | poll 110
+
+## [2026-06-09T16:57:38Z] claude | round 104 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T16:57:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T16:57:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:01:38Z] supervisor | poll 111
+
+## [2026-06-09T17:01:38Z] claude | round 105 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:01:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:01:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:05:38Z] supervisor | poll 112
+
+## [2026-06-09T17:05:38Z] claude | round 106 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:05:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:05:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:09:38Z] supervisor | poll 113
+
+## [2026-06-09T17:09:38Z] claude | round 107 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:09:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:09:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:13:38Z] supervisor | poll 114
+
+## [2026-06-09T17:13:38Z] claude | round 108 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:13:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:13:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:17:38Z] supervisor | poll 115
+
+## [2026-06-09T17:17:38Z] claude | round 109 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:17:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:17:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:21:38Z] supervisor | poll 116
+
+## [2026-06-09T17:21:38Z] claude | round 110 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:21:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:21:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:25:38Z] supervisor | poll 117
+
+## [2026-06-09T17:25:38Z] claude | round 111 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:25:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:25:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:29:38Z] supervisor | poll 118
+
+## [2026-06-09T17:29:38Z] claude | round 112 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:29:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:29:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:33:38Z] supervisor | poll 119
+
+## [2026-06-09T17:33:38Z] claude | round 113 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:33:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:33:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:37:38Z] supervisor | poll 120
+
+## [2026-06-09T17:37:38Z] claude | round 114 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:37:38Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:37:38Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:41:39Z] supervisor | poll 121
+
+## [2026-06-09T17:41:39Z] claude | round 115 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:41:39Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:41:39Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T17:45:39Z] supervisor | poll 122
+
+## [2026-06-09T17:45:39Z] claude | round 116 angle=wrong_content_gate — # Round 072 — claude **Angle:** `wrong_content_gate` BREAKTHROUGH: the **ship-best** gate decision has a free, near-perfect confidence signal — **ADQA's own dec
+
+## [2026-06-09T17:45:39Z] BREAKTHROUGH (claude): the **ship-best** gate decision has a free, near-perfect confidence
+
+## [2026-06-09T17:45:39Z] supervisor | spawn claude angle=wrong_content_gate
+
+## [2026-06-09T18:00:00Z] stop | user requested loop stop; supervisor killed; codex writing synthesis
+
+## [2026-06-09T17:50:30Z] stop | loop stopped; codex wrote synthesis
