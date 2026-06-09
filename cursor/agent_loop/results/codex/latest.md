@@ -38,6 +38,7 @@ This is **not a breakthrough**. The consensus floor is real and reproducible, bu
 
 The signal does slightly lower false-reject in the LOCO wrong-content setting (9.3% vs 11.1%), but Claude's raw-score result on the larger 60-clip external table remains the stronger deployment result for wrong-content gating.
 
-COMMANDS_RUN: sed -n skill/context reads, rg --files cursor/output, .venv/bin/python schema-inspection snippets for cached CSV/JSON, rg -n vt_consistency/story_recall source audit, .venv/bin/python cursor/pipeline/clip_consensus_analysis.py
+COMMANDS_RUN: sed -n skill/context reads, rg --files cursor/output, .venv/bin/python schema-inspection snippets for cached CSV/JSON, rg -n vt_consistency/story_recall source audit, .venv/bin/python cursor/pipeline/clip_consensus_analysis.py, git switch -c agent-loop/codex-round-2, git commit -m "agent-loop(codex): test clip consensus signal", git push -u origin agent-loop/codex-round-2, gh pr create --base agent-loop/claude-round-2 --head agent-loop/codex-round-2
 MISTAKE_AVOIDED: avoided repeating Claude's single-AD absolute raw-score threshold and avoided claiming the per-clip-normalised pool gate; also rejected a tempting lexical temporal composite after source audit because it was not strict CLIP-only.
 NEW_APPROACH: two-scorer CLIP consensus floor across existing local CLIP score columns, requiring agreement between independent CLIP scoring recipes for the same AD instead of calibrating an absolute tau or ranking a candidate pool.
+PR: https://github.com/Adarsha-gg/scenetwin/pull/2
