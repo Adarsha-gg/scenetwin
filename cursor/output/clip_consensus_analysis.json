@@ -1,0 +1,66 @@
+{
+  "input": "cursor/output/benchmark_clip_sanity.csv",
+  "signal": "clip_consensus_min = min(SceneTwin CLIP score, benchmark CLIP score)",
+  "n_clips": 18,
+  "n_rows": 72,
+  "metrics": {
+    "ours": {
+      "spearman_rho": 0.6862058303664961,
+      "full_order": 7,
+      "full_order_total": 18,
+      "adjacent_wins": 42,
+      "adjacent_total": 54,
+      "all_pairwise_wins": 90,
+      "all_pairwise_total": 108,
+      "pro_beats_short": 12,
+      "pro_beats_short_total": 18,
+      "cross_lowest": 18,
+      "cross_lowest_total": 18,
+      "wrong_content_auc_bad_low": 1.0,
+      "wrong_content_loco_gate": {
+        "target_fpr": 0.1,
+        "catch": 1.0,
+        "false_reject": 0.1111111111111111
+      }
+    },
+    "benchmark": {
+      "spearman_rho": 0.7346227922651773,
+      "full_order": 10,
+      "full_order_total": 18,
+      "adjacent_wins": 46,
+      "adjacent_total": 54,
+      "all_pairwise_wins": 96,
+      "all_pairwise_total": 108,
+      "pro_beats_short": 14,
+      "pro_beats_short_total": 18,
+      "cross_lowest": 18,
+      "cross_lowest_total": 18,
+      "wrong_content_auc_bad_low": 1.0,
+      "wrong_content_loco_gate": {
+        "target_fpr": 0.1,
+        "catch": 1.0,
+        "false_reject": 0.1111111111111111
+      }
+    },
+    "clip_consensus_min": {
+      "spearman_rho": 0.73940471442801,
+      "full_order": 10,
+      "full_order_total": 18,
+      "adjacent_wins": 46,
+      "adjacent_total": 54,
+      "all_pairwise_wins": 96,
+      "all_pairwise_total": 108,
+      "pro_beats_short": 14,
+      "pro_beats_short_total": 18,
+      "cross_lowest": 18,
+      "cross_lowest_total": 18,
+      "wrong_content_auc_bad_low": 1.0,
+      "wrong_content_loco_gate": {
+        "target_fpr": 0.1,
+        "catch": 1.0,
+        "false_reject": 0.09259259259259259
+      }
+    }
+  },
+  "interpretation": "The consensus floor is a conservative CLIP-only agreement check. It is slightly stronger than either individual scorer on rho/false-reject, but the lift is too small to call a breakthrough."
+}
