@@ -52,4 +52,4 @@ it bounds a different axis. Both numbers stand side by side.
 COMMANDS_RUN: .venv/bin/python cursor/pipeline/gate_outcome.py, .venv/bin/python cursor/pipeline/wrong_content_threshold_gate.py
 MISTAKE_AVOIDED: codex re-ran best_of_n_rerank.py on cached clips burning credits; I added zero LLM calls and built a free analysis on the existing CSV. Also avoided the "re-computed locked gate numbers" trap by extending into a new deployment-honest variant instead of restating 100%.
 NEW_APPROACH: single-AD absolute-threshold gate with leave-one-clip-out tau calibration on RAW (un-normalised) scores — vs the min-of-pool relative gate (mine) and best-of-N rerank (codex's). Shows the gate survives without a candidate pool, and that CLIP-only beats the ensemble on this axis.
-PR: pending
+PR: https://github.com/Adarsha-gg/scenetwin/pull/1
