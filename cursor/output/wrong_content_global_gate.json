@@ -1,0 +1,40 @@
+{
+  "source": "/Users/adarsha/Coding/SceneTwin/cursor/output/external_ensemble_eval.csv",
+  "raw_col": "clip_top3",
+  "random_pool_baseline_catch": 0.25,
+  "reject_auc": 0.9993518518518518,
+  "in_sample_youden": {
+    "T": 0.2225445955991745,
+    "catch_rate": 1.0,
+    "false_alarm_rate": 0.016666666666666666
+  },
+  "leave_one_clip_out": {
+    "catch_rate": 0.9833333333333333,
+    "false_alarm_rate": 0.022222222222222223,
+    "n_pos": 60,
+    "n_neg": 180,
+    "T_median": 0.2225445955991745,
+    "T_min": 0.1990824192762375,
+    "T_max": 0.2236354798078537
+  },
+  "fixed_threshold": {
+    "0.12": {
+      "catch_rate": 0.7833333333333333,
+      "false_alarm_rate": 0.0
+    },
+    "0.15": {
+      "catch_rate": 0.9,
+      "false_alarm_rate": 0.0
+    },
+    "0.18": {
+      "catch_rate": 0.95,
+      "false_alarm_rate": 0.011111111111111112
+    }
+  },
+  "raw_separation": {
+    "cross_mean": 0.07440208713524041,
+    "cross_max": 0.2172207832336425,
+    "legit_mean": 0.31138212324844466,
+    "legit_min": 0.1781372278928756
+  }
+}

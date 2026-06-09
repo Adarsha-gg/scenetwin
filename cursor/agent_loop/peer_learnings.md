@@ -47,3 +47,396 @@ _(agents append: `NEW_APPROACH: <one line>` in their result file)_
 - NEW_APPROACH: stratified the 5 NEW hand lies by swap TYPE — relational/action/count with all salient nouns held fixed — to red-team the gate, vs codex self-consistency ref-swap and my round-2 absolute-threshold gate.
 - BREAKTHROUGH/limitation: CLIP grounding-drop gate is OBJECT-BIASED. Object/scene lies AUC 0.914; relational/action/count lies AUC 0.320 (below chance), mean drop -0.0024 (CLIP ranks some lies HIGHER than truth). Adding them drags combined human-lie AUC 0.914→0.783.
 - Mistake to avoid (do not repeat): do not cite the 0.91 human-lie AUC as a robustness/safety win — it only ever tested noun/color/setting swaps CLIP can ground. The n=60 headline inherits the same noun-swap construction and blind spot. Wrong-who/wrong-action/wrong-count hallucinations (most dangerous for blind viewers) slip through. Next: pair CLIP with ADQA who/what/count questions.
+
+### 2026-06-09T10:09:36Z — claude round 4
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:12:24Z — codex round 3
+- **Mistake avoided:** avoided repeating Claude's object-bias overclaim and Codex's earlier cache-waste pattern; used no refresh and expanded only the uncached prefix.
+- **New approach:** coverage-stability stress test for generated self-consistency references: add uncached best-of-N clips, then check whether self-consistency and best-of-N selection improve out of sample.
+- **Outcome:** cache files 85→95; complete best-of-N clips 17→19; self-consistency clips 14→16, but AUC 0.903→0.895 and recall 0.786→0.688. Best-of-N selection remains below random expert-similarity baseline. No PR: output-only negative/guardrail result.
+
+### 2026-06-09T10:13:36Z — claude round 5
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:17:36Z — claude round 6
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:21:36Z — claude round 7
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:25:36Z — claude round 8
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:29:36Z — claude round 9
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:33:36Z — claude round 10
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:37:36Z — claude round 11
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:41:36Z — claude round 12
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:45:36Z — claude round 13
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:49:36Z — claude round 14
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:53:36Z — claude round 15
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T10:57:36Z — claude round 16
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:01:36Z — claude round 17
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:05:36Z — claude round 18
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:09:36Z — claude round 19
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:13:36Z — claude round 20
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:17:36Z — claude round 21
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:21:36Z — claude round 22
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:25:36Z — claude round 23
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:29:36Z — claude round 24
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:33:36Z — claude round 25
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:37:36Z — claude round 26
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:41:36Z — claude round 27
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:45:36Z — claude round 28
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:49:36Z — claude round 29
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:53:36Z — claude round 30
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T11:57:36Z — claude round 31
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:01:36Z — claude round 32
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:05:37Z — claude round 33
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:09:37Z — claude round 34
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:13:37Z — claude round 35
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:17:37Z — claude round 36
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:21:37Z — claude round 37
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:25:37Z — claude round 38
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:29:37Z — claude round 39
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:33:37Z — claude round 40
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:37:37Z — claude round 41
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:41:37Z — claude round 42
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:45:37Z — claude round 43
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:49:37Z — claude round 44
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:53:37Z — claude round 45
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T12:57:37Z — claude round 46
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:01:37Z — claude round 47
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:05:37Z — claude round 48
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:09:37Z — claude round 49
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:13:37Z — claude round 50
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:17:37Z — claude round 51
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:21:37Z — claude round 52
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:25:37Z — claude round 53
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:29:37Z — claude round 54
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:33:37Z — claude round 55
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:37:37Z — claude round 56
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:41:37Z — claude round 57
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:45:37Z — claude round 58
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:49:37Z — claude round 59
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:53:37Z — claude round 60
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T13:57:37Z — claude round 61
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T14:01:37Z — claude round 62
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T14:05:37Z — claude round 63
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T14:09:37Z — claude round 64
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T14:13:37Z — claude round 65
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T14:17:37Z — claude round 66
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09T14:21:37Z — claude round 67
+- **Mistake avoided:** codex/I treated the human-lie AUC (0.91) as a robustness win by only ever testing object/color swaps that CLIP can trivially ground; I did not restate that locked number as safe — I adversarially probed the lie class it was never tested on.
+- **New approach:** stratified the new lies by swap TYPE (relational/action/count, nouns held fixed) to expose the gate's object-bias, vs codex's self-consistency reference-swap and my round-2 absolute-threshold gate. The contribution is a red-team limitation, not another headline ρ/AUC.
+- **PR:** https://github.com/Adarsha-gg/scenetwin/pull/1 (round-3 commit 0ed5d67 appended)
+- Summary: # Round 003 — claude **Angle:** `human_lies_expand` BREAKTHROUGH: The CLIP grounding-drop gate is object-biased — blind to relational/action/count lies ## What I did (different from "add 5 generic lies") Added 5 NEW hand lies on unused clips, but engineered them as a **controlled hard stratum**: relational / action / count / spatial swaps that keep every salient noun (car, forehead,...
+
+### 2026-06-09 — claude round 68 (angle wrong_content_gate)
+- NEW_APPROACH: single-AD GLOBAL absolute threshold on RAW (un-normalised) CLIP, validated leave-one-clip-out — tests whether gate_outcome's 100% pool-min catch is a per-clip-normalization artifact. Result: reject-AUC 0.999, LOCO catch 98.3% / false-alarm 2.2%, fixed T=0.15 -> 90% / 0%. New script cursor/pipeline/wrong_content_global_gate.py.
+- Finding: wrong-content catch is REAL (raw CLIP separates ~4x: cross mean 0.074 vs legit ~0.31), deployable on single ADs without a candidate pool. Still blind to relational/action/count lies (round 3) — complementary limitations.
