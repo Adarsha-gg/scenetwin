@@ -1,0 +1,21 @@
+{
+  "n_clips": 23,
+  "n_probes": 76,
+  "relation_action_count_clips": 5,
+  "relation_action_count_probes": 22,
+  "object_scene_clips": 18,
+  "object_scene_probes": 54,
+  "clip_gate_caught_relation_action_count": 2,
+  "clip_gate_caught_object_scene": 16,
+  "probe_types": {
+    "action_relation": 37,
+    "who_role": 10,
+    "count": 13,
+    "spatial_relation": 16
+  },
+  "relation_probe_types": {
+    "spatial_relation": 9,
+    "who_role": 4,
+    "count": 9
+  }
+}

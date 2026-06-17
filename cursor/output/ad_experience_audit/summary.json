@@ -1,0 +1,43 @@
+{
+  "n_items": 3737,
+  "by_kind": {
+    "crowd_caption": {
+      "n": 3380,
+      "mean_experience_severity": 0.11153846153846154,
+      "mean_word_count": 14.617751479289941,
+      "anticipation_spoiler_rate": 0.007988165680473372,
+      "frame_dump_list_rate": 0.0002958579881656805,
+      "uncertain_inference_rate": 0.004142011834319527,
+      "timing_sequence_rate": 0.09911242603550297
+    },
+    "generated_live_ad": {
+      "n": 19,
+      "mean_experience_severity": 1.5263157894736843,
+      "mean_word_count": 73.78947368421052,
+      "anticipation_spoiler_rate": 0.10526315789473684,
+      "frame_dump_list_rate": 0.7894736842105263,
+      "uncertain_inference_rate": 0.05263157894736842,
+      "timing_sequence_rate": 0.21052631578947367
+    },
+    "professional_ad": {
+      "n": 338,
+      "mean_experience_severity": 0.32840236686390534,
+      "mean_word_count": 54.70710059171598,
+      "anticipation_spoiler_rate": 0.04142011834319527,
+      "frame_dump_list_rate": 0.05621301775147929,
+      "uncertain_inference_rate": 0.05917159763313609,
+      "timing_sequence_rate": 0.13313609467455623
+    }
+  },
+  "pattern_totals": {
+    "anticipation_spoiler": 43,
+    "frame_dump_list": 35,
+    "uncertain_inference": 35,
+    "timing_sequence": 384
+  },
+  "live_high_adqa_frame_dump": {
+    "n_high_adqa_live": 15,
+    "n_frame_dump_among_high_adqa": 12,
+    "rate": 0.8
+  }
+}

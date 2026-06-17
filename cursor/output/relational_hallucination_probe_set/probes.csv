@@ -1,0 +1,77 @@
+video_id,swap_class,is_relation_action_count,probe_idx,probe_type,question,true_answer,hallucinated_foil,truth_ad_mentions_true,truth_ad_mentions_foil,halluc_ad_mentions_true,halluc_ad_mentions_foil,swap_text
+3ufJNSez5Is_000008_000018,object_scene,0,0,action_relation,What action or interaction actually happens: vase?,vase,clay jar,1,0,0,1,vase->clay jar
+3ufJNSez5Is_000008_000018,object_scene,0,1,who_role,Who is involved or in that role: man kneels on plank?,man kneels on plank,woman stands at wheel,0,0,0,0,man kneels on plank->woman stands at wheel
+3ufJNSez5Is_000008_000018,object_scene,0,2,count,What number/count should the AD convey for: phone?,phone,wooden rib tool,1,0,0,1,phone->wooden rib tool
+_oAKCHh_Av4_000003_000013,object_scene,0,0,action_relation,What action or interaction actually happens: vape?,vape,cigar,0,0,0,1,vape->cigar
+_oAKCHh_Av4_000003_000013,object_scene,0,1,count,What number/count should the AD convey for: woman nearby?,woman nearby,man alone,0,0,0,0,woman nearby->man alone
+_oAKCHh_Av4_000003_000013,object_scene,0,2,action_relation,What action or interaction actually happens: exhales vapor?,exhales vapor,puffs smoke,0,0,0,1,exhales vapor->puffs smoke
+BHxn3qfPAl4_000018_000028,object_scene,0,0,who_role,Who is involved or in that role: woman?,woman,man,1,1,0,1,woman->man
+BHxn3qfPAl4_000018_000028,object_scene,0,1,action_relation,What action or interaction actually happens: neck massage?,neck massage,shoulder massage,0,0,0,0,neck massage->shoulder massage
+BHxn3qfPAl4_000018_000028,object_scene,0,2,spatial_relation,What is the correct spatial/relational fact: eyes closed on back?,eyes closed on back,face down,0,0,0,1,eyes closed on back->face down
+BcW6Y7eufQE_000239_000249,object_scene,0,0,action_relation,What action or interaction actually happens: pink hoodie?,pink hoodie,green hoodie,1,0,0,1,pink hoodie->green hoodie
+BcW6Y7eufQE_000239_000249,object_scene,0,1,action_relation,What action or interaction actually happens: adjusts hair?,adjusts hair,writes in notebook,0,0,0,0,adjusts hair->writes in notebook
+BcW6Y7eufQE_000239_000249,object_scene,0,2,who_role,Who is involved or in that role: older woman short hair?,older woman short hair,younger woman ponytail,0,0,0,0,older woman short hair->younger woman ponytail
+EA3HCx0yTIY_000281_000291,object_scene,0,0,who_role,Who is involved or in that role: bald man?,bald man,woman,1,0,0,1,bald man->woman
+EA3HCx0yTIY_000281_000291,object_scene,0,1,action_relation,What action or interaction actually happens: cymbal?,cymbal,hi-hat,1,0,0,1,cymbal->hi-hat
+EA3HCx0yTIY_000281_000291,object_scene,0,2,action_relation,What action or interaction actually happens: recording studio?,recording studio,practice room,1,0,0,1,recording studio->practice room
+j6CgiNeWQwM_000842_000852,object_scene,0,0,action_relation,What action or interaction actually happens: cake?,cake,cupcake tray,1,0,1,0,cake->cupcake tray
+j6CgiNeWQwM_000842_000852,object_scene,0,1,action_relation,What action or interaction actually happens: spatula?,spatula,whisk,1,0,0,1,spatula->whisk
+j6CgiNeWQwM_000842_000852,object_scene,0,2,action_relation,What action or interaction actually happens: round pan?,round pan,muffin tin,0,0,0,1,round pan->muffin tin
+9fuIpQgnNEQ_000049_000059,object_scene,0,0,spatial_relation,What is the correct spatial/relational fact: convention center?,convention center,empty plaza,1,0,0,1,convention center->empty plaza
+9fuIpQgnNEQ_000049_000059,object_scene,0,1,action_relation,What action or interaction actually happens: cosplay line?,cosplay line,scattered tourists,0,0,0,1,cosplay line->scattered tourists
+9fuIpQgnNEQ_000049_000059,object_scene,0,2,spatial_relation,What is the correct spatial/relational fact: camera on foot?,camera on foot,photographer on bicycle,0,0,0,0,camera on foot->photographer on bicycle
+u-olDM7oGGM_000012_000022,object_scene,0,0,who_role,Who is involved or in that role: boy with backpack?,boy with backpack,girl with umbrella,0,0,0,0,boy with backpack->girl with umbrella
+u-olDM7oGGM_000012_000022,object_scene,0,1,spatial_relation,What is the correct spatial/relational fact: dog on leash?,dog on leash,stroller,0,0,0,1,dog on leash->stroller
+u-olDM7oGGM_000012_000022,object_scene,0,2,action_relation,What action or interaction actually happens: jacket over head?,jacket over head,opens umbrella,0,0,0,0,jacket over head->opens umbrella
+eb-ufaFcUas_000008_000018,object_scene,0,0,action_relation,What action or interaction actually happens: shopping mall?,shopping mall,indoor gymnasium,1,0,0,1,shopping mall->indoor gymnasium
+eb-ufaFcUas_000008_000018,object_scene,0,1,action_relation,What action or interaction actually happens: bungee trampoline?,bungee trampoline,springboard,0,0,0,1,bungee trampoline->springboard
+eb-ufaFcUas_000008_000018,object_scene,0,2,action_relation,What action or interaction actually happens: watch ad?,watch ad,scoreboard,0,0,0,1,watch ad->scoreboard
+heWD9j45Emw_000225_000235,object_scene,0,0,spatial_relation,What is the correct spatial/relational fact: accordion?,accordion,acoustic guitar,1,0,0,1,accordion->acoustic guitar
+heWD9j45Emw_000225_000235,object_scene,0,1,action_relation,What action or interaction actually happens: full band?,full band,solo musician,0,0,0,1,full band->solo musician
+heWD9j45Emw_000225_000235,object_scene,0,2,count,What number/count should the AD convey for: saxophone/trumpet?,saxophone/trumpet,none,1,0,0,0,saxophone/trumpet->none
+2kJxrcNRS9w_000047_000057,object_scene,0,0,who_role,Who is involved or in that role: girl?,girl,boy,1,0,0,1,girl->boy
+2kJxrcNRS9w_000047_000057,object_scene,0,1,action_relation,What action or interaction actually happens: grass cartwheels?,grass cartwheels,trampoline backflips,0,0,0,0,grass cartwheels->trampoline backflips
+2kJxrcNRS9w_000047_000057,object_scene,0,2,spatial_relation,What is the correct spatial/relational fact: gymnastics on lawn?,gymnastics on lawn,trampoline in yard,0,0,0,0,gymnastics on lawn->trampoline in yard
+N-LZPc27kjM_000229_000239,object_scene,0,0,action_relation,What action or interaction actually happens: blue mittens?,blue mittens,green gloves,1,0,0,1,blue mittens->green gloves
+N-LZPc27kjM_000229_000239,object_scene,0,1,action_relation,What action or interaction actually happens: needle grooves?,needle grooves,glue gun beads,0,0,0,0,needle grooves->glue gun beads
+N-LZPc27kjM_000229_000239,object_scene,0,2,action_relation,What action or interaction actually happens: clay-like?,clay-like,plastic,1,0,0,1,clay-like->plastic
+RlfVK8z5wJ0_000000_000010,object_scene,0,0,action_relation,What action or interaction actually happens: pink jacket?,pink jacket,red parka,1,0,0,1,pink jacket->red parka
+RlfVK8z5wJ0_000000_000010,object_scene,0,1,action_relation,What action or interaction actually happens: yellow marker?,yellow marker,orange flag,1,0,0,1,yellow marker->orange flag
+RlfVK8z5wJ0_000000_000010,object_scene,0,2,action_relation,What action or interaction actually happens: lifting device?,lifting device,drilling auger,0,0,0,1,lifting device->drilling auger
+F-mRnL_XmJU_000000_000010,object_scene,0,0,action_relation,What action or interaction actually happens: bed?,bed,couch,1,0,0,1,bed->couch
+F-mRnL_XmJU_000000_000010,object_scene,0,1,count,What number/count should the AD convey for: paper money?,paper money,confetti,1,0,0,1,paper money->confetti
+F-mRnL_XmJU_000000_000010,object_scene,0,2,action_relation,What action or interaction actually happens: relaxed sleep?,relaxed sleep,sits up laughing,0,0,0,0,relaxed sleep->sits up laughing
+g8Idd47kGqo_000037_000047,object_scene,0,0,action_relation,What action or interaction actually happens: tap dance?,tap dance,ballet,1,0,0,1,tap dance->ballet
+g8Idd47kGqo_000037_000047,object_scene,0,1,action_relation,What action or interaction actually happens: pink shirt?,pink shirt,white tutu,1,0,0,1,pink shirt->white tutu
+g8Idd47kGqo_000037_000047,object_scene,0,2,spatial_relation,What is the correct spatial/relational fact: wooden barre?,wooden barre,mirror on ceiling,1,0,0,0,wooden barre->mirror on ceiling
+d7_SY48r__8_000060_000070,object_scene,0,0,action_relation,What action or interaction actually happens: indoor room?,indoor room,outdoor pen,0,0,0,1,indoor room->outdoor pen
+d7_SY48r__8_000060_000070,object_scene,0,1,action_relation,What action or interaction actually happens: sheep lying?,sheep lying,alpaca standing,0,0,0,0,sheep lying->alpaca standing
+d7_SY48r__8_000060_000070,object_scene,0,2,action_relation,What action or interaction actually happens: electric clippers?,electric clippers,hand shears,1,0,0,1,electric clippers->hand shears
+iEAWgsSvJAE_000023_000033,object_scene,0,0,action_relation,What action or interaction actually happens: black-and-white?,black-and-white,color,1,0,0,1,black-and-white->color
+iEAWgsSvJAE_000023_000033,object_scene,0,1,action_relation,What action or interaction actually happens: bicycle?,bicycle,motorcycle,1,0,0,1,bicycle->motorcycle
+iEAWgsSvJAE_000023_000033,object_scene,0,2,action_relation,What action or interaction actually happens: cluttered garage?,cluttered garage,driveway,1,0,0,1,cluttered garage->driveway
+S-C86j0keqc_000217_000227,object_scene,0,0,action_relation,What action or interaction actually happens: violin?,violin,acoustic guitar,1,0,0,1,violin->acoustic guitar
+S-C86j0keqc_000217_000227,object_scene,0,1,action_relation,What action or interaction actually happens: Amazing Grace?,Amazing Grace,folk tune,1,0,0,1,Amazing Grace->folk tune
+S-C86j0keqc_000217_000227,object_scene,0,2,action_relation,What action or interaction actually happens: canvas tent?,canvas tent,picnic blanket,1,0,0,1,canvas tent->picnic blanket
+ShSSAEfnyDs_000000_000010,relational_action,1,0,spatial_relation,What is the correct spatial/relational fact: dozing?,dozing,laughing,1,0,0,1,dozing->laughing
+ShSSAEfnyDs_000000_000010,relational_action,1,1,spatial_relation,What is the correct spatial/relational fact: stir and react?,stir and react,grin and relax,1,0,0,1,stir and react->grin and relax
+ShSSAEfnyDs_000000_000010,relational_action,1,2,who_role,Who is involved or in that role: pushes person away?,pushes person away,pulls person closer,0,0,0,0,pushes person away->pulls person closer
+ShSSAEfnyDs_000000_000010,relational_action,1,3,spatial_relation,What is the correct spatial/relational fact: covers camera/blocking?,covers camera/blocking,points camera/widening view,1,0,0,0,covers camera/blocking->points camera/widening view
+wbOD_G3ttgU_000083_000093,count_relational,1,0,count,What number/count should the AD convey for: three couples?,three couples,two couples,1,0,0,1,three couples->two couples
+wbOD_G3ttgU_000083_000093,count_relational,1,1,count,What number/count should the AD convey for: move in sync?,move in sync,move out of step,1,0,0,1,move in sync->move out of step
+wbOD_G3ttgU_000083_000093,count_relational,1,2,count,What number/count should the AD convey for: occasionally twirling?,occasionally twirling,rarely twirling,1,0,0,1,occasionally twirling->rarely twirling
+wbOD_G3ttgU_000083_000093,count_relational,1,3,count,What number/count should the AD convey for: changing partners?,changing partners,never changing partners,1,0,1,1,changing partners->never changing partners
+3su234u58DA_000172_000182,action_relational,1,0,who_role,Who is involved or in that role: snowball fight?,snowball fight,build a snowman,1,0,0,1,snowball fight->build a snowman
+3su234u58DA_000172_000182,action_relational,1,1,who_role,Who is involved or in that role: woman foreground?,woman foreground,man foreground,0,0,0,0,woman foreground->man foreground
+3su234u58DA_000172_000182,action_relational,1,2,spatial_relation,What is the correct spatial/relational fact: energetically throws snowballs?,energetically throws snowballs,calmly rolls snowballs,1,0,0,1,energetically throws snowballs->calmly rolls snowballs
+3su234u58DA_000172_000182,action_relational,1,3,spatial_relation,What is the correct spatial/relational fact: playful and bustling?,playful and bustling,focused and patient,1,0,0,1,playful and bustling->focused and patient
+8vkNr_eysXY_000002_000012,action_relational,1,0,who_role,Who is involved or in that role: man?,man,woman,1,0,1,1,man->woman
+8vkNr_eysXY_000002_000012,action_relational,1,1,spatial_relation,What is the correct spatial/relational fact: demonstrating/skillfully?,demonstrating/skillfully,struggling/clumsily,1,0,0,1,demonstrating/skillfully->struggling/clumsily
+8vkNr_eysXY_000002_000012,action_relational,1,2,spatial_relation,What is the correct spatial/relational fact: cut into decorative spirals?,cut into decorative spirals,mash into uneven chunks,0,0,0,0,cut into decorative spirals->mash into uneven chunks
+8vkNr_eysXY_000002_000012,action_relational,1,3,spatial_relation,What is the correct spatial/relational fact: placing into a basket?,placing into a basket,dropping onto the ground,0,0,0,0,placing into a basket->dropping onto the ground
+8vkNr_eysXY_000002_000012,action_relational,1,4,spatial_relation,What is the correct spatial/relational fact: showcasing?,showcasing,hiding technique,1,0,0,0,showcasing->hiding technique
+RjPp0ZPW0yc_000000_000010,count_action,1,0,count,What number/count should the AD convey for: a person?,a person,two people,1,0,0,1,a person->two people
+RjPp0ZPW0yc_000000_000010,count_action,1,1,count,What number/count should the AD convey for: pull down the lever?,pull down the lever,lift the lever upward,1,0,0,1,pull down the lever->lift the lever upward
+RjPp0ZPW0yc_000000_000010,count_action,1,2,count,What number/count should the AD convey for: activating?,activating,stalling the machine,1,0,0,1,activating->stalling the machine
+RjPp0ZPW0yc_000000_000010,count_action,1,3,count,What number/count should the AD convey for: grinding sound cutting?,grinding sound cutting,clicking sound jamming,0,0,0,0,grinding sound cutting->clicking sound jamming
+RjPp0ZPW0yc_000000_000010,count_action,1,4,count,What number/count should the AD convey for: guide the saw/precise cut?,guide the saw/precise cut,step back/abandon the cut,1,0,0,1,guide the saw/precise cut->step back/abandon the cut

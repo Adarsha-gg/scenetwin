@@ -1,0 +1,23 @@
+{
+  "decisive_claim_proven_locally": false,
+  "blocker": "No overlap between local TRIBE timing clips and human hallucination clips.",
+  "hallucination_clips": 23,
+  "tribe_timing_clips": 20,
+  "overlap_n": 0,
+  "overlap_ids": [],
+  "closest_evidence": {
+    "all_clip_scene_model_axis_wins": 314,
+    "all_clip_n": 338,
+    "all_clip_sign_p": 5.687526796247494e-71,
+    "clip_gate_object_scene_catch_rate": 0.8888888888888888,
+    "clip_gate_scene_model_catch_rate": 0.4,
+    "tribe_high_need_scene_model_rate": 0.7954545454545454,
+    "generic_claude_scene_model_rate": 0.5777777777777777,
+    "generic_gpt4o_scene_model_rate": 0.45555555555555555,
+    "relational_probe_manifest_valid": 15,
+    "relational_probe_manifest_total": 22,
+    "object_probe_manifest_valid": 27,
+    "object_probe_manifest_total": 54
+  },
+  "minimal_next_run": "Generate/apply TRIBE high-need windows for the 23 hallucination clips OR author relation/action/count hallucinations on the existing 20 TRIBE clips, then compare CLIP vs generic ADQA vs TRIBE-routed scene-model probes."
+}

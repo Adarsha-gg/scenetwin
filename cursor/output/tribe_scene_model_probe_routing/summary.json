@@ -1,0 +1,91 @@
+{
+  "sources": {
+    "generic_claude": {
+      "n": 90,
+      "scene_model_questions": 52,
+      "scene_model_rate": 0.5777777777777777,
+      "wilson95": [
+        0.4746099802268749,
+        0.6745775869075303
+      ],
+      "question_types": {
+        "who_role": 21,
+        "spatial_relation": 16,
+        "other": 15,
+        "object_attr": 23,
+        "action_relation": 9,
+        "count": 6
+      }
+    },
+    "generic_gpt4o": {
+      "n": 90,
+      "scene_model_questions": 41,
+      "scene_model_rate": 0.45555555555555555,
+      "wilson95": [
+        0.3565944565658975,
+        0.5581555050715851
+      ],
+      "question_types": {
+        "action_relation": 22,
+        "spatial_relation": 11,
+        "object_attr": 41,
+        "other": 8,
+        "count": 5,
+        "who_role": 3
+      }
+    },
+    "tribe_high_need_matched": {
+      "n": 44,
+      "scene_model_questions": 35,
+      "scene_model_rate": 0.7954545454545454,
+      "wilson95": [
+        0.6549913631816677,
+        0.888468721765324
+      ],
+      "question_types": {
+        "who_role": 20,
+        "object_attr": 7,
+        "count": 3,
+        "action_relation": 5,
+        "spatial_relation": 7,
+        "other": 2
+      }
+    },
+    "tribe_prompted_all": {
+      "n": 90,
+      "scene_model_questions": 56,
+      "scene_model_rate": 0.6222222222222222,
+      "wilson95": [
+        0.5189957287533067,
+        0.7154418767436157
+      ],
+      "question_types": {
+        "who_role": 29,
+        "object_attr": 23,
+        "count": 8,
+        "spatial_relation": 14,
+        "other": 11,
+        "action_relation": 5
+      }
+    }
+  },
+  "comparisons": {
+    "tribe_high_need_vs_generic_claude": {
+      "delta_scene_model_rate": 0.2176767676767677,
+      "permutation_p_one_sided": 0.008899555022248887
+    },
+    "tribe_high_need_vs_generic_gpt4o": {
+      "delta_scene_model_rate": 0.33989898989898987,
+      "permutation_p_one_sided": 0.00024998750062496874
+    },
+    "tribe_high_need_vs_tribe_prompted_all": {
+      "delta_scene_model_rate": 0.17323232323232318,
+      "permutation_p_one_sided": 0.03274836258187091
+    }
+  },
+  "clip_level": {
+    "clips_with_high_need_questions": 14,
+    "clips_with_any_scene_model_high_need_question": 14,
+    "clips_with_any_count_or_spatial_question": 7
+  }
+}
