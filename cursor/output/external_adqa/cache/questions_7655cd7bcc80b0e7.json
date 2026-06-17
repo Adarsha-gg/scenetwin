@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What water vehicle does the person operate in the middle sequence?",
+      "answer_key": "A jet ski or personal watercraft",
+      "required_visual_evidence": [
+        "person on jet ski",
+        "water spray",
+        "high-speed movement"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and central object; essential to understanding the clip's primary activity"
+    },
+    {
+      "q_idx": 1,
+      "question": "Where does this scene take place?",
+      "answer_key": "A lake surrounded by forested shoreline with buildings visible",
+      "required_visual_evidence": [
+        "large body of water",
+        "dense green trees",
+        "houses on shore"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is fundamental for orienting the listener to the environment"
+    },
+    {
+      "q_idx": 2,
+      "question": "How many people are shown standing together at the beginning and end?",
+      "answer_key": "Three people",
+      "required_visual_evidence": [
+        "three figures standing",
+        "shore location",
+        "observing water"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies secondary subjects and frames the narrative structure of the clip"
+    },
+    {
+      "q_idx": 3,
+      "question": "What happens to the jet ski operator during the sequence?",
+      "answer_key": "The operator falls or is thrown from the jet ski into the water",
+      "required_visual_evidence": [
+        "person ejected from vehicle",
+        "splash",
+        "person in water"
+      ],
+      "importance": "critical",
+      "rationale": "Key plot point showing the consequence of the jet ski action"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible in the water after the jet ski passes?",
+      "answer_key": "A yellow buoy or flotation device",
+      "required_visual_evidence": [
+        "yellow object in water",
+        "after jet ski action",
+        "floating"
+      ],
+      "importance": "useful",
+      "rationale": "Notable object that appears as a result of the main action sequence"
+    }
+  ]
+}

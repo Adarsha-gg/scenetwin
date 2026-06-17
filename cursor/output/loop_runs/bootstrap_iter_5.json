@@ -1,0 +1,9 @@
+{
+  "task": "bootstrap_ensemble",
+  "seed": 5,
+  "metric": "ensemble_mean_clip_top3",
+  "rho_mean": 0.9280498505167469,
+  "rho_lo": 0.8810735409840478,
+  "rho_hi": 0.9627192061985328,
+  "n_bootstrap": 500
+}

@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of facility or industrial setting is shown in these frames?",
+      "answer_key": "A fertilizer production or manufacturing facility with large industrial equipment and storage tanks",
+      "required_visual_evidence": [
+        "large white storage tank",
+        "industrial machinery",
+        "metal framework",
+        "warehouse-style building",
+        "website URL mentioning fertilizer"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the primary setting and context for understanding the operations shown throughout the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the large white structure visible in the facility?",
+      "answer_key": "A large white storage tank or container used for storing fertilizer or related materials",
+      "required_visual_evidence": [
+        "prominent white tank",
+        "metal support framework",
+        "industrial scale"
+      ],
+      "importance": "critical",
+      "rationale": "The tank is the dominant visual element and key infrastructure in the facility"
+    },
+    {
+      "q_idx": 2,
+      "question": "What activities are workers performing in the first two frames?",
+      "answer_key": "Workers are operating or monitoring equipment and machinery at the facility",
+      "required_visual_evidence": [
+        "multiple people in dark clothing",
+        "industrial control area",
+        "equipment operation"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the main human activity and operational context of the facility"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on-screen throughout these frames?",
+      "answer_key": "A website URL for fertilizer-machine.com appears as red text overlay",
+      "required_visual_evidence": [
+        "red text watermark",
+        "website URL",
+        "consistent across frames"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text is essential information for identifying the source and subject matter"
+    },
+    {
+      "q_idx": 4,
+      "question": "What type of lighting is used in the facility during the later frames?",
+      "answer_key": "Bright industrial LED or halogen lights illuminate the facility at night",
+      "required_visual_evidence": [
+        "bright white lighting",
+        "nighttime setting",
+        "industrial-scale illumination"
+      ],
+      "importance": "useful",
+      "rationale": "Lighting conditions help establish the operational environment and time of day"
+    }
+  ]
+}

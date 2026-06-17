@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in the first frame?",
+      "answer_key": "Speaking to the camera outdoors in a snowy setting",
+      "required_visual_evidence": [
+        "woman with blonde hair",
+        "speaking/talking",
+        "snow visible behind her",
+        "outdoor winter location"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes main subject and primary action for the entire clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location shown in most frames?",
+      "answer_key": "A snowy public plaza or park with bare trees and buildings",
+      "required_visual_evidence": [
+        "snow-covered ground",
+        "crowds of people",
+        "tall buildings",
+        "bare winter trees",
+        "urban setting"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context essential for understanding the scene and activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "What are the people in the background doing?",
+      "answer_key": "Walking, standing, and gathering in the snowy plaza area",
+      "required_visual_evidence": [
+        "multiple people",
+        "snowy ground",
+        "people in motion",
+        "crowd gathering"
+      ],
+      "importance": "useful",
+      "rationale": "Describes ambient activity that establishes the public gathering context"
+    },
+    {
+      "q_idx": 3,
+      "question": "What clothing or notable items are visible on people in the crowd?",
+      "answer_key": "Winter coats, jackets, and at least one person wearing yellow",
+      "required_visual_evidence": [
+        "dark winter coats",
+        "black jackets",
+        "yellow clothing visible"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listeners visualize the winter scene and crowd composition"
+    },
+    {
+      "q_idx": 4,
+      "question": "What time of year is depicted in these frames?",
+      "answer_key": "Winter, evidenced by snow coverage and bare trees",
+      "required_visual_evidence": [
+        "snow on ground",
+        "snow-covered surfaces",
+        "leafless trees",
+        "winter clothing"
+      ],
+      "importance": "critical",
+      "rationale": "Seasonal context is fundamental to understanding the scene's atmosphere"
+    }
+  ]
+}

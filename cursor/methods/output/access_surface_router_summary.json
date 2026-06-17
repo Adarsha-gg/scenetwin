@@ -1,0 +1,29 @@
+{
+  "n_clips": 58,
+  "surface_counts": {
+    "identity_chip": 18,
+    "defer_replay": 12,
+    "creator_qc": 3,
+    "static_ad": 19,
+    "concise_cue": 6
+  },
+  "risk_counts": {
+    "high": 7,
+    "low": 36,
+    "medium": 15
+  },
+  "compute_tier_counts": {
+    "human": 8,
+    "cloud": 14,
+    "local": 25,
+    "cached": 11
+  },
+  "high_collision_n": 24,
+  "high_collision_not_static_rate": 0.9166666666666666,
+  "high_collision_surface_counts": {
+    "identity_chip": 18,
+    "defer_replay": 1,
+    "creator_qc": 3,
+    "static_ad": 2
+  }
+}

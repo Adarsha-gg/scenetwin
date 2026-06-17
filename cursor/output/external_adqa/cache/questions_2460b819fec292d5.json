@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main action the person performs in this sequence?",
+      "answer_key": "Climbs down a ladder from a snowy rooftop",
+      "required_visual_evidence": [
+        "person on ladder",
+        "ladder against building",
+        "snow-covered roof",
+        "descent motion across frames"
+      ],
+      "importance": "critical",
+      "rationale": "The primary action defines the entire clip's narrative and purpose"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location where this action takes place?",
+      "answer_key": "A snow-covered rooftop of a building with a chimney",
+      "required_visual_evidence": [
+        "heavy snow coverage",
+        "brown/red chimney structure",
+        "green building edge",
+        "rooftop perspective"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context and environmental conditions affecting the action"
+    },
+    {
+      "q_idx": 2,
+      "question": "What object does the person use to descend from the roof?",
+      "answer_key": "A metal ladder",
+      "required_visual_evidence": [
+        "ladder rungs visible",
+        "ladder leaning against building",
+        "ladder extends from roof to ground"
+      ],
+      "importance": "critical",
+      "rationale": "The ladder is essential equipment enabling the main action"
+    },
+    {
+      "q_idx": 3,
+      "question": "What weather condition is evident throughout the sequence?",
+      "answer_key": "Heavy snow covering the roof and ground",
+      "required_visual_evidence": [
+        "thick snow layer on roof",
+        "snow on ground",
+        "snow accumulation visible throughout"
+      ],
+      "importance": "useful",
+      "rationale": "Weather conditions affect safety and difficulty of the depicted action"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible performing the main action?",
+      "answer_key": "One person",
+      "required_visual_evidence": [
+        "single figure on ladder",
+        "single person descending",
+        "one individual visible in final frames"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies whether action is solo or involves multiple participants"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "n_clips": 58,
+  "source_counts": {
+    "tier_summary_proxy": 58
+  },
+  "action_counts": {
+    "queue_residual_replay": 21,
+    "residual_concise_cue": 20,
+    "describe_residual_now": 6,
+    "static_ok": 11
+  },
+  "mean_audio_overlap_penalty": 0.18010829453053995,
+  "mean_residual_term_count": 23.189655172413794,
+  "pro_not_best_action_counts": {
+    "queue_residual_replay": 12,
+    "residual_concise_cue": 10,
+    "describe_residual_now": 3,
+    "static_ok": 2
+  },
+  "router_surface_by_residual_action": {
+    "describe_residual_now": {
+      "identity_chip": 4,
+      "static_ad": 2
+    },
+    "queue_residual_replay": {
+      "defer_replay": 12,
+      "identity_chip": 7,
+      "concise_cue": 2
+    },
+    "residual_concise_cue": {
+      "static_ad": 8,
+      "identity_chip": 5,
+      "concise_cue": 4,
+      "creator_qc": 3
+    },
+    "static_ok": {
+      "static_ad": 9,
+      "identity_chip": 2
+    }
+  }
+}

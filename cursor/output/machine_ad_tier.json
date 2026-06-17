@@ -1,0 +1,29 @@
+{
+  "run_at": "2026-06-07T18:40:30.288965+00:00",
+  "grader": "gemini-2.5-flash",
+  "n_clips": 9,
+  "ladder": "cross < crowd_short < machine_AD < expert_AD",
+  "ensemble": {
+    "rho": 0.7996533866468697,
+    "full_order": 2,
+    "n": 9,
+    "rate": 0.2222222222222222
+  },
+  "adqa_only": {
+    "rho": 0.698472162200712,
+    "full_order": 0,
+    "n": 9,
+    "rate": 0.0
+  },
+  "clip_only": {
+    "rho": 0.6744462431341247,
+    "full_order": 1,
+    "n": 9,
+    "rate": 0.1111111111111111
+  },
+  "rung_sanity": {
+    "machine>crowd": 1.0,
+    "expert>machine": 0.2222222222222222,
+    "machine>cross": 1.0
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing throughout these frames?",
+      "answer_key": "A person is jogging or running in place in an indoor gymnasium.",
+      "required_visual_evidence": [
+        "person in pink shirt",
+        "running/jogging motion",
+        "gymnasium with wooden wall"
+      ],
+      "importance": "critical",
+      "rationale": "The primary action is essential for understanding the video's content and purpose."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is this activity taking place?",
+      "answer_key": "Inside a gymnasium or indoor sports facility with a wooden wall and blue walls.",
+      "required_visual_evidence": [
+        "wooden wall paneling",
+        "blue painted wall",
+        "indoor floor",
+        "gymnasium setting"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is fundamental for listeners to visualize the scene."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the person wearing?",
+      "answer_key": "A pink short-sleeved shirt and black shorts.",
+      "required_visual_evidence": [
+        "pink shirt",
+        "black shorts",
+        "athletic wear"
+      ],
+      "importance": "useful",
+      "rationale": "Clothing description helps listeners form a complete mental image of the subject."
+    },
+    {
+      "q_idx": 3,
+      "question": "What objects are visible on the blue wall behind the person?",
+      "answer_key": "Small colored squares or markers arranged in a pattern on the wall.",
+      "required_visual_evidence": [
+        "colored squares on wall",
+        "wall markers",
+        "pattern arrangement"
+      ],
+      "importance": "useful",
+      "rationale": "Background objects provide environmental context and may indicate the facility's purpose."
+    },
+    {
+      "q_idx": 4,
+      "question": "Describe the person's body position during the running motion.",
+      "answer_key": "The person alternates between upright running posture and extended arm positions while jogging.",
+      "required_visual_evidence": [
+        "upright posture",
+        "extended arms",
+        "running stance",
+        "dynamic movement"
+      ],
+      "importance": "useful",
+      "rationale": "Body position details enhance the listener's understanding of the exercise being performed."
+    }
+  ]
+}

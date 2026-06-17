@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_00_Q76JRCyTnSc_000007_000017",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_00.mp4",
+  "ad_text_used": "In a bustling kitchen, a chef holds a cherry tomato and counts down in Spanish. With precision, he throws the tomato at a wall, followed by a knife, which pins the tomato in place. The chef smiles, showcasing his skill.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.16836341087619067,
+  "description_gain": -0.17060595919423194,
+  "alignment_cosine": 0.9955404388069582,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    10,
+    20484
+  ],
+  "P_AD_shape": [
+    20,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 0,
+  "video_id": "Q76JRCyTnSc_000007_000017",
+  "category": "Food & Cooking",
+  "duration_s": 14.9,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

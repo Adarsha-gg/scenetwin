@@ -1,0 +1,61 @@
+{
+  "task": "clip_deep_dive",
+  "clip_idx": 7,
+  "category": "Travel",
+  "risk_rank": 14,
+  "risk_score": 0.0,
+  "quality_risk": "clean",
+  "tribe_route": "extended/integrated AD likely needed",
+  "tier_scores": [
+    {
+      "tier": "tier0_cross",
+      "gt": 0,
+      "adqa_v2_score": 0.0,
+      "clip_top3": 0.1285013324684567,
+      "ensemble_mean_clip_top3": 0.0
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "gt": 1,
+      "adqa_v2_score": 0.1,
+      "clip_top3": 0.236579257580969,
+      "ensemble_mean_clip_top3": 0.5686024482479854
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "gt": 2,
+      "adqa_v2_score": 0.1,
+      "clip_top3": 0.2444945077101389,
+      "ensemble_mean_clip_top3": 0.6010903437376487
+    },
+    {
+      "tier": "tier3_va11y",
+      "gt": 3,
+      "adqa_v2_score": 0.4,
+      "clip_top3": 0.2503197822305891,
+      "ensemble_mean_clip_top3": 1.0
+    }
+  ],
+  "peak_need": {
+    "t": 14.9,
+    "score": 0.939134955406189
+  },
+  "grades_by_tier": {
+    "tier0_cross": {
+      "mean": 0.3,
+      "critical_mean": 0.0
+    },
+    "tier1_vatex_short": {
+      "mean": 0.3,
+      "critical_mean": 0.3333333333333333
+    },
+    "tier2_vatex_long": {
+      "mean": 0.3,
+      "critical_mean": 0.3333333333333333
+    },
+    "tier3_va11y": {
+      "mean": 0.3,
+      "critical_mean": 0.3333333333333333
+    }
+  }
+}

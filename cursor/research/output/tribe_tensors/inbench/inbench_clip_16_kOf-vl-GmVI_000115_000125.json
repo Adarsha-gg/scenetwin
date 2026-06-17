@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_16_kOf-vl-GmVI_000115_000125",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_16.mp4",
+  "ad_text_used": "In a fenced paddock, a woman in a pink cap and casual attire rides a horse. She gently pats the horse's head, guiding it around the corral. The setting is outdoors, near a stable, with the evening light casting a soft glow.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.1540310432853198,
+  "description_gain": -0.26891422567072076,
+  "alignment_cosine": 0.9999999999970711,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    19,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 16,
+  "video_id": "kOf-vl-GmVI_000115_000125",
+  "category": "Pets & Animals",
+  "duration_s": 16.39,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

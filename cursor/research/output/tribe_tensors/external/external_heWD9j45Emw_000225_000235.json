@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_heWD9j45Emw_000225_000235",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/heWD9j45Emw_000225_000235.mp4",
+  "ad_text_used": "On a brightly lit stage, a lively band performs a vibrant Latino music piece. At the center, a man energetically plays the accordion, surrounded by fellow musicians who dance and play various instruments, including a saxophone and trumpet. The stage is illuminated with colorful, flashing lights, enhancing the festive atmosphere as the musicians move rhythmically to the music.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.10306860522075945,
+  "description_gain": -0.3961792324775565,
+  "alignment_cosine": 0.9961179865402316,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    30,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "heWD9j45Emw_000225_000235",
+  "category": "Music",
+  "yt_id": "heWD9j45Emw",
+  "start_s": 225.0,
+  "end_s": 235.0
+}

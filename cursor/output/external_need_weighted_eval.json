@@ -1,0 +1,31 @@
+{
+  "run_at": "2026-05-27T19:25:34.982060+00:00",
+  "n_clips": 54,
+  "metrics": {
+    "clip_top3": {
+      "spearman_rho": 0.62588095086743,
+      "spearman_p": 6.842456945061421e-25,
+      "full_order": 15,
+      "n_clips": 54
+    },
+    "clip_mean": {
+      "spearman_rho": 0.6308617001183247,
+      "spearman_p": 2.244755695949886e-25,
+      "full_order": 11,
+      "n_clips": 54
+    },
+    "need_weighted_clip": {
+      "spearman_rho": 0.615520992425569,
+      "spearman_p": 6.524794135449393e-24,
+      "full_order": 11,
+      "n_clips": 54
+    },
+    "standard_slot_weighted": {
+      "spearman_rho": 0.6229589113069051,
+      "spearman_p": 1.3036030460015068e-24,
+      "full_order": 12,
+      "n_clips": 54
+    }
+  },
+  "need_weighted_lift_vs_top3": -0.010359958441860995
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject shown?",
+      "answer_key": "A baby.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the baby's primary action?",
+      "answer_key": "Tearing and crumpling a white object.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting of the scene?",
+      "answer_key": "Indoors on a light-colored carpet.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary object the baby is interacting with?",
+      "answer_key": "A white tissue or paper.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the baby's outfit?",
+      "answer_key": "Pink with small heart patterns.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What type of barrier is visible in the background?",
+      "answer_key": "A white baby gate.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What colors are the toys visible in the background on the left?",
+      "answer_key": "Yellow, red, and purple.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "How many distinct pieces of crumpled white paper are on the floor?",
+      "answer_key": "At least three pieces.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the baby's facial expression?",
+      "answer_key": "Focused and slightly pouting.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What color is the small toy directly under the baby's left leg?",
+      "answer_key": "Red or pink.",
+      "tier": "secondary"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "video_id": "1HUWWCLza0w_000000_000010",
+  "category": "Sports",
+  "tier3_va11y": "In a schoolyard, a young man in a white t-shirt and black shorts plays hopscotch on a painted court. Holding a basketball, he skillfully navigates the hopscotch pattern. After completing the sequence, he steps back and launches the basketball from a distance. The ball arcs through the air and successfully swishes through the hoop. The young man smiles, clearly pleased with his impressive shot.",
+  "tier1_vatex_short": "A boy plays hopscotch and then throws a basketball into a hoop from far away",
+  "tier2_vatex_long": "A man maneuvers through a hopscotch pattern on the ground, throws a basketball at a basketball goal, and makes the shot successfully.",
+  "tier0_cross": "At night, a skier navigates a snowy hill, weaving between flexible poles in a slalom course. The skier moves swiftly, alternating left and right, purposefully making contact with each pole as they descend the slope.",
+  "yt_id": "1HUWWCLza0w",
+  "start": 0.0,
+  "end": 10.0,
+  "acquired_at": "2026-05-27T19:14:55Z",
+  "download_ok": true,
+  "download_msg": "trimmed 10.0s"
+}

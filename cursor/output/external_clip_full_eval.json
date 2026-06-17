@@ -1,0 +1,499 @@
+{
+  "run_at": "2026-05-28T01:25:31.511499+00:00",
+  "n_external_clips": 60,
+  "n_tier_rows": 240,
+  "external_clip_spearman_rho": 0.6313563795013782,
+  "external_clip_spearman_p": 4.263287125570728e-28,
+  "external_full_order": 16,
+  "external_full_order_rate": 0.26666666666666666,
+  "external_pro_beats_short": 40,
+  "benchmark_same_clip_method": {
+    "spearman_rho": 0.6862058303664961,
+    "spearman_p": 2.879305065413414e-11,
+    "full_order_count": 7,
+    "full_order_rate": 0.3888888888888889,
+    "n_clips": 18
+  },
+  "per_clip": [
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.3274957835674286,
+      "tier1_clip": 0.33532893657684326,
+      "video_id": "0m0-Q0zz_-c_000112_000122",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3090900778770447,
+      "tier1_clip": 0.2762313783168793,
+      "video_id": "0t0DB1B1w8Y_000000_000010",
+      "category": "Sports"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.2788960039615631,
+      "tier1_clip": 0.24531759321689606,
+      "video_id": "1-jIze6gy0g_000026_000036",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.31192538142204285,
+      "tier1_clip": 0.31588998436927795,
+      "video_id": "1HUWWCLza0w_000000_000010",
+      "category": "Sports"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.3632163107395172,
+      "tier1_clip": 0.4216286242008209,
+      "video_id": "1YemrpNBpf4_000001_000011",
+      "category": "Entertainment"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.26750412583351135,
+      "tier1_clip": 0.17990176379680634,
+      "video_id": "1kLhK8KfIEw_000020_000030",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.30826887488365173,
+      "tier1_clip": 0.3301025331020355,
+      "video_id": "21T1JDdJgsM_000047_000057",
+      "category": "Entertainment"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.2808333933353424,
+      "tier1_clip": 0.2692711055278778,
+      "video_id": "2kJxrcNRS9w_000047_000057",
+      "category": "Sports"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.2961673438549042,
+      "tier1_clip": 0.2741434574127197,
+      "video_id": "3su234u58DA_000172_000182",
+      "category": "Entertainment"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.32586464285850525,
+      "tier1_clip": 0.3472655713558197,
+      "video_id": "3ufJNSez5Is_000008_000018",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3345108926296234,
+      "tier1_clip": 0.32716479897499084,
+      "video_id": "750QhTe9Z4U_000000_000010",
+      "category": "People & Vlogs"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.3149619400501251,
+      "tier1_clip": 0.32417139410972595,
+      "video_id": "8vkNr_eysXY_000002_000012",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3368607461452484,
+      "tier1_clip": 0.31118544936180115,
+      "video_id": "9eBhetL8n5Q_000222_000232",
+      "category": "People & Vlogs"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3004569709300995,
+      "tier1_clip": 0.2418421506881714,
+      "video_id": "9fuIpQgnNEQ_000049_000059",
+      "category": "Event"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3652563989162445,
+      "tier1_clip": 0.36324116587638855,
+      "video_id": "A0e7Z55s8pE_000008_000018",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.35129404067993164,
+      "tier1_clip": 0.3405637741088867,
+      "video_id": "AEkLDauJVi0_000069_000079",
+      "category": "Food & Cooking"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.246989443898201,
+      "tier1_clip": 0.284255713224411,
+      "video_id": "BHxn3qfPAl4_000018_000028",
+      "category": "Health & Wellness"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.2819806933403015,
+      "tier1_clip": 0.2236354798078537,
+      "video_id": "BcW6Y7eufQE_000239_000249",
+      "category": "People & Vlogs"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.28529092669487,
+      "tier1_clip": 0.2627175748348236,
+      "video_id": "Bss3WwpDdS8_000041_000051",
+      "category": "People & Vlogs"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.30496370792388916,
+      "tier1_clip": 0.31843605637550354,
+      "video_id": "Ccgwurislg8_000082_000092",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.39315512776374817,
+      "tier1_clip": 0.3695761263370514,
+      "video_id": "D297atE3gag_000203_000213",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3620990812778473,
+      "tier1_clip": 0.3065612316131592,
+      "video_id": "EA3HCx0yTIY_000281_000291",
+      "category": "Music"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.2727786898612976,
+      "tier1_clip": 0.26555192470550537,
+      "video_id": "F-mRnL_XmJU_000000_000010",
+      "category": "Entertainment"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.2903226912021637,
+      "tier1_clip": 0.33379340171813965,
+      "video_id": "GOH6fBhoi2o_000010_000020",
+      "category": "Entertainment"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.29707786440849304,
+      "tier1_clip": 0.28161656856536865,
+      "video_id": "HpRmj5ce32c_000001_000011",
+      "category": "Sports"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3933054506778717,
+      "tier1_clip": 0.34296882152557373,
+      "video_id": "N-LZPc27kjM_000229_000239",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3419780731201172,
+      "tier1_clip": 0.3087369501590729,
+      "video_id": "OASCPKazLIM_000132_000142",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3265191614627838,
+      "tier1_clip": 0.2671046555042267,
+      "video_id": "RjPp0ZPW0yc_000000_000010",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3771935701370239,
+      "tier1_clip": 0.36943864822387695,
+      "video_id": "RlfVK8z5wJ0_000000_000010",
+      "category": "Sports"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.39855989813804626,
+      "tier1_clip": 0.2812964916229248,
+      "video_id": "S-C86j0keqc_000217_000227",
+      "category": "Event"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3346107006072998,
+      "tier1_clip": 0.22507725656032562,
+      "video_id": "ShSSAEfnyDs_000000_000010",
+      "category": "Entertainment"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3367949426174164,
+      "tier1_clip": 0.3100564479827881,
+      "video_id": "Xdz1cxEjLYc_000007_000017",
+      "category": "Food & Cooking"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.3176001012325287,
+      "tier1_clip": 0.329271525144577,
+      "video_id": "Z5w-wkrjHuw_000345_000355",
+      "category": "Entertainment"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.315600723028183,
+      "tier1_clip": 0.3154962956905365,
+      "video_id": "ZcYB6tPK2Eo_000138_000148",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.38166606426239014,
+      "tier1_clip": 0.3596620559692383,
+      "video_id": "_TKzyWZHjm8_000002_000012",
+      "category": "Health & Wellness"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.308248370885849,
+      "tier1_clip": 0.3176219165325165,
+      "video_id": "_oAKCHh_Av4_000003_000013",
+      "category": "People & Vlogs"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.2921329438686371,
+      "tier1_clip": 0.32178953289985657,
+      "video_id": "bgt29znHCzs_000343_000353",
+      "category": "Sports"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3764289319515228,
+      "tier1_clip": 0.3642161786556244,
+      "video_id": "c_gQ9CSaZY4_000000_000010",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3836643397808075,
+      "tier1_clip": 0.26960816979408264,
+      "video_id": "crjesEwF0Ks_000197_000207",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.34377753734588623,
+      "tier1_clip": 0.3588044345378876,
+      "video_id": "d7_SY48r__8_000060_000070",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.29042860865592957,
+      "tier1_clip": 0.26702600717544556,
+      "video_id": "dlBeUWrse3I_000019_000029",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3247540593147278,
+      "tier1_clip": 0.26699528098106384,
+      "video_id": "eb-ufaFcUas_000008_000018",
+      "category": "Entertainment"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.33613336086273193,
+      "tier1_clip": 0.33581629395484924,
+      "video_id": "g8Idd47kGqo_000037_000047",
+      "category": "Entertainment"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.2898109257221222,
+      "tier1_clip": 0.3445267677307129,
+      "video_id": "gFBO3zrod9Y_000005_000015",
+      "category": "People & Vlogs"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.30176007747650146,
+      "tier1_clip": 0.3197028636932373,
+      "video_id": "h8wsO9A9v_c_000016_000026",
+      "category": "People & Vlogs"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.2960875332355499,
+      "tier1_clip": 0.3037915527820587,
+      "video_id": "heWD9j45Emw_000225_000235",
+      "category": "Music"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.36030304431915283,
+      "tier1_clip": 0.3264184892177582,
+      "video_id": "iEAWgsSvJAE_000023_000033",
+      "category": "Film & Animation"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.321382611989975,
+      "tier1_clip": 0.3033623695373535,
+      "video_id": "iGmGQxox43I_000000_000010",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.2690207362174988,
+      "tier1_clip": 0.3020048439502716,
+      "video_id": "iZP6gjlr_nM_000113_000123",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.3066578507423401,
+      "tier1_clip": 0.30677708983421326,
+      "video_id": "j4CKRgv3jUg_000000_000010",
+      "category": "Entertainment"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3035511076450348,
+      "tier1_clip": 0.2851962149143219,
+      "video_id": "j6CgiNeWQwM_000842_000852",
+      "category": "Food & Cooking"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3313535153865814,
+      "tier1_clip": 0.32319027185440063,
+      "video_id": "jeweRSnAJeo_000050_000060",
+      "category": "Film & Animation"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.3348311185836792,
+      "tier1_clip": 0.34691059589385986,
+      "video_id": "lgJywzzdUC8_000000_000010",
+      "category": "Event"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3342798948287964,
+      "tier1_clip": 0.24963800609111786,
+      "video_id": "rGQ64NXktF8_000006_000016",
+      "category": "People & Vlogs"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.2955004870891571,
+      "tier1_clip": 0.2536192238330841,
+      "video_id": "u-olDM7oGGM_000012_000022",
+      "category": "Health & Wellness"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.2225445955991745,
+      "tier1_clip": 0.17813722789287567,
+      "video_id": "v2Hr1CH-yb0_000076_000086",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.3445300757884979,
+      "tier1_clip": 0.3307919204235077,
+      "video_id": "wbOD_G3ttgU_000083_000093",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 1,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.39601659774780273,
+      "tier1_clip": 0.33741796016693115,
+      "video_id": "xW6hpK-DBMY_000080_000090",
+      "category": "How-to & Instructional"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 0,
+      "tier3_clip": 0.30386748909950256,
+      "tier1_clip": 0.3389216363430023,
+      "video_id": "yBO8rAMeqjc_000007_000017",
+      "category": "Education, Seminar & Talks"
+    },
+    {
+      "full_order_clip": 0,
+      "pro_beats_short": 1,
+      "tier3_clip": 0.38769468665122986,
+      "tier1_clip": 0.351929634809494,
+      "video_id": "zTJ0Zbv1jBo_000045_000055",
+      "category": "Health & Wellness"
+    }
+  ]
+}

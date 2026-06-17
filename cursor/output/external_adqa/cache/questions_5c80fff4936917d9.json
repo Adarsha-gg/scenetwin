@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in the video?",
+      "answer_key": "A person is standing in the middle of a wet street, appearing to pose or wait.",
+      "required_visual_evidence": [
+        "person standing alone",
+        "wet pavement",
+        "street setting"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary action and subject central to the clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is visible on the street surface in the frames?",
+      "answer_key": "Yellow double lines marking the center of the street.",
+      "required_visual_evidence": [
+        "yellow lines",
+        "street markings",
+        "pavement"
+      ],
+      "importance": "useful",
+      "rationale": "Key environmental detail that orients viewer to road setting."
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of structure is visible in the background?",
+      "answer_key": "A brick building with a covered bus shelter or transit station.",
+      "required_visual_evidence": [
+        "brick building",
+        "shelter structure",
+        "background"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the urban public transit location context."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the weather condition evident in the video?",
+      "answer_key": "The ground is wet, indicating recent rain or wet conditions.",
+      "required_visual_evidence": [
+        "wet pavement",
+        "damp surface"
+      ],
+      "importance": "useful",
+      "rationale": "Atmospheric detail that affects scene mood and visibility."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the person wearing that is visible?",
+      "answer_key": "A backpack and casual clothing including jeans.",
+      "required_visual_evidence": [
+        "backpack",
+        "jeans",
+        "casual attire"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the main subject's appearance for scene comprehension."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "run_at": "2026-06-08T00:45:07.374255+00:00",
+  "grader": "gemini/gemini-2.5-flash",
+  "decision_signal": "CLIP claim grounding (grader-free)",
+  "n_clips": 60,
+  "n_claims": 2203,
+  "n_fabricated_claims": 114,
+  "claim_level": {
+    "auc_fabricated_vs_true": 0.6927473062743023,
+    "fabricated_grounding_mean": 0.19730989282068453,
+    "true_grounding_mean": 0.237225202798073
+  },
+  "ad_gate_min": {
+    "auc": 0.5845338983050847,
+    "tau": 0.1135472148656845,
+    "recall_at_fpr": 0.1694915254237288,
+    "actual_fpr": 0.1,
+    "clean_median": 0.1533164232969284,
+    "lie_median": 0.14716759324073792
+  },
+  "ad_gate_bottom2": {
+    "auc": 0.6102401129943503,
+    "tau": 0.13310910910367965,
+    "recall_at_fpr": 0.2033898305084746,
+    "actual_fpr": 0.1,
+    "clean_median": 0.16570307314395905,
+    "lie_median": 0.15481911599636078
+  },
+  "ad_gate_min_z": {
+    "auc": 0.4596045197740113,
+    "tau": -2.1295207177234308,
+    "recall_at_fpr": 0.05084745762711865,
+    "actual_fpr": 0.1,
+    "clean_median": -1.6761747828552138,
+    "lie_median": -1.608439829898324
+  },
+  "target_fpr": 0.1
+}

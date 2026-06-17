@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the man doing with the framed poster?",
+      "answer_key": "He is pulling or removing it from the wall.",
+      "required_visual_evidence": [
+        "man in foreground",
+        "framed black and white poster",
+        "hand grasping frame edge",
+        "progressive removal across frames"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the clip; essential for understanding the scene's primary activity."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is depicted in the framed poster behind the man?",
+      "answer_key": "A black and white image of a dog or animal with textured features.",
+      "required_visual_evidence": [
+        "framed poster",
+        "black and white photograph",
+        "animal face visible",
+        "textured surface detail"
+      ],
+      "importance": "useful",
+      "rationale": "Key object in the scene; helps establish setting and context of the action."
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this scene taking place?",
+      "answer_key": "Indoors, on a wall in what appears to be a home or office.",
+      "required_visual_evidence": [
+        "interior wall",
+        "framed artwork on wall",
+        "indoor lighting",
+        "wall-mounted poster"
+      ],
+      "importance": "useful",
+      "rationale": "Setting context necessary for listener to visualize the environment and action."
+    },
+    {
+      "q_idx": 3,
+      "question": "What text is visible on the poster?",
+      "answer_key": "The word 'PRINCE' appears at the bottom of the frame.",
+      "required_visual_evidence": [
+        "text at bottom of poster",
+        "word 'PRINCE'",
+        "visible across multiple frames"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text provides identifying information about the poster's subject or title."
+    },
+    {
+      "q_idx": 4,
+      "question": "Describe the man's appearance and positioning in the scene.",
+      "answer_key": "A bald man with facial hair, positioned to the right side, facing the camera.",
+      "required_visual_evidence": [
+        "man's head and shoulders",
+        "bald head",
+        "facial hair/goatee",
+        "right side of frame",
+        "facing camera"
+      ],
+      "importance": "critical",
+      "rationale": "Main subject identification; essential for understanding who is performing the action."
+    }
+  ]
+}

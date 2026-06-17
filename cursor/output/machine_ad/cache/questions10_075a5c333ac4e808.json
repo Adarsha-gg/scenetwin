@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject shown in the first frame?",
+      "answer_key": "A blonde woman.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What activity are many people engaged in?",
+      "answer_key": "A large snowball fight.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting of the video?",
+      "answer_key": "A snow-covered park.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What are people throwing at each other?",
+      "answer_key": "Snowballs.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the expression on the blonde woman's face?",
+      "answer_key": "Distressed and tearful.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What color jacket is worn by a person prominently in the crowd?",
+      "answer_key": "A bright yellow jacket.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What structures are visible beyond the park trees?",
+      "answer_key": "Tall city buildings.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is the state of the trees in the park?",
+      "answer_key": "They are bare, without leaves.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "How many people are visible in the wider shots of the park?",
+      "answer_key": "A large crowd of people.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What action are some people doing to avoid snowballs?",
+      "answer_key": "Ducking or bending down.",
+      "tier": "secondary"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "n_clips": 58,
+  "urgency_counts": {
+    "high": 36,
+    "low": 4,
+    "medium": 18
+  },
+  "mean_sidecar_count": 4.793103448275862,
+  "sidecar_need_counts": {
+    "temporal_grounding": 37,
+    "keyframe_search": 27,
+    "video_text_ocr": 28,
+    "planner_grounder_verifier": 49,
+    "object_depth": 16,
+    "asr_transcript": 49,
+    "current_state_monitor": 18,
+    "community_quality_gate": 18
+  },
+  "high_urgency_target_n": 24,
+  "target_with_any_sidecar_rate": 1.0,
+  "no_sidecar_target_misses": 0
+}

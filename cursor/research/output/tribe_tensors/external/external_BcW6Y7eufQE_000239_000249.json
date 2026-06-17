@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_BcW6Y7eufQE_000239_000249",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/BcW6Y7eufQE_000239_000249.mp4",
+  "ad_text_used": "In a cozy room, a young woman in a pink hoodie sits across from an older woman with short hair. They engage in a lively conversation. The young woman adjusts her hair, prompting laughter from the older woman. Their interaction is light-hearted and filled with giggles, creating a warm and friendly atmosphere.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.1366415140927154,
+  "description_gain": -0.08231350089335776,
+  "alignment_cosine": 0.9895052700154282,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    23,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "BcW6Y7eufQE_000239_000249",
+  "category": "People & Vlogs",
+  "yt_id": "BcW6Y7eufQE",
+  "start_s": 239.0,
+  "end_s": 249.0
+}

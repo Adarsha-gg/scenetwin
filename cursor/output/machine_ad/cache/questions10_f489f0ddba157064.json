@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject visible in the frames?",
+      "answer_key": "A young boy.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the boy primarily doing?",
+      "answer_key": "He is looking at a bright blue light source.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting of the scene?",
+      "answer_key": "A dimly lit, dark room or enclosed space.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the most prominent object the boy is interacting with?",
+      "answer_key": "A tall, vertical, glowing blue light source.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color shirt is the boy wearing?",
+      "answer_key": "A blue shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "Describe the boy's posture in the later frames.",
+      "answer_key": "He is standing or sitting, with a hand near his mouth.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is the shape and dominant color of the bright object?",
+      "answer_key": "It is a tall, vertical, bright blue and white glowing object.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What can be seen of the background walls?",
+      "answer_key": "Dark, textured walls are visible.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the primary color of the light emanating from the object?",
+      "answer_key": "Bright blue.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "How would you describe the overall illumination of the scene?",
+      "answer_key": "The scene is very dark, illuminated by one bright blue source.",
+      "tier": "secondary"
+    }
+  ]
+}

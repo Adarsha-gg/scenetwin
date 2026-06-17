@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_ZcYB6tPK2Eo_000138_000148",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/ZcYB6tPK2Eo_000138_000148.mp4",
+  "ad_text_used": "A man demonstrates how to solve a Rubik's cube. He holds a brightly colored cube, turning and pointing at its blocks while explaining his process. The cube features vibrant colors like orange, green, pink, and blue. His hands move swiftly as he progresses through the puzzle, providing a step-by-step guide to solving it.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.25646987169948376,
+  "description_gain": -0.12543279078259517,
+  "alignment_cosine": 0.9770208526403565,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    25,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "ZcYB6tPK2Eo_000138_000148",
+  "category": "How-to & Instructional",
+  "yt_id": "ZcYB6tPK2Eo",
+  "start_s": 138.0,
+  "end_s": 148.0
+}

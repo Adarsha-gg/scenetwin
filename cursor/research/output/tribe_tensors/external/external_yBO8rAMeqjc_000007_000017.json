@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_yBO8rAMeqjc_000007_000017",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/yBO8rAMeqjc_000007_000017.mp4",
+  "ad_text_used": "On a stage, two men demonstrate sheep shearing to a captivated audience. One man skillfully shears the wool from a sheep, while the other, wearing a headset, explains the process to the crowd, which includes families and children. The sheep sits calmly as its fleece is removed. The audience watches attentively, with some children sitting at the front, clearly engaged in the demonstration.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.21581907279355772,
+  "description_gain": -0.4375882700531658,
+  "alignment_cosine": 0.9999999999972835,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    31,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "yBO8rAMeqjc_000007_000017",
+  "category": "Education, Seminar & Talks",
+  "yt_id": "yBO8rAMeqjc",
+  "start_s": 7.0,
+  "end_s": 17.0
+}

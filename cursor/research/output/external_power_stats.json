@@ -1,0 +1,15 @@
+{
+  "n_obs_external": 240,
+  "rho_external": 0.8731713300938145,
+  "p_rho_external": 3.098358885637082e-76,
+  "tau_external": 0.7564453161618445,
+  "bootstrap_CI_external": [
+    0.8356489768428413,
+    0.90211569618608
+  ],
+  "perm_p_external": 0.0,
+  "min_detectable_rho_external": 0.17990019609868607,
+  "n_obs_combined": 312,
+  "rho_combined": 0.8865344542040517,
+  "min_detectable_rho_combined": 0.15795282034960612
+}

@@ -1,0 +1,55 @@
+{
+  "signals": {
+    "need_speech_gap": {
+      "mean": -0.25029331504450303,
+      "std": 0.30277705567386226,
+      "p50": -0.3326485566864187,
+      "p80": -0.09523941897611451,
+      "direction": "high_bad",
+      "auc_full_order": 0.3943452380952381,
+      "auc_pro_loses": 0.46558704453441296
+    },
+    "peak_over_words": {
+      "mean": 0.012088250237444937,
+      "std": 0.0029507134595998597,
+      "p50": 0.011521693726845254,
+      "p80": 0.013712131217682942,
+      "direction": "high_bad",
+      "auc_full_order": 0.4375,
+      "auc_pro_loses": 0.5290148448043185
+    },
+    "clip_t3_minus_t1": {
+      "mean": 0.017638887824683355,
+      "std": 0.03893933864211972,
+      "p50": 0.012975454330444336,
+      "p80": 0.047964924573898324,
+      "direction": "low_bad",
+      "auc_full_order": 0.8809523809523809,
+      "auc_pro_loses": 1.0
+    },
+    "read_seconds": {
+      "mean": 16.313793103448276,
+      "std": 3.111627153661041,
+      "p50": 15.899999999999999,
+      "p80": 18.599999999999998,
+      "direction": "high_bad",
+      "auc_full_order": 0.5944940476190477,
+      "auc_pro_loses": 0.4716599190283401
+    }
+  },
+  "weights": {
+    "need_speech_gap": 0.35,
+    "peak_over_words": 0.25,
+    "clip_t3_minus_t1": 0.25,
+    "read_seconds": 0.15
+  },
+  "source": "external_clips_only",
+  "n_external": 58,
+  "risk_p80": 0.5508756939917733,
+  "risk_mean": 0.49169178237077105,
+  "flag_rule": "risk >= external p80 (top 20% on held-out YouTube clips)",
+  "external_auc": {
+    "full_order_fail": 0.6369047619047619,
+    "pro_loses": 0.7408906882591093
+  }
+}

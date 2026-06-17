@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject of the video?",
+      "answer_key": "A young child.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the child doing?",
+      "answer_key": "Riding a bicycle.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the primary object the child is interacting with?",
+      "answer_key": "A small red bicycle.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What kind of surface is the child riding on?",
+      "answer_key": "A paved outdoor surface.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the child's shirt?",
+      "answer_key": "White with a red collar.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What color is the basket on the front of the bicycle?",
+      "answer_key": "Red.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color is the seat of the bicycle?",
+      "answer_key": "Yellow.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "How many training wheels are visible on the bicycle?",
+      "answer_key": "Two.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is visible in the background behind the child?",
+      "answer_key": "Piles of debris, dirt, and some green foliage.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "In which general direction does the child ride the bicycle?",
+      "answer_key": "Away from the camera.",
+      "tier": "secondary"
+    }
+  ]
+}

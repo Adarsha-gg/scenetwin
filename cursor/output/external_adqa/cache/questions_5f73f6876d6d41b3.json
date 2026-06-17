@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in these frames?",
+      "answer_key": "Playing drums; a drummer performing at a drum kit",
+      "required_visual_evidence": [
+        "man seated at drum kit",
+        "holding drumsticks",
+        "positioned behind drums"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary action and subject essential to understanding the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the setting where this activity is taking place.",
+      "answer_key": "Indoor studio or rehearsal space with brick walls and amplifiers",
+      "required_visual_evidence": [
+        "brick wall background",
+        "amplifiers visible",
+        "indoor studio environment"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes location context necessary for scene comprehension"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main instrument visible in the frames?",
+      "answer_key": "A drum kit with multiple drums, cymbals, and hardware",
+      "required_visual_evidence": [
+        "drum kit",
+        "cymbals",
+        "drum hardware and stands"
+      ],
+      "importance": "critical",
+      "rationale": "Key object central to understanding the activity being performed"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the drummer holding in their hands?",
+      "answer_key": "Drumsticks used to play the drums",
+      "required_visual_evidence": [
+        "drumsticks in hands",
+        "holding implements"
+      ],
+      "importance": "useful",
+      "rationale": "Details the tools used to perform the primary action"
+    },
+    {
+      "q_idx": 4,
+      "question": "What physical appearance characteristics does the main subject have?",
+      "answer_key": "Bald or balding man with facial hair, wearing dark clothing",
+      "required_visual_evidence": [
+        "bald head",
+        "facial hair/beard",
+        "dark shirt"
+      ],
+      "importance": "useful",
+      "rationale": "Provides basic physical description for listener visualization"
+    }
+  ]
+}

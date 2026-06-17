@@ -1,0 +1,26 @@
+{
+  "run_at": "2026-06-07T21:12:44.107928+00:00",
+  "n_clips": 60,
+  "ensemble": {
+    "n_fail": 2,
+    "n_ok": 58,
+    "gap_fail_mean": 0.4068712228207547,
+    "gap_ok_mean": 0.1685062939899627,
+    "auc_gap_predicts_failure": 1.0,
+    "mwu_p_one_sided": 0.0005649717514124294,
+    "recall_at_10pct": 1.0,
+    "recall_at_20pct": 1.0,
+    "recall_at_30pct": 1.0
+  },
+  "adqa_only": {
+    "n_fail": 10,
+    "n_ok": 50,
+    "gap_fail_mean": 0.26665666017506245,
+    "gap_ok_mean": 0.15841081790617445,
+    "auc_gap_predicts_failure": 0.794,
+    "mwu_p_one_sided": 0.0018310838029608261,
+    "recall_at_10pct": 0.4,
+    "recall_at_20pct": 0.6,
+    "recall_at_30pct": 0.7
+  }
+}

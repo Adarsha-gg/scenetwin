@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject in the video?",
+      "answer_key": "A person with long dark hair and a goatee.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main action occurring in the video?",
+      "answer_key": "A person is struck in the face by a hand.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location of the scene?",
+      "answer_key": "A kitchen or domestic room.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary object involved in the action?",
+      "answer_key": "A hand striking the person's face.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the main subject's shirt?",
+      "answer_key": "The main subject wears a dark, possibly black, shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What specific facial hair does the main subject have?",
+      "answer_key": "The main subject has a goatee.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is visible in the background behind the main subject?",
+      "answer_key": "A window with a white curtain and wooden cabinets.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "How does the main subject appear in the initial frames?",
+      "answer_key": "Looking towards the camera, possibly smiling.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What part of the secondary person is visible during the action?",
+      "answer_key": "A hand, arm, and a baseball cap.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Describe the sequence of the striking action.",
+      "answer_key": "A hand approaches the face and then strikes it.",
+      "tier": "secondary"
+    }
+  ]
+}

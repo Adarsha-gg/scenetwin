@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What are the two people doing with the bicycle?",
+      "answer_key": "They are working on or repairing the bicycle together.",
+      "required_visual_evidence": [
+        "two people",
+        "bicycle",
+        "hands working on bike components"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and subject; essential for understanding the scene's purpose."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where does this activity take place?",
+      "answer_key": "Indoors on a tiled floor against a green wall.",
+      "required_visual_evidence": [
+        "green wall",
+        "tiled floor",
+        "indoor setting"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is fundamental to AD; establishes location and environment."
+    },
+    {
+      "q_idx": 2,
+      "question": "What objects are visible in the background of the room?",
+      "answer_key": "A shopping cart, blue containers, and other storage items.",
+      "required_visual_evidence": [
+        "shopping cart",
+        "blue containers",
+        "background items"
+      ],
+      "importance": "useful",
+      "rationale": "Background objects help establish the space type and context of the activity."
+    },
+    {
+      "q_idx": 3,
+      "question": "What type of bicycle is being worked on?",
+      "answer_key": "A silver or gray utility bicycle with a basket.",
+      "required_visual_evidence": [
+        "silver/gray bicycle",
+        "basket on front",
+        "utility-style frame"
+      ],
+      "importance": "useful",
+      "rationale": "Bicycle type provides visual context for understanding the repair work."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are actively engaged in the bicycle work?",
+      "answer_key": "Two people are working on the bicycle together.",
+      "required_visual_evidence": [
+        "two individuals",
+        "both hands visible working",
+        "collaborative positioning"
+      ],
+      "importance": "critical",
+      "rationale": "Number of participants is essential for understanding the scene's social dynamic."
+    }
+  ]
+}

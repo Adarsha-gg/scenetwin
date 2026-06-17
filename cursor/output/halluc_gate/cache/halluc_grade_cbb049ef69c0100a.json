@@ -1,0 +1,52 @@
+[
+  {
+    "candidate_id": "A",
+    "q_idx": 0,
+    "score": 1.0
+  },
+  {
+    "candidate_id": "A",
+    "q_idx": 1,
+    "score": 1.0
+  },
+  {
+    "candidate_id": "A",
+    "q_idx": 2,
+    "score": 1.0
+  },
+  {
+    "candidate_id": "A",
+    "q_idx": 3,
+    "score": 0.5
+  },
+  {
+    "candidate_id": "A",
+    "q_idx": 4,
+    "score": 1.0
+  },
+  {
+    "candidate_id": "B",
+    "q_idx": 0,
+    "score": 0.0
+  },
+  {
+    "candidate_id": "B",
+    "q_idx": 1,
+    "score": 0.0
+  },
+  {
+    "candidate_id": "B",
+    "q_idx": 2,
+    "score": 1.0
+  },
+  {
+    "candidate_id": "B",
+    "q_idx": 3,
+    "score": 0.5
+  },
+  {
+    "candidate_id": "B",
+    "q_idx": 4,
+    "score": 1.0
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_lgJywzzdUC8_000000_000010",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/lgJywzzdUC8_000000_000010.mp4",
+  "ad_text_used": "In a snowy city street at night, a yellow bulldozer methodically clears large piles of snow. The operator skillfully maneuvers the machine, scooping up snow and moving it aside. Cars occasionally pass by, their headlights illuminating the scene. The streetlights cast a warm glow over the bustling activity as snow continues to fall.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.2670980013596652,
+  "description_gain": -0.37512101096802597,
+  "alignment_cosine": 0.9881697079061769,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    26,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "lgJywzzdUC8_000000_000010",
+  "category": "Event",
+  "yt_id": "lgJywzzdUC8",
+  "start_s": 0.0,
+  "end_s": 10.0
+}

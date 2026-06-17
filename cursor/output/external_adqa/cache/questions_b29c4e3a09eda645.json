@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person in the black outfit doing with the yellow produce?",
+      "answer_key": "Selecting or picking yellow bananas from a display",
+      "required_visual_evidence": [
+        "person in black clothing",
+        "yellow bananas",
+        "plastic bags",
+        "handling/selecting action"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and subject are essential for understanding the scene's purpose"
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is this activity taking place?",
+      "answer_key": "At a market or produce stand with organized fruit displays",
+      "required_visual_evidence": [
+        "produce display",
+        "organized arrangement",
+        "market setting",
+        "multiple items for sale"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is fundamental for orienting the listener to the environment"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of produce is being selected in the frames?",
+      "answer_key": "Bananas in yellow bunches",
+      "required_visual_evidence": [
+        "yellow bunches",
+        "banana shape",
+        "multiple bunches displayed"
+      ],
+      "importance": "useful",
+      "rationale": "Identifying the specific produce helps listeners understand the shopping activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What containers or packaging are visible for the produce?",
+      "answer_key": "Clear plastic bags and black crates or baskets",
+      "required_visual_evidence": [
+        "clear plastic bags",
+        "black crates",
+        "packaging materials",
+        "storage containers"
+      ],
+      "importance": "useful",
+      "rationale": "Packaging details help listeners visualize the market display organization"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the white labels or signs in the display?",
+      "answer_key": "Handwritten text on white cards or labels above the produce",
+      "required_visual_evidence": [
+        "white labels",
+        "handwritten text",
+        "price or product information"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text indicates typical market signage for pricing or product identification"
+    }
+  ]
+}

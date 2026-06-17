@@ -1,0 +1,72 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What are the children doing in the outdoor scenes at the top?",
+      "answer_key": "Two children are looking at or examining something on a brick wall near a railing.",
+      "required_visual_evidence": [
+        "two children",
+        "brick wall",
+        "outdoor setting",
+        "railing",
+        "examining"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes main action and setting for opening sequence of the video."
+    },
+    {
+      "q_idx": 1,
+      "question": "What colorful objects are the child manipulating indoors?",
+      "answer_key": "Star-shaped puzzle pieces or tiles in multiple colors including red, blue, and yellow.",
+      "required_visual_evidence": [
+        "star shapes",
+        "colorful",
+        "multiple colors",
+        "child hands",
+        "table"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies key objects and activity central to the indoor portion of the clip."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting for the indoor activity with the star objects?",
+      "answer_key": "A table or work surface with a green top, indoors.",
+      "required_visual_evidence": [
+        "green table",
+        "indoor",
+        "work surface",
+        "child leaning over"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context for where the main activity takes place."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the child doing in the final outdoor scene?",
+      "answer_key": "A child is crouching or bending down, holding or examining something small in their hands.",
+      "required_visual_evidence": [
+        "crouching",
+        "outdoor",
+        "hands",
+        "small object",
+        "ground level"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the concluding action and demonstrates engagement with an object."
+    },
+    {
+      "q_idx": 4,
+      "question": "What age group are the main subjects in this video?",
+      "answer_key": "Young children, appearing to be preschool or early elementary school age.",
+      "required_visual_evidence": [
+        "small hands",
+        "child proportions",
+        "young appearance",
+        "educational activity"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener understand the developmental context of the activities shown."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "task": "permutation_null",
+  "obs_rho": 0.9284910256386235,
+  "null_mean": 0.0029054923780539575,
+  "null_p_ge_obs": 0.0,
+  "iteration": 8
+}

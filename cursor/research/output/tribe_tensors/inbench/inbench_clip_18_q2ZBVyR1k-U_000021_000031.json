@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_18_q2ZBVyR1k-U_000021_000031",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_18.mp4",
+  "ad_text_used": "In a wooded area, a man in a beekeeper's suit stands in the back of a truck. He removes his protective hood, revealing his face. Nearby, another man, dressed casually, sits holding a large blue canister and drinks from a cup. The scene captures a moment of rest and conversation between the two individuals.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.14019508205815057,
+  "description_gain": -0.01802134102727615,
+  "alignment_cosine": 0.9634328062314222,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    25,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 18,
+  "video_id": "q2ZBVyR1k-U_000021_000031",
+  "category": "Pets & Animals",
+  "duration_s": 16.39,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

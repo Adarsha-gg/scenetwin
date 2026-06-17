@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject of the video?",
+      "answer_key": "A person.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action performed by the person?",
+      "answer_key": "The person puts on sunglasses.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does the scene take place?",
+      "answer_key": "Inside a vehicle.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What object does the person put on their face?",
+      "answer_key": "Sunglasses.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What headwear is the person wearing?",
+      "answer_key": "A light-colored cap.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is the person wearing on their face before the sunglasses?",
+      "answer_key": "Clear glasses.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is visible on the person's left wrist?",
+      "answer_key": "A dark bracelet or band.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What does the person do with their head before putting on sunglasses?",
+      "answer_key": "They turn their head to face forward.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What can be seen outside the vehicle window?",
+      "answer_key": "Blurry buildings or structures.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "How many hands does the person use to adjust the sunglasses?",
+      "answer_key": "Two hands.",
+      "tier": "secondary"
+    }
+  ]
+}

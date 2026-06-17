@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who are the primary figures shown in the initial frames?",
+      "answer_key": "Several workers.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What primary activity are the workers engaged in?",
+      "answer_key": "Filling and handling large white bags.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What kind of environment is depicted in the video clip?",
+      "answer_key": "An industrial facility or factory.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What large piece of equipment is central to the workers' activity?",
+      "answer_key": "A large metal hopper or filling machine.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the face covering worn by the worker on the far left?",
+      "answer_key": "Green.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What specific items are being filled and moved by the workers?",
+      "answer_key": "Large white bags.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How many distinct workers are visible in the first two frames?",
+      "answer_key": "Three workers.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What long structures are visible extending through the industrial space?",
+      "answer_key": "Conveyor belts or chutes.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What website address is displayed in red text at the top of the frames?",
+      "answer_key": "http://www.fertilizer-machine.com",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What type of mask is worn by the worker in the final close-up frame?",
+      "answer_key": "A white respirator mask with a blue filter.",
+      "tier": "secondary"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_v2Hr1CH-yb0_000076_000086",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/v2Hr1CH-yb0_000076_000086.mp4",
+  "ad_text_used": "In a large factory setting, workers wearing safety masks are busy operating machinery. They fill large bags with material from a machine, working efficiently in a spacious warehouse. A young woman walks by, laughing, adding a moment of lightness to the industrious atmosphere. The scene shifts to show the expansive interior of the warehouse, with conveyor belts and equipment lining the space.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.3238461558501835,
+  "description_gain": -0.4462028787576112,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    31,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "v2Hr1CH-yb0_000076_000086",
+  "category": "How-to & Instructional",
+  "yt_id": "v2Hr1CH-yb0",
+  "start_s": 76.0,
+  "end_s": 86.0
+}

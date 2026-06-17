@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_gFBO3zrod9Y_000005_000015",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/gFBO3zrod9Y_000005_000015.mp4",
+  "ad_text_used": "A baby in a pink onesie sits on a carpeted floor, surrounded by colorful toys. She is focused on tearing apart a piece of tissue paper, her small hands working diligently. The room is softly lit, creating a cozy atmosphere as she continues to play with the paper, scattering bits around her.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.17114612043899524,
+  "description_gain": -0.0243201889196617,
+  "alignment_cosine": 0.9822662711684517,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    24,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "gFBO3zrod9Y_000005_000015",
+  "category": "People & Vlogs",
+  "yt_id": "gFBO3zrod9Y",
+  "start_s": 5.0,
+  "end_s": 15.0
+}

@@ -1,0 +1,39 @@
+clip_idx,window_idx,start_s,end_s,need_score,speech_density,recommendation,raw_trs,window_agency,agency_rank,recommended_intervention,category
+18,4,11.92,14.9,0.7941592025899242,1.0,extended_or_integrated_ad,2,0.4764955215539545,1,interactive_vqa_first,Pets & Animals
+18,3,8.94,11.92,0.7036559923887971,1.0,extended_or_integrated_ad,2,0.4221935954332782,1,interactive_vqa_first,Pets & Animals
+18,5,14.9,16.39,0.6837089417348918,1.0,extended_or_integrated_ad,1,0.4102253650409351,1,interactive_vqa_first,Pets & Animals
+18,1,2.98,5.96,0.598216940713403,1.0,extended_or_integrated_ad,2,0.3589301644280418,1,interactive_vqa_first,Pets & Animals
+18,2,5.96,8.94,0.4737053869495402,1.0,extended_or_integrated_ad,2,0.2842232321697241,1,interactive_vqa_first,Pets & Animals
+18,0,0.0,2.98,0.2121795040846404,1.0,low_ad_need,2,0.12730770245078424,1,interactive_vqa_first,Pets & Animals
+17,4,11.92,14.9,0.989735822398962,1.0,extended_or_integrated_ad,2,0.5938414934393772,2,interactive_vqa_first,Pets & Animals
+17,3,8.94,11.92,0.8025382417134777,1.0,extended_or_integrated_ad,2,0.48152294502808657,2,interactive_vqa_first,Pets & Animals
+17,5,14.9,17.88,0.5208642863381827,1.0,extended_or_integrated_ad,2,0.3125185718029096,2,interactive_vqa_first,Pets & Animals
+17,1,2.98,5.96,0.5085567810193516,1.0,extended_or_integrated_ad,2,0.30513406861161096,2,interactive_vqa_first,Pets & Animals
+17,2,5.96,8.94,0.5781991369169097,0.5,extended_or_integrated_ad,2,0.28909956845845486,2,interactive_vqa_first,Pets & Animals
+17,0,0.0,2.98,0.317857597893138,1.0,low_ad_need,2,0.1907145587358828,2,interactive_vqa_first,Pets & Animals
+17,6,17.88,19.37,0.0,1.0,low_ad_need,1,0.0,2,interactive_vqa_first,Pets & Animals
+12,7,20.86,23.84,0.735211847576222,1.0,extended_or_integrated_ad,2,0.4411271085457332,3,human_review,Sports
+12,6,17.88,20.86,0.8448310839474196,0.5,extended_or_integrated_ad,2,0.4224155419737098,3,human_review,Sports
+12,4,11.92,14.9,0.8208291880667623,0.5,extended_or_integrated_ad,2,0.41041459403338115,3,human_review,Sports
+12,5,14.9,17.88,0.8755344451155387,0.0,standard_ad_slot,2,0.3502137780462155,3,human_review,Sports
+12,3,8.94,11.92,0.4779665142541972,0.5,extended_or_integrated_ad,2,0.2389832571270986,3,human_review,Sports
+12,2,5.96,8.94,0.1664979938290781,1.0,low_ad_need,2,0.09989879629744686,3,human_review,Sports
+12,1,2.98,5.96,0.1349657341985946,0.0,low_ad_need,2,0.05398629367943784,3,human_review,Sports
+12,0,0.0,2.98,0.090240713729504,0.5,low_ad_need,2,0.045120356864752,3,human_review,Sports
+0,3,8.94,11.92,0.5841811642054016,1.0,extended_or_integrated_ad,2,0.3505086985232409,4,interactive_vqa_first,Food & Cooking
+0,0,0.0,2.98,0.4720351619923033,1.0,extended_or_integrated_ad,2,0.28322109719538197,4,interactive_vqa_first,Food & Cooking
+0,4,11.92,14.9,0.4488081958061095,1.0,extended_or_integrated_ad,2,0.2692849174836657,4,interactive_vqa_first,Food & Cooking
+0,2,5.96,8.94,0.2593183505830911,1.0,low_ad_need,2,0.15559101034985465,4,interactive_vqa_first,Food & Cooking
+0,1,2.98,5.96,0.1776389662873521,1.0,low_ad_need,2,0.10658337977241125,4,interactive_vqa_first,Food & Cooking
+15,1,2.98,5.96,0.6141136134833061,1.0,extended_or_integrated_ad,2,0.3684681680899836,5,human_review,Pets & Animals
+15,2,5.96,8.94,0.633079272327266,0.5,extended_or_integrated_ad,2,0.316539636163633,5,human_review,Pets & Animals
+15,0,0.0,2.98,0.5108059153297729,1.0,extended_or_integrated_ad,2,0.30648354919786375,5,human_review,Pets & Animals
+15,4,11.92,14.9,0.7493147206590085,0.0,standard_ad_slot,2,0.2997258882636034,5,human_review,Pets & Animals
+15,3,8.94,11.92,0.5706195456395662,0.5,extended_or_integrated_ad,2,0.2853097728197831,5,human_review,Pets & Animals
+15,5,14.9,16.39,0.0,0.0,low_ad_need,1,0.0,5,human_review,Pets & Animals
+5,3,8.94,11.92,0.8559741095030897,1.0,extended_or_integrated_ad,2,0.5135844657018538,6,extended_or_integrated_ad,Food & Cooking
+5,2,5.96,8.94,0.7560088155850923,1.0,extended_or_integrated_ad,2,0.4536052893510553,6,extended_or_integrated_ad,Food & Cooking
+5,4,11.92,14.9,0.7296038009171194,1.0,extended_or_integrated_ad,2,0.4377622805502716,6,extended_or_integrated_ad,Food & Cooking
+5,0,0.0,2.98,0.6669367504852477,1.0,extended_or_integrated_ad,2,0.4001620502911486,6,extended_or_integrated_ad,Food & Cooking
+5,1,2.98,5.96,0.619522408699223,1.0,extended_or_integrated_ad,2,0.3717134452195338,6,extended_or_integrated_ad,Food & Cooking
+5,5,14.9,16.39,0.0,1.0,low_ad_need,1,0.0,6,extended_or_integrated_ad,Food & Cooking

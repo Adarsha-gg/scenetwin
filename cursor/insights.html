@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>SceneTwin cursor insights</title>
+  <style>
+    :root { font-family: system-ui, sans-serif; background: #0a0b0d; color: #e8e8ea; }
+    body { max-width: 960px; margin: 0 auto; padding: 24px; line-height: 1.5; }
+    h1 { font-weight: 500; letter-spacing: -0.02em; }
+    .muted { color: #888; font-size: 14px; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+    th, td { border: 1px solid #333; padding: 8px 10px; text-align: left; }
+    th { background: #14161a; }
+    .card { border: 1px solid #333; padding: 16px; margin: 16px 0; background: #111318; }
+    code { font-family: ui-monospace, monospace; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1>SceneTwin cursor insights</h1>
+  <p class="muted">Generated from <code>cursor/output/</code> · headline ρ = -0.7505278054885973</p>
+
+  <div class="card">
+    <h2>Composite review priority (top 5)</h2>
+    <p class="muted">60% TRIBE risk + 40% ADQA judge fragility. Recall@3 catches both known failures.</p>
+    <table>
+      <tr><th>Clip</th><th>Category</th><th>Rank</th><th>Score</th><th>Risk note</th></tr>
+      <tr><td>clip_12</td><td>Sports</td><td>1</td><td>0.925</td><td>tier2/tier1 inversion risk</td></tr><tr><td>clip_15</td><td>Pets & Animals</td><td>2</td><td>0.923</td><td>professional AD barely leads</td></tr><tr><td>clip_11</td><td>Sports</td><td>3</td><td>0.526</td><td>clean</td></tr><tr><td>clip_03</td><td>Food & Cooking</td><td>4</td><td>0.349</td><td>clean</td></tr><tr><td>clip_19</td><td>Pets & Animals</td><td>5</td><td>0.301</td><td>clean</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>TRIBE pressure by category</h2>
+    <table>
+      <tr><th>Category</th><th>Clips</th><th>Mean risk</th><th>Mean pressure</th><th>Extended AD</th></tr>
+      <tr><td>Sports</td><td>5</td><td>0.112</td><td>0.752</td><td>3</td></tr><tr><td>Pets & Animals</td><td>5</td><td>0.082</td><td>0.740</td><td>3</td></tr><tr><td>Food & Cooking</td><td>5</td><td>0.048</td><td>0.611</td><td>2</td></tr><tr><td>Travel</td><td>3</td><td>0.000</td><td>0.559</td><td>2</td></tr>
+    </table>
+  </div>
+
+  <div class="card">
+    <h2>TRIBE story (one line)</h2>
+    <p>TRIBE predicts when automatic ADQA will disagree on tier order (ρ ≈ −0.75) from video+audio alone.
+    Use it to triage human review before writing or scoring AD text.</p>
+  </div>
+
+  <p class="muted">Re-run: <code>python3 cursor/build_insights_html.py</code></p>
+</body>
+</html>

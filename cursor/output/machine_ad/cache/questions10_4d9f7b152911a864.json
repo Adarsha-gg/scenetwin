@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who are the main subjects in the video?",
+      "answer_key": "A group of male musicians.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What are the musicians doing?",
+      "answer_key": "They are performing music on a stage.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is the performance taking place?",
+      "answer_key": "On a stage illuminated by spotlights.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What instrument is the central musician playing?",
+      "answer_key": "A light-colored accordion with red accents.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color shirts are most of the musicians wearing?",
+      "answer_key": "White shirts.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "How many saxophones are visible in the band?",
+      "answer_key": "Two saxophones are visible.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What structural elements are visible above the stage?",
+      "answer_key": "Metal trussing for stage lighting.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What are the dominant colors of the stage lights?",
+      "answer_key": "Blue and green.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What instrument does the musician on the far left play in the later frames?",
+      "answer_key": "A saxophone.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Besides the accordion and saxophones, what other instruments are visible?",
+      "answer_key": "Drums, congas, and a trumpet.",
+      "tier": "secondary"
+    }
+  ]
+}

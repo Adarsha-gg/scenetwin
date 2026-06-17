@@ -1,0 +1,12 @@
+test,value
+tier_gt_stale_ensemble,0.927887913572603
+tier_gt_v4_ensemble,0.8816410653612325
+tier_gt_regime_aware,0.7253445846094865
+consensus_gt_regime_aware,0.7444506509009154
+consensus_gt_v4_ensemble,0.8785057190837955
+standard_regime_regime_score,0.8956320604818178
+collision_regime_regime_score,0.6196058740154028
+standard_regime_v4_ensemble,0.8956320604818178
+collision_regime_v4_ensemble,0.8723309086380359
+collision_vs_violation,0.6
+collision_vs_high_need,0.9506172839506173

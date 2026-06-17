@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 1,
+      "question": "What is the primary action of the woman on the right?",
+      "answer_key": "She is laughing and covering her face.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting of the scene?",
+      "answer_key": "An indoor room with a plain light-colored wall.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary action of the woman on the left?",
+      "answer_key": "She watches the other woman laugh.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the hoodie worn by the woman on the left?",
+      "answer_key": "Pink.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What object does the woman on the right hold in her hand?",
+      "answer_key": "A pen.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How is the blonde woman's hair styled?",
+      "answer_key": "In a high ponytail.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What color is the lining of the jacket worn by the woman on the right?",
+      "answer_key": "Red.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the woman on the left's expression in the middle of the clip?",
+      "answer_key": "She smiles towards the camera.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the hairstyle of the woman on the right?",
+      "answer_key": "Shaved sides with longer hair pulled back.",
+      "tier": "secondary"
+    }
+  ]
+}

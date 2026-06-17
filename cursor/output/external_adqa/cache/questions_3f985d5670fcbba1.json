@@ -1,0 +1,68 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person doing with the bright green bag?",
+      "answer_key": "Packing or organizing clothes into a bright green/neon bag",
+      "required_visual_evidence": [
+        "person's hands",
+        "bright green bag",
+        "folded clothing items"
+      ],
+      "importance": "critical",
+      "rationale": "Main action visible across frames; central to understanding the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of items are laid out on the floor?",
+      "answer_key": "Clothing items including shirts, pants, and undergarments in various colors",
+      "required_visual_evidence": [
+        "folded clothes",
+        "black items",
+        "white items",
+        "pink items",
+        "patterned items"
+      ],
+      "importance": "critical",
+      "rationale": "Essential context for what is being packed; defines the activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this packing activity taking place?",
+      "answer_key": "On a wooden or laminate floor indoors",
+      "required_visual_evidence": [
+        "wooden floor",
+        "indoor setting",
+        "overhead camera angle"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the setting and environment for the activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many distinct piles or groups of clothing are visible?",
+      "answer_key": "Multiple organized piles of clothing sorted by color and type",
+      "required_visual_evidence": [
+        "black pile",
+        "white pile",
+        "pink pile",
+        "patterned items",
+        "organized layout"
+      ],
+      "importance": "useful",
+      "rationale": "Shows the organized nature of the packing process"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the main bag being used for packing?",
+      "answer_key": "Bright neon green or lime green",
+      "required_visual_evidence": [
+        "bright green bag",
+        "neon color",
+        "bag opening"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive visual element that helps identify the primary packing container"
+    }
+  ]
+}

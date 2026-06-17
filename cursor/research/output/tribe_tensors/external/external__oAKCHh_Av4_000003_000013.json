@@ -1,0 +1,27 @@
+{
+  "clip_key": "external__oAKCHh_Av4_000003_000013",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/_oAKCHh_Av4_000003_000013.mp4",
+  "ad_text_used": "In a cozy living room, a man sits on a couch, holding an electronic smoking device. He inhales and then exhales a cloud of vapor, smiling as he does so. A woman sits nearby, and they both share a moment of laughter. The atmosphere is relaxed and friendly.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.19014348298258033,
+  "description_gain": -0.00468318201012774,
+  "alignment_cosine": 0.9751880787857375,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    10,
+    20484
+  ],
+  "P_AD_shape": [
+    22,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "_oAKCHh_Av4_000003_000013",
+  "category": "People & Vlogs",
+  "yt_id": "_oAKCHh_Av4",
+  "start_s": 3.0,
+  "end_s": 13.0
+}

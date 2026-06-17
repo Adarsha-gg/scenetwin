@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main type of vehicle shown clearing the street?",
+      "answer_key": "A yellow backhoe loader.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action the vehicle is performing?",
+      "answer_key": "Moving or clearing snow.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting or environment of the scene?",
+      "answer_key": "A snow-covered city street at night.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main material covering the ground and being moved?",
+      "answer_key": "Large piles of white snow.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What brand name is visible on the back arm of the yellow vehicle?",
+      "answer_key": "DEERE.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What model number is visible on the side of the backhoe?",
+      "answer_key": "410E.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color is the first SUV that drives past the backhoe?",
+      "answer_key": "Red.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is the name of the establishment with a red sign in the background?",
+      "answer_key": "Larry's Tap Room.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "How many prominent streetlights are visible illuminating the scene?",
+      "answer_key": "Two.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the backhoe doing with the snow in its front bucket?",
+      "answer_key": "Scooping and lifting it high.",
+      "tier": "secondary"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_h8wsO9A9v_c_000016_000026",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/h8wsO9A9v_c_000016_000026.mp4",
+  "ad_text_used": "A young boy rides a small bicycle with training wheels around a paved area. The bike is orange with a bright orange basket at the front and a yellow seat. He pedals energetically, moving in circles under the sunlight.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.05415916608269211,
+  "description_gain": -0.4383317392303352,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    16,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "h8wsO9A9v_c_000016_000026",
+  "category": "People & Vlogs",
+  "yt_id": "h8wsO9A9v_c",
+  "start_s": 16.0,
+  "end_s": 26.0
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main person in the video?",
+      "answer_key": "A young man or teenager.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action performed by the person?",
+      "answer_key": "He throws a ball into a basketball hoop.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does the action take place?",
+      "answer_key": "On an outdoor paved court with a basketball hoop.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What object does the person interact with most?",
+      "answer_key": "A green and white ball.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color shirt is the young man wearing?",
+      "answer_key": "A white t-shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What type of game court markings are visible on the ground?",
+      "answer_key": "Hopscotch court markings with numbers.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "Describe the appearance of the ball.",
+      "answer_key": "It is a green and white ball, possibly a volleyball.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What kind of building is visible in the background?",
+      "answer_key": "A brick building with a dark roof.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What does the young man do after the ball goes through the hoop?",
+      "answer_key": "He turns and smiles at the camera.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What color are some of the lines on the paved court?",
+      "answer_key": "Red and white lines.",
+      "tier": "secondary"
+    }
+  ]
+}

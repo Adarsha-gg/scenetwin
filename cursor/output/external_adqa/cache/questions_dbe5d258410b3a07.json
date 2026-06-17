@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person holding and eating in these frames?",
+      "answer_key": "A sandwich or burger with dark filling",
+      "required_visual_evidence": [
+        "person holding bread/bun",
+        "dark filling visible inside",
+        "eating action"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and central object throughout the sequence"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is visible in the cup on the left side of the frames?",
+      "answer_key": "A dark substance, possibly cookies and cream or chocolate mixture",
+      "required_visual_evidence": [
+        "white cup",
+        "dark filling visible",
+        "cup remains stationary"
+      ],
+      "importance": "useful",
+      "rationale": "Secondary object present across multiple frames in the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is the person sitting while eating?",
+      "answer_key": "On a wooden bench or deck with horizontal slats",
+      "required_visual_evidence": [
+        "wooden surface",
+        "horizontal planks",
+        "outdoor seating"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for the entire scene"
+    },
+    {
+      "q_idx": 3,
+      "question": "What clothing is the person wearing on their upper body?",
+      "answer_key": "A yellow shirt or jacket with a flag design",
+      "required_visual_evidence": [
+        "bright yellow garment",
+        "flag visible on sleeve",
+        "worn throughout"
+      ],
+      "importance": "useful",
+      "rationale": "Visible identifying detail of the main subject"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is stretching or connecting between the sandwich halves?",
+      "answer_key": "A dark, stringy substance, possibly melted chocolate or filling",
+      "required_visual_evidence": [
+        "dark strands between bread",
+        "stretching motion",
+        "visible in multiple frames"
+      ],
+      "importance": "critical",
+      "rationale": "Key visual element showing the sandwich's contents and texture"
+    }
+  ]
+}

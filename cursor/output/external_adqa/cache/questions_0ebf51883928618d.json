@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animal is the main subject of these video frames?",
+      "answer_key": "A goat",
+      "required_visual_evidence": [
+        "horns",
+        "pale/white colored fur",
+        "hooved feet",
+        "goat-like body shape"
+      ],
+      "importance": "critical",
+      "rationale": "Identifying the main subject is essential for understanding the video's content and context."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person doing with the goat in these frames?",
+      "answer_key": "Putting glasses or eyewear on the goat's face",
+      "required_visual_evidence": [
+        "human hands holding black eyewear",
+        "eyewear being placed on goat's head",
+        "goat's face as focal point"
+      ],
+      "importance": "critical",
+      "rationale": "The main action is the core element an AD must convey for viewer comprehension."
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of eyewear is being placed on the goat?",
+      "answer_key": "Black-framed glasses or sunglasses",
+      "required_visual_evidence": [
+        "black eyewear frames",
+        "dark lenses",
+        "typical glasses shape"
+      ],
+      "importance": "useful",
+      "rationale": "Describing the specific object helps listeners visualize the humorous or unusual action."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the setting or surface where this interaction takes place?",
+      "answer_key": "Dirt or sandy ground with straw or hay",
+      "required_visual_evidence": [
+        "brown/tan ground surface",
+        "straw visible",
+        "outdoor farm-like environment"
+      ],
+      "importance": "useful",
+      "rationale": "Setting context helps listeners understand the location and environment of the scene."
+    },
+    {
+      "q_idx": 4,
+      "question": "What white objects are visible in the goat's enclosure?",
+      "answer_key": "White PVC pipes or fencing",
+      "required_visual_evidence": [
+        "white cylindrical pipes",
+        "pipe structure",
+        "enclosure framing"
+      ],
+      "importance": "useful",
+      "rationale": "Environmental details establish the farm/pen setting and help paint a complete scene picture."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is performing the main action?",
+      "answer_key": "A person.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person doing to the animal?",
+      "answer_key": "Shearing the animal's wool.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What animal is the primary subject of the action?",
+      "answer_key": "A sheep.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the general setting of the activity?",
+      "answer_key": "An outdoor or open-air shearing station.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What tool is the person using to remove the wool?",
+      "answer_key": "Electric shears.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What color is the person's tank top?",
+      "answer_key": "Dark blue or black with blue trim.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How is the sheep positioned for shearing?",
+      "answer_key": "Held upside down in a metal stand.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What color is the wool being removed from the sheep?",
+      "answer_key": "Greyish-white.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is visible on the ground around the shearing area?",
+      "answer_key": "Piles of shorn wool.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the person wearing on their head?",
+      "answer_key": "A grey and yellow baseball cap.",
+      "tier": "secondary"
+    }
+  ]
+}

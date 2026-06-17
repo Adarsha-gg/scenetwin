@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_jeweRSnAJeo_000050_000060",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/jeweRSnAJeo_000050_000060.mp4",
+  "ad_text_used": "In a dimly lit room, a woman sits at a table with a magazine open in front of her. A candle flickers nearby, casting a warm glow. She carefully tears a page from the magazine, her movements deliberate and focused.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.3140341851728842,
+  "description_gain": -0.31579917844085925,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    18,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "jeweRSnAJeo_000050_000060",
+  "category": "Film & Animation",
+  "yt_id": "jeweRSnAJeo",
+  "start_s": 50.0,
+  "end_s": 60.0
+}

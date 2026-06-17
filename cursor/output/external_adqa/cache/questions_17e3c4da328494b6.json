@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in the video?",
+      "answer_key": "A person is sitting in a vehicle, holding a phone to their ear.",
+      "required_visual_evidence": [
+        "person in vehicle",
+        "phone held to ear",
+        "seated position"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies primary action and subject essential to understanding the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is this scene taking place?",
+      "answer_key": "Inside a vehicle, with a window visible showing buildings outside.",
+      "required_visual_evidence": [
+        "interior vehicle view",
+        "window",
+        "buildings visible outside"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is fundamental for orienting the listener to the scene."
+    },
+    {
+      "q_idx": 2,
+      "question": "What object is the person holding up to their face?",
+      "answer_key": "A mobile phone or cellular device.",
+      "required_visual_evidence": [
+        "phone held to ear",
+        "rectangular device",
+        "hand position"
+      ],
+      "importance": "useful",
+      "rationale": "Key object identifies the activity and helps convey the scene's purpose."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible through the vehicle window in the background?",
+      "answer_key": "Buildings and urban structures outside the vehicle.",
+      "required_visual_evidence": [
+        "window view",
+        "buildings",
+        "exterior setting"
+      ],
+      "importance": "useful",
+      "rationale": "Background context helps establish the urban/outdoor environment."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the person wearing?",
+      "answer_key": "A tan or beige-colored shirt or jacket.",
+      "required_visual_evidence": [
+        "clothing visible",
+        "tan/beige color",
+        "upper body garment"
+      ],
+      "importance": "useful",
+      "rationale": "Clothing description aids listener visualization of the main subject."
+    }
+  ]
+}

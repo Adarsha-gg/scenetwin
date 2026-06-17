@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "Solving or manipulating a colorful puzzle cube with their hands",
+      "required_visual_evidence": [
+        "two hands holding cube",
+        "rotating/twisting motions",
+        "multicolored sticker squares"
+      ],
+      "importance": "critical",
+      "rationale": "The primary action defines the entire clip's purpose and content"
+    },
+    {
+      "q_idx": 1,
+      "question": "What object is being manipulated throughout the video?",
+      "answer_key": "A colorful puzzle cube with neon-colored sticker squares in multiple colors",
+      "required_visual_evidence": [
+        "cube structure",
+        "bright colored squares",
+        "held in hands"
+      ],
+      "importance": "critical",
+      "rationale": "Identifying the main object is essential for understanding the activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "How many hands are visible manipulating the cube?",
+      "answer_key": "Two hands",
+      "required_visual_evidence": [
+        "left hand",
+        "right hand",
+        "both holding/rotating cube"
+      ],
+      "importance": "useful",
+      "rationale": "Hand count clarifies the physical interaction method with the object"
+    },
+    {
+      "q_idx": 3,
+      "question": "What colors are prominently featured on the puzzle cube?",
+      "answer_key": "Neon yellow, pink, green, blue, and orange",
+      "required_visual_evidence": [
+        "bright yellow squares",
+        "pink/magenta squares",
+        "lime green",
+        "cyan blue",
+        "orange"
+      ],
+      "importance": "useful",
+      "rationale": "Color description helps listeners visualize the distinctive puzzle appearance"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the setting or background environment visible in the video?",
+      "answer_key": "Indoor setting with a dark striped or ribbed background surface",
+      "required_visual_evidence": [
+        "dark background",
+        "vertical striped pattern",
+        "indoor environment"
+      ],
+      "importance": "useful",
+      "rationale": "Setting context orients listeners to where the activity is taking place"
+    }
+  ]
+}

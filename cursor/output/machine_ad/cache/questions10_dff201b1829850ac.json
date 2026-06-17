@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject in the video?",
+      "answer_key": "A young blonde girl.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the girl primarily doing at the table?",
+      "answer_key": "Eating or playing with food using a fork.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location?",
+      "answer_key": "Indoors, at a wooden table.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary food item on the plate?",
+      "answer_key": "A hot dog bun with brown toppings.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the girl's shirt?",
+      "answer_key": "Pink and white striped.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is the girl drinking from the glass?",
+      "answer_key": "Milk.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color is the rim of the plate?",
+      "answer_key": "Green.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What utensil is the girl holding?",
+      "answer_key": "A fork.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the girl's facial expression in some frames?",
+      "answer_key": "Smiling.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What type of furniture is visible behind the girl?",
+      "answer_key": "A wooden chair and dark furniture.",
+      "tier": "secondary"
+    }
+  ]
+}

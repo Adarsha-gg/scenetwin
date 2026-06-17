@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_01_058y9xGmmTQ_000206_000216",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_01.mp4",
+  "ad_text_used": "In a Burger King restaurant, a bald man in a gray hoodie is rapidly eating a hamburger. He takes quick bites and washes them down with a drink. As he continues, he appears to struggle slightly, coughing at times. Around him, people are laughing and clapping, encouraging him to finish. Afterward, someone uses ketchup to write 'BURGER EATING' on a tray liner.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.08463107648035506,
+  "description_gain": -0.1852921302406726,
+  "alignment_cosine": 0.9002979938310343,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    29,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 1,
+  "video_id": "058y9xGmmTQ_000206_000216",
+  "category": "Food & Cooking",
+  "duration_s": 16.39,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

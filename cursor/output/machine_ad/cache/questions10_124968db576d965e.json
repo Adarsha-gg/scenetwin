@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who are the main subjects in the video?",
+      "answer_key": "Two young males.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What are the two males doing?",
+      "answer_key": "Playing a bottle flipping game.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does the scene take place?",
+      "answer_key": "Indoors, on a tiled floor against a wall.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What object are the males interacting with?",
+      "answer_key": "A plastic water bottle.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What are the two males wearing on their upper bodies?",
+      "answer_key": "They are both shirtless.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What large object is visible behind the males?",
+      "answer_key": "A silver bicycle.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color is the label on the water bottle?",
+      "answer_key": "Blue and white.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What type of floor are the males sitting on?",
+      "answer_key": "White tiled floor.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is attached to the front of the bicycle?",
+      "answer_key": "A metal basket.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "How do the males react during the game?",
+      "answer_key": "They are smiling and laughing.",
+      "tier": "secondary"
+    }
+  ]
+}

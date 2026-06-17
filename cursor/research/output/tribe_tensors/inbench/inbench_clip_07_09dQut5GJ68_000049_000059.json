@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_07_09dQut5GJ68_000049_000059",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_07.mp4",
+  "ad_text_used": "In a snowy landscape, a man rides a motorcycle, pulling a blue sled behind him. The sled glides over the snow, connected by a wire. The scene captures the thrill of the ride as the motorcycle moves through the wintry terrain.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.1831457757375946,
+  "description_gain": -0.23516921419147596,
+  "alignment_cosine": 0.9970966618715914,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    18,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 7,
+  "video_id": "09dQut5GJ68_000049_000059",
+  "category": "Travel",
+  "duration_s": 16.39,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

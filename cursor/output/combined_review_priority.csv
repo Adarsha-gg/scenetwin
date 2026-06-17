@@ -1,0 +1,19 @@
+clip_idx,category,risk_score,risk_rank,all4_mean_full_order,all4_mean_tier3_margin,review_priority,review_rank,target,quality_risk,tribe_route
+12,Sports,0.280861072744793,1,0.0,0.5104166666666667,0.9253942359978249,1,1,tier2/tier1 inversion risk,extended/integrated AD likely needed
+15,Pets & Animals,0.2450350738936531,2,0.0,-0.025,0.923465366344249,2,1,professional AD barely leads,extended/integrated AD likely needed
+11,Sports,0.215215029814331,3,1.0,0.2833333333333333,0.5260145774019255,3,0,clean,standard AD priority
+3,Food & Cooking,0.1174465648562957,5,1.0,0.0666666666666668,0.34882241298496486,4,0,clean,low/normal AD pressure
+19,Pets & Animals,0.1171860557291687,6,1.0,0.3928571428571428,0.3005878046758067,5,0,clean,low/normal AD pressure
+4,Food & Cooking,0.1237965014793331,4,1.0,0.5208333333333333,0.2960037989466751,6,0,clean,low/normal AD pressure
+14,Sports,0.0644179718060927,7,1.0,0.2999999999999999,0.20143260019405762,7,0,clean,extended/integrated AD likely needed
+17,Pets & Animals,0.045903849237172,8,1.0,0.7366071428571429,0.09806381950029,8,0,clean,extended/integrated AD likely needed
+9,Sports,0.0,15,1.0,0.0999999999999999,0.09305057096247965,9,0,clean,extended/integrated AD likely needed
+5,Food & Cooking,0.0,9,1.0,0.1339285714285714,0.08809135399673738,10,0,clean,extended/integrated AD likely needed
+0,Food & Cooking,0.0,16,1.0,0.1845238095238096,0.08069603045133227,11,0,clean,extended/integrated AD likely needed
+13,Sports,0.0,13,1.0,0.2218253968253968,0.07524379191589634,12,0,clean,low/normal AD pressure
+8,Travel,0.0,10,1.0,0.28125,0.06655791190864602,13,0,clean,low/normal AD pressure
+7,Travel,0.0,14,1.0,0.3541666666666667,0.05589994562262099,14,0,clean,extended/integrated AD likely needed
+18,Pets & Animals,0.0,17,1.0,0.4125,0.04737357259380099,15,0,clean,extended/integrated AD likely needed
+6,Travel,0.0,12,1.0,0.432142857142857,0.04450244698205551,16,0,clean,extended/integrated AD likely needed
+1,Food & Cooking,0.0,11,1.0,0.4361111111111111,0.04392242160594527,17,0,clean,low/normal AD pressure
+16,Pets & Animals,0.0,18,1.0,0.5468253968253969,0.027739713612470546,18,0,clean,low/normal AD pressure

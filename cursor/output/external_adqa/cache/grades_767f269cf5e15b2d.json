@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier navigates a snowy hill, weaving between flexible poles in a slalom course",
+      "rationale": "Describes skiing, not climbing down a ladder from a roof."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a snowy hill",
+      "rationale": "Describes a ski slope, not a snow-covered rooftop with chimney."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "flexible poles in a slalom course",
+      "rationale": "Mentions poles, not a ladder. Wrong object entirely."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "snowy hill",
+      "rationale": "Mentions snow but in wrong context; no roof snow coverage."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a skier",
+      "rationale": "One person mentioned but context is skiing, not ladder descent."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man stands on a ladder...the snow gives way, causing both the man and the ladder to slide down",
+      "rationale": "Clearly describes person descending from roof via ladder."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "clearing snow from a sloped roof...outside a house during a snowy day",
+      "rationale": "Explicitly identifies snow-covered rooftop setting with house."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man stands on a ladder",
+      "rationale": "Directly identifies ladder as the object used."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "clearing snow from a sloped roof...during a snowy day...snowbank below",
+      "rationale": "Heavy snow coverage explicitly stated throughout sequence."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man stands on a ladder",
+      "rationale": "Single person clearly identified performing the action."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A person is using a ladder to climb on and clear snow off of a roof...the ladder slides out and he falls",
+      "rationale": "Describes person descending from roof via ladder."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "roof",
+      "rationale": "Mentions roof but lacks detail about snow coverage, chimney, or building features."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "using a ladder",
+      "rationale": "Directly identifies ladder as the object used."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "clear snow off of a roof...falls into a snowbank",
+      "rationale": "Snow mentioned but not explicitly described as heavy coverage throughout."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A person...he falls",
+      "rationale": "Single person clearly identified."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A man was removing snow from his roof and both he and the ladder fell",
+      "rationale": "Mentions roof and ladder but describes falling, not controlled descent."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "his roof",
+      "rationale": "Mentions roof but lacks detail about snow coverage, chimney, or building features."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "the ladder fell",
+      "rationale": "Ladder is identified as the object involved."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "fell into the snow",
+      "rationale": "Snow mentioned but not explicitly described as heavy coverage throughout."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "A man",
+      "rationale": "Single person identified."
+    }
+  ]
+}

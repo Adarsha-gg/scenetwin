@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 1,
+      "question": "What action is the person performing?",
+      "answer_key": "Operating an upright vacuum cleaner.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the primary object being used?",
+      "answer_key": "A red upright vacuum cleaner.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the setting of the video clip?",
+      "answer_key": "A garage or storage area.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color are the pants worn by the person?",
+      "answer_key": "Blue with thin stripes.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is visible on the person's feet?",
+      "answer_key": "Bare feet.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How many other vacuum cleaners are visible in the background?",
+      "answer_key": "At least three.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What color is the vacuum cleaner directly behind the red one?",
+      "answer_key": "Light green.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What type of door is in the background?",
+      "answer_key": "A white garage door.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Describe the movement of the red vacuum cleaner.",
+      "answer_key": "It moves forward and backward.",
+      "tier": "secondary"
+    }
+  ]
+}

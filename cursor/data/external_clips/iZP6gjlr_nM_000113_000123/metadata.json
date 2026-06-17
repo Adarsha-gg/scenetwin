@@ -1,0 +1,14 @@
+{
+  "video_id": "iZP6gjlr_nM_000113_000123",
+  "category": "How-to & Instructional",
+  "tier3_va11y": "In a room, two people are working on an ice sculpture. One person, wearing a patterned shirt, observes while the other, in a dark jacket, uses a chisel to shape large blocks of ice stacked on a table. The blocks are clear and rectangular, resembling oversized ice cubes. The scene takes place indoors, possibly in a cooler environment to prevent the ice from melting.",
+  "tier1_vatex_short": "Two people are in a room and one begins chipping away at a block of ice",
+  "tier2_vatex_long": "Two men enter a large cooler where another man is using a large chisel to chip away at a block of ice.",
+  "tier0_cross": "At night, a skier navigates a snowy hill, weaving between flexible poles in a slalom course. The skier moves swiftly, alternating left and right, purposefully making contact with each pole as they descend the slope.",
+  "yt_id": "iZP6gjlr_nM",
+  "start": 113.0,
+  "end": 123.0,
+  "acquired_at": "2026-05-27T19:23:19Z",
+  "download_ok": true,
+  "download_msg": "trimmed 10.0s"
+}

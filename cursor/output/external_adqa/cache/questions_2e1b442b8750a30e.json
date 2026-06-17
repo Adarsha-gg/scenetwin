@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "Performing a slackline walk or balance exercise on a rope in a park",
+      "required_visual_evidence": [
+        "person balancing on rope",
+        "outdoor park setting",
+        "progression of movement"
+      ],
+      "importance": "critical",
+      "rationale": "Core action defines the entire clip and is essential for understanding the content"
+    },
+    {
+      "q_idx": 1,
+      "question": "What text appears on screen at the beginning of the clip?",
+      "answer_key": "Slackline Warrior Walks",
+      "required_visual_evidence": [
+        "white text overlay",
+        "visible in first frames"
+      ],
+      "importance": "critical",
+      "rationale": "On-screen title is essential context that AD must convey to viewers"
+    },
+    {
+      "q_idx": 2,
+      "question": "Describe the setting where this activity takes place.",
+      "answer_key": "An open park with bare trees, grass, and houses visible in the background",
+      "required_visual_evidence": [
+        "park environment",
+        "leafless trees",
+        "residential buildings",
+        "clear sky"
+      ],
+      "importance": "useful",
+      "rationale": "Setting establishes context and helps listeners visualize the location"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing during the slackline walk?",
+      "answer_key": "A red or burgundy shirt and dark pants, barefoot",
+      "required_visual_evidence": [
+        "red/burgundy top",
+        "dark pants",
+        "bare feet on rope"
+      ],
+      "importance": "useful",
+      "rationale": "Clothing and footwear details help listeners form a complete mental image"
+    },
+    {
+      "q_idx": 4,
+      "question": "What website is shown at the end of the video?",
+      "answer_key": "www.playacrofestival.com",
+      "required_visual_evidence": [
+        "website URL in final frame",
+        "blue overlay background"
+      ],
+      "importance": "critical",
+      "rationale": "End-screen URL is important information for viewers seeking more details"
+    }
+  ]
+}

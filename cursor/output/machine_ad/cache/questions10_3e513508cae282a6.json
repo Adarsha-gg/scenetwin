@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who are the two main people visible in the foreground?",
+      "answer_key": "A young woman and a young man.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the young man doing?",
+      "answer_key": "Playing a violin.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting or location?",
+      "answer_key": "Outdoors in a grassy area with tents.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What musical instrument is the young man playing?",
+      "answer_key": "A violin.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the young woman's dress?",
+      "answer_key": "Purple or lavender.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What kind of collar does the woman's dress have?",
+      "answer_key": "A black lace collar.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is the young man wearing on his head?",
+      "answer_key": "A grey cap.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What structures are visible in the background behind the people?",
+      "answer_key": "White canvas tents.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the young man holding in his right hand to play the instrument?",
+      "answer_key": "A violin bow.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the young woman doing with her mouth?",
+      "answer_key": "She is singing or speaking.",
+      "tier": "secondary"
+    }
+  ]
+}

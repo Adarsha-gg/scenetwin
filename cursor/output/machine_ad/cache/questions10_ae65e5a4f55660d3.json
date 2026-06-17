@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject of the video?",
+      "answer_key": "A young boy.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the boy doing on the tractor?",
+      "answer_key": "Sitting on it and pretending to drive.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting of the scene?",
+      "answer_key": "Outdoors on a grassy field with trees in the background.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary object in the foreground?",
+      "answer_key": "A red tractor.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the boy's hoodie?",
+      "answer_key": "Grey.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is the adult man wearing?",
+      "answer_key": "A dark green or brown jacket/shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color is the tractor's main body?",
+      "answer_key": "Red.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What type of attachment is on the front of the tractor?",
+      "answer_key": "A red front-end loader.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What accessory does the boy wear on his face in the later frames?",
+      "answer_key": "Red-framed glasses.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "How many people are visible in the video?",
+      "answer_key": "Two: an adult man and a young boy.",
+      "tier": "secondary"
+    }
+  ]
+}

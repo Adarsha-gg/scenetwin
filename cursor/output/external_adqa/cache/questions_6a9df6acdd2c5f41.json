@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What animal is being presented to the audience in this clip?",
+      "answer_key": "A sheep standing on its hind legs",
+      "required_visual_evidence": [
+        "woolly animal",
+        "standing upright",
+        "four legs visible"
+      ],
+      "importance": "critical",
+      "rationale": "The main subject of the entire clip; essential for understanding the content"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary setting or location where this demonstration takes place?",
+      "answer_key": "An indoor exhibition or show venue with green backdrop",
+      "required_visual_evidence": [
+        "green wall/backdrop",
+        "brick structure",
+        "indoor stage area"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes context for the entire scene and activity being shown"
+    },
+    {
+      "q_idx": 2,
+      "question": "What action is the man in the blue shirt performing with the sheep?",
+      "answer_key": "Handling and examining the sheep, demonstrating its posture",
+      "required_visual_evidence": [
+        "man in blue shirt",
+        "hands on sheep",
+        "sheep standing upright"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action and interaction central to the clip"
+    },
+    {
+      "q_idx": 3,
+      "question": "Who comprises the audience watching this demonstration?",
+      "answer_key": "A group of adults and children of various ages",
+      "required_visual_evidence": [
+        "multiple people",
+        "children present",
+        "adults watching"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listeners understand the context and scale of the event"
+    },
+    {
+      "q_idx": 4,
+      "question": "What visible text or signage appears in the exhibition area?",
+      "answer_key": "A sign reading 'Hemwick' is visible on the brick structure",
+      "required_visual_evidence": [
+        "brick structure with label",
+        "text on display",
+        "exhibition signage"
+      ],
+      "importance": "useful",
+      "rationale": "Provides location/venue identification relevant to the setting description"
+    }
+  ]
+}

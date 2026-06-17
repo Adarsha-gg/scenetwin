@@ -1,0 +1,64 @@
+{
+  "run_at": "2026-06-07T22:34:25.524854+00:00",
+  "synthetic_selftest": true,
+  "n_queries": 60,
+  "n_ref": 60,
+  "per_tier": {
+    "tier0_cross": {
+      "rank_pct_mean": 0.446045197740113,
+      "margin_mean": -0.02182897277134593,
+      "r_at_1": 0.03333333333333333,
+      "r_at_5": 0.08333333333333333,
+      "median_rank": 38.0,
+      "n": 60
+    },
+    "tier1_vatex_short": {
+      "rank_pct_mean": 0.9310734463276835,
+      "margin_mean": 0.20590199368671736,
+      "r_at_1": 0.36666666666666664,
+      "r_at_5": 0.7,
+      "median_rank": 3.0,
+      "n": 60
+    },
+    "tier2_vatex_long": {
+      "rank_pct_mean": 0.9336158192090397,
+      "margin_mean": 0.22311210050547475,
+      "r_at_1": 0.55,
+      "r_at_5": 0.7666666666666667,
+      "median_rank": 1.0,
+      "n": 60
+    },
+    "tier3_va11y": {
+      "rank_pct_mean": 0.9878531073446327,
+      "margin_mean": 0.30573373060069736,
+      "r_at_1": 0.75,
+      "r_at_5": 0.95,
+      "median_rank": 1.0,
+      "n": 60
+    }
+  },
+  "ordering": {
+    "three_tier": {
+      "rho_tier_vs_rankpct": 0.7731150182485783,
+      "rho_tier_vs_margin": 0.7791389401492531,
+      "n_rows": 180
+    },
+    "all_tiers": {
+      "rho_tier_vs_rankpct": 0.6739706347268822,
+      "rho_tier_vs_margin": 0.6785310557334837,
+      "n_rows": 240
+    }
+  },
+  "wrong_content_control": {
+    "tier0_cross": {
+      "rank_pct_mean": 0.446045197740113,
+      "above_chance_frac": 0.36666666666666664,
+      "p_above_chance": 0.8933287874226941
+    },
+    "tier3_va11y": {
+      "rank_pct_mean": 0.9878531073446327,
+      "above_chance_frac": 1.0,
+      "p_above_chance": 5.69034122867748e-13
+    }
+  }
+}

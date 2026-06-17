@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_RlfVK8z5wJ0_000000_000010",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/RlfVK8z5wJ0_000000_000010.mp4",
+  "ad_text_used": "On a frozen lake, a woman in a pink jacket and gray overalls carefully walks towards a yellow marker. She kneels by an ice fishing hole, lifting a device from the water. The scene is set in a cold, wintry environment, emphasizing the activity of checking an ice fishing line.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.1645468950413399,
+  "description_gain": -0.5299760920847479,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    22,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "RlfVK8z5wJ0_000000_000010",
+  "category": "Sports",
+  "yt_id": "RlfVK8z5wJ0",
+  "start_s": 0.0,
+  "end_s": 10.0
+}

@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person wearing on their upper body?",
+      "answer_key": "A bright pink/hot pink jacket or hoodie",
+      "required_visual_evidence": [
+        "bright pink upper garment",
+        "visible in all frames"
+      ],
+      "importance": "critical",
+      "rationale": "Dominant visual element; essential for scene comprehension and subject identification"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main setting or location shown in the video?",
+      "answer_key": "A frozen lake or icy water surface",
+      "required_visual_evidence": [
+        "flat icy/frozen surface",
+        "person standing on ice",
+        "water visible in background"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context and safety concerns; fundamental to understanding the activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "What action does the person perform during the sequence?",
+      "answer_key": "The person kneels down and reaches toward a yellow object on the ice",
+      "required_visual_evidence": [
+        "standing position in early frames",
+        "kneeling in later frames",
+        "reaching motion",
+        "yellow object"
+      ],
+      "importance": "critical",
+      "rationale": "Main action sequence; necessary for understanding what is happening in the clip"
+    },
+    {
+      "q_idx": 3,
+      "question": "What yellow object is visible on the ice surface?",
+      "answer_key": "A yellow circular object, possibly a fishing hole cover or ice fishing equipment",
+      "required_visual_evidence": [
+        "yellow circular object",
+        "on ice surface",
+        "person interacting with it"
+      ],
+      "importance": "useful",
+      "rationale": "Key object that motivates the person's action; helps clarify the activity's purpose"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color are the person's pants or lower body clothing?",
+      "answer_key": "Gray or dark gray pants",
+      "required_visual_evidence": [
+        "gray lower garment",
+        "visible throughout frames"
+      ],
+      "importance": "useful",
+      "rationale": "Contributes to overall appearance description; supports visual scene completeness"
+    }
+  ]
+}

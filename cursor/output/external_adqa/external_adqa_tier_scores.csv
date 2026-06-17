@@ -1,0 +1,241 @@
+video_id,category,tier,gt,adqa_score,adqa_yes_rate,n_questions
+0m0-Q0zz_-c_000112_000122,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+0m0-Q0zz_-c_000112_000122,How-to & Instructional,tier1_vatex_short,1,0.2,0.0,5
+0m0-Q0zz_-c_000112_000122,How-to & Instructional,tier2_vatex_long,2,0.2,0.0,5
+0m0-Q0zz_-c_000112_000122,How-to & Instructional,tier3_va11y,3,0.5,0.4,5
+0t0DB1B1w8Y_000000_000010,Sports,tier0_cross,0,0.0,0.0,5
+0t0DB1B1w8Y_000000_000010,Sports,tier1_vatex_short,1,0.3,0.0,5
+0t0DB1B1w8Y_000000_000010,Sports,tier2_vatex_long,2,0.2,0.0,5
+0t0DB1B1w8Y_000000_000010,Sports,tier3_va11y,3,0.8,0.6,5
+1-jIze6gy0g_000026_000036,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+1-jIze6gy0g_000026_000036,How-to & Instructional,tier1_vatex_short,1,0.1,0.0,5
+1-jIze6gy0g_000026_000036,How-to & Instructional,tier2_vatex_long,2,0.1,0.0,5
+1-jIze6gy0g_000026_000036,How-to & Instructional,tier3_va11y,3,0.1,0.0,5
+1HUWWCLza0w_000000_000010,Sports,tier0_cross,0,0.0,0.0,5
+1HUWWCLza0w_000000_000010,Sports,tier1_vatex_short,1,0.4,0.2,5
+1HUWWCLza0w_000000_000010,Sports,tier2_vatex_long,2,0.4,0.2,5
+1HUWWCLza0w_000000_000010,Sports,tier3_va11y,3,0.7,0.4,5
+1YemrpNBpf4_000001_000011,Entertainment,tier0_cross,0,0.0,0.0,5
+1YemrpNBpf4_000001_000011,Entertainment,tier1_vatex_short,1,0.0,0.0,5
+1YemrpNBpf4_000001_000011,Entertainment,tier2_vatex_long,2,0.0,0.0,5
+1YemrpNBpf4_000001_000011,Entertainment,tier3_va11y,3,0.1,0.0,5
+1kLhK8KfIEw_000020_000030,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+1kLhK8KfIEw_000020_000030,How-to & Instructional,tier1_vatex_short,1,0.0,0.0,5
+1kLhK8KfIEw_000020_000030,How-to & Instructional,tier2_vatex_long,2,0.1,0.0,5
+1kLhK8KfIEw_000020_000030,How-to & Instructional,tier3_va11y,3,0.4,0.2,5
+21T1JDdJgsM_000047_000057,Entertainment,tier0_cross,0,0.0,0.0,5
+21T1JDdJgsM_000047_000057,Entertainment,tier1_vatex_short,1,0.4,0.4,5
+21T1JDdJgsM_000047_000057,Entertainment,tier2_vatex_long,2,0.7,0.6,5
+21T1JDdJgsM_000047_000057,Entertainment,tier3_va11y,3,0.7,0.6,5
+2kJxrcNRS9w_000047_000057,Sports,tier0_cross,0,0.0,0.0,5
+2kJxrcNRS9w_000047_000057,Sports,tier1_vatex_short,1,0.1,0.0,5
+2kJxrcNRS9w_000047_000057,Sports,tier2_vatex_long,2,0.2,0.0,5
+2kJxrcNRS9w_000047_000057,Sports,tier3_va11y,3,0.8,0.8,5
+3su234u58DA_000172_000182,Entertainment,tier0_cross,0,0.1,0.0,5
+3su234u58DA_000172_000182,Entertainment,tier1_vatex_short,1,0.4,0.2,5
+3su234u58DA_000172_000182,Entertainment,tier2_vatex_long,2,0.4,0.4,5
+3su234u58DA_000172_000182,Entertainment,tier3_va11y,3,0.9,0.8,5
+3ufJNSez5Is_000008_000018,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+3ufJNSez5Is_000008_000018,How-to & Instructional,tier1_vatex_short,1,0.5,0.4,5
+3ufJNSez5Is_000008_000018,How-to & Instructional,tier2_vatex_long,2,0.6,0.4,5
+3ufJNSez5Is_000008_000018,How-to & Instructional,tier3_va11y,3,0.8,0.6,5
+750QhTe9Z4U_000000_000010,People & Vlogs,tier0_cross,0,0.0,0.0,5
+750QhTe9Z4U_000000_000010,People & Vlogs,tier1_vatex_short,1,0.3,0.0,5
+750QhTe9Z4U_000000_000010,People & Vlogs,tier2_vatex_long,2,0.5,0.2,5
+750QhTe9Z4U_000000_000010,People & Vlogs,tier3_va11y,3,1.0,1.0,5
+8vkNr_eysXY_000002_000012,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+8vkNr_eysXY_000002_000012,How-to & Instructional,tier1_vatex_short,1,0.0,0.0,5
+8vkNr_eysXY_000002_000012,How-to & Instructional,tier2_vatex_long,2,0.0,0.0,5
+8vkNr_eysXY_000002_000012,How-to & Instructional,tier3_va11y,3,0.3,0.2,5
+9eBhetL8n5Q_000222_000232,People & Vlogs,tier0_cross,0,0.0,0.0,5
+9eBhetL8n5Q_000222_000232,People & Vlogs,tier1_vatex_short,1,0.4,0.2,5
+9eBhetL8n5Q_000222_000232,People & Vlogs,tier2_vatex_long,2,0.5,0.4,5
+9eBhetL8n5Q_000222_000232,People & Vlogs,tier3_va11y,3,0.7,0.6,5
+9fuIpQgnNEQ_000049_000059,Event,tier0_cross,0,0.0,0.0,5
+9fuIpQgnNEQ_000049_000059,Event,tier1_vatex_short,1,0.1,0.0,5
+9fuIpQgnNEQ_000049_000059,Event,tier2_vatex_long,2,0.1,0.0,5
+9fuIpQgnNEQ_000049_000059,Event,tier3_va11y,3,0.4,0.2,5
+A0e7Z55s8pE_000008_000018,How-to & Instructional,tier0_cross,0,0.2,0.0,5
+A0e7Z55s8pE_000008_000018,How-to & Instructional,tier1_vatex_short,1,0.7,0.4,5
+A0e7Z55s8pE_000008_000018,How-to & Instructional,tier2_vatex_long,2,0.8,0.6,5
+A0e7Z55s8pE_000008_000018,How-to & Instructional,tier3_va11y,3,1.0,1.0,5
+AEkLDauJVi0_000069_000079,Food & Cooking,tier0_cross,0,0.0,0.0,5
+AEkLDauJVi0_000069_000079,Food & Cooking,tier1_vatex_short,1,0.2,0.0,5
+AEkLDauJVi0_000069_000079,Food & Cooking,tier2_vatex_long,2,0.6,0.4,5
+AEkLDauJVi0_000069_000079,Food & Cooking,tier3_va11y,3,0.9,0.8,5
+BHxn3qfPAl4_000018_000028,Health & Wellness,tier0_cross,0,0.0,0.0,5
+BHxn3qfPAl4_000018_000028,Health & Wellness,tier1_vatex_short,1,0.4,0.2,5
+BHxn3qfPAl4_000018_000028,Health & Wellness,tier2_vatex_long,2,0.5,0.4,5
+BHxn3qfPAl4_000018_000028,Health & Wellness,tier3_va11y,3,0.6,0.4,5
+BcW6Y7eufQE_000239_000249,People & Vlogs,tier0_cross,0,0.0,0.0,5
+BcW6Y7eufQE_000239_000249,People & Vlogs,tier1_vatex_short,1,0.1,0.0,5
+BcW6Y7eufQE_000239_000249,People & Vlogs,tier2_vatex_long,2,0.2,0.0,5
+BcW6Y7eufQE_000239_000249,People & Vlogs,tier3_va11y,3,0.6,0.4,5
+Bss3WwpDdS8_000041_000051,People & Vlogs,tier0_cross,0,0.0,0.0,5
+Bss3WwpDdS8_000041_000051,People & Vlogs,tier1_vatex_short,1,0.1,0.0,5
+Bss3WwpDdS8_000041_000051,People & Vlogs,tier2_vatex_long,2,0.2,0.0,5
+Bss3WwpDdS8_000041_000051,People & Vlogs,tier3_va11y,3,0.4,0.2,5
+Ccgwurislg8_000082_000092,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+Ccgwurislg8_000082_000092,How-to & Instructional,tier1_vatex_short,1,0.0,0.0,5
+Ccgwurislg8_000082_000092,How-to & Instructional,tier2_vatex_long,2,0.0,0.0,5
+Ccgwurislg8_000082_000092,How-to & Instructional,tier3_va11y,3,0.1,0.0,5
+D297atE3gag_000203_000213,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+D297atE3gag_000203_000213,How-to & Instructional,tier1_vatex_short,1,0.2,0.0,5
+D297atE3gag_000203_000213,How-to & Instructional,tier2_vatex_long,2,0.2,0.2,5
+D297atE3gag_000203_000213,How-to & Instructional,tier3_va11y,3,0.8,0.6,5
+EA3HCx0yTIY_000281_000291,Music,tier0_cross,0,0.0,0.0,5
+EA3HCx0yTIY_000281_000291,Music,tier1_vatex_short,1,0.2,0.0,5
+EA3HCx0yTIY_000281_000291,Music,tier2_vatex_long,2,0.3,0.0,5
+EA3HCx0yTIY_000281_000291,Music,tier3_va11y,3,0.8,0.6,5
+F-mRnL_XmJU_000000_000010,Entertainment,tier0_cross,0,0.0,0.0,5
+F-mRnL_XmJU_000000_000010,Entertainment,tier1_vatex_short,1,0.4,0.2,5
+F-mRnL_XmJU_000000_000010,Entertainment,tier2_vatex_long,2,0.7,0.6,5
+F-mRnL_XmJU_000000_000010,Entertainment,tier3_va11y,3,0.8,0.8,5
+GOH6fBhoi2o_000010_000020,Entertainment,tier0_cross,0,0.1,0.0,5
+GOH6fBhoi2o_000010_000020,Entertainment,tier1_vatex_short,1,0.3,0.0,5
+GOH6fBhoi2o_000010_000020,Entertainment,tier2_vatex_long,2,0.3,0.0,5
+GOH6fBhoi2o_000010_000020,Entertainment,tier3_va11y,3,0.2,0.0,5
+HpRmj5ce32c_000001_000011,Sports,tier0_cross,0,0.0,0.0,5
+HpRmj5ce32c_000001_000011,Sports,tier1_vatex_short,1,0.5,0.4,5
+HpRmj5ce32c_000001_000011,Sports,tier2_vatex_long,2,0.6,0.6,5
+HpRmj5ce32c_000001_000011,Sports,tier3_va11y,3,0.7,0.6,5
+N-LZPc27kjM_000229_000239,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+N-LZPc27kjM_000229_000239,How-to & Instructional,tier1_vatex_short,1,0.4,0.2,5
+N-LZPc27kjM_000229_000239,How-to & Instructional,tier2_vatex_long,2,0.2,0.0,5
+N-LZPc27kjM_000229_000239,How-to & Instructional,tier3_va11y,3,0.6,0.6,5
+OASCPKazLIM_000132_000142,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+OASCPKazLIM_000132_000142,How-to & Instructional,tier1_vatex_short,1,0.1,0.0,5
+OASCPKazLIM_000132_000142,How-to & Instructional,tier2_vatex_long,2,0.3,0.0,5
+OASCPKazLIM_000132_000142,How-to & Instructional,tier3_va11y,3,0.5,0.2,5
+RjPp0ZPW0yc_000000_000010,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+RjPp0ZPW0yc_000000_000010,How-to & Instructional,tier1_vatex_short,1,0.2,0.0,5
+RjPp0ZPW0yc_000000_000010,How-to & Instructional,tier2_vatex_long,2,0.4,0.2,5
+RjPp0ZPW0yc_000000_000010,How-to & Instructional,tier3_va11y,3,0.7,0.6,5
+RlfVK8z5wJ0_000000_000010,Sports,tier0_cross,0,0.0,0.0,5
+RlfVK8z5wJ0_000000_000010,Sports,tier1_vatex_short,1,0.2,0.0,5
+RlfVK8z5wJ0_000000_000010,Sports,tier2_vatex_long,2,0.5,0.4,5
+RlfVK8z5wJ0_000000_000010,Sports,tier3_va11y,3,1.0,1.0,5
+S-C86j0keqc_000217_000227,Event,tier0_cross,0,0.0,0.0,5
+S-C86j0keqc_000217_000227,Event,tier1_vatex_short,1,0.3,0.2,5
+S-C86j0keqc_000217_000227,Event,tier2_vatex_long,2,0.5,0.2,5
+S-C86j0keqc_000217_000227,Event,tier3_va11y,3,0.6,0.6,5
+ShSSAEfnyDs_000000_000010,Entertainment,tier0_cross,0,0.0,0.0,5
+ShSSAEfnyDs_000000_000010,Entertainment,tier1_vatex_short,1,0.0,0.0,5
+ShSSAEfnyDs_000000_000010,Entertainment,tier2_vatex_long,2,0.4,0.2,5
+ShSSAEfnyDs_000000_000010,Entertainment,tier3_va11y,3,0.4,0.2,5
+Xdz1cxEjLYc_000007_000017,Food & Cooking,tier0_cross,0,0.0,0.0,5
+Xdz1cxEjLYc_000007_000017,Food & Cooking,tier1_vatex_short,1,0.6,0.4,5
+Xdz1cxEjLYc_000007_000017,Food & Cooking,tier2_vatex_long,2,0.3,0.0,5
+Xdz1cxEjLYc_000007_000017,Food & Cooking,tier3_va11y,3,0.8,0.8,5
+Z5w-wkrjHuw_000345_000355,Entertainment,tier0_cross,0,0.0,0.0,5
+Z5w-wkrjHuw_000345_000355,Entertainment,tier1_vatex_short,1,0.2,0.2,5
+Z5w-wkrjHuw_000345_000355,Entertainment,tier2_vatex_long,2,0.2,0.2,5
+Z5w-wkrjHuw_000345_000355,Entertainment,tier3_va11y,3,0.5,0.2,5
+ZcYB6tPK2Eo_000138_000148,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+ZcYB6tPK2Eo_000138_000148,How-to & Instructional,tier1_vatex_short,1,0.2,0.0,5
+ZcYB6tPK2Eo_000138_000148,How-to & Instructional,tier2_vatex_long,2,0.3,0.2,5
+ZcYB6tPK2Eo_000138_000148,How-to & Instructional,tier3_va11y,3,0.8,0.8,5
+_TKzyWZHjm8_000002_000012,Health & Wellness,tier0_cross,0,0.0,0.0,5
+_TKzyWZHjm8_000002_000012,Health & Wellness,tier1_vatex_short,1,0.2,0.0,5
+_TKzyWZHjm8_000002_000012,Health & Wellness,tier2_vatex_long,2,0.4,0.2,5
+_TKzyWZHjm8_000002_000012,Health & Wellness,tier3_va11y,3,0.6,0.4,5
+_oAKCHh_Av4_000003_000013,People & Vlogs,tier0_cross,0,0.0,0.0,5
+_oAKCHh_Av4_000003_000013,People & Vlogs,tier1_vatex_short,1,0.3,0.0,5
+_oAKCHh_Av4_000003_000013,People & Vlogs,tier2_vatex_long,2,0.1,0.0,5
+_oAKCHh_Av4_000003_000013,People & Vlogs,tier3_va11y,3,0.4,0.2,5
+bgt29znHCzs_000343_000353,Sports,tier0_cross,0,0.0,0.0,5
+bgt29znHCzs_000343_000353,Sports,tier1_vatex_short,1,0.3,0.2,5
+bgt29znHCzs_000343_000353,Sports,tier2_vatex_long,2,0.3,0.2,5
+bgt29znHCzs_000343_000353,Sports,tier3_va11y,3,0.6,0.4,5
+c_gQ9CSaZY4_000000_000010,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+c_gQ9CSaZY4_000000_000010,How-to & Instructional,tier1_vatex_short,1,0.3,0.0,5
+c_gQ9CSaZY4_000000_000010,How-to & Instructional,tier2_vatex_long,2,0.3,0.0,5
+c_gQ9CSaZY4_000000_000010,How-to & Instructional,tier3_va11y,3,1.0,1.0,5
+crjesEwF0Ks_000197_000207,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+crjesEwF0Ks_000197_000207,How-to & Instructional,tier1_vatex_short,1,0.0,0.0,5
+crjesEwF0Ks_000197_000207,How-to & Instructional,tier2_vatex_long,2,0.2,0.0,5
+crjesEwF0Ks_000197_000207,How-to & Instructional,tier3_va11y,3,0.5,0.4,5
+d7_SY48r__8_000060_000070,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+d7_SY48r__8_000060_000070,How-to & Instructional,tier1_vatex_short,1,0.1,0.0,5
+d7_SY48r__8_000060_000070,How-to & Instructional,tier2_vatex_long,2,0.0,0.0,5
+d7_SY48r__8_000060_000070,How-to & Instructional,tier3_va11y,3,0.1,0.0,5
+dlBeUWrse3I_000019_000029,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+dlBeUWrse3I_000019_000029,How-to & Instructional,tier1_vatex_short,1,0.1,0.0,5
+dlBeUWrse3I_000019_000029,How-to & Instructional,tier2_vatex_long,2,0.1,0.0,5
+dlBeUWrse3I_000019_000029,How-to & Instructional,tier3_va11y,3,0.9,0.8,5
+eb-ufaFcUas_000008_000018,Entertainment,tier0_cross,0,0.0,0.0,5
+eb-ufaFcUas_000008_000018,Entertainment,tier1_vatex_short,1,0.1,0.0,5
+eb-ufaFcUas_000008_000018,Entertainment,tier2_vatex_long,2,0.1,0.0,5
+eb-ufaFcUas_000008_000018,Entertainment,tier3_va11y,3,0.3,0.2,5
+g8Idd47kGqo_000037_000047,Entertainment,tier0_cross,0,0.0,0.0,5
+g8Idd47kGqo_000037_000047,Entertainment,tier1_vatex_short,1,0.0,0.0,5
+g8Idd47kGqo_000037_000047,Entertainment,tier2_vatex_long,2,0.2,0.2,5
+g8Idd47kGqo_000037_000047,Entertainment,tier3_va11y,3,0.3,0.2,5
+gFBO3zrod9Y_000005_000015,People & Vlogs,tier0_cross,0,0.0,0.0,5
+gFBO3zrod9Y_000005_000015,People & Vlogs,tier1_vatex_short,1,0.6,0.4,5
+gFBO3zrod9Y_000005_000015,People & Vlogs,tier2_vatex_long,2,0.3,0.2,5
+gFBO3zrod9Y_000005_000015,People & Vlogs,tier3_va11y,3,0.8,0.6,5
+h8wsO9A9v_c_000016_000026,People & Vlogs,tier0_cross,0,0.0,0.0,5
+h8wsO9A9v_c_000016_000026,People & Vlogs,tier1_vatex_short,1,0.1,0.0,5
+h8wsO9A9v_c_000016_000026,People & Vlogs,tier2_vatex_long,2,0.2,0.0,5
+h8wsO9A9v_c_000016_000026,People & Vlogs,tier3_va11y,3,0.3,0.0,5
+heWD9j45Emw_000225_000235,Music,tier0_cross,0,0.0,0.0,5
+heWD9j45Emw_000225_000235,Music,tier1_vatex_short,1,0.3,0.2,5
+heWD9j45Emw_000225_000235,Music,tier2_vatex_long,2,0.4,0.2,5
+heWD9j45Emw_000225_000235,Music,tier3_va11y,3,0.6,0.4,5
+iEAWgsSvJAE_000023_000033,Film & Animation,tier0_cross,0,0.0,0.0,5
+iEAWgsSvJAE_000023_000033,Film & Animation,tier1_vatex_short,1,0.1,0.0,5
+iEAWgsSvJAE_000023_000033,Film & Animation,tier2_vatex_long,2,0.1,0.0,5
+iEAWgsSvJAE_000023_000033,Film & Animation,tier3_va11y,3,0.5,0.4,5
+iGmGQxox43I_000000_000010,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+iGmGQxox43I_000000_000010,How-to & Instructional,tier1_vatex_short,1,0.1,0.0,5
+iGmGQxox43I_000000_000010,How-to & Instructional,tier2_vatex_long,2,0.1,0.0,5
+iGmGQxox43I_000000_000010,How-to & Instructional,tier3_va11y,3,0.4,0.4,5
+iZP6gjlr_nM_000113_000123,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+iZP6gjlr_nM_000113_000123,How-to & Instructional,tier1_vatex_short,1,0.1,0.0,5
+iZP6gjlr_nM_000113_000123,How-to & Instructional,tier2_vatex_long,2,0.1,0.0,5
+iZP6gjlr_nM_000113_000123,How-to & Instructional,tier3_va11y,3,0.5,0.4,5
+j4CKRgv3jUg_000000_000010,Entertainment,tier0_cross,0,0.0,0.0,5
+j4CKRgv3jUg_000000_000010,Entertainment,tier1_vatex_short,1,0.1,0.0,5
+j4CKRgv3jUg_000000_000010,Entertainment,tier2_vatex_long,2,0.1,0.0,5
+j4CKRgv3jUg_000000_000010,Entertainment,tier3_va11y,3,0.7,0.6,5
+j6CgiNeWQwM_000842_000852,Food & Cooking,tier0_cross,0,0.0,0.0,5
+j6CgiNeWQwM_000842_000852,Food & Cooking,tier1_vatex_short,1,0.1,0.0,5
+j6CgiNeWQwM_000842_000852,Food & Cooking,tier2_vatex_long,2,0.2,0.0,5
+j6CgiNeWQwM_000842_000852,Food & Cooking,tier3_va11y,3,0.4,0.2,5
+jeweRSnAJeo_000050_000060,Film & Animation,tier0_cross,0,0.0,0.0,5
+jeweRSnAJeo_000050_000060,Film & Animation,tier1_vatex_short,1,0.2,0.0,5
+jeweRSnAJeo_000050_000060,Film & Animation,tier2_vatex_long,2,0.6,0.4,5
+jeweRSnAJeo_000050_000060,Film & Animation,tier3_va11y,3,0.6,0.4,5
+lgJywzzdUC8_000000_000010,Event,tier0_cross,0,0.0,0.0,5
+lgJywzzdUC8_000000_000010,Event,tier1_vatex_short,1,0.3,0.0,5
+lgJywzzdUC8_000000_000010,Event,tier2_vatex_long,2,0.4,0.2,5
+lgJywzzdUC8_000000_000010,Event,tier3_va11y,3,0.7,0.6,5
+rGQ64NXktF8_000006_000016,People & Vlogs,tier0_cross,0,0.0,0.0,5
+rGQ64NXktF8_000006_000016,People & Vlogs,tier1_vatex_short,1,0.1,0.0,5
+rGQ64NXktF8_000006_000016,People & Vlogs,tier2_vatex_long,2,0.2,0.2,5
+rGQ64NXktF8_000006_000016,People & Vlogs,tier3_va11y,3,0.5,0.2,5
+u-olDM7oGGM_000012_000022,Health & Wellness,tier0_cross,0,0.0,0.0,5
+u-olDM7oGGM_000012_000022,Health & Wellness,tier1_vatex_short,1,0.2,0.0,5
+u-olDM7oGGM_000012_000022,Health & Wellness,tier2_vatex_long,2,0.5,0.0,5
+u-olDM7oGGM_000012_000022,Health & Wellness,tier3_va11y,3,0.4,0.2,5
+v2Hr1CH-yb0_000076_000086,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+v2Hr1CH-yb0_000076_000086,How-to & Instructional,tier1_vatex_short,1,0.2,0.0,5
+v2Hr1CH-yb0_000076_000086,How-to & Instructional,tier2_vatex_long,2,0.2,0.0,5
+v2Hr1CH-yb0_000076_000086,How-to & Instructional,tier3_va11y,3,0.3,0.2,5
+wbOD_G3ttgU_000083_000093,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+wbOD_G3ttgU_000083_000093,How-to & Instructional,tier1_vatex_short,1,0.4,0.2,5
+wbOD_G3ttgU_000083_000093,How-to & Instructional,tier2_vatex_long,2,0.4,0.4,5
+wbOD_G3ttgU_000083_000093,How-to & Instructional,tier3_va11y,3,0.6,0.4,5
+xW6hpK-DBMY_000080_000090,How-to & Instructional,tier0_cross,0,0.0,0.0,5
+xW6hpK-DBMY_000080_000090,How-to & Instructional,tier1_vatex_short,1,0.2,0.0,5
+xW6hpK-DBMY_000080_000090,How-to & Instructional,tier2_vatex_long,2,0.2,0.0,5
+xW6hpK-DBMY_000080_000090,How-to & Instructional,tier3_va11y,3,0.3,0.2,5
+yBO8rAMeqjc_000007_000017,"Education, Seminar & Talks",tier0_cross,0,0.0,0.0,5
+yBO8rAMeqjc_000007_000017,"Education, Seminar & Talks",tier1_vatex_short,1,0.2,0.0,5
+yBO8rAMeqjc_000007_000017,"Education, Seminar & Talks",tier2_vatex_long,2,0.1,0.0,5
+yBO8rAMeqjc_000007_000017,"Education, Seminar & Talks",tier3_va11y,3,0.3,0.2,5
+zTJ0Zbv1jBo_000045_000055,Health & Wellness,tier0_cross,0,0.0,0.0,5
+zTJ0Zbv1jBo_000045_000055,Health & Wellness,tier1_vatex_short,1,0.2,0.0,5
+zTJ0Zbv1jBo_000045_000055,Health & Wellness,tier2_vatex_long,2,0.2,0.0,5
+zTJ0Zbv1jBo_000045_000055,Health & Wellness,tier3_va11y,3,0.7,0.6,5

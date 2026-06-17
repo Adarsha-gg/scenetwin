@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject of the video?",
+      "answer_key": "A person.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main action performed by the person on the roof?",
+      "answer_key": "Clearing snow from the roof.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does the scene primarily take place?",
+      "answer_key": "At a snow-covered house.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What object is the person using to access the roof?",
+      "answer_key": "A ladder.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the long coat worn by the person clearing snow?",
+      "answer_key": "Light brown or tan.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What happens to the person after clearing the snow?",
+      "answer_key": "They fall from the ladder into deep snow.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How many people are visible in total by the end of the clip?",
+      "answer_key": "Two people.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is visible lying across the deep snow on the ground?",
+      "answer_key": "A rope or cable.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What color is the visible wall section of the house below the roof?",
+      "answer_key": "Green.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Describe the depth of the snow on the ground where the person falls.",
+      "answer_key": "The snow is very deep, almost completely covering the fallen person.",
+      "tier": "secondary"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+usecase,stat,p_value,n,finding
+UC1_extended_vs_tier3_adqa,rho=0.018,0.9449903904700091,18,negative rho → extended need clips are harder for pro AD (expected)
+UC2_category_gap_profile,"['Sports', 'Pets & Animals', 'Food & Cooking']",,4,"highest pressure categories: ['Sports', 'Pets & Animals', 'Food & Cooking']"
+UC3_risk_separates_known_failures,"fail_mean=0.140, ok_mean=0.058",0.2686419485807302,18,risk score should rank clip_00/12 above median
+UC4_speech_density_vs_tier3_ensemble,"rho=0.140, margin_heavy-lean=-0.001",,18,speech-heavy clips may need integrated AD not standard slots
+UC5_need_windows_vs_generated_slots,rho=0.989,1.1911962544402667e-09,12,ADX3 slot generator should track TRIBE extended windows
+UC7_pressure_vs_pro_ad_length,rho=-0.090,0.7228472757798845,18,if positive: high-need clips already have longer pro AD (human alignment)

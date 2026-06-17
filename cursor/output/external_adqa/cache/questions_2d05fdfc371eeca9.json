@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "A child is operating the controls of a red farm tractor.",
+      "required_visual_evidence": [
+        "child at tractor controls",
+        "red tractor",
+        "hands on steering mechanism"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary action and subject essential to understanding the clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of vehicle is featured in this video?",
+      "answer_key": "A red farm tractor with large black tires and farm equipment attached.",
+      "required_visual_evidence": [
+        "red tractor",
+        "large black tire",
+        "farm equipment/loader"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the main object and setting context for the entire scene."
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does this video take place?",
+      "answer_key": "Outdoors in a grassy field or park with trees in the background.",
+      "required_visual_evidence": [
+        "green grass",
+        "trees",
+        "outdoor setting"
+      ],
+      "importance": "useful",
+      "rationale": "Provides essential location context for understanding the scene environment."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the child interacting with on the tractor?",
+      "answer_key": "The steering wheel and control levers of the tractor.",
+      "required_visual_evidence": [
+        "steering mechanism",
+        "control levers",
+        "child's hands on controls"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies the specific interaction and engagement with the vehicle."
+    },
+    {
+      "q_idx": 4,
+      "question": "Who is supervising or present with the child during this activity?",
+      "answer_key": "An adult man is standing beside or near the child at the tractor.",
+      "required_visual_evidence": [
+        "adult man",
+        "standing near child",
+        "tractor operator area"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates supervision and safety context for the child's activity."
+    }
+  ]
+}

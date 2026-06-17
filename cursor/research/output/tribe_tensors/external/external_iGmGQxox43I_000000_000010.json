@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_iGmGQxox43I_000000_000010",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/iGmGQxox43I_000000_000010.mp4",
+  "ad_text_used": "A woman in an orange top stands beside a horse, demonstrating how to use a grooming mitt. She explains the process as she gently brushes the horse's face, using a mitt with small teeth designed for grooming. The horse stands calmly as she continues to brush its mane and face, showing the proper technique for effective grooming.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.07374964623506675,
+  "description_gain": -0.02454270454573504,
+  "alignment_cosine": 0.9885199242799947,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    24,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "iGmGQxox43I_000000_000010",
+  "category": "How-to & Instructional",
+  "yt_id": "iGmGQxox43I",
+  "start_s": 0.0,
+  "end_s": 10.0
+}

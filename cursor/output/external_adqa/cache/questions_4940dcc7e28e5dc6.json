@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the primary activity taking place in this venue?",
+      "answer_key": "People are roller skating on a wooden floor.",
+      "required_visual_evidence": [
+        "wooden floor",
+        "people in motion",
+        "roller skates",
+        "indoor venue"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the main action and setting essential to understanding the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of flooring surface are the skaters using?",
+      "answer_key": "A polished wooden floor with reflective surface.",
+      "required_visual_evidence": [
+        "wooden floor",
+        "shiny/reflective surface",
+        "light reflections"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the skating surface, important for understanding the environment."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the lighting setup in this roller skating venue?",
+      "answer_key": "Colored ceiling lights including blue, green, and red lights.",
+      "required_visual_evidence": [
+        "ceiling lights",
+        "colored lighting",
+        "blue lights",
+        "green lights",
+        "red lights"
+      ],
+      "importance": "useful",
+      "rationale": "Conveys the entertainment venue atmosphere and ambiance."
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are visible skating or present in the venue?",
+      "answer_key": "Multiple people, approximately 20-30 individuals scattered across the floor.",
+      "required_visual_evidence": [
+        "groups of people",
+        "distributed across floor",
+        "various locations"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates crowd size and activity level in the venue."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the ceiling or upper area of the venue?",
+      "answer_key": "Decorative lights and what appear to be character or mascot decorations.",
+      "required_visual_evidence": [
+        "ceiling decorations",
+        "character figures",
+        "overhead lighting"
+      ],
+      "importance": "useful",
+      "rationale": "Describes venue décor relevant to the entertainment setting."
+    }
+  ]
+}

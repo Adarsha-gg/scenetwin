@@ -1,0 +1,155 @@
+#!/usr/bin/env python3
+"""Build a study table for testing TRIBE-predicted interactive gain."""
+from __future__ import annotations
+
+from pathlib import Path
+
+import pandas as pd
+
+
+ROOT = Path(__file__).resolve().parents[1]
+AGENCY = ROOT / "cursor" / "output" / "neural_agency_map.csv"
+WINDOWS = ROOT / "cursor" / "output" / "neural_agency_windows.csv"
+NEED_WINDOWS = ROOT / "output" / "scenetwin_timing_20clip" / "need" / "coarse_need_windows.csv"
+QUESTIONS = ROOT / "output" / "scenetwin_timing_20clip" / "adqa_v2" / "adqa_v2_questions.csv"
+GRADES = ROOT / "output" / "scenetwin_timing_20clip" / "adqa_v2" / "adqa_v2_grades.csv"
+OUT_DIR = ROOT / "cursor" / "output"
+OUT_CSV = OUT_DIR / "interactive_gain_protocol.csv"
+OUT_REPORT = ROOT / "cursor" / "findings" / "interactive-gain-protocol.md"
+
+
+def compact(text: object, n: int = 180) -> str:
+    s = "" if pd.isna(text) else str(text).replace("\n", " ").strip()
+    return s if len(s) <= n else s[: n - 3].rstrip() + "..."
+
+
+def main() -> None:
+    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    OUT_REPORT.parent.mkdir(parents=True, exist_ok=True)
+
+    agency = pd.read_csv(AGENCY)
+    windows = pd.read_csv(WINDOWS)
+    all_windows = pd.read_csv(NEED_WINDOWS)
+    all_windows["window_agency"] = all_windows["need_score"] * (
+        0.6 * all_windows["speech_density"] + 0.4 * (1.0 - all_windows["speech_density"])
+    )
+    questions = pd.read_csv(QUESTIONS)
+    grades = pd.read_csv(GRADES)
+
+    high = agency[
+        agency["recommended_intervention"].isin(["interactive_vqa_first", "human_review"])
+    ].head(6)
+    low = agency[
+        agency["recommended_intervention"].isin(["lightweight_or_no_ad", "standard_inserted_ad"])
+    ].head(4)
+    sample = pd.concat([high.assign(stratum="high_agency"), low.assign(stratum="low_agency")], ignore_index=True)
+
+    pro = grades[grades["tier"] == "tier3_va11y"].copy()
+    q = questions[["clip_idx", "q_idx", "question", "answer_key", "required_visual_evidence", "importance"]]
+    joined = pro.merge(q, on=["clip_idx", "q_idx"], how="left")
+    joined["critical"] = joined["importance"].astype(str).str.lower().eq("critical")
+    joined["miss"] = pd.to_numeric(joined["score"], errors="coerce").fillna(0) < 0.5
+
+    rows = []
+    for clip in sample.itertuples():
+        cidx = int(clip.clip_idx)
+        cw = windows[windows["clip_idx"] == cidx].sort_values("window_agency", ascending=False).head(2)
+        if cw.empty:
+            cw = all_windows[all_windows["clip_idx"] == cidx].sort_values("window_agency", ascending=False).head(2)
+        cq = joined[(joined["clip_idx"] == cidx) & (joined["critical"])].copy()
+        missed = cq[cq["miss"]].head(2)
+        if missed.empty:
+            missed = cq.head(2)
+        question_pack = " || ".join(
+            f"Q: {compact(r.question, 110)} A: {compact(r.answer_key, 110)}"
+            for r in missed.itertuples()
+        )
+        window_pack = " || ".join(
+            f"{r.start_s:.2f}-{r.end_s:.2f}s need={r.need_score:.2f} speech={r.speech_density:.2f}"
+            for r in cw.itertuples()
+        )
+        rows.append(
+            {
+                "clip_idx": cidx,
+                "category": clip.category,
+                "stratum": clip.stratum,
+                "agency_rank": int(clip.agency_rank),
+                "agency_score": float(clip.agency_score),
+                "recommended_intervention": clip.recommended_intervention,
+                "critical_miss_rate": float(getattr(clip, "critical_miss_rate", 0.0)),
+                "collision_debt_frac": float(getattr(clip, "collision_debt_frac", 0.0)),
+                "slotable_debt_frac": float(getattr(clip, "slotable_debt_frac", 0.0)),
+                "selected_windows": window_pack,
+                "evaluation_questions": question_pack,
+                "static_ad_condition": "Generate one conventional AD narration without pausing the video.",
+                "extended_ad_condition": "Allow pauses or integrated narration at selected high-agency windows.",
+                "interactive_condition": "Let the viewer ask visual questions at selected windows; answer with concise evidence-grounded detail.",
+                "primary_metric": "interactive_gain = interactive_condition_question_accuracy - static_ad_question_accuracy",
+            }
+        )
+
+    out = pd.DataFrame(rows)
+    out.to_csv(OUT_CSV, index=False)
+
+    def table(df: pd.DataFrame) -> str:
+        cols = ["clip_idx", "category", "stratum", "agency_score", "recommended_intervention", "critical_miss_rate", "selected_windows"]
+        lines = ["| " + " | ".join(cols) + " |", "| " + " | ".join(["---"] * len(cols)) + " |"]
+        for r in df[cols].to_dict(orient="records"):
+            vals = []
+            for c in cols:
+                v = r[c]
+                vals.append(f"{v:.3f}" if isinstance(v, float) else compact(v, 90))
+            lines.append("| " + " | ".join(vals) + " |")
+        return "\n".join(lines)
+
+    report = f"""# Interactive Gain Protocol
+
+Generated by `cursor/interactive_gain_protocol.py`.
+
+## Purpose
+
+Test the Neural Agency hypothesis:
+
+> TRIBE predicts where interactive BLV access beats passive/static audio
+> description.
+
+## Study sample
+
+{table(out)}
+
+## Conditions
+
+1. **Static AD**: one conventional inserted narration.
+2. **Extended/integrated AD**: pauses or integrated narration at selected
+   high-agency windows.
+3. **Interactive VQA**: viewer can ask visual questions at selected windows.
+
+## Primary metric
+
+`interactive_gain = interactive_condition_question_accuracy - static_ad_question_accuracy`
+
+Main hypothesis:
+
+`corr(TRIBE agency_score, interactive_gain) > 0`
+
+## Secondary metrics
+
+- perceived control,
+- listener burden,
+- trust,
+- story/task comprehension,
+- number of user-initiated questions.
+
+## Output
+
+Full protocol table: `cursor/output/interactive_gain_protocol.csv`
+"""
+    OUT_REPORT.write_text(report, encoding="utf-8")
+
+    print(f"Wrote {OUT_CSV}")
+    print(f"Wrote {OUT_REPORT}")
+    print(out[["clip_idx", "stratum", "agency_score", "recommended_intervention"]].to_string(index=False))
+
+
+if __name__ == "__main__":
+    main()

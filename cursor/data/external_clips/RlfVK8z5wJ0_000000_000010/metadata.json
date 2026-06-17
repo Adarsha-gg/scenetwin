@@ -1,0 +1,14 @@
+{
+  "video_id": "RlfVK8z5wJ0_000000_000010",
+  "category": "Sports",
+  "tier3_va11y": "On a frozen lake, a woman in a pink jacket and gray overalls carefully walks towards a yellow marker. She kneels by an ice fishing hole, lifting a device from the water. The scene is set in a cold, wintry environment, emphasizing the activity of checking an ice fishing line.",
+  "tier1_vatex_short": "A woman cautiously approaches a device used to drill holes in ice on a lake.",
+  "tier2_vatex_long": "On a frozen lake a female carefully walks out to a yellow marker and lifts something out of the water through a hole in the ice.",
+  "tier0_cross": "At night, a skier navigates a snowy hill, weaving between flexible poles in a slalom course. The skier moves swiftly, alternating left and right, purposefully making contact with each pole as they descend the slope.",
+  "yt_id": "RlfVK8z5wJ0",
+  "start": 0.0,
+  "end": 10.0,
+  "acquired_at": "2026-05-27T18:21:41Z",
+  "download_ok": true,
+  "download_msg": "trimmed 10.0s"
+}

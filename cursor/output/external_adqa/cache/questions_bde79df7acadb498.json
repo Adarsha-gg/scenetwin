@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing throughout these frames?",
+      "answer_key": "A man is speaking while holding a microphone to his mouth.",
+      "required_visual_evidence": [
+        "man holding microphone",
+        "microphone near mouth",
+        "speaking gesture"
+      ],
+      "importance": "critical",
+      "rationale": "The primary action defines the entire scene and is essential to understanding the clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is this scene taking place?",
+      "answer_key": "Indoors on a couch or seating area with a red and white wall backdrop.",
+      "required_visual_evidence": [
+        "couch/seating furniture",
+        "red wall panel",
+        "white wall",
+        "indoor setting"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is fundamental for listeners to visualize the environment and scene type."
+    },
+    {
+      "q_idx": 2,
+      "question": "What object is the main subject holding?",
+      "answer_key": "A microphone with a dark handle or grip.",
+      "required_visual_evidence": [
+        "microphone",
+        "dark handle",
+        "held in hand"
+      ],
+      "importance": "critical",
+      "rationale": "The microphone is a key prop that defines the activity and should be described in AD."
+    },
+    {
+      "q_idx": 3,
+      "question": "Is anyone else visible in the scene, and if so, where are they positioned?",
+      "answer_key": "Yes, another person is seated on the right side of the couch.",
+      "required_visual_evidence": [
+        "second person",
+        "right side",
+        "seated",
+        "couch"
+      ],
+      "importance": "useful",
+      "rationale": "Secondary subjects provide context about whether this is a solo or group activity."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the approximate positioning of the main subject on the furniture?",
+      "answer_key": "The man is seated on the left side of the couch.",
+      "required_visual_evidence": [
+        "seated position",
+        "left side",
+        "couch"
+      ],
+      "importance": "useful",
+      "rationale": "Spatial positioning helps listeners understand the layout and composition of the scene."
+    }
+  ]
+}

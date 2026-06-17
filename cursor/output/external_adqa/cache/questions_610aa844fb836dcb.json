@@ -1,0 +1,61 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person doing with the red object?",
+      "answer_key": "Lifting or picking up a red suitcase/luggage from the floor",
+      "required_visual_evidence": [
+        "person bending down",
+        "red suitcase",
+        "progressive lifting motion across frames"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the clip; essential for understanding the scene's purpose"
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is this scene taking place?",
+      "answer_key": "Inside a garage or storage area with a garage door visible",
+      "required_visual_evidence": [
+        "garage door with panels",
+        "concrete floor",
+        "metal shelving/storage racks"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context necessary for understanding the environment and activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "What color is the main piece of luggage being handled?",
+      "answer_key": "Red",
+      "required_visual_evidence": [
+        "red suitcase throughout frames"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the primary object of focus in the action sequence"
+    },
+    {
+      "q_idx": 3,
+      "question": "What other items are visible in the storage area?",
+      "answer_key": "Carpet cleaning machines, tools, and various equipment on shelves",
+      "required_visual_evidence": [
+        "blue carpet cleaning machine",
+        "dark equipment on right",
+        "metal shelving"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes context that this is a storage/utility space with multiple items"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the person wearing on their feet?",
+      "answer_key": "No shoes; the person is barefoot",
+      "required_visual_evidence": [
+        "visible bare feet in multiple frames",
+        "no footwear"
+      ],
+      "importance": "useful",
+      "rationale": "Notable detail that contributes to understanding the scene's context and tone"
+    }
+  ]
+}

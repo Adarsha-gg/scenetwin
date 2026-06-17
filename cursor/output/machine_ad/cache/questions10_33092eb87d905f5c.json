@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main activity being demonstrated?",
+      "answer_key": "Sheep shearing.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "Who are the primary human subjects involved in the demonstration?",
+      "answer_key": "Two men, one presenting and one shearing.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location of this event?",
+      "answer_key": "An indoor stage or venue for a show.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What animal is the focus of the demonstration?",
+      "answer_key": "A sheep.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color shirt is the man speaking into the headset wearing?",
+      "answer_key": "A blue polo shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What tool is the man using to remove the wool from the sheep?",
+      "answer_key": "Electric clippers.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What kind of imagery is depicted on the mural behind the stage?",
+      "answer_key": "People and sheep in a pastoral scene.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is the sheep's posture while being shorn?",
+      "answer_key": "Sitting upright on its hindquarters.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What text is visible on the sign to the left of the stage?",
+      "answer_key": "THE SHEEP SHOW and DVD pricing.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "How many children are clearly visible in the audience?",
+      "answer_key": "At least three children.",
+      "tier": "secondary"
+    }
+  ]
+}

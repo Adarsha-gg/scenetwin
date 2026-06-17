@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_11_z8Q-s8AthrA_000002_000012",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_11.mp4",
+  "ad_text_used": "A young girl in a yellow shirt and black pants participates in a track and field event. She energetically runs and leaps over hurdles on a track. Later, she stands on the track, speaking confidently about her experience while other children play in the background. The scene shifts to her performing a high jump, landing on a cushioned surface. The video captures her enthusiasm and skill in the sport.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.10972697491725192,
+  "description_gain": -0.4428179301693753,
+  "alignment_cosine": 0.9010932522109787,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    30,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 11,
+  "video_id": "z8Q-s8AthrA_000002_000012",
+  "category": "Sports",
+  "duration_s": 16.39,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

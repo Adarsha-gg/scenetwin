@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_u-olDM7oGGM_000012_000022",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/u-olDM7oGGM_000012_000022.mp4",
+  "ad_text_used": "On a residential street, a young boy with a backpack walks alongside a group of people, including an adult with a dog on a leash. The boy playfully drapes a jacket over his head and runs across the road, laughing. The scene captures a lighthearted moment, but also highlights the importance of road safety.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.12743765015316133,
+  "description_gain": -0.216443639550018,
+  "alignment_cosine": 0.9724902192967442,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    23,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "u-olDM7oGGM_000012_000022",
+  "category": "Health & Wellness",
+  "yt_id": "u-olDM7oGGM",
+  "start_s": 12.0,
+  "end_s": 22.0
+}

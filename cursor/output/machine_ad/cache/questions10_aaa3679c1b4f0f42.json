@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main person actively shaping the clay?",
+      "answer_key": "A woman.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the woman doing with the clay?",
+      "answer_key": "Shaping clay on a pottery wheel.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting of this activity?",
+      "answer_key": "A pottery studio or workshop.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary object being created?",
+      "answer_key": "A piece of clay on a pottery wheel.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color t-shirt is the woman wearing?",
+      "answer_key": "Purple.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What equipment is the woman using to shape the clay?",
+      "answer_key": "A pottery wheel.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is visible outside the large windows?",
+      "answer_key": "Green trees and foliage.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What other pottery items are on the table?",
+      "answer_key": "Several vases and cups.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the man holding in his hand in some frames?",
+      "answer_key": "A small white rectangular object.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the color of the clay piece on the wheel?",
+      "answer_key": "Light brown or tan.",
+      "tier": "secondary"
+    }
+  ]
+}

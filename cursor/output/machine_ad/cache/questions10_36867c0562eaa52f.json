@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the adult male shown speaking in the initial frames?",
+      "answer_key": "A man in a white lab coat.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "Who is the primary subject demonstrating the action?",
+      "answer_key": "A young child.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What specific way is the child walking?",
+      "answer_key": "On tip-toes.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What type of environment is the child walking in?",
+      "answer_key": "A carpeted indoor home setting.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color shirt is the man wearing under his lab coat?",
+      "answer_key": "Dark blue.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is the child wearing in the first walking sequence?",
+      "answer_key": "A white dress or nightgown.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color is the child's second outfit?",
+      "answer_key": "Blue shorts and top.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What color are the walls in the hallway where the child first walks?",
+      "answer_key": "Green.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What piece of furniture is visible near the child in the later walking frames?",
+      "answer_key": "A dark coffee table or bench.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the main topic described in the lower third graphic?",
+      "answer_key": "A 3-year-old daughter walks on tip-toes.",
+      "tier": "secondary"
+    }
+  ]
+}

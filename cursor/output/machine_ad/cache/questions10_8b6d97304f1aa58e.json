@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject in the video?",
+      "answer_key": "A young man.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person doing at the beginning of the clip?",
+      "answer_key": "Crouching by a bicycle and looking surprised.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does the scene take place?",
+      "answer_key": "In a garage or workshop.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary object the person is interacting with?",
+      "answer_key": "A bicycle.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What type of shirt is the person wearing?",
+      "answer_key": "A short-sleeved work shirt with a patch.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is missing from the bicycle being worked on?",
+      "answer_key": "Its front wheel.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What does the person hold and wipe with after standing up?",
+      "answer_key": "A white cloth.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What text appears on the black screen?",
+      "answer_key": "Oh, hello!",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "Describe the person's initial facial expression.",
+      "answer_key": "Wide-eyed and surprised.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What type of vehicle is parked behind the person?",
+      "answer_key": "A scooter or small motorcycle.",
+      "tier": "secondary"
+    }
+  ]
+}

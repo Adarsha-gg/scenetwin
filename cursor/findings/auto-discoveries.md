@@ -1,0 +1,229 @@
+# Auto discoveries (loop worker)
+
+- [2026-05-27T17:32:42Z] Bootstrap #1: ensemble_mean_clip_top3 ρ=0.9293 [0.884, 0.964]
+- [2026-05-27T17:32:42Z] Clip 01 (Food & Cooking): risk #11, peak need=1.00@1.49s
+- [2026-05-27T17:32:42Z] Weight sweep iter 1: best ρ=0.9285 at w_clip=0.5
+- [2026-05-27T17:32:42Z] TRIBE ablation iter 1: top driver mean_standard_slot_score ρ=-0.599
+- [2026-05-27T17:32:42Z] Perm null iter 1: obs ρ=0.9285, p=0.0000
+- [2026-05-27T17:33:27Z] Bootstrap #2: ensemble_mean_clip_top3 ρ=0.9297 [0.884, 0.963]
+- [2026-05-27T17:33:27Z] Weight sweep iter 2: best ρ=0.9285 at w_clip=0.5
+- [2026-05-27T17:33:27Z] TRIBE ablation iter 2: top driver mean_standard_slot_score ρ=-0.599
+- [2026-05-27T17:33:28Z] Perm null iter 2: obs ρ=0.9285, p=0.0000
+- [2026-05-27T17:35:34Z] Bootstrap #3: ensemble_mean_clip_top3 ρ=0.9263 [0.877, 0.960]
+- [2026-05-27T17:35:34Z] Clip 03 (Food & Cooking): risk #5, peak need=1.00@1.49s
+- [2026-05-27T17:35:34Z] Weight sweep iter 3: best ρ=0.9285 at w_clip=0.5
+- [2026-05-27T17:35:34Z] TRIBE ablation iter 3: top driver mean_standard_slot_score ρ=-0.599
+- [2026-05-27T17:35:35Z] Perm null iter 3: obs ρ=0.9285, p=0.0000
+- [2026-05-27T17:38:20Z] Bootstrap #4: ensemble_mean_clip_top3 ρ=0.9284 [0.885, 0.961]
+- [2026-05-27T17:38:20Z] Clip 04 (Food & Cooking): risk #4, peak need=1.00@0.0s
+- [2026-05-27T17:38:20Z] Weight sweep iter 4: best ρ=0.9285 at w_clip=0.5
+- [2026-05-27T17:38:20Z] TRIBE ablation iter 4: top driver mean_standard_slot_score ρ=-0.599
+- [2026-05-27T17:38:21Z] Perm null iter 4: obs ρ=0.9285, p=0.0000
+- [2026-05-27T17:40:27Z] Bootstrap #5: ensemble_mean_clip_top3 ρ=0.9280 [0.881, 0.963]
+- [2026-05-27T17:40:27Z] Clip 05 (Food & Cooking): risk #9, peak need=0.95@8.94s
+- [2026-05-27T17:40:27Z] Weight sweep iter 5: best ρ=0.9285 at w_clip=0.5
+- [2026-05-27T17:40:27Z] TRIBE ablation iter 5: top driver mean_standard_slot_score ρ=-0.599
+- [2026-05-27T17:40:28Z] Perm null iter 5: obs ρ=0.9285, p=0.0000
+- [2026-05-27T17:42:35Z] Bootstrap #6: ensemble_mean_clip_top3 ρ=0.9298 [0.883, 0.961]
+- [2026-05-27T17:42:35Z] Clip 06 (Travel): risk #12, peak need=1.00@0.0s
+- [2026-05-27T17:42:35Z] Weight sweep iter 6: best ρ=0.9285 at w_clip=0.5
+- [2026-05-27T17:42:35Z] TRIBE ablation iter 6: top driver mean_standard_slot_score ρ=-0.599
+- [2026-05-27T17:42:36Z] Perm null iter 6: obs ρ=0.9285, p=0.0000
+- [2026-05-27T17:44:45Z] Bootstrap #7: ensemble_mean_clip_top3 ρ=0.9286 [0.885, 0.963]
+- [2026-05-27T17:44:45Z] Clip 07 (Travel): risk #14, peak need=0.94@14.9s
+- [2026-05-27T17:44:45Z] Weight sweep iter 7: best ρ=0.9285 at w_clip=0.5
+- [2026-05-27T17:44:45Z] TRIBE ablation iter 7: top driver mean_standard_slot_score ρ=-0.599
+- [2026-05-27T17:44:46Z] Perm null iter 7: obs ρ=0.9285, p=0.0000
+- [2026-05-27T17:47:28Z] Bootstrap #8: ensemble_mean_clip_top3 ρ=0.9294 [0.883, 0.965]
+- [2026-05-27T17:47:28Z] Clip 08 (Travel): risk #10, peak need=1.00@1.49s
+- [2026-05-27T17:47:28Z] Weight sweep iter 8: best ρ=0.9285 at w_clip=0.5
+- [2026-05-27T17:47:28Z] TRIBE ablation iter 8: top driver mean_standard_slot_score ρ=-0.599
+- [2026-05-27T17:47:29Z] Perm null iter 8: obs ρ=0.9285, p=0.0000
+- [2026-05-27T17:49:36Z] Bootstrap #9: ensemble_mean_clip_top3 ρ=0.9293 [0.881, 0.962]
+- [2026-05-27T17:49:36Z] Clip 09 (Sports): risk #15, peak need=0.80@0.0s
+- [2026-05-27T17:49:36Z] Weight sweep iter 9: best ρ=0.9285 at w_clip=0.5
+- [2026-05-27T17:49:36Z] TRIBE ablation iter 9: top driver mean_standard_slot_score ρ=-0.599
+- [2026-05-27T17:49:37Z] Perm null iter 9: obs ρ=0.9285, p=0.0000
+- [2026-05-27T17:52:19Z] iter 10: adqa_va_nu completed (adqa_va_nu_eval.py)
+- [2026-05-27T17:52:20Z] iter 10: hierarchical_semantic completed (hierarchical_semantic_eval.py)
+- [2026-05-27T17:52:20Z] iter 10: generated AD slots for clip_10
+- [2026-05-27T17:52:31Z] iter 11: av_consistency completed (av_consistency_eval.py)
+- [2026-05-27T17:52:32Z] iter 11: six_dim_rubric completed (six_dim_rubric.py)
+- [2026-05-27T17:52:33Z] iter 11: generated AD slots for clip_11
+- [2026-05-27T17:52:34Z] iter 12: hierarchical_semantic completed (hierarchical_semantic_eval.py)
+- [2026-05-27T17:52:35Z] iter 12: vidscribe_coverage completed (vidscribe_query_coverage.py)
+- [2026-05-27T17:52:35Z] iter 12: generated AD slots for clip_12
+- [2026-05-27T17:54:37Z] iter 13: adqa_va_nu completed (adqa_va_nu_eval.py)
+- [2026-05-27T17:54:38Z] iter 13: six_dim_rubric completed (six_dim_rubric.py)
+- [2026-05-27T17:54:39Z] iter 13: generated AD slots for clip_13
+- [2026-05-27T17:56:40Z] iter 14: av_consistency completed (av_consistency_eval.py)
+- [2026-05-27T17:56:41Z] iter 14: vidscribe_coverage completed (vidscribe_query_coverage.py)
+- [2026-05-27T17:56:41Z] iter 14: generated AD slots for clip_14
+- [2026-05-27T17:58:42Z] iter 15: adqa_va_nu completed (adqa_va_nu_eval.py)
+- [2026-05-27T17:58:43Z] iter 15: hierarchical_semantic completed (hierarchical_semantic_eval.py)
+- [2026-05-27T17:58:43Z] iter 15: generated AD slots for clip_15
+- [2026-05-27T18:00:44Z] iter 16: av_consistency completed (av_consistency_eval.py)
+- [2026-05-27T18:00:45Z] iter 16: six_dim_rubric completed (six_dim_rubric.py)
+- [2026-05-27T18:00:46Z] iter 16: generated AD slots for clip_16
+- [2026-05-27T18:02:48Z] iter 17: hierarchical_semantic completed (hierarchical_semantic_eval.py)
+- [2026-05-27T18:02:49Z] iter 17: vidscribe_coverage completed (vidscribe_query_coverage.py)
+- [2026-05-27T18:02:49Z] iter 17: generated AD slots for clip_17
+- [2026-05-27T18:05:54Z] iter 19: tribe_lab done
+- [2026-05-27T18:05:59Z] iter 20: acquired external clip #1
+- [2026-05-27T18:08:25Z] iter 21: score_external done
+- [2026-05-27T18:10:53Z] iter 22: eval_suite done
+- [2026-05-27T18:11:19Z] iter 23: mdci_edit_distance.py OK
+- [2026-05-27T18:11:59Z] iter 24: subjectivity_index.py OK
+- [2026-05-27T18:12:00Z] iter 24: slot_iou_tribe.py OK
+- [2026-05-27T18:12:24Z] iter 24: batch acquired 5 clips
+- [2026-05-27T18:13:19Z] iter 25: maverix_audio_gate.py OK
+- [2026-05-27T18:13:20Z] iter 25: story_recall_proxy.py OK
+- [2026-05-27T18:15:22Z] iter 26: motion_from_video.py OK
+- [2026-05-27T18:15:22Z] iter 26: mdci_edit_distance.py OK
+- [2026-05-27T18:17:23Z] iter 27: generalization_gap.py OK
+- [2026-05-27T18:17:23Z] iter 27: slot_iou_tribe.py OK
+- [2026-05-27T18:17:49Z] iter 27: batch acquired 5 clips
+- [2026-05-27T18:19:50Z] iter 28: subjectivity_index.py OK
+- [2026-05-27T18:19:51Z] iter 28: maverix_audio_gate.py OK
+- [2026-05-27T18:21:52Z] iter 29: story_recall_proxy.py OK
+- [2026-05-27T18:21:54Z] iter 29: motion_from_video.py OK
+- [2026-05-27T18:23:56Z] iter 30: mdci_edit_distance.py OK
+- [2026-05-27T18:23:56Z] iter 30: generalization_gap.py OK
+- [2026-05-27T18:25:42Z] iter 30: CLIP pipeline on external clips OK
+- [2026-05-27T18:26:15Z] iter 30: batch acquired 5 clips
+- [2026-05-27T18:28:17Z] iter 31: slot_iou_tribe.py OK
+- [2026-05-27T18:28:18Z] iter 31: subjectivity_index.py OK
+- [2026-05-27T18:30:18Z] iter 32: maverix_audio_gate.py OK
+- [2026-05-27T18:30:19Z] iter 32: story_recall_proxy.py OK
+- [2026-05-27T18:31:57Z] iter 32: CLIP pipeline on external clips OK
+- [2026-05-27T18:33:59Z] iter 33: motion_from_video.py OK
+- [2026-05-27T18:34:00Z] iter 33: mdci_edit_distance.py OK
+- [2026-05-27T18:34:16Z] iter 33: batch acquired 5 clips
+- [2026-05-27T18:36:17Z] iter 34: generalization_gap.py OK
+- [2026-05-27T18:36:18Z] iter 34: slot_iou_tribe.py OK
+- [2026-05-27T18:37:29Z] iter 34: need-weighted CLIP external eval OK
+- [2026-05-27T18:42:35Z] iter 35: subjectivity_index.py OK
+- [2026-05-27T18:42:35Z] iter 35: maverix_audio_gate.py OK
+- [2026-05-27T18:44:37Z] iter 36: story_recall_proxy.py OK
+- [2026-05-27T18:44:40Z] iter 36: motion_from_video.py OK
+- [2026-05-27T18:45:13Z] iter 36: need-weighted CLIP external eval OK
+- [2026-05-27T18:47:53Z] iter 36: batch acquired 5 clips
+- [2026-05-27T18:49:54Z] iter 37: mdci_edit_distance.py OK
+- [2026-05-27T18:49:54Z] iter 37: generalization_gap.py OK
+- [2026-05-27T18:51:55Z] iter 38: slot_iou_tribe.py OK
+- [2026-05-27T18:51:56Z] iter 38: subjectivity_index.py OK
+- [2026-05-27T18:52:27Z] iter 38: need-weighted CLIP external eval OK
+- [2026-05-27T18:56:39Z] iter 39: maverix_audio_gate.py OK
+- [2026-05-27T18:56:40Z] iter 39: story_recall_proxy.py OK
+- [2026-05-27T18:57:01Z] iter 39: batch acquired 5 clips
+- [2026-05-27T18:59:05Z] iter 40: motion_from_video.py OK
+- [2026-05-27T18:59:06Z] iter 40: mdci_edit_distance.py OK
+- [2026-05-27T18:59:40Z] iter 40: need-weighted CLIP external eval OK
+- [2026-05-27T19:04:08Z] iter 41: generalization_gap.py OK
+- [2026-05-27T19:04:09Z] iter 41: slot_iou_tribe.py OK
+- [2026-05-27T19:06:10Z] iter 42: subjectivity_index.py OK
+- [2026-05-27T19:06:10Z] iter 42: maverix_audio_gate.py OK
+- [2026-05-27T19:06:46Z] iter 42: need-weighted CLIP external eval OK
+- [2026-05-27T19:09:13Z] iter 42: batch acquired 5 clips
+- [2026-05-27T19:11:14Z] iter 43: story_recall_proxy.py OK
+- [2026-05-27T19:11:19Z] iter 43: motion_from_video.py OK
+- [2026-05-27T19:13:20Z] iter 44: mdci_edit_distance.py OK
+- [2026-05-27T19:13:20Z] iter 44: generalization_gap.py OK
+- [2026-05-27T19:13:56Z] iter 44: need-weighted CLIP external eval OK
+- [2026-05-27T19:14:40Z] iter 45: slot_iou_tribe.py OK
+- [2026-05-27T19:14:41Z] iter 45: generalization_gap.py OK
+- [2026-05-27T19:15:41Z] iter 46: maverix_audio_gate.py OK
+- [2026-05-27T19:15:43Z] iter 46: subjectivity_index.py OK
+- [2026-05-27T19:17:36Z] iter 46: need-weighted CLIP OK
+- [2026-05-27T19:23:09Z] iter 46: CLIP pipeline OK
+- [2026-05-27T19:23:37Z] iter 46: batch acquired 5 clips
+- [2026-05-27T19:24:43Z] iter 47: motion_from_video.py OK
+- [2026-05-27T19:24:44Z] iter 47: story_recall_proxy.py OK
+- [2026-05-27T19:25:35Z] iter 47: need-weighted CLIP OK
+- [2026-05-27T19:29:53Z] iter 48: PAPER metric_leaderboard.py
+- [2026-05-27T19:36:20Z] iter 49: PAPER coad_repetition.py
+- [2026-05-27T19:37:22Z] iter 50: PAPER critic_entity.py
+- [2026-05-27T19:38:25Z] iter 51: PAPER metric_correlation.py
+- [2026-05-27T19:39:36Z] iter 52: PAPER paper_fusion_v1.py
+- [2026-05-27T19:40:39Z] iter 53: PAPER metric_leaderboard.py
+- [2026-05-27T19:41:41Z] iter 54: PAPER coad_repetition.py
+- [2026-05-27T19:53:21Z] DISCOVER iter 1: `diff(adqa_v4_score,gain_vs_cross)` → auc_gt_dispute=0.734 (ρ=-0.003)
+- [2026-05-27T19:53:21Z] DISCOVER iter 1: `diff(clip_top3,story_recall)` → auc_gt_dispute=0.781 (ρ=-0.579)
+- [2026-05-27T19:53:21Z] DISCOVER iter 1: `ratio(gain_vs_cross,need_max)` → auc_ensemble_violation=0.489 (ρ=0.765)
+- [2026-05-27T19:53:23Z] DISCOVER iter 2: `ratio(adqa_v4_score,vt_consistency)` → auc_ensemble_violation=0.756 (ρ=0.422)
+- [2026-05-27T19:53:23Z] DISCOVER iter 2: `diff(gain_vs_cross,adqa_norm)` → auc_ensemble_violation=0.456 (ρ=-0.674)
+- [2026-05-27T19:53:23Z] DISCOVER iter 2: `diff(need_mean,speech_mean)` → auc_judge_disagree=1.000 (ρ=0.000)
+- [2026-05-27T19:53:25Z] DISCOVER iter 3: `product(crit_w,extended_seconds_frac)` → auc_ensemble_violation=0.689 (ρ=0.726)
+- [2026-05-27T19:53:25Z] DISCOVER iter 3: `ratio(clip_norm,need_mean)` → auc_gt_dispute=0.625 (ρ=0.676)
+- [2026-05-27T19:53:25Z] DISCOVER iter 3: `product(need_weighted_clip,gain_vs_cross)` → auc_low_margin=0.518 (ρ=0.777)
+- [2026-05-27T19:53:27Z] DISCOVER iter 4: `log1p(need_mean)` → auc_judge_disagree=0.750 (ρ=0.000)
+- [2026-05-27T19:53:27Z] DISCOVER iter 4: `product(read_s,extended_seconds_frac)` → auc_judge_disagree=0.781 (ρ=0.202)
+- [2026-05-27T19:53:27Z] DISCOVER iter 4: `product(adqa_v4_score,read_s)` → auc_ensemble_violation=0.422 (ρ=0.885)
+- [2026-05-27T19:54:05Z] DISCOVER iter 5: `diff(clip_mean,read_s)` → auc_gt_dispute=0.688 (ρ=-0.291)
+- [2026-05-27T19:54:05Z] DISCOVER iter 5: `product(need_mean,n_ext)` → auc_judge_disagree=0.750 (ρ=0.000)
+- [2026-05-27T19:54:05Z] DISCOVER iter 5: `diff(words,adqa_norm)` → auc_judge_disagree=0.609 (ρ=0.286)
+- [2026-05-27T19:55:27Z] DISCOVER iter 6: `diff(story_recall,lex_purity)` → auc_low_margin=0.429 (ρ=0.609)
+- [2026-05-27T19:55:27Z] DISCOVER iter 6: `product(need_max,need_mean)` → auc_judge_disagree=0.750 (ρ=0.000)
+- [2026-05-27T19:55:27Z] DISCOVER iter 6: `ratio(read_s,adqa_t3_minus_t0)` → auc_critical_miss=1.000 (ρ=0.242)
+- [2026-05-27T20:04:08Z] DISCOVER iter 7: `spread_x_need(adqa_v4_score)` → auc_ensemble_violation=0.556 (ρ=0.000)
+- [2026-05-27T20:04:08Z] DISCOVER iter 7: `std_ratio(crit_w,gain_vs_cross)` → auc_critical_miss=0.778 (ρ=0.000)
+- [2026-05-27T20:04:08Z] DISCOVER iter 7: `std_ratio(clip_top3,gain_vs_cross)` → auc_critical_miss=0.822 (ρ=0.000)
+- [2026-05-27T20:05:41Z] DISCOVER iter 8: `peak_minus_lex` → auc_judge_disagree=0.812 (ρ=-0.318)
+- [2026-05-27T20:05:41Z] DISCOVER iter 8: `need_peak_x_adqa` → auc_ensemble_violation=0.644 (ρ=0.726)
+- [2026-05-27T20:05:41Z] DISCOVER iter 8: `peak_over_words` → auc_ensemble_violation=0.800 (ρ=-0.222)
+- [2026-05-27T20:05:42Z] DISCOVER iter 9: `lex_x_gain` → auc_ensemble_violation=0.667 (ρ=0.692)
+- [2026-05-27T20:05:42Z] DISCOVER iter 9: `read_minus_lex` → auc_judge_disagree=0.625 (ρ=0.291)
+- [2026-05-27T20:05:42Z] DISCOVER iter 9: `lex_spread_proxy` → auc_ensemble_violation=0.667 (ρ=0.361)
+- [2026-05-27T20:05:43Z] DISCOVER iter 10: `mut_ext_scale_peak_over_words` → auc_ensemble_violation=0.711 (ρ=-0.161)
+- [2026-05-27T20:05:43Z] DISCOVER iter 10: `mut_log_ratio(read_s,adqa_t3_minus_t0)` → auc_critical_miss=1.000 (ρ=0.242)
+- [2026-05-27T20:05:43Z] DISCOVER iter 10: `mut_need_scale_std_ratio(clip_top3,gain_vs_cr` → auc_critical_miss=0.889 (ρ=0.000)
+- [2026-05-27T20:05:44Z] DISCOVER iter 11: `adqa_slope` → auc_ensemble_violation=0.456 (ρ=0.939)
+- [2026-05-27T20:05:44Z] DISCOVER iter 11: `t3_adqa_minus_clip` → auc_ensemble_violation=0.556 (ρ=0.020)
+- [2026-05-27T20:05:44Z] DISCOVER iter 11: `clip_spread_x_tier` → auc_low_margin=0.857 (ρ=0.925)
+- [2026-05-27T20:05:45Z] DISCOVER iter 12: `cond_story_need` → auc_low_margin=0.411 (ρ=0.665)
+- [2026-05-27T20:05:45Z] DISCOVER iter 12: `cond_lex_inversion` → auc_ensemble_violation=0.667 (ρ=0.470)
+- [2026-05-27T20:05:45Z] DISCOVER iter 12: `cond_ext_crit` → auc_critical_miss=0.844 (ρ=-0.678)
+- [2026-05-27T20:05:46Z] DISCOVER iter 13: `product(clip_top3,read_s)` → auc_judge_disagree=0.531 (ρ=0.711)
+- [2026-05-27T20:05:46Z] DISCOVER iter 13: `product(vt_consistency,clip_norm)` → auc_low_margin=0.384 (ρ=0.821)
+- [2026-05-27T20:05:46Z] DISCOVER iter 13: `diff(words,gain_vs_cross)` → auc_judge_disagree=0.625 (ρ=0.291)
+- [2026-05-27T20:05:47Z] DISCOVER iter 14: `spread_x_need(gain_vs_cross)` → auc_ensemble_violation=0.556 (ρ=0.000)
+- [2026-05-27T20:05:47Z] DISCOVER iter 14: `std_ratio(clip_top3,crit_w)` → auc_critical_miss=0.889 (ρ=0.000)
+- [2026-05-27T20:05:47Z] DISCOVER iter 14: `spread_diff(adqa_v4_score,crit_w)` → auc_low_margin=0.598 (ρ=0.000)
+- [2026-05-27T20:05:58Z] DISCOVER iter 16: `lex_minus_clip` → auc_ensemble_violation=0.889 (ρ=-0.721)
+- [2026-05-27T20:05:58Z] DISCOVER iter 16: `lex_x_adqa` → auc_ensemble_violation=0.622 (ρ=0.711)
+- [2026-05-27T20:05:58Z] DISCOVER iter 16: `words_x_lex` → auc_judge_disagree=0.625 (ρ=0.644)
+- [2026-05-27T20:05:59Z] DISCOVER iter 17: `mut_need_scale_ratio(read_s,adqa_t3_minus_t0)` → auc_critical_miss=0.978 (ρ=0.197)
+- [2026-05-27T20:05:59Z] DISCOVER iter 17: `mut_tier_scale_diff(need_mean,speech_mean)` → auc_judge_disagree=1.000 (ρ=-0.685)
+- [2026-05-27T20:05:59Z] DISCOVER iter 17: `mut_tier_scale_lex_minus_clip` → auc_ensemble_violation=0.889 (ρ=-0.945)
+- [2026-05-27T20:06:00Z] DISCOVER iter 18: `tier3_clip_diverge` → auc_gt_dispute=0.844 (ρ=-0.011)
+- [2026-05-27T20:06:00Z] DISCOVER iter 18: `gain_x_tier` → auc_ensemble_violation=0.478 (ρ=0.872)
+- [2026-05-27T20:06:00Z] DISCOVER iter 18: `story_tier_gap` → auc_ensemble_violation=0.378 (ρ=-0.518)
+- [2026-05-27T20:06:01Z] DISCOVER iter 19: `cond_clip_adqa` → auc_gt_dispute=0.844 (ρ=-0.037)
+- [2026-05-27T20:06:01Z] DISCOVER iter 19: `cond_vt_spread` → auc_low_margin=0.393 (ρ=0.660)
+- [2026-05-27T20:06:02Z] DISCOVER iter 20: `product(clip_norm,need_peak_t)` → auc_judge_disagree=0.812 (ρ=0.685)
+- [2026-05-27T20:06:02Z] DISCOVER iter 20: `diff(adqa_norm,speech_mean)` → auc_judge_disagree=0.938 (ρ=0.756)
+- [2026-05-27T20:06:02Z] DISCOVER iter 20: `diff(story_recall,speech_mean)` → auc_judge_disagree=0.594 (ρ=0.590)
+- [2026-05-27T20:06:17Z] DISCOVER iter 21: `spread_over_read(clip_top3)` → auc_low_margin=0.875 (ρ=-0.227)
+- [2026-05-27T20:06:17Z] DISCOVER iter 21: `spread_diff(crit_w,gain_vs_cross)` → auc_ensemble_violation=0.778 (ρ=0.000)
+- [2026-05-27T20:06:17Z] DISCOVER iter 21: `spread_diff(clip_top3,gain_vs_cross)` → auc_critical_miss=0.911 (ρ=0.000)
+- [2026-05-27T20:06:18Z] DISCOVER iter 22: `skew_x_crit_spread` → auc_gt_dispute=0.750 (ρ=0.000)
+- [2026-05-27T20:06:18Z] DISCOVER iter 22: `need_skew_x_clip` → auc_gt_dispute=0.750 (ρ=0.004)
+- [2026-05-27T20:06:18Z] DISCOVER iter 22: `skew_per_ext` → auc_gt_dispute=0.750 (ρ=0.000)
+- [2026-05-27T20:06:19Z] DISCOVER iter 23: `lex_x_vt` → auc_ensemble_violation=0.333 (ρ=0.686)
+- [2026-05-27T20:06:19Z] DISCOVER iter 23: `lex_per_need` → auc_gt_dispute=0.625 (ρ=0.431)
+- [2026-05-27T20:06:20Z] DISCOVER iter 24: `mut_inv_diff(need_mean,speech_mean)` → auc_judge_disagree=1.000 (ρ=0.000)
+- [2026-05-27T20:06:20Z] DISCOVER iter 24: `mut_ext_scale_diff(need_mean,speech_mean)` → auc_judge_disagree=1.000 (ρ=0.000)
+- [2026-05-27T20:06:20Z] DISCOVER iter 24: `mut_tier_scale_ratio(read_s,adqa_t3_minus_t0)` → auc_critical_miss=1.000 (ρ=0.929)
+- [2026-05-27T20:06:21Z] DISCOVER iter 25: `crit_slope` → auc_ensemble_violation=0.544 (ρ=0.931)
+- [2026-05-27T20:06:22Z] DISCOVER iter 26 [fallback]: `diff(need_peak_t,lex_purity)` → auc_judge_disagree=0.812 (ρ=-0.318)
+- [2026-05-27T20:06:22Z] DISCOVER iter 26 [fallback]: `product(n_ext,need_skew)` → auc_gt_dispute=0.781 (ρ=0.000)
+- [2026-05-27T20:06:22Z] DISCOVER iter 26 [fallback]: `diff(need_std,speech_mean)` → auc_judge_disagree=0.938 (ρ=0.000)
+- [2026-05-27T20:14:09Z] DISCOVER iter 27: `diff(clip_norm,speech_mean)` → auc_judge_disagree=0.938 (ρ=0.706)
+- [2026-05-27T20:14:09Z] DISCOVER iter 27: `sq(need_std)` → auc_judge_disagree=0.781 (ρ=0.000)
+- [2026-05-27T20:14:09Z] DISCOVER iter 27: `ratio(adqa_v4_score,crit_w)` → auc_gt_dispute=0.922 (ρ=0.593)
+- [2026-05-27T20:24:10Z] DISCOVER iter 28: `std_ratio(adqa_v4_score,clip_top3)` → auc_ensemble_violation=0.600 (ρ=0.000)
+- [2026-05-27T20:24:10Z] DISCOVER iter 28: `spread_diff(clip_top3,crit_w)` → auc_critical_miss=0.956 (ρ=0.000)
+- [2026-05-27T20:24:10Z] DISCOVER iter 28: `spread_x_need(clip_top3)` → auc_low_margin=0.964 (ρ=0.000)
+- [2026-05-27T20:34:11Z] DISCOVER iter 29 [fallback]: `diff(clip_mean,words)` → auc_gt_dispute=0.688 (ρ=-0.291)
+- [2026-05-27T20:34:11Z] DISCOVER iter 29 [fallback]: `diff(adqa_v4_score,n_ext)` → auc_gt_dispute=0.703 (ρ=0.188)
+- [2026-05-27T20:34:11Z] DISCOVER iter 29 [fallback]: `ratio(story_recall,adqa_norm)` → auc_ensemble_violation=0.378 (ρ=0.516)

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the primary person visible in the video?",
+      "answer_key": "A young woman.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the woman doing in the frames?",
+      "answer_key": "She is performing dance steps.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of room is the woman in?",
+      "answer_key": "A dance studio or practice room.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What prominent wooden fixture is along the right wall?",
+      "answer_key": "A ballet barre.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color t-shirt is the woman wearing?",
+      "answer_key": "A pink t-shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What color shorts is the woman wearing?",
+      "answer_key": "Black shorts.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How is the woman's hair styled?",
+      "answer_key": "It is pulled up in a bun.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What image is silhouetted on the left wall?",
+      "answer_key": "A dancer in a pose.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the dominant color of the walls?",
+      "answer_key": "Light blue.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the general movement of the woman's arms?",
+      "answer_key": "She extends and lowers her arms.",
+      "tier": "secondary"
+    }
+  ]
+}

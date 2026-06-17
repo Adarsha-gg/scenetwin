@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the primary activity being demonstrated in this video?",
+      "answer_key": "Pottery making or clay wheel throwing on a pottery wheel",
+      "required_visual_evidence": [
+        "pottery wheel",
+        "clay vessel being shaped",
+        "hands working with clay"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the main action and craft being performed throughout the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location where this activity takes place?",
+      "answer_key": "A pottery studio or workshop with large windows overlooking trees",
+      "required_visual_evidence": [
+        "pottery wheel and tools",
+        "large windows",
+        "forest/trees visible outside"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the environment and context for the demonstration"
+    },
+    {
+      "q_idx": 2,
+      "question": "What key equipment or objects are visible on the work surface?",
+      "answer_key": "Pottery wheel, clay vessels, ceramic tools, and white work plates",
+      "required_visual_evidence": [
+        "pottery wheel",
+        "finished clay forms",
+        "tools in holder",
+        "white plates"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the tools and materials essential to understanding the pottery process"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are actively participating in the demonstration?",
+      "answer_key": "Two people; one instructing and one working at the wheel",
+      "required_visual_evidence": [
+        "two sets of hands",
+        "person in purple shirt at wheel",
+        "person in dark shirt assisting"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies whether this is solo work or collaborative instruction"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the main clay form being shaped on the pottery wheel?",
+      "answer_key": "A cone or bell-shaped vessel with a wide base",
+      "required_visual_evidence": [
+        "clay form on wheel",
+        "cone/bell shape",
+        "hands shaping the clay"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the specific pottery piece being created during the demonstration"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of performance is taking place on stage?",
+      "answer_key": "A live musical performance with a band playing instruments",
+      "required_visual_evidence": [
+        "musicians on stage",
+        "accordion player",
+        "saxophone players",
+        "stage lighting"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the core activity and setting essential to understanding the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the central musician in the middle playing?",
+      "answer_key": "An accordion",
+      "required_visual_evidence": [
+        "accordion",
+        "center stage position",
+        "musician in brown jacket"
+      ],
+      "importance": "critical",
+      "rationale": "The accordion is the most distinctive instrument and focal point across frames"
+    },
+    {
+      "q_idx": 2,
+      "question": "Describe the stage setting and lighting.",
+      "answer_key": "Outdoor or large venue stage with blue and green stage lights overhead",
+      "required_visual_evidence": [
+        "stage lighting rig",
+        "blue lights",
+        "green lights",
+        "metal stage structure"
+      ],
+      "importance": "useful",
+      "rationale": "Lighting and venue type provide important context for the performance environment"
+    },
+    {
+      "q_idx": 3,
+      "question": "What are the musicians wearing?",
+      "answer_key": "White or light-colored shirts and pants",
+      "required_visual_evidence": [
+        "white shirts",
+        "light-colored pants",
+        "consistent across band members"
+      ],
+      "importance": "useful",
+      "rationale": "Coordinated attire indicates a formal or organized performance presentation"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many musicians are visible performing on stage?",
+      "answer_key": "Five musicians",
+      "required_visual_evidence": [
+        "accordion player",
+        "saxophone players",
+        "brass instruments",
+        "stage positions"
+      ],
+      "importance": "useful",
+      "rationale": "Band size helps listeners visualize the ensemble and performance scale"
+    }
+  ]
+}

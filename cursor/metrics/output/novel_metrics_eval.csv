@@ -1,0 +1,94 @@
+metric,metric_name,target,target_desc,value,level
+rank_chaos,Rank chaos (ADQA vs CLIP disagree),tier_gt_rho,Spearman vs tier GT (legacy),0.0,clip
+rank_chaos,Rank chaos (ADQA vs CLIP disagree),critical_any_miss,Pro AD critical miss,0.6666666666666666,clip
+rank_chaos,Rank chaos (ADQA vs CLIP disagree),critical_any_miss_rank,Rank corr with Pro AD critical miss,0.22511258444537405,clip
+rank_chaos,Rank chaos (ADQA vs CLIP disagree),judge_disagreement,Judge tier disagreement,0.46875,clip
+rank_chaos,Rank chaos (ADQA vs CLIP disagree),judge_disagreement_rank,Rank corr with Judge tier disagreement,-0.03559342484071871,clip
+rank_chaos,Rank chaos (ADQA vs CLIP disagree),judge_low_margin,Low tier3 margin,0.17857142857142858,clip
+rank_chaos,Rank chaos (ADQA vs CLIP disagree),ensemble_violation,Ensemble GT violation,0.6666666666666666,clip
+rank_chaos,Rank chaos (ADQA vs CLIP disagree),gt_label_dispute,ADQA disputes tier GT,0.65625,clip
+head_agreement_index,Head agreement index,tier_gt_rho,Spearman vs tier GT (legacy),0.0,clip
+head_agreement_index,Head agreement index,critical_any_miss,Pro AD critical miss,0.5666666666666667,clip
+head_agreement_index,Head agreement index,critical_any_miss_rank,Rank corr with Pro AD critical miss,0.09999999999999999,clip
+head_agreement_index,Head agreement index,judge_disagreement,Judge tier disagreement,0.46875,clip
+head_agreement_index,Head agreement index,judge_disagreement_rank,Rank corr with Judge tier disagreement,-0.03952847075210474,clip
+head_agreement_index,Head agreement index,judge_low_margin,Low tier3 margin,0.625,clip
+head_agreement_index,Head agreement index,ensemble_violation,Ensemble GT violation,0.16666666666666666,clip
+head_agreement_index,Head agreement index,gt_label_dispute,ADQA disputes tier GT,0.46875,clip
+inversion_mass_adqa,Inversion mass on ADQA,tier_gt_rho,Spearman vs tier GT (legacy),0.0,clip
+inversion_mass_adqa,Inversion mass on ADQA,critical_any_miss,Pro AD critical miss,0.3333333333333333,clip
+inversion_mass_adqa,Inversion mass on ADQA,critical_any_miss_rank,Rank corr with Pro AD critical miss,-0.2731791823540765,clip
+inversion_mass_adqa,Inversion mass on ADQA,judge_disagreement,Judge tier disagreement,0.671875,clip
+inversion_mass_adqa,Inversion mass on ADQA,judge_disagreement_rank,Rank corr with Judge tier disagreement,0.23756381703487403,clip
+inversion_mass_adqa,Inversion mass on ADQA,judge_low_margin,Low tier3 margin,0.32142857142857145,clip
+inversion_mass_adqa,Inversion mass on ADQA,ensemble_violation,Ensemble GT violation,0.9111111111111111,clip
+inversion_mass_adqa,Inversion mass on ADQA,gt_label_dispute,ADQA disputes tier GT,0.34375,clip
+marginal_word_value_t3,Marginal word value tier3,tier_gt_rho,Spearman vs tier GT (legacy),0.0,clip
+marginal_word_value_t3,Marginal word value tier3,critical_any_miss,Pro AD critical miss,0.15555555555555556,clip
+marginal_word_value_t3,Marginal word value tier3,critical_any_miss_rank,Rank corr with Pro AD critical miss,-0.4453636864513027,clip
+marginal_word_value_t3,Marginal word value tier3,judge_disagreement,Judge tier disagreement,0.09375,clip
+marginal_word_value_t3,Marginal word value tier3,judge_disagreement_rank,Rank corr with Judge tier disagreement,-0.4429530791636483,clip
+marginal_word_value_t3,Marginal word value tier3,judge_low_margin,Low tier3 margin,0.35714285714285715,clip
+marginal_word_value_t3,Marginal word value tier3,ensemble_violation,Ensemble GT violation,0.28888888888888886,clip
+marginal_word_value_t3,Marginal word value tier3,gt_label_dispute,ADQA disputes tier GT,0.15625,clip
+research_audit_index,Research Audit Index (RAI),tier_gt_rho,Spearman vs tier GT (legacy),0.0,clip
+research_audit_index,Research Audit Index (RAI),critical_any_miss,Pro AD critical miss,0.24444444444444444,clip
+research_audit_index,Research Audit Index (RAI),critical_any_miss_rank,Rank corr with Pro AD critical miss,-0.3304311222058053,clip
+research_audit_index,Research Audit Index (RAI),judge_disagreement,Judge tier disagreement,0.21875,clip
+research_audit_index,Research Audit Index (RAI),judge_disagreement_rank,Rank corr with Judge tier disagreement,-0.30665982403637193,clip
+research_audit_index,Research Audit Index (RAI),judge_low_margin,Low tier3 margin,0.4107142857142857,clip
+research_audit_index,Research Audit Index (RAI),ensemble_violation,Ensemble GT violation,0.6666666666666666,clip
+research_audit_index,Research Audit Index (RAI),gt_label_dispute,ADQA disputes tier GT,0.0625,clip
+comprehension_per_second,Comprehension per second,tier_gt_rho,Spearman vs tier GT (legacy),0.33269175278384167,tier3
+comprehension_per_second,Comprehension per second,critical_any_miss,Pro AD critical miss,0.022222222222222223,tier3
+comprehension_per_second,Comprehension per second,critical_any_miss_rank,Rank corr with Pro AD critical miss,-0.6177625328195491,tier3
+comprehension_per_second,Comprehension per second,judge_disagreement,Judge tier disagreement,0.1875,tier3
+comprehension_per_second,Comprehension per second,judge_disagreement_rank,Rank corr with Judge tier disagreement,-0.340733137818191,tier3
+comprehension_per_second,Comprehension per second,judge_low_margin,Low tier3 margin,0.5,tier3
+comprehension_per_second,Comprehension per second,ensemble_violation,Ensemble GT violation,0.5111111111111111,tier3
+comprehension_per_second,Comprehension per second,gt_label_dispute,ADQA disputes tier GT,0.28125,tier3
+false_grounding_gap,False grounding gap,tier_gt_rho,Spearman vs tier GT (legacy),-0.036967061081384193,tier3
+false_grounding_gap,False grounding gap,critical_any_miss,Pro AD critical miss,0.6,tier3
+false_grounding_gap,False grounding gap,critical_any_miss_rank,Rank corr with Pro AD critical miss,0.14706746224528508,tier3
+false_grounding_gap,False grounding gap,judge_disagreement,Judge tier disagreement,0.46875,tier3
+false_grounding_gap,False grounding gap,judge_disagreement_rank,Rank corr with Judge tier disagreement,-0.03875567919966014,tier3
+false_grounding_gap,False grounding gap,judge_low_margin,Low tier3 margin,0.6785714285714286,tier3
+false_grounding_gap,False grounding gap,ensemble_violation,Ensemble GT violation,0.1111111111111111,tier3
+false_grounding_gap,False grounding gap,gt_label_dispute,ADQA disputes tier GT,0.84375,tier3
+temporal_misalign,Temporal misalignment,tier_gt_rho,Spearman vs tier GT (legacy),-0.3697053293248753,tier3
+temporal_misalign,Temporal misalignment,critical_any_miss,Pro AD critical miss,0.3111111111111111,tier3
+temporal_misalign,Temporal misalignment,critical_any_miss_rank,Rank corr with Pro AD critical miss,-0.24423169902168215,tier3
+temporal_misalign,Temporal misalignment,judge_disagreement,Judge tier disagreement,0.65625,tier3
+temporal_misalign,Temporal misalignment,judge_disagreement_rank,Rank corr with Judge tier disagreement,0.1703665689090955,tier3
+temporal_misalign,Temporal misalignment,judge_low_margin,Low tier3 margin,0.35714285714285715,tier3
+temporal_misalign,Temporal misalignment,ensemble_violation,Ensemble GT violation,0.6666666666666666,tier3
+temporal_misalign,Temporal misalignment,gt_label_dispute,ADQA disputes tier GT,0.75,tier3
+visual_lexicon_purity,Visual lexicon purity,tier_gt_rho,Spearman vs tier GT (legacy),0.44734353895794976,tier3
+visual_lexicon_purity,Visual lexicon purity,critical_any_miss,Pro AD critical miss,0.6,tier3
+visual_lexicon_purity,Visual lexicon purity,critical_any_miss_rank,Rank corr with Pro AD critical miss,0.12936590427961553,tier3
+visual_lexicon_purity,Visual lexicon purity,judge_disagreement,Judge tier disagreement,0.65625,tier3
+visual_lexicon_purity,Visual lexicon purity,judge_disagreement_rank,Rank corr with Judge tier disagreement,0.17045454545454547,tier3
+visual_lexicon_purity,Visual lexicon purity,judge_low_margin,Low tier3 margin,0.14285714285714285,tier3
+visual_lexicon_purity,Visual lexicon purity,ensemble_violation,Ensemble GT violation,0.9,tier3
+visual_lexicon_purity,Visual lexicon purity,gt_label_dispute,ADQA disputes tier GT,0.53125,tier3
+audio_leakage,Audio leakage ratio,critical_any_miss,Pro AD critical miss,0.5,tier3
+audio_leakage,Audio leakage ratio,critical_any_miss_rank,Rank corr with Pro AD critical miss,,tier3
+audio_leakage,Audio leakage ratio,judge_disagreement,Judge tier disagreement,0.5,tier3
+audio_leakage,Audio leakage ratio,judge_disagreement_rank,Rank corr with Judge tier disagreement,,tier3
+audio_leakage,Audio leakage ratio,judge_low_margin,Low tier3 margin,0.5,tier3
+audio_leakage,Audio leakage ratio,ensemble_violation,Ensemble GT violation,0.5,tier3
+audio_leakage,Audio leakage ratio,gt_label_dispute,ADQA disputes tier GT,0.5,tier3
+saturation_ratio,Saturation ratio,tier_gt_rho,Spearman vs tier GT (legacy),0.34958709545949834,tier3
+saturation_ratio,Saturation ratio,critical_any_miss,Pro AD critical miss,0.0,tier3
+saturation_ratio,Saturation ratio,critical_any_miss_rank,Rank corr with Pro AD critical miss,-0.6464956738809233,tier3
+saturation_ratio,Saturation ratio,judge_disagreement,Judge tier disagreement,0.1875,tier3
+saturation_ratio,Saturation ratio,judge_disagreement_rank,Rank corr with Judge tier disagreement,-0.340733137818191,tier3
+saturation_ratio,Saturation ratio,judge_low_margin,Low tier3 margin,0.4642857142857143,tier3
+saturation_ratio,Saturation ratio,ensemble_violation,Ensemble GT violation,0.4888888888888889,tier3
+saturation_ratio,Saturation ratio,gt_label_dispute,ADQA disputes tier GT,0.25,tier3
+specificity_density,specificity_density,full_order_fail,full_order_fail,0.08759510442842768,external
+specificity_density,specificity_density,pro_beats_short_inv,pro_beats_short_inv,-0.08451474786163835,external
+clip_gain_per_word,clip_gain_per_word,full_order_fail,full_order_fail,-0.5922099176399561,external
+clip_gain_per_word,clip_gain_per_word,pro_beats_short_inv,pro_beats_short_inv,-0.8130294884889123,external
+cross_caption_overlap,cross_caption_overlap,full_order_fail,full_order_fail,0.0833826381399347,external
+cross_caption_overlap,cross_caption_overlap,pro_beats_short_inv,pro_beats_short_inv,-0.12364587210501216,external

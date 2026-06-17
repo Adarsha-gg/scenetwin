@@ -1,0 +1,62 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What sport or activity is the person engaged in?",
+      "answer_key": "Curling; sliding a curling stone across ice",
+      "required_visual_evidence": [
+        "person with curling broom",
+        "stone on pink/light surface",
+        "indoor ice rink"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary activity and sport being performed in the clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the setting where this activity takes place.",
+      "answer_key": "Indoor ice rink with yellow padding on walls and metal roof structure",
+      "required_visual_evidence": [
+        "large indoor warehouse-style building",
+        "yellow wall padding",
+        "exposed metal ceiling beams",
+        "pink/light colored ice surface"
+      ],
+      "importance": "critical",
+      "rationale": "Essential context for understanding the environment and facility type"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main object the person is propelling across the surface?",
+      "answer_key": "A curling stone; a dark circular stone",
+      "required_visual_evidence": [
+        "dark round object on ice",
+        "person pushing/sliding it"
+      ],
+      "importance": "useful",
+      "rationale": "Key equipment object central to understanding the curling action"
+    },
+    {
+      "q_idx": 3,
+      "question": "What equipment is the person holding while performing this activity?",
+      "answer_key": "A curling broom; a broom used for sweeping the ice",
+      "required_visual_evidence": [
+        "person holding broom-like implement",
+        "broom in hand during activity"
+      ],
+      "importance": "useful",
+      "rationale": "Important tool used in curling that should be mentioned in audio description"
+    },
+    {
+      "q_idx": 4,
+      "question": "What visible text or signage appears on the facility walls?",
+      "answer_key": "A sign on the yellow wall padding (text not fully legible in frames)",
+      "required_visual_evidence": [
+        "white/light colored sign on yellow padding",
+        "text on wall"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates facility identification or rules signage typical of sports venues"
+    }
+  ]
+}

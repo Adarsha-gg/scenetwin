@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_0m0-Q0zz_-c_000112_000122",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/0m0-Q0zz_-c_000112_000122.mp4",
+  "ad_text_used": "A man in a formal suit demonstrates how to tie a bow tie using his knee as a surface. He carefully wraps the fabric around his leg, explaining each step of the process. The bow tie is white and stands out against his dark suit. He finishes by showing the perfectly tied bow resting on his thigh.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.06007087608244499,
+  "description_gain": -0.09042841386298583,
+  "alignment_cosine": 0.8129998846011107,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    23,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "0m0-Q0zz_-c_000112_000122",
+  "category": "How-to & Instructional",
+  "yt_id": "0m0-Q0zz_-c",
+  "start_s": 112.0,
+  "end_s": 122.0
+}

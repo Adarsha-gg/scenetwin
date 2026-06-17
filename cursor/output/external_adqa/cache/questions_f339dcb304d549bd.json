@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main action being demonstrated in this video?",
+      "answer_key": "Pouring or transferring dough from a cloth into a metal pot or container",
+      "required_visual_evidence": [
+        "cloth with dough",
+        "metal cylindrical container",
+        "pouring motion",
+        "two people handling the cloth"
+      ],
+      "importance": "critical",
+      "rationale": "The core action defines the entire clip and is essential for understanding the demonstration"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of setting or location is shown in the video?",
+      "answer_key": "A kitchen with white tiled walls, cabinets, and cooking equipment",
+      "required_visual_evidence": [
+        "white tile backsplash",
+        "kitchen cabinets",
+        "countertop",
+        "professional kitchen environment"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context helps viewers understand the cooking/culinary nature of the demonstration"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the dough being transferred into?",
+      "answer_key": "A large gray or silver metal cylindrical pot or cooking vessel",
+      "required_visual_evidence": [
+        "metal container",
+        "cylindrical shape",
+        "gray/silver color",
+        "cooking pot"
+      ],
+      "importance": "useful",
+      "rationale": "Identifying the receiving vessel clarifies the purpose and context of the transfer action"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are involved in this cooking demonstration?",
+      "answer_key": "Two people, one wearing a patterned apron and one in white chef's attire",
+      "required_visual_evidence": [
+        "two individuals",
+        "apron on one person",
+        "white chef uniform",
+        "collaborative handling"
+      ],
+      "importance": "useful",
+      "rationale": "Number of participants and their roles help viewers understand the instructional or collaborative nature"
+    },
+    {
+      "q_idx": 4,
+      "question": "What material is the dough being held in during the transfer?",
+      "answer_key": "A light-colored cloth or fabric with a striped or patterned design",
+      "required_visual_evidence": [
+        "cloth material",
+        "light colored fabric",
+        "striped pattern",
+        "holding the dough"
+      ],
+      "importance": "useful",
+      "rationale": "The cloth is a key tool in the technique being demonstrated and should be identified"
+    }
+  ]
+}

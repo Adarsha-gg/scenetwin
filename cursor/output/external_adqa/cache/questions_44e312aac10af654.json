@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A black long-sleeved shirt with a gold or yellow neckline",
+      "required_visual_evidence": [
+        "black shirt",
+        "gold/yellow neckline detail",
+        "long sleeves"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the person's appearance and clothing, essential for scene orientation."
+    },
+    {
+      "q_idx": 1,
+      "question": "Where does this scene take place?",
+      "answer_key": "Indoors in what appears to be a home or office room with shelving",
+      "required_visual_evidence": [
+        "interior setting",
+        "shelving visible",
+        "walls and ceiling"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the location context necessary for understanding the scene setting."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main subject doing with their hands?",
+      "answer_key": "Gesturing or moving hands while speaking to the camera",
+      "required_visual_evidence": [
+        "hand gestures",
+        "hands in motion",
+        "person facing camera"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the primary action and body language of the main subject."
+    },
+    {
+      "q_idx": 3,
+      "question": "Is the person stationary or moving during the clip?",
+      "answer_key": "Moving; the camera angle and framing shift throughout the sequence",
+      "required_visual_evidence": [
+        "changing camera angles",
+        "shifting perspective",
+        "motion blur in later frames"
+      ],
+      "importance": "critical",
+      "rationale": "Indicates dynamic movement essential for understanding the clip's action."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible on the wall or shelving in the background?",
+      "answer_key": "Shelving with various items and what appears to be posted materials or decorations",
+      "required_visual_evidence": [
+        "shelving unit",
+        "background items",
+        "wall-mounted elements"
+      ],
+      "importance": "useful",
+      "rationale": "Provides environmental context and helps listeners visualize the indoor setting."
+    }
+  ]
+}

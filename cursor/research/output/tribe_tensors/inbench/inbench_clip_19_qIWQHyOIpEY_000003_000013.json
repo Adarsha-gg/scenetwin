@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_19_qIWQHyOIpEY_000003_000013",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_19.mp4",
+  "ad_text_used": "In a dimly lit living room, three cats are on a hardwood floor. An orange cat stands over a black and white cat that is lying down, gently swatting at it. Another cat, partially visible, sits nearby. The room is quiet, with soft murmurs in a non-English language in the background.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.12573551572242592,
+  "description_gain": -0.5164259212963715,
+  "alignment_cosine": 0.9886151827484192,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    23,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 19,
+  "video_id": "qIWQHyOIpEY_000003_000013",
+  "category": "Pets & Animals",
+  "duration_s": 20.86,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

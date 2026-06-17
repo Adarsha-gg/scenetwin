@@ -1,0 +1,413 @@
+{
+  "n": 18,
+  "calibration_source": "external_clips_only",
+  "n_external_calibration": 58,
+  "flag_rule": "risk >= external p80 (top 20% on held-out YouTube clips)",
+  "risk_p80": 0.5508756939917733,
+  "external_auc": {
+    "full_order_fail": 0.6369047619047619,
+    "pro_loses": 0.7408906882591093
+  },
+  "clips": [
+    {
+      "clip_idx": 0,
+      "category": "Food & Cooking",
+      "risk_score": 0.3893,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.6116,
+        "peak_over_words": 0.0107,
+        "clip_t3_minus_t1": -0.0211,
+        "read_seconds": 12.0
+      },
+      "flags": [
+        {
+          "id": "clip_t3_minus_t1",
+          "label": "CLIP tier gain",
+          "value": -0.0211,
+          "reason": "Pro AD CLIP not beating short caption"
+        }
+      ],
+      "ensemble_raw": 0.9302,
+      "ensemble_gated": 0.8035,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 1,
+      "category": "Food & Cooking",
+      "risk_score": 0.2502,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.67,
+        "peak_over_words": 0.0039,
+        "clip_t3_minus_t1": 0.0591,
+        "read_seconds": 18.6
+      },
+      "flags": [
+        {
+          "id": "read_seconds",
+          "label": "Read time",
+          "value": 18.6,
+          "reason": "Long AD read time vs external norm"
+        }
+      ],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.9124,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 3,
+      "category": "Food & Cooking",
+      "risk_score": 0.3161,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.4912,
+        "peak_over_words": 0.0052,
+        "clip_t3_minus_t1": 0.0259,
+        "read_seconds": 16.2
+      },
+      "flags": [],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.8894,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 4,
+      "category": "Food & Cooking",
+      "risk_score": 0.4827,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.1715,
+        "peak_over_words": 0.0027,
+        "clip_t3_minus_t1": 0.0042,
+        "read_seconds": 21.9
+      },
+      "flags": [
+        {
+          "id": "clip_t3_minus_t1",
+          "label": "CLIP tier gain",
+          "value": 0.0042,
+          "reason": "Pro AD CLIP not beating short caption"
+        },
+        {
+          "id": "read_seconds",
+          "label": "Read time",
+          "value": 21.9,
+          "reason": "Long AD read time vs external norm"
+        }
+      ],
+      "ensemble_raw": 0.9379,
+      "ensemble_gated": 0.7795,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 5,
+      "category": "Food & Cooking",
+      "risk_score": 0.3228,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.3953,
+        "peak_over_words": 0.0063,
+        "clip_t3_minus_t1": 0.0594,
+        "read_seconds": 18.0
+      },
+      "flags": [],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.887,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 6,
+      "category": "Travel",
+      "risk_score": 0.3648,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.6024,
+        "peak_over_words": 0.0101,
+        "clip_t3_minus_t1": -0.0096,
+        "read_seconds": 12.0
+      },
+      "flags": [
+        {
+          "id": "clip_t3_minus_t1",
+          "label": "CLIP tier gain",
+          "value": -0.0096,
+          "reason": "Pro AD CLIP not beating short caption"
+        }
+      ],
+      "ensemble_raw": 0.9752,
+      "ensemble_gated": 0.8507,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 7,
+      "category": "Travel",
+      "risk_score": 0.4547,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.5669,
+        "peak_over_words": 0.0162,
+        "clip_t3_minus_t1": 0.0137,
+        "read_seconds": 12.3
+      },
+      "flags": [
+        {
+          "id": "peak_over_words",
+          "label": "Late need / verbose",
+          "value": 0.0162,
+          "reason": "Need peaks late vs word count"
+        }
+      ],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.8409,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 8,
+      "category": "Travel",
+      "risk_score": 0.2672,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.647,
+        "peak_over_words": 0.0044,
+        "clip_t3_minus_t1": 0.0367,
+        "read_seconds": 16.8
+      },
+      "flags": [],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.9065,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 9,
+      "category": "Sports",
+      "risk_score": 0.2988,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.4655,
+        "peak_over_words": 0.0093,
+        "clip_t3_minus_t1": 0.038,
+        "read_seconds": 10.5
+      },
+      "flags": [],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.8954,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 11,
+      "category": "Sports",
+      "risk_score": 0.3829,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.1968,
+        "peak_over_words": 0.0067,
+        "clip_t3_minus_t1": 0.085,
+        "read_seconds": 20.7
+      },
+      "flags": [
+        {
+          "id": "read_seconds",
+          "label": "Read time",
+          "value": 20.7,
+          "reason": "Long AD read time vs external norm"
+        }
+      ],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.866,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 12,
+      "category": "Sports",
+      "risk_score": 0.5793,
+      "flagged": true,
+      "signals": {
+        "need_speech_gap": 0.0183,
+        "peak_over_words": 0.0092,
+        "clip_t3_minus_t1": -0.0021,
+        "read_seconds": 19.2
+      },
+      "flags": [
+        {
+          "id": "need_speech_gap",
+          "label": "Need vs speech",
+          "value": 0.0183,
+          "reason": "Visual need high relative to speech density"
+        },
+        {
+          "id": "clip_t3_minus_t1",
+          "label": "CLIP tier gain",
+          "value": -0.0021,
+          "reason": "Pro AD CLIP not beating short caption"
+        },
+        {
+          "id": "read_seconds",
+          "label": "Read time",
+          "value": 19.2,
+          "reason": "Long AD read time vs external norm"
+        }
+      ],
+      "ensemble_raw": 0.9879,
+      "ensemble_gated": 0.7876,
+      "summary": "High generalization risk \u2014 pro CLIP gain weak or timing/load mismatch vs external norm.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 13,
+      "category": "Sports",
+      "risk_score": 0.3562,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.6242,
+        "peak_over_words": 0.0054,
+        "clip_t3_minus_t1": 0.0095,
+        "read_seconds": 20.1
+      },
+      "flags": [
+        {
+          "id": "clip_t3_minus_t1",
+          "label": "CLIP tier gain",
+          "value": 0.0095,
+          "reason": "Pro AD CLIP not beating short caption"
+        },
+        {
+          "id": "read_seconds",
+          "label": "Read time",
+          "value": 20.1,
+          "reason": "Long AD read time vs external norm"
+        }
+      ],
+      "ensemble_raw": 0.9553,
+      "ensemble_gated": 0.8362,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 14,
+      "category": "Sports",
+      "risk_score": 0.3721,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.5353,
+        "peak_over_words": 0.0082,
+        "clip_t3_minus_t1": -0.0152,
+        "read_seconds": 13.8
+      },
+      "flags": [
+        {
+          "id": "clip_t3_minus_t1",
+          "label": "CLIP tier gain",
+          "value": -0.0152,
+          "reason": "Pro AD CLIP not beating short caption"
+        }
+      ],
+      "ensemble_raw": 0.9566,
+      "ensemble_gated": 0.8321,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 15,
+      "category": "Pets & Animals",
+      "risk_score": 0.4416,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": 0.013,
+        "peak_over_words": 0.0072,
+        "clip_t3_minus_t1": 0.0436,
+        "read_seconds": 15.9
+      },
+      "flags": [
+        {
+          "id": "need_speech_gap",
+          "label": "Need vs speech",
+          "value": 0.013,
+          "reason": "Visual need high relative to speech density"
+        }
+      ],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.8455,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 16,
+      "category": "Pets & Animals",
+      "risk_score": 0.2214,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.795,
+        "peak_over_words": 0.006,
+        "clip_t3_minus_t1": 0.0298,
+        "read_seconds": 12.9
+      },
+      "flags": [],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.9225,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 17,
+      "category": "Pets & Animals",
+      "risk_score": 0.3332,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.3975,
+        "peak_over_words": 0.0072,
+        "clip_t3_minus_t1": 0.0585,
+        "read_seconds": 18.0
+      },
+      "flags": [],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.8834,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 18,
+      "category": "Pets & Animals",
+      "risk_score": 0.378,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.4224,
+        "peak_over_words": 0.0096,
+        "clip_t3_minus_t1": 0.0341,
+        "read_seconds": 16.5
+      },
+      "flags": [],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.8677,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    },
+    {
+      "clip_idx": 19,
+      "category": "Pets & Animals",
+      "risk_score": 0.3835,
+      "flagged": false,
+      "signals": {
+        "need_speech_gap": -0.2378,
+        "peak_over_words": 0.0053,
+        "clip_t3_minus_t1": 0.0236,
+        "read_seconds": 15.6
+      },
+      "flags": [],
+      "ensemble_raw": 1.0,
+      "ensemble_gated": 0.8658,
+      "summary": "Within external-calibrated norm \u2014 ensemble rank more trustworthy.",
+      "calibration": "external_58_clips"
+    }
+  ]
+}

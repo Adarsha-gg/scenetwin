@@ -1,5 +1,55 @@
 # SceneTwin Log
 
+## [2026-06-10] paper closeout | Restyled figure set + filled bibliography
+
+Get-it-done pass on the consolidated paper. (1) FIGURES: built a shared design system
+`output/charts/scenetwin_style.py` (Helvetica Neue, semantic teal/grey/blue/red/amber
+palette, solid colors for PDF perf, titles above axes, direct value labels) and restyled
+8 of 9 figures as `*_v2.{png,svg}`: competitive, corrected_ladder, fusion, gate,
+wrongcontent, triage, steering. Built the hero brain-grounded steering diagram as designed
+HTML/CSS rendered via Brave headless at 2x -> `output/charts/diagram_steering.{html,png}`
+(this is the highest-ROI single visual: video -> TRIBE P_AV vs P_A -> blind spot -> steer
+generator -> matched +0.113 vs unmatched +0.017). Only `ladder_robustness` (Fig 3) left
+un-restyled. Repointed all paper figure refs to v2 + inserted the diagram as Fig 7
+(renumbered steering->Fig 8, triage->Fig 9). (2) BIB: filled 39/40 first-author fields in
+`output/papers/scenetwin-references.bib` via the arXiv Atom API (WebFetch; Bash has no
+network) as `First Last and others`; only uncited non-arXiv `emotive2025nature` left TODO.
+Paper draft is now content-complete with a coherent figure set and working citations.
+
+## [2026-06-09] chart | Dedicated matched-vs-unmatched steering figure (Fig 7)
+
+Built output/charts/scenetwin_steering_matched.py (+ .png), a grouped bar chart that
+recomputes the gap-targeted - baseline ADQA delta from cursor/research/output/
+tribe_crossjudge_{gpt5,opus_17}_perq.csv at render time (matched +0.113 d=0.43 11/0/51,
+unmatched +0.017 d=0.05; non-headroom matched +0.167 d=0.42 8/1/15, unmatched +0.000
+d=0.00 6/5/50), 95% bootstrap CI whiskers, solid colors. Repointed paper Fig 7 to this
+chart; the triage PNG moved to Fig 8 in §8.4. Render env: .venv/bin/python.
+
+## [2026-06-09] paper | Elevated brain-grounded steering to co-lead contribution
+
+Restructured §8 of paper-scenetwin-consolidated.md so TRIBE's causal gap-targeted
+generation leads instead of triage. New §8 = "Brain-Grounded Description Steering": §8.1
+the blind-spot signal, §8.2 causal steering (matched +0.113 d=0.43 11W/0L vs unmatched
++0.017 d=0.05, GPT-5 cross-family judge; non-headroom 17-clip matched +0.167 d=0.42 vs
+unmatched +0.000 d=0.00 -- recomputed from cursor/research/output/tribe_crossjudge_*.csv,
+verified on disk), §8.3 necessity control (transcript-armed VLM ties, 91% target
+disagreement -> "distinct competitive signal" not superiority), §8.4 why-not-a-metric +
+triage (AUC 0.79). Updated title, abstract, intro contributions (steering now #4 "most
+novel", triage split to #5), §2.4 ("first fMRI encoder used to steer AD content, not
+evaluate it"), discussion, conclusion, keywords. Numbers locked from CSV, not memory.
+
+## [2026-06-09] paper | Consolidated single-paper draft (supersedes paper-A/B/combined)
+
+Wrote output/reports/paper-scenetwin-consolidated.md, a prose-complete submission draft
+that folds the two June findings the older drafts were missing: (1) the corrected-ladder
+result (drop the invalid length-only T2 rung -> ρ≈0.95 in-domain AND OOD, 58/60 ordered,
+closing the apparent generalization gap), and (2) the AD safety gate as a deployment
+section (grader-free CLIP grounding-drop hallucination gate AUC 0.84 @ 70% recall/10% FPR;
+single-AD wrong-content gate 98%@2%). TRIBE reframed as clip-level triage (AUC 0.79 on OOD
+ADQA misorderings) + typed blind-spot routing, with the calibration null reported honestly.
+Sections 1-11 + 3 appendices, 7 existing figures wired in, numbers locked. Remaining: build
+.bib first-author fields. Supersedes paper-A-draft / paper-B-draft / paper-combined-draft.
+
 ## [2026-06-07] research | Valid 4-tier completeness ladder (replaces fake rung)
 
 Built a legitimate 4th tier after two attempts. (1) Machine-AD rung failed:
@@ -582,3 +632,13 @@ pairs, AUC=0.76 (preliminary, cache-limited). Locked paper subsection at
 output/reports/paper-ad-safety-gate.md: LEAD with CLIP-only grader-free gate AUC=0.84,
 70% recall @ 10% FPR (n=60); fusion 0.90 footnoted as grader-dependent; zero-reference
 claim gate AUC=0.58 reported as honest negative. No demo work.
+
+## [2026-06-09] agent loop stopped + gate synthesis cataloged | Codex consolidation commit 0d1a633
+Recorded the stopped Claude+Codex agent loop in the wiki after the supervisor was killed
+by user request at 2026-06-09T18:00:00Z. Canonical state lives in
+cursor/agent_loop/state.json (`loop_status: stopped`, `stopped_by: user`, Codex
+`status: done`, commit `0d1a633`) and cursor/agent_loop/log.md. Codex synthesis lives at
+cursor/findings/agent-loop-gate-synthesis.md and supports the paper subsection in
+output/reports/paper-ad-safety-gate.md: lead with grader-free CLIP grounding-drop gate
+AUC 0.835 / 70% recall @ 10% FPR; keep CLIP+ADQA fusion AUC 0.904 as grader-dependent;
+report zero-reference weakest-claim gate as an honest negative (AUC 0.585).

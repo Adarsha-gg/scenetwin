@@ -1,0 +1,14 @@
+{
+  "video_id": "9fuIpQgnNEQ_000049_000059",
+  "category": "Event",
+  "tier3_va11y": "Outside a bustling convention center, a large crowd forms a line along the sidewalk. People are dressed in various outfits, some in cosplay. A man with a camera captures photos of the scene, focusing on individuals in costume. The atmosphere is lively as attendees chat and move slowly forward in the line.",
+  "tier1_vatex_short": "A group of people are walking on a street, some people are in line and a man is giving them something",
+  "tier2_vatex_long": "A crowd of people is lined up outside what looks to be a busy city and a man take a photo of few people on the line.",
+  "tier0_cross": "At night, a skier navigates a snowy hill, weaving between flexible poles in a slalom course. The skier moves swiftly, alternating left and right, purposefully making contact with each pole as they descend the slope.",
+  "yt_id": "9fuIpQgnNEQ",
+  "start": 49.0,
+  "end": 59.0,
+  "acquired_at": "2026-05-27T18:12:00Z",
+  "download_ok": true,
+  "download_msg": "trimmed 10.0s"
+}

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_1YemrpNBpf4_000001_000011",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/1YemrpNBpf4_000001_000011.mp4",
+  "ad_text_used": "A young man with white face paint stands in a room, holding up his shirt to reveal a waxing strip on his chest. A person in a pink sleeve approaches and quickly pulls off the strip. The man screams in pain, his expression a mix of surprise and discomfort.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.14508910167583222,
+  "description_gain": -0.14497626938464525,
+  "alignment_cosine": 0.9802584066936912,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    19,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "1YemrpNBpf4_000001_000011",
+  "category": "Entertainment",
+  "yt_id": "1YemrpNBpf4",
+  "start_s": 1.0,
+  "end_s": 11.0
+}

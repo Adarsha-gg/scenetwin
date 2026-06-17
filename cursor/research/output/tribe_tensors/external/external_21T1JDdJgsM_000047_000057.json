@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_21T1JDdJgsM_000047_000057",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/21T1JDdJgsM_000047_000057.mp4",
+  "ad_text_used": "On a sunny day by a lake, a woman in a green shirt stands with two men. She playfully skips a rock across the water. The rock bounces erratically and accidentally hits a man riding a jet ski, causing him to fall into the water. The scene captures a lighthearted moment of unexpected mishap.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.09763596318416057,
+  "description_gain": -0.5321488745773904,
+  "alignment_cosine": 0.989744801849075,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    22,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "21T1JDdJgsM_000047_000057",
+  "category": "Entertainment",
+  "yt_id": "21T1JDdJgsM",
+  "start_s": 47.0,
+  "end_s": 57.0
+}
