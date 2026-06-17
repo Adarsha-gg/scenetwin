@@ -13,7 +13,7 @@ function mulberry32(seed) {
 }
 
 // ---- Top bar / nav ----
-function TopBar({ page, setPage }) {
+function TopBar({ page, setPage, onIntro }) {
   const links = [
     { id: 'hero', label: 'Overview' },
     { id: 'audit', label: 'Live audit' },
@@ -43,6 +43,7 @@ function TopBar({ page, setPage }) {
           ))}
         </nav>
         <div className="topbar-right">
+          <button className="mono" onClick={onIntro}>reel</button>
           <a className="mono" href="../output/scenetwin_njbda_poster.pdf" target="_blank">poster</a>
           <a className="mono" href="https://github.com/Adarsha-gg/scenetwin" target="_blank">github</a>
           <button className="icon-btn" title="Toggle theme" onClick={() => document.documentElement.classList.toggle('light')}>
@@ -274,7 +275,25 @@ const ACCENT_OPTIONS = [
   { name: 'coral',  value: '#f08572', ink: '#0a0b0d' },
 ];
 
+// Fetch API with static JSON fallback (cursor/data/) for file:// demos
+async function fetchSceneTwinJson(apiPath, staticPath) {
+  const bases = [
+    (typeof window !== 'undefined' && window.SCENETWIN_API) || null,
+    (typeof API_BASE !== 'undefined' ? API_BASE : null),
+    'http://127.0.0.1:8000',
+  ].filter(Boolean);
+  for (const base of bases) {
+    try {
+      const r = await fetch(`${base}${apiPath}`);
+      if (r.ok) return { json: await r.json(), source: 'api' };
+    } catch (e) { /* try next */ }
+  }
+  const r = await fetch(staticPath);
+  if (!r.ok) throw new Error(`Static fallback missing: ${staticPath}`);
+  return { json: await r.json(), source: 'static' };
+}
+
 Object.assign(window, {
   mulberry32, TopBar, Footer, VideoFrame, ScoreBar, HeatCell, TierBadge,
-  Stat, SectionHead, Tag, ACCENT_OPTIONS,
+  Stat, SectionHead, Tag, ACCENT_OPTIONS, fetchSceneTwinJson,
 });

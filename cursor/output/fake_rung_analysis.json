@@ -1,0 +1,43 @@
+{
+  "run_at": "2026-06-07T18:28:09.767274+00:00",
+  "benchmark": {
+    "four_tier": {
+      "rho": 0.9284910256386235,
+      "full_order": 15,
+      "n": 18,
+      "full_order_rate": 0.8333333333333334
+    },
+    "three_tier": {
+      "rho": 0.9537770818579028,
+      "full_order": 17,
+      "n": 18,
+      "full_order_rate": 0.9444444444444444
+    },
+    "rung_t2_beats_t1": {
+      "clip_top3": 0.6666666666666666,
+      "adqa_v2_score": 0.6666666666666666
+    }
+  },
+  "external_ood": {
+    "four_tier": {
+      "rho": 0.8731713300938145,
+      "full_order": 30,
+      "n": 60,
+      "full_order_rate": 0.5
+    },
+    "three_tier": {
+      "rho": 0.9472874593932764,
+      "full_order": 58,
+      "n": 60,
+      "full_order_rate": 0.9666666666666667
+    },
+    "rung_t2_beats_t1": {
+      "clip_top3": 0.4166666666666667,
+      "adqa_score": 0.5
+    }
+  },
+  "construction": {
+    "rule": "tier2 = max(crowd_captions, key=len); tier1 = caps[0]",
+    "clips_where_t2_is_just_longest_crowd_cap": "299/338"
+  }
+}

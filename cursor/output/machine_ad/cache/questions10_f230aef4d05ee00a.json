@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject of the video?",
+      "answer_key": "A man.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the man doing on the slackline?",
+      "answer_key": "Balancing and performing a lunge-like pose.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does the slackline activity take place?",
+      "answer_key": "Outdoors in a grassy park or field.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary object the man is balancing on?",
+      "answer_key": "A slackline.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color shirt is the man wearing?",
+      "answer_key": "A red t-shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What color pants is the man wearing?",
+      "answer_key": "Blue jeans.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "Is the man wearing any footwear?",
+      "answer_key": "No, he is barefoot.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What type of trees are visible in the background?",
+      "answer_key": "Bare, deciduous trees without leaves.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What text is displayed on screen at the beginning?",
+      "answer_key": "SLACKLINE WARRIOR WALKS.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "How are the man's arms positioned during the lunge?",
+      "answer_key": "Raised above his head.",
+      "tier": "secondary"
+    }
+  ]
+}

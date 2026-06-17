@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject in this video clip?",
+      "answer_key": "A young child with blonde hair wearing a pink and white striped shirt",
+      "required_visual_evidence": [
+        "young child",
+        "blonde hair",
+        "pink and white striped clothing"
+      ],
+      "importance": "critical",
+      "rationale": "Identifying the main subject is essential for understanding the scene's focus."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the child doing at the table?",
+      "answer_key": "Eating food from a plate with what appears to be a meal in front of them",
+      "required_visual_evidence": [
+        "child at table",
+        "plate with food",
+        "eating action"
+      ],
+      "importance": "critical",
+      "rationale": "The primary action frames the entire scene and context of the clip."
+    },
+    {
+      "q_idx": 2,
+      "question": "What objects are visible on the table in front of the child?",
+      "answer_key": "A plate with food and a glass or cup containing a beverage",
+      "required_visual_evidence": [
+        "plate with food",
+        "glass or cup",
+        "table setting"
+      ],
+      "importance": "useful",
+      "rationale": "Key objects help listeners visualize the mealtime setting and context."
+    },
+    {
+      "q_idx": 3,
+      "question": "Where is this scene taking place?",
+      "answer_key": "At a table indoors, likely in a home or dining area",
+      "required_visual_evidence": [
+        "table",
+        "indoor setting",
+        "dining context"
+      ],
+      "importance": "useful",
+      "rationale": "Location establishes the setting and helps orient the listener to the environment."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is visible in the background of the scene?",
+      "answer_key": "Dark furniture or shelving, suggesting an indoor home environment",
+      "required_visual_evidence": [
+        "dark background furniture",
+        "indoor setting"
+      ],
+      "importance": "useful",
+      "rationale": "Background context provides environmental details for scene comprehension."
+    }
+  ]
+}

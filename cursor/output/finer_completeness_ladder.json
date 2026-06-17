@@ -1,0 +1,34 @@
+{
+  "run_at": "2026-06-07T20:25:44.931609+00:00",
+  "grader": "gemini-2.5-flash",
+  "n_questions": 10,
+  "n_clips": 58,
+  "ladder": "cross < expertAD_1sent < expertAD_half < expertAD_full",
+  "ensemble": {
+    "rho": 0.8696198307644245,
+    "full_order": 37,
+    "n": 58,
+    "rate": 0.6379310344827587
+  },
+  "adqa_only": {
+    "rho": 0.7697723025494557,
+    "full_order": 21,
+    "n": 58,
+    "rate": 0.3620689655172414
+  },
+  "clip_only": {
+    "rho": 0.6358129970842726,
+    "full_order": 17,
+    "n": 58,
+    "rate": 0.29310344827586204
+  },
+  "rung_sanity": {
+    "full>half": 0.7413793103448276,
+    "half>1sent": 0.8793103448275862,
+    "1sent>cross": 1.0
+  },
+  "adqa_rung": {
+    "full>half_adqa": 0.5517241379310345,
+    "full>=half_adqa": 1.0
+  }
+}

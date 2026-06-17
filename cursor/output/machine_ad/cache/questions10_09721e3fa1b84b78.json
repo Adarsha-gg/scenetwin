@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who are the main subjects visible in the frames?",
+      "answer_key": "Two individuals, one in red and one in light clothing.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary activity taking place in the scene?",
+      "answer_key": "People are working with machinery, processing items.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What kind of location is depicted in the video frames?",
+      "answer_key": "An indoor industrial or factory setting.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the most prominent piece of equipment in the center?",
+      "answer_key": "A long machine with a conveyor belt.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color clothing is the person on the right wearing?",
+      "answer_key": "A dark red or maroon garment.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What type of grey machinery is located in the foreground center?",
+      "answer_key": "A grey air compressor.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How many windows are clearly visible in the background?",
+      "answer_key": "One large rectangular window.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What large items are stacked on the left side of the frames?",
+      "answer_key": "Several large, light-colored sacks.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the movement of the person in red clothing across the frames?",
+      "answer_key": "The person walks from right to left.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What small electronic device is on the floor in the lower left?",
+      "answer_key": "A digital weighing scale.",
+      "tier": "secondary"
+    }
+  ]
+}

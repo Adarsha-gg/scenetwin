@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the young woman in the purple shirt doing?",
+      "answer_key": "Listening to a man play violin",
+      "required_visual_evidence": [
+        "young woman in purple shirt",
+        "man playing violin",
+        "attentive posture"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies main subject and primary action occurring in the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the musician holding and playing?",
+      "answer_key": "A violin",
+      "required_visual_evidence": [
+        "man with instrument",
+        "bow",
+        "violin shape"
+      ],
+      "importance": "critical",
+      "rationale": "Key object and activity central to understanding the scene's purpose"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of setting or location is this scene taking place in?",
+      "answer_key": "An outdoor camp with a tent",
+      "required_visual_evidence": [
+        "canvas tent",
+        "outdoor grass",
+        "trees",
+        "natural lighting"
+      ],
+      "importance": "useful",
+      "rationale": "Setting context helps listeners understand the environment and occasion"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the man wearing on his head?",
+      "answer_key": "A dark hat or fedora",
+      "required_visual_evidence": [
+        "man's hat",
+        "dark colored",
+        "brim visible"
+      ],
+      "importance": "useful",
+      "rationale": "Visible distinctive clothing detail that aids scene visualization"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the woman wearing around her neck?",
+      "answer_key": "A black bow tie",
+      "required_visual_evidence": [
+        "black bow tie",
+        "woman's neck",
+        "formal attire"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive accessory suggesting formal or period-appropriate dress"
+    }
+  ]
+}

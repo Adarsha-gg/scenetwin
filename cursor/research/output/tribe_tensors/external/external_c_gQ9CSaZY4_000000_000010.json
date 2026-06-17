@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_c_gQ9CSaZY4_000000_000010",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/c_gQ9CSaZY4_000000_000010.mp4",
+  "ad_text_used": "A person wearing a blue cap kneels on the floor, organizing a variety of folded clothes into a bright green mesh bag. The clothes are neatly arranged in piles on a wooden floor, including shirts, pants, and socks. The person swiftly places each item into the bag, demonstrating an efficient packing technique.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.21586985493136313,
+  "description_gain": -0.17734835096821178,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    25,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "c_gQ9CSaZY4_000000_000010",
+  "category": "How-to & Instructional",
+  "yt_id": "c_gQ9CSaZY4",
+  "start_s": 0.0,
+  "end_s": 10.0
+}

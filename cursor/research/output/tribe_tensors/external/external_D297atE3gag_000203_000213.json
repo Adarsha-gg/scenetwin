@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_D297atE3gag_000203_000213",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/D297atE3gag_000203_000213.mp4",
+  "ad_text_used": "In a sunny park, a man demonstrates slacklining techniques between two trees. He skillfully balances barefoot on the slackline, performing lunges and adopting the warrior pose. The video highlights the 'Warrior Walks' technique, showcasing his focus and control. As he moves across the line, the background reveals a serene park setting with bare trees. The video concludes with an advertisement for an acro festival, featuring acrobatic poses performed indoors.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.08751459644998993,
+  "description_gain": -0.015457330812422954,
+  "alignment_cosine": 0.9697436708784817,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    36,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "D297atE3gag_000203_000213",
+  "category": "How-to & Instructional",
+  "yt_id": "D297atE3gag",
+  "start_s": 203.0,
+  "end_s": 213.0
+}

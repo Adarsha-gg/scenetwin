@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject in these frames?",
+      "answer_key": "A baby or toddler in a pink outfit",
+      "required_visual_evidence": [
+        "infant/toddler",
+        "pink clothing",
+        "seated position"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary subject essential to understanding the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the baby doing throughout the sequence?",
+      "answer_key": "Playing with or manipulating colorful objects on the floor",
+      "required_visual_evidence": [
+        "hands engaged with objects",
+        "seated on floor",
+        "colorful items"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action that defines the clip's content"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this activity takes place?",
+      "answer_key": "Indoors on a carpeted floor with colorful play equipment nearby",
+      "required_visual_evidence": [
+        "carpet/floor",
+        "indoor environment",
+        "play structures in background"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the environment context for the viewer's spatial understanding"
+    },
+    {
+      "q_idx": 3,
+      "question": "What colorful objects or equipment are visible in the background?",
+      "answer_key": "Colorful play structures or storage bins with bright neon colors",
+      "required_visual_evidence": [
+        "bright colored equipment",
+        "purple/blue/yellow tones",
+        "background structures"
+      ],
+      "importance": "useful",
+      "rationale": "Describes prominent environmental elements that frame the scene"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the baby wearing?",
+      "answer_key": "A pink long-sleeved outfit or jacket with patterned pants",
+      "required_visual_evidence": [
+        "pink top",
+        "long sleeves",
+        "patterned lower garment"
+      ],
+      "importance": "useful",
+      "rationale": "Provides visual detail about the subject's appearance for scene comprehension"
+    }
+  ]
+}

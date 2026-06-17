@@ -1,0 +1,15 @@
+{
+  "claims": [
+    "A room is visible.",
+    "A person is present.",
+    "A sheep is present.",
+    "Person shears sheep.",
+    "Electric clippers are used.",
+    "The sheep lies down.",
+    "Sheep is on floor.",
+    "Person removes wool.",
+    "Clippers glide over body.",
+    "Clippers trim coat.",
+    "The coat is thick."
+  ]
+}

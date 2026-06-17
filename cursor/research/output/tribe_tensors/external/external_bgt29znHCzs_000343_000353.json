@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_bgt29znHCzs_000343_000353",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/bgt29znHCzs_000343_000353.mp4",
+  "ad_text_used": "A group of people stands along a snow-covered trail, surrounded by trees. They are waiting for a dog sled race to pass by. The scene is set in a forested area with a clear, snowy path. Some individuals are positioned on a small hill beside the trail, while others are on the path itself, dressed warmly for the cold weather. The atmosphere is one of anticipation as they look down the trail, waiting for the racers to appear.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.13765484813168005,
+  "description_gain": -0.3242362712273048,
+  "alignment_cosine": 0.9867360693697121,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    32,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "bgt29znHCzs_000343_000353",
+  "category": "Sports",
+  "yt_id": "bgt29znHCzs",
+  "start_s": 343.0,
+  "end_s": 353.0
+}

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_iEAWgsSvJAE_000023_000033",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/iEAWgsSvJAE_000023_000033.mp4",
+  "ad_text_used": "In a black-and-white silent film, a young man is in a cluttered garage, working on a bicycle. He uses a saw and then wipes his hands with a cloth. The scene transitions to him standing up and extending his hand in greeting. The words 'Oh, hello!' appear on the screen, indicating a friendly interaction.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.1313394420555405,
+  "description_gain": -0.9228958502099776,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    24,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "iEAWgsSvJAE_000023_000033",
+  "category": "Film & Animation",
+  "yt_id": "iEAWgsSvJAE",
+  "start_s": 23.0,
+  "end_s": 33.0
+}

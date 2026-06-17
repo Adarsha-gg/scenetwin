@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject visible in the frames?",
+      "answer_key": "A person's hands and upper torso.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action the person is performing?",
+      "answer_key": "Flipping through pages of a magazine.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting of the scene?",
+      "answer_key": "An indoor, dimly lit environment.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the central object on the table that the person interacts with?",
+      "answer_key": "A large open magazine.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the person's shirt?",
+      "answer_key": "Black.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What item is placed to the right of the magazine?",
+      "answer_key": "A yellow jar candle.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What brand name is visible on the candle jar?",
+      "answer_key": "Yankee Candle.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What piece of jewelry is on the person's left ring finger?",
+      "answer_key": "A silver ring.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What type of images are displayed on the magazine pages?",
+      "answer_key": "Fashion images of people.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What text is visible below 'Yankee Candle' on the label?",
+      "answer_key": "MY SERENITY.",
+      "tier": "secondary"
+    }
+  ]
+}

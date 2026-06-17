@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_13_KFcH6BYZWhc_000011_000021",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_13.mp4",
+  "ad_text_used": "In an indoor ice rink, a group of young hockey players practice their skills. One player skates swiftly across the ice, controlling the puck with precision. Nearby, other players engage in drills, passing the puck back and forth. The scene is lively, with players focused on improving their techniques and aiming to score goals. The rink is bustling with activity as the team hones their hockey abilities.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.09130382412366711,
+  "description_gain": -0.3302402518747758,
+  "alignment_cosine": 0.9974270853414056,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    10,
+    20484
+  ],
+  "P_AD_shape": [
+    31,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 13,
+  "video_id": "KFcH6BYZWhc_000011_000021",
+  "category": "Sports",
+  "duration_s": 14.9,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

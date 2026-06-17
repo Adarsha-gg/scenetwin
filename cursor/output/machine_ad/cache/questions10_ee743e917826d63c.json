@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is operating the machine?",
+      "answer_key": "A person with short, light-colored hair.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person doing?",
+      "answer_key": "Operating a large cutting machine.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the primary object in the scene?",
+      "answer_key": "A large industrial cutting machine.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the setting of the video?",
+      "answer_key": "An industrial workshop or factory.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the person's shirt?",
+      "answer_key": "A black long-sleeved shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What material is being cut by the machine?",
+      "answer_key": "A long, dark metal bar.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color is the blade guard on the cutting machine?",
+      "answer_key": "Orange.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is the person wearing on their hands?",
+      "answer_key": "Black gloves.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What colors are the sticky notes on the wall?",
+      "answer_key": "Yellow and pink.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What happens to the cutting arm after the cut?",
+      "answer_key": "The person raises the cutting arm.",
+      "tier": "secondary"
+    }
+  ]
+}

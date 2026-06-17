@@ -1,0 +1,14 @@
+{
+  "collision_threshold": 0.4375956081166897,
+  "standard_regime_adqa_v4_mean_rho": 0.8224857364257098,
+  "standard_regime_ensemble_v4_minmax_50_rho": 0.8914564944794409,
+  "standard_regime_ensemble_w50_adqa_need_weighted_clip_rho": 0.9591008897244934,
+  "collision_regime_adqa_v4_mean_rho": 0.7629718513976153,
+  "collision_regime_ensemble_v4_minmax_50_rho": 0.8721295244094258,
+  "collision_regime_ensemble_w50_adqa_need_weighted_clip_rho": 0.8978510615272158,
+  "all_clips_adqa_v4_mean_rho": 0.7930798921780347,
+  "all_clips_ensemble_v4_minmax_50_rho": 0.8816410653612325,
+  "all_clips_ensemble_w50_adqa_need_weighted_clip_rho": 0.927887913572603,
+  "tier2_beats_tier3_rate_collision": 0.0,
+  "tier2_beats_tier3_rate_standard": 0.0
+}

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_750QhTe9Z4U_000000_000010",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/750QhTe9Z4U_000000_000010.mp4",
+  "ad_text_used": "In a grassy yard, a young boy confidently drives a large red tractor. He is supervised by a man walking alongside, while another adult observes nearby. The boy, wearing glasses and a hoodie, smiles as he steers the tractor, which is equipped with a front loader. The scene is lively and engaging, capturing a moment of learning and fun.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.14713961311655743,
+  "description_gain": -0.3529094155897128,
+  "alignment_cosine": 0.9980255376621668,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    28,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "750QhTe9Z4U_000000_000010",
+  "category": "People & Vlogs",
+  "yt_id": "750QhTe9Z4U",
+  "start_s": 0.0,
+  "end_s": 10.0
+}

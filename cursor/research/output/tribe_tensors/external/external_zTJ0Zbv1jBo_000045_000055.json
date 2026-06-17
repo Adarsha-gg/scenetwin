@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_zTJ0Zbv1jBo_000045_000055",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/zTJ0Zbv1jBo_000045_000055.mp4",
+  "ad_text_used": "On a television show, a doctor speaks on the phone with a woman named Sarah about her three-year-old daughter, who walks on her tiptoes. As they discuss, the scene shifts to show the young girl moving across a carpeted room, walking and running on her toes.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.15725142385544388,
+  "description_gain": -0.053564317443915654,
+  "alignment_cosine": 0.9314506543073892,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    19,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "zTJ0Zbv1jBo_000045_000055",
+  "category": "Health & Wellness",
+  "yt_id": "zTJ0Zbv1jBo",
+  "start_s": 45.0,
+  "end_s": 55.0
+}

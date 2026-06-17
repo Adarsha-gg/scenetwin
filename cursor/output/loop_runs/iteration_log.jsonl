@@ -1,0 +1,22 @@
+{"iteration": 1, "finished": "2026-05-27T17:33:20Z", "duration_s": 41.2, "tasks_ok": 8, "tasks_total": 8}
+{"iteration": 2, "finished": "2026-05-27T17:33:30Z", "duration_s": 6.6, "tasks_ok": 7, "tasks_total": 8}
+{"iteration": 3, "finished": "2026-05-27T17:36:16Z", "duration_s": 44.7, "tasks_ok": 11, "tasks_total": 11}
+{"iteration": 4, "finished": "2026-05-27T17:38:23Z", "duration_s": 5.9, "tasks_ok": 8, "tasks_total": 8}
+{"iteration": 5, "finished": "2026-05-27T17:40:31Z", "duration_s": 7.1, "tasks_ok": 8, "tasks_total": 8}
+{"iteration": 6, "finished": "2026-05-27T17:42:41Z", "duration_s": 8.7, "tasks_ok": 11, "tasks_total": 11}
+{"iteration": 7, "finished": "2026-05-27T17:45:24Z", "duration_s": 42.3, "tasks_ok": 8, "tasks_total": 8}
+{"iteration": 8, "finished": "2026-05-27T17:47:32Z", "duration_s": 6.4, "tasks_ok": 8, "tasks_total": 8}
+{"iteration": 9, "finished": "2026-05-27T17:50:18Z", "duration_s": 44.8, "tasks_ok": 11, "tasks_total": 11}
+{"iteration": 10, "primary": "adqa_va_nu", "ok": 3, "total": 3}
+{"iteration": 11, "primary": "av_consistency", "ok": 3, "total": 3}
+{"iteration": 12, "primary": "hierarchical_semantic", "ok": 5, "total": 5}
+{"iteration": 13, "primary": "six_dim_rubric", "ok": 3, "total": 3}
+{"iteration": 14, "primary": "vidscribe_coverage", "ok": 3, "total": 3}
+{"iteration": 15, "primary": "adqa_va_nu", "ok": 3, "total": 3}
+{"iteration": 16, "primary": "av_consistency", "ok": 5, "total": 5}
+{"iteration": 17, "primary": "hierarchical_semantic", "ok": 3, "total": 3}
+{"iteration": 18, "primary": "challenge", "ok": 3}
+{"iteration": 19, "primary": "tribe_lab", "ok": 5}
+{"iteration": 20, "primary": "acquire_clip", "ok": 5}
+{"iteration": 21, "primary": "score_external", "ok": 4}
+{"iteration": 22, "primary": "eval_suite", "ok": 5}

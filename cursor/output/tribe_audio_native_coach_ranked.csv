@@ -1,0 +1,19 @@
+clip_idx,category,audio_native_coach,collision_debt,mean_speech_density,critical_any_miss,critical_miss_rate,missed_critical_questions
+5,Food & Cooking,1.0,10.81157673786552,1.0,0,0.0,
+17,Pets & Animals,0.9346597085113078,10.21738384750827,0.9285714285714286,1,0.5,What type of structure or equipment is the person sliding on?
+18,Pets & Animals,0.8347517795797486,9.308839062829378,1.0,1,1.0,What is the main subject wearing on their head? | What is the person's primary action throughout the video?
+6,Travel,0.5928688053515421,7.109198683053306,1.0,0,0.0,
+7,Travel,0.5088281988152354,6.34494848202954,1.0,1,0.6666666666666666,What is the main subject doing in these frames? | Is the person in control of their movement or falling uncontrollably?
+8,Travel,0.49417786495688193,6.211720973831168,1.0,0,0.0,
+0,Food & Cooking,0.447485158831006,5.787105879845288,1.0,1,1.0,What is the man in the white shirt holding and demonstrating? | What type of setting or location is shown in most of the frames?
+1,Food & Cooking,0.43691795119440663,5.691009589095149,1.0,0,0.0,
+15,Pets & Animals,0.37696095655272144,5.145771434633556,0.5,0,0.0,
+3,Food & Cooking,0.321302395373757,4.639622463048724,0.8333333333333334,0,0.0,
+19,Pets & Animals,0.3073987537045662,4.5131852396803875,0.5714285714285714,0,0.0,
+16,Pets & Animals,0.2050265472632366,3.5822307573584076,1.0,0,0.0,
+13,Sports,0.0,5.598907117954381,1.0,0,0.0,
+14,Sports,0.0,5.761050825527789,0.9166666666666666,0,0.0,
+9,Sports,0.0,9.556670212420793,1.0,0,0.0,
+4,Food & Cooking,0.0,1.7177561132654444,0.3571428571428571,0,0.0,
+11,Sports,0.0,4.310999388855128,0.6666666666666666,0,0.0,
+12,Sports,0.0,6.015557902384641,0.5,0,0.0,

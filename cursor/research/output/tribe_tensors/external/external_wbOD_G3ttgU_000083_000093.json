@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_wbOD_G3ttgU_000083_000093",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/wbOD_G3ttgU_000083_000093.mp4",
+  "ad_text_used": "In a brightly lit dance studio with mirrored walls, three couples are practicing dance moves. The room is decorated with hanging star-shaped ornaments. The couples move in sync to the rhythm of country music, occasionally twirling and changing partners. Their reflections are visible in the large mirror, enhancing the sense of movement and coordination.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.09981857813019979,
+  "description_gain": -0.26448797200646146,
+  "alignment_cosine": 0.9982948219222976,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    26,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "wbOD_G3ttgU_000083_000093",
+  "category": "How-to & Instructional",
+  "yt_id": "wbOD_G3ttgU",
+  "start_s": 83.0,
+  "end_s": 93.0
+}

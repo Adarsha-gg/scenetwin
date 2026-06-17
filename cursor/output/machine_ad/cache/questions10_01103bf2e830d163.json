@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the central figure in the video?",
+      "answer_key": "A person.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main activity the person performs?",
+      "answer_key": "Operating a leaf blower.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of location is depicted?",
+      "answer_key": "An outdoor parking lot or courtyard.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary piece of equipment the person uses?",
+      "answer_key": "A leaf blower.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the person's upper garment?",
+      "answer_key": "Brown or tan.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "How many parked cars are clearly visible in the scene?",
+      "answer_key": "Eight cars.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What are the prominent colors of the leaf blower?",
+      "answer_key": "Orange and black.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What kind of structures are in the background?",
+      "answer_key": "Multi-story apartment buildings.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What shape are the parking space markings on the ground?",
+      "answer_key": "T-shaped white lines.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the person doing in the final frames?",
+      "answer_key": "Walking away from the area.",
+      "tier": "secondary"
+    }
+  ]
+}

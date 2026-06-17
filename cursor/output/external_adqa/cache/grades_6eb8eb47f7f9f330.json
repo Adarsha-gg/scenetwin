@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier navigates a snowy hill",
+      "rationale": "Describes skier, not dark shirt. Wrong subject entirely."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "At night, a skier navigates a snowy hill",
+      "rationale": "No mention of bright blue light or left-side object."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "Describes outdoor ski slope, not dark indoor cave."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "The skier moves swiftly, alternating left and right",
+      "rationale": "Describes movement and active posture but wrong context."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "At night",
+      "rationale": "No mention of cyan or electric blue light source."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "people hitting themselves",
+      "rationale": "Does not specify dark shirt or clothing details."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a tv turns on",
+      "rationale": "Mentions TV but not bright blue light or left-side placement."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A dark recording",
+      "rationale": "Indicates darkness but lacks detail about cave/enclosed space."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "people hitting themselves",
+      "rationale": "Implies active posture but vague; doesn't clearly describe standing/arms."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a tv turns on",
+      "rationale": "No mention of cyan or electric blue light color."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a toddler sits close to a television",
+      "rationale": "Describes toddler, not adult in dark shirt."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "television",
+      "rationale": "Mentions TV but not bright blue light or left-side location."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "In a dimly lit room",
+      "rationale": "Indicates dim indoor setting but not cave or dark rocky surfaces."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "sits close to a television, captivated by the screen. The child giggles and fidgets, occasionally falling over and sitting back up",
+      "rationale": "Describes posture and movement but subject is toddler, not standing adult."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "dimly lit room",
+      "rationale": "No mention of cyan or electric blue light color."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "people hitting themselves",
+      "rationale": "Does not specify dark shirt or clothing details."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "a tv turns on",
+      "rationale": "Mentions TV but not bright blue light or left-side placement."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "A dark recording",
+      "rationale": "Indicates darkness but lacks detail about cave/enclosed space."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "people hitting themselves",
+      "rationale": "Implies active posture but vague; doesn't clearly describe standing/arms."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a tv turns on",
+      "rationale": "No mention of cyan or electric blue light color."
+    }
+  ]
+}

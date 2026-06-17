@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main action occurring between the two people in this clip?",
+      "answer_key": "Two people are having a conversation or discussion face-to-face.",
+      "required_visual_evidence": [
+        "two people",
+        "facing each other",
+        "engaged interaction"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the primary action and interpersonal dynamic of the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the clothing worn by the person on the left.",
+      "answer_key": "Pink or light-colored hoodie with blonde hair in a bun.",
+      "required_visual_evidence": [
+        "pink hoodie",
+        "blonde hair",
+        "bun hairstyle"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies key visual characteristics of the main subject for scene clarity."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this interaction takes place?",
+      "answer_key": "An indoor room with plain pale yellow or cream-colored walls.",
+      "required_visual_evidence": [
+        "indoor",
+        "plain walls",
+        "pale yellow background"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the environment context necessary for scene understanding."
+    },
+    {
+      "q_idx": 3,
+      "question": "What color is the jacket or top worn by the person on the right?",
+      "answer_key": "Dark-colored jacket, appears black or dark red/maroon.",
+      "required_visual_evidence": [
+        "dark jacket",
+        "person on right",
+        "contrasting color"
+      ],
+      "importance": "useful",
+      "rationale": "Distinguishes the second person visually for listener comprehension."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible and engaged in this scene?",
+      "answer_key": "Two people are visible and interacting throughout the clip.",
+      "required_visual_evidence": [
+        "two individuals",
+        "sustained interaction",
+        "both visible"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the number of participants essential to understanding the scene."
+    }
+  ]
+}

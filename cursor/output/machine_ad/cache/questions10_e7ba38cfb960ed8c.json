@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who are the main subjects in the video?",
+      "answer_key": "Several couples.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What activity are the people performing?",
+      "answer_key": "Dancing or practicing dance steps.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting of the video?",
+      "answer_key": "A dance studio.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary surface the people are on?",
+      "answer_key": "A wooden dance floor.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color are the walls of the studio?",
+      "answer_key": "Yellow.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What items are hanging from the ceiling?",
+      "answer_key": "Stars and disco balls.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How many couples are visible dancing in the foreground?",
+      "answer_key": "Three couples.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What color is the shirt worn by the man closest to the camera?",
+      "answer_key": "Grey.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What color are the pants worn by the woman closest to the camera?",
+      "answer_key": "Black.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What specific dance move does the front couple perform?",
+      "answer_key": "A spin or turn.",
+      "tier": "secondary"
+    }
+  ]
+}

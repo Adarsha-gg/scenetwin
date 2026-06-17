@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_crjesEwF0Ks_000197_000207",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/crjesEwF0Ks_000197_000207.mp4",
+  "ad_text_used": "In a garage filled with various vacuum cleaners, a person in jeans is using a red vacuum to clean a carpeted floor. The person is barefoot, moving the vacuum back and forth across the dark carpet. The garage is lined with other vacuums, suggesting a collection or repair shop setting.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.3233000293028674,
+  "description_gain": -0.28558791281467105,
+  "alignment_cosine": 0.9999999999983215,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    22,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "crjesEwF0Ks_000197_000207",
+  "category": "How-to & Instructional",
+  "yt_id": "crjesEwF0Ks",
+  "start_s": 197.0,
+  "end_s": 207.0
+}

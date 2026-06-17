@@ -1,0 +1,59 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the young child doing in the video footage?",
+      "answer_key": "Walking on tip toes across a floor",
+      "required_visual_evidence": [
+        "child walking",
+        "on tip toes",
+        "floor surface"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the segment; central to understanding the clip's content"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location where this action takes place?",
+      "answer_key": "Indoors in a room with green walls",
+      "required_visual_evidence": [
+        "green walls",
+        "indoor hallway or room",
+        "floor"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the environment; necessary context for the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "Who is calling in to discuss this situation?",
+      "answer_key": "A caller named Sarah",
+      "required_visual_evidence": [
+        "on-screen text 'Sarah'",
+        "on the phone"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the caller; relevant to understanding the show format"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the age of the child being discussed?",
+      "answer_key": "Three years old",
+      "required_visual_evidence": [
+        "on-screen text '3 YEAR-OLD'"
+      ],
+      "importance": "useful",
+      "rationale": "Key demographic detail about the subject of the call"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the name of the show or program?",
+      "answer_key": "The DJs",
+      "required_visual_evidence": [
+        "on-screen text 'THE DJs'"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the program context for the segment"
+    }
+  ]
+}

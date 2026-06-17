@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_rGQ64NXktF8_000006_000016",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/rGQ64NXktF8_000006_000016.mp4",
+  "ad_text_used": "In a small room, two boys sit on the floor facing each other. They take turns playfully hitting each other on the head with an empty plastic water bottle. Laughter fills the room as they continue their game, surrounded by a bicycle and some scattered items.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.10773152569050348,
+  "description_gain": -0.548347294843812,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    19,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "rGQ64NXktF8_000006_000016",
+  "category": "People & Vlogs",
+  "yt_id": "rGQ64NXktF8",
+  "start_s": 6.0,
+  "end_s": 16.0
+}

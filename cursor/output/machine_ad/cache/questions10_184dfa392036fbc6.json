@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who are the main subjects present in the video?",
+      "answer_key": "Several people.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary activity depicted on the snowy path?",
+      "answer_key": "People are walking and preparing to sled.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "Describe the environment where the video takes place.",
+      "answer_key": "A snowy, wooded path or trail.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What common recreational objects are visible with many people?",
+      "answer_key": "Sleds.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What colors are the sleds that people are carrying?",
+      "answer_key": "Red and orange.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What type of markers are placed along the edge of the path?",
+      "answer_key": "Orange traffic cones.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How many people are clearly visible with sleds in the later frames?",
+      "answer_key": "At least five to seven people.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What types of trees and bushes line the snowy path?",
+      "answer_key": "Evergreen pine trees and bare deciduous bushes.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the direction of the camera's movement?",
+      "answer_key": "The camera moves forward along the path.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the person closest to the camera wearing in the first frames?",
+      "answer_key": "A dark winter jacket and blue jeans.",
+      "tier": "secondary"
+    }
+  ]
+}

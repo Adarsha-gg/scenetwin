@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the primary subject walking in the foreground?",
+      "answer_key": "A person with a backpack.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What action is the person in the foreground performing?",
+      "answer_key": "Walking away from the camera.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting of the video?",
+      "answer_key": "An urban street with a bus stop.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What structure are people gathered under in the background?",
+      "answer_key": "A bus stop shelter.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color are the main subject's pants?",
+      "answer_key": "Blue jeans.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "Approximately how many people are waiting at the bus stop?",
+      "answer_key": "Six to seven people.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color are the lines painted on the wet road?",
+      "answer_key": "Double yellow lines.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is the condition of the ground surface?",
+      "answer_key": "The ground is wet.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What type of bridge is visible spanning the road?",
+      "answer_key": "A pedestrian bridge.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What recreational area is visible to the left in the later frames?",
+      "answer_key": "A playground.",
+      "tier": "secondary"
+    }
+  ]
+}

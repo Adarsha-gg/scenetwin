@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject of these video frames?",
+      "answer_key": "A crab or crustacean being held in someone's hands",
+      "required_visual_evidence": [
+        "crab/crustacean with claws",
+        "human hands holding it",
+        "textured shell"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary subject essential to understanding the entire clip"
+    },
+    {
+      "q_idx": 1,
+      "question": "What action is being performed with the crab throughout the frames?",
+      "answer_key": "The crab is being examined, turned, and manipulated by multiple hands",
+      "required_visual_evidence": [
+        "hands handling the crab",
+        "crab being rotated",
+        "close inspection"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main activity that defines the clip's purpose and content"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this activity takes place?",
+      "answer_key": "Outdoors on a beach or sandy area near water",
+      "required_visual_evidence": [
+        "sand visible",
+        "outdoor daylight",
+        "beach environment"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes context for where the crab encounter is occurring"
+    },
+    {
+      "q_idx": 3,
+      "question": "How many people are visible handling the crab in these frames?",
+      "answer_key": "At least two people with different colored clothing (blue and dark)",
+      "required_visual_evidence": [
+        "multiple hands visible",
+        "blue sleeve",
+        "dark clothing"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies that this is a shared or group activity, not solitary"
+    },
+    {
+      "q_idx": 4,
+      "question": "What distinctive features of the crab are visible in the frames?",
+      "answer_key": "Claws, textured shell, and reddish-brown coloring on the underside",
+      "required_visual_evidence": [
+        "prominent claws",
+        "segmented shell texture",
+        "pale underside"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listeners visualize the crab's physical characteristics and appearance"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "claims": [
+    "A workshop is visible.",
+    "A person is visible.",
+    "A saw is orange.",
+    "A saw is stationary.",
+    "A lever is visible.",
+    "A metal pipe is visible.",
+    "A handle is visible.",
+    "Person operates a saw.",
+    "Person pulls down lever.",
+    "Saw cuts metal pipe.",
+    "Person maneuvers the handle.",
+    "Person guides the saw."
+  ]
+}

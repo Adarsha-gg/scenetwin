@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main person featured in the video?",
+      "answer_key": "A man with a beard.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the man doing with the object in his hand?",
+      "answer_key": "He is inhaling and exhaling vapor.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting of the scene?",
+      "answer_key": "An indoor room with a two-toned wall.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What type of object is the man holding to his mouth?",
+      "answer_key": "A black vape pen or e-cigarette.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the man's t-shirt?",
+      "answer_key": "A dark, possibly olive green, color.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is the woman in the background wearing?",
+      "answer_key": "A grey hooded sweatshirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "Describe the color division on the wall behind the man.",
+      "answer_key": "White on the top half, red on the bottom half.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is the man's facial expression after exhaling the vapor?",
+      "answer_key": "He is smiling broadly.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is visible on the front of the man's t-shirt?",
+      "answer_key": "A light-colored graphic or logo.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "How many couches are clearly visible in the room?",
+      "answer_key": "Two couches.",
+      "tier": "secondary"
+    }
+  ]
+}

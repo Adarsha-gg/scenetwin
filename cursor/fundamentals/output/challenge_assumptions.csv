@@ -1,0 +1,10 @@
+test,metric,n_clips,clip_ids,interpretation
+tier0_beats_tier1,ensemble_score,0,,cross-video control outscores in-domain short caption
+tier0_beats_tier1,adqa_score,0,,cross-video control outscores in-domain short caption
+tier0_beats_tier1,vt_consistency,0,,cross-video control outscores in-domain short caption
+hard_clip_violations,ensemble_score,2,"0,12",GT violations on known-hard clips; total viol=3
+hard_clip_violations,adqa_score,2,"0,12",GT violations on known-hard clips; total viol=5
+hard_clip_violations,vt_consistency,1,0,GT violations on known-hard clips; total viol=6
+length_confound_tier3,ensemble_score,18,"r=0.005,p=0.9851",pro AD word count vs ensemble score (should be weak if not length-biased)
+ensemble_vt_redundancy,spearman,72,"rho=0.769,p=0.0000",high rho → VT adds little; low rho → orthogonal signal
+tribe_pressure_vs_tier3_margin,ensemble,18,"rho=-0.077,p=0.7602",high need → harder to separate pro from short?

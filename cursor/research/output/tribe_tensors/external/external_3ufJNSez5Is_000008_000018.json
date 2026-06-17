@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_3ufJNSez5Is_000008_000018",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/3ufJNSez5Is_000008_000018.mp4",
+  "ad_text_used": "In a pottery workshop, a woman is shaping a clay vase on a spinning wheel. She carefully molds the clay with her hands, focusing on the form. A man nearby kneels on a wooden plank, reaching for a phone handed to him by someone off-camera. The workshop is filled with pottery tools and finished pieces, creating a creative and industrious atmosphere.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.11843659178237897,
+  "description_gain": -0.2785223001738416,
+  "alignment_cosine": 0.9983918225898651,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    27,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "3ufJNSez5Is_000008_000018",
+  "category": "How-to & Instructional",
+  "yt_id": "3ufJNSez5Is",
+  "start_s": 8.0,
+  "end_s": 18.0
+}

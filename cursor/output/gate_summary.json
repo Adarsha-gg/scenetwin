@@ -1,0 +1,21 @@
+{
+  "n_clips": 60,
+  "zero_reference_claim_gate": {
+    "auc": 0.5845338983050847,
+    "recall_at_10pct_fpr": 0.1694915254237288,
+    "actual_fpr": 0.1,
+    "tau": -0.11354721486568443
+  },
+  "with_reference_clip_drop": {
+    "auc": 0.8352777777777778,
+    "recall_at_10pct_fpr": 0.7,
+    "actual_fpr": 0.1,
+    "tau": 0.0237634301185608
+  },
+  "with_reference_clip_plus_adqa": {
+    "auc": 0.9041666666666667,
+    "recall_at_10pct_fpr": 0.7166666666666667,
+    "actual_fpr": 0.1,
+    "tau": 0.9777121020050972
+  }
+}

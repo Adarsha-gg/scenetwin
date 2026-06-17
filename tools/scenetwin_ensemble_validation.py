@@ -8,8 +8,11 @@ import numpy as np
 import pandas as pd
 from scipy import stats
 
-SCORES = "/Users/adarsha/Knowledge/output/scenetwin_timing_20clip/ensemble/adqa_clip_ensemble_scores.csv"
-OUT    = "/Users/adarsha/Knowledge/output/reports/scenetwin_ensemble_validation.md"
+from pathlib import Path
+
+_ROOT = Path(__file__).resolve().parents[1]
+SCORES = _ROOT / "output" / "scenetwin_timing_20clip" / "ensemble" / "adqa_clip_ensemble_scores.csv"
+OUT    = _ROOT / "output" / "reports" / "scenetwin_ensemble_validation.md"
 
 df = pd.read_csv(SCORES)
 

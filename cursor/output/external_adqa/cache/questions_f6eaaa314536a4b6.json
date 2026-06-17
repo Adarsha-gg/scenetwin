@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person operating in this video?",
+      "answer_key": "A large industrial saw or cutting machine with a green base and orange wheel guard",
+      "required_visual_evidence": [
+        "green machine base",
+        "orange wheel guard",
+        "cutting blade",
+        "overhead arm"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary equipment and setting for understanding the activity"
+    },
+    {
+      "q_idx": 1,
+      "question": "What main action does the person perform throughout the sequence?",
+      "answer_key": "Operating the overhead arm/lever of the saw machine to make cuts",
+      "required_visual_evidence": [
+        "person pulling down overhead arm",
+        "repeated arm motion",
+        "machine operation"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the core action essential to understanding what is happening"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of location or setting is shown in these frames?",
+      "answer_key": "An industrial workshop or makerspace with machinery and colorful sticky notes on walls",
+      "required_visual_evidence": [
+        "industrial machine",
+        "brick wall",
+        "pink and green sticky notes",
+        "workshop environment"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes context and environment for the viewer's spatial understanding"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing on their hands while operating the machine?",
+      "answer_key": "Black gloves",
+      "required_visual_evidence": [
+        "black gloves on hands",
+        "safety equipment"
+      ],
+      "importance": "useful",
+      "rationale": "Indicates safety precautions being taken during machine operation"
+    },
+    {
+      "q_idx": 4,
+      "question": "What protective equipment is visible on the machine itself?",
+      "answer_key": "An orange wheel guard covering the saw blade",
+      "required_visual_evidence": [
+        "orange guard",
+        "blade protection",
+        "safety feature"
+      ],
+      "importance": "useful",
+      "rationale": "Describes visible safety features of the equipment being used"
+    }
+  ]
+}

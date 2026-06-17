@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject performing the action?",
+      "answer_key": "A person (or female athlete).",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action the person is performing?",
+      "answer_key": "Jumping over hurdles and onto a mat.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location of the video?",
+      "answer_key": "An outdoor track and field facility.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What are the main objects the person interacts with?",
+      "answer_key": "Hurdles and a large red mat.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the main subject's shirt?",
+      "answer_key": "Blue.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "How many hurdles does the person jump over in the sequence?",
+      "answer_key": "Three hurdles.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color are the main subject's shoes?",
+      "answer_key": "Pink.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is visible on top of the large red mat?",
+      "answer_key": "A grey and white patterned object (possibly a towel).",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is visible in the far background behind the fence?",
+      "answer_key": "Trees with some autumn foliage.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What object is visible on the track in the first frame?",
+      "answer_key": "A red water bottle.",
+      "tier": "secondary"
+    }
+  ]
+}

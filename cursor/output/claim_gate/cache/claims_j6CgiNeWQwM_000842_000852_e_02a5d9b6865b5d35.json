@@ -1,0 +1,22 @@
+{
+  "claims": [
+    "Setting is a kitchen",
+    "A chef is visible",
+    "An assistant is visible",
+    "Chef and assistant prepare cake",
+    "Assistant holds a bowl",
+    "Bowl is large",
+    "Bowl is a mixing bowl",
+    "Bowl contains batter",
+    "Chef uses a spatula",
+    "Chef transfers batter",
+    "Batter goes into pan",
+    "Pan is a cake pan",
+    "Pan is round",
+    "Pan is lined",
+    "Lining is parchment paper",
+    "Batter is scraped",
+    "Batter scraped from bowl",
+    "Batter scraped into pan"
+  ]
+}

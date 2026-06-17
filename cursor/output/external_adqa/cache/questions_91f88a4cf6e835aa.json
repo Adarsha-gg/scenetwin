@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the primary setting or location shown in these video frames?",
+      "answer_key": "A snowy mountain road or path lined with trees and evergreen forest",
+      "required_visual_evidence": [
+        "snow-covered ground",
+        "coniferous trees",
+        "mountain road",
+        "winter landscape"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for all action; essential for scene comprehension"
+    },
+    {
+      "q_idx": 1,
+      "question": "What are the main subjects doing in this video?",
+      "answer_key": "People walking and standing on a snowy road or path in a winter forest",
+      "required_visual_evidence": [
+        "multiple people",
+        "standing/walking",
+        "snowy surface",
+        "outdoor setting"
+      ],
+      "importance": "critical",
+      "rationale": "Primary action defines the core narrative; fundamental to understanding the clip"
+    },
+    {
+      "q_idx": 2,
+      "question": "What visible infrastructure or objects appear along the snowy path?",
+      "answer_key": "Utility poles, power lines, and red markers or posts along the roadside",
+      "required_visual_evidence": [
+        "utility pole",
+        "power lines",
+        "red posts/markers",
+        "roadside"
+      ],
+      "importance": "useful",
+      "rationale": "Environmental details help listeners visualize the specific location type"
+    },
+    {
+      "q_idx": 3,
+      "question": "What are the people wearing or carrying as they move through the snow?",
+      "answer_key": "Dark winter clothing including jackets and backpacks",
+      "required_visual_evidence": [
+        "dark jackets",
+        "winter clothing",
+        "backpacks",
+        "people"
+      ],
+      "importance": "useful",
+      "rationale": "Attire indicates season and activity type; supports scene authenticity"
+    },
+    {
+      "q_idx": 4,
+      "question": "What vegetation or natural features are visible on either side of the path?",
+      "answer_key": "Bare deciduous trees mixed with evergreen conifers; fallen branches in snow",
+      "required_visual_evidence": [
+        "bare trees",
+        "evergreen trees",
+        "fallen branches",
+        "mixed forest"
+      ],
+      "importance": "useful",
+      "rationale": "Vegetation details enhance visual imagery and seasonal context for listeners"
+    }
+  ]
+}

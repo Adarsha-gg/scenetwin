@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject in the video?",
+      "answer_key": "A man.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the man doing?",
+      "answer_key": "Playing the drums.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the primary musical instrument shown?",
+      "answer_key": "A drum kit.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What kind of room is the man in?",
+      "answer_key": "A recording studio or practice room.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the man's long-sleeved shirt?",
+      "answer_key": "Dark gray or charcoal.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "Describe the man's facial hair.",
+      "answer_key": "A short beard and mustache.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How many cymbals are clearly visible in the drum kit?",
+      "answer_key": "Three cymbals.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What material covers the walls in the background?",
+      "answer_key": "Sound-dampening acoustic panels.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "How many drumsticks is the man holding?",
+      "answer_key": "Two drumsticks.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Which of the man's hands is raising a drumstick?",
+      "answer_key": "His left hand.",
+      "tier": "secondary"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject shown in the video?",
+      "answer_key": "A person's hands.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action being performed?",
+      "answer_key": "Manipulating a Rubik's Cube.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the primary object being manipulated?",
+      "answer_key": "A colorful Rubik's Cube.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the general setting of the scene?",
+      "answer_key": "Indoors, on a dark surface.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What colors are visible on the Rubik's Cube?",
+      "answer_key": "Orange, yellow, green, pink, and blue.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "Which part of the cube is the right hand rotating?",
+      "answer_key": "The top layer of the cube.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is the skin tone of the hands?",
+      "answer_key": "Darker skin tone.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What pattern is visible in the blurred background?",
+      "answer_key": "Dark shelves or a grid pattern.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "How many squares are on each visible face of the cube?",
+      "answer_key": "Three squares per side.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What color square moves from the top-right corner?",
+      "answer_key": "A blue square moves.",
+      "tier": "secondary"
+    }
+  ]
+}

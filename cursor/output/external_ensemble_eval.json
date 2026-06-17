@@ -1,0 +1,93 @@
+{
+  "run_at": "2026-05-28T01:19:22.712209+00:00",
+  "model": "claude-haiku-4-5-20251001",
+  "n_questions_per_clip": 5,
+  "n_clips_attempted": 60,
+  "n_clips_scored": 60,
+  "n_tier_rows": 240,
+  "failed_clips": [],
+  "external": {
+    "adqa_only": {
+      "spearman_rho": 0.7851460012050728,
+      "spearman_p": 1.9560094324421166e-51,
+      "full_order": 23,
+      "full_order_total": 60,
+      "full_order_rate": 0.38333333333333336,
+      "pairwise_wins": 171,
+      "pairwise_total": 180,
+      "n_rows": 240,
+      "n_clips": 60
+    },
+    "clip_top3_only": {
+      "spearman_rho": 0.6313563795013782,
+      "spearman_p": 4.263287125570728e-28,
+      "full_order": 16,
+      "full_order_total": 60,
+      "full_order_rate": 0.26666666666666666,
+      "pairwise_wins": 142,
+      "pairwise_total": 180,
+      "n_rows": 240,
+      "n_clips": 60
+    },
+    "ensemble_mean_clip_top3": {
+      "spearman_rho": 0.8731713300938145,
+      "spearman_p": 3.098358885637082e-76,
+      "full_order": 30,
+      "full_order_total": 60,
+      "full_order_rate": 0.5,
+      "pairwise_wins": 173,
+      "pairwise_total": 180,
+      "n_rows": 240,
+      "n_clips": 60
+    }
+  },
+  "clip_only_external": {
+    "spearman_rho": 0.6313563795013782,
+    "spearman_p": 4.263287125570728e-28,
+    "full_order": 16,
+    "full_order_total": 60,
+    "full_order_rate": 0.26666666666666666,
+    "pairwise_wins": 142,
+    "pairwise_total": 180,
+    "n_rows": 240,
+    "n_clips": 60
+  },
+  "benchmark_recomputed": {
+    "adqa_only": {
+      "spearman_rho": 0.8029279984245423,
+      "spearman_p": 2.1928779813496547e-17,
+      "full_order": 8,
+      "full_order_total": 18,
+      "full_order_rate": 0.4444444444444444,
+      "pairwise_wins": 51,
+      "pairwise_total": 54,
+      "n_rows": 72,
+      "n_clips": 18
+    },
+    "clip_top3_only": {
+      "spearman_rho": 0.7346227922651773,
+      "spearman_p": 2.0614550819537506e-13,
+      "full_order": 10,
+      "full_order_total": 18,
+      "full_order_rate": 0.5555555555555556,
+      "pairwise_wins": 48,
+      "pairwise_total": 54,
+      "n_rows": 72,
+      "n_clips": 18
+    },
+    "ensemble_mean_clip_top3": {
+      "spearman_rho": 0.9284910256386235,
+      "spearman_p": 7.840406438839231e-32,
+      "full_order": 15,
+      "full_order_total": 18,
+      "full_order_rate": 0.8333333333333334,
+      "pairwise_wins": 54,
+      "pairwise_total": 54,
+      "n_rows": 72,
+      "n_clips": 18
+    },
+    "stored_ensemble_rho": 0.9284910256386235
+  },
+  "generalization_gap_ensemble": 0.05531969554480898,
+  "verdict": "External ensemble \u03c1=0.873 vs benchmark \u03c1=0.928 (\u0394\u03c1=0.055). CLIP-only external \u03c1=0.631. Partial generalization \u2014 ensemble lifts over CLIP-only on external."
+}

@@ -1,0 +1,4053 @@
+{
+  "n": 18,
+  "positives": 2,
+  "review_budget_clips": 2,
+  "recall_at_topk": 1.0,
+  "p_value": 0.0065359477124183,
+  "best_feature": "mean_standard_slot_score",
+  "best_feature_direction": "high",
+  "clips": [
+    {
+      "clip_idx": 12,
+      "video_id": "abaLFY_GI8k_000295_000305",
+      "category": "Sports",
+      "risk_rank": 1,
+      "risk_score": 0.280861072744793,
+      "target": 1,
+      "quality_risk": "tier2/tier1 inversion risk",
+      "tribe_route": "extended/integrated AD likely needed",
+      "mean_need": 0.5182596900896645,
+      "max_need": 0.8755344451155387,
+      "high_need_seconds_frac": 0.625,
+      "tribe_pressure": 0.7773895351344968,
+      "mean_speech_density": 0.5000000000000001,
+      "tier3_margin": 0.5104166666666667,
+      "tier2_vs_tier1": -0.0208333333333333,
+      "pro_ad_words": 64,
+      "pro_ad_text": "A group of boys is playing volleyball on an outdoor dirt court. The net is slightly broken, and the setting is casual. One boy serves the ball, and another jumps to spike it over the net. The players are wearing shorts and are engaged in the game, communicating in a foreign language. The scene is lively, with the boys moving energetically across the court.",
+      "short_text": "Some boys talking in a foreign language are playing Volley Ball.",
+      "long_text": "A man runs to the back of a volleyball field bouncing the ball before he plays a game of volleyball.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_12_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.180481427459008,
+          "speech_density": 0.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.1252789105417732,
+          "speech_density": 0.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.1446525578554159,
+          "speech_density": 0.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.1402407749846827,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.1927552126734735,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.3781830809294055,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.5777499475789889,
+          "speech_density": 0.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.78124755583813,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.8604108202953946,
+          "speech_density": 0.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.9334767559535246,
+          "speech_density": 0.0
+        },
+        {
+          "t": 11.0,
+          "start_s": 16.39,
+          "end_s": 17.88,
+          "need_score": 0.8175921342775527,
+          "speech_density": 0.0
+        },
+        {
+          "t": 12.0,
+          "start_s": 17.88,
+          "end_s": 19.37,
+          "need_score": 0.8541346099550309,
+          "speech_density": 0.0
+        },
+        {
+          "t": 13.0,
+          "start_s": 19.37,
+          "end_s": 20.86,
+          "need_score": 0.8355275579398083,
+          "speech_density": 1.0
+        },
+        {
+          "t": 14.0,
+          "start_s": 20.86,
+          "end_s": 22.35,
+          "need_score": 0.847944051027298,
+          "speech_density": 1.0
+        },
+        {
+          "t": 15.0,
+          "start_s": 22.35,
+          "end_s": 23.84,
+          "need_score": 0.6224796441251461,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.090240713729504,
+          "speech_density": 0.5,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.1349657341985946,
+          "speech_density": 0.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.1664979938290781,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.4779665142541972,
+          "speech_density": 0.5,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.8208291880667623,
+          "speech_density": 0.5,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 17.88,
+          "need_score": 0.8755344451155387,
+          "speech_density": 0.0,
+          "recommendation": "standard_ad_slot"
+        },
+        {
+          "start_s": 17.88,
+          "end_s": 20.86,
+          "need_score": 0.8448310839474196,
+          "speech_density": 0.5,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 20.86,
+          "end_s": 23.84,
+          "need_score": 0.735211847576222,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "scene_layout_replay",
+          "priority_score": 0.6756869310259981,
+          "window": "0.0-4.3s",
+          "why": "Audio drops scene/spatial cortex most; route to layout cue, keyframe, or replay surface."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 4.334545454545455,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.6756869310259981,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 4.334545454545455,
+          "end_s": 6.501818181818182,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.5735080961722543,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 6.501818181818182,
+          "end_s": 10.836363636363638,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.5653688935786003,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 19.505454545454548,
+          "end_s": 21.672727272727276,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.2776629195855811,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 15.170909090909092,
+          "end_s": 19.505454545454548,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.2022425058220425,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 15,
+      "video_id": "OGWuj_FtaQc_000010_000020",
+      "category": "Pets & Animals",
+      "risk_rank": 2,
+      "risk_score": 0.2450350738936531,
+      "target": 1,
+      "quality_risk": "professional AD barely leads",
+      "tribe_route": "extended/integrated AD likely needed",
+      "mean_need": 0.5596241940798036,
+      "max_need": 0.7493147206590085,
+      "high_need_seconds_frac": 0.9090909090909092,
+      "tribe_pressure": 0.9666236079560244,
+      "mean_speech_density": 0.5454545454545454,
+      "tier3_margin": -0.025,
+      "tier2_vs_tier1": 0.45,
+      "pro_ad_words": 53,
+      "pro_ad_text": "A man in a green shirt and navy shorts walks back and forth along a fence. On the other side, a small deer mirrors his movements, following him closely. The setting appears to be a zoo or animal enclosure, with the man playfully engaging the deer in a game of follow-the-leader.",
+      "short_text": "A guy has a small deer follow him alongside a fence.",
+      "long_text": "A guy with green top and navy bottom is playing with a deer which fenced up to other side of the fence",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_15_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.5204568989551561,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.5011549317043897,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.5551057142232899,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.6731215127433221,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.6359115622319638,
+          "speech_density": 0.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.6302469824225683,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.580394281998929,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.5608448092802035,
+          "speech_density": 0.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.7971318364143372,
+          "speech_density": 0.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.7014976049036797,
+          "speech_density": 0.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.0,
+          "speech_density": 0.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.5108059153297729,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.6141136134833061,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.633079272327266,
+          "speech_density": 0.5,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.5706195456395662,
+          "speech_density": 0.5,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.7493147206590085,
+          "speech_density": 0.0,
+          "recommendation": "standard_ad_slot"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.0,
+          "speech_density": 0.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "scene_layout_replay",
+          "priority_score": 0.477208801071443,
+          "window": "13.1-16.4s",
+          "why": "Audio drops scene/spatial cortex most; route to layout cue, keyframe, or replay surface."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 13.112,
+          "end_s": 16.39,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.477208801071443,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 3.278,
+          "end_s": 6.556,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.166068810608206,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 9.834,
+          "end_s": 13.112,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1288718983427255,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 6.556,
+          "end_s": 9.834,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1142337795645863,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 0.0,
+          "end_s": 3.278,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0504430633264074,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 11,
+      "video_id": "z8Q-s8AthrA_000002_000012",
+      "category": "Sports",
+      "risk_rank": 3,
+      "risk_score": 0.215215029814331,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "standard AD priority",
+      "mean_need": 0.4782412280361204,
+      "max_need": 0.6204962039553747,
+      "high_need_seconds_frac": 0.7272727272727273,
+      "tribe_pressure": 0.6521471291401642,
+      "mean_speech_density": 0.6363636363636364,
+      "tier3_margin": 0.2833333333333333,
+      "tier2_vs_tier1": 0.3833333333333333,
+      "pro_ad_words": 69,
+      "pro_ad_text": "A young girl in a yellow shirt and black pants participates in a track and field event. She energetically runs and leaps over hurdles on a track. Later, she stands on the track, speaking confidently about her experience while other children play in the background. The scene shifts to her performing a high jump, landing on a cushioned surface. The video captures her enthusiasm and skill in the sport.",
+      "short_text": "A girl performs the high jump at a track meet.",
+      "long_text": "A child jumps over a hurdle on a track, and a child is talking while other kids are playing in the background followed by a child running and and doing a high jump.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_11_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.410925102773479,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.6117311492562294,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.4298111079916464,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.2136431143075041,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.1844687799939406,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.6653872357959159,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.6198841840339837,
+          "speech_density": 0.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.5064887360129078,
+          "speech_density": 0.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.7036336379834801,
+          "speech_density": 0.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.5373587699272695,
+          "speech_density": 0.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.3773216903209686,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.5113281260148542,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.3217271111495752,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.4249280078949282,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.5631864600234457,
+          "speech_density": 0.0,
+          "recommendation": "standard_ad_slot"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.6204962039553747,
+          "speech_density": 0.0,
+          "recommendation": "standard_ad_slot"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.3773216903209686,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "moment_level_authoring",
+          "priority_score": 3.277652957736548,
+          "window": "0.0-3.3s",
+          "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+        },
+        {
+          "case_id": "agent_action_cue",
+          "priority_score": 0.6471764276602607,
+          "window": "0.0-3.3s",
+          "why": "Audio drops face/body/motion/object cortex most; route to action-state or agent cue."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 3.278,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.6471764276602607,
+          "route": "action_state_or_agent_cue"
+        },
+        {
+          "start_s": 13.112,
+          "end_s": 16.39,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.2687553078918833,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 3.278,
+          "end_s": 6.556,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.2425285339357623,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 9.834,
+          "end_s": 13.112,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1253003656935041,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 6.556,
+          "end_s": 9.834,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0801162881203172,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 4,
+      "video_id": "B0EKYDSv_yQ_000002_000012",
+      "category": "Food & Cooking",
+      "risk_rank": 4,
+      "risk_score": 0.1237965014793331,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "low/normal AD pressure",
+      "mean_need": 0.1987337515089805,
+      "max_need": 0.5713254998961601,
+      "high_need_seconds_frac": 0.3076923076923076,
+      "tribe_pressure": 0.2598825981271284,
+      "mean_speech_density": 0.3076923076923077,
+      "tier3_margin": 0.5208333333333333,
+      "tier2_vs_tier1": 0.0625,
+      "pro_ad_words": 73,
+      "pro_ad_text": "In a cozy kitchen, a young girl stands at the stove, skillfully stirring scrambled eggs in a frying pan with a spatula. She mentions that the eggs are for her and her mother, if her mother wants some. The girl is focused and seems to enjoy the cooking process, occasionally glancing at the camera with a smile. The kitchen is warm and inviting, with a granite countertop and wooden cabinets in the background.",
+      "short_text": "A preteen girl is making scrambled eggs on the stove.",
+      "long_text": "A young girl is shown cooking eggs in a frying pan and talking about who it's for.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_04_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 1.0,
+          "speech_density": 0.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.1426509997923203,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.6709078379162057,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.1883023571030014,
+          "speech_density": 0.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.05167547692742,
+          "speech_density": 0.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.005944063915665,
+          "speech_density": 0.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.023348918184638,
+          "speech_density": 0.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.057609318543602,
+          "speech_density": 0.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.0795373816570294,
+          "speech_density": 0.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.0753572961190223,
+          "speech_density": 0.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.1275797067809534,
+          "speech_density": 0.0
+        },
+        {
+          "t": 11.0,
+          "start_s": 16.39,
+          "end_s": 17.88,
+          "need_score": 0.1449788232342541,
+          "speech_density": 1.0
+        },
+        {
+          "t": 12.0,
+          "start_s": 17.88,
+          "end_s": 19.37,
+          "need_score": 0.0156465894426357,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.5713254998961601,
+          "speech_density": 0.5,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.4296050975096035,
+          "speech_density": 0.5,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.0288097704215425,
+          "speech_density": 0.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.04047911836412,
+          "speech_density": 0.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.0774473388880259,
+          "speech_density": 0.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 17.88,
+          "need_score": 0.1362792650076037,
+          "speech_density": 0.5,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 17.88,
+          "end_s": 19.37,
+          "need_score": 0.0156465894426357,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "moment_level_authoring",
+          "priority_score": 3.347209300081378,
+          "window": "13.6-15.5s",
+          "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+        },
+        {
+          "case_id": "scene_layout_replay",
+          "priority_score": 0.506424502407856,
+          "window": "13.6-15.5s",
+          "why": "Audio drops scene/spatial cortex most; route to layout cue, keyframe, or replay surface."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 13.559,
+          "end_s": 15.496,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.506424502407856,
+          "route": "action_state_or_agent_cue"
+        },
+        {
+          "start_s": 15.496,
+          "end_s": 19.37,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.2341497252540696,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 0.0,
+          "end_s": 3.874,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1609717264312554,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 9.685,
+          "end_s": 13.559,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1299307097075046,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 7.748,
+          "end_s": 9.685,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0696062976932908,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 3,
+      "video_id": "vLGOZvJ_v4Q_000285_000295",
+      "category": "Food & Cooking",
+      "risk_rank": 5,
+      "risk_score": 0.1174465648562957,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "low/normal AD pressure",
+      "mean_need": 0.3732172811284784,
+      "max_need": 0.710663123229123,
+      "high_need_seconds_frac": 0.1818181818181818,
+      "tribe_pressure": 0.4410749686063837,
+      "mean_speech_density": 0.8181818181818181,
+      "tier3_margin": 0.0666666666666668,
+      "tier2_vs_tier1": 0.2333333333333332,
+      "pro_ad_words": 54,
+      "pro_ad_text": "A man in a grey shirt stands at a stove, demonstrating how to cook an omelette with spaghetti and eggs in a black cast iron skillet. He stirs the mixture with a fork, moving the pan back and forth to ensure even cooking. The ingredients sizzle as he explains each step of the process.",
+      "short_text": "A man is stirring food in a cast iron skillet with a fork.",
+      "long_text": "A man is holding a frying pan with food over a stove, he pushes the fork around in it.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_03_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.4213262464582458,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 1.0,
+          "speech_density": 0.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.4680110226594542,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.3281859222609848,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.3599972082782824,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.3286553348811074,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.2698605664943646,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.2919122134192528,
+          "speech_density": 0.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.3018487274618574,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.3355928504997139,
+          "speech_density": 1.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.0,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.710663123229123,
+          "speech_density": 0.5,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.3980984724602195,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.3443262715796949,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.2808863899568087,
+          "speech_density": 0.5,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.3187207889807856,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.0,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "low_gap_skip",
+          "priority_score": 0.129611372381451,
+          "window": "0.0-3.3s scene_spatial (static_ad_ok_low_gap, peak=0.268); 3.3-6.6s scene_spatial (static_ad_ok_low_gap, peak=0.116); 13.1-16.4s scene_spatial (static_ad_ok_low_gap, peak=0.096)",
+          "why": "No high TRIBE blind spot; do not spend expensive neural/human review budget here first."
+        },
+        {
+          "case_id": "audio_language_confound_check",
+          "priority_score": 0.0577300184057697,
+          "window": "0.0-3.3s scene_spatial (static_ad_ok_low_gap, peak=0.268); 3.3-6.6s scene_spatial (static_ad_ok_low_gap, peak=0.116); 13.1-16.4s scene_spatial (static_ad_ok_low_gap, peak=0.096)",
+          "why": "Control cortex gap matches/exceeds visual gap; treat as audio/language anomaly, not visual AD need."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 3.278,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.2683647134283856,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 3.278,
+          "end_s": 6.556,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1157421344485156,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 13.112,
+          "end_s": 16.39,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0958584060805366,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 6.556,
+          "end_s": 9.834,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0795050877370453,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 9.834,
+          "end_s": 13.112,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0742864580567665,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 19,
+      "video_id": "qIWQHyOIpEY_000003_000013",
+      "category": "Pets & Animals",
+      "risk_rank": 6,
+      "risk_score": 0.1171860557291687,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "low/normal AD pressure",
+      "mean_need": 0.333624183997777,
+      "max_need": 0.5766175841764636,
+      "high_need_seconds_frac": 0.4285714285714285,
+      "tribe_pressure": 0.4289453794257133,
+      "mean_speech_density": 0.5714285714285714,
+      "tier3_margin": 0.3928571428571428,
+      "tier2_vs_tier1": 0.3452380952380952,
+      "pro_ad_words": 52,
+      "pro_ad_text": "In a dimly lit living room, three cats are on a hardwood floor. An orange cat stands over a black and white cat that is lying down, gently swatting at it. Another cat, partially visible, sits nearby. The room is quiet, with soft murmurs in a non-English language in the background.",
+      "short_text": "One cat is lying on the ground as another looks around.",
+      "long_text": "A man is conversating with a woman, while three cats are relaxing on a hardwood floor, and someone massages one of the cats' head.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_19_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.1532351683529271,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 1.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.7957909279883681,
+          "speech_density": 0.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.1731338408165699,
+          "speech_density": 0.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.5812354402199604,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.3042961005845754,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.346928783629597,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.328827945438814,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.3156103575346423,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.2380986480471122,
+          "speech_density": 0.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.1914531802124999,
+          "speech_density": 0.0
+        },
+        {
+          "t": 11.0,
+          "start_s": 16.39,
+          "end_s": 17.88,
+          "need_score": 0.1669173005056538,
+          "speech_density": 0.0
+        },
+        {
+          "t": 12.0,
+          "start_s": 17.88,
+          "end_s": 19.37,
+          "need_score": 0.0752108826381587,
+          "speech_density": 0.0
+        },
+        {
+          "t": 13.0,
+          "start_s": 19.37,
+          "end_s": 20.86,
+          "need_score": 0.0,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.5766175841764636,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.484462384402469,
+          "speech_density": 0.0,
+          "recommendation": "standard_ad_slot"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.4427657704022679,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.3378783645342055,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.2768545027908772,
+          "speech_density": 0.5,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 17.88,
+          "need_score": 0.1791852403590768,
+          "speech_density": 0.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 17.88,
+          "end_s": 20.86,
+          "need_score": 0.0376054413190793,
+          "speech_density": 0.5,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "agent_action_cue",
+          "priority_score": 0.8348220035707599,
+          "window": "0.0-4.2s",
+          "why": "Audio drops face/body/motion/object cortex most; route to action-state or agent cue."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 4.172,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.8348220035707599,
+          "route": "action_state_or_agent_cue"
+        },
+        {
+          "start_s": 4.172,
+          "end_s": 6.257999999999999,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.7612392421689049,
+          "route": "action_state_or_agent_cue"
+        },
+        {
+          "start_s": 6.257999999999999,
+          "end_s": 10.43,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.2314670706681539,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 16.688,
+          "end_s": 18.773999999999997,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1597783991894248,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 18.773999999999997,
+          "end_s": 20.86,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1482416897813429,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 14,
+      "video_id": "UDD6YcChywc_000000_000010",
+      "category": "Sports",
+      "risk_rank": 7,
+      "risk_score": 0.0644179718060927,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "extended/integrated AD likely needed",
+      "mean_need": 0.4003728105074168,
+      "max_need": 0.5376238514689752,
+      "high_need_seconds_frac": 0.7272727272727273,
+      "tribe_pressure": 0.6915530363309926,
+      "mean_speech_density": 0.9090909090909092,
+      "tier3_margin": 0.2999999999999999,
+      "tier2_vs_tier1": 0.15,
+      "pro_ad_words": 46,
+      "pro_ad_text": "In an indoor curling rink, a man skillfully slides a curling stone down the ice. As he releases the stone, he loses his balance and falls onto the ice. A small group of onlookers reacts with laughter and concern, checking to see if he is okay.",
+      "short_text": "A man walks on the ice pushing a curling block and then falls down.",
+      "long_text": "A man is playing the sport curling, is pushing the object across the ice, the slips and falls, whilst other people stand around and clap and react.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_14_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.5706274074085339,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.4067419944107499,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.6770656496753349,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.2663669070080312,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.3742044163353665,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.5943733807114715,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.0088425350514767,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.2588131872051385,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.3666500130709307,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.7085976898670197,
+          "speech_density": 0.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.171817734837532,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.4886847009096419,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.471716278341683,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.484288898523419,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.1338278611283076,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.5376238514689752,
+          "speech_density": 0.5,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.171817734837532,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "scene_layout_replay",
+          "priority_score": 0.7942351352448929,
+          "window": "13.1-16.4s",
+          "why": "Audio drops scene/spatial cortex most; route to layout cue, keyframe, or replay surface."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 13.112,
+          "end_s": 16.39,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.7942351352448929,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 0.0,
+          "end_s": 3.278,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.5871455401315429,
+          "route": "action_state_or_agent_cue"
+        },
+        {
+          "start_s": 6.556,
+          "end_s": 9.834,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.357049751467881,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 9.834,
+          "end_s": 13.112,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.3493331822732451,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 3.278,
+          "end_s": 6.556,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.2390756740244316,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 17,
+      "video_id": "gjoZic4WjiQ_000012_000022",
+      "category": "Pets & Animals",
+      "risk_rank": 8,
+      "risk_score": 0.045903849237172,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "extended/integrated AD likely needed",
+      "mean_need": 0.5719618255815417,
+      "max_need": 0.989735822398962,
+      "high_need_seconds_frac": 0.7692307692307692,
+      "tribe_pressure": 1.011932460644266,
+      "mean_speech_density": 0.9230769230769232,
+      "tier3_margin": 0.7366071428571429,
+      "tier2_vs_tier1": 0.0669642857142857,
+      "pro_ad_words": 60,
+      "pro_ad_text": "In a snowy playground, a girl in a red hat runs up a steep, snow-covered hill between two blue slides. She slips halfway and slides back down, laughing. Another girl, wearing a knitted hat, eagerly takes her turn, attempting to climb the same hill. The scene is filled with laughter and playful attempts as they enjoy the snowy challenge.",
+      "short_text": "A couple of girls are trying to climb up a snowy hill.",
+      "long_text": "A girl tries to run up a steep icy slope, gets half way, slips and slides all the way down, then a second girlstarts her attempt.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_17_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.3276032346781409,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.3081119611081352,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.541273120731725,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.4758404413069783,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.5596482337505833,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.5967500400832361,
+          "speech_density": 0.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.8358490312777556,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.7692274521491999,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.979471644797924,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 1.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.6221402016879836,
+          "speech_density": 1.0
+        },
+        {
+          "t": 11.0,
+          "start_s": 16.39,
+          "end_s": 17.88,
+          "need_score": 0.4195883709883819,
+          "speech_density": 1.0
+        },
+        {
+          "t": 12.0,
+          "start_s": 17.88,
+          "end_s": 19.37,
+          "need_score": 0.0,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.317857597893138,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.5085567810193516,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.5781991369169097,
+          "speech_density": 0.5,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.8025382417134777,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.989735822398962,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 17.88,
+          "need_score": 0.5208642863381827,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 17.88,
+          "end_s": 19.37,
+          "need_score": 0.0,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "scene_layout_replay",
+          "priority_score": 0.5095078630694087,
+          "window": "0.0-3.5s",
+          "why": "Audio drops scene/spatial cortex most; route to layout cue, keyframe, or replay surface."
+        },
+        {
+          "case_id": "audio_language_confound_check",
+          "priority_score": 0.0080474663558031,
+          "window": "0.0-3.5s scene_spatial (layout_replay_or_scene_cue, peak=0.510); 3.5-7.0s scene_spatial (static_ad_ok_low_gap, peak=0.252); 7.0-10.6s scene_spatial (static_ad_ok_low_gap, peak=0.172)",
+          "why": "Control cortex gap matches/exceeds visual gap; treat as audio/language anomaly, not visual AD need."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 3.521818181818182,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.5095078630694087,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 3.521818181818182,
+          "end_s": 7.043636363636364,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.2518434537820547,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 7.043636363636364,
+          "end_s": 10.565454545454546,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1722282457415672,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 15.84818181818182,
+          "end_s": 19.37,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.1425132740319713,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 12.326363636363636,
+          "end_s": 15.84818181818182,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0839722098242004,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 5,
+      "video_id": "PbGvLf7HvXQ_000063_000073",
+      "category": "Food & Cooking",
+      "risk_rank": 9,
+      "risk_score": 0.0,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "extended/integrated AD likely needed",
+      "mean_need": 0.6596447063981404,
+      "max_need": 0.8559741095030897,
+      "high_need_seconds_frac": 0.9090909090909092,
+      "tribe_pressure": 1.2593217122146318,
+      "mean_speech_density": 1.0,
+      "tier3_margin": 0.1339285714285714,
+      "tier2_vs_tier1": 0.5317460317460319,
+      "pro_ad_words": 60,
+      "pro_ad_text": "In a kitchen setting, two individuals demonstrate how to prepare a spinach salad. One person drops chopped garlic from a knife into a large wooden bowl filled with fresh spinach leaves. The other person uses their hands to thoroughly mix the garlic and spinach together. The video focuses on the process of combining these ingredients to create a healthy salad.",
+      "short_text": "A woman is explaining how to mix spinach in a bowl",
+      "long_text": "A person drops chopped garlic from a knife into a wooden bowl, on top of spinach, and another person starts mixing the garlic and spinach leaves with their hands.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_05_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.5139107610260374,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.819962739944458,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.7139585517673207,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.5250862656311253,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.6689049015570203,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.8431127296131642,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.9462952255395082,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.7656529934666712,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.8249419904802062,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.6342656113540326,
+          "speech_density": 1.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.0,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.6669367504852477,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.619522408699223,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.7560088155850923,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.8559741095030897,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.7296038009171194,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.0,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "moment_level_authoring",
+          "priority_score": 3.9124128892748224,
+          "window": "0.0-4.5s",
+          "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+        },
+        {
+          "case_id": "scene_layout_replay",
+          "priority_score": 0.6033110038429528,
+          "window": "0.0-4.5s",
+          "why": "Audio drops scene/spatial cortex most; route to layout cue, keyframe, or replay surface."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 4.47,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.6033110038429528,
+          "route": "action_state_or_agent_cue"
+        },
+        {
+          "start_s": 10.43,
+          "end_s": 13.41,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1513160241525211,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 7.45,
+          "end_s": 10.43,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1275162489620088,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 13.41,
+          "end_s": 16.39,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.126975265796412,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 4.47,
+          "end_s": 7.45,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0799804016421859,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 8,
+      "video_id": "hOirknJr3os_000001_000011",
+      "category": "Travel",
+      "risk_rank": 10,
+      "risk_score": 0.0,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "low/normal AD pressure",
+      "mean_need": 0.3789945682630365,
+      "max_need": 0.7014957045919514,
+      "high_need_seconds_frac": 0.3636363636363636,
+      "tribe_pressure": 0.5168107749041408,
+      "mean_speech_density": 1.0,
+      "tier3_margin": 0.28125,
+      "tier2_vs_tier1": 0.3645833333333334,
+      "pro_ad_words": 56,
+      "pro_ad_text": "The video begins with a sign for KOA Ranch, featuring a silhouette of a horse. Horses graze peacefully in a sunlit pasture. The scene shifts to a group of people riding horses along a wooded trail, accompanied by a song about camping. This advertisement highlights the scenic beauty and horse riding experiences offered at KOA campgrounds.",
+      "short_text": "A group of people are riding horses through the woods.",
+      "long_text": "A horse ranch sign is shown, then horses grazing, and after this people riding horses through woods are seen as music plays.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_08_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.402799297765761,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 1.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.8719750006173183,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.5310164085665847,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.3369314459541903,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.2175128797408002,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.1290556646424521,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.2067015202756129,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.0373284821588814,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.368192973961374,
+          "speech_density": 1.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.0674265772104263,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.7013996488828805,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.7014957045919514,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.2772221628474953,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.1678785924590325,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.2027607280601277,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.0674265772104263,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "low_gap_skip",
+          "priority_score": 0.0537410616492711,
+          "window": "0.0-3.3s agent_action (action_state_or_agent_cue, peak=0.344); 3.3-6.6s agent_action (static_ad_ok_low_gap, peak=0.303); 6.6-9.8s scene_spatial (static_ad_ok_low_gap, peak=0.144)",
+          "why": "No high TRIBE blind spot; do not spend expensive neural/human review budget here first."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 3.278,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.3442350241605655,
+          "route": "action_state_or_agent_cue"
+        },
+        {
+          "start_s": 3.278,
+          "end_s": 6.556,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.3030011007389126,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 6.556,
+          "end_s": 9.834,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1438491877812283,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 13.112,
+          "end_s": 16.39,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1033196383226779,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 9.834,
+          "end_s": 13.112,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0547724815629272,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 1,
+      "video_id": "058y9xGmmTQ_000206_000216",
+      "category": "Food & Cooking",
+      "risk_rank": 11,
+      "risk_score": 0.0,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "low/normal AD pressure",
+      "mean_need": 0.3472245020802409,
+      "max_need": 0.8527670466409736,
+      "high_need_seconds_frac": 0.3636363636363636,
+      "tribe_pressure": 0.4734879573821467,
+      "mean_speech_density": 1.0,
+      "tier3_margin": 0.4361111111111111,
+      "tier2_vs_tier1": 0.4611111111111112,
+      "pro_ad_words": 62,
+      "pro_ad_text": "In a Burger King restaurant, a bald man in a gray hoodie is rapidly eating a hamburger. He takes quick bites and washes them down with a drink. As he continues, he appears to struggle slightly, coughing at times. Around him, people are laughing and clapping, encouraging him to finish. Afterward, someone uses ketchup to write 'BURGER EATING' on a tray liner.",
+      "short_text": "A  man eats a lot of burgers and than starts to get sick.",
+      "long_text": "A man is at Burger King, eating a hamburger very fast, and going to take a drink of soda.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_01_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.705534093281947,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 1.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.6435210362969187,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.4035625817945594,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.2025754639416623,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.1711662877610003,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.0025638592507408,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.071979209780693,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.1399740791235503,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.3376274428800605,
+          "speech_density": 1.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.1409654687715176,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.8527670466409736,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.5235418090457391,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.1868708758513313,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.0372715345157169,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.2388007610018054,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.1409654687715176,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [
+        {
+          "roi": "auditory_control",
+          "cos_gap": 0.0045844316482543,
+          "residual_norm": 2.3697714805603027,
+          "n_vertices": 590
+        },
+        {
+          "roi": "body_eba_region",
+          "cos_gap": 0.0447459816932678,
+          "residual_norm": 1.7164185047149658,
+          "n_vertices": 242
+        },
+        {
+          "roi": "early_visual_v1",
+          "cos_gap": 0.1400215625762939,
+          "residual_norm": 2.364074468612671,
+          "n_vertices": 523
+        },
+        {
+          "roi": "face_ffc",
+          "cos_gap": 0.0122190117835998,
+          "residual_norm": 1.8395878076553345,
+          "n_vertices": 264
+        },
+        {
+          "roi": "higher_visual_v2v3v4",
+          "cos_gap": 0.0380446314811706,
+          "residual_norm": 2.980053663253784,
+          "n_vertices": 805
+        },
+        {
+          "roi": "language_control",
+          "cos_gap": 0.0222635269165039,
+          "residual_norm": 1.986439824104309,
+          "n_vertices": 785
+        },
+        {
+          "roi": "lateral_object_loc",
+          "cos_gap": 0.028900146484375,
+          "residual_norm": 1.0084095001220703,
+          "n_vertices": 111
+        },
+        {
+          "roi": "motion_mt_complex",
+          "cos_gap": 0.0214101672172546,
+          "residual_norm": 1.6466064453125,
+          "n_vertices": 212
+        },
+        {
+          "roi": "retrosplenial_pos",
+          "cos_gap": 0.7721070945262909,
+          "residual_norm": 2.6185572147369385,
+          "n_vertices": 594
+        },
+        {
+          "roi": "scene_ppa",
+          "cos_gap": 0.5215581059455872,
+          "residual_norm": 1.610684156417847,
+          "n_vertices": 194
+        }
+      ],
+      "blind_spot_cases": [
+        {
+          "case_id": "scene_layout_replay",
+          "priority_score": 0.6487414267941953,
+          "window": "0.0-4.5s",
+          "why": "Audio drops scene/spatial cortex most; route to layout cue, keyframe, or replay surface."
+        },
+        {
+          "case_id": "dynamic_type_shift",
+          "priority_score": 0.5083513749839579,
+          "window": "0.0-4.5s scene_spatial (layout_replay_or_scene_cue, peak=0.649); 4.5-7.5s scene_spatial (layout_replay_or_scene_cue, peak=0.327); 13.4-16.4s agent_action (static_ad_ok_low_gap, peak=0.186)",
+          "why": "Scene/spatial and agent/action losses peak at different moments; one global AD prompt is under-specified."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 4.47,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.6487414267941953,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 4.47,
+          "end_s": 7.45,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.3270627613243558,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 13.41,
+          "end_s": 16.39,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.186325568199499,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 7.45,
+          "end_s": 10.43,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1420804672760082,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 10.43,
+          "end_s": 13.41,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.0353888659542735,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 6,
+      "video_id": "0HEi6q3bGaw_000011_000021",
+      "category": "Travel",
+      "risk_rank": 12,
+      "risk_score": 0.0,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "extended/integrated AD likely needed",
+      "mean_need": 0.3976061903273661,
+      "max_need": 0.7646262287500899,
+      "high_need_seconds_frac": 0.5,
+      "tribe_pressure": 0.5964092854910492,
+      "mean_speech_density": 1.0,
+      "tier3_margin": 0.432142857142857,
+      "tier2_vs_tier1": 0.1571428571428572,
+      "pro_ad_words": 40,
+      "pro_ad_text": "In a snowy landscape, two people on snowmobiles pause to converse. One rider, wearing a helmet, gestures while speaking. After a brief exchange, they both rev their engines and ride off across the snow-covered terrain, leaving tracks behind them.",
+      "short_text": "a guy is getting off of snow mobile and gets on and rides off.",
+      "long_text": "A person stops on a snowmobile while another person on a snowmobile speaks, then they both start again.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_06_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 1.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.5292524575001798,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.3114415375942319,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.2068240678050124,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.0891156689039086,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.1822380321516698,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.3238028881977941,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.3735362180569329,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.6269197135508617,
+          "speech_density": 1.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.5820557569769802,
+          "speech_density": 1.0
+        },
+        {
+          "t": 11.0,
+          "start_s": 16.39,
+          "end_s": 17.88,
+          "need_score": 0.5460879431908222,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.7646262287500899,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.2591328026996221,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.0445578344519543,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.2530204601747319,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.5002279658038973,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 17.88,
+          "need_score": 0.5640718500839013,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "moment_level_authoring",
+          "priority_score": 4.491110622917129,
+          "window": "16.3-17.9s",
+          "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+        },
+        {
+          "case_id": "dynamic_type_shift",
+          "priority_score": 0.95057106557343,
+          "window": "16.3-17.9s agent_action (action_state_or_agent_cue, peak=0.828); 0.0-3.3s scene_spatial (layout_replay_or_scene_cue, peak=0.358); 3.3-6.5s scene_spatial (static_ad_ok_low_gap, peak=0.146)",
+          "why": "Scene/spatial and agent/action losses peak at different moments; one global AD prompt is under-specified."
+        },
+        {
+          "case_id": "agent_action_cue",
+          "priority_score": 0.8281975921840942,
+          "window": "16.3-17.9s",
+          "why": "Audio drops face/body/motion/object cortex most; route to action-state or agent cue."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 16.254545454545454,
+          "end_s": 17.88,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.8281975921840942,
+          "route": "action_state_or_agent_cue"
+        },
+        {
+          "start_s": 0.0,
+          "end_s": 3.2509090909090905,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.3581421093155853,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 3.2509090909090905,
+          "end_s": 6.501818181818181,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1459730897817038,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 13.003636363636362,
+          "end_s": 16.254545454545454,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1050702027799866,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 6.501818181818181,
+          "end_s": 9.752727272727272,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0722212562332292,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 13,
+      "video_id": "KFcH6BYZWhc_000011_000021",
+      "category": "Sports",
+      "risk_rank": 13,
+      "risk_score": 0.0,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "low/normal AD pressure",
+      "mean_need": 0.3757655783862,
+      "max_need": 0.6344394468570758,
+      "high_need_seconds_frac": 0.4,
+      "tribe_pressure": 0.52607180974068,
+      "mean_speech_density": 1.0,
+      "tier3_margin": 0.2218253968253968,
+      "tier2_vs_tier1": 0.2603174603174604,
+      "pro_ad_words": 67,
+      "pro_ad_text": "In an indoor ice rink, a group of young hockey players practice their skills. One player skates swiftly across the ice, controlling the puck with precision. Nearby, other players engage in drills, passing the puck back and forth. The scene is lively, with players focused on improving their techniques and aiming to score goals. The rink is bustling with activity as the team hones their hockey abilities.",
+      "short_text": "A group of hockey players practices their skills on a hockey rink.",
+      "long_text": "A group of hockey players are on the rink at mid court while another hockey player is skating around with the puck and attempts to score a goal.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_13_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.2688788937141516,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 1.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.2221505401512213,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.2228905698978799,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.3256302835954664,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.4065572841752899,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.6421787271919874,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.3903324715311467,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.2790370136048571,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.6344394468570758,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.2225205550245506,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.1628151417977332,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.5243680056836387,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.3346847425680019,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "low_gap_skip",
+          "priority_score": 0.2306629167217462,
+          "window": "0.0-4.5s scene_spatial (static_ad_ok_low_gap, peak=0.167); 13.4-14.9s scene_spatial (static_ad_ok_low_gap, peak=0.074); 4.5-7.5s scene_spatial (static_ad_ok_low_gap, peak=0.066)",
+          "why": "No high TRIBE blind spot; do not spend expensive neural/human review budget here first."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 4.47,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1673131690880904,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0735795972222549,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 4.47,
+          "end_s": 7.45,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0657043461616725,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 10.43,
+          "end_s": 13.41,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0643657840177962,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 7.45,
+          "end_s": 10.43,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0427904904855308,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 7,
+      "video_id": "09dQut5GJ68_000049_000059",
+      "category": "Travel",
+      "risk_rank": 14,
+      "risk_score": 0.0,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "extended/integrated AD likely needed",
+      "mean_need": 0.3871231532659878,
+      "max_need": 0.939134955406189,
+      "high_need_seconds_frac": 0.4545454545454546,
+      "tribe_pressure": 0.5630882229323458,
+      "mean_speech_density": 1.0,
+      "tier3_margin": 0.3541666666666667,
+      "tier2_vs_tier1": 0.0416666666666666,
+      "pro_ad_words": 41,
+      "pro_ad_text": "In a snowy landscape, a man rides a motorcycle, pulling a blue sled behind him. The sled glides over the snow, connected by a wire. The scene captures the thrill of the ride as the motorcycle moves through the wintry terrain.",
+      "short_text": "A man on a motorcycle pulls a sleigh in the snow.",
+      "long_text": "A man on a motorbike is pulling a sled through snow and ice before they grind to a halt.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_07_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.2114766377463004,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.0966769560370413,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.053207380337731,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.1409196779495622,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.2351879092200736,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.3891157887276891,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.707111044409183,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.8775894739097216,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.6079348621823744,
+          "speech_density": 1.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.939134955406189,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.1540767968916709,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.0266036901688655,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.1880537935848179,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.548113416568436,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.742762168046048,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.939134955406189,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "moment_level_authoring",
+          "priority_score": 4.92126428930703,
+          "window": "10.4-13.4s",
+          "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+        },
+        {
+          "case_id": "scene_layout_replay",
+          "priority_score": 1.1627042797837404,
+          "window": "10.4-13.4s",
+          "why": "Audio drops scene/spatial cortex most; route to layout cue, keyframe, or replay surface."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 10.43,
+          "end_s": 13.41,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 1.1627042797837404,
+          "route": "action_state_or_agent_cue"
+        },
+        {
+          "start_s": 0.0,
+          "end_s": 4.47,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.3231296438928972,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 13.41,
+          "end_s": 16.39,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.251041426464363,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 7.45,
+          "end_s": 10.43,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1157157043726568,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 4.47,
+          "end_s": 7.45,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0989069955489782,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 9,
+      "video_id": "TF4q9y0rJoc_000000_000010",
+      "category": "Sports",
+      "risk_rank": 15,
+      "risk_score": 0.0,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "extended/integrated AD likely needed",
+      "mean_need": 0.5830793296168879,
+      "max_need": 0.7650085708250683,
+      "high_need_seconds_frac": 0.9090909090909092,
+      "tribe_pressure": 1.1131514474504225,
+      "mean_speech_density": 1.0,
+      "tier3_margin": 0.0999999999999999,
+      "tier2_vs_tier1": 0.2428571428571428,
+      "pro_ad_words": 35,
+      "pro_ad_text": "At night, a skier navigates a snowy hill, weaving between flexible poles in a slalom course. The skier moves swiftly, alternating left and right, purposefully making contact with each pole as they descend the slope.",
+      "short_text": "A man is skiing between poles on a snowy hill.",
+      "long_text": "Someone is skiing at night around several poles in an alternating left then right pattern.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_09_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.804035484790802,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.7259816568593347,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.6779723016362953,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.6508873280730929,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.696764298413125,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.5327849798912714,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.6622218499997221,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.5875407249978521,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.651917298294781,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.4237667028294898,
+          "speech_density": 1.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.0,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.7650085708250683,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.6644298148546941,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.6147746391521982,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.6248812874987871,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.5378420005621354,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.0,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "scene_layout_replay",
+          "priority_score": 0.4698317760159151,
+          "window": "0.0-4.5s",
+          "why": "Audio drops scene/spatial cortex most; route to layout cue, keyframe, or replay surface."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 4.47,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.4698317760159151,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 4.47,
+          "end_s": 7.45,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.2011778133889706,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 10.43,
+          "end_s": 13.41,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1986600616912311,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 13.41,
+          "end_s": 16.39,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1831248585885077,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 7.45,
+          "end_s": 10.43,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1697106720990882,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 0,
+      "video_id": "Q76JRCyTnSc_000007_000017",
+      "category": "Food & Cooking",
+      "risk_rank": 16,
+      "risk_score": 0.0,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "extended/integrated AD likely needed",
+      "mean_need": 0.3883963677748515,
+      "max_need": 0.5841811642054016,
+      "high_need_seconds_frac": 0.6000000000000001,
+      "tribe_pressure": 0.6214341884397624,
+      "mean_speech_density": 1.0,
+      "tier3_margin": 0.1845238095238096,
+      "tier2_vs_tier1": 0.0773809523809523,
+      "pro_ad_words": 40,
+      "pro_ad_text": "In a bustling kitchen, a chef holds a cherry tomato and counts down in Spanish. With precision, he throws the tomato at a wall, followed by a knife, which pins the tomato in place. The chef smiles, showcasing his skill.",
+      "short_text": "A chef in a kitchen demonstrates his skill throwing a knife",
+      "long_text": "The man holding the camera is counting backward in spanish as the other man pins a cherry tomato to the wall by throwing a knife.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_00_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.649717777967453,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.2943525460171535,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.3070158304024054,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.0482621021722987,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.1966745367705252,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.3219621643956569,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.606946941653911,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.5614153867568921,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.7806661031972639,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.1169502884149551,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.4720351619923033,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.1776389662873521,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.2593183505830911,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.5841811642054016,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.4488081958061095,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        }
+      ],
+      "per_roi": [
+        {
+          "roi": "auditory_control",
+          "cos_gap": 0.0280892848968505,
+          "residual_norm": 1.5076749324798584,
+          "n_vertices": 590
+        },
+        {
+          "roi": "body_eba_region",
+          "cos_gap": 0.0254376530647277,
+          "residual_norm": 1.4079135656356812,
+          "n_vertices": 242
+        },
+        {
+          "roi": "early_visual_v1",
+          "cos_gap": 0.2486673593521118,
+          "residual_norm": 2.6810383796691895,
+          "n_vertices": 523
+        },
+        {
+          "roi": "face_ffc",
+          "cos_gap": 0.0270543098449707,
+          "residual_norm": 1.882001280784607,
+          "n_vertices": 264
+        },
+        {
+          "roi": "higher_visual_v2v3v4",
+          "cos_gap": 0.1081682443618774,
+          "residual_norm": 3.45317006111145,
+          "n_vertices": 805
+        },
+        {
+          "roi": "language_control",
+          "cos_gap": 0.0740364789962768,
+          "residual_norm": 2.0033702850341797,
+          "n_vertices": 785
+        },
+        {
+          "roi": "lateral_object_loc",
+          "cos_gap": 0.0103862285614013,
+          "residual_norm": 1.049638032913208,
+          "n_vertices": 111
+        },
+        {
+          "roi": "motion_mt_complex",
+          "cos_gap": 0.0146387815475463,
+          "residual_norm": 1.8937532901763916,
+          "n_vertices": 212
+        },
+        {
+          "roi": "retrosplenial_pos",
+          "cos_gap": 0.9640637449920176,
+          "residual_norm": 2.5468740463256836,
+          "n_vertices": 594
+        },
+        {
+          "roi": "scene_ppa",
+          "cos_gap": 0.7933467924594879,
+          "residual_norm": 1.480965495109558,
+          "n_vertices": 194
+        }
+      ],
+      "blind_spot_cases": [
+        {
+          "case_id": "dynamic_type_shift",
+          "priority_score": 1.5082166652744775,
+          "window": "10.4-13.4s scene_spatial (layout_replay_or_scene_cue, peak=0.504); 7.5-10.4s scene_spatial (layout_replay_or_scene_cue, peak=0.385); 13.4-14.9s agent_action (static_ad_ok_low_gap, peak=0.253)",
+          "why": "Scene/spatial and agent/action losses peak at different moments; one global AD prompt is under-specified."
+        },
+        {
+          "case_id": "scene_layout_replay",
+          "priority_score": 0.5041407181798297,
+          "window": "10.4-13.4s",
+          "why": "Audio drops scene/spatial cortex most; route to layout cue, keyframe, or replay surface."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 10.43,
+          "end_s": 13.41,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.5041407181798297,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 7.45,
+          "end_s": 10.43,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.3848433252765427,
+          "route": "layout_replay_or_scene_cue"
+        },
+        {
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.2528837231678601,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 0.0,
+          "end_s": 4.47,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 0.218271141079003,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 4.47,
+          "end_s": 7.45,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.115293752339218,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 18,
+      "video_id": "q2ZBVyR1k-U_000021_000031",
+      "category": "Pets & Animals",
+      "risk_rank": 17,
+      "risk_score": 0.0,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "extended/integrated AD likely needed",
+      "mean_need": 0.5679584541079548,
+      "max_need": 0.7941592025899242,
+      "high_need_seconds_frac": 0.8181818181818181,
+      "tribe_pressure": 1.032651734741736,
+      "mean_speech_density": 1.0,
+      "tier3_margin": 0.4125,
+      "tier2_vs_tier1": 0.3375000000000001,
+      "pro_ad_words": 55,
+      "pro_ad_text": "In a wooded area, a man in a beekeeper's suit stands in the back of a truck. He removes his protective hood, revealing his face. Nearby, another man, dressed casually, sits holding a large blue canister and drinks from a cup. The scene captures a moment of rest and conversation between the two individuals.",
+      "short_text": "A person drinks water out of a cup next to a bee keeper.",
+      "long_text": "A guy is in a bee suit and another guy is seen drinking from a cup then the other guy removes the bee suits head cover.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_18_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 0.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.4243590081692809,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.6438278936327964,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.5526059877940097,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.5699160694378287,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.3774947044612518,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.5188608257771974,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.8884511590003967,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.722770946046255,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.8655474591335935,
+          "speech_density": 1.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.6837089417348918,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.2121795040846404,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.598216940713403,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.4737053869495402,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.7036559923887971,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.7941592025899242,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.6837089417348918,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "dynamic_type_shift",
+          "priority_score": 1.372827037508856,
+          "window": "13.1-16.4s scene_spatial (static_ad_ok_low_gap, peak=0.148); 6.6-9.8s scene_spatial (static_ad_ok_low_gap, peak=0.085); 3.3-6.6s scene_spatial (static_ad_ok_low_gap, peak=0.064)",
+          "why": "Scene/spatial and agent/action losses peak at different moments; one global AD prompt is under-specified."
+        },
+        {
+          "case_id": "low_gap_skip",
+          "priority_score": 0.249717694728719,
+          "window": "13.1-16.4s scene_spatial (static_ad_ok_low_gap, peak=0.148); 6.6-9.8s scene_spatial (static_ad_ok_low_gap, peak=0.085); 3.3-6.6s scene_spatial (static_ad_ok_low_gap, peak=0.064)",
+          "why": "No high TRIBE blind spot; do not spend expensive neural/human review budget here first."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 13.112,
+          "end_s": 16.39,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1482583910811176,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 6.556,
+          "end_s": 9.834,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0853603597668931,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 3.278,
+          "end_s": 6.556,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0637154069701584,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 9.834,
+          "end_s": 13.112,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0549503084998364,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 0.0,
+          "end_s": 3.278,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0474580774909905,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    },
+    {
+      "clip_idx": 16,
+      "video_id": "kOf-vl-GmVI_000115_000125",
+      "category": "Pets & Animals",
+      "risk_rank": 18,
+      "risk_score": 0.0,
+      "target": 0,
+      "quality_risk": "clean",
+      "tribe_route": "low/normal AD pressure",
+      "mean_need": 0.2185619742134476,
+      "max_need": 0.644815716432821,
+      "high_need_seconds_frac": 0.1818181818181818,
+      "tribe_pressure": 0.258300514979529,
+      "mean_speech_density": 1.0,
+      "tier3_margin": 0.5468253968253969,
+      "tier2_vs_tier1": 0.2948412698412699,
+      "pro_ad_words": 43,
+      "pro_ad_text": "In a fenced paddock, a woman in a pink cap and casual attire rides a horse. She gently pats the horse's head, guiding it around the corral. The setting is outdoors, near a stable, with the evening light casting a soft glow.",
+      "short_text": "A woman slowly rides on a horse as pop music plays.",
+      "long_text": "A girl is riding a horse in a paddock, and pauses to pat the sideof the horse's head.",
+      "brain_map_url": "../output/charts/tribe_clip_brains/clip_16_tribe_gap.png",
+      "need_curve": [
+        {
+          "t": 0.0,
+          "start_s": 0.0,
+          "end_s": 1.49,
+          "need_score": 1.0,
+          "speech_density": 1.0
+        },
+        {
+          "t": 1.0,
+          "start_s": 1.49,
+          "end_s": 2.98,
+          "need_score": 0.2896314328656421,
+          "speech_density": 1.0
+        },
+        {
+          "t": 2.0,
+          "start_s": 2.98,
+          "end_s": 4.47,
+          "need_score": 0.1432366054063036,
+          "speech_density": 1.0
+        },
+        {
+          "t": 3.0,
+          "start_s": 4.47,
+          "end_s": 5.96,
+          "need_score": 0.1242459358506343,
+          "speech_density": 1.0
+        },
+        {
+          "t": 4.0,
+          "start_s": 5.96,
+          "end_s": 7.45,
+          "need_score": 0.010033874772489,
+          "speech_density": 1.0
+        },
+        {
+          "t": 5.0,
+          "start_s": 7.45,
+          "end_s": 8.94,
+          "need_score": 0.0226928291480062,
+          "speech_density": 1.0
+        },
+        {
+          "t": 6.0,
+          "start_s": 8.94,
+          "end_s": 10.43,
+          "need_score": 0.2605584188067764,
+          "speech_density": 1.0
+        },
+        {
+          "t": 7.0,
+          "start_s": 10.43,
+          "end_s": 11.92,
+          "need_score": 0.0716659427133077,
+          "speech_density": 1.0
+        },
+        {
+          "t": 8.0,
+          "start_s": 11.92,
+          "end_s": 13.41,
+          "need_score": 0.1256157742475955,
+          "speech_density": 1.0
+        },
+        {
+          "t": 9.0,
+          "start_s": 13.41,
+          "end_s": 14.9,
+          "need_score": 0.3011654938591169,
+          "speech_density": 1.0
+        },
+        {
+          "t": 10.0,
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.055335408678053,
+          "speech_density": 1.0
+        }
+      ],
+      "coarse_windows": [
+        {
+          "start_s": 0.0,
+          "end_s": 2.98,
+          "need_score": 0.644815716432821,
+          "speech_density": 1.0,
+          "recommendation": "extended_or_integrated_ad"
+        },
+        {
+          "start_s": 2.98,
+          "end_s": 5.96,
+          "need_score": 0.1337412706284689,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 5.96,
+          "end_s": 8.94,
+          "need_score": 0.0163633519602476,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 8.94,
+          "end_s": 11.92,
+          "need_score": 0.166112180760042,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 11.92,
+          "end_s": 14.9,
+          "need_score": 0.2133906340533562,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        },
+        {
+          "start_s": 14.9,
+          "end_s": 16.39,
+          "need_score": 0.055335408678053,
+          "speech_density": 1.0,
+          "recommendation": "low_ad_need"
+        }
+      ],
+      "per_roi": [],
+      "blind_spot_cases": [
+        {
+          "case_id": "moment_level_authoring",
+          "priority_score": 5.3599434913284565,
+          "window": "13.4-16.4s",
+          "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+        },
+        {
+          "case_id": "agent_action_cue",
+          "priority_score": 1.078827954293111,
+          "window": "13.4-16.4s",
+          "why": "Audio drops face/body/motion/object cortex most; route to action-state or agent cue."
+        }
+      ],
+      "blind_spot_windows": [
+        {
+          "start_s": 13.41,
+          "end_s": 16.39,
+          "dominant_type": "agent_action",
+          "peak_visual_gap": 1.078827954293111,
+          "route": "action_state_or_agent_cue"
+        },
+        {
+          "start_s": 10.43,
+          "end_s": 13.41,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.2563155578381926,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 7.45,
+          "end_s": 10.43,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1755853845456884,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 0.0,
+          "end_s": 4.47,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.1416539368110432,
+          "route": "static_ad_ok_low_gap"
+        },
+        {
+          "start_s": 4.47,
+          "end_s": 7.45,
+          "dominant_type": "scene_spatial",
+          "peak_visual_gap": 0.0620152226229906,
+          "route": "static_ad_ok_low_gap"
+        }
+      ]
+    }
+  ],
+  "correlations": [
+    {
+      "tribe_feature": "mean_standard_slot_score",
+      "outcome": "all4_mean_full_order",
+      "spearman_rho": -0.7505278054885973,
+      "p": 0.0003327215946383,
+      "n": 18
+    },
+    {
+      "tribe_feature": "mean_speech_density",
+      "outcome": "all4_mean_full_order",
+      "spearman_rho": 0.5192815838182321,
+      "p": 0.0272123858452997,
+      "n": 18
+    },
+    {
+      "tribe_feature": "mean_extended_need_score",
+      "outcome": "claude_vlm_specificity_norm_tier3_margin",
+      "spearman_rho": -0.4777673093530568,
+      "p": 0.0449351318789034,
+      "n": 18
+    },
+    {
+      "tribe_feature": "mean_speech_density",
+      "outcome": "claude_vlm_specificity_norm_tier3_margin",
+      "spearman_rho": -0.4677411025059975,
+      "p": 0.0502985233383275,
+      "n": 18
+    },
+    {
+      "tribe_feature": "mean_extended_need_score",
+      "outcome": "claude_vlm_completeness_norm_tier3_margin",
+      "spearman_rho": -0.4578816872567302,
+      "p": 0.056031059493514,
+      "n": 18
+    },
+    {
+      "tribe_feature": "mean_standard_slot_score",
+      "outcome": "claude_vlm_specificity_norm_tier3_margin",
+      "spearman_rho": 0.4268705207336288,
+      "p": 0.0772760588228642,
+      "n": 18
+    },
+    {
+      "tribe_feature": "mean_speech_density",
+      "outcome": "claude_vlm_completeness_norm_tier3_margin",
+      "spearman_rho": -0.3160156654774052,
+      "p": 0.201414855986181,
+      "n": 18
+    },
+    {
+      "tribe_feature": "mean_need",
+      "outcome": "all4_mean_full_order",
+      "spearman_rho": -0.3142413851140314,
+      "p": 0.2040957649155289,
+      "n": 18
+    }
+  ],
+  "headline_correlation": {
+    "feature": "mean_standard_slot_score",
+    "outcome": "all4_mean_full_order",
+    "rho": -0.7505278054885973,
+    "p": 0.0003327215946383,
+    "n": 18
+  },
+  "blind_spot_router": {
+    "case_counts": {
+      "agent_action_cue": 15,
+      "audio_language_confound_check": 15,
+      "dynamic_type_shift": 20,
+      "low_gap_skip": 26,
+      "moment_level_authoring": 20,
+      "scene_layout_replay": 37
+    },
+    "route_counts": {
+      "layout_replay_or_scene_cue": 78,
+      "static_ad_ok_low_gap": 218,
+      "action_state_or_agent_cue": 38
+    },
+    "top_cases": [
+      {
+        "corpus": "external",
+        "video_id": "iGmGQxox43I_000000_000010",
+        "category": "How-to & Instructional",
+        "case_id": "moment_level_authoring",
+        "priority_score": 5.964753580129161,
+        "window": "0.0-3.6s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "inbench",
+        "video_id": "kOf-vl-GmVI_000115_000125",
+        "category": "Pets & Animals",
+        "case_id": "moment_level_authoring",
+        "priority_score": 5.3599434913284565,
+        "window": "13.4-16.4s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "external",
+        "video_id": "9fuIpQgnNEQ_000049_000059",
+        "category": "Event",
+        "case_id": "moment_level_authoring",
+        "priority_score": 5.249909737773455,
+        "window": "0.0-3.6s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "inbench",
+        "video_id": "09dQut5GJ68_000049_000059",
+        "category": "Travel",
+        "case_id": "moment_level_authoring",
+        "priority_score": 4.92126428930703,
+        "window": "10.4-13.4s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "external",
+        "video_id": "S-C86j0keqc_000217_000227",
+        "category": "Event",
+        "case_id": "moment_level_authoring",
+        "priority_score": 4.668160517398154,
+        "window": "6.4-9.1s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "inbench",
+        "video_id": "0HEi6q3bGaw_000011_000021",
+        "category": "Travel",
+        "case_id": "moment_level_authoring",
+        "priority_score": 4.491110622917129,
+        "window": "16.3-17.9s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "external",
+        "video_id": "dlBeUWrse3I_000019_000029",
+        "category": "How-to & Instructional",
+        "case_id": "moment_level_authoring",
+        "priority_score": 4.246835801555369,
+        "window": "0.0-3.0s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "external",
+        "video_id": "iEAWgsSvJAE_000023_000033",
+        "category": "Film & Animation",
+        "case_id": "moment_level_authoring",
+        "priority_score": 4.060358103979609,
+        "window": "6.4-9.1s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "external",
+        "video_id": "F-mRnL_XmJU_000000_000010",
+        "category": "Entertainment",
+        "case_id": "moment_level_authoring",
+        "priority_score": 3.976979746909298,
+        "window": "0.0-3.0s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "external",
+        "video_id": "eb-ufaFcUas_000008_000018",
+        "category": "Entertainment",
+        "case_id": "moment_level_authoring",
+        "priority_score": 3.9288164532640506,
+        "window": "0.0-3.6s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "external",
+        "video_id": "3su234u58DA_000172_000182",
+        "category": "Entertainment",
+        "case_id": "moment_level_authoring",
+        "priority_score": 3.912597614973138,
+        "window": "9.1-10.0s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      },
+      {
+        "corpus": "inbench",
+        "video_id": "PbGvLf7HvXQ_000063_000073",
+        "category": "Food & Cooking",
+        "case_id": "moment_level_authoring",
+        "priority_score": 3.9124128892748224,
+        "window": "0.0-4.5s",
+        "why": "Gap is temporally concentrated; spend AD/review budget on the peak window."
+      }
+    ],
+    "top_windows": [
+      {
+        "corpus": "external",
+        "video_id": "v2Hr1CH-yb0_000076_000086",
+        "category": "How-to & Instructional",
+        "start_s": 9.0,
+        "end_s": 10.0,
+        "dominant_type": "agent_action",
+        "peak_visual_gap": 1.6433004227278163,
+        "route": "action_state_or_agent_cue"
+      },
+      {
+        "corpus": "external",
+        "video_id": "F-mRnL_XmJU_000000_000010",
+        "category": "Entertainment",
+        "start_s": 0.0,
+        "end_s": 3.0,
+        "dominant_type": "scene_spatial",
+        "peak_visual_gap": 1.4402525697364772,
+        "route": "layout_replay_or_scene_cue"
+      },
+      {
+        "corpus": "external",
+        "video_id": "dlBeUWrse3I_000019_000029",
+        "category": "How-to & Instructional",
+        "start_s": 0.0,
+        "end_s": 3.0,
+        "dominant_type": "agent_action",
+        "peak_visual_gap": 1.3775210861939686,
+        "route": "action_state_or_agent_cue"
+      },
+      {
+        "corpus": "external",
+        "video_id": "1HUWWCLza0w_000000_000010",
+        "category": "Sports",
+        "start_s": 6.666666666666667,
+        "end_s": 10.0,
+        "dominant_type": "agent_action",
+        "peak_visual_gap": 1.368165970638435,
+        "route": "action_state_or_agent_cue"
+      },
+      {
+        "corpus": "external",
+        "video_id": "_TKzyWZHjm8_000002_000012",
+        "category": "Health & Wellness",
+        "start_s": 0.0,
+        "end_s": 3.636363636363636,
+        "dominant_type": "scene_spatial",
+        "peak_visual_gap": 1.321116843086283,
+        "route": "layout_replay_or_scene_cue"
+      },
+      {
+        "corpus": "external",
+        "video_id": "iEAWgsSvJAE_000023_000033",
+        "category": "Film & Animation",
+        "start_s": 6.363636363636363,
+        "end_s": 9.09090909090909,
+        "dominant_type": "agent_action",
+        "peak_visual_gap": 1.3035904053019889,
+        "route": "action_state_or_agent_cue"
+      },
+      {
+        "corpus": "external",
+        "video_id": "d7_SY48r__8_000060_000070",
+        "category": "How-to & Instructional",
+        "start_s": 9.0,
+        "end_s": 10.0,
+        "dominant_type": "agent_action",
+        "peak_visual_gap": 1.2900624561536096,
+        "route": "action_state_or_agent_cue"
+      },
+      {
+        "corpus": "external",
+        "video_id": "8vkNr_eysXY_000002_000012",
+        "category": "How-to & Instructional",
+        "start_s": 9.0,
+        "end_s": 10.0,
+        "dominant_type": "scene_spatial",
+        "peak_visual_gap": 1.2667515246909895,
+        "route": "layout_replay_or_scene_cue"
+      },
+      {
+        "corpus": "external",
+        "video_id": "EA3HCx0yTIY_000281_000291",
+        "category": "Music",
+        "start_s": 0.0,
+        "end_s": 3.636363636363636,
+        "dominant_type": "agent_action",
+        "peak_visual_gap": 1.1738605590729794,
+        "route": "action_state_or_agent_cue"
+      },
+      {
+        "corpus": "inbench",
+        "video_id": "09dQut5GJ68_000049_000059",
+        "category": "Travel",
+        "start_s": 10.43,
+        "end_s": 13.41,
+        "dominant_type": "agent_action",
+        "peak_visual_gap": 1.1627042797837404,
+        "route": "action_state_or_agent_cue"
+      },
+      {
+        "corpus": "external",
+        "video_id": "S-C86j0keqc_000217_000227",
+        "category": "Event",
+        "start_s": 6.363636363636363,
+        "end_s": 9.09090909090909,
+        "dominant_type": "agent_action",
+        "peak_visual_gap": 1.154456123221835,
+        "route": "action_state_or_agent_cue"
+      },
+      {
+        "corpus": "external",
+        "video_id": "iGmGQxox43I_000000_000010",
+        "category": "How-to & Instructional",
+        "start_s": 0.0,
+        "end_s": 3.636363636363636,
+        "dominant_type": "agent_action",
+        "peak_visual_gap": 1.0863189082371136,
+        "route": "action_state_or_agent_cue"
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject of the video?",
+      "answer_key": "A person with a green face mask and dark hair.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person doing with their shirt?",
+      "answer_key": "Holding it up to reveal their bare torso.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the primary object visible on the person's chest?",
+      "answer_key": "A white rectangular object or sticker.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the setting or location of the scene?",
+      "answer_key": "Indoors, in a room with a plain wall.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the face mask the person is wearing?",
+      "answer_key": "Green.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What word is written on the white object on the person's chest?",
+      "answer_key": "VETERANS.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color are the person's pants?",
+      "answer_key": "Green and white striped.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is the second person's hand doing to the chest?",
+      "answer_key": "Brushing something off the chest with a brush.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What color is the sleeve worn by the second person's arm?",
+      "answer_key": "Pink.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "How does the person's facial expression change towards the end?",
+      "answer_key": "From smiling to grimacing or surprised.",
+      "tier": "secondary"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+clip_idx,category,risk_rank,tribe_route,start_s,end_s,need_score,speech_density,slot_label
+12,Sports,1.0,extended/integrated AD likely needed,8.94,11.92,0.4779665142541972,0.5,extended or integrated ad
+12,Sports,1.0,extended/integrated AD likely needed,11.92,14.9,0.8208291880667623,0.5,extended or integrated ad
+12,Sports,1.0,extended/integrated AD likely needed,14.9,17.88,0.8755344451155387,0.0,standard ad slot
+12,Sports,1.0,extended/integrated AD likely needed,17.88,20.86,0.8448310839474196,0.5,extended or integrated ad
+12,Sports,1.0,extended/integrated AD likely needed,20.86,23.84,0.735211847576222,1.0,extended or integrated ad
+15,Pets & Animals,2.0,extended/integrated AD likely needed,0.0,2.98,0.5108059153297729,1.0,extended or integrated ad
+15,Pets & Animals,2.0,extended/integrated AD likely needed,2.98,5.96,0.6141136134833061,1.0,extended or integrated ad
+15,Pets & Animals,2.0,extended/integrated AD likely needed,5.96,8.94,0.633079272327266,0.5,extended or integrated ad
+15,Pets & Animals,2.0,extended/integrated AD likely needed,8.94,11.92,0.5706195456395662,0.5,extended or integrated ad
+15,Pets & Animals,2.0,extended/integrated AD likely needed,11.92,14.9,0.7493147206590085,0.0,standard ad slot
+11,Sports,3.0,standard AD priority,0.0,2.98,0.5113281260148542,1.0,extended or integrated ad
+11,Sports,3.0,standard AD priority,5.96,8.94,0.4249280078949282,1.0,extended or integrated ad
+11,Sports,3.0,standard AD priority,8.94,11.92,0.5631864600234457,0.0,standard ad slot
+11,Sports,3.0,standard AD priority,11.92,14.9,0.6204962039553747,0.0,standard ad slot
+4,Food & Cooking,4.0,low/normal AD pressure,0.0,2.98,0.5713254998961601,0.5,extended or integrated ad
+4,Food & Cooking,4.0,low/normal AD pressure,2.98,5.96,0.4296050975096035,0.5,extended or integrated ad
+3,Food & Cooking,5.0,low/normal AD pressure,0.0,2.98,0.710663123229123,0.5,extended or integrated ad
+19,Pets & Animals,6.0,low/normal AD pressure,0.0,2.98,0.5766175841764636,1.0,extended or integrated ad
+19,Pets & Animals,6.0,low/normal AD pressure,2.98,5.96,0.484462384402469,0.0,standard ad slot
+19,Pets & Animals,6.0,low/normal AD pressure,5.96,8.94,0.4427657704022679,1.0,extended or integrated ad
+14,Sports,7.0,extended/integrated AD likely needed,0.0,2.98,0.4886847009096419,1.0,extended or integrated ad
+14,Sports,7.0,extended/integrated AD likely needed,2.98,5.96,0.471716278341683,1.0,extended or integrated ad
+14,Sports,7.0,extended/integrated AD likely needed,5.96,8.94,0.484288898523419,1.0,extended or integrated ad
+14,Sports,7.0,extended/integrated AD likely needed,11.92,14.9,0.5376238514689752,0.5,extended or integrated ad
+17,Pets & Animals,8.0,extended/integrated AD likely needed,2.98,5.96,0.5085567810193516,1.0,extended or integrated ad
+17,Pets & Animals,8.0,extended/integrated AD likely needed,5.96,8.94,0.5781991369169097,0.5,extended or integrated ad
+17,Pets & Animals,8.0,extended/integrated AD likely needed,8.94,11.92,0.8025382417134777,1.0,extended or integrated ad
+17,Pets & Animals,8.0,extended/integrated AD likely needed,11.92,14.9,0.989735822398962,1.0,extended or integrated ad
+17,Pets & Animals,8.0,extended/integrated AD likely needed,14.9,17.88,0.5208642863381827,1.0,extended or integrated ad
+5,Food & Cooking,9.0,extended/integrated AD likely needed,0.0,2.98,0.6669367504852477,1.0,extended or integrated ad
+5,Food & Cooking,9.0,extended/integrated AD likely needed,2.98,5.96,0.619522408699223,1.0,extended or integrated ad
+5,Food & Cooking,9.0,extended/integrated AD likely needed,5.96,8.94,0.7560088155850923,1.0,extended or integrated ad
+5,Food & Cooking,9.0,extended/integrated AD likely needed,8.94,11.92,0.8559741095030897,1.0,extended or integrated ad
+5,Food & Cooking,9.0,extended/integrated AD likely needed,11.92,14.9,0.7296038009171194,1.0,extended or integrated ad
+8,Travel,10.0,low/normal AD pressure,0.0,2.98,0.7013996488828805,1.0,extended or integrated ad
+8,Travel,10.0,low/normal AD pressure,2.98,5.96,0.7014957045919514,1.0,extended or integrated ad
+1,Food & Cooking,11.0,low/normal AD pressure,0.0,2.98,0.8527670466409736,1.0,extended or integrated ad
+1,Food & Cooking,11.0,low/normal AD pressure,2.98,5.96,0.5235418090457391,1.0,extended or integrated ad
+6,Travel,12.0,extended/integrated AD likely needed,0.0,2.98,0.7646262287500899,1.0,extended or integrated ad
+6,Travel,12.0,extended/integrated AD likely needed,11.92,14.9,0.5002279658038973,1.0,extended or integrated ad
+6,Travel,12.0,extended/integrated AD likely needed,14.9,17.88,0.5640718500839013,1.0,extended or integrated ad
+13,Sports,13.0,low/normal AD pressure,0.0,2.98,0.6344394468570758,1.0,extended or integrated ad
+13,Sports,13.0,low/normal AD pressure,8.94,11.92,0.5243680056836387,1.0,extended or integrated ad
+7,Travel,14.0,extended/integrated AD likely needed,8.94,11.92,0.548113416568436,1.0,extended or integrated ad
+7,Travel,14.0,extended/integrated AD likely needed,11.92,14.9,0.742762168046048,1.0,extended or integrated ad
+7,Travel,14.0,extended/integrated AD likely needed,14.9,16.39,0.939134955406189,1.0,extended or integrated ad
+9,Sports,15.0,extended/integrated AD likely needed,0.0,2.98,0.7650085708250683,1.0,extended or integrated ad
+9,Sports,15.0,extended/integrated AD likely needed,2.98,5.96,0.6644298148546941,1.0,extended or integrated ad
+9,Sports,15.0,extended/integrated AD likely needed,5.96,8.94,0.6147746391521982,1.0,extended or integrated ad
+9,Sports,15.0,extended/integrated AD likely needed,8.94,11.92,0.6248812874987871,1.0,extended or integrated ad
+9,Sports,15.0,extended/integrated AD likely needed,11.92,14.9,0.5378420005621354,1.0,extended or integrated ad
+0,Food & Cooking,16.0,extended/integrated AD likely needed,0.0,2.98,0.4720351619923033,1.0,extended or integrated ad
+0,Food & Cooking,16.0,extended/integrated AD likely needed,8.94,11.92,0.5841811642054016,1.0,extended or integrated ad
+0,Food & Cooking,16.0,extended/integrated AD likely needed,11.92,14.9,0.4488081958061095,1.0,extended or integrated ad
+18,Pets & Animals,17.0,extended/integrated AD likely needed,2.98,5.96,0.598216940713403,1.0,extended or integrated ad
+18,Pets & Animals,17.0,extended/integrated AD likely needed,5.96,8.94,0.4737053869495402,1.0,extended or integrated ad
+18,Pets & Animals,17.0,extended/integrated AD likely needed,8.94,11.92,0.7036559923887971,1.0,extended or integrated ad
+18,Pets & Animals,17.0,extended/integrated AD likely needed,11.92,14.9,0.7941592025899242,1.0,extended or integrated ad
+18,Pets & Animals,17.0,extended/integrated AD likely needed,14.9,16.39,0.6837089417348918,1.0,extended or integrated ad
+16,Pets & Animals,18.0,low/normal AD pressure,0.0,2.98,0.644815716432821,1.0,extended or integrated ad
+2,,,,11.92,14.9,0.6089611467500903,0.0,standard ad slot
+2,,,,14.9,17.88,0.6792965291072104,0.0,standard ad slot
+2,,,,17.88,20.86,0.8003662052649374,1.0,extended or integrated ad
+2,,,,23.84,26.82,0.6208395891353169,0.0,standard ad slot
+20,,,,11.92,14.9,0.5864548320043322,1.0,extended or integrated ad
+20,,,,14.9,17.88,0.637072885504075,1.0,extended or integrated ad

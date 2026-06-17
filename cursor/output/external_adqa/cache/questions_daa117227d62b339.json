@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person doing with the open book or magazine?",
+      "answer_key": "Reading and turning pages of a magazine or catalog",
+      "required_visual_evidence": [
+        "open book/magazine on table",
+        "hands turning pages",
+        "person leaning over"
+      ],
+      "importance": "critical",
+      "rationale": "Main action; essential for understanding the scene's primary activity"
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is this activity taking place?",
+      "answer_key": "At a table indoors, in dim lighting",
+      "required_visual_evidence": [
+        "table surface",
+        "indoor setting",
+        "low light conditions"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context necessary for listener to visualize the scene"
+    },
+    {
+      "q_idx": 2,
+      "question": "What objects are visible on the table besides the magazine?",
+      "answer_key": "A candle in a glass jar labeled Yankee Candle",
+      "required_visual_evidence": [
+        "glass jar",
+        "candle",
+        "Yankee Candle label visible"
+      ],
+      "importance": "useful",
+      "rationale": "Key object that establishes atmosphere and adds scene detail"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person's approximate position relative to the table?",
+      "answer_key": "Seated at the table, leaning forward over the open pages",
+      "required_visual_evidence": [
+        "person seated",
+        "leaning posture",
+        "hands on pages"
+      ],
+      "importance": "useful",
+      "rationale": "Body position clarifies engagement level and viewing angle"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many pages of the magazine are visible as open at once?",
+      "answer_key": "Two facing pages are open and visible",
+      "required_visual_evidence": [
+        "open spread",
+        "left and right pages",
+        "magazine binding"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener understand the magazine format and reading layout"
+    }
+  ]
+}

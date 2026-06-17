@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the primary person shown in the video?",
+      "answer_key": "A bald man with a beard.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the man doing with the two metal objects?",
+      "answer_key": "He is sharpening a knife.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting of the scene?",
+      "answer_key": "Indoors, in front of a wall with a poster.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What are the two main objects the man is holding?",
+      "answer_key": "A knife and a sharpening steel.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the man's neckwear or collar?",
+      "answer_key": "Dark green or olive.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "Describe the main subject of the black and white poster.",
+      "answer_key": "A heavily tattooed person holding a sphere.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What name is visible at the bottom of the poster?",
+      "answer_key": "N PRINCE.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is the man's hair color and style?",
+      "answer_key": "He is bald with a dark beard.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "How many distinct swipes of the knife against the steel are visible?",
+      "answer_key": "At least four to five swipes.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What color is the handle of the knife?",
+      "answer_key": "Black.",
+      "tier": "secondary"
+    }
+  ]
+}

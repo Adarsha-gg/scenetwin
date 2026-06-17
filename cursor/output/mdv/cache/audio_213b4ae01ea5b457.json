@@ -1,0 +1,24 @@
+{
+  "grades": [
+    {
+      "q_idx": 0,
+      "audio_score": 1.0
+    },
+    {
+      "q_idx": 1,
+      "audio_score": 0.0
+    },
+    {
+      "q_idx": 2,
+      "audio_score": 0.0
+    },
+    {
+      "q_idx": 3,
+      "audio_score": 0.0
+    },
+    {
+      "q_idx": 4,
+      "audio_score": 0.0
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_N-LZPc27kjM_000229_000239",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/N-LZPc27kjM_000229_000239.mp4",
+  "ad_text_used": "In a craft tutorial, a woman demonstrates how to transform small blue mittens into earrings. She uses a needle to create tiny grooves on the mittens, giving them a fluffy texture similar to fur. The mittens, made from a clay-like material, are carefully shaped and detailed. As she works, she explains each step, ensuring the mittens will soon become charming earrings.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.09554951254932365,
+  "description_gain": -0.15636603003902982,
+  "alignment_cosine": 0.9948293668204518,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    30,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "N-LZPc27kjM_000229_000239",
+  "category": "How-to & Instructional",
+  "yt_id": "N-LZPc27kjM",
+  "start_s": 229.0,
+  "end_s": 239.0
+}

@@ -1,0 +1,3 @@
+target,existing_top_feature,existing_top_auc,new_top_feature,new_top_auc,delta
+low_tier3_margin,max_need,1.0,description_gain,1.0,0.0
+tier2_tier1_inversion,mean_standard_slot_score,1.0,description_gain,0.9411764705882353,-0.05882352941176472

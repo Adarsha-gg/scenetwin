@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the woman in the orange shirt doing with the horse?",
+      "answer_key": "Holding and demonstrating a grooming tool or curry comb on the horse",
+      "required_visual_evidence": [
+        "woman in orange shirt",
+        "horse",
+        "handheld grooming tool",
+        "demonstrating on horse's body"
+      ],
+      "importance": "critical",
+      "rationale": "Main action and subject are central to understanding the video's purpose and content"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of grooming tool is the woman holding?",
+      "answer_key": "A curry comb or grooming brush with a mesh or textured surface",
+      "required_visual_evidence": [
+        "handheld tool",
+        "mesh or textured circular surface",
+        "held in hand"
+      ],
+      "importance": "useful",
+      "rationale": "Identifying the specific tool helps viewers understand the grooming demonstration being shown"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this scene taking place?",
+      "answer_key": "In a stable or barn, on a concrete floor",
+      "required_visual_evidence": [
+        "concrete floor",
+        "indoor setting",
+        "horse in stall or stable area"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is essential for understanding the environment and activity type"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the woman wearing on her head?",
+      "answer_key": "A white baseball cap or sports cap",
+      "required_visual_evidence": [
+        "white cap",
+        "worn on head"
+      ],
+      "importance": "useful",
+      "rationale": "Visible attire details help create a complete picture of the scene for blind viewers"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the horse in the video?",
+      "answer_key": "Dark brown or bay colored",
+      "required_visual_evidence": [
+        "horse",
+        "dark brown coloring",
+        "visible throughout frames"
+      ],
+      "importance": "useful",
+      "rationale": "Horse appearance is a key visual element that should be described in audio description"
+    }
+  ]
+}

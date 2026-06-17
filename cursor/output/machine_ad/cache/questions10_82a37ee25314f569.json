@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is shown performing the action?",
+      "answer_key": "A person (likely a child).",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main action the person is performing?",
+      "answer_key": "Filling a bread roll with a dark substance.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location?",
+      "answer_key": "On a wooden slatted bench outdoors.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary food item being prepared?",
+      "answer_key": "A split bread roll.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the person's long-sleeved top?",
+      "answer_key": "Yellow.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is the dark substance being put into the bread?",
+      "answer_key": "A thick, dark spread.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What utensil is the person using to apply the spread?",
+      "answer_key": "A spoon.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What type of container holds the dark spread?",
+      "answer_key": "A light blue mug.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What kind of design is visible on the person's yellow top?",
+      "answer_key": "A colorful emblem with stars.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Is any of the dark substance spilled or smeared?",
+      "answer_key": "Yes, on the mug and bench.",
+      "tier": "secondary"
+    }
+  ]
+}

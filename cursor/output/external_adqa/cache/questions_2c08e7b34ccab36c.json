@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video clip?",
+      "answer_key": "A person is performing parkour or acrobatic movements, including jumping and flipping.",
+      "required_visual_evidence": [
+        "person in mid-air",
+        "inverted body position",
+        "dynamic athletic movement"
+      ],
+      "importance": "critical",
+      "rationale": "The primary action is essential for understanding the clip's content and purpose."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is visible in the background of this scene?",
+      "answer_key": "Trees and green vegetation are visible in the background.",
+      "required_visual_evidence": [
+        "green foliage",
+        "trees",
+        "natural landscape"
+      ],
+      "importance": "useful",
+      "rationale": "Setting context helps listeners understand the outdoor location and environment."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the weather like during this video?",
+      "answer_key": "It is a clear, sunny day with blue sky and white clouds.",
+      "required_visual_evidence": [
+        "blue sky",
+        "white clouds",
+        "bright lighting"
+      ],
+      "importance": "useful",
+      "rationale": "Weather and lighting conditions establish the scene's atmosphere and visibility."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing?",
+      "answer_key": "Dark-colored athletic clothing, including dark pants and a dark top.",
+      "required_visual_evidence": [
+        "dark pants",
+        "dark shirt/top",
+        "athletic wear"
+      ],
+      "importance": "useful",
+      "rationale": "Clothing description helps listeners visualize the subject and activity type."
+    },
+    {
+      "q_idx": 4,
+      "question": "What type of location is this activity taking place in?",
+      "answer_key": "An outdoor area with natural ground and vegetation, likely a park or open field.",
+      "required_visual_evidence": [
+        "outdoor setting",
+        "natural ground",
+        "trees and grass"
+      ],
+      "importance": "critical",
+      "rationale": "Location type is fundamental to understanding the context and safety of the activity."
+    }
+  ]
+}

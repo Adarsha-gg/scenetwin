@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main person visible in the foreground?",
+      "answer_key": "A young man.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What activity is the man performing on the ice?",
+      "answer_key": "He is sweeping the ice with a broom near a curling stone.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting of this video clip?",
+      "answer_key": "An indoor curling rink or ice arena.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What primary sports equipment is the man using?",
+      "answer_key": "A curling broom and a curling stone.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What colors are the man's jacket and pants?",
+      "answer_key": "A dark jacket or hoodie and blue jeans.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "How many curling stones are clearly visible on the ice in the midground?",
+      "answer_key": "Two curling stones.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What color is the curling stone closest to the man?",
+      "answer_key": "Yellow.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is visible above the ice surface along the far wall?",
+      "answer_key": "Spectator stands and advertising banners.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What colors are the protective barriers around the ice?",
+      "answer_key": "White, yellow, and red.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Describe the presence of other people on the ice.",
+      "answer_key": "Several other people are visible further down the ice.",
+      "tier": "secondary"
+    }
+  ]
+}

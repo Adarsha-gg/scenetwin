@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is seen organizing the items?",
+      "answer_key": "A person.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person doing with the clothes?",
+      "answer_key": "Packing them into a neon green mesh bag.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the surface the items are laid out on?",
+      "answer_key": "A light-colored wooden floor.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What type of items are spread across the floor?",
+      "answer_key": "A large collection of folded clothes.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color pants is the person wearing?",
+      "answer_key": "Black pants.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What color is the mesh packing cube the person is using?",
+      "answer_key": "Neon green.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "How many neon green mesh bags are visible on the floor?",
+      "answer_key": "Two.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What color is the jacket on the far left of the frame?",
+      "answer_key": "White with black zippers.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What happens to the clothes placed into the neon green bag?",
+      "answer_key": "They are compressed and zipped up.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What color is the baseball cap near the bottom left?",
+      "answer_key": "Dark green and white.",
+      "tier": "secondary"
+    }
+  ]
+}

@@ -21,6 +21,7 @@ if str(DEMO_DIR) not in sys.path:
 
 import live_pipeline as lp  # noqa: E402
 from live_presets import LIVE_DEMO_PRESET_GROUPS  # noqa: E402
+import qc_gate as qg  # noqa: E402
 
 
 class StageResult(BaseModel):
@@ -78,10 +79,31 @@ class AdqaScore(BaseModel):
 
 class TribeScore(BaseModel):
     alignment_cosine: float
+    accessibility_gap: float = 0.0
+    description_gain: float = 0.0
+    audio_only_ok: bool = False
     video_mean_lh: float
     video_mean_rh: float
     video_ad_mean_lh: float
     video_ad_mean_rh: float
+
+
+class QcFlag(BaseModel):
+    id: str
+    label: str
+    reason: str = ""
+    value: Optional[float] = None
+    norm: Optional[float] = None
+
+
+class QcGate(BaseModel):
+    risk_score: float
+    flagged: bool
+    summary: str = ""
+    flags: list[QcFlag] = Field(default_factory=list)
+    signals: dict[str, float] = Field(default_factory=dict)
+    ensemble_raw: Optional[float] = None
+    ensemble_gated: Optional[float] = None
 
 
 class AuditResponse(BaseModel):
@@ -96,6 +118,7 @@ class AuditResponse(BaseModel):
     clip: Optional[ClipScore] = None
     adqa: Optional[AdqaScore] = None
     tribe: Optional[TribeScore] = None
+    qc: Optional[QcGate] = None
     error: Optional[str] = None
 
 
@@ -234,6 +257,7 @@ def tribe_risk() -> dict[str, Any]:
     tribe_dir = ROOT / "output" / "scenetwin_timing_20clip" / "tribe_native"
     need_dir = ROOT / "output" / "scenetwin_timing_20clip" / "need"
     roi_path = ROOT / "output" / "scenetwin_timing_20clip" / "tribe_only_per_roi.csv"
+    blind_dir = ROOT / "cursor" / "research" / "output"
 
     rows = _read_csv_records(tribe_dir / "tribe_failure_forecast.csv")
     summary = _read_csv_records(tribe_dir / "tribe_failure_forecast_summary.csv")
@@ -241,6 +265,43 @@ def tribe_risk() -> dict[str, Any]:
     need_curve_rows = _read_csv_records(need_dir / "neural_description_need_curve.csv")
     coarse_rows = _read_csv_records(need_dir / "coarse_need_windows.csv")
     roi_rows = _read_csv_records(roi_path)
+    blind_cases = _read_csv_records(blind_dir / "tribe_blind_spot_cases.csv")
+    blind_windows = _read_csv_records(blind_dir / "tribe_blind_spot_windows.csv")
+
+    case_counts: dict[str, int] = {}
+    for r in blind_cases:
+        case_id = str(r.get("case_id") or "unknown")
+        case_counts[case_id] = case_counts.get(case_id, 0) + 1
+
+    route_counts: dict[str, int] = {}
+    for r in blind_windows:
+        route = str(r.get("route") or "unknown")
+        route_counts[route] = route_counts.get(route, 0) + 1
+
+    blind_cases_by_video: dict[str, list[dict[str, Any]]] = {}
+    for r in blind_cases:
+        video_id = str(r.get("video_id") or "")
+        if not video_id:
+            continue
+        blind_cases_by_video.setdefault(video_id, []).append({
+            "case_id": r.get("case_id"),
+            "priority_score": float(r.get("priority_score") or 0),
+            "window": r.get("window"),
+            "why": r.get("why"),
+        })
+
+    blind_windows_by_video: dict[str, list[dict[str, Any]]] = {}
+    for r in blind_windows:
+        video_id = str(r.get("video_id") or "")
+        if not video_id:
+            continue
+        blind_windows_by_video.setdefault(video_id, []).append({
+            "start_s": float(r.get("start_s") or 0),
+            "end_s": float(r.get("end_s") or 0),
+            "dominant_type": r.get("dominant_type"),
+            "peak_visual_gap": float(r.get("peak_visual_gap") or 0),
+            "route": r.get("route"),
+        })
 
     need_by_clip: dict[int, list[dict[str, Any]]] = {}
     for r in need_curve_rows:
@@ -306,6 +367,16 @@ def tribe_risk() -> dict[str, Any]:
             "need_curve": need_by_clip.get(cidx, []),
             "coarse_windows": coarse_by_clip.get(cidx, []),
             "per_roi": roi_by_clip.get(cidx, []),
+            "blind_spot_cases": sorted(
+                blind_cases_by_video.get(str(r.get("video_id") or ""), []),
+                key=lambda x: x["priority_score"],
+                reverse=True,
+            )[:4],
+            "blind_spot_windows": sorted(
+                blind_windows_by_video.get(str(r.get("video_id") or ""), []),
+                key=lambda x: x["peak_visual_gap"],
+                reverse=True,
+            )[:5],
         })
 
     top_summary = summary[0] if summary else {}
@@ -334,6 +405,78 @@ def tribe_risk() -> dict[str, Any]:
         "clips": clips,
         "correlations": correlations[:8],
         "headline_correlation": headline_corr,
+        "blind_spot_router": {
+            "case_counts": case_counts,
+            "route_counts": route_counts,
+            "top_cases": sorted(
+                [{
+                    "corpus": r.get("corpus"),
+                    "video_id": r.get("video_id"),
+                    "category": r.get("category"),
+                    "case_id": r.get("case_id"),
+                    "priority_score": float(r.get("priority_score") or 0),
+                    "window": r.get("window"),
+                    "why": r.get("why"),
+                } for r in blind_cases if r.get("case_id") != "low_gap_skip"],
+                key=lambda x: x["priority_score"],
+                reverse=True,
+            )[:12],
+            "top_windows": sorted(
+                [{
+                    "corpus": r.get("corpus"),
+                    "video_id": r.get("video_id"),
+                    "category": r.get("category"),
+                    "start_s": float(r.get("start_s") or 0),
+                    "end_s": float(r.get("end_s") or 0),
+                    "dominant_type": r.get("dominant_type"),
+                    "peak_visual_gap": float(r.get("peak_visual_gap") or 0),
+                    "route": r.get("route"),
+                } for r in blind_windows],
+                key=lambda x: x["peak_visual_gap"],
+                reverse=True,
+            )[:12],
+        },
+    }
+
+
+def _read_review_priority() -> list[dict[str, Any]]:
+    path = ROOT / "cursor" / "output" / "combined_review_priority.csv"
+    if not path.exists():
+        return []
+    df = lp.pd.read_csv(path)
+    df = df.replace({lp.np.nan: None})
+    return df.to_dict(orient="records")
+
+
+def _qc_from_dict(d: dict[str, Any] | None) -> QcGate | None:
+    if not d:
+        return None
+    return QcGate(
+        risk_score=float(d.get("risk_score") or 0),
+        flagged=bool(d.get("flagged")),
+        summary=str(d.get("summary") or ""),
+        flags=[QcFlag(**f) for f in d.get("flags") or []],
+        signals={k: float(v) for k, v in (d.get("signals") or {}).items()},
+        ensemble_raw=d.get("ensemble_raw"),
+        ensemble_gated=d.get("ensemble_gated"),
+    )
+
+
+@app.get("/api/qc-gate")
+def qc_gate_benchmark() -> dict[str, Any]:
+    return qg.load_qc_benchmark()
+
+
+@app.get("/api/review-priority")
+def review_priority() -> dict[str, Any]:
+    rows = _read_review_priority()
+    top3 = sorted(rows, key=lambda r: int(r.get("review_rank") or 999))[:3]
+    return {
+        "n": len(rows),
+        "source": "cursor/combined_review_priority.py",
+        "recall_at_3_note": "Both known ADQA failures rank #1 and #2 in composite score",
+        "clips": rows,
+        "top_review": top3,
     }
 
 
@@ -382,6 +525,8 @@ def cached_clips() -> dict[str, Any]:
         ("tier3_va11y", "Professional AD", "Human/pro-style AD candidate."),
     ]
 
+    qc_by_clip = {int(c["clip_idx"]): c for c in qg.load_qc_benchmark().get("clips", [])}
+
     clips = []
     for r in sorted(forecast_rows, key=lambda x: int(x.get("clip_idx") or 0)):
         cidx = int(r.get("clip_idx") or 0)
@@ -422,6 +567,7 @@ def cached_clips() -> dict[str, Any]:
             })
         pro_candidate = next((c for c in candidates if c["tier"] == "tier3_va11y"), candidates[-1])
         best_candidate = max(candidates, key=lambda c: c["adqa_score"])
+        qc_raw = qc_by_clip.get(cidx)
 
         clips.append({
             "clip_idx": cidx,
@@ -434,6 +580,7 @@ def cached_clips() -> dict[str, Any]:
             "risk_rank": int(r.get("risk_rank") or 0),
             "risk_score": float(r.get("risk_score") or 0),
             "quality_risk": r.get("quality_risk") or "",
+            "qc": qc_raw,
             "video_url": _web_rel(video) if video else "",
             "frames": frames,
             "candidates": candidates,
@@ -522,6 +669,7 @@ def audit(req: AuditRequest) -> AuditResponse:
     )
 
     tribe_score = None
+    qc_result = None
     if req.run_tribe:
         ok, msg, tr = lp.stage_tribe_proxy(video, ad_text)
         _stage(stages, "tribe", ok, msg)
@@ -529,6 +677,14 @@ def audit(req: AuditRequest) -> AuditResponse:
             tribe_score = TribeScore(**tr)
     else:
         _stage(stages, "tribe", True, "skipped")
+
+    live_qc = qg.assess_live(
+        clip_score.top3,
+        adqa_score.score,
+        ad_text,
+        duration_s=float(req.max_seconds),
+    )
+    qc_result = _qc_from_dict(live_qc)
 
     return AuditResponse(
         ok=True,
@@ -542,4 +698,5 @@ def audit(req: AuditRequest) -> AuditResponse:
         clip=clip_score,
         adqa=adqa_score,
         tribe=tribe_score,
+        qc=qc_result,
     )

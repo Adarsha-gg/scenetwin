@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in these frames?",
+      "answer_key": "A shirtless person is posing and smiling for the camera",
+      "required_visual_evidence": [
+        "shirtless torso",
+        "smiling facial expression",
+        "direct camera gaze"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes primary action and subject engagement with viewer"
+    },
+    {
+      "q_idx": 1,
+      "question": "What text or markings are visible on the person's chest?",
+      "answer_key": "Tattoos with text and footprint designs on the chest",
+      "required_visual_evidence": [
+        "chest tattoos",
+        "text tattoos",
+        "footprint tattoo"
+      ],
+      "importance": "useful",
+      "rationale": "Distinctive visible marking that characterizes the subject's appearance"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this takes place?",
+      "answer_key": "An indoor room with white walls and wooden furniture",
+      "required_visual_evidence": [
+        "white walls",
+        "indoor environment",
+        "wooden furniture/trim"
+      ],
+      "importance": "useful",
+      "rationale": "Provides spatial context for understanding the scene environment"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the person's hand or near their mouth?",
+      "answer_key": "The person is holding or eating food, appears to be bread or pastry",
+      "required_visual_evidence": [
+        "food item in hand",
+        "food near mouth",
+        "baked good appearance"
+      ],
+      "importance": "useful",
+      "rationale": "Secondary action detail that adds context to the scene activity"
+    },
+    {
+      "q_idx": 4,
+      "question": "What type of clothing is the person wearing below the waist?",
+      "answer_key": "Dark-colored pants or shorts",
+      "required_visual_evidence": [
+        "dark lower garment",
+        "pants/shorts visible"
+      ],
+      "importance": "useful",
+      "rationale": "Completes physical description of subject's appearance and attire"
+    }
+  ]
+}

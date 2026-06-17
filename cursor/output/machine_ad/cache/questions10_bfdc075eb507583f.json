@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is performing the action?",
+      "answer_key": "A person's hands.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary activity shown?",
+      "answer_key": "Wrapping a gift or object.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What surface is the wrapping taking place on?",
+      "answer_key": "A wooden table.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What item is being wrapped?",
+      "answer_key": "A small rectangular box or notebook.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What accessories are visible on the right wrist?",
+      "answer_key": "Multiple black bracelets.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What tool is visible on the left side of the table?",
+      "answer_key": "Orange-handled scissors.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is the base wrapping material laid out?",
+      "answer_key": "Shimmery silver paper.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What colorful material is added on top of the silver paper?",
+      "answer_key": "Translucent paper with a color gradient.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What colors are on the translucent paper?",
+      "answer_key": "Red, yellow, and green.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Describe the pattern on the box being wrapped.",
+      "answer_key": "A floral pattern with blue, yellow, and white flowers.",
+      "tier": "secondary"
+    }
+  ]
+}

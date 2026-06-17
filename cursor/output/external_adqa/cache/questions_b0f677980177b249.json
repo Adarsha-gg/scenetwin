@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of vehicle is clearing snow, and what is it doing?",
+      "answer_key": "A yellow snow loader is pushing and clearing large piles of snow from a city street.",
+      "required_visual_evidence": [
+        "yellow snow loader",
+        "pushing snow",
+        "street clearing"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies main subject and primary action central to the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location where this snow clearing is taking place?",
+      "answer_key": "An urban street lined with multi-story buildings at night.",
+      "required_visual_evidence": [
+        "city buildings",
+        "street",
+        "nighttime",
+        "urban"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes context and environment essential for scene comprehension"
+    },
+    {
+      "q_idx": 2,
+      "question": "What vehicles are parked or present on the street during the snow clearing?",
+      "answer_key": "A red car is parked on the street near the snow clearing operation.",
+      "required_visual_evidence": [
+        "red car",
+        "parked",
+        "street"
+      ],
+      "importance": "useful",
+      "rationale": "Describes key objects and potential hazards in the operational area"
+    },
+    {
+      "q_idx": 3,
+      "question": "What emergency or service vehicle is visible in the scene?",
+      "answer_key": "A fire truck with lights is visible in the background of the street.",
+      "required_visual_evidence": [
+        "fire truck",
+        "lights",
+        "background"
+      ],
+      "importance": "useful",
+      "rationale": "Notes significant emergency services presence during snow operations"
+    },
+    {
+      "q_idx": 4,
+      "question": "Describe the scale and appearance of the snow accumulation being cleared.",
+      "answer_key": "Large, substantial piles of snow are being pushed and moved by the loader.",
+      "required_visual_evidence": [
+        "large snow piles",
+        "accumulation",
+        "being pushed"
+      ],
+      "importance": "useful",
+      "rationale": "Conveys severity of weather conditions and operational scope"
+    }
+  ]
+}

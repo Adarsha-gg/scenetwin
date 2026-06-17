@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_F-mRnL_XmJU_000000_000010",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/F-mRnL_XmJU_000000_000010.mp4",
+  "ad_text_used": "A young woman is sleeping on a bed. A person playfully throws paper money over her, causing her to stir and use some of the bills as a pillow. The scene is lighthearted, with the person continuing to drop money while the woman remains in a relaxed state.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.22856270395830125,
+  "description_gain": -0.17067198456600197,
+  "alignment_cosine": 0.9990789477223323,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    10,
+    20484
+  ],
+  "P_AD_shape": [
+    19,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "F-mRnL_XmJU_000000_000010",
+  "category": "Entertainment",
+  "yt_id": "F-mRnL_XmJU",
+  "start_s": 0.0,
+  "end_s": 10.0
+}

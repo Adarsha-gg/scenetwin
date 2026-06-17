@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "A young boy is playing and dancing on a parking lot or street.",
+      "required_visual_evidence": [
+        "young boy in center frame",
+        "dancing/playful movements",
+        "parking lot setting"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary action and subject essential to understanding the clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the boy wearing on his upper body?",
+      "answer_key": "A white shirt and a black jacket or hoodie.",
+      "required_visual_evidence": [
+        "white shirt visible",
+        "black jacket/hoodie",
+        "worn together"
+      ],
+      "importance": "useful",
+      "rationale": "Key visual details that help listeners visualize the main subject clearly."
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this scene taking place?",
+      "answer_key": "On a paved parking lot or street near a chain-link fence and parked cars.",
+      "required_visual_evidence": [
+        "parking lot surface",
+        "chain-link fence",
+        "parked vehicles",
+        "road markings"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context is essential for understanding the environment and activity."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the background of the scene?",
+      "answer_key": "Parked cars, a chain-link fence, buildings, trees, and mountains or hills.",
+      "required_visual_evidence": [
+        "parked vehicles",
+        "chain-link fence",
+        "buildings",
+        "natural landscape"
+      ],
+      "importance": "useful",
+      "rationale": "Background elements establish location context and overall scene composition."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the boy holding or wearing on his head in some frames?",
+      "answer_key": "A white cloth or towel draped over his head and shoulders.",
+      "required_visual_evidence": [
+        "white cloth/towel",
+        "draped on head",
+        "visible in multiple frames"
+      ],
+      "importance": "useful",
+      "rationale": "Notable prop that appears during the playful activity and affects visual composition."
+    }
+  ]
+}

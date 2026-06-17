@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this clip?",
+      "answer_key": "A person is working on or repairing a bicycle in a garage or workshop.",
+      "required_visual_evidence": [
+        "person crouching/bending",
+        "bicycle present",
+        "workshop/garage setting",
+        "hands working on bike"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies primary action and subject—essential for understanding clip content."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of location is shown in the video?",
+      "answer_key": "A garage or workshop with shelves, tools, and motorcycles visible in background.",
+      "required_visual_evidence": [
+        "shelving with items",
+        "motorcycles in background",
+        "concrete floor",
+        "indoor workspace"
+      ],
+      "importance": "critical",
+      "rationale": "Setting context necessary for listeners to visualize the scene accurately."
+    },
+    {
+      "q_idx": 2,
+      "question": "What objects are visible in the workspace besides the bicycle?",
+      "answer_key": "Motorcycles, shelves with various items, and tools are visible in the background.",
+      "required_visual_evidence": [
+        "motorcycles",
+        "shelving units",
+        "workshop equipment"
+      ],
+      "importance": "useful",
+      "rationale": "Background objects help establish the nature and purpose of the workspace."
+    },
+    {
+      "q_idx": 3,
+      "question": "What text appears on screen during this clip?",
+      "answer_key": "The phrase 'Oh, hello!' appears as on-screen text.",
+      "required_visual_evidence": [
+        "text overlay",
+        "greeting phrase"
+      ],
+      "importance": "critical",
+      "rationale": "On-screen text is essential AD content that must be conveyed to listeners."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the person wearing while working on the bicycle?",
+      "answer_key": "A dark short-sleeved shirt and light-colored shorts or pants.",
+      "required_visual_evidence": [
+        "dark upper garment",
+        "light lower garment",
+        "casual work attire"
+      ],
+      "importance": "useful",
+      "rationale": "Clothing details contribute to scene visualization and character description."
+    }
+  ]
+}

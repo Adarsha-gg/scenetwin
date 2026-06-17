@@ -1,0 +1,61 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject of this video?",
+      "answer_key": "A baby or young child lying down",
+      "required_visual_evidence": [
+        "infant/baby visible in frames",
+        "child in white and red clothing"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary subject essential to understanding the scene"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the child doing throughout the sequence?",
+      "answer_key": "Lying down, appearing to sleep or rest",
+      "required_visual_evidence": [
+        "child in horizontal position",
+        "eyes closed or looking down",
+        "consistent positioning across frames"
+      ],
+      "importance": "critical",
+      "rationale": "Describes the main action that defines the entire clip"
+    },
+    {
+      "q_idx": 2,
+      "question": "What objects are visible near or around the child?",
+      "answer_key": "Money or paper currency scattered nearby",
+      "required_visual_evidence": [
+        "paper bills visible in frames 5-8",
+        "currency on surface near child"
+      ],
+      "importance": "useful",
+      "rationale": "Key contextual detail that appears prominently in later frames"
+    },
+    {
+      "q_idx": 3,
+      "question": "What text appears at the top of each frame?",
+      "answer_key": "Dica de como me acordar de bom humor",
+      "required_visual_evidence": [
+        "Portuguese text in header box",
+        "consistent text across all frames"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text provides context for the meme's intended message"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the setting or location where this scene takes place?",
+      "answer_key": "Indoors on a bed or couch with bedding",
+      "required_visual_evidence": [
+        "fabric/bedding visible",
+        "indoor domestic setting",
+        "person in dark clothing beside child"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the environment necessary for scene comprehension"
+    }
+  ]
+}

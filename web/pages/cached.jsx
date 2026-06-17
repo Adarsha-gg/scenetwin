@@ -16,21 +16,26 @@ function scorePct(v) {
 
 function CachedClipsPage() {
   const [data, setData] = useState(null);
+  const [priority, setPriority] = useState(null);
   const [selected, setSelected] = useState(null);
   const [tier, setTier] = useState('tier3_va11y');
   const [error, setError] = useState('');
 
   useEffect(() => {
-    fetch(`${CACHED_API_BASE}/api/cached-clips`)
-      .then(r => r.json())
-      .then(json => {
+    fetchSceneTwinJson('/api/cached-clips', '../cursor/data/cached-clips.json')
+      .then(({ json }) => {
         setData(json);
         setSelected(json.clips?.[0] || null);
       })
-      .catch(() => setError('Cached clip endpoint is not reachable.'));
+      .catch(() => setError('Cached clip data unavailable (start API or run cursor/export_static_api.py).'));
+    fetch('../cursor/data/review-priority.json')
+      .then(r => r.ok ? r.json() : null)
+      .then(j => j && setPriority(j))
+      .catch(() => {});
   }, []);
 
   const clips = data?.clips || [];
+  const priByClip = Object.fromEntries((priority?.clips || []).map(c => [c.clip_idx, c]));
   const cand = selected?.candidates?.find(c => c.tier === tier) || selected?.candidates?.[0];
 
   return (
@@ -92,6 +97,32 @@ function CachedClipsPage() {
                   }}>
                     pro ADQA {scorePct(clip.demo_rank_score)}%
                   </span>
+                  {priByClip[clip.clip_idx] && (
+                    <span className="mono" style={{
+                      fontSize: 10,
+                      padding: '2px 6px',
+                      border: `1px solid ${priByClip[clip.clip_idx].review_rank <= 3 ? 'var(--bad)' : 'var(--border)'}`,
+                      color: priByClip[clip.clip_idx].review_rank <= 3 ? 'var(--bad)' : 'var(--fg-muted)',
+                    }}>
+                      review #{priByClip[clip.clip_idx].review_rank}
+                    </span>
+                  )}
+                  {clip.qc?.flagged && (
+                    <span className="mono" style={{
+                      fontSize: 10,
+                      padding: '2px 6px',
+                      border: '1px solid var(--bad)',
+                      color: 'var(--bad)',
+                      textTransform: 'uppercase',
+                    }}>
+                      risk {(clip.qc.risk_score || 0).toFixed(2)}
+                    </span>
+                  )}
+                  {clip.qc && !clip.qc.flagged && (
+                    <span className="mono" style={{ fontSize: 10, color: 'var(--fg-muted)' }}>
+                      risk {(clip.qc.risk_score || 0).toFixed(2)}
+                    </span>
+                  )}
                   <span className="mono" style={{ color: 'var(--fg-muted)', fontSize: 10 }}>
                     best {scorePct(clip.best_adqa_score)}% · {clip.best_candidate_label}
                   </span>
@@ -184,6 +215,39 @@ function CachedClipsPage() {
                   <div className="card" style={{ padding: 10 }}><Stat label="ADQA" value={cand.adqa_score.toFixed(2)} /></div>
                   <div className="card" style={{ padding: 10 }}><Stat label="Yes" value={scorePct(cand.adqa_yes_rate)} unit="%" /></div>
                 </div>
+
+                {selected.qc && (
+                  <div className="card" style={{
+                    marginTop: 12,
+                    padding: 12,
+                    borderColor: selected.qc.flagged ? 'var(--bad)' : 'var(--good)',
+                    borderLeft: `3px solid ${selected.qc.flagged ? 'var(--bad)' : 'var(--good)'}`,
+                  }}>
+                    <div className="row justify-between items-center gap-12">
+                      <div>
+                        <div className="eyebrow">Generalization risk (external-calibrated)</div>
+                        <div style={{ fontSize: 14, marginTop: 4, lineHeight: 1.45 }}>
+                          {selected.qc.summary}
+                        </div>
+                      </div>
+                      <Tag color={selected.qc.flagged ? 'var(--bad)' : 'var(--good)'}>
+                        risk {(selected.qc.risk_score || 0).toFixed(2)}
+                      </Tag>
+                    </div>
+                    {selected.qc.flagged && selected.qc.ensemble_gated != null && cand.tier === 'tier3_va11y' && (
+                      <div className="mono" style={{ marginTop: 8, fontSize: 11, color: 'var(--fg-muted)' }}>
+                        Pro ensemble: {selected.qc.ensemble_raw?.toFixed(2)} raw → {selected.qc.ensemble_gated?.toFixed(2)} gated
+                      </div>
+                    )}
+                    {(selected.qc.flags || []).length > 0 && (
+                      <ul style={{ margin: '10px 0 0', paddingLeft: 18, fontSize: 12, lineHeight: 1.45, color: 'var(--fg-muted)' }}>
+                        {selected.qc.flags.map(f => (
+                          <li key={f.id}><strong>{f.label}</strong> — {f.reason}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+                )}
 
                 <div className="card" style={{ marginTop: 12, padding: 14, overflowY: 'auto', minHeight: 0, flex: 1, borderLeft: `3px solid ${tierTone(cand.tier)}` }}>
                   <div className="eyebrow">{cand.kind}</div>

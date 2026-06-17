@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who are the two main individuals shown?",
+      "answer_key": "A chef and a woman.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What are the individuals primarily doing?",
+      "answer_key": "Pouring cake batter into a baking pan.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting of this activity?",
+      "answer_key": "A kitchen.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main food item being handled?",
+      "answer_key": "Cake batter.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "Describe the chef's uniform.",
+      "answer_key": "White chef's jacket, black pants, and a tall white hat.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is the woman wearing?",
+      "answer_key": "A green plaid shirt and a red apron with strawberries.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What utensil is used to scrape the batter?",
+      "answer_key": "A wooden spatula.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What color is the kitchen counter?",
+      "answer_key": "Black.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What text is displayed in the bottom left corner?",
+      "answer_key": "sms: 22330.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the logo in the top right corner?",
+      "answer_key": "3stones.tv.",
+      "tier": "secondary"
+    }
+  ]
+}

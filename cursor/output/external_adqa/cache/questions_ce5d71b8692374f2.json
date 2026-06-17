@@ -1,0 +1,68 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the athlete doing in this sequence?",
+      "answer_key": "Running and jumping over a series of hurdles on a track",
+      "required_visual_evidence": [
+        "athlete in blue uniform",
+        "multiple hurdles in a line",
+        "red track surface",
+        "jumping motion over obstacles"
+      ],
+      "importance": "critical",
+      "rationale": "Core action defines the entire clip and athletic discipline being demonstrated"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of surface is the athlete training on?",
+      "answer_key": "A red synthetic running track at an outdoor athletic facility",
+      "required_visual_evidence": [
+        "red track surface",
+        "outdoor setting",
+        "athletic field",
+        "fence in background"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for the training environment and sport type"
+    },
+    {
+      "q_idx": 2,
+      "question": "How many hurdles are visible in the sequence?",
+      "answer_key": "Four hurdles arranged in a line across the track",
+      "required_visual_evidence": [
+        "multiple hurdles",
+        "white horizontal bars",
+        "consistent spacing",
+        "four distinct obstacles"
+      ],
+      "importance": "useful",
+      "rationale": "Number of hurdles helps listener understand the drill complexity and distance"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the athlete wearing?",
+      "answer_key": "A blue athletic uniform or tracksuit",
+      "required_visual_evidence": [
+        "blue clothing",
+        "athletic wear",
+        "consistent across frames"
+      ],
+      "importance": "useful",
+      "rationale": "Clothing description helps listener visualize the athlete and training context"
+    },
+    {
+      "q_idx": 4,
+      "question": "What equipment is visible on the track besides the hurdles?",
+      "answer_key": "A yellow step or platform and a red barrier or mat",
+      "required_visual_evidence": [
+        "yellow platform",
+        "red barrier/mat",
+        "left side of track",
+        "training equipment"
+      ],
+      "importance": "useful",
+      "rationale": "Additional equipment indicates structured training setup and drill components"
+    }
+  ]
+}

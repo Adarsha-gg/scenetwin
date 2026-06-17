@@ -1,0 +1,37 @@
+video_id,tier,gt,adqa_score,clip_top3,text
+3ufJNSez5Is_000008_000018,tier0_cross,0,0.0,0.04605633020401,
+3ufJNSez5Is_000008_000018,tier1_vatex_short,1,0.5,0.3472655713558197,
+3ufJNSez5Is_000008_000018,tierM_machine_ad,2,1.0,0.3390704393386841,"A person in a purple shirt sits at a pottery wheel, expertly shaping a tall, flared clay vessel with their hands. They work in a sunlit studio filled with pottery tools and various ceramic pieces. A second person is partly visible, and large windows overlook green foliage."
+3ufJNSez5Is_000008_000018,tier3_va11y,3,0.6,0.3258646428585052,
+_oAKCHh_Av4_000003_000013,tier0_cross,0,0.0,0.0678605511784553,
+_oAKCHh_Av4_000003_000013,tier1_vatex_short,1,0.2,0.3176219165325165,
+_oAKCHh_Av4_000003_000013,tierM_machine_ad,2,0.3,0.3483603894710541,"A bearded man in a brown shirt sits on a sofa, holding a black vaping device to his mouth. He inhales, then exhales a large cloud of white vapor upwards with a smile. A woman sits on another sofa in the background, looking down. The room has white walls with a red stripe."
+_oAKCHh_Av4_000003_000013,tier3_va11y,3,0.2,0.308248370885849,
+BcW6Y7eufQE_000239_000249,tier0_cross,0,0.0,0.0436212718486785,
+BcW6Y7eufQE_000239_000249,tier1_vatex_short,1,0.2,0.2236354798078537,
+BcW6Y7eufQE_000239_000249,tierM_machine_ad,2,0.8,0.3365369737148285,"Two women sit facing each other in a plain room. The woman on the right, holding a pen, suddenly turns away, then back, covering her face and laughing. The blonde woman in a pink hoodie smiles at her, watching her reaction."
+BcW6Y7eufQE_000239_000249,tier3_va11y,3,0.8,0.2819806933403015,
+EA3HCx0yTIY_000281_000291,tier0_cross,0,0.0,0.0413055121898651,
+EA3HCx0yTIY_000281_000291,tier1_vatex_short,1,0.4,0.3065612316131592,
+EA3HCx0yTIY_000281_000291,tierM_machine_ad,2,1.0,0.3204481303691864,"A bearded man in a dark shirt plays a black and silver drum kit in a recording studio. He holds drumsticks, striking the large cymbals and various drums. Sound-dampening panels with a grid pattern line the walls behind him, along with wooden beams."
+EA3HCx0yTIY_000281_000291,tier3_va11y,3,1.0,0.3620990812778473,
+j6CgiNeWQwM_000842_000852,tier0_cross,0,0.0,0.0295474901795387,
+j6CgiNeWQwM_000842_000852,tier1_vatex_short,1,0.4,0.2851962149143219,
+j6CgiNeWQwM_000842_000852,tierM_machine_ad,2,0.8,0.24542593955993652,"In a bright kitchen, a woman in an apron holds a glass bowl of cake batter. A chef in a white uniform uses a spatula to scrape the light-colored batter into a round metal baking pan. They are preparing to bake on a dark countertop with white cabinets in the background."
+j6CgiNeWQwM_000842_000852,tier3_va11y,3,0.6,0.3035511076450348,
+9fuIpQgnNEQ_000049_000059,tier0_cross,0,0.0,-0.0209983438253402,
+9fuIpQgnNEQ_000049_000059,tier1_vatex_short,1,0.0,0.2418421506881714,
+9fuIpQgnNEQ_000049_000059,tierM_machine_ad,2,0.1,0.21495898067951202,"A man in a white shirt and backpack stands in a crowded outdoor pedestrian area, holding a camera. He smiles and films the diverse group of people walking and standing around him, next to a building with large display panels."
+9fuIpQgnNEQ_000049_000059,tier3_va11y,3,0.1,0.3004569709300995,
+u-olDM7oGGM_000012_000022,tier0_cross,0,0.0,0.024823360145092,
+u-olDM7oGGM_000012_000022,tier1_vatex_short,1,0.2,0.2536192238330841,
+u-olDM7oGGM_000012_000022,tierM_machine_ad,2,0.5,0.3385642468929291,"A young boy with a backpack walks on a sidewalk next to a street with cars. He pulls a blue and white jacket over his head, then quickly removes it, smiling. He then runs forward, looking back playfully, as a woman walks a black dog behind him, with houses and mountains in the distance."
+u-olDM7oGGM_000012_000022,tier3_va11y,3,0.4,0.2955004870891571,
+eb-ufaFcUas_000008_000018,tier0_cross,0,0.0,0.0518747381865978,
+eb-ufaFcUas_000008_000018,tier1_vatex_short,1,0.2,0.2669952809810638,
+eb-ufaFcUas_000008_000018,tierM_machine_ad,2,0.2,0.3892807066440582,A person in a white shirt and red shorts bounces high on a trampoline inside a brightly lit shopping mall. They repeatedly jump several feet into the air next to a tall pillar displaying a large watch advertisement and various store signs.
+eb-ufaFcUas_000008_000018,tier3_va11y,3,0.2,0.3247540593147278,
+heWD9j45Emw_000225_000235,tier0_cross,0,0.0,0.0401252508163452,
+heWD9j45Emw_000225_000235,tier1_vatex_short,1,0.3,0.3037915527820587,
+heWD9j45Emw_000225_000235,tierM_machine_ad,2,0.9,0.2956847548484802,"A five-man band performs on a stage under bright blue and green spotlights. The central musician plays a red and white accordion, while others play saxophones and a trumpet. Drums and congas are visible behind them. All wear white shirts and light pants, actively playing their instruments."
+heWD9j45Emw_000225_000235,tier3_va11y,3,0.5,0.2960875332355499,

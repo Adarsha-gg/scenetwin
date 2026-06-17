@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject shown using the device?",
+      "answer_key": "A young girl.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action performed by the children?",
+      "answer_key": "They are examining objects up close with a device.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What type of device are the children using?",
+      "answer_key": "A small, white, portable microscope or magnifier.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What are the two main locations where the device is used?",
+      "answer_key": "Outdoors by a pillar and indoors at a table.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color shirt is the girl wearing throughout the video?",
+      "answer_key": "A white collared shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What specific objects is the girl examining on the table?",
+      "answer_key": "Glittery star-shaped cutouts.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "Name two colors of the star-shaped objects.",
+      "answer_key": "Red and blue.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "Besides the girl, who else is seen using the device?",
+      "answer_key": "A boy in a blue t-shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the girl looking at when kneeling outdoors?",
+      "answer_key": "The paved ground surface.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is visible in the girl's hair in the outdoor scenes?",
+      "answer_key": "A pink hair tie.",
+      "tier": "secondary"
+    }
+  ]
+}

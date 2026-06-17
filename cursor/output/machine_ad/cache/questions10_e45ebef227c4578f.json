@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main person shown in the video?",
+      "answer_key": "A young boy.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the boy doing with the blue and white jacket?",
+      "answer_key": "He puts it over his head, then takes it off.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting of the video?",
+      "answer_key": "A sidewalk next to a street with houses and mountains.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What item is the boy carrying on his back?",
+      "answer_key": "A black backpack.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the boy's t-shirt?",
+      "answer_key": "White.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What animal is walking on a leash behind the boy?",
+      "answer_key": "A black dog.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What type of fence runs alongside the sidewalk?",
+      "answer_key": "A chain-link fence.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What color is the car driving on the road in the first frame?",
+      "answer_key": "Dark grey or black.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the boy's facial expression after removing the jacket?",
+      "answer_key": "He is smiling and appears happy.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Are there any utility poles visible along the street?",
+      "answer_key": "Yes, at least one wooden utility pole.",
+      "tier": "secondary"
+    }
+  ]
+}

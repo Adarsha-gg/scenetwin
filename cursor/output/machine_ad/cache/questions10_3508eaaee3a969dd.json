@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of animal is being sheared?",
+      "answer_key": "A sheep.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What main action is being performed?",
+      "answer_key": "Shearing the animal's wool.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location?",
+      "answer_key": "On a dirty floor, likely indoors.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What tool is being used for shearing?",
+      "answer_key": "An electric shearer or clipper.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "How is the animal positioned?",
+      "answer_key": "Lying on its back with its legs restrained.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What color is the person's visible shirt?",
+      "answer_key": "A dark or black shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "Describe the animal's appearance where it has been sheared.",
+      "answer_key": "Patches of white skin and dark fur are visible.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is used to restrain the animal's legs?",
+      "answer_key": "Brown ropes or cords.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is scattered on the floor around the animal?",
+      "answer_key": "Dirt, debris, and shorn wool.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the pattern of the animal's fur/wool?",
+      "answer_key": "It has patches of white and dark wool.",
+      "tier": "secondary"
+    }
+  ]
+}

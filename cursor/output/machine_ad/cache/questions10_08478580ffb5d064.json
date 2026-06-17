@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who are the main subjects in the video?",
+      "answer_key": "Many people, mostly young adults and teens.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What activity are the people primarily engaged in?",
+      "answer_key": "Roller skating and dancing.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does the video clip take place?",
+      "answer_key": "A roller skating rink.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What type of footwear are most people wearing?",
+      "answer_key": "Roller skates.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color shirt is the person in the foreground of the first frame wearing?",
+      "answer_key": "A yellow and black tiger-stripe top.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What kind of lighting is visible on the ceiling?",
+      "answer_key": "Colorful neon lights and disco lights.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "Approximately how many people are visible in the skating area?",
+      "answer_key": "Dozens of people.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "Are the people skating in a structured line or freely?",
+      "answer_key": "They are skating both in lines and freely.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is visible on the far left wall in some frames?",
+      "answer_key": "A large white screen or monitor.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What color pants is the person in the foreground of the first frame wearing?",
+      "answer_key": "Dark green or teal pants.",
+      "tier": "secondary"
+    }
+  ]
+}

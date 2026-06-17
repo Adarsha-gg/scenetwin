@@ -1,0 +1,18 @@
+{
+  "n_clips": 58,
+  "assistant_mode_counts": {
+    "depth_guarded_guidance": 5,
+    "plain_description": 9,
+    "proactive_question_chip": 3,
+    "stateful_video_agent": 22,
+    "verify_before_answer": 19
+  },
+  "mean_followup_pressure": 0.6456327586206897,
+  "hallucination_sensitive_n": 28,
+  "depth_guard_n": 16,
+  "needs_video_index_n": 41,
+  "assistant_not_plain_target_recall": 0.9629629629629629,
+  "verify_before_answer_target_n": 12,
+  "stateful_video_agent_target_n": 13,
+  "plain_description_target_misses": 1
+}

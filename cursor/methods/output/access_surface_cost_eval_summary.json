@@ -1,0 +1,97 @@
+{
+  "input": "cursor/methods/output/access_surface_router.csv",
+  "policies": [
+    {
+      "policy": "all_static",
+      "n_clips": 58,
+      "mean_cost": 0.5818141508326715,
+      "total_cost": 33.74522074829495,
+      "spoken_now_rate": 1.0,
+      "passive_rate": 0.0,
+      "queued_rate": 0.0,
+      "pro_not_best_recall": 0.0,
+      "high_collision_recall": 0.0,
+      "avoidable_static_misses": 27,
+      "caught_targets": 0,
+      "caught_targets_per_cost": 0.0,
+      "surface_count": {
+        "static_ad": 58
+      }
+    },
+    {
+      "policy": "need_only",
+      "n_clips": 58,
+      "mean_cost": 0.37360214166471734,
+      "total_cost": 21.668924216553606,
+      "spoken_now_rate": 0.5344827586206896,
+      "passive_rate": 0.46551724137931033,
+      "queued_rate": 0.0,
+      "pro_not_best_recall": 0.5555555555555556,
+      "high_collision_recall": 0.5416666666666666,
+      "avoidable_static_misses": 12,
+      "caught_targets": 15,
+      "caught_targets_per_cost": 0.6922355650928441,
+      "surface_count": {
+        "static_ad": 31,
+        "detail_chip": 27
+      }
+    },
+    {
+      "policy": "speech_need",
+      "n_clips": 58,
+      "mean_cost": 0.3948963426908373,
+      "total_cost": 22.903987876068562,
+      "spoken_now_rate": 0.6379310344827587,
+      "passive_rate": 0.0,
+      "queued_rate": 0.3620689655172414,
+      "pro_not_best_recall": 0.4444444444444444,
+      "high_collision_recall": 0.3333333333333333,
+      "avoidable_static_misses": 15,
+      "caught_targets": 12,
+      "caught_targets_per_cost": 0.5239262291322774,
+      "surface_count": {
+        "static_ad": 37,
+        "defer_replay": 21
+      }
+    },
+    {
+      "policy": "social_collision",
+      "n_clips": 58,
+      "mean_cost": 0.4025112432595558,
+      "total_cost": 23.345652109054235,
+      "spoken_now_rate": 0.5862068965517241,
+      "passive_rate": 0.41379310344827586,
+      "queued_rate": 0.0,
+      "pro_not_best_recall": 0.5925925925925926,
+      "high_collision_recall": 1.0,
+      "avoidable_static_misses": 11,
+      "caught_targets": 16,
+      "caught_targets_per_cost": 0.6853524555775702,
+      "surface_count": {
+        "static_ad": 34,
+        "detail_chip": 24
+      }
+    },
+    {
+      "policy": "surface_router_v1",
+      "n_clips": 58,
+      "mean_cost": 0.2717175850228673,
+      "total_cost": 15.759619931326304,
+      "spoken_now_rate": 0.43103448275862066,
+      "passive_rate": 0.3620689655172414,
+      "queued_rate": 0.20689655172413793,
+      "pro_not_best_recall": 0.9259259259259259,
+      "high_collision_recall": 0.9166666666666666,
+      "avoidable_static_misses": 2,
+      "caught_targets": 25,
+      "caught_targets_per_cost": 1.5863326722940863,
+      "surface_count": {
+        "static_ad": 19,
+        "identity_chip": 18,
+        "defer_replay": 12,
+        "concise_cue": 6,
+        "creator_qc": 3
+      }
+    }
+  ]
+}

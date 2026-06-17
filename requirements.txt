@@ -11,6 +11,9 @@ open-clip-torch
 Pillow
 numpy
 pandas
+scipy
+scikit-learn
+tabulate
 
 # Existing fallback/demo UI
 gradio

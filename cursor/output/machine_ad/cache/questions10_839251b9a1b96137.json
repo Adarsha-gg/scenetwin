@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject performing the action?",
+      "answer_key": "A person riding a jet ski.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action occurring in the video?",
+      "answer_key": "A person rides a jet ski and falls into the water.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where does the action take place?",
+      "answer_key": "On a large body of water, likely a lake, with a forested shore.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main vehicle or object involved in the action?",
+      "answer_key": "A jet ski.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are observing the event from the shore?",
+      "answer_key": "Three people are watching from the shore.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is the person on the jet ski wearing?",
+      "answer_key": "A yellow life vest.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "Describe the color of the jet ski.",
+      "answer_key": "The jet ski is dark blue/black and white.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What happens immediately after the person falls off the jet ski?",
+      "answer_key": "The jet ski continues moving forward without the rider.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is visible on the distant shoreline?",
+      "answer_key": "A dense forest and a small building.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Where is the person after falling from the jet ski?",
+      "answer_key": "The person is in the water, wearing a life vest.",
+      "tier": "secondary"
+    }
+  ]
+}

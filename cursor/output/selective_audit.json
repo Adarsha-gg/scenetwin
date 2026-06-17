@@ -1,0 +1,145 @@
+{
+  "run_at": "2026-06-07T18:19:43.605481+00:00",
+  "signal": "reference_free_min_adjacent_margin",
+  "n_clips": 60,
+  "full_coverage_rho": 0.8731713300938145,
+  "benchmark_rho": 0.9285,
+  "selective_50pct": {
+    "coverage": 0.5,
+    "n_clips": 30,
+    "rho": 0.910802029674951,
+    "ci95": [
+      0.8929623073087389,
+      0.9307843868750367
+    ],
+    "overlaps_benchmark": true
+  },
+  "abstention_targets_real_misses": {
+    "real_pro_misses_total": 5,
+    "real_pro_misses_abstained": 4,
+    "pass_clips_total": 30,
+    "pass_clips_abstained": 9
+  },
+  "risk_coverage": [
+    {
+      "coverage": 0.3,
+      "n_clips": 18,
+      "confidence_rho": 0.9263237266445472,
+      "random_rho_mean": 0.8749797450846036,
+      "random_rho_p95": 0.9094127413695511,
+      "beats_random_frac": 0.998
+    },
+    {
+      "coverage": 0.35,
+      "n_clips": 21,
+      "confidence_rho": 0.9219208520706406,
+      "random_rho_mean": 0.8715028099327371,
+      "random_rho_p95": 0.9041813031176048,
+      "beats_random_frac": 1.0
+    },
+    {
+      "coverage": 0.39999999999999997,
+      "n_clips": 24,
+      "confidence_rho": 0.9179122046425163,
+      "random_rho_mean": 0.8735231718776584,
+      "random_rho_p95": 0.9044188342003208,
+      "beats_random_frac": 0.998
+    },
+    {
+      "coverage": 0.44999999999999996,
+      "n_clips": 27,
+      "confidence_rho": 0.9095649855180378,
+      "random_rho_mean": 0.8735947951337487,
+      "random_rho_p95": 0.903269766098806,
+      "beats_random_frac": 0.98
+    },
+    {
+      "coverage": 0.5,
+      "n_clips": 30,
+      "confidence_rho": 0.910802029674951,
+      "random_rho_mean": 0.8739076977744058,
+      "random_rho_p95": 0.8998138916082097,
+      "beats_random_frac": 0.994
+    },
+    {
+      "coverage": 0.5499999999999999,
+      "n_clips": 33,
+      "confidence_rho": 0.9125497391881001,
+      "random_rho_mean": 0.8727092089862756,
+      "random_rho_p95": 0.8998369609909513,
+      "beats_random_frac": 1.0
+    },
+    {
+      "coverage": 0.6,
+      "n_clips": 36,
+      "confidence_rho": 0.9074598724021284,
+      "random_rho_mean": 0.87370929831642,
+      "random_rho_p95": 0.8971516832294537,
+      "beats_random_frac": 0.996
+    },
+    {
+      "coverage": 0.6499999999999999,
+      "n_clips": 39,
+      "confidence_rho": 0.9048880375387729,
+      "random_rho_mean": 0.8728713275719444,
+      "random_rho_p95": 0.8957989314622096,
+      "beats_random_frac": 0.998
+    },
+    {
+      "coverage": 0.7,
+      "n_clips": 42,
+      "confidence_rho": 0.903628378248326,
+      "random_rho_mean": 0.8732026560600821,
+      "random_rho_p95": 0.8940029638997895,
+      "beats_random_frac": 0.998
+    },
+    {
+      "coverage": 0.75,
+      "n_clips": 45,
+      "confidence_rho": 0.8905981187688072,
+      "random_rho_mean": 0.8730451303028371,
+      "random_rho_p95": 0.891452657701006,
+      "beats_random_frac": 0.938
+    },
+    {
+      "coverage": 0.7999999999999999,
+      "n_clips": 48,
+      "confidence_rho": 0.8869890966873827,
+      "random_rho_mean": 0.8731476211305519,
+      "random_rho_p95": 0.888226937490963,
+      "beats_random_frac": 0.938
+    },
+    {
+      "coverage": 0.8499999999999999,
+      "n_clips": 51,
+      "confidence_rho": 0.887071649721215,
+      "random_rho_mean": 0.8728244143067972,
+      "random_rho_p95": 0.8860644950728231,
+      "beats_random_frac": 0.958
+    },
+    {
+      "coverage": 0.8999999999999999,
+      "n_clips": 54,
+      "confidence_rho": 0.8864527675846373,
+      "random_rho_mean": 0.8730182159225676,
+      "random_rho_p95": 0.8851438689857446,
+      "beats_random_frac": 0.978
+    },
+    {
+      "coverage": 0.95,
+      "n_clips": 57,
+      "confidence_rho": 0.8867081942863014,
+      "random_rho_mean": 0.8730717274818711,
+      "random_rho_p95": 0.8820819998296549,
+      "beats_random_frac": 0.986
+    },
+    {
+      "coverage": 1.0,
+      "n_clips": 60,
+      "confidence_rho": 0.8731713300938145,
+      "random_rho_mean": 0.8731713300938145,
+      "random_rho_p95": 0.8731713300938145,
+      "beats_random_frac": 0.0
+    }
+  ]
+}

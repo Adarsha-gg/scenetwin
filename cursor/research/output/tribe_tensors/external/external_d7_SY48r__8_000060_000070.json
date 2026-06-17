@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_d7_SY48r__8_000060_000070",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/d7_SY48r__8_000060_000070.mp4",
+  "ad_text_used": "In a room, a person is shearing a sheep using electric clippers. The sheep lies calmly on the floor as the person carefully removes its wool. The clippers buzz as they glide over the sheep's body, efficiently trimming the thick coat.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.41756418063859524,
+  "description_gain": -0.2832248487870783,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    17,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "d7_SY48r__8_000060_000070",
+  "category": "How-to & Instructional",
+  "yt_id": "d7_SY48r__8",
+  "start_s": 60.0,
+  "end_s": 70.0
+}

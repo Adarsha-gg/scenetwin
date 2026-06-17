@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_17_gjoZic4WjiQ_000012_000022",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_17.mp4",
+  "ad_text_used": "In a snowy playground, a girl in a red hat runs up a steep, snow-covered hill between two blue slides. She slips halfway and slides back down, laughing. Another girl, wearing a knitted hat, eagerly takes her turn, attempting to climb the same hill. The scene is filled with laughter and playful attempts as they enjoy the snowy challenge.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.12337978782273751,
+  "description_gain": -0.20362789203162757,
+  "alignment_cosine": 0.9920502516547521,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    27,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 17,
+  "video_id": "gjoZic4WjiQ_000012_000022",
+  "category": "Pets & Animals",
+  "duration_s": 19.37,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

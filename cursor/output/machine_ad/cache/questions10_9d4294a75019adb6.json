@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject of the video?",
+      "answer_key": "A person, appearing to be a woman.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main action performed by the person?",
+      "answer_key": "Setting up an ice fishing tip-up.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location of the scene?",
+      "answer_key": "On a large, flat expanse of ice.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the primary object the person is interacting with?",
+      "answer_key": "A bright yellow ice fishing tip-up.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the person's hoodie?",
+      "answer_key": "Bright pink.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What type of outerwear is the person wearing on their lower body?",
+      "answer_key": "Grey overalls or waders.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is visible on the ice around the yellow object?",
+      "answer_key": "A small hole in the ice with slush or water.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "Describe the change in the person's posture throughout the clip.",
+      "answer_key": "She goes from standing to bending, then kneeling.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is visible on the horizon in the background?",
+      "answer_key": "A hazy line of land or trees.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What color is the flag on the ice fishing tip-up?",
+      "answer_key": "Black.",
+      "tier": "secondary"
+    }
+  ]
+}

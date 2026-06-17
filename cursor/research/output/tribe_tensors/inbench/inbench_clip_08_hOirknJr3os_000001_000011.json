@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_08_hOirknJr3os_000001_000011",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_08.mp4",
+  "ad_text_used": "The video begins with a sign for KOA Ranch, featuring a silhouette of a horse. Horses graze peacefully in a sunlit pasture. The scene shifts to a group of people riding horses along a wooded trail, accompanied by a song about camping. This advertisement highlights the scenic beauty and horse riding experiences offered at KOA campgrounds.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.1798257689921754,
+  "description_gain": -0.17446029667303486,
+  "alignment_cosine": 0.9784949764418776,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    26,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 8,
+  "video_id": "hOirknJr3os_000001_000011",
+  "category": "Travel",
+  "duration_s": 16.39,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

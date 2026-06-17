@@ -1,0 +1,81 @@
+{
+  "n_clips_total": 60,
+  "anchors": {
+    "A1_human_expert": {
+      "auc": 0.8352777777777778,
+      "recall": 0.7,
+      "fpr": 0.1,
+      "tau": 0.0237634301185608,
+      "n_pos": 60,
+      "n_neg": 60,
+      "auc_ci95": [
+        0.7597152777777777,
+        0.9022222222222223
+      ]
+    },
+    "A2_model_paraphrase": {
+      "auc": 0.8494444444444446,
+      "recall": 0.7333333333333333,
+      "fpr": 0.1,
+      "tau": 0.00642605721950526,
+      "n_pos": 60,
+      "n_neg": 60,
+      "auc_ci95": [
+        0.768048611111111,
+        0.9199999999999999
+      ]
+    },
+    "A3a_indep_modelAD_vs_gemini_lie": {
+      "auc": 0.7283950617283951,
+      "recall": 0.5555555555555556,
+      "fpr": 0.1111111111111111,
+      "tau": 0.05655035376548767,
+      "n_pos": 9,
+      "n_neg": 9,
+      "auc_ci95": [
+        0.45679012345679015,
+        0.9382716049382716
+      ],
+      "n_clips": 9
+    },
+    "A3b_indep_modelAD_vs_human_lie": {
+      "auc": 0.8148148148148148,
+      "recall": 0.6666666666666666,
+      "fpr": 0.1111111111111111,
+      "tau": 0.05655035376548767,
+      "n_pos": 9,
+      "n_neg": 9,
+      "auc_ci95": [
+        0.5679012345679012,
+        1.0
+      ],
+      "n_clips": 9
+    },
+    "A4_cross_clip_null": {
+      "auc_mean": 0.6019305555555556,
+      "auc_sd": 0.009554697555149014,
+      "auc_range": [
+        0.5841666666666667,
+        0.6266666666666667
+      ],
+      "recall_at_fpr10_mean": 0.20833333333333334,
+      "n_derangements": 20,
+      "n_pos": 60,
+      "n_neg": 60
+    },
+    "A0_no_anchor_absolute": {
+      "auc": 0.6644444444444444,
+      "recall": 0.3333333333333333,
+      "fpr": 0.1,
+      "tau": -0.26858704686164847,
+      "n_pos": 60,
+      "n_neg": 60,
+      "auc_ci95": [
+        0.5638819444444444,
+        0.7611180555555556
+      ]
+    }
+  },
+  "A1_vs_null_p": 0.0,
+  "headline": "Grounding-drop gate is anchor-author-agnostic: human-expert AUC 0.84, model-paraphrase AUC 0.85, independent model-AD AUC 0.73 (human lie 0.81); cross-clip anchor collapses to 0.60 (chance). The gate needs a clip-relevant anchor, not a human one."
+}

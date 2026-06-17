@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A dark-colored shirt or t-shirt",
+      "required_visual_evidence": [
+        "person in dark shirt",
+        "visible across multiple frames"
+      ],
+      "importance": "useful",
+      "rationale": "Identifies the main subject's appearance for scene understanding"
+    },
+    {
+      "q_idx": 1,
+      "question": "What bright object is visible on the left side of the scene?",
+      "answer_key": "A bright blue glowing light or screen",
+      "required_visual_evidence": [
+        "cyan/blue bright light",
+        "left side of frame",
+        "frames 7-8"
+      ],
+      "importance": "critical",
+      "rationale": "Prominent visual element that dominates the lighting and composition"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or environment where this scene takes place?",
+      "answer_key": "A dark indoor location, possibly a cave or enclosed space",
+      "required_visual_evidence": [
+        "predominantly black background",
+        "dark rocky surfaces",
+        "low lighting"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the location context essential for scene comprehension"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main subject's body position or posture?",
+      "answer_key": "Standing or moving, with arms visible and engaged",
+      "required_visual_evidence": [
+        "person standing",
+        "visible arms",
+        "active posture"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the subject's physical state and engagement in the scene"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the dominant light source illuminating the scene?",
+      "answer_key": "Bright cyan or electric blue light",
+      "required_visual_evidence": [
+        "bright blue glow",
+        "left side lighting",
+        "frames 7-8"
+      ],
+      "importance": "useful",
+      "rationale": "Key visual characteristic affecting mood and scene visibility"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What type of location or venue is shown in these frames?",
+      "answer_key": "An indoor public space or corridor with storefronts and display windows",
+      "required_visual_evidence": [
+        "storefront windows",
+        "display cases",
+        "indoor corridor",
+        "tiled flooring"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for understanding the scene and crowd gathering"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary activity or event occurring in this scene?",
+      "answer_key": "A large crowd of people gathered in a line or queue in an indoor space",
+      "required_visual_evidence": [
+        "large crowd",
+        "people standing together",
+        "organized gathering",
+        "multiple frames showing same scene"
+      ],
+      "importance": "critical",
+      "rationale": "Main action defines what viewers are witnessing and why people are assembled"
+    },
+    {
+      "q_idx": 2,
+      "question": "What are the people in the crowd wearing or carrying?",
+      "answer_key": "Casual clothing; some carry backpacks or bags",
+      "required_visual_evidence": [
+        "backpacks visible",
+        "casual attire",
+        "bags on shoulders"
+      ],
+      "importance": "useful",
+      "rationale": "Clothing and accessories provide context about crowd composition and purpose"
+    },
+    {
+      "q_idx": 3,
+      "question": "Are there any uniformed or distinctly dressed individuals visible in the crowd?",
+      "answer_key": "Yes, people wearing camouflage or military-style clothing are present",
+      "required_visual_evidence": [
+        "camouflage pattern clothing",
+        "military-style uniforms",
+        "distinct from casual crowd"
+      ],
+      "importance": "useful",
+      "rationale": "Uniformed individuals suggest official event or organized gathering context"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many frames show this same indoor venue and crowd scene?",
+      "answer_key": "Multiple frames show the same location from slightly different angles or moments",
+      "required_visual_evidence": [
+        "repeated venue",
+        "same storefronts",
+        "same crowd composition",
+        "sequential progression"
+      ],
+      "importance": "useful",
+      "rationale": "Multiple angles help AD writer convey spatial layout and crowd scale effectively"
+    }
+  ]
+}

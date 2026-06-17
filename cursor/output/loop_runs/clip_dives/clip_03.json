@@ -1,0 +1,61 @@
+{
+  "task": "clip_deep_dive",
+  "clip_idx": 3,
+  "category": "Food & Cooking",
+  "risk_rank": 5,
+  "risk_score": 0.1174465648562957,
+  "quality_risk": "clean",
+  "tribe_route": "low/normal AD pressure",
+  "tier_scores": [
+    {
+      "tier": "tier0_cross",
+      "gt": 0,
+      "adqa_v2_score": 0.0,
+      "clip_top3": 0.0747132909794648,
+      "ensemble_mean_clip_top3": 0.0
+    },
+    {
+      "tier": "tier1_vatex_short",
+      "gt": 1,
+      "adqa_v2_score": 0.1,
+      "clip_top3": 0.2620121406184302,
+      "ensemble_mean_clip_top3": 0.5392802540566467
+    },
+    {
+      "tier": "tier2_vatex_long",
+      "gt": 2,
+      "adqa_v2_score": 0.3,
+      "clip_top3": 0.277018666267395,
+      "ensemble_mean_clip_top3": 0.7744757206187298
+    },
+    {
+      "tier": "tier3_va11y",
+      "gt": 3,
+      "adqa_v2_score": 0.5,
+      "clip_top3": 0.2879016233815087,
+      "ensemble_mean_clip_top3": 1.0
+    }
+  ],
+  "peak_need": {
+    "t": 1.49,
+    "score": 1.0
+  },
+  "grades_by_tier": {
+    "tier0_cross": {
+      "mean": 0.0,
+      "critical_mean": 0.0
+    },
+    "tier1_vatex_short": {
+      "mean": 0.5,
+      "critical_mean": 0.5
+    },
+    "tier2_vatex_long": {
+      "mean": 0.7,
+      "critical_mean": 0.8333333333333334
+    },
+    "tier3_va11y": {
+      "mean": 0.7,
+      "critical_mean": 0.8333333333333334
+    }
+  }
+}

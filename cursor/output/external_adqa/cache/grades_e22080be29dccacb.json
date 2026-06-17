@@ -1,0 +1,164 @@
+{
+  "grades": [
+    {
+      "candidate_id": "A",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "scraping icing out of a large mixing bowl into a smaller baking pan",
+      "rationale": "Describes icing/cake frosting, not dough transfer. Wrong material and action."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "In a kitchen",
+      "rationale": "Confirms kitchen setting but lacks specific details like white tiles, cabinets."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "smaller baking pan",
+      "rationale": "Describes baking pan, not metal cylindrical pot. Wrong container type."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 3,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "Two women",
+      "rationale": "Identifies two people but no mention of apron or chef attire."
+    },
+    {
+      "candidate_id": "A",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "scraping icing out of a large mixing bowl",
+      "rationale": "No cloth or fabric mentioned. Describes bowl, not cloth-held dough."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 0,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier navigates a snowy hill, weaving between flexible poles",
+      "rationale": "Completely different scene. Skiing, not cooking or dough transfer."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "At night, a skier navigates a snowy hill",
+      "rationale": "Outdoor skiing location, not kitchen. Contradicts answer key."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "flexible poles",
+      "rationale": "Describes slalom poles, not metal cooking pot."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "a skier",
+      "rationale": "One skier, not two people in kitchen. Wrong context entirely."
+    },
+    {
+      "candidate_id": "B",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "snowy hill",
+      "rationale": "No cloth or dough mentioned. Completely unrelated scene."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "transfer the batter into a round cake pan",
+      "rationale": "Describes transfer action but into cake pan, not metal pot. Wrong container."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 1,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "In a kitchen",
+      "rationale": "Confirms kitchen but lacks specific details like white tiles, cabinets."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "round cake pan lined with parchment paper",
+      "rationale": "Describes cake pan, not metal cylindrical pot. Wrong container type."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 3,
+      "score": 1.0,
+      "label": "yes",
+      "evidence_quote": "a chef and an assistant",
+      "rationale": "Identifies two people with roles matching answer key description."
+    },
+    {
+      "candidate_id": "C",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "batter",
+      "rationale": "Describes batter in bowl, not dough held in cloth. Wrong material and container."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 0,
+      "score": 0.5,
+      "label": "partial",
+      "evidence_quote": "scooping a batter into a cake pan",
+      "rationale": "Describes transfer action but into cake pan, not metal pot. Wrong container."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 1,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No setting or location information provided."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 2,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "cake pan",
+      "rationale": "Describes cake pan, not metal cylindrical pot."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 3,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "",
+      "rationale": "No information about number of people or their attire."
+    },
+    {
+      "candidate_id": "D",
+      "q_idx": 4,
+      "score": 0.0,
+      "label": "no",
+      "evidence_quote": "batter",
+      "rationale": "Describes batter, not dough in cloth. No mention of cloth material."
+    }
+  ]
+}

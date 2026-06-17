@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject shown in the frames?",
+      "answer_key": "A person.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action the person is performing?",
+      "answer_key": "Working on or shaping ice blocks.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting or location?",
+      "answer_key": "Indoors, against a plain wall.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main object the person interacts with?",
+      "answer_key": "Large, clear ice blocks.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the jacket worn by the person?",
+      "answer_key": "Dark blue with white stripes.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What tool is the person using on the ice?",
+      "answer_key": "A yellow-handled tool, like an ice pick.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "Describe the pattern on the person's white shirt.",
+      "answer_key": "Dark, circular, and abstract patterns.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "How many ice blocks are stacked vertically?",
+      "answer_key": "At least five blocks are stacked.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the shape of the individual ice blocks?",
+      "answer_key": "Rectangular with rounded edges and inner indentations.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What color is the wall behind the ice blocks?",
+      "answer_key": "A plain, light beige or off-white.",
+      "tier": "secondary"
+    }
+  ]
+}

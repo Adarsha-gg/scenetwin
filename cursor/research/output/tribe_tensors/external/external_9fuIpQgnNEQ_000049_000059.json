@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_9fuIpQgnNEQ_000049_000059",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/9fuIpQgnNEQ_000049_000059.mp4",
+  "ad_text_used": "Outside a bustling convention center, a large crowd forms a line along the sidewalk. People are dressed in various outfits, some in cosplay. A man with a camera captures photos of the scene, focusing on individuals in costume. The atmosphere is lively as attendees chat and move slowly forward in the line.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.059317410929392245,
+  "description_gain": -0.3498371936054525,
+  "alignment_cosine": 0.9999999999980427,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    25,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "9fuIpQgnNEQ_000049_000059",
+  "category": "Event",
+  "yt_id": "9fuIpQgnNEQ",
+  "start_s": 49.0,
+  "end_s": 59.0
+}

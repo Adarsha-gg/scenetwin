@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "A young child is riding a red tricycle on a concrete surface.",
+      "required_visual_evidence": [
+        "young child",
+        "red tricycle",
+        "concrete surface/pavement"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the primary action and subject essential to understanding the clip."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the child wearing?",
+      "answer_key": "A white or light-colored short-sleeved shirt and yellow leg coverings or socks.",
+      "required_visual_evidence": [
+        "white shirt",
+        "yellow leg coverings",
+        "short sleeves"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the child's appearance, important for visual scene comprehension."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location where this activity takes place?",
+      "answer_key": "An outdoor residential area with a concrete driveway or pathway and vegetation nearby.",
+      "required_visual_evidence": [
+        "concrete surface",
+        "outdoor",
+        "residential setting",
+        "vegetation/plants"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the environment context necessary for scene understanding."
+    },
+    {
+      "q_idx": 3,
+      "question": "What features does the tricycle have?",
+      "answer_key": "The tricycle has a red frame, a red basket in front, and yellow wheel covers or lights.",
+      "required_visual_evidence": [
+        "red frame",
+        "front basket",
+        "yellow wheel covers/lights"
+      ],
+      "importance": "useful",
+      "rationale": "Describes key characteristics of the main object in the scene."
+    },
+    {
+      "q_idx": 4,
+      "question": "How does the child's position or stance change throughout the video?",
+      "answer_key": "The child transitions from standing on the pedals to sitting while riding the tricycle.",
+      "required_visual_evidence": [
+        "standing position",
+        "sitting position",
+        "riding motion"
+      ],
+      "importance": "useful",
+      "rationale": "Captures the dynamic movement and changing posture during the activity."
+    }
+  ]
+}

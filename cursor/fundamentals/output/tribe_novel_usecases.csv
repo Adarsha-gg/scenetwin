@@ -1,0 +1,29 @@
+usecase_id,name,stat,value,note
+UC01,Judge fragility forecast,spearman_slot_vs_full_order,-0.5985056016645797,p=0.0087 — low slot score → judges disagree on tier order
+UC01,Judge fragility forecast,auc_slot_vs_full_order_fail,0.0,Use -slot_score to flag clips before running 4-judge ADQA
+UC02,Audio-native capture coach,auc_coach_vs_critical_miss,0.4777777777777778,High collision debt + non-Sports → pro AD misses critical Qs; coach narrate live
+UC02,Audio-native capture coach,auc_collision_debt_vs_critical_miss,0.4444444444444444,Raw collision debt without category gate
+UC03,AD word budget recommender,rankcorr_need_vs_pro_words,-0.014462817634778559,Positive → humans already scale length with need
+UC03,AD word budget recommender,auc_overbudget_vs_critical_miss,0.5333333333333333,Clips where pro AD exceeds ~3.5 wps equivalent
+UC04,AD slot planner,rankcorr_extended_windows_vs_pro_words,-0.18285408323891547,How many TRIBE extended windows vs how much pro AD was written
+UC04,AD slot planner,mean_slots_extended_regime,4.222222222222222,vs standard regime 1.9
+UC05,Silence opportunity index,mean_silence_opp_slotable_clips,0.0982246873134822,Best clips for classic between-dialogue AD insertion
+UC05,Silence opportunity index,rankcorr_silence_opp_vs_tier3_margin,-0.1289430516518125,Higher opportunity → easier to beat short captions
+UC06,Metric disagreement router,rankcorr_pressure_vs_clip_adqa_gap,0.08771929824561403,Route to dual review when CLIP≈video but ADQA≈comprehension split
+UC06,Metric disagreement router,auc_pressure_vs_high_gap,0.6790123456790124,Triage CLIP/ADQA conflict clips
+UC07,Need entropy difficulty,rankcorr_entropy_vs_violation,-0.1867654168989334,Chaotic need curves → tier GT breaks
+UC07,Need entropy difficulty,auc_entropy_vs_low_margin,0.6607142857142857,Flat vs spiky need timing
+UC08,Pre-ADQA QC triage,auc_collision_vs_violation,0.6,Review top-3 collision clips before expensive ADQA run
+UC08,Pre-ADQA QC triage,top3_collision_hits_violations,0.0,"Top-3 collision debt clips: [5, 17, 9] — hits 0/3 known violations"
+UC09,Shortest-sufficient AD picker,pct_slotable_tier1_sufficient,0.5,Slotable-heavy clips where VATEX-short already passes ADQA threshold
+UC09,Shortest-sufficient AD picker,rankcorr_slotable_vs_tier1_adqa,0.27892845775316977,High slotable → short caption often enough (don't force pro AD)
+UC10,Category workflow playbook,highest_collision_category,0.6109863864723042,Sports → integrated AD workflow
+UC10,Category workflow playbook,sports_mean_extended_frac,0.5800000000000001,Sports clips: motion-heavy → extended AD windows common
+UC11,External gen-gap predictor,rankcorr_collision_vs_pro_loses,-0.010081933577655258,Before scoring: high collision proxy → pro may not beat short on new clips
+UC11,External gen-gap predictor,rankcorr_need_vs_full_order_fail,0.05968647468722263,n=54 external clips
+UC12,AdaptAD query trigger,rankcorr_peaks_vs_extended_frac,0.30444493961659114,Sudden need spikes → prompt BLV user 'what do you want described?'
+UC12,AdaptAD query trigger,mean_peaks_collision_regime,1.1111111111111112,More peaks in collision clips → more AdaptAD prompts needed
+UC13,Neural debt mode router,frac_collision,0.7,Route collision clips to different AD product surface
+UC13,Neural debt mode router,frac_balanced,0.25,Route balanced clips to different AD product surface
+UC13,Neural debt mode router,frac_slotable,0.05,Route slotable clips to different AD product surface
+UC13,Neural debt mode router,n_collision_mode_clips,14.0,"IDs: [3, 14, 17, 5, 8, 1, 6, 13]..."

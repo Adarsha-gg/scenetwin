@@ -1,0 +1,24 @@
+{
+  "n_clips": 58,
+  "task_affordance_counts": {
+    "community_context_layer": 14,
+    "evidence_indexed_video_agent": 7,
+    "reality_video_task_coach": 5,
+    "route_or_spatial_rehearsal": 7,
+    "stepwise_task_coach": 13,
+    "watch_only_access": 12
+  },
+  "evidence_loop_counts": {
+    "timeline_comments+caption_refs+quality_gate": 14,
+    "timestamp_index+storyboard+transcript+metadata": 7,
+    "step_index+completion_criteria+wearer_camera+nonvisual_user_cues": 5,
+    "geospatial_context+orientation_state+depth_or_obstacle_guard": 7,
+    "step_index+completion_criteria+progress_feedback": 13,
+    "surface_router_output": 12
+  },
+  "mean_task_score": 0.32117586206896553,
+  "current_state_monitoring_n": 18,
+  "human_or_community_layer_n": 18,
+  "task_loop_target_recall": 0.8888888888888888,
+  "watch_only_target_misses": 3
+}

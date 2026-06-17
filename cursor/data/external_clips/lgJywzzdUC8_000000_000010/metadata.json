@@ -1,0 +1,14 @@
+{
+  "video_id": "lgJywzzdUC8_000000_000010",
+  "category": "Event",
+  "tier3_va11y": "In a snowy city street at night, a yellow bulldozer methodically clears large piles of snow. The operator skillfully maneuvers the machine, scooping up snow and moving it aside. Cars occasionally pass by, their headlights illuminating the scene. The streetlights cast a warm glow over the bustling activity as snow continues to fall.",
+  "tier1_vatex_short": "A bulldozer picks up snow from a mound of snow on a street then drives away.",
+  "tier2_vatex_long": "During the evening, there is a yellow snow blow out in the streets cleaning of the snow as it continues pouring down snow from the sky.",
+  "tier0_cross": "At night, a skier navigates a snowy hill, weaving between flexible poles in a slalom course. The skier moves swiftly, alternating left and right, purposefully making contact with each pole as they descend the slope.",
+  "yt_id": "lgJywzzdUC8",
+  "start": 0.0,
+  "end": 10.0,
+  "acquired_at": "2026-05-27T19:09:08Z",
+  "download_ok": true,
+  "download_msg": "trimmed 10.0s"
+}

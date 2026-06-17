@@ -1,0 +1,39 @@
+{
+  "human_fabrications_n": 23,
+  "self_consistency_clips": 16,
+  "expert_reference_clip_gate_n60": {
+    "auc": 0.8352777777777778,
+    "recall": 0.7,
+    "fpr": 0.1,
+    "tau": 0.0237634301185608,
+    "n": 60
+  },
+  "human_lies_expert_ref": {
+    "auc": 0.7826086956521738,
+    "recall": 0.5652173913043478,
+    "fpr": 0.13043478260869565,
+    "tau": 0.025164371728897142,
+    "n": 23,
+    "mean_drop_lie": 0.05324768242628677,
+    "mean_drop_clean": 0.006651558305906228
+  },
+  "gemini_lies_expert_ref": {
+    "auc": 0.9054820415879017,
+    "recall": 0.782608695652174,
+    "fpr": 0.13043478260869565,
+    "tau": 0.025164371728897142,
+    "n": 23,
+    "mean_drop_lie": 0.04500194347423056
+  },
+  "human_lies_self_consistency_ref": {
+    "auc": 0.8945312499999999,
+    "recall": 0.6875,
+    "fpr": 0.10416666666666667,
+    "tau": 0.03943604528903963,
+    "n_clips": 16,
+    "n_clean_pairs": 48,
+    "mean_drop_lie": 0.07239328511059284,
+    "mean_drop_clean": 0.0016208564241727192
+  },
+  "headline_defensible": "CLIP grounding-drop gate, expert reference, n=60: AUC 0.84, 70% recall @ 10% FPR"
+}

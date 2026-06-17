@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the primary activity taking place in this space?",
+      "answer_key": "A group of people are dancing or taking a dance class together.",
+      "required_visual_evidence": [
+        "people in pairs dancing",
+        "instructor demonstrating moves",
+        "mirrored wall"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the main action and purpose of the scene for listener orientation."
+    },
+    {
+      "q_idx": 1,
+      "question": "Describe the setting where this activity is occurring.",
+      "answer_key": "A bright yellow dance studio with mirrors, fluorescent lighting, and decorative hanging stars.",
+      "required_visual_evidence": [
+        "yellow walls",
+        "mirror on wall",
+        "ceiling lights",
+        "hanging decorations"
+      ],
+      "importance": "critical",
+      "rationale": "Provides essential spatial context and distinctive visual characteristics of the location."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the role of the person in the blue/gray shirt in the center?",
+      "answer_key": "The instructor demonstrating dance moves to the group of participants.",
+      "required_visual_evidence": [
+        "central figure leading",
+        "others watching and following",
+        "instructional positioning"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies the hierarchical relationship and instructional nature of the activity."
+    },
+    {
+      "q_idx": 3,
+      "question": "How are the participants arranged during the activity?",
+      "answer_key": "Participants are arranged in pairs facing each other, with an instructor leading.",
+      "required_visual_evidence": [
+        "people in pairs",
+        "facing positions",
+        "distributed across floor"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener visualize the spatial organization and partner-based structure of the class."
+    },
+    {
+      "q_idx": 4,
+      "question": "What decorative elements are visible in the studio?",
+      "answer_key": "Hanging stars and spheres suspended from the ceiling throughout the space.",
+      "required_visual_evidence": [
+        "hanging stars",
+        "hanging spheres",
+        "ceiling decorations"
+      ],
+      "importance": "useful",
+      "rationale": "Adds atmospheric detail that contributes to the overall scene description and ambiance."
+    }
+  ]
+}

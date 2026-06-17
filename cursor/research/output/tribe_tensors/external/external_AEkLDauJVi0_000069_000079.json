@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_AEkLDauJVi0_000069_000079",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/AEkLDauJVi0_000069_000079.mp4",
+  "ad_text_used": "A child in a yellow shirt sits on a wooden bench, holding a bread roll. Using a spoon, they fill the roll with a dark, thick substance from a nearby mug. The child carefully spreads the filling, resembling Nutella, into the center of the roll. The setting appears to be outdoors, adding a playful element to the scene.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.2927704809327547,
+  "description_gain": -0.07002787703105784,
+  "alignment_cosine": 0.9956350417005116,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    26,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "AEkLDauJVi0_000069_000079",
+  "category": "Food & Cooking",
+  "yt_id": "AEkLDauJVi0",
+  "start_s": 69.0,
+  "end_s": 79.0
+}

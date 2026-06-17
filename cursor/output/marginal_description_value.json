@@ -1,0 +1,42 @@
+{
+  "run_at": "2026-06-07T22:19:13.942483+00:00",
+  "grader": "gemini/gemini-2.5-flash",
+  "n_clips": 60,
+  "audio_leak_overall": 0.05333333333333334,
+  "audio_leak_by_category": {
+    "Health & Wellness": 0.15,
+    "People & Vlogs": 0.1,
+    "Food & Cooking": 0.06666666666666667,
+    "How-to & Instructional": 0.05714285714285714,
+    "Entertainment": 0.04,
+    "Education, Seminar & Talks": 0.0,
+    "Event": 0.0,
+    "Film & Animation": 0.0,
+    "Music": 0.0,
+    "Sports": 0.0
+  },
+  "clips_fully_audio_redundant": 0,
+  "mean_visual_only_q_per_clip": 4.733333333333333,
+  "all_clips": {
+    "n": 60,
+    "rho_adqa": 0.8689294872473708,
+    "rho_mdv": 0.8593899869725385,
+    "full_order_adqa": "50/60",
+    "full_order_mdv": "46/60",
+    "pro_minus_crowd_adqa_mean": 0.3483333333333334,
+    "pro_beats_crowd_adqa_rate": 0.95,
+    "pro_minus_crowd_mdv_mean": 0.3497222222222223,
+    "pro_beats_crowd_mdv_rate": 0.95
+  },
+  "clips_with_visual_only_q": {
+    "n": 60,
+    "rho_adqa": 0.8689294872473708,
+    "rho_mdv": 0.8593899869725385,
+    "full_order_adqa": "50/60",
+    "full_order_mdv": "46/60",
+    "pro_minus_crowd_adqa_mean": 0.3483333333333334,
+    "pro_beats_crowd_adqa_rate": 0.95,
+    "pro_minus_crowd_mdv_mean": 0.3497222222222223,
+    "pro_beats_crowd_mdv_rate": 0.95
+  }
+}

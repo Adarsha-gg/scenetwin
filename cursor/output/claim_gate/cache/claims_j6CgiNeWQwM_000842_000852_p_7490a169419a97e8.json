@@ -1,0 +1,20 @@
+{
+  "claims": [
+    "A chef is present.",
+    "An assistant is present.",
+    "They are in a kitchen.",
+    "Assistant supports a bowl.",
+    "The bowl is large.",
+    "Bowl contains batter.",
+    "It is a mixing bowl.",
+    "Chef uses a spatula.",
+    "Chef moves the batter.",
+    "Batter goes into pan.",
+    "A cake pan is present.",
+    "The pan is round.",
+    "Pan is lined.",
+    "Parchment paper lines pan.",
+    "Batter scraped from bowl.",
+    "Batter deposited into pan."
+  ]
+}

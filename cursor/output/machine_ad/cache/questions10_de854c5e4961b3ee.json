@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject performing the action?",
+      "answer_key": "A person, likely a child or young adult.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action the person is performing?",
+      "answer_key": "Jumping and performing flips.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting or location of the video?",
+      "answer_key": "A multi-story shopping mall.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What object is the person using to achieve height?",
+      "answer_key": "A trampoline.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color are the shorts worn by the person?",
+      "answer_key": "Red or maroon.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What color is the t-shirt worn by the person?",
+      "answer_key": "White.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What watch brand is advertised on the large banner?",
+      "answer_key": "Casio.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What type of store is advertised as 'WORLD OF WATCHES'?",
+      "answer_key": "A watch store.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What acrobatic maneuver does the person execute in the air?",
+      "answer_key": "A backflip or somersault.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Name one of the fashion stores visible in the background.",
+      "answer_key": "Planet Fashion or Empire.",
+      "tier": "secondary"
+    }
+  ]
+}

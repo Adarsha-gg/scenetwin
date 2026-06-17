@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject wearing?",
+      "answer_key": "A dark blue jacket with reflective stripes and a patterned shirt underneath",
+      "required_visual_evidence": [
+        "dark blue jacket",
+        "reflective stripes on sleeves",
+        "patterned shirt visible at neckline"
+      ],
+      "importance": "critical",
+      "rationale": "Clothing is essential context for identifying the person and setting tone."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the person doing with the white object?",
+      "answer_key": "Examining or inspecting a white foam or plastic container/box closely",
+      "required_visual_evidence": [
+        "person leaning toward white object",
+        "hands near white container",
+        "close inspection posture"
+      ],
+      "importance": "critical",
+      "rationale": "Main action in the clip; central to understanding the scene's purpose."
+    },
+    {
+      "q_idx": 2,
+      "question": "What tool is visible in the person's hand?",
+      "answer_key": "A yellow and black pen or marker",
+      "required_visual_evidence": [
+        "yellow and black writing instrument",
+        "held in hand near white object"
+      ],
+      "importance": "useful",
+      "rationale": "Tool presence suggests documentation, measurement, or marking activity."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the setting or location where this occurs?",
+      "answer_key": "An indoor room with plain beige or gray walls",
+      "required_visual_evidence": [
+        "plain wall background",
+        "indoor ceiling visible",
+        "neutral wall color"
+      ],
+      "importance": "useful",
+      "rationale": "Setting context helps listeners understand the environment and activity type."
+    },
+    {
+      "q_idx": 4,
+      "question": "What type of container is being examined?",
+      "answer_key": "A white plastic or foam storage box with multiple compartments or sections",
+      "required_visual_evidence": [
+        "white container with visible compartments",
+        "rectangular shape",
+        "translucent or opaque white material"
+      ],
+      "importance": "critical",
+      "rationale": "Object identification is key to understanding what activity is being performed."
+    }
+  ]
+}

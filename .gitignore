@@ -10,6 +10,8 @@ __pycache__/
 .ipynb_checkpoints/
 .pycache_tmp/
 .runtime/
+.cache/
+.cursor/
 
 # Python environments and local package caches
 .venv/
@@ -30,6 +32,19 @@ output/visual_closure_cache/
 output/visual_closure_preds/
 output/scenetwin_preds/
 output/colab_upload_closure/
+
+# Agent loop runtime state
+cursor/.loop.state.json
+cursor/STOP
+cursor/agent_loop/state.json
+cursor/agent_loop/workers/*.log
+cursor/loop-guard.log
+cursor/loop-heartbeat.txt
+cursor/loop-status.json
+cursor/findings/*.log
+cursor/output/*.log
+cursor/research/output/*.log
+output/external_tribe_cache/
 
 # Downloaded source video corpora outside the compact demo bundle
 workspace/clips/

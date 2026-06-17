@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_05_PbGvLf7HvXQ_000063_000073",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_05.mp4",
+  "ad_text_used": "In a kitchen setting, two individuals demonstrate how to prepare a spinach salad. One person drops chopped garlic from a knife into a large wooden bowl filled with fresh spinach leaves. The other person uses their hands to thoroughly mix the garlic and spinach together. The video focuses on the process of combining these ingredients to create a healthy salad.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.15166239091569766,
+  "description_gain": -0.15426213447196913,
+  "alignment_cosine": 0.9840319747479354,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    26,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 5,
+  "video_id": "PbGvLf7HvXQ_000063_000073",
+  "category": "Food & Cooking",
+  "duration_s": 16.39,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

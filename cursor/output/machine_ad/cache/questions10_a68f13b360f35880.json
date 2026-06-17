@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject shown in the video frames?",
+      "answer_key": "A young girl or woman.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action the subject performs?",
+      "answer_key": "Performing a gymnastic or dance move.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting of the video?",
+      "answer_key": "Outdoors under a bright blue sky.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the most prominent visual element in the frames?",
+      "answer_key": "A person.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the subject's headband?",
+      "answer_key": "Pink or red.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What color are the clouds in the sky?",
+      "answer_key": "White.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is the subject wearing on her upper body?",
+      "answer_key": "A light-colored t-shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is visible at the bottom edge of the frames?",
+      "answer_key": "Green foliage or trees.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What thin line stretches across the sky?",
+      "answer_key": "A thin wire or power line.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is the subject doing with her arms in frame 4?",
+      "answer_key": "Extending them forward.",
+      "tier": "secondary"
+    }
+  ]
+}

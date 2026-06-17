@@ -1,0 +1,71 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main piece of equipment visible in the center of the room?",
+      "answer_key": "A 3D printer",
+      "required_visual_evidence": [
+        "purple/dark colored machine",
+        "central position",
+        "printing bed",
+        "mechanical structure"
+      ],
+      "importance": "critical",
+      "rationale": "The 3D printer is the dominant central object and primary focus of the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location where this scene takes place?",
+      "answer_key": "An indoor workshop or maker space with industrial lighting",
+      "required_visual_evidence": [
+        "concrete floor",
+        "bright overhead lighting",
+        "windows",
+        "work tables",
+        "equipment storage"
+      ],
+      "importance": "critical",
+      "rationale": "Understanding the location context is essential for comprehending the activity and environment."
+    },
+    {
+      "q_idx": 2,
+      "question": "How many people are visible in this scene and where are they positioned?",
+      "answer_key": "Two people; one on the left side and one on the right side of the room",
+      "required_visual_evidence": [
+        "figure on left",
+        "figure on right",
+        "standing positions",
+        "separated by equipment"
+      ],
+      "importance": "useful",
+      "rationale": "Identifying human presence and positioning helps listeners understand the social context of the scene."
+    },
+    {
+      "q_idx": 3,
+      "question": "What color is the 3D printer and what is its approximate position in the room?",
+      "answer_key": "Dark purple or maroon colored; positioned centrally in the middle of the room",
+      "required_visual_evidence": [
+        "dark purple/maroon color",
+        "center of frame",
+        "elevated on platform",
+        "surrounded by space"
+      ],
+      "importance": "useful",
+      "rationale": "The printer's color and central placement are key visual details for spatial orientation."
+    },
+    {
+      "q_idx": 4,
+      "question": "What other equipment or objects are visible in the workshop besides the 3D printer?",
+      "answer_key": "Storage shelves, work tables, blue platform/mat, and bright overhead lighting fixtures",
+      "required_visual_evidence": [
+        "shelving units",
+        "work surfaces",
+        "blue mat or platform",
+        "ceiling lights",
+        "windows"
+      ],
+      "importance": "useful",
+      "rationale": "Supporting objects establish the workshop environment and context for the main equipment."
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject being created in this video?",
+      "answer_key": "Small knitted mittens or gloves in blue",
+      "required_visual_evidence": [
+        "blue knitted mittens",
+        "small handmade garment",
+        "two mittens shown"
+      ],
+      "importance": "critical",
+      "rationale": "The primary object being demonstrated is essential to understanding the entire clip's purpose."
+    },
+    {
+      "q_idx": 1,
+      "question": "What technique is being applied to the mittens to create texture?",
+      "answer_key": "Using a needle to scratch grooves making the texture fluffy like fur",
+      "required_visual_evidence": [
+        "needle scratching",
+        "creating grooves",
+        "fluffy texture",
+        "fur-like appearance"
+      ],
+      "importance": "critical",
+      "rationale": "The main action and finishing technique is central to the instructional content being demonstrated."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the final intended use of these finished mittens?",
+      "answer_key": "They will be turned into earrings",
+      "required_visual_evidence": [
+        "earrings mentioned in text",
+        "final product shown in hand"
+      ],
+      "importance": "useful",
+      "rationale": "Understanding the end purpose helps viewers grasp the complete craft project being shown."
+    },
+    {
+      "q_idx": 3,
+      "question": "Where is this craft activity taking place?",
+      "answer_key": "On a white surface or table with a colorful striped background",
+      "required_visual_evidence": [
+        "white work surface",
+        "rainbow striped background",
+        "indoor setting"
+      ],
+      "importance": "useful",
+      "rationale": "Setting context helps viewers understand the workspace and environment for this craft."
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the name or title of this craft tutorial?",
+      "answer_key": "Selem",
+      "required_visual_evidence": [
+        "Selem text in top left",
+        "Marunich.ru watermark"
+      ],
+      "importance": "useful",
+      "rationale": "On-screen text identifying the tutorial source provides attribution and reference information."
+    }
+  ]
+}

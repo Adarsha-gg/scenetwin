@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person wearing on their torso?",
+      "answer_key": "An orange sleeveless shirt or tank top over a black long-sleeved shirt",
+      "required_visual_evidence": [
+        "orange sleeveless garment",
+        "black long-sleeved undershirt",
+        "visible across multiple frames"
+      ],
+      "importance": "critical",
+      "rationale": "Dominant visual element; essential for understanding the subject's appearance and costume."
+    },
+    {
+      "q_idx": 1,
+      "question": "What makeup or face paint is the person wearing?",
+      "answer_key": "Yellow-green face paint with red eye makeup and red lips",
+      "required_visual_evidence": [
+        "yellow-green face",
+        "red eye makeup",
+        "red lips",
+        "consistent across frames"
+      ],
+      "importance": "critical",
+      "rationale": "Striking facial appearance; key to identifying the character or costume being portrayed."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main action the person performs in this clip?",
+      "answer_key": "Posing or standing while holding the sides of their orange shirt",
+      "required_visual_evidence": [
+        "hands on shirt sides",
+        "stationary pose",
+        "multiple frame consistency"
+      ],
+      "importance": "critical",
+      "rationale": "Core action; necessary for understanding what happens in the video."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on the orange shirt?",
+      "answer_key": "Text or lettering on the front of the orange shirt",
+      "required_visual_evidence": [
+        "text visible on garment",
+        "orange fabric",
+        "frames 2-5"
+      ],
+      "importance": "useful",
+      "rationale": "Helps identify the specific costume or character being depicted."
+    },
+    {
+      "q_idx": 4,
+      "question": "Where is this scene taking place?",
+      "answer_key": "Indoors, in a room with brown or tan-colored walls",
+      "required_visual_evidence": [
+        "brown/tan background",
+        "interior setting",
+        "wall visible behind subject"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the setting context for the video clip."
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<style>
+  :root{
+    --ink:#16191d; --mute:#6b7280; --line:#d7dbe0;
+    --teal:#0f766e; --teal-d:#0b5c56; --teal-soft:#e7f2f0;
+    --amber:#d9982f; --amber-soft:#fbf2df;
+    --grey:#aeb4bc; --grey-soft:#eef0f2;
+    --red:#c2424d;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{background:#ffffff;}
+  body{
+    font-family:"Helvetica Neue","Avenir Next",Arial,sans-serif;
+    color:var(--ink);
+    width:1680px;
+    padding:64px 72px 56px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .kicker{font-size:19px; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--teal); margin-bottom:10px;}
+  h1{font-size:44px; font-weight:700; line-height:1.08; letter-spacing:-.015em; margin-bottom:8px;}
+  .sub{font-size:21px; color:var(--mute); line-height:1.4; max-width:1180px; margin-bottom:48px;}
+
+  .flow{display:flex; align-items:stretch; gap:0;}
+  .act{display:flex; flex-direction:column; gap:16px;}
+  .arrow{display:flex; align-items:center; justify-content:center; width:84px; flex:0 0 84px; color:var(--line);}
+  .arrow svg{width:52px; height:52px;}
+
+  .card{border:2px solid var(--line); border-radius:18px; padding:24px 26px; background:#fff;}
+  .card .lab{font-size:15px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--mute); margin-bottom:10px;}
+  .card .big{font-size:26px; font-weight:700; line-height:1.18;}
+  .card .small{font-size:18px; color:var(--mute); line-height:1.34; margin-top:6px;}
+
+  /* ACT 1 input */
+  .input{width:230px; justify-content:center;}
+  .clip{height:142px; border-radius:16px; background:var(--grey-soft); border:2px solid var(--line);
+        display:flex; align-items:center; justify-content:center; position:relative; overflow:hidden;}
+  .clip .play{width:0;height:0;border-left:34px solid var(--grey);border-top:22px solid transparent;border-bottom:22px solid transparent; margin-left:8px;}
+  .clip .audio{position:absolute; bottom:10px; left:0; right:0; display:flex; gap:5px; justify-content:center; align-items:flex-end; height:30px;}
+  .clip .audio i{width:6px; background:var(--teal); border-radius:3px; opacity:.55;}
+
+  /* ACT 2 the brain (HERO) */
+  .brain{width:560px; border:2.5px solid var(--teal); background:var(--teal-soft); border-radius:22px; padding:26px 28px;}
+  .brain .lab{color:var(--teal);}
+  .twin{display:flex; gap:16px; margin-top:6px;}
+  .pane{flex:1; background:#fff; border:2px solid #bfe0da; border-radius:14px; padding:16px 16px 14px;}
+  .pane h3{font-size:18px; font-weight:700; display:flex; align-items:center; gap:8px;}
+  .pane .cortex{display:grid; grid-template-columns:repeat(6,1fr); gap:4px; margin:12px 0 8px;}
+  .pane .cortex span{height:13px; border-radius:3px; background:#dfe6e6;}
+  .pane .desc{font-size:15.5px; color:var(--mute); line-height:1.3;}
+  .pane.av .cortex span.on{background:var(--teal);}
+  .pane.a  .cortex span.on{background:#cdd3da;}
+  .tag{font-size:14px; font-weight:700; padding:3px 9px; border-radius:999px; display:inline-block;}
+  .tag.full{background:var(--teal); color:#fff;}
+  .tag.audio{background:#cdd3da; color:#3b4046;}
+
+  .gap{margin-top:18px; background:#fff; border:2px solid var(--amber); border-radius:14px; padding:16px 20px; display:flex; align-items:center; gap:18px;}
+  .gap .eq{font-size:30px; font-weight:800; color:var(--amber); white-space:nowrap;}
+  .gap .gtext .t{font-size:20px; font-weight:700;}
+  .gap .gtext .s{font-size:16px; color:var(--mute); margin-top:3px; line-height:1.3;}
+
+  /* ACT 3 steer + generate */
+  .steer{width:300px; justify-content:center;}
+  .llm{border:2px solid var(--line); border-radius:18px; padding:22px 24px; background:#fff;}
+  .llm .lab{font-size:15px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--mute);}
+  .llm .big{font-size:24px; font-weight:700; margin-top:8px; line-height:1.18;}
+  .ad{margin-top:16px; border-left:5px solid var(--teal); background:var(--teal-soft); border-radius:0 12px 12px 0; padding:14px 16px;}
+  .ad .q{font-size:15px; font-weight:700; color:var(--teal); text-transform:uppercase; letter-spacing:.05em;}
+  .ad .txt{font-size:18px; line-height:1.34; margin-top:5px;}
+
+  /* result strip */
+  .result{margin-top:44px; display:flex; gap:22px; align-items:stretch;}
+  .rcard{flex:1; border-radius:18px; padding:24px 28px;}
+  .rcard.hit{background:var(--teal-soft); border:2.5px solid var(--teal);}
+  .rcard.miss{background:var(--grey-soft); border:2px solid var(--line);}
+  .rcard .rl{font-size:17px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; margin-bottom:6px;}
+  .rcard.hit .rl{color:var(--teal);}
+  .rcard.miss .rl{color:var(--mute);}
+  .rcard .rv{font-size:46px; font-weight:800; line-height:1;}
+  .rcard.hit .rv{color:var(--teal);}
+  .rcard.miss .rv{color:#8a929b;}
+  .rcard .rd{font-size:18px; color:var(--mute); margin-top:8px; line-height:1.32;}
+  .punch{flex:0 0 430px; display:flex; flex-direction:column; justify-content:center; padding-left:8px;}
+  .punch .p{font-size:27px; font-weight:700; line-height:1.22;}
+  .punch .p b{color:var(--teal);}
+  .foot{margin-top:34px; font-size:16px; color:var(--mute);}
+</style>
+</head>
+<body>
+  <div class="kicker">The SceneTwin contribution</div>
+  <h1>A brain encoder decides what the audio description should say.</h1>
+  <div class="sub">No reference, no human. We ask a model of the visual cortex what a sighted viewer sees that an audio-only listener misses, then steer the description to fill exactly that gap.</div>
+
+  <div class="flow">
+    <!-- ACT 1 -->
+    <div class="act input">
+      <div class="clip">
+        <div class="play"></div>
+        <div class="audio"><i style="height:10px"></i><i style="height:22px"></i><i style="height:14px"></i><i style="height:26px"></i><i style="height:12px"></i><i style="height:20px"></i><i style="height:9px"></i></div>
+      </div>
+      <div style="text-align:center;font-size:19px;font-weight:700;">Video clip</div>
+      <div style="text-align:center;font-size:16px;color:var(--mute);margin-top:-6px;">picture + soundtrack</div>
+    </div>
+
+    <div class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+
+    <!-- ACT 2 BRAIN -->
+    <div class="act brain">
+      <div class="lab">TRIBE brain encoder &nbsp;·&nbsp; the novel step</div>
+      <div class="twin">
+        <div class="pane av">
+          <h3><span class="tag full">sees video</span></h3>
+          <div class="cortex"><span class="on"></span><span class="on"></span><span></span><span class="on"></span><span class="on"></span><span></span><span class="on"></span><span></span><span class="on"></span><span class="on"></span><span></span><span class="on"></span></div>
+          <div class="desc">predicted cortical response with the picture</div>
+        </div>
+        <div class="pane a">
+          <h3><span class="tag audio">audio only</span></h3>
+          <div class="cortex"><span></span><span></span><span></span><span class="on"></span><span></span><span></span><span></span><span></span><span class="on"></span><span></span><span></span><span></span></div>
+          <div class="desc">predicted response from the soundtrack alone</div>
+        </div>
+      </div>
+      <div class="gap">
+        <div class="eq">P<sub>AV</sub> − P<sub>A</sub></div>
+        <div class="gtext">
+          <div class="t">The visual blind spot</div>
+          <div class="s">what vision adds over audio &mdash; typed (scene vs action) and timed to the second</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M4 12h15M13 6l6 6-6 6"/></svg></div>
+
+    <!-- ACT 3 STEER -->
+    <div class="act steer">
+      <div class="llm">
+        <div class="lab">Description generator</div>
+        <div class="big">conditioned on the blind spot</div>
+        <div class="ad">
+          <div class="q">fills the flagged gap</div>
+          <div class="txt">&ldquo;A red kite dips toward the rooftops as she runs along the ridgeline.&rdquo;</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULT -->
+  <div class="result">
+    <div class="rcard hit">
+      <div class="rl">Questions the brain flagged</div>
+      <div class="rv">+0.113</div>
+      <div class="rd">answered better &nbsp;·&nbsp; d = 0.43 &nbsp;·&nbsp; 11 wins, 0 losses</div>
+    </div>
+    <div class="rcard miss">
+      <div class="rl">Every other question</div>
+      <div class="rv">+0.017</div>
+      <div class="rd">unchanged &nbsp;·&nbsp; d = 0.05 &nbsp;·&nbsp; no spillover</div>
+    </div>
+    <div class="punch">
+      <div class="p">The gain lands <b>exactly where the brain pointed</b>, and nowhere else.</div>
+    </div>
+  </div>
+
+  <div class="foot">60 unseen clips &nbsp;·&nbsp; graded by a different model family (GPT-5) than the one that wrote the descriptions &nbsp;·&nbsp; the dissociation, not the average, is the result.</div>
+</body>
+</html>

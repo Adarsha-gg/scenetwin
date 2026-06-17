@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in these frames?",
+      "answer_key": "A person is climbing or moving up a red vertical surface or pole",
+      "required_visual_evidence": [
+        "person climbing",
+        "red vertical structure",
+        "upward movement across frames"
+      ],
+      "importance": "critical",
+      "rationale": "The primary action defines the entire clip's narrative and visual focus"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the setting or location shown in these frames?",
+      "answer_key": "An indoor shopping mall or commercial building with store signage",
+      "required_visual_evidence": [
+        "store signs",
+        "indoor ceiling",
+        "multiple shop fronts",
+        "mall environment"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context and helps listeners visualize the scene's environment"
+    },
+    {
+      "q_idx": 2,
+      "question": "What store names are visible on the signage in the background?",
+      "answer_key": "World of Watches, Planet Fashion, and Empire Shop are visible",
+      "required_visual_evidence": [
+        "WORLD OF WATCHES sign",
+        "PLANET FASHION sign",
+        "EMPIRE SHOP sign"
+      ],
+      "importance": "useful",
+      "rationale": "Visible text helps orient listeners to the specific location within the mall"
+    },
+    {
+      "q_idx": 3,
+      "question": "What brand name appears on the large advertisement on the left side?",
+      "answer_key": "Casio, displayed on a smartphone and watch advertisement",
+      "required_visual_evidence": [
+        "CASIO text",
+        "watch imagery",
+        "smartphone link reference"
+      ],
+      "importance": "useful",
+      "rationale": "Prominent signage is typically included in AD to describe visual environment"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the red structure that the person is interacting with?",
+      "answer_key": "A red vertical pole or pillar in the mall's interior",
+      "required_visual_evidence": [
+        "red vertical structure",
+        "person contact with pole",
+        "mall interior element"
+      ],
+      "importance": "critical",
+      "rationale": "The object of interaction is essential to understanding the main action"
+    }
+  ]
+}

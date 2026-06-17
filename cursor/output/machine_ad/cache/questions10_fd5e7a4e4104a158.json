@@ -1,0 +1,58 @@
+{
+  "questions": [
+    {
+      "q_idx": 1,
+      "question": "What is the primary action being performed on the small objects?",
+      "answer_key": "Texturing the surface of the objects.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main surface where the crafting is taking place?",
+      "answer_key": "A white surface.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What small objects are being crafted?",
+      "answer_key": "Two small mitten-shaped objects.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What tool is being used to create the texture on the mittens?",
+      "answer_key": "A needle.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What are the main colors of the crafted mittens?",
+      "answer_key": "Light blue and dark blue.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "Describe the colorful border surrounding the main crafting area.",
+      "answer_key": "A border made of many small, colorful clay sticks.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What kind of texture is being added to the mittens?",
+      "answer_key": "A knitted or fluffy texture, like fur.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What instruction is visible on the screen regarding the needle's use?",
+      "answer_key": "Use a needle to scratch small grooves for a fluffy texture.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "According to the on-screen text, what will the mittens eventually become?",
+      "answer_key": "Lovely earrings.",
+      "tier": "secondary"
+    }
+  ]
+}

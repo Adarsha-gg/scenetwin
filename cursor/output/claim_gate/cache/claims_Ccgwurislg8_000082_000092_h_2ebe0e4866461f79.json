@@ -1,0 +1,16 @@
+{
+  "claims": [
+    "A person is present",
+    "Person wears long-sleeved shirt",
+    "Person wears a cap",
+    "Person is shearing a sheep",
+    "A sheep is present",
+    "Sheep lies on its side",
+    "Sheep is on a table",
+    "Person uses electric clippers",
+    "Person removes the wool",
+    "Wool is set aside",
+    "The setting is indoors",
+    "Sheep is calmly positioned"
+  ]
+}

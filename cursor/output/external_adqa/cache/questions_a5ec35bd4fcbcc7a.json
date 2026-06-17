@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "Throwing a ball toward a basketball hoop on an outdoor court",
+      "required_visual_evidence": [
+        "person in white shirt and black shorts",
+        "ball in flight",
+        "basketball hoop visible in distance"
+      ],
+      "importance": "critical",
+      "rationale": "Core action that defines the entire video sequence and purpose"
+    },
+    {
+      "q_idx": 1,
+      "question": "Where is this activity taking place?",
+      "answer_key": "An outdoor asphalt court or parking lot area with painted court markings",
+      "required_visual_evidence": [
+        "asphalt surface",
+        "white painted lines and circles",
+        "buildings and green fields in background"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for understanding the shooting activity"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the ground in the court area?",
+      "answer_key": "Painted white lines and circles marking court boundaries and positions",
+      "required_visual_evidence": [
+        "white painted markings",
+        "circular court outline",
+        "numbered or lettered sections"
+      ],
+      "importance": "useful",
+      "rationale": "Court markings help listeners visualize the structured playing space"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the person wearing?",
+      "answer_key": "White t-shirt and black shorts",
+      "required_visual_evidence": [
+        "white shirt",
+        "black shorts",
+        "athletic attire"
+      ],
+      "importance": "useful",
+      "rationale": "Clothing description helps listeners visualize the main subject clearly"
+    },
+    {
+      "q_idx": 4,
+      "question": "What equipment is visible in the distance on the court?",
+      "answer_key": "A basketball hoop mounted on a pole",
+      "required_visual_evidence": [
+        "hoop structure",
+        "backboard",
+        "pole support",
+        "distant target"
+      ],
+      "importance": "critical",
+      "rationale": "The hoop is the target object essential to understanding the shooting action"
+    }
+  ]
+}

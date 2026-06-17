@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject visible in the frames?",
+      "answer_key": "A person.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action being performed?",
+      "answer_key": "Peeling and preparing a pineapple.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the main object being handled?",
+      "answer_key": "A pineapple.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What kind of setting is depicted?",
+      "answer_key": "An outdoor market stall.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the person's jacket?",
+      "answer_key": "Black.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is the person wearing on their right hand?",
+      "answer_key": "A light-colored glove.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What tool is the person using to prepare the pineapple?",
+      "answer_key": "A small knife or peeler.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What is piled on the table next to the prepared pineapple?",
+      "answer_key": "Pineapple peels and scraps.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "How many whole pineapples are visible on the right side of the frame?",
+      "answer_key": "Two.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What is visible on the white sign in the upper right?",
+      "answer_key": "Chinese characters.",
+      "tier": "secondary"
+    }
+  ]
+}

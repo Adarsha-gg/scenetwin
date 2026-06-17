@@ -1,0 +1,65 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this video?",
+      "answer_key": "Performing stability ball ab exercises; squatting and bouncing on a pink stability ball",
+      "required_visual_evidence": [
+        "person in white shirt",
+        "pink stability ball",
+        "squatting motion",
+        "repeated bouncing"
+      ],
+      "importance": "critical",
+      "rationale": "Core action of the entire video; essential for understanding exercise purpose"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the title or heading shown on screen?",
+      "answer_key": "Stability Ball Ab Exercises Part 1",
+      "required_visual_evidence": [
+        "gray banner text",
+        "title overlay"
+      ],
+      "importance": "critical",
+      "rationale": "On-screen text identifies the video content and exercise type"
+    },
+    {
+      "q_idx": 2,
+      "question": "Where is this exercise being performed?",
+      "answer_key": "Indoors in a home or residential living space",
+      "required_visual_evidence": [
+        "couch/sofa visible",
+        "home furnishings",
+        "indoor flooring",
+        "shelving"
+      ],
+      "importance": "useful",
+      "rationale": "Setting context helps listener understand exercise accessibility and environment"
+    },
+    {
+      "q_idx": 3,
+      "question": "What equipment is being used for this exercise?",
+      "answer_key": "A pink stability ball",
+      "required_visual_evidence": [
+        "pink ball",
+        "person seated on ball",
+        "ball visible throughout"
+      ],
+      "importance": "critical",
+      "rationale": "Primary equipment defines the exercise type and is central to the action"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the person wearing during the exercise?",
+      "answer_key": "White t-shirt, black shorts with pink trim, and dark shoes",
+      "required_visual_evidence": [
+        "white shirt",
+        "black shorts",
+        "athletic footwear"
+      ],
+      "importance": "useful",
+      "rationale": "Attire context helps listener visualize the exerciser and exercise setting"
+    }
+  ]
+}

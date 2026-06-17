@@ -1,0 +1,29 @@
+{
+  "run_at": "2026-06-07T18:54:00.562457+00:00",
+  "grader": "gemini-2.5-flash",
+  "n_clips": 10,
+  "ladder": "cross < expertAD_1sentence < expertAD_half < expertAD_full",
+  "ensemble": {
+    "rho": 0.8253039354692199,
+    "full_order": 3,
+    "n": 10,
+    "rate": 0.3
+  },
+  "adqa_only": {
+    "rho": 0.6293919270679723,
+    "full_order": 0,
+    "n": 10,
+    "rate": 0.0
+  },
+  "clip_only": {
+    "rho": 0.7225372222408006,
+    "full_order": 1,
+    "n": 10,
+    "rate": 0.1
+  },
+  "rung_sanity": {
+    "full>half": 0.5,
+    "half>1sent": 0.8,
+    "1sent>cross": 1.0
+  }
+}

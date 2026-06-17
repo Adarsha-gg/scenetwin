@@ -1,0 +1,75 @@
+{
+  "run_at": "2026-06-07T22:56:57.964717+00:00",
+  "task": "completeness ladder {cross<1sent<half<full}, n=58, Gemini grader",
+  "n_clips": 58,
+  "signals": {
+    "adqa_only": {
+      "rho": 0.8830299288768177,
+      "full_order": "21/58",
+      "full_order_n": 21
+    },
+    "clip_only": {
+      "rho": 0.694556812250828,
+      "full_order": "17/58",
+      "full_order_n": 17
+    },
+    "ensemble": {
+      "rho": 0.86677489610327,
+      "full_order": "37/58",
+      "full_order_n": 37
+    }
+  },
+  "adjacent_rungs": {
+    "cross<1-sentence": {
+      "win_adqa": 0.9655172413793104,
+      "win_clip": 1.0,
+      "win_ensemble": 1.0,
+      "mcnemar": {
+        "ensemble": {
+          "vs_adqa_fixes": 2,
+          "vs_adqa_breaks": 0,
+          "mcnemar_p": 0.25
+        },
+        "clip_only": {
+          "vs_adqa_fixes": 2,
+          "vs_adqa_breaks": 0,
+          "mcnemar_p": 0.25
+        }
+      }
+    },
+    "1-sentence<half": {
+      "win_adqa": 0.7068965517241379,
+      "win_clip": 0.6551724137931034,
+      "win_ensemble": 0.8793103448275862,
+      "mcnemar": {
+        "ensemble": {
+          "vs_adqa_fixes": 10,
+          "vs_adqa_breaks": 0,
+          "mcnemar_p": 0.0009765625
+        },
+        "clip_only": {
+          "vs_adqa_fixes": 10,
+          "vs_adqa_breaks": 13,
+          "mcnemar_p": 0.7975635528564453
+        }
+      }
+    },
+    "half<full": {
+      "win_adqa": 0.5517241379310345,
+      "win_clip": 0.5344827586206896,
+      "win_ensemble": 0.7413793103448276,
+      "mcnemar": {
+        "ensemble": {
+          "vs_adqa_fixes": 11,
+          "vs_adqa_breaks": 0,
+          "mcnemar_p": 0.00048828125
+        },
+        "clip_only": {
+          "vs_adqa_fixes": 11,
+          "vs_adqa_breaks": 12,
+          "mcnemar_p": 0.6611802577972412
+        }
+      }
+    }
+  }
+}

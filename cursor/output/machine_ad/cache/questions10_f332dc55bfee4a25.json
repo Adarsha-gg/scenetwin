@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the main subject in the foreground on the right?",
+      "answer_key": "A man in a white shirt with a camera.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action of the people in the scene?",
+      "answer_key": "People are walking and congregating.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the general setting of the video clip?",
+      "answer_key": "A crowded outdoor public walkway.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What object is the man on the far right holding?",
+      "answer_key": "A small camera or smartphone.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the main subject's shirt?",
+      "answer_key": "White.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "Describe the colors of the backpack worn by the man on the right.",
+      "answer_key": "Red, blue, and yellow stripes.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is visible along the wall on the left side of the frame?",
+      "answer_key": "A series of lockers or posters.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "What color shirt is worn by the man with the blue backpack in the center?",
+      "answer_key": "Red.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What distinctive item is the child in the foreground wearing on their head?",
+      "answer_key": "A green and white striped hat.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "How many people wearing camouflage military uniforms are clearly visible?",
+      "answer_key": "One person.",
+      "tier": "secondary"
+    }
+  ]
+}

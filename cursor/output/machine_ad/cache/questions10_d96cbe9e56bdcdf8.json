@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What part of a person's body is primarily shown?",
+      "answer_key": "Torso, arms, and legs.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the main action being performed?",
+      "answer_key": "A person is placing a garter on their leg.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the primary object being handled?",
+      "answer_key": "A white bow-tie shaped garter.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What kind of environment is depicted?",
+      "answer_key": "An indoor setting with a patterned carpet.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the person's jacket and trousers?",
+      "answer_key": "Black.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What color is the person's vest and shirt?",
+      "answer_key": "White or off-white.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is the shape of the garter's decorative element?",
+      "answer_key": "A bow-tie.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "Which leg is the garter placed on?",
+      "answer_key": "The right leg.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What is the person's final action after placing the garter?",
+      "answer_key": "Pointing at the garter on their leg.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "Describe the pattern visible on the floor.",
+      "answer_key": "Dark carpet with an ornate, possibly floral, pattern.",
+      "tier": "secondary"
+    }
+  ]
+}

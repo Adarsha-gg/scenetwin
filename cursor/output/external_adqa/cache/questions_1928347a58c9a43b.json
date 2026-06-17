@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person doing with the rectangular object throughout the sequence?",
+      "answer_key": "Wrapping or rolling it in red and yellow material",
+      "required_visual_evidence": [
+        "person's hands manipulating object",
+        "red and yellow material being wrapped around rectangular item",
+        "progressive wrapping across frames"
+      ],
+      "importance": "critical",
+      "rationale": "Main action of the clip; essential for understanding the activity being demonstrated"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the rectangular object being wrapped?",
+      "answer_key": "A box or container with yellow and white labeling",
+      "required_visual_evidence": [
+        "rectangular box shape",
+        "yellow and white label visible on object",
+        "object remains stationary on fabric"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the key object central to the demonstration"
+    },
+    {
+      "q_idx": 2,
+      "question": "What surface is the activity taking place on?",
+      "answer_key": "A gray and white striped fabric or cloth on a wooden table",
+      "required_visual_evidence": [
+        "wooden table surface",
+        "gray and white striped fabric underneath",
+        "fabric with vertical fold patterns"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes the setting and work surface for the activity"
+    },
+    {
+      "q_idx": 3,
+      "question": "What color is the wrapping material being used?",
+      "answer_key": "Red and yellow",
+      "required_visual_evidence": [
+        "red material visible in frames 3-8",
+        "yellow material visible in frames 3-8",
+        "both colors wrapped around object"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the materials used in the wrapping process"
+    },
+    {
+      "q_idx": 4,
+      "question": "How many hands are visible performing the wrapping action?",
+      "answer_key": "Two hands",
+      "required_visual_evidence": [
+        "both hands visible in multiple frames",
+        "hands manipulating material on both sides of object",
+        "coordinated hand movements"
+      ],
+      "importance": "useful",
+      "rationale": "Clarifies that this is a two-handed activity requiring coordination"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing in this clip?",
+      "answer_key": "A person is lying on their back on a bed or couch.",
+      "required_visual_evidence": [
+        "person in profile view",
+        "horizontal reclined position",
+        "brown/tan fabric surface"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes the primary action and body position central to the scene."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of furniture is the person on?",
+      "answer_key": "A bed or couch with brown/tan colored fabric or upholstery.",
+      "required_visual_evidence": [
+        "brown fabric",
+        "horizontal surface",
+        "ridged/textured upholstery"
+      ],
+      "importance": "critical",
+      "rationale": "Identifies the setting and main object the subject interacts with."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the camera angle or perspective in this scene?",
+      "answer_key": "A side profile view showing the person from the side while lying down.",
+      "required_visual_evidence": [
+        "profile orientation",
+        "person's face visible from side",
+        "consistent angle across frames"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener understand spatial orientation and how the scene is framed."
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible in the background of the scene?",
+      "answer_key": "A wooden headboard or wall paneling with horizontal ridges or grooves.",
+      "required_visual_evidence": [
+        "wood texture",
+        "horizontal lines/ridges",
+        "brown wood color"
+      ],
+      "importance": "useful",
+      "rationale": "Provides context about the indoor setting and room furnishings."
+    },
+    {
+      "q_idx": 4,
+      "question": "How many people are visible in the frames?",
+      "answer_key": "Two people; one lying down and one partially visible above/behind.",
+      "required_visual_evidence": [
+        "main subject lying down",
+        "second person's arm/shoulder visible",
+        "two distinct individuals"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes that this is an interaction between two people, not a solo scene."
+    }
+  ]
+}

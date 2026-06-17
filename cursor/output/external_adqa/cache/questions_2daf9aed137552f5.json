@@ -1,0 +1,63 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the person in the video doing with their hands?",
+      "answer_key": "Tying or fastening a bow tie",
+      "required_visual_evidence": [
+        "hands holding white bow tie",
+        "hands manipulating fabric",
+        "formal attire"
+      ],
+      "importance": "critical",
+      "rationale": "Main action visible across multiple frames; essential to understanding the clip's purpose"
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of clothing is the person wearing?",
+      "answer_key": "Formal attire including black jacket, white dress shirt, and bow tie",
+      "required_visual_evidence": [
+        "black jacket",
+        "white shirt cuffs",
+        "white bow tie",
+        "formal dress"
+      ],
+      "importance": "critical",
+      "rationale": "Establishes context and setting; key visual elements throughout the clip"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the color of the bow tie being fastened?",
+      "answer_key": "White",
+      "required_visual_evidence": [
+        "white bow tie",
+        "hands holding white fabric"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the main object of focus; supports understanding of formal occasion"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is visible on the person's wrists?",
+      "answer_key": "White dress shirt cuffs",
+      "required_visual_evidence": [
+        "white cuffs",
+        "formal shirt sleeves"
+      ],
+      "importance": "useful",
+      "rationale": "Details formal attire; helps paint complete picture of formal dress"
+    },
+    {
+      "q_idx": 4,
+      "question": "What is the setting or location where this action takes place?",
+      "answer_key": "Indoors, appears to be a dark interior space or venue",
+      "required_visual_evidence": [
+        "dark background",
+        "indoor lighting",
+        "floor visible"
+      ],
+      "importance": "useful",
+      "rationale": "Establishes context for the formal dressing activity shown"
+    }
+  ]
+}

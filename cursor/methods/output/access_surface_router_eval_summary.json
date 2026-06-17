@@ -1,0 +1,91 @@
+{
+  "input": "cursor/methods/output/access_surface_router.csv",
+  "policies": [
+    {
+      "policy": "all_static",
+      "n_clips": 58,
+      "non_static_n": 0,
+      "non_static_rate": 0.0,
+      "surface_count": {
+        "static_ad": 58
+      },
+      "pro_not_best_recall": 0.0,
+      "high_collision_recall": 0.0,
+      "weak_margin_recall": 0.0,
+      "non_static_precision_pro_not_best": 0.0,
+      "static_safety_target0_rate": 0.5344827586206896,
+      "avoidable_static_misses": 27,
+      "static_n": 58
+    },
+    {
+      "policy": "need_only",
+      "n_clips": 58,
+      "non_static_n": 27,
+      "non_static_rate": 0.46551724137931033,
+      "surface_count": {
+        "static_ad": 31,
+        "detail_chip": 27
+      },
+      "pro_not_best_recall": 0.5555555555555556,
+      "high_collision_recall": 0.5416666666666666,
+      "weak_margin_recall": 0.46511627906976744,
+      "non_static_precision_pro_not_best": 0.5555555555555556,
+      "static_safety_target0_rate": 0.6129032258064516,
+      "avoidable_static_misses": 12,
+      "static_n": 31
+    },
+    {
+      "policy": "speech_need",
+      "n_clips": 58,
+      "non_static_n": 21,
+      "non_static_rate": 0.3620689655172414,
+      "surface_count": {
+        "static_ad": 37,
+        "defer_replay": 21
+      },
+      "pro_not_best_recall": 0.4444444444444444,
+      "high_collision_recall": 0.3333333333333333,
+      "weak_margin_recall": 0.3488372093023256,
+      "non_static_precision_pro_not_best": 0.5714285714285714,
+      "static_safety_target0_rate": 0.5945945945945946,
+      "avoidable_static_misses": 15,
+      "static_n": 37
+    },
+    {
+      "policy": "social_collision",
+      "n_clips": 58,
+      "non_static_n": 24,
+      "non_static_rate": 0.41379310344827586,
+      "surface_count": {
+        "static_ad": 34,
+        "detail_chip": 24
+      },
+      "pro_not_best_recall": 0.5925925925925926,
+      "high_collision_recall": 1.0,
+      "weak_margin_recall": 0.4186046511627907,
+      "non_static_precision_pro_not_best": 0.6666666666666666,
+      "static_safety_target0_rate": 0.6764705882352942,
+      "avoidable_static_misses": 11,
+      "static_n": 34
+    },
+    {
+      "policy": "surface_router_v1",
+      "n_clips": 58,
+      "non_static_n": 44,
+      "non_static_rate": 0.7586206896551724,
+      "surface_count": {
+        "identity_chip": 18,
+        "concise_cue": 14,
+        "static_ad": 14,
+        "defer_replay": 12
+      },
+      "pro_not_best_recall": 0.9259259259259259,
+      "high_collision_recall": 0.9166666666666666,
+      "weak_margin_recall": 0.8372093023255814,
+      "non_static_precision_pro_not_best": 0.5681818181818182,
+      "static_safety_target0_rate": 0.8571428571428571,
+      "avoidable_static_misses": 2,
+      "static_n": 14
+    }
+  ]
+}

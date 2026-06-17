@@ -1,0 +1,13 @@
+target,feature,direction,auc_oriented,average_precision,n,positives
+all4_fail,accessibility_gap,high_bad,0.875,0.41666666666666663,18,2
+all4_fail,alignment_cosine,low_bad,0.609375,0.3214285714285714,18,2
+all4_fail,description_gain,low_bad,0.53125,0.5588235294117647,18,2
+low_tier3_margin,description_gain,low_bad,1.0,1.0,18,1
+low_tier3_margin,alignment_cosine,low_bad,0.9705882352941176,0.5,18,1
+low_tier3_margin,accessibility_gap,high_bad,0.8235294117647058,0.25,18,1
+quality_risk_fail,accessibility_gap,high_bad,0.875,0.41666666666666663,18,2
+quality_risk_fail,alignment_cosine,low_bad,0.609375,0.3214285714285714,18,2
+quality_risk_fail,description_gain,low_bad,0.53125,0.5588235294117647,18,2
+tier2_tier1_inversion,description_gain,high_bad,0.9411764705882353,0.5,18,1
+tier2_tier1_inversion,accessibility_gap,high_bad,0.8823529411764706,0.3333333333333333,18,1
+tier2_tier1_inversion,alignment_cosine,high_bad,0.7647058823529411,0.2,18,1

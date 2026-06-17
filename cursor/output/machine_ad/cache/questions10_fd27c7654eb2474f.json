@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who is the central figure in the video?",
+      "answer_key": "A person with blonde hair.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What action is being performed on the person?",
+      "answer_key": "Banknotes are being thrown onto them.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the primary setting of the scene?",
+      "answer_key": "A bed.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What specific items are falling onto the person?",
+      "answer_key": "Money or banknotes.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color is the person's shirt or top?",
+      "answer_key": "Red.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "How is the person's hair styled?",
+      "answer_key": "In a bun or ponytail.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What is the person's facial expression after receiving the money?",
+      "answer_key": "Smiling.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "Describe the quantity of money visible on the bed.",
+      "answer_key": "Many banknotes are scattered.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What color is the headboard behind the person?",
+      "answer_key": "Dark brown.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What text appears in the speech bubble at the top?",
+      "answer_key": "DICA DE COMO ME ACORDAR DE BOM HUMOR",
+      "tier": "secondary"
+    }
+  ]
+}

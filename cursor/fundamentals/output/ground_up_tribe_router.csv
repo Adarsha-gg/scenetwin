@@ -1,0 +1,21 @@
+target,target_desc,signal,auc,n_pos,n,mean_signal_pos,mean_signal_neg
+critical_any_miss,Pro AD misses ≥1 critical ADQA question,collision_index,0.5333333333333333,3,18,0.4601423821557822,0.5493573252534668
+critical_any_miss,Pro AD misses ≥1 critical ADQA question,tribe_pressure,0.5111111111111111,3,18,0.6852612135430167,0.6756328482008376
+critical_any_miss,Pro AD misses ≥1 critical ADQA question,extended_seconds_frac,0.5444444444444444,3,18,0.5272727272727273,0.5187212787212787
+critical_any_miss,Pro AD misses ≥1 critical ADQA question,mean_speech_density,0.5333333333333333,3,18,0.8484848484848485,0.8443889443889444
+critical_any_miss,Pro AD misses ≥1 critical ADQA question,high_need_seconds_frac,0.5555555555555556,3,18,0.5878787878787879,0.5608208458208458
+tier2_beats_tier3,Tier2 VATEX-long beats pro on ADQA v4,collision_index,,0,18,,0.5344881680705194
+tier2_beats_tier3,Tier2 VATEX-long beats pro on ADQA v4,tribe_pressure,,0,18,,0.6772375757578675
+tier2_beats_tier3,Tier2 VATEX-long beats pro on ADQA v4,extended_seconds_frac,,0,18,,0.5201465201465202
+tier2_beats_tier3,Tier2 VATEX-long beats pro on ADQA v4,mean_speech_density,,0,18,,0.8450715950715951
+tier2_beats_tier3,Tier2 VATEX-long beats pro on ADQA v4,high_need_seconds_frac,,0,18,,0.5653305028305028
+gt_disagreement,ADQA-best tier ≠ tier3 (GT wrong?),collision_index,0.3125,2,18,0.2727363351666401,0.5672071471835043
+gt_disagreement,ADQA-best tier ≠ tier3 (GT wrong?),tribe_pressure,0.28125,2,18,0.5020815957693647,0.6991320732564302
+gt_disagreement,ADQA-best tier ≠ tier3 (GT wrong?),extended_seconds_frac,0.234375,2,18,0.3181818181818182,0.5453921078921079
+gt_disagreement,ADQA-best tier ≠ tier3 (GT wrong?),mean_speech_density,0.515625,2,18,0.9090909090909091,0.8370691808191808
+gt_disagreement,ADQA-best tier ≠ tier3 (GT wrong?),high_need_seconds_frac,0.203125,2,18,0.3181818181818182,0.5962240884115884
+label_inversion,Same as tier2 beats tier3,collision_index,,0,18,,0.5344881680705194
+label_inversion,Same as tier2 beats tier3,tribe_pressure,,0,18,,0.6772375757578675
+label_inversion,Same as tier2 beats tier3,extended_seconds_frac,,0,18,,0.5201465201465202
+label_inversion,Same as tier2 beats tier3,mean_speech_density,,0,18,,0.8450715950715951
+label_inversion,Same as tier2 beats tier3,high_need_seconds_frac,,0,18,,0.5653305028305028

@@ -1,0 +1,66 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "What is the main subject doing throughout the sequence?",
+      "answer_key": "A person walks across a parking lot toward a parked vehicle.",
+      "required_visual_evidence": [
+        "person in center of frames",
+        "walking motion across asphalt",
+        "parked cars visible",
+        "progression across lot"
+      ],
+      "importance": "critical",
+      "rationale": "Core action that defines the entire clip and viewer understanding of events."
+    },
+    {
+      "q_idx": 1,
+      "question": "What type of location is shown in this video?",
+      "answer_key": "An urban parking lot surrounded by apartment buildings.",
+      "required_visual_evidence": [
+        "asphalt parking surface",
+        "multiple parked vehicles",
+        "tall residential buildings",
+        "yellow bollard/post"
+      ],
+      "importance": "critical",
+      "rationale": "Setting establishes context for the action and helps orient the listener spatially."
+    },
+    {
+      "q_idx": 2,
+      "question": "What is visible on the right side of the parking lot?",
+      "answer_key": "A large blue van or truck parked on the right edge.",
+      "required_visual_evidence": [
+        "blue vehicle on right",
+        "van/truck size and shape",
+        "consistent across frames"
+      ],
+      "importance": "useful",
+      "rationale": "Prominent stationary object that anchors spatial description of the scene."
+    },
+    {
+      "q_idx": 3,
+      "question": "What clothing does the main subject appear to be wearing?",
+      "answer_key": "Brown or tan colored jacket or coat.",
+      "required_visual_evidence": [
+        "person's upper body clothing",
+        "brown/tan coloring",
+        "visible across multiple frames"
+      ],
+      "importance": "useful",
+      "rationale": "Helps listener identify and track the main subject throughout the sequence."
+    },
+    {
+      "q_idx": 4,
+      "question": "What other vehicles are parked in the lot besides the blue van?",
+      "answer_key": "Several sedans and cars parked in the center and left areas.",
+      "required_visual_evidence": [
+        "multiple parked cars",
+        "center of lot placement",
+        "sedan-style vehicles"
+      ],
+      "importance": "useful",
+      "rationale": "Describes the populated parking environment and reinforces the urban setting."
+    }
+  ]
+}

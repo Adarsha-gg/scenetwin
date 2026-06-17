@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "q_idx": 0,
+      "question": "Who are the main subjects visible in the video clip?",
+      "answer_key": "A woman and a horse.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 1,
+      "question": "What is the primary action the woman is performing?",
+      "answer_key": "She is demonstrating and using a grooming tool on the horse.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 2,
+      "question": "What is the setting or location of the scene?",
+      "answer_key": "Inside a stable or barn.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 3,
+      "question": "What is the main object the woman is holding and using?",
+      "answer_key": "A dark gray oval-shaped grooming brush.",
+      "tier": "core"
+    },
+    {
+      "q_idx": 4,
+      "question": "What color shirt is the woman wearing?",
+      "answer_key": "An orange v-neck shirt.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 5,
+      "question": "What is the woman wearing on her head?",
+      "answer_key": "A white baseball cap.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 6,
+      "question": "What distinctive marking does the horse have on its forehead?",
+      "answer_key": "A white blaze.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 7,
+      "question": "Describe the surface texture of the grooming tool.",
+      "answer_key": "It has a textured, possibly rubberized, surface.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 8,
+      "question": "What part of the horse's body does the woman groom first?",
+      "answer_key": "The horse's head and face.",
+      "tier": "secondary"
+    },
+    {
+      "q_idx": 9,
+      "question": "What color is the horse's coat?",
+      "answer_key": "Brown.",
+      "tier": "secondary"
+    }
+  ]
+}
