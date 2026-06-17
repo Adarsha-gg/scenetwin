@@ -1,0 +1,64 @@
+{
+  "run_at": "2026-06-09T10:06:03.650780+00:00",
+  "task": "Can TRIBE clip-triage and the CLIP wrong-content gate be fused into one risk score?",
+  "answer": "No. They detect disjoint failure classes; fuse-by-sum dilutes. Keep two independent routers.",
+  "union_failure_n": 13,
+  "orthogonality": {
+    "n_clips": 60,
+    "rho_fail_n": 10,
+    "gate_fail_n": 3,
+    "overlap_n": 0,
+    "spearman_gap_vs_drop": 0.0621,
+    "auc_tribe_predicts_gate_fail": 0.415,
+    "auc_neg_drop_predicts_rho_fail": 0.418,
+    "auc_tribe_predicts_rho_fail": 0.794,
+    "auc_neg_drop_predicts_gate_fail": 1.0
+  },
+  "review_policies_union_recall": [
+    {
+      "budget_frac": 0.1,
+      "k": 6,
+      "oracle_ceiling": 0.462,
+      "tribe_only": 0.308,
+      "summed_score": 0.231,
+      "or_cascade": 0.462
+    },
+    {
+      "budget_frac": 0.15,
+      "k": 9,
+      "oracle_ceiling": 0.692,
+      "tribe_only": 0.462,
+      "summed_score": 0.231,
+      "or_cascade": 0.538
+    },
+    {
+      "budget_frac": 0.2,
+      "k": 12,
+      "oracle_ceiling": 0.923,
+      "tribe_only": 0.538,
+      "summed_score": 0.308,
+      "or_cascade": 0.615
+    },
+    {
+      "budget_frac": 0.3,
+      "k": 18,
+      "oracle_ceiling": 1.0,
+      "tribe_only": 0.615,
+      "summed_score": 0.538,
+      "or_cascade": 0.769
+    },
+    {
+      "budget_frac": 0.4,
+      "k": 24,
+      "oracle_ceiling": 1.0,
+      "tribe_only": 0.615,
+      "summed_score": 0.692,
+      "or_cascade": 0.769
+    }
+  ],
+  "caveats": [
+    "n=13 union failures is small; treat recall numbers as directional.",
+    "gate_fail is DEFINED as clip_drop<=0 and the cascade flags clip_drop<=0, so the cascade's lift over tribe-only is partly definitional (permutation p~0.80). The non-circular finding is the orthogonality (overlap=0, spearman 0.06, cross-AUC ~0.42).",
+    "rho_fail uses ADQA-only ordering; the full ensemble misorders only 2/60 so this combo targets the ADQA-backbone deployment."
+  ]
+}
