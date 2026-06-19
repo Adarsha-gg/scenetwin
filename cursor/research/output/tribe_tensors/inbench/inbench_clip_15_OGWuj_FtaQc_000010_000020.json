@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_15_OGWuj_FtaQc_000010_000020",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_15.mp4",
+  "ad_text_used": "A man in a green shirt and navy shorts walks back and forth along a fence. On the other side, a small deer mirrors his movements, following him closely. The setting appears to be a zoo or animal enclosure, with the man playfully engaging the deer in a game of follow-the-leader.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.19226284953845307,
+  "description_gain": -0.5518449171324935,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    21,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 15,
+  "video_id": "OGWuj_FtaQc_000010_000020",
+  "category": "Pets & Animals",
+  "duration_s": 16.39,
+  "all4_fail": 1,
+  "low_tier3_margin": 1,
+  "tier2_tier1_inversion": 0
+}

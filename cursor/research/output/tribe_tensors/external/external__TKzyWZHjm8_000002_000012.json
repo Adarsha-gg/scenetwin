@@ -1,0 +1,27 @@
+{
+  "clip_key": "external__TKzyWZHjm8_000002_000012",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/_TKzyWZHjm8_000002_000012.mp4",
+  "ad_text_used": "The video begins with the title 'Stability Ball Ab Exercises Part 1' displayed on the screen. A man enters a room that appears to be a garage or living room, with various fitness equipment visible. He approaches a large pink exercise ball and sits on it, preparing to demonstrate a series of ab exercises. The focus is on using the stability ball to enhance core workouts.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.1308002538681644,
+  "description_gain": -0.684058235477668,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    30,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "_TKzyWZHjm8_000002_000012",
+  "category": "Health & Wellness",
+  "yt_id": "_TKzyWZHjm8",
+  "start_s": 2.0,
+  "end_s": 12.0
+}

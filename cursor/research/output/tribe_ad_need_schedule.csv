@@ -1,0 +1,335 @@
+clip_key,corpus,category,window,start_s,end_s,need_score,scene_gap,agent_gap,need_q,recommendation
+inbench_clip_00_Q76JRCyTnSc_000007_000017,inbench,Food & Cooking,0,0.0,4.5,0.406,0.118,0.165,0.6,moderate_ad_need:agent/action
+inbench_clip_00_Q76JRCyTnSc_000007_000017,inbench,Food & Cooking,1,4.5,7.5,0.161,0.077,0.02,0.4,moderate_ad_need:spatial/scene
+inbench_clip_00_Q76JRCyTnSc_000007_000017,inbench,Food & Cooking,2,7.5,10.4,0.489,0.307,0.014,0.8,high_ad_need:spatial/scene
+inbench_clip_00_Q76JRCyTnSc_000007_000017,inbench,Food & Cooking,3,10.4,13.4,0.701,0.433,0.026,1.0,high_ad_need:spatial/scene
+inbench_clip_00_Q76JRCyTnSc_000007_000017,inbench,Food & Cooking,4,13.4,14.9,0.089,0.03,0.253,0.2,low_ad_need
+inbench_clip_01_058y9xGmmTQ_000206_000216,inbench,Food & Cooking,0,0.0,4.5,0.747,0.56,0.129,1.0,high_ad_need:spatial/scene
+inbench_clip_01_058y9xGmmTQ_000206_000216,inbench,Food & Cooking,1,4.5,7.5,0.288,0.281,0.05,0.6,moderate_ad_need:spatial/scene
+inbench_clip_01_058y9xGmmTQ_000206_000216,inbench,Food & Cooking,2,7.5,10.4,0.082,0.104,0.031,0.4,moderate_ad_need:spatial/scene
+inbench_clip_01_058y9xGmmTQ_000206_000216,inbench,Food & Cooking,3,10.4,13.4,0.077,0.028,0.032,0.2,low_ad_need
+inbench_clip_01_058y9xGmmTQ_000206_000216,inbench,Food & Cooking,4,13.4,16.4,0.337,0.076,0.131,0.8,high_ad_need:agent/action
+inbench_clip_03_vLGOZvJ_v4Q_000285_000295,inbench,Food & Cooking,0,0.0,3.3,0.677,0.247,0.186,1.0,high_ad_need:spatial/scene
+inbench_clip_03_vLGOZvJ_v4Q_000285_000295,inbench,Food & Cooking,1,3.3,6.6,0.387,0.073,0.067,0.8,high_ad_need:spatial/scene
+inbench_clip_03_vLGOZvJ_v4Q_000285_000295,inbench,Food & Cooking,2,6.6,9.8,0.195,0.062,0.045,0.6,moderate_ad_need:spatial/scene
+inbench_clip_03_vLGOZvJ_v4Q_000285_000295,inbench,Food & Cooking,3,9.8,13.1,0.088,0.066,0.044,0.4,moderate_ad_need:spatial/scene
+inbench_clip_03_vLGOZvJ_v4Q_000285_000295,inbench,Food & Cooking,4,13.1,16.4,0.047,0.08,0.032,0.2,low_ad_need
+inbench_clip_04_B0EKYDSv_yQ_000002_000012,inbench,Food & Cooking,0,0.0,3.9,0.273,0.118,0.054,0.3333333333333333,low_ad_need
+inbench_clip_04_B0EKYDSv_yQ_000002_000012,inbench,Food & Cooking,1,3.9,7.7,0.135,0.06,0.031,0.16666666666666666,low_ad_need
+inbench_clip_04_B0EKYDSv_yQ_000002_000012,inbench,Food & Cooking,2,7.7,9.7,0.356,0.07,0.034,0.5,moderate_ad_need:spatial/scene
+inbench_clip_04_B0EKYDSv_yQ_000002_000012,inbench,Food & Cooking,3,9.7,13.6,0.554,0.116,0.052,0.8333333333333334,high_ad_need:spatial/scene
+inbench_clip_04_B0EKYDSv_yQ_000002_000012,inbench,Food & Cooking,4,13.6,15.5,0.388,0.286,0.506,0.6666666666666666,moderate_ad_need:agent/action
+inbench_clip_04_B0EKYDSv_yQ_000002_000012,inbench,Food & Cooking,5,15.5,19.4,0.642,0.175,0.092,1.0,high_ad_need:spatial/scene
+inbench_clip_05_PbGvLf7HvXQ_000063_000073,inbench,Food & Cooking,0,0.0,4.5,0.485,0.152,0.249,0.6,moderate_ad_need:agent/action
+inbench_clip_05_PbGvLf7HvXQ_000063_000073,inbench,Food & Cooking,1,4.5,7.5,0.462,0.074,0.034,0.4,moderate_ad_need:spatial/scene
+inbench_clip_05_PbGvLf7HvXQ_000063_000073,inbench,Food & Cooking,2,7.5,10.4,0.812,0.125,0.058,0.8,high_ad_need:spatial/scene
+inbench_clip_05_PbGvLf7HvXQ_000063_000073,inbench,Food & Cooking,3,10.4,13.4,0.895,0.144,0.089,1.0,high_ad_need:spatial/scene
+inbench_clip_05_PbGvLf7HvXQ_000063_000073,inbench,Food & Cooking,4,13.4,16.4,0.274,0.085,0.044,0.2,low_ad_need
+inbench_clip_06_0HEi6q3bGaw_000011_000021,inbench,Travel,0,0.0,3.3,0.735,0.248,0.131,1.0,high_ad_need:spatial/scene
+inbench_clip_06_0HEi6q3bGaw_000011_000021,inbench,Travel,1,3.3,6.5,0.332,0.121,0.043,0.6666666666666666,moderate_ad_need:spatial/scene
+inbench_clip_06_0HEi6q3bGaw_000011_000021,inbench,Travel,2,6.5,9.8,0.27,0.069,0.025,0.3333333333333333,low_ad_need
+inbench_clip_06_0HEi6q3bGaw_000011_000021,inbench,Travel,3,9.8,13.0,0.317,0.066,0.025,0.5,moderate_ad_need:spatial/scene
+inbench_clip_06_0HEi6q3bGaw_000011_000021,inbench,Travel,4,13.0,16.3,0.537,0.096,0.025,0.8333333333333334,high_ad_need:spatial/scene
+inbench_clip_06_0HEi6q3bGaw_000011_000021,inbench,Travel,5,16.3,17.9,0.017,0.068,0.828,0.16666666666666666,low_ad_need
+inbench_clip_07_09dQut5GJ68_000049_000059,inbench,Travel,0,0.0,4.5,0.25,0.214,0.033,0.4,moderate_ad_need:spatial/scene
+inbench_clip_07_09dQut5GJ68_000049_000059,inbench,Travel,1,4.5,7.5,0.121,0.093,0.022,0.2,low_ad_need
+inbench_clip_07_09dQut5GJ68_000049_000059,inbench,Travel,2,7.5,10.4,0.437,0.103,0.023,0.6,moderate_ad_need:spatial/scene
+inbench_clip_07_09dQut5GJ68_000049_000059,inbench,Travel,3,10.4,13.4,0.851,0.258,0.594,1.0,high_ad_need:agent/action
+inbench_clip_07_09dQut5GJ68_000049_000059,inbench,Travel,4,13.4,16.4,0.471,0.145,0.029,0.8,high_ad_need:spatial/scene
+inbench_clip_08_hOirknJr3os_000001_000011,inbench,Travel,0,0.0,3.3,0.628,0.303,0.342,0.8,high_ad_need:agent/action
+inbench_clip_08_hOirknJr3os_000001_000011,inbench,Travel,1,3.3,6.6,0.639,0.195,0.214,1.0,high_ad_need:agent/action
+inbench_clip_08_hOirknJr3os_000001_000011,inbench,Travel,2,6.6,9.8,0.314,0.136,0.06,0.6,moderate_ad_need:spatial/scene
+inbench_clip_08_hOirknJr3os_000001_000011,inbench,Travel,3,9.8,13.1,0.078,0.05,0.036,0.2,low_ad_need
+inbench_clip_08_hOirknJr3os_000001_000011,inbench,Travel,4,13.1,16.4,0.276,0.075,0.044,0.4,moderate_ad_need:spatial/scene
+inbench_clip_09_TF4q9y0rJoc_000000_000010,inbench,Sports,0,0.0,4.5,0.697,0.312,0.097,0.8,high_ad_need:spatial/scene
+inbench_clip_09_TF4q9y0rJoc_000000_000010,inbench,Sports,1,4.5,7.5,0.677,0.183,0.043,0.6,moderate_ad_need:spatial/scene
+inbench_clip_09_TF4q9y0rJoc_000000_000010,inbench,Sports,2,7.5,10.4,0.655,0.157,0.032,0.4,moderate_ad_need:spatial/scene
+inbench_clip_09_TF4q9y0rJoc_000000_000010,inbench,Sports,3,10.4,13.4,0.746,0.186,0.037,1.0,high_ad_need:spatial/scene
+inbench_clip_09_TF4q9y0rJoc_000000_000010,inbench,Sports,4,13.4,16.4,0.319,0.097,0.028,0.2,low_ad_need
+inbench_clip_11_z8Q-s8AthrA_000002_000012,inbench,Sports,0,0.0,3.3,0.504,0.263,0.424,0.8,high_ad_need:agent/action
+inbench_clip_11_z8Q-s8AthrA_000002_000012,inbench,Sports,1,3.3,6.6,0.378,0.148,0.063,0.2,low_ad_need
+inbench_clip_11_z8Q-s8AthrA_000002_000012,inbench,Sports,2,6.6,9.8,0.464,0.073,0.043,0.6,moderate_ad_need:spatial/scene
+inbench_clip_11_z8Q-s8AthrA_000002_000012,inbench,Sports,3,9.8,13.1,0.428,0.09,0.084,0.4,moderate_ad_need:spatial/scene
+inbench_clip_11_z8Q-s8AthrA_000002_000012,inbench,Sports,4,13.1,16.4,0.567,0.131,0.192,1.0,high_ad_need:agent/action
+inbench_clip_12_abaLFY_GI8k_000295_000305,inbench,Sports,0,0.0,4.3,0.955,0.468,0.459,1.0,high_ad_need:spatial/scene
+inbench_clip_12_abaLFY_GI8k_000295_000305,inbench,Sports,1,4.3,6.5,0.917,0.574,0.433,0.875,high_ad_need:spatial/scene
+inbench_clip_12_abaLFY_GI8k_000295_000305,inbench,Sports,2,6.5,10.8,0.799,0.437,0.252,0.75,high_ad_need:spatial/scene
+inbench_clip_12_abaLFY_GI8k_000295_000305,inbench,Sports,3,10.8,13.0,0.457,0.125,0.055,0.625,moderate_ad_need:spatial/scene
+inbench_clip_12_abaLFY_GI8k_000295_000305,inbench,Sports,4,13.0,15.2,0.374,0.095,0.029,0.25,low_ad_need
+inbench_clip_12_abaLFY_GI8k_000295_000305,inbench,Sports,5,15.2,19.5,0.38,0.173,0.028,0.375,moderate_ad_need:spatial/scene
+inbench_clip_12_abaLFY_GI8k_000295_000305,inbench,Sports,6,19.5,21.7,0.432,0.278,0.03,0.5,moderate_ad_need:spatial/scene
+inbench_clip_12_abaLFY_GI8k_000295_000305,inbench,Sports,7,21.7,23.8,0.0,0.074,0.161,0.125,low_ad_need
+inbench_clip_13_KFcH6BYZWhc_000011_000021,inbench,Sports,0,0.0,4.5,0.474,0.131,0.073,1.0,high_ad_need:spatial/scene
+inbench_clip_13_KFcH6BYZWhc_000011_000021,inbench,Sports,1,4.5,7.5,0.197,0.06,0.024,0.4,moderate_ad_need:spatial/scene
+inbench_clip_13_KFcH6BYZWhc_000011_000021,inbench,Sports,2,7.5,10.4,0.166,0.042,0.02,0.2,low_ad_need
+inbench_clip_13_KFcH6BYZWhc_000011_000021,inbench,Sports,3,10.4,13.4,0.353,0.062,0.026,0.8,high_ad_need:spatial/scene
+inbench_clip_13_KFcH6BYZWhc_000011_000021,inbench,Sports,4,13.4,14.9,0.32,0.074,0.022,0.6,moderate_ad_need:spatial/scene
+inbench_clip_14_UDD6YcChywc_000000_000010,inbench,Sports,0,0.0,3.3,0.75,0.301,0.423,1.0,high_ad_need:agent/action
+inbench_clip_14_UDD6YcChywc_000000_000010,inbench,Sports,1,3.3,6.6,0.355,0.199,0.104,0.6,moderate_ad_need:spatial/scene
+inbench_clip_14_UDD6YcChywc_000000_000010,inbench,Sports,2,6.6,9.8,0.126,0.3,0.048,0.4,moderate_ad_need:spatial/scene
+inbench_clip_14_UDD6YcChywc_000000_000010,inbench,Sports,3,9.8,13.1,0.091,0.315,0.087,0.2,low_ad_need
+inbench_clip_14_UDD6YcChywc_000000_000010,inbench,Sports,4,13.1,16.4,0.469,0.714,0.561,0.8,high_ad_need:spatial/scene
+inbench_clip_15_OGWuj_FtaQc_000010_000020,inbench,Pets & Animals,0,0.0,3.3,0.211,0.049,0.01,0.2,low_ad_need
+inbench_clip_15_OGWuj_FtaQc_000010_000020,inbench,Pets & Animals,1,3.3,6.6,0.431,0.123,0.018,0.6,moderate_ad_need:spatial/scene
+inbench_clip_15_OGWuj_FtaQc_000010_000020,inbench,Pets & Animals,2,6.6,9.8,0.541,0.114,0.024,1.0,high_ad_need:spatial/scene
+inbench_clip_15_OGWuj_FtaQc_000010_000020,inbench,Pets & Animals,3,9.8,13.1,0.393,0.128,0.044,0.4,moderate_ad_need:spatial/scene
+inbench_clip_15_OGWuj_FtaQc_000010_000020,inbench,Pets & Animals,4,13.1,16.4,0.51,0.425,0.183,0.8,high_ad_need:spatial/scene
+inbench_clip_16_kOf-vl-GmVI_000115_000125,inbench,Pets & Animals,0,0.0,4.5,0.504,0.077,0.065,0.6,moderate_ad_need:spatial/scene
+inbench_clip_16_kOf-vl-GmVI_000115_000125,inbench,Pets & Animals,1,4.5,7.5,0.126,0.059,0.036,0.2,low_ad_need
+inbench_clip_16_kOf-vl-GmVI_000115_000125,inbench,Pets & Animals,2,7.5,10.4,0.554,0.139,0.093,0.8,high_ad_need:spatial/scene
+inbench_clip_16_kOf-vl-GmVI_000115_000125,inbench,Pets & Animals,3,10.4,13.4,0.572,0.213,0.09,1.0,high_ad_need:spatial/scene
+inbench_clip_16_kOf-vl-GmVI_000115_000125,inbench,Pets & Animals,4,13.4,16.4,0.403,0.175,0.572,0.4,moderate_ad_need:agent/action
+inbench_clip_17_gjoZic4WjiQ_000012_000022,inbench,Pets & Animals,0,0.0,3.5,0.782,0.418,0.278,1.0,high_ad_need:spatial/scene
+inbench_clip_17_gjoZic4WjiQ_000012_000022,inbench,Pets & Animals,1,3.5,7.0,0.64,0.19,0.027,0.8333333333333334,high_ad_need:spatial/scene
+inbench_clip_17_gjoZic4WjiQ_000012_000022,inbench,Pets & Animals,2,7.0,10.6,0.584,0.135,0.021,0.6666666666666666,moderate_ad_need:spatial/scene
+inbench_clip_17_gjoZic4WjiQ_000012_000022,inbench,Pets & Animals,3,10.6,12.3,0.219,0.056,0.012,0.16666666666666666,low_ad_need
+inbench_clip_17_gjoZic4WjiQ_000012_000022,inbench,Pets & Animals,4,12.3,15.8,0.367,0.078,0.018,0.5,moderate_ad_need:spatial/scene
+inbench_clip_17_gjoZic4WjiQ_000012_000022,inbench,Pets & Animals,5,15.8,19.4,0.262,0.069,0.085,0.3333333333333333,low_ad_need
+inbench_clip_18_q2ZBVyR1k-U_000021_000031,inbench,Pets & Animals,0,0.0,3.3,0.444,0.042,0.024,0.2,low_ad_need
+inbench_clip_18_q2ZBVyR1k-U_000021_000031,inbench,Pets & Animals,1,3.3,6.6,0.779,0.061,0.019,1.0,high_ad_need:spatial/scene
+inbench_clip_18_q2ZBVyR1k-U_000021_000031,inbench,Pets & Animals,2,6.6,9.8,0.588,0.075,0.025,0.6,moderate_ad_need:spatial/scene
+inbench_clip_18_q2ZBVyR1k-U_000021_000031,inbench,Pets & Animals,3,9.8,13.1,0.533,0.055,0.029,0.4,moderate_ad_need:spatial/scene
+inbench_clip_18_q2ZBVyR1k-U_000021_000031,inbench,Pets & Animals,4,13.1,16.4,0.593,0.148,0.018,0.8,high_ad_need:spatial/scene
+inbench_clip_19_qIWQHyOIpEY_000003_000013,inbench,Pets & Animals,0,0.0,4.2,0.589,0.175,0.65,0.8571428571428571,high_ad_need:agent/action
+inbench_clip_19_qIWQHyOIpEY_000003_000013,inbench,Pets & Animals,1,4.2,6.3,1.0,0.185,0.761,1.0,high_ad_need:agent/action
+inbench_clip_19_qIWQHyOIpEY_000003_000013,inbench,Pets & Animals,2,6.3,10.4,0.521,0.103,0.228,0.7142857142857143,high_ad_need:agent/action
+inbench_clip_19_qIWQHyOIpEY_000003_000013,inbench,Pets & Animals,3,10.4,12.5,0.363,0.07,0.128,0.5714285714285714,moderate_ad_need:agent/action
+inbench_clip_19_qIWQHyOIpEY_000003_000013,inbench,Pets & Animals,4,12.5,16.7,0.143,0.073,0.064,0.14285714285714285,low_ad_need
+inbench_clip_19_qIWQHyOIpEY_000003_000013,inbench,Pets & Animals,5,16.7,18.8,0.161,0.16,0.053,0.2857142857142857,low_ad_need
+inbench_clip_19_qIWQHyOIpEY_000003_000013,inbench,Pets & Animals,6,18.8,20.9,0.238,0.148,0.042,0.42857142857142855,moderate_ad_need:spatial/scene
+external_0m0-Q0zz_-c_000112_000122,external,How-to & Instructional,0,0.0,3.6,0.649,0.396,0.291,1.0,high_ad_need:spatial/scene
+external_0m0-Q0zz_-c_000112_000122,external,How-to & Instructional,1,3.6,6.4,0.185,0.162,0.033,0.25,low_ad_need
+external_0m0-Q0zz_-c_000112_000122,external,How-to & Instructional,2,6.4,9.1,0.23,0.213,0.025,0.5,moderate_ad_need:spatial/scene
+external_0m0-Q0zz_-c_000112_000122,external,How-to & Instructional,3,9.1,10.0,0.237,0.188,0.237,0.75,high_ad_need:agent/action
+external_0t0DB1B1w8Y_000000_000010,external,Sports,0,0.0,3.3,0.47,0.017,0.01,0.6666666666666666,moderate_ad_need:spatial/scene
+external_0t0DB1B1w8Y_000000_000010,external,Sports,1,3.3,6.7,0.637,0.03,0.013,1.0,high_ad_need:spatial/scene
+external_0t0DB1B1w8Y_000000_000010,external,Sports,2,6.7,10.0,0.385,0.037,0.037,0.3333333333333333,low_ad_need
+external_1-jIze6gy0g_000026_000036,external,How-to & Instructional,0,0.0,3.0,0.129,0.196,0.056,0.25,low_ad_need
+external_1-jIze6gy0g_000026_000036,external,How-to & Instructional,1,3.0,6.0,0.325,0.041,0.032,0.5,moderate_ad_need:spatial/scene
+external_1-jIze6gy0g_000026_000036,external,How-to & Instructional,2,6.0,9.0,0.616,0.319,0.058,0.75,high_ad_need:spatial/scene
+external_1-jIze6gy0g_000026_000036,external,How-to & Instructional,3,9.0,10.0,1.0,0.251,0.208,1.0,high_ad_need:spatial/scene
+external_1HUWWCLza0w_000000_000010,external,Sports,0,0.0,3.3,0.378,0.19,0.121,1.0,high_ad_need:spatial/scene
+external_1HUWWCLza0w_000000_000010,external,Sports,1,3.3,6.7,0.329,0.25,0.045,0.6666666666666666,moderate_ad_need:spatial/scene
+external_1HUWWCLza0w_000000_000010,external,Sports,2,6.7,10.0,0.222,0.321,0.524,0.3333333333333333,low_ad_need
+external_1YemrpNBpf4_000001_000011,external,Entertainment,0,0.0,3.0,0.168,0.097,0.535,0.25,low_ad_need
+external_1YemrpNBpf4_000001_000011,external,Entertainment,1,3.0,6.0,0.348,0.056,0.104,0.5,moderate_ad_need:agent/action
+external_1YemrpNBpf4_000001_000011,external,Entertainment,2,6.0,9.0,0.471,0.123,0.033,0.75,high_ad_need:spatial/scene
+external_1YemrpNBpf4_000001_000011,external,Entertainment,3,9.0,10.0,0.942,0.283,0.03,1.0,high_ad_need:spatial/scene
+external_1kLhK8KfIEw_000020_000030,external,How-to & Instructional,0,0.0,3.0,0.23,0.303,0.119,0.25,low_ad_need
+external_1kLhK8KfIEw_000020_000030,external,How-to & Instructional,1,3.0,6.0,0.457,0.301,0.099,0.5,moderate_ad_need:spatial/scene
+external_1kLhK8KfIEw_000020_000030,external,How-to & Instructional,2,6.0,9.0,0.518,0.243,0.108,0.75,high_ad_need:spatial/scene
+external_1kLhK8KfIEw_000020_000030,external,How-to & Instructional,3,9.0,10.0,0.916,0.384,0.212,1.0,high_ad_need:spatial/scene
+external_21T1JDdJgsM_000047_000057,external,Entertainment,0,0.0,3.6,0.389,0.152,0.077,0.75,high_ad_need:spatial/scene
+external_21T1JDdJgsM_000047_000057,external,Entertainment,1,3.6,6.4,0.658,0.213,0.055,1.0,high_ad_need:spatial/scene
+external_21T1JDdJgsM_000047_000057,external,Entertainment,2,6.4,9.1,0.247,0.15,0.233,0.5,moderate_ad_need:agent/action
+external_21T1JDdJgsM_000047_000057,external,Entertainment,3,9.1,10.0,0.0,0.017,0.012,0.25,low_ad_need
+external_2kJxrcNRS9w_000047_000057,external,Sports,0,0.0,3.6,0.604,0.478,0.172,1.0,high_ad_need:spatial/scene
+external_2kJxrcNRS9w_000047_000057,external,Sports,1,3.6,6.4,0.21,0.336,0.043,0.5,moderate_ad_need:spatial/scene
+external_2kJxrcNRS9w_000047_000057,external,Sports,2,6.4,9.1,0.456,0.592,0.141,0.75,high_ad_need:spatial/scene
+external_2kJxrcNRS9w_000047_000057,external,Sports,3,9.1,10.0,0.112,0.008,0.005,0.25,low_ad_need
+external_3su234u58DA_000172_000182,external,Entertainment,0,0.0,3.6,0.233,0.115,0.121,0.5,moderate_ad_need:agent/action
+external_3su234u58DA_000172_000182,external,Entertainment,1,3.6,6.4,0.126,0.082,0.016,0.25,low_ad_need
+external_3su234u58DA_000172_000182,external,Entertainment,2,6.4,9.1,0.62,0.123,0.045,1.0,high_ad_need:spatial/scene
+external_3su234u58DA_000172_000182,external,Entertainment,3,9.1,10.0,0.5,0.082,0.756,0.75,high_ad_need:agent/action
+external_3ufJNSez5Is_000008_000018,external,How-to & Instructional,0,0.0,3.0,0.146,0.097,0.108,0.25,low_ad_need
+external_3ufJNSez5Is_000008_000018,external,How-to & Instructional,1,3.0,6.0,0.328,0.084,0.01,0.5,moderate_ad_need:spatial/scene
+external_3ufJNSez5Is_000008_000018,external,How-to & Instructional,2,6.0,9.0,0.518,0.088,0.011,0.75,high_ad_need:spatial/scene
+external_3ufJNSez5Is_000008_000018,external,How-to & Instructional,3,9.0,10.0,1.0,0.187,0.027,1.0,high_ad_need:spatial/scene
+external_750QhTe9Z4U_000000_000010,external,People & Vlogs,0,0.0,3.0,0.659,0.206,0.2,1.0,high_ad_need:spatial/scene
+external_750QhTe9Z4U_000000_000010,external,People & Vlogs,1,3.0,6.0,0.282,0.128,0.017,0.75,high_ad_need:spatial/scene
+external_750QhTe9Z4U_000000_000010,external,People & Vlogs,2,6.0,9.0,0.23,0.101,0.023,0.5,moderate_ad_need:spatial/scene
+external_750QhTe9Z4U_000000_000010,external,People & Vlogs,3,9.0,10.0,0.062,0.182,0.03,0.25,low_ad_need
+external_8vkNr_eysXY_000002_000012,external,How-to & Instructional,0,0.0,3.0,0.114,0.068,0.034,0.25,low_ad_need
+external_8vkNr_eysXY_000002_000012,external,How-to & Instructional,1,3.0,6.0,0.375,0.36,0.063,0.5,moderate_ad_need:spatial/scene
+external_8vkNr_eysXY_000002_000012,external,How-to & Instructional,2,6.0,9.0,0.661,0.747,0.151,1.0,high_ad_need:spatial/scene
+external_8vkNr_eysXY_000002_000012,external,How-to & Instructional,3,9.0,10.0,0.5,1.267,0.47,0.75,high_ad_need:spatial/scene
+external_9eBhetL8n5Q_000222_000232,external,People & Vlogs,0,0.0,3.6,0.467,0.225,0.109,0.5,moderate_ad_need:spatial/scene
+external_9eBhetL8n5Q_000222_000232,external,People & Vlogs,1,3.6,6.4,0.474,0.104,0.059,0.75,high_ad_need:spatial/scene
+external_9eBhetL8n5Q_000222_000232,external,People & Vlogs,2,6.4,9.1,0.521,0.077,0.03,1.0,high_ad_need:spatial/scene
+external_9eBhetL8n5Q_000222_000232,external,People & Vlogs,3,9.1,10.0,0.372,0.115,0.043,0.25,low_ad_need
+external_9fuIpQgnNEQ_000049_000059,external,Event,0,0.0,3.6,0.75,0.139,0.133,1.0,high_ad_need:spatial/scene
+external_9fuIpQgnNEQ_000049_000059,external,Event,1,3.6,6.4,0.247,0.017,0.016,0.75,high_ad_need:spatial/scene
+external_9fuIpQgnNEQ_000049_000059,external,Event,2,6.4,9.1,0.191,0.01,0.012,0.5,moderate_ad_need:agent/action
+external_9fuIpQgnNEQ_000049_000059,external,Event,3,9.1,10.0,0.0,0.012,0.017,0.25,low_ad_need
+external_A0e7Z55s8pE_000008_000018,external,How-to & Instructional,0,0.0,3.3,0.67,0.178,0.22,1.0,high_ad_need:agent/action
+external_A0e7Z55s8pE_000008_000018,external,How-to & Instructional,1,3.3,6.7,0.669,0.121,0.074,0.6666666666666666,moderate_ad_need:spatial/scene
+external_A0e7Z55s8pE_000008_000018,external,How-to & Instructional,2,6.7,10.0,0.274,0.115,0.054,0.3333333333333333,low_ad_need
+external_AEkLDauJVi0_000069_000079,external,Food & Cooking,0,0.0,3.6,0.628,0.249,0.07,0.5,moderate_ad_need:spatial/scene
+external_AEkLDauJVi0_000069_000079,external,Food & Cooking,1,3.6,6.4,0.829,0.288,0.079,1.0,high_ad_need:spatial/scene
+external_AEkLDauJVi0_000069_000079,external,Food & Cooking,2,6.4,9.1,0.738,0.358,0.066,0.75,high_ad_need:spatial/scene
+external_AEkLDauJVi0_000069_000079,external,Food & Cooking,3,9.1,10.0,0.0,0.09,0.079,0.25,low_ad_need
+external_BHxn3qfPAl4_000018_000028,external,Health & Wellness,0,0.0,3.0,0.191,0.154,0.051,0.25,low_ad_need
+external_BHxn3qfPAl4_000018_000028,external,Health & Wellness,1,3.0,6.0,0.363,0.148,0.08,0.5,moderate_ad_need:spatial/scene
+external_BHxn3qfPAl4_000018_000028,external,Health & Wellness,2,6.0,9.0,0.738,0.233,0.457,0.75,high_ad_need:agent/action
+external_BHxn3qfPAl4_000018_000028,external,Health & Wellness,3,9.0,10.0,0.81,0.308,0.755,1.0,high_ad_need:agent/action
+external_BcW6Y7eufQE_000239_000249,external,People & Vlogs,0,0.0,3.6,0.656,0.415,0.447,1.0,high_ad_need:agent/action
+external_BcW6Y7eufQE_000239_000249,external,People & Vlogs,1,3.6,6.4,0.257,0.151,0.035,0.5,moderate_ad_need:spatial/scene
+external_BcW6Y7eufQE_000239_000249,external,People & Vlogs,2,6.4,9.1,0.1,0.13,0.019,0.25,low_ad_need
+external_BcW6Y7eufQE_000239_000249,external,People & Vlogs,3,9.1,10.0,0.383,0.2,0.662,0.75,high_ad_need:agent/action
+external_Bss3WwpDdS8_000041_000051,external,People & Vlogs,0,0.0,3.6,0.296,0.197,0.089,0.5,moderate_ad_need:spatial/scene
+external_Bss3WwpDdS8_000041_000051,external,People & Vlogs,1,3.6,6.4,0.403,0.195,0.022,0.75,high_ad_need:spatial/scene
+external_Bss3WwpDdS8_000041_000051,external,People & Vlogs,2,6.4,9.1,0.689,0.149,0.02,1.0,high_ad_need:spatial/scene
+external_Bss3WwpDdS8_000041_000051,external,People & Vlogs,3,9.1,10.0,0.116,0.011,0.144,0.25,low_ad_need
+external_Ccgwurislg8_000082_000092,external,How-to & Instructional,0,0.0,3.0,0.098,0.054,0.026,0.25,low_ad_need
+external_Ccgwurislg8_000082_000092,external,How-to & Instructional,1,3.0,6.0,0.34,0.097,0.05,0.5,moderate_ad_need:spatial/scene
+external_Ccgwurislg8_000082_000092,external,How-to & Instructional,2,6.0,9.0,0.683,0.323,0.122,1.0,high_ad_need:spatial/scene
+external_Ccgwurislg8_000082_000092,external,How-to & Instructional,3,9.0,10.0,0.656,0.56,0.323,0.75,high_ad_need:spatial/scene
+external_D297atE3gag_000203_000213,external,How-to & Instructional,0,0.0,3.0,0.334,0.177,0.255,0.5,moderate_ad_need:agent/action
+external_D297atE3gag_000203_000213,external,How-to & Instructional,1,3.0,6.0,0.137,0.057,0.092,0.25,low_ad_need
+external_D297atE3gag_000203_000213,external,How-to & Instructional,2,6.0,9.0,0.727,0.063,0.062,1.0,high_ad_need:spatial/scene
+external_D297atE3gag_000203_000213,external,How-to & Instructional,3,9.0,10.0,0.5,0.037,0.045,0.75,high_ad_need:agent/action
+external_EA3HCx0yTIY_000281_000291,external,Music,0,0.0,3.6,0.86,0.229,1.056,1.0,high_ad_need:agent/action
+external_EA3HCx0yTIY_000281_000291,external,Music,1,3.6,6.4,0.825,0.6,0.656,0.75,high_ad_need:agent/action
+external_EA3HCx0yTIY_000281_000291,external,Music,2,6.4,9.1,0.441,0.598,0.212,0.5,moderate_ad_need:spatial/scene
+external_EA3HCx0yTIY_000281_000291,external,Music,3,9.1,10.0,0.0,0.005,0.001,0.25,low_ad_need
+external_F-mRnL_XmJU_000000_000010,external,Entertainment,0,0.0,3.0,0.586,0.607,0.574,1.0,high_ad_need:spatial/scene
+external_F-mRnL_XmJU_000000_000010,external,Entertainment,1,3.0,6.0,0.222,0.227,0.053,0.75,high_ad_need:spatial/scene
+external_F-mRnL_XmJU_000000_000010,external,Entertainment,2,6.0,9.0,0.054,0.167,0.042,0.25,low_ad_need
+external_F-mRnL_XmJU_000000_000010,external,Entertainment,3,9.0,10.0,0.172,0.381,0.076,0.5,moderate_ad_need:spatial/scene
+external_GOH6fBhoi2o_000010_000020,external,Entertainment,0,0.0,3.0,0.875,0.848,0.164,1.0,high_ad_need:spatial/scene
+external_GOH6fBhoi2o_000010_000020,external,Entertainment,1,3.0,6.0,0.758,0.931,0.126,0.75,high_ad_need:spatial/scene
+external_GOH6fBhoi2o_000010_000020,external,Entertainment,2,6.0,9.0,0.246,0.702,0.128,0.5,moderate_ad_need:spatial/scene
+external_GOH6fBhoi2o_000010_000020,external,Entertainment,3,9.0,10.0,0.09,0.245,0.739,0.25,low_ad_need
+external_HpRmj5ce32c_000001_000011,external,Sports,0,0.0,3.6,0.829,0.321,0.56,1.0,high_ad_need:agent/action
+external_HpRmj5ce32c_000001_000011,external,Sports,1,3.6,6.4,0.622,0.388,0.206,0.5,moderate_ad_need:spatial/scene
+external_HpRmj5ce32c_000001_000011,external,Sports,2,6.4,9.1,0.763,0.697,0.133,0.75,high_ad_need:spatial/scene
+external_HpRmj5ce32c_000001_000011,external,Sports,3,9.1,10.0,0.0,0.044,0.033,0.25,low_ad_need
+external_N-LZPc27kjM_000229_000239,external,How-to & Instructional,0,0.0,3.0,0.249,0.146,0.084,0.25,low_ad_need
+external_N-LZPc27kjM_000229_000239,external,How-to & Instructional,1,3.0,6.0,0.648,0.077,0.035,1.0,high_ad_need:spatial/scene
+external_N-LZPc27kjM_000229_000239,external,How-to & Instructional,2,6.0,9.0,0.606,0.063,0.023,0.75,high_ad_need:spatial/scene
+external_N-LZPc27kjM_000229_000239,external,How-to & Instructional,3,9.0,10.0,0.345,0.07,0.026,0.5,moderate_ad_need:spatial/scene
+external_OASCPKazLIM_000132_000142,external,How-to & Instructional,0,0.0,3.6,0.509,0.096,0.065,0.5,moderate_ad_need:spatial/scene
+external_OASCPKazLIM_000132_000142,external,How-to & Instructional,1,3.6,6.4,0.691,0.155,0.055,0.75,high_ad_need:spatial/scene
+external_OASCPKazLIM_000132_000142,external,How-to & Instructional,2,6.4,9.1,0.775,0.315,0.079,1.0,high_ad_need:spatial/scene
+external_OASCPKazLIM_000132_000142,external,How-to & Instructional,3,9.1,10.0,0.0,0.013,0.056,0.25,low_ad_need
+external_RjPp0ZPW0yc_000000_000010,external,How-to & Instructional,0,0.0,3.6,0.638,0.239,0.111,1.0,high_ad_need:spatial/scene
+external_RjPp0ZPW0yc_000000_000010,external,How-to & Instructional,1,3.6,6.4,0.433,0.297,0.048,0.75,high_ad_need:spatial/scene
+external_RjPp0ZPW0yc_000000_000010,external,How-to & Instructional,2,6.4,9.1,0.31,0.337,0.117,0.5,moderate_ad_need:spatial/scene
+external_RjPp0ZPW0yc_000000_000010,external,How-to & Instructional,3,9.1,10.0,0.162,0.07,0.058,0.25,low_ad_need
+external_RlfVK8z5wJ0_000000_000010,external,Sports,0,0.0,3.0,0.297,0.388,0.029,0.25,low_ad_need
+external_RlfVK8z5wJ0_000000_000010,external,Sports,1,3.0,6.0,0.317,0.191,0.024,0.5,moderate_ad_need:spatial/scene
+external_RlfVK8z5wJ0_000000_000010,external,Sports,2,6.0,9.0,0.612,0.225,0.022,1.0,high_ad_need:spatial/scene
+external_RlfVK8z5wJ0_000000_000010,external,Sports,3,9.0,10.0,0.5,0.372,0.019,0.75,high_ad_need:spatial/scene
+external_S-C86j0keqc_000217_000227,external,Event,0,0.0,3.6,0.374,0.077,0.015,0.5,moderate_ad_need:spatial/scene
+external_S-C86j0keqc_000217_000227,external,Event,1,3.6,6.4,0.434,0.083,0.073,0.75,high_ad_need:spatial/scene
+external_S-C86j0keqc_000217_000227,external,Event,2,6.4,9.1,0.775,0.373,0.693,1.0,high_ad_need:agent/action
+external_S-C86j0keqc_000217_000227,external,Event,3,9.1,10.0,0.0,0.006,0.002,0.25,low_ad_need
+external_ShSSAEfnyDs_000000_000010,external,Entertainment,0,0.0,4.0,0.779,0.112,0.071,1.0,high_ad_need:spatial/scene
+external_ShSSAEfnyDs_000000_000010,external,Entertainment,1,4.0,6.0,0.394,0.081,0.028,0.6666666666666666,moderate_ad_need:spatial/scene
+external_ShSSAEfnyDs_000000_000010,external,Entertainment,2,6.0,10.0,0.075,0.068,0.022,0.3333333333333333,low_ad_need
+external_Xdz1cxEjLYc_000007_000017,external,Food & Cooking,0,0.0,3.0,0.086,0.024,0.017,0.25,low_ad_need
+external_Xdz1cxEjLYc_000007_000017,external,Food & Cooking,1,3.0,6.0,0.1,0.017,0.008,0.5,moderate_ad_need:spatial/scene
+external_Xdz1cxEjLYc_000007_000017,external,Food & Cooking,2,6.0,9.0,0.565,0.065,0.023,0.75,high_ad_need:spatial/scene
+external_Xdz1cxEjLYc_000007_000017,external,Food & Cooking,3,9.0,10.0,0.876,0.135,0.032,1.0,high_ad_need:spatial/scene
+external_Z5w-wkrjHuw_000345_000355,external,Entertainment,0,0.0,3.6,0.737,0.112,0.039,1.0,high_ad_need:spatial/scene
+external_Z5w-wkrjHuw_000345_000355,external,Entertainment,1,3.6,6.4,0.398,0.048,0.028,0.5,moderate_ad_need:spatial/scene
+external_Z5w-wkrjHuw_000345_000355,external,Entertainment,2,6.4,9.1,0.671,0.052,0.026,0.75,high_ad_need:spatial/scene
+external_Z5w-wkrjHuw_000345_000355,external,Entertainment,3,9.1,10.0,0.0,0.042,0.176,0.25,low_ad_need
+external_ZcYB6tPK2Eo_000138_000148,external,How-to & Instructional,0,0.0,3.0,0.345,0.287,0.256,0.5,moderate_ad_need:spatial/scene
+external_ZcYB6tPK2Eo_000138_000148,external,How-to & Instructional,1,3.0,6.0,0.164,0.117,0.062,0.25,low_ad_need
+external_ZcYB6tPK2Eo_000138_000148,external,How-to & Instructional,2,6.0,9.0,0.517,0.235,0.07,0.75,high_ad_need:spatial/scene
+external_ZcYB6tPK2Eo_000138_000148,external,How-to & Instructional,3,9.0,10.0,0.542,0.448,0.058,1.0,high_ad_need:spatial/scene
+external__TKzyWZHjm8_000002_000012,external,Health & Wellness,0,0.0,3.6,0.519,0.764,0.717,1.0,high_ad_need:spatial/scene
+external__TKzyWZHjm8_000002_000012,external,Health & Wellness,1,3.6,6.4,0.215,0.124,0.03,0.25,low_ad_need
+external__TKzyWZHjm8_000002_000012,external,Health & Wellness,2,6.4,9.1,0.457,0.291,0.061,0.5,moderate_ad_need:spatial/scene
+external__TKzyWZHjm8_000002_000012,external,Health & Wellness,3,9.1,10.0,0.5,0.538,0.987,0.75,high_ad_need:agent/action
+external__oAKCHh_Av4_000003_000013,external,People & Vlogs,0,0.0,3.0,0.64,0.585,0.364,1.0,high_ad_need:spatial/scene
+external__oAKCHh_Av4_000003_000013,external,People & Vlogs,1,3.0,6.0,0.289,0.336,0.087,0.75,high_ad_need:spatial/scene
+external__oAKCHh_Av4_000003_000013,external,People & Vlogs,2,6.0,9.0,0.128,0.146,0.053,0.25,low_ad_need
+external__oAKCHh_Av4_000003_000013,external,People & Vlogs,3,9.0,10.0,0.211,0.097,0.041,0.5,moderate_ad_need:spatial/scene
+external_bgt29znHCzs_000343_000353,external,Sports,0,0.0,3.0,0.71,0.12,0.074,1.0,high_ad_need:spatial/scene
+external_bgt29znHCzs_000343_000353,external,Sports,1,3.0,6.0,0.256,0.029,0.021,0.5,moderate_ad_need:spatial/scene
+external_bgt29znHCzs_000343_000353,external,Sports,2,6.0,9.0,0.082,0.058,0.093,0.25,low_ad_need
+external_bgt29znHCzs_000343_000353,external,Sports,3,9.0,10.0,0.547,0.2,0.261,0.75,high_ad_need:agent/action
+external_c_gQ9CSaZY4_000000_000010,external,How-to & Instructional,0,0.0,3.6,0.653,0.082,0.089,1.0,high_ad_need:agent/action
+external_c_gQ9CSaZY4_000000_000010,external,How-to & Instructional,1,3.6,6.4,0.591,0.148,0.061,0.75,high_ad_need:spatial/scene
+external_c_gQ9CSaZY4_000000_000010,external,How-to & Instructional,2,6.4,9.1,0.407,0.237,0.071,0.5,moderate_ad_need:spatial/scene
+external_c_gQ9CSaZY4_000000_000010,external,How-to & Instructional,3,9.1,10.0,0.019,0.009,0.008,0.25,low_ad_need
+external_crjesEwF0Ks_000197_000207,external,How-to & Instructional,0,0.0,3.0,0.519,0.292,0.35,1.0,high_ad_need:agent/action
+external_crjesEwF0Ks_000197_000207,external,How-to & Instructional,1,3.0,6.0,0.215,0.167,0.117,0.25,low_ad_need
+external_crjesEwF0Ks_000197_000207,external,How-to & Instructional,2,6.0,9.0,0.332,0.396,0.194,0.5,moderate_ad_need:spatial/scene
+external_crjesEwF0Ks_000197_000207,external,How-to & Instructional,3,9.0,10.0,0.377,0.453,0.219,0.75,high_ad_need:spatial/scene
+external_d7_SY48r__8_000060_000070,external,How-to & Instructional,0,0.0,3.0,0.146,0.102,0.093,0.5,moderate_ad_need:spatial/scene
+external_d7_SY48r__8_000060_000070,external,How-to & Instructional,1,3.0,6.0,0.074,0.075,0.106,0.25,low_ad_need
+external_d7_SY48r__8_000060_000070,external,How-to & Instructional,2,6.0,9.0,0.629,0.335,0.462,0.75,high_ad_need:agent/action
+external_d7_SY48r__8_000060_000070,external,How-to & Instructional,3,9.0,10.0,0.682,0.897,1.29,1.0,high_ad_need:agent/action
+external_dlBeUWrse3I_000019_000029,external,How-to & Instructional,0,0.0,3.0,0.957,0.331,0.739,1.0,high_ad_need:agent/action
+external_dlBeUWrse3I_000019_000029,external,How-to & Instructional,1,3.0,6.0,0.521,0.161,0.141,0.75,high_ad_need:spatial/scene
+external_dlBeUWrse3I_000019_000029,external,How-to & Instructional,2,6.0,9.0,0.472,0.122,0.102,0.5,moderate_ad_need:spatial/scene
+external_dlBeUWrse3I_000019_000029,external,How-to & Instructional,3,9.0,10.0,0.096,0.138,0.085,0.25,low_ad_need
+external_eb-ufaFcUas_000008_000018,external,Entertainment,0,0.0,3.6,0.433,0.06,0.057,1.0,high_ad_need:spatial/scene
+external_eb-ufaFcUas_000008_000018,external,Entertainment,1,3.6,6.4,0.137,0.024,0.014,0.75,high_ad_need:spatial/scene
+external_eb-ufaFcUas_000008_000018,external,Entertainment,2,6.4,9.1,0.127,0.055,0.046,0.5,moderate_ad_need:spatial/scene
+external_eb-ufaFcUas_000008_000018,external,Entertainment,3,9.1,10.0,0.068,0.027,0.027,0.25,low_ad_need
+external_g8Idd47kGqo_000037_000047,external,Entertainment,0,0.0,3.6,0.482,0.157,0.053,0.5,moderate_ad_need:spatial/scene
+external_g8Idd47kGqo_000037_000047,external,Entertainment,1,3.6,6.4,0.618,0.285,0.088,0.75,high_ad_need:spatial/scene
+external_g8Idd47kGqo_000037_000047,external,Entertainment,2,6.4,9.1,0.759,0.534,0.172,1.0,high_ad_need:spatial/scene
+external_g8Idd47kGqo_000037_000047,external,Entertainment,3,9.1,10.0,0.0,0.012,0.02,0.25,low_ad_need
+external_gFBO3zrod9Y_000005_000015,external,People & Vlogs,0,0.0,3.0,0.186,0.088,0.24,0.25,low_ad_need
+external_gFBO3zrod9Y_000005_000015,external,People & Vlogs,1,3.0,6.0,0.707,0.081,0.086,0.75,high_ad_need:agent/action
+external_gFBO3zrod9Y_000005_000015,external,People & Vlogs,2,6.0,9.0,0.853,0.122,0.475,1.0,high_ad_need:agent/action
+external_gFBO3zrod9Y_000005_000015,external,People & Vlogs,3,9.0,10.0,0.605,0.114,0.347,0.5,moderate_ad_need:agent/action
+external_h8wsO9A9v_c_000016_000026,external,People & Vlogs,0,0.0,3.6,0.541,0.061,0.032,0.75,high_ad_need:spatial/scene
+external_h8wsO9A9v_c_000016_000026,external,People & Vlogs,1,3.6,6.4,0.438,0.021,0.022,0.5,moderate_ad_need:agent/action
+external_h8wsO9A9v_c_000016_000026,external,People & Vlogs,2,6.4,9.1,0.573,0.054,0.016,1.0,high_ad_need:spatial/scene
+external_h8wsO9A9v_c_000016_000026,external,People & Vlogs,3,9.1,10.0,0.0,0.013,0.138,0.25,low_ad_need
+external_heWD9j45Emw_000225_000235,external,Music,0,0.0,3.0,0.543,0.039,0.042,1.0,high_ad_need:agent/action
+external_heWD9j45Emw_000225_000235,external,Music,1,3.0,6.0,0.298,0.035,0.038,0.5,moderate_ad_need:agent/action
+external_heWD9j45Emw_000225_000235,external,Music,2,6.0,9.0,0.444,0.064,0.032,0.75,high_ad_need:spatial/scene
+external_heWD9j45Emw_000225_000235,external,Music,3,9.0,10.0,0.289,0.05,0.047,0.25,low_ad_need
+external_iEAWgsSvJAE_000023_000033,external,Film & Animation,0,0.0,3.6,0.088,0.084,0.043,0.25,low_ad_need
+external_iEAWgsSvJAE_000023_000033,external,Film & Animation,1,3.6,6.4,0.278,0.073,0.113,0.75,high_ad_need:agent/action
+external_iEAWgsSvJAE_000023_000033,external,Film & Animation,2,6.4,9.1,0.848,0.612,0.91,1.0,high_ad_need:agent/action
+external_iEAWgsSvJAE_000023_000033,external,Film & Animation,3,9.1,10.0,0.091,0.03,0.015,0.5,moderate_ad_need:spatial/scene
+external_iGmGQxox43I_000000_000010,external,How-to & Instructional,0,0.0,3.6,0.702,0.137,0.337,1.0,high_ad_need:agent/action
+external_iGmGQxox43I_000000_000010,external,How-to & Instructional,1,3.6,6.4,0.547,0.057,0.031,0.5,moderate_ad_need:spatial/scene
+external_iGmGQxox43I_000000_000010,external,How-to & Instructional,2,6.4,9.1,0.583,0.113,0.016,0.75,high_ad_need:spatial/scene
+external_iGmGQxox43I_000000_000010,external,How-to & Instructional,3,9.1,10.0,0.0,0.069,0.01,0.25,low_ad_need
+external_iZP6gjlr_nM_000113_000123,external,How-to & Instructional,0,0.0,3.0,0.746,0.483,0.272,1.0,high_ad_need:spatial/scene
+external_iZP6gjlr_nM_000113_000123,external,How-to & Instructional,1,3.0,6.0,0.448,0.201,0.027,0.75,high_ad_need:spatial/scene
+external_iZP6gjlr_nM_000113_000123,external,How-to & Instructional,2,6.0,9.0,0.243,0.096,0.014,0.5,moderate_ad_need:spatial/scene
+external_iZP6gjlr_nM_000113_000123,external,How-to & Instructional,3,9.0,10.0,0.032,0.107,0.01,0.25,low_ad_need
+external_j4CKRgv3jUg_000000_000010,external,Entertainment,0,0.0,3.0,0.511,0.515,0.149,1.0,high_ad_need:spatial/scene
+external_j4CKRgv3jUg_000000_000010,external,Entertainment,1,3.0,6.0,0.296,0.391,0.084,0.75,high_ad_need:spatial/scene
+external_j4CKRgv3jUg_000000_000010,external,Entertainment,2,6.0,9.0,0.265,0.342,0.069,0.5,moderate_ad_need:spatial/scene
+external_j4CKRgv3jUg_000000_000010,external,Entertainment,3,9.0,10.0,0.225,0.221,0.056,0.25,low_ad_need
+external_j6CgiNeWQwM_000842_000852,external,Food & Cooking,0,0.0,3.0,0.364,0.1,0.081,0.5,moderate_ad_need:spatial/scene
+external_j6CgiNeWQwM_000842_000852,external,Food & Cooking,1,3.0,6.0,0.438,0.189,0.042,0.75,high_ad_need:spatial/scene
+external_j6CgiNeWQwM_000842_000852,external,Food & Cooking,2,6.0,9.0,0.504,0.1,0.037,1.0,high_ad_need:spatial/scene
+external_j6CgiNeWQwM_000842_000852,external,Food & Cooking,3,9.0,10.0,0.266,0.145,0.043,0.25,low_ad_need
+external_jeweRSnAJeo_000050_000060,external,Film & Animation,0,0.0,3.6,0.433,0.176,0.131,0.625,moderate_ad_need:spatial/scene
+external_jeweRSnAJeo_000050_000060,external,Film & Animation,1,3.6,6.4,0.838,0.432,0.153,1.0,high_ad_need:spatial/scene
+external_jeweRSnAJeo_000050_000060,external,Film & Animation,2,6.4,9.1,0.344,0.387,0.056,0.25,low_ad_need
+external_jeweRSnAJeo_000050_000060,external,Film & Animation,3,9.1,10.0,0.433,0.081,0.084,0.625,moderate_ad_need:agent/action
+external_lgJywzzdUC8_000000_000010,external,Event,0,0.0,3.0,0.596,0.161,0.122,0.75,high_ad_need:spatial/scene
+external_lgJywzzdUC8_000000_000010,external,Event,1,3.0,6.0,0.238,0.13,0.073,0.25,low_ad_need
+external_lgJywzzdUC8_000000_000010,external,Event,2,6.0,9.0,0.414,0.224,0.101,0.5,moderate_ad_need:spatial/scene
+external_lgJywzzdUC8_000000_000010,external,Event,3,9.0,10.0,0.808,0.373,0.147,1.0,high_ad_need:spatial/scene
+external_rGQ64NXktF8_000006_000016,external,People & Vlogs,0,0.0,3.0,0.076,0.058,0.019,0.25,low_ad_need
+external_rGQ64NXktF8_000006_000016,external,People & Vlogs,1,3.0,6.0,0.287,0.07,0.024,0.5,moderate_ad_need:spatial/scene
+external_rGQ64NXktF8_000006_000016,external,People & Vlogs,2,6.0,9.0,0.732,0.125,0.045,0.75,high_ad_need:spatial/scene
+external_rGQ64NXktF8_000006_000016,external,People & Vlogs,3,9.0,10.0,0.752,0.153,0.053,1.0,high_ad_need:spatial/scene
+external_u-olDM7oGGM_000012_000022,external,Health & Wellness,0,0.0,3.0,0.737,0.113,0.13,1.0,high_ad_need:agent/action
+external_u-olDM7oGGM_000012_000022,external,Health & Wellness,1,3.0,6.0,0.062,0.084,0.01,0.25,low_ad_need
+external_u-olDM7oGGM_000012_000022,external,Health & Wellness,2,6.0,9.0,0.277,0.122,0.015,0.75,high_ad_need:spatial/scene
+external_u-olDM7oGGM_000012_000022,external,Health & Wellness,3,9.0,10.0,0.147,0.105,0.017,0.5,moderate_ad_need:spatial/scene
+external_v2Hr1CH-yb0_000076_000086,external,How-to & Instructional,0,0.0,3.0,0.283,0.335,0.105,0.75,high_ad_need:spatial/scene
+external_v2Hr1CH-yb0_000076_000086,external,How-to & Instructional,1,3.0,6.0,0.146,0.231,0.093,0.5,moderate_ad_need:spatial/scene
+external_v2Hr1CH-yb0_000076_000086,external,How-to & Instructional,2,6.0,9.0,0.131,0.301,0.166,0.25,low_ad_need
+external_v2Hr1CH-yb0_000076_000086,external,How-to & Instructional,3,9.0,10.0,1.0,0.897,1.643,1.0,high_ad_need:agent/action
+external_wbOD_G3ttgU_000083_000093,external,How-to & Instructional,0,0.0,3.0,0.289,0.123,0.059,0.5,moderate_ad_need:spatial/scene
+external_wbOD_G3ttgU_000083_000093,external,How-to & Instructional,1,3.0,6.0,0.214,0.028,0.027,0.25,low_ad_need
+external_wbOD_G3ttgU_000083_000093,external,How-to & Instructional,2,6.0,9.0,0.673,0.032,0.021,0.75,high_ad_need:spatial/scene
+external_wbOD_G3ttgU_000083_000093,external,How-to & Instructional,3,9.0,10.0,0.716,0.06,0.02,1.0,high_ad_need:spatial/scene
+external_xW6hpK-DBMY_000080_000090,external,How-to & Instructional,0,0.0,3.6,0.191,0.119,0.217,0.25,low_ad_need
+external_xW6hpK-DBMY_000080_000090,external,How-to & Instructional,1,3.6,6.4,0.555,0.081,0.034,0.5,moderate_ad_need:spatial/scene
+external_xW6hpK-DBMY_000080_000090,external,How-to & Instructional,2,6.4,9.1,0.698,0.08,0.02,1.0,high_ad_need:spatial/scene
+external_xW6hpK-DBMY_000080_000090,external,How-to & Instructional,3,9.1,10.0,0.574,0.134,0.092,0.75,high_ad_need:spatial/scene
+external_yBO8rAMeqjc_000007_000017,external,"Education, Seminar & Talks",0,0.0,3.0,0.731,0.089,0.167,1.0,high_ad_need:agent/action
+external_yBO8rAMeqjc_000007_000017,external,"Education, Seminar & Talks",1,3.0,6.0,0.234,0.09,0.101,0.75,high_ad_need:agent/action
+external_yBO8rAMeqjc_000007_000017,external,"Education, Seminar & Talks",2,6.0,9.0,0.19,0.091,0.05,0.25,low_ad_need
+external_yBO8rAMeqjc_000007_000017,external,"Education, Seminar & Talks",3,9.0,10.0,0.222,0.109,0.067,0.5,moderate_ad_need:spatial/scene
+external_zTJ0Zbv1jBo_000045_000055,external,Health & Wellness,0,0.0,3.6,0.496,0.678,0.26,0.5,moderate_ad_need:spatial/scene
+external_zTJ0Zbv1jBo_000045_000055,external,Health & Wellness,1,3.6,6.4,0.529,0.578,0.232,0.75,high_ad_need:spatial/scene
+external_zTJ0Zbv1jBo_000045_000055,external,Health & Wellness,2,6.4,9.1,0.697,0.623,0.13,1.0,high_ad_need:spatial/scene
+external_zTJ0Zbv1jBo_000045_000055,external,Health & Wellness,3,9.1,10.0,0.144,0.196,0.056,0.25,low_ad_need

@@ -1,8 +1,18 @@
 # SceneTwin Wiki Index
-_Last updated: 2026-06-07_
+_Last updated: 2026-06-19_
+
+## Recovery / audit
+- [60-clip artifact audit](../output/reports/scenetwin-60clip-artifact-audit.md) — recovered the missing 60-clip external-eval CSV/JSON and paper/finding pages from `origin/agent-loop/claude-round-70` (`8a4139a2efe4b05d3085add18786e7e9686b728b`).
+- [Submission thesis memo](../output/reports/scenetwin-paper-submission-thesis.md) — final same-day recommendation: use the corrected 3-tier ladder only; be honest that SceneTwin nearly ties, not crushes, the strongest reference-style ranking baseline; lead with human-reference-free audit + safety gates.
+- [Paper evidence check](../output/reports/scenetwin-paper-evidence-check.md) — verification of corrected 3-tier metrics, market/baseline comparison, safety artifacts, and VLM-as-judge baselines.
+
+## Papers
+- [SceneTwin audit-framework submission draft](../output/reports/paper-scenetwin-audit-framework.md) — **current recommended same-day submission draft.** Uses corrected 3-tier ladder as primary; frames ranking as competitive with reference-style baselines and emphasizes human-reference-free audit, safety gates, and review triage.
+- [SceneTwin consolidated submission draft](../output/reports/paper-scenetwin-consolidated.md) — earlier broader draft with brain-grounded steering; useful source material, but too sprawling as the primary same-day submission target.
 
 ## Findings — 2026-06 ladder / generalization work (cursor/findings/)
 - [Agent loop (Claude + Codex breakthrough hunt)](../cursor/agent_loop/README.md) — supervisor polls every 4m, assigns next tasks until credits die. State: `cursor/agent_loop/state.json`, log: `cursor/agent_loop/log.md`.
+- [Agent-loop gate synthesis](../cursor/findings/agent-loop-gate-synthesis.md) — loop stopped by user on 2026-06-09; Codex consolidated the output into the AD safety gate subsection at commit `0d1a633`. Lead result: grader-free CLIP grounding-drop gate AUC 0.835 with 70% recall @ 10% FPR; fused CLIP+ADQA AUC 0.904 is footnoted as grader-dependent; zero-reference weakest-claim gate remains a negative (AUC 0.585).
 - [Gate review-hole closure](../cursor/findings/gate-review-holes.md) — pre-subsection validation: 18 **hand-authored** fabrications break Gemini circularity (CLIP drop AUC 0.91 vs paraphrase); self-consistency gate with 2nd model-gen reference (n=5, AUC 0.76). Paper subsection locked at `output/reports/paper-ad-safety-gate.md` — headline **CLIP-only AUC 0.84 @ 70% recall / 10% FPR**; fusion 0.90 footnoted as grader-dependent.
 - [Calibrated hallucination GATE (deployable vs not)](../cursor/findings/claim-level-gate.md) — turns the sensitivity result into an operating point at 10% FPR. Zero-reference single-AD gate (weakest CLIP claim grounding) is near chance (AUC 0.58); but a reference-comparison gate (candidate vs any trusted/2nd AD) catches hallucinations well — CLIP grounding-drop AUC 0.84, and CLIP+ADQA fused AUC 0.90, 72% recall @ 10% FPR. The dual signal pays off operationally (0.84/0.80→0.90). Ship as reference-comparison gate; use claim grounding only to highlight suspect claims (claim-level fab-vs-true AUC 0.69).
 - [Hallucination sensitivity — the dual-signal outcome, with a control](../cursor/findings/hallucination-gate.md) — corrupt each expert AD's 2-3 visual facts into same-length plausible lies (±0.8 words) + a faithful-paraphrase control. ADQA is blind on 17/60 clips (lie ties the truth when it's not a probed question); on those exact clips CLIP catches 100%. Fabrication drops CLIP visual grounding ~5× more than a paraphrase (+0.037 vs +0.008, paired p<1e-4). The legitimate, controlled version of the retracted dual-signal claim: signals are complementary by construction. Caveat: raw sign false-alarms on paraphrase (CLIP 65%), so the usable signal is grounding-drop magnitude, not sign.

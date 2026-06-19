@@ -1,0 +1,171 @@
+video_id,window,condition,dominant_type,second_type,ad_text,profile_alignment,dominant_keyword_coverage,weighted_keyword_coverage,specificity_score,word_count
+0t0DB1B1w8Y_000000_000010,2,baseline,motion_action,object_body,"She clears hurdles, landing on red pad.",0.2782597561475071,0.0,0.704079514212186,0.2857142857142857,7
+0t0DB1B1w8Y_000000_000010,2,gap_targeted,motion_action,object_body,"She clears the hurdle, lands on pad.",0.27798373992756764,0.0,0.49736555370611724,0.14285714285714285,7
+0t0DB1B1w8Y_000000_000010,1,baseline,scene_spatial,face_character,"She clears hurdles, landing on red pad.",0.3452016974873999,0.0,0.043812312940099685,0.2857142857142857,7
+0t0DB1B1w8Y_000000_000010,1,gap_targeted,scene_spatial,face_character,"Outdoor track, hurdles ahead, red pad waiting",0.23802895283884878,0.0,0.021361809933281795,0.14285714285714285,7
+0t0DB1B1w8Y_000000_000010,0,baseline,scene_spatial,visual_form,"Athlete leaps hurdles, lands on red pad.",0.35140191082730343,0.0,0.011807960625018044,0.14285714285714285,7
+0t0DB1B1w8Y_000000_000010,0,gap_targeted,scene_spatial,visual_form,"Sunny outdoor track, hurdles ahead, red pad",0.35140191082730343,0.0,0.011807960625018044,0.14285714285714285,7
+1-jIze6gy0g_000026_000036,4,baseline,scene_spatial,visual_form,Workers seal bags along the conveyor belt.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,4,gap_targeted,scene_spatial,visual_form,Workers line a conveyor; bags stacked nearby.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,3,baseline,scene_spatial,visual_form,Workers seal bags along factory conveyor belt.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,3,gap_targeted,scene_spatial,visual_form,Workers line a conveyor; bags stacked nearby.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,2,baseline,scene_spatial,face_character,Workers seal bags along factory conveyor belt.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,2,gap_targeted,scene_spatial,face_character,Workers line a conveyor; bags stacked nearby.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,0,baseline,visual_form,motion_action,Workers seal material bags along conveyor line.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,0,gap_targeted,visual_form,motion_action,Bulging bags crowd a humming factory line.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,1,baseline,visual_form,scene_spatial,Workers seal bags along factory assembly line.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,1,gap_targeted,visual_form,scene_spatial,Workers seal bags along the conveyor belt.,,0.0,0.0,0.0,7
+3su234u58DA_000172_000182,4,baseline,scene_spatial,visual_form,Snowball fight erupts behind woman in park.,,0.0,0.0,0.0,7
+3su234u58DA_000172_000182,4,gap_targeted,scene_spatial,visual_form,"Snowy park, crowd hurling snowballs behind her.",0.6460712544543218,1.5,0.6276607797765009,0.2857142857142857,7
+3su234u58DA_000172_000182,0,baseline,scene_spatial,object_body,Snowy park; crowd hurls snowballs behind woman.,0.6017878074145224,1.5,0.3609730882412476,0.14285714285714285,7
+3su234u58DA_000172_000182,0,gap_targeted,scene_spatial,object_body,Snowy park; crowd hurls snowballs behind woman.,0.6017878074145224,1.5,0.3609730882412476,0.14285714285714285,7
+3su234u58DA_000172_000182,1,baseline,scene_spatial,visual_form,"Behind her, crowds hurl snowballs in snow.",0.04270765461349519,0.0,0.018227995434462796,0.14285714285714285,7
+3su234u58DA_000172_000182,1,gap_targeted,scene_spatial,visual_form,Snowy park; crowd hurls snowballs behind her.,0.6590701397698518,1.5,0.4872203869356518,0.2857142857142857,7
+3su234u58DA_000172_000182,3,baseline,scene_spatial,visual_form,"Behind her, crowds hurl snowballs in snow.",0.08014716978877513,0.0,0.037529031815108804,0.14285714285714285,7
+3su234u58DA_000172_000182,3,gap_targeted,scene_spatial,visual_form,Snowy park; crowd hurls snowballs behind her.,0.4817379523932577,1.5,0.39070652061740413,0.2857142857142857,7
+3su234u58DA_000172_000182,2,baseline,scene_spatial,visual_form,"Behind her, crowds hurl snowballs in snow.",0.04010863743342453,0.0,0.014688885192318812,0.14285714285714285,7
+3su234u58DA_000172_000182,2,gap_targeted,scene_spatial,visual_form,Snowy park; crowd hurls snowballs behind her.,0.33332127943843076,1.5,0.2114338877759957,0.2857142857142857,7
+3su234u58DA_000172_000182,5,baseline,motion_action,object_body,Snowball fight rages behind.,,0.0,0.0,0.0,4
+3su234u58DA_000172_000182,5,gap_targeted,motion_action,object_body,Crowd hurls snowballs behind,,0.0,0.0,0.0,4
+3ufJNSez5Is_000008_000018,4,baseline,scene_spatial,visual_form,A woman shapes clay on spinning wheel.,,0.0,0.0,0.0,7
+3ufJNSez5Is_000008_000018,4,gap_targeted,scene_spatial,visual_form,"Pottery workshop; tools, finished pieces surround spinning wheel.",,0.0,0.0,0.0,8
+3ufJNSez5Is_000008_000018,0,baseline,scene_spatial,face_character,A woman shapes clay on a spinning wheel.,,0.0,0.0,0.0,8
+3ufJNSez5Is_000008_000018,0,gap_targeted,scene_spatial,face_character,"Pottery workshop, tools and finished pieces around.",0.8949583517923625,1.5,0.401075180621381,0.14285714285714285,7
+3ufJNSez5Is_000008_000018,1,baseline,scene_spatial,visual_form,A woman shapes clay on a spinning wheel.,,0.0,0.0,0.0,8
+3ufJNSez5Is_000008_000018,1,gap_targeted,scene_spatial,visual_form,"Pottery workshop; she shapes clay, man kneels nearby.",0.031628068124173264,0.0,0.01892168959882956,0.25,8
+3ufJNSez5Is_000008_000018,3,baseline,scene_spatial,visual_form,A woman shapes clay on a spinning wheel.,,0.0,0.0,0.0,8
+3ufJNSez5Is_000008_000018,3,gap_targeted,scene_spatial,visual_form,"Pottery workshop; she shapes clay, he kneels nearby.",0.08035123065117591,0.0,0.04124443472727013,0.25,8
+3ufJNSez5Is_000008_000018,2,baseline,visual_form,scene_spatial,A woman shapes clay on spinning wheel.,,0.0,0.0,0.0,7
+3ufJNSez5Is_000008_000018,2,gap_targeted,visual_form,scene_spatial,Smooth clay vase rises on spinning wheel.,,0.0,0.0,0.0,7
+750QhTe9Z4U_000000_000010,0,baseline,scene_spatial,face_character,"A boy drives a red tractor, supervised.",0.38186672707885577,0.0,0.20218312849186149,0.14285714285714285,7
+750QhTe9Z4U_000000_000010,0,gap_targeted,scene_spatial,face_character,"Grassy yard, boy drives tractor, men alongside.",,0.0,0.0,0.0,7
+750QhTe9Z4U_000000_000010,1,baseline,motion_action,visual_form,Boy steers red tractor; man walks alongside.,0.4737894168507689,0.0,0.14113973464747775,0.2857142857142857,7
+750QhTe9Z4U_000000_000010,1,gap_targeted,motion_action,visual_form,"Boy steers red tractor forward, man alongside.",0.4737894168507689,0.0,0.14113973464747775,0.2857142857142857,7
+750QhTe9Z4U_000000_000010,4,baseline,visual_form,scene_spatial,Boy steers red tractor; man walks alongside.,0.6154839235595119,1.5,0.27031433103818353,0.2857142857142857,7
+750QhTe9Z4U_000000_000010,4,gap_targeted,visual_form,scene_spatial,"Big red tractor, boy steering across grass",0.6386704758043313,1.5,0.1983417769223625,0.14285714285714285,7
+750QhTe9Z4U_000000_000010,2,baseline,visual_form,scene_spatial,"A boy drives a red tractor, smiling.",0.9233259143833158,1.5,0.20801229105395003,0.14285714285714285,7
+750QhTe9Z4U_000000_000010,2,gap_targeted,visual_form,scene_spatial,A boy steers a big red tractor.,0.9233259143833158,1.5,0.20801229105395003,0.14285714285714285,7
+750QhTe9Z4U_000000_000010,3,baseline,visual_form,scene_spatial,"A boy drives a red tractor, smiling.",0.7078036580057521,1.5,0.15631654127296413,0.14285714285714285,7
+750QhTe9Z4U_000000_000010,3,gap_targeted,visual_form,scene_spatial,A boy steers a big red tractor.,0.7078036580057521,1.5,0.15631654127296413,0.14285714285714285,7
+8vkNr_eysXY_000002_000012,4,baseline,scene_spatial,visual_form,Man carves pineapple spirals at market stall.,0.22503497510525886,0.0,0.7069843123539694,0.14285714285714285,7
+8vkNr_eysXY_000002_000012,4,gap_targeted,scene_spatial,visual_form,"At a market stall, produce surrounds him.",,0.0,0.0,0.0,7
+8vkNr_eysXY_000002_000012,3,baseline,scene_spatial,visual_form,Man carves pineapple spirals into a basket.,0.04868252117904597,0.0,0.11772288949889231,0.14285714285714285,7
+8vkNr_eysXY_000002_000012,3,gap_targeted,scene_spatial,visual_form,"At a market stall, produce surrounds him.",,0.0,0.0,0.0,7
+8vkNr_eysXY_000002_000012,2,baseline,scene_spatial,visual_form,Man carves pineapple into spirals at stall.,0.04056111677629003,0.0,0.0655312948855794,0.14285714285714285,7
+8vkNr_eysXY_000002_000012,2,gap_targeted,scene_spatial,visual_form,"At an outdoor market stall, produce surrounds.",,0.0,0.0,0.0,7
+8vkNr_eysXY_000002_000012,1,baseline,scene_spatial,visual_form,Man carves pineapple spirals at market stall.,0.042575187526161754,0.0,0.03402946141024715,0.14285714285714285,7
+8vkNr_eysXY_000002_000012,1,gap_targeted,scene_spatial,visual_form,"Outdoor market stall, produce surrounds the man.",0.042575187526161754,0.0,0.03402946141024715,0.14285714285714285,7
+8vkNr_eysXY_000002_000012,0,baseline,scene_spatial,motion_action,A man carves a pineapple at market.,0.0840239585504188,0.0,0.02205498849792681,0.14285714285714285,7
+8vkNr_eysXY_000002_000012,0,gap_targeted,scene_spatial,motion_action,Outdoor market stall surrounded by fresh produce.,,0.0,0.0,0.0,7
+9eBhetL8n5Q_000222_000232,0,baseline,scene_spatial,visual_form,"Two shirtless men sit, sharing doughnuts.",,0.0,0.0,0.0,6
+9eBhetL8n5Q_000222_000232,0,gap_targeted,scene_spatial,visual_form,"Two shirtless men on bed, doughnut box beside.",,0.0,0.0,0.0,8
+9eBhetL8n5Q_000222_000232,1,baseline,scene_spatial,visual_form,"Shirtless men on bed, doughnut box beside.",,0.0,0.0,0.0,7
+9eBhetL8n5Q_000222_000232,1,gap_targeted,scene_spatial,visual_form,"Two shirtless men, hotel bed, doughnut box.",,0.0,0.0,0.0,7
+9eBhetL8n5Q_000222_000232,3,baseline,visual_form,scene_spatial,"Shirtless men on bed, doughnut box beside.",,0.0,0.0,0.0,7
+9eBhetL8n5Q_000222_000232,3,gap_targeted,visual_form,scene_spatial,"Chest tattoo, footprints; doughnut box on bed.",,0.0,0.0,0.0,7
+9eBhetL8n5Q_000222_000232,2,baseline,scene_spatial,object_body,Shirtless men on bed share doughnuts box.,,0.0,0.0,0.0,7
+9eBhetL8n5Q_000222_000232,2,gap_targeted,scene_spatial,object_body,"Shirtless on a hotel bed, doughnut box.",,0.0,0.0,0.0,7
+9eBhetL8n5Q_000222_000232,4,baseline,scene_spatial,face_character,Two shirtless men sit eating doughnuts.,0.40306016349031787,0.0,0.14071474801951145,0.16666666666666666,6
+9eBhetL8n5Q_000222_000232,4,gap_targeted,scene_spatial,face_character,"Two shirtless men on bed, doughnut box.",,0.0,0.0,0.0,7
+9eBhetL8n5Q_000222_000232,5,baseline,face_character,visual_form,Shirtless men eat doughnuts.,0.0950473358206268,0.0,0.04152274160374808,0.25,4
+9eBhetL8n5Q_000222_000232,5,gap_targeted,face_character,visual_form,"Grinning, he gestures emphatically",0.7147264566406173,1.5,0.31223812556364505,0.25,4
+A0e7Z55s8pE_000008_000018,0,baseline,scene_spatial,object_body,Man on ladder slides into snowbank.,0.13025807052234775,0.0,0.13262214730635025,0.16666666666666666,6
+A0e7Z55s8pE_000008_000018,0,gap_targeted,scene_spatial,object_body,"Atop a ladder, he clears snowy roof.",0.6680894216817422,1.5,1.1781664115881063,0.2857142857142857,7
+A0e7Z55s8pE_000008_000018,1,baseline,scene_spatial,visual_form,Man and ladder slide into snowbank.,0.08299556637160135,0.0,0.07386606318925376,0.16666666666666666,6
+A0e7Z55s8pE_000008_000018,1,gap_targeted,scene_spatial,visual_form,Ladder against snowy roof; snowbank waits below.,0.5011786534938854,1.5,0.6308086254305167,0.14285714285714285,7
+A0e7Z55s8pE_000008_000018,2,baseline,object_body,visual_form,Man and ladder slide into snowbank.,0.41999027401432226,0.0,0.3452468134234796,0.16666666666666666,6
+A0e7Z55s8pE_000008_000018,2,gap_targeted,object_body,visual_form,Ladder topples; man slides into white snowbank.,0.41999027401432226,0.0,0.3452468134234796,0.14285714285714285,7
+BcW6Y7eufQE_000239_000249,0,baseline,motion_action,object_body,Two women chat warmly; younger adjusts hair.,,0.0,0.0,0.0,7
+BcW6Y7eufQE_000239_000249,0,gap_targeted,motion_action,object_body,She sweeps hair back; the woman laughs.,0.17441237841805948,0.0,0.4960287596606766,0.14285714285714285,7
+BcW6Y7eufQE_000239_000249,1,baseline,scene_spatial,visual_form,Young woman adjusts hair; older woman laughs.,,0.0,0.0,0.0,7
+BcW6Y7eufQE_000239_000249,1,gap_targeted,scene_spatial,visual_form,Two women face each other in cozy room.,,0.0,0.0,0.0,8
+BcW6Y7eufQE_000239_000249,5,baseline,face_character,motion_action,She adjusts her hair.,0.6972735061238621,3.0,2.658752970279567,0.5,4
+BcW6Y7eufQE_000239_000249,5,gap_targeted,face_character,motion_action,"She tucks hair, grinning.",0.6972735061238621,1.5,1.3293764851397836,0.25,4
+BcW6Y7eufQE_000239_000249,2,baseline,visual_form,scene_spatial,Young woman in pink hoodie adjusts hair.,0.20394045975601233,0.0,0.08668866210457526,0.14285714285714285,7
+BcW6Y7eufQE_000239_000249,2,gap_targeted,visual_form,scene_spatial,Pink hoodie woman faces short-haired elder.,0.20394045975601233,0.0,0.08668866210457526,0.14285714285714285,6
+BcW6Y7eufQE_000239_000249,3,baseline,scene_spatial,visual_form,Young woman adjusts hair; older woman laughs.,,0.0,0.0,0.0,7
+BcW6Y7eufQE_000239_000249,3,gap_targeted,scene_spatial,visual_form,"Two women sit facing each other, cozy",,0.0,0.0,0.0,7
+BcW6Y7eufQE_000239_000249,4,baseline,scene_spatial,visual_form,Young woman adjusts hair; older woman laughs.,,0.0,0.0,0.0,7
+BcW6Y7eufQE_000239_000249,4,gap_targeted,scene_spatial,visual_form,Two women face each other in cozy room.,,0.0,0.0,0.0,8
+Bss3WwpDdS8_000041_000051,4,baseline,scene_spatial,visual_form,"He sings, then reveals friends gathered around.",0.5884884883676836,1.5,0.40283518285380326,0.2857142857142857,7
+Bss3WwpDdS8_000041_000051,4,gap_targeted,scene_spatial,visual_form,"A cozy kitchen; people gather, chatting warmly.",0.5884884883676836,1.5,0.40283518285380326,0.2857142857142857,7
+Bss3WwpDdS8_000041_000051,1,baseline,scene_spatial,visual_form,"Long-haired man sings into camera, kitchen.",0.6237197916481246,1.5,0.8586015135206972,0.42857142857142855,6
+Bss3WwpDdS8_000041_000051,1,gap_targeted,scene_spatial,visual_form,"A cozy kitchen; people gather, warmly lit.",0.702980916035749,1.5,0.7901326903464865,0.2857142857142857,7
+Bss3WwpDdS8_000041_000051,0,baseline,scene_spatial,object_body,"Long-haired man sings into camera, cozy kitchen.",0.7208073000271147,1.5,1.0199358803664726,0.375,7
+Bss3WwpDdS8_000041_000051,0,gap_targeted,scene_spatial,object_body,"In a cozy kitchen, people gather close.",0.613349959912994,1.5,0.708624894714559,0.2857142857142857,7
+Bss3WwpDdS8_000041_000051,3,baseline,scene_spatial,visual_form,"Long-haired man sings, then reveals gathered friends.",0.06351119917234015,0.0,0.021040146186175945,0.125,7
+Bss3WwpDdS8_000041_000051,3,gap_targeted,scene_spatial,visual_form,"In a warm kitchen, people gather, talking.",0.5413451910645922,1.5,0.25362246609960587,0.2857142857142857,7
+Bss3WwpDdS8_000041_000051,2,baseline,scene_spatial,visual_form,"Long-haired man sings, then reveals gathered friends.",0.05042971721054414,0.0,0.02341267915224854,0.125,7
+Bss3WwpDdS8_000041_000051,2,gap_targeted,scene_spatial,visual_form,"A cozy kitchen; people gather, warmly lit.",0.5765859808186491,1.5,0.3785677878513428,0.2857142857142857,7
+Bss3WwpDdS8_000041_000051,5,baseline,motion_action,object_body,He pans to friends.,0.0809674520448073,0.0,0.06314614160943383,0.25,4
+Bss3WwpDdS8_000041_000051,5,gap_targeted,motion_action,object_body,He turns the camera,0.43469011516389927,0.0,0.47943651602771076,0.5,4
+Ccgwurislg8_000082_000092,4,baseline,scene_spatial,face_character,A person shears a sheep with clippers.,,0.0,0.0,0.0,7
+Ccgwurislg8_000082_000092,4,gap_targeted,scene_spatial,face_character,"Outdoors, sheep lies on its back, table.",,0.0,0.0,0.0,7
+Ccgwurislg8_000082_000092,3,baseline,scene_spatial,motion_action,"Outdoors, electric clippers shear sheep's wool away.",,0.0,0.0,0.0,7
+Ccgwurislg8_000082_000092,3,gap_targeted,scene_spatial,motion_action,"Outdoors, sheep lies on a shearing table.",,0.0,0.0,0.0,7
+Ccgwurislg8_000082_000092,2,baseline,scene_spatial,motion_action,A person shears a sheep lying down outdoors.,,0.0,0.0,0.0,8
+Ccgwurislg8_000082_000092,2,gap_targeted,scene_spatial,motion_action,"Outdoors, sheep lies on a shearing table.",,0.0,0.0,0.0,7
+Ccgwurislg8_000082_000092,0,baseline,scene_spatial,face_character,"Outdoors, someone shears a sheep with clippers.",0.1831026415793326,0.0,0.04387020955315146,0.14285714285714285,7
+Ccgwurislg8_000082_000092,0,gap_targeted,scene_spatial,face_character,"Outdoors, a sheep lies on a table.",,0.0,0.0,0.0,7
+Ccgwurislg8_000082_000092,1,baseline,scene_spatial,motion_action,A person shears wool from a reclining sheep.,,0.0,0.0,0.0,8
+Ccgwurislg8_000082_000092,1,gap_targeted,scene_spatial,motion_action,"Outdoors, sheep lies on its back, table.",,0.0,0.0,0.0,7
+D297atE3gag_000203_000213,3,baseline,scene_spatial,object_body,"Barefoot, he balances on slackline between trees.",0.1274460473151867,0.0,0.0695305747442016,0.14285714285714285,7
+D297atE3gag_000203_000213,3,gap_targeted,scene_spatial,object_body,A slackline stretches between two bare trees.,,0.0,0.0,0.0,7
+D297atE3gag_000203_000213,0,baseline,scene_spatial,object_body,Barefoot man balances on slackline between trees.,0.4664385089384451,0.0,0.3238346438757353,0.14285714285714285,7
+D297atE3gag_000203_000213,0,gap_targeted,scene_spatial,object_body,"Sunny park, man balances barefoot between trees.",0.4664385089384451,0.0,0.3238346438757353,0.14285714285714285,7
+D297atE3gag_000203_000213,4,baseline,scene_spatial,object_body,"Barefoot man balances, lunging along the slackline.",0.17799791633691242,0.0,0.047001258927172496,0.14285714285714285,7
+D297atE3gag_000203_000213,4,gap_targeted,scene_spatial,object_body,"Sunny park, slackline strung between two trees.",,0.0,0.0,0.0,7
+D297atE3gag_000203_000213,1,baseline,object_body,motion_action,Barefoot man balances on slackline between trees.,0.4145376379312583,0.0,0.14981244855673775,0.14285714285714285,7
+D297atE3gag_000203_000213,1,gap_targeted,object_body,motion_action,"Barefoot, he balances, lunging across the slackline.",0.4145376379312583,0.0,0.14981244855673775,0.14285714285714285,7
+D297atE3gag_000203_000213,2,baseline,object_body,face_character,"Barefoot man balances, lunging across slackline.",0.44127229706294535,0.0,0.1098599254697693,0.16666666666666666,6
+D297atE3gag_000203_000213,2,gap_targeted,object_body,face_character,"Barefoot, he lunges into a focused warrior pose.",0.44127229706294535,0.0,0.1098599254697693,0.125,8
+EA3HCx0yTIY_000281_000291,0,baseline,motion_action,object_body,"Bald, bearded man drums, striking a cymbal.",0.0648743984374498,0.0,0.35189187939709776,0.2857142857142857,7
+EA3HCx0yTIY_000281_000291,0,gap_targeted,motion_action,object_body,Drumstick strikes cymbal repeatedly; bald man plays,0.0648743984374498,0.0,0.35189187939709776,0.2857142857142857,7
+EA3HCx0yTIY_000281_000291,1,baseline,motion_action,object_body,"Bald, bearded man drums at studio kit.",0.2105003911624738,0.0,1.1756070787398838,0.2857142857142857,7
+EA3HCx0yTIY_000281_000291,1,gap_targeted,motion_action,object_body,Drumstick strikes cymbal; bald drummer's arm pumps,0.2105003911624738,0.0,0.5878035393699419,0.14285714285714285,7
+EA3HCx0yTIY_000281_000291,2,baseline,scene_spatial,object_body,"Bald, bearded man drums, striking cymbal repeatedly.",0.211887683675954,0.0,0.9764564530571936,0.2857142857142857,7
+EA3HCx0yTIY_000281_000291,2,gap_targeted,scene_spatial,object_body,"In a studio, he hits cymbals seated",0.211887683675954,0.0,0.4882282265285968,0.14285714285714285,7
+EA3HCx0yTIY_000281_000291,3,baseline,scene_spatial,visual_form,"Bald, bearded man drums in recording studio.",0.3387564983516318,0.0,1.400391567143966,0.2857142857142857,7
+EA3HCx0yTIY_000281_000291,3,gap_targeted,scene_spatial,visual_form,Drum set fills the dim recording studio.,,0.0,0.0,0.0,7
+EA3HCx0yTIY_000281_000291,4,baseline,visual_form,scene_spatial,"Bald, bearded man strikes cymbal at drums.",0.14023212661057924,0.0,0.3134847464019238,0.2857142857142857,7
+EA3HCx0yTIY_000281_000291,4,gap_targeted,visual_form,scene_spatial,"Bald, bearded drummer hits cymbal in studio.",0.14023212661057924,0.0,0.1567423732009619,0.14285714285714285,7
+EA3HCx0yTIY_000281_000291,5,baseline,visual_form,scene_spatial,Bald man drumming intently,0.023604732660416614,0.0,0.003601083014179274,0.5,4
+EA3HCx0yTIY_000281_000291,5,gap_targeted,visual_form,scene_spatial,Bald drummer strikes cymbal,0.023604732660416614,0.0,0.001800541507089637,0.25,4
+F-mRnL_XmJU_000000_000010,0,baseline,scene_spatial,face_character,Money rains over woman sleeping in bed.,,0.0,0.0,0.0,7
+F-mRnL_XmJU_000000_000010,0,gap_targeted,scene_spatial,face_character,"On a bed, money rains over her.",0.4683644929806085,0.0,1.2904034693532749,0.14285714285714285,7
+F-mRnL_XmJU_000000_000010,1,baseline,scene_spatial,visual_form,Cash rains over a woman sleeping peacefully.,,0.0,0.0,0.0,7
+F-mRnL_XmJU_000000_000010,1,gap_targeted,scene_spatial,visual_form,Bills rain over a woman sleeping on bed.,,0.0,0.0,0.0,8
+F-mRnL_XmJU_000000_000010,2,baseline,scene_spatial,visual_form,Someone playfully showers sleeping woman with cash.,0.15872319629448142,0.0,0.13943052092855612,0.14285714285714285,7
+F-mRnL_XmJU_000000_000010,2,gap_targeted,scene_spatial,visual_form,Bills scatter over her on the bed.,0.15872319629448142,0.0,0.13943052092855612,0.14285714285714285,7
+F-mRnL_XmJU_000000_000010,4,baseline,scene_spatial,visual_form,Money rains over the sleeping woman playfully.,,0.0,0.0,0.0,7
+F-mRnL_XmJU_000000_000010,4,gap_targeted,scene_spatial,visual_form,"She sleeps on a bed, money scattered.",0.2293675123602645,0.0,0.1862982469615982,0.14285714285714285,7
+F-mRnL_XmJU_000000_000010,3,baseline,scene_spatial,visual_form,Money rains down on sleeping woman playfully.,,0.0,0.0,0.0,7
+F-mRnL_XmJU_000000_000010,3,gap_targeted,scene_spatial,visual_form,Bills scatter across the bed beside her.,0.22220054729816105,0.0,0.11658700540663347,0.14285714285714285,7
+HpRmj5ce32c_000001_000011,0,baseline,motion_action,object_body,"Curlers slide a stone, brooms ready ahead.",,0.0,0.0,0.0,7
+HpRmj5ce32c_000001_000011,0,gap_targeted,motion_action,object_body,A curler slides the stone; sweepers ready brooms.,,0.0,0.0,0.0,8
+HpRmj5ce32c_000001_000011,4,baseline,visual_form,face_character,"Curlers slide a stone, brooms ready ahead.",,0.0,0.0,0.0,7
+HpRmj5ce32c_000001_000011,4,gap_targeted,visual_form,face_character,"Red stone glides across pale, gleaming ice.",0.8481704937310741,1.5,1.3295327808394617,0.14285714285714285,7
+HpRmj5ce32c_000001_000011,1,baseline,motion_action,object_body,A curler releases the stone; sweepers ready brooms.,,0.0,0.0,0.0,8
+HpRmj5ce32c_000001_000011,1,gap_targeted,motion_action,object_body,"A curler releases the stone, sweepers ready.",,0.0,0.0,0.0,7
+HpRmj5ce32c_000001_000011,3,baseline,visual_form,face_character,Curlers sweep the ice ahead of stone.,,0.0,0.0,0.0,7
+HpRmj5ce32c_000001_000011,3,gap_targeted,visual_form,face_character,"Red stone glides; players watch, brooms ready.",0.7937930757345196,1.5,0.7707539909586463,0.14285714285714285,7
+HpRmj5ce32c_000001_000011,2,baseline,face_character,visual_form,A curler releases the stone; sweepers ready.,,0.0,0.0,0.0,7
+HpRmj5ce32c_000001_000011,2,gap_targeted,face_character,visual_form,"Players focus intently, brooms poised over ice.",,0.0,0.0,0.0,7
+HpRmj5ce32c_000001_000011,5,baseline,scene_spatial,object_body,Curlers sweep sliding stone.,,0.0,0.0,0.0,4
+HpRmj5ce32c_000001_000011,5,gap_targeted,scene_spatial,object_body,"Spacious rink, curlers sweep",,0.0,0.0,0.0,4
+N-LZPc27kjM_000229_000239,2,baseline,scene_spatial,visual_form,She needles tiny grooves into blue mittens.,0.08974095335659388,0.0,0.05644939368243779,0.14285714285714285,7
+N-LZPc27kjM_000229_000239,2,gap_targeted,scene_spatial,visual_form,Tiny blue clay mittens on her workspace.,0.08974095335659388,0.0,0.05644939368243779,0.14285714285714285,7
+N-LZPc27kjM_000229_000239,3,baseline,scene_spatial,visual_form,She needles tiny blue clay mittens fluffy.,0.036436327687322925,0.0,0.03291570528995175,0.14285714285714285,7
+N-LZPc27kjM_000229_000239,3,gap_targeted,scene_spatial,visual_form,Blue clay mittens rest on her workspace.,0.036436327687322925,0.0,0.03291570528995175,0.14285714285714285,7
+N-LZPc27kjM_000229_000239,0,baseline,scene_spatial,visual_form,Needle textures tiny blue clay mittens fluffy.,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,0,gap_targeted,scene_spatial,visual_form,Tiny blue clay mittens on the table.,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,1,baseline,scene_spatial,visual_form,"She needles tiny mittens, creating fluffy texture.",0.27123503141972155,0.0,0.042832045503918725,0.14285714285714285,7
+N-LZPc27kjM_000229_000239,1,gap_targeted,scene_spatial,visual_form,Tiny blue clay mittens rest on workspace.,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,4,baseline,scene_spatial,visual_form,"She needles tiny blue clay mittens, texturing.",0.04094499483545017,0.0,0.023526847318078414,0.14285714285714285,7
+N-LZPc27kjM_000229_000239,4,gap_targeted,scene_spatial,visual_form,Tiny blue clay mittens rest on workspace.,,0.0,0.0,0.0,7
+OASCPKazLIM_000132_000142,4,baseline,scene_spatial,visual_form,Hands fold shiny paper over the book.,,0.0,0.0,0.0,7
+OASCPKazLIM_000132_000142,4,gap_targeted,scene_spatial,visual_form,"On a wooden table, foil-wrapped book lies center.",0.9228788486167592,1.5,1.5671371050749148,0.1111111111111111,8
+OASCPKazLIM_000132_000142,3,baseline,scene_spatial,visual_form,Hands fold shiny paper over a book.,,0.0,0.0,0.0,7
+OASCPKazLIM_000132_000142,3,gap_targeted,scene_spatial,visual_form,"Book centered on shiny foil, wooden table.",0.948060042395561,1.5,1.1096390230859463,0.14285714285714285,7
+OASCPKazLIM_000132_000142,0,baseline,scene_spatial,motion_action,Hands fold shiny paper over a book.,,0.0,0.0,0.0,7
+OASCPKazLIM_000132_000142,0,gap_targeted,scene_spatial,motion_action,"Book on foil paper, wooden table.",0.6873686978144274,1.5,0.3126316026995933,0.16666666666666666,6

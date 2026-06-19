@@ -66,4 +66,4 @@ of catching wrong-content descriptions, which is the core failure mode in AI-gen
 ## See Also
 - [[research/scenetwin]]
 - [[research/scenetwin-codex-handoff-2026-04-22]]
-- [[research/scenetwin-paper-eval]]
+- [scenetwin-paper-eval](scenetwin-paper-eval.md)

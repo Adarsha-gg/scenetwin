@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_j6CgiNeWQwM_000842_000852",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/j6CgiNeWQwM_000842_000852.mp4",
+  "ad_text_used": "In a kitchen, a chef and an assistant are preparing a cake. The assistant holds a large mixing bowl filled with batter, while the chef uses a spatula to transfer the batter into a round cake pan lined with parchment paper. They work together efficiently, ensuring all the batter is scraped from the bowl into the pan.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.2593017481760773,
+  "description_gain": -0.1559845824910958,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    24,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "j6CgiNeWQwM_000842_000852",
+  "category": "Food & Cooking",
+  "yt_id": "j6CgiNeWQwM",
+  "start_s": 842.0,
+  "end_s": 852.0
+}

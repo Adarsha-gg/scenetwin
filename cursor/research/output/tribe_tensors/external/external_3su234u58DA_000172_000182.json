@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_3su234u58DA_000172_000182",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/3su234u58DA_000172_000182.mp4",
+  "ad_text_used": "In a snowy city park, a large group of people, including young adults and children, engage in a lively snowball fight. A woman stands in the foreground, speaking to the camera about a snowball that went down her back. Behind her, the crowd energetically throws snowballs at each other, creating a playful and bustling atmosphere. The scene captures the joy and excitement of a winter day in an open field, with snow covering the ground and trees surrounding the area.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.09881634712057208,
+  "description_gain": -0.25611923001816705,
+  "alignment_cosine": 0.9589324070987099,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    36,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "3su234u58DA_000172_000182",
+  "category": "Entertainment",
+  "yt_id": "3su234u58DA",
+  "start_s": 172.0,
+  "end_s": 182.0
+}

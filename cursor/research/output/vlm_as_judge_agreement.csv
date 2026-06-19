@@ -1,0 +1,4 @@
+a,b,rho,n_obs
+anthropic/claude-sonnet-4-6,gemini/gemini-2.5-pro,0.8466869827406297,312
+anthropic/claude-sonnet-4-6,openai/gpt-5,0.8334839061535079,312
+gemini/gemini-2.5-pro,openai/gpt-5,0.8368233163418457,312

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_S-C86j0keqc_000217_000227",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/S-C86j0keqc_000217_000227.mp4",
+  "ad_text_used": "In a park setting, a young woman sings 'Amazing Grace' while a man, dressed in Civil War-era attire, plays the violin. They are positioned near a canvas tent, suggesting a historical reenactment event. The scene takes place on a sunny day, adding to the lively atmosphere.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.1053204411955001,
+  "description_gain": -0.5154061041421358,
+  "alignment_cosine": 0.9958059497810471,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    23,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "S-C86j0keqc_000217_000227",
+  "category": "Event",
+  "yt_id": "S-C86j0keqc",
+  "start_s": 217.0,
+  "end_s": 227.0
+}

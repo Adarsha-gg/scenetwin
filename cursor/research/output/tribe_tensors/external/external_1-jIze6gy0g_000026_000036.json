@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_1-jIze6gy0g_000026_000036",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/1-jIze6gy0g_000026_000036.mp4",
+  "ad_text_used": "In a bustling factory, several workers are stationed along an assembly line. They efficiently handle bags of material as they move down a conveyor belt, sealing them before placing them with the rest. The environment is noisy, and one worker raises their voice to communicate over the sound. Large bags are stacked nearby, and the machinery hums steadily as the process continues.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.18127637388283402,
+  "description_gain": -0.6960325611427942,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    28,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "1-jIze6gy0g_000026_000036",
+  "category": "How-to & Instructional",
+  "yt_id": "1-jIze6gy0g",
+  "start_s": 26.0,
+  "end_s": 36.0
+}

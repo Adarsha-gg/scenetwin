@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_Xdz1cxEjLYc_000007_000017",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/Xdz1cxEjLYc_000007_000017.mp4",
+  "ad_text_used": "A young girl with blonde hair sits at a round kitchen table, wearing a pink and white striped shirt. She uses a fork to eat from a plate of food in front of her. A glass of milk is nearby. As she takes a bite, she nods in approval, indicating she enjoys the meal. A voice off-screen encourages her to try more.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.08644013184582944,
+  "description_gain": -0.18165979263847076,
+  "alignment_cosine": 0.9796780574890843,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    25,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "Xdz1cxEjLYc_000007_000017",
+  "category": "Food & Cooking",
+  "yt_id": "Xdz1cxEjLYc",
+  "start_s": 7.0,
+  "end_s": 17.0
+}

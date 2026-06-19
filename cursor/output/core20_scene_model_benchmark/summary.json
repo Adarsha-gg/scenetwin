@@ -1,0 +1,27 @@
+{
+  "n_core_clips": 20,
+  "axes": {
+    "action_relation": 13,
+    "spatial_relation": 4,
+    "who_role": 2,
+    "count": 1
+  },
+  "target_sources": {
+    "manual_gap": 7,
+    "tribe": 13
+  },
+  "canonical_target_probe_scene_lie_catch": 20,
+  "generic_coverage": {
+    "generic_claude": {
+      "strict": 3,
+      "loose": 13,
+      "n": 20
+    },
+    "generic_gpt4o": {
+      "strict": 1,
+      "loose": 11,
+      "n": 20
+    }
+  },
+  "note": "Core-20 is a canonical authored benchmark/coverage lock. Independent VLM or BLV grading remains the next validation layer."
+}

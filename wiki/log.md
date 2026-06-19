@@ -1,5 +1,13 @@
 # SceneTwin Log
 
+## [2026-06-19] writing | Same-day paper thesis narrowed to corrected 3-tier audit framework
+
+Collapsed the restored 60-clip and paper-push material into a conservative same-day submission thesis, then pivoted fully to the corrected 3-tier ladder after deciding the long-VATEX rung should not be used as a paper benchmark. Rewrote `output/reports/paper-scenetwin-audit-framework.md`, `output/reports/scenetwin-paper-submission-thesis.md`, `output/reports/scenetwin-paper-evidence-check.md`, and `output/reports/scenetwin-central-thesis.md` to remove old 4-tier headline framing. Final polish changed the title/framing to **human-reference-free** rather than absolute no-reference: the ranking score and wrong-content gate need no professional AD, while the hallucination grounding-drop gate needs a clip-relevant anchor and the no-anchor variant is a negative result. The active claim is now: corrected 3-tier SceneTwin ρ=0.954 in-bench and ρ=0.947 external, but the strongest reference-style LLM-AD-Eval proxy nearly ties ranking (0.941/0.942), so the contribution is human-reference-free audit + safety gates + review triage, not large industry domination. Verified corrected metrics directly from CSVs with a pure-Python Spearman/pairwise check and reran non-LLM validation scripts via `uv run` for fake-rung analysis, corrected-ladder robustness, gate outcomes, wrong-content gate, selective ship-best, and VLM-judge analysis.
+
+## [2026-06-19] audit | 60-clip paper artifacts recovered from GitHub branch
+
+Refreshed `origin/agent-loop/claude-round-70` after `git ls-remote` showed GitHub had a newer commit (`8a4139a2efe4b05d3085add18786e7e9686b728b`). Restored the missing row-level source `cursor/output/external_ensemble_eval.csv` plus `external_ensemble_eval.json`, VATEX-60 outputs/scripts, corrected-ladder/gate outputs, Paper A/B/safety-gate drafts, consolidated paper draft, and the missing 2026-06 finding/wiki pages. Verified the recovered CSV has 240 rows = 60 clips × 4 tiers; recovered ensemble summary is ρ=0.873171, 30/60 full order, 173/180 T3-vs-lower wins. Updated `output/reports/scenetwin-60clip-artifact-audit.md` and `wiki/index.md`.
+
 ## [2026-06-07] research | Valid 4-tier completeness ladder (replaces fake rung)
 
 Built a legitimate 4th tier after two attempts. (1) Machine-AD rung failed:

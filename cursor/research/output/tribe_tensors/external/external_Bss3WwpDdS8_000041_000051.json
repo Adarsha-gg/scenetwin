@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_Bss3WwpDdS8_000041_000051",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/Bss3WwpDdS8_000041_000051.mp4",
+  "ad_text_used": "In a cozy kitchen, a young man with long hair sings directly into the camera. The scene shifts as he turns the camera to reveal a small group of people gathered in the room, engaging in lively conversation. The atmosphere is warm and animated, with people moving around and interacting with each other. A woman joins the conversation, adding to the dynamic energy of the gathering. The camera occasionally blurs, capturing the excitement and movement of the group as they enjoy their time together.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.08183499042899356,
+  "description_gain": -0.27074525945690897,
+  "alignment_cosine": 0.9968915529960043,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    37,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "Bss3WwpDdS8_000041_000051",
+  "category": "People & Vlogs",
+  "yt_id": "Bss3WwpDdS8",
+  "start_s": 41.0,
+  "end_s": 51.0
+}

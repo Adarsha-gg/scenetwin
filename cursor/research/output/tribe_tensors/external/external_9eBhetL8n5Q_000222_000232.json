@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_9eBhetL8n5Q_000222_000232",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/9eBhetL8n5Q_000222_000232.mp4",
+  "ad_text_used": "In a hotel room, two young men sit on a bed, shirtless, with a box of doughnuts beside them. One of the men, who has a tattoo of footprints and calligraphy on his chest, talks animatedly to the camera while eating a doughnut. He gestures with his hands, emphasizing his words, and occasionally shows a close-up of the doughnut. The atmosphere is relaxed and informal as they discuss the number of doughnuts they have eaten.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.08706709611323915,
+  "description_gain": -0.049417324571880195,
+  "alignment_cosine": 0.9739274065493341,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    33,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "9eBhetL8n5Q_000222_000232",
+  "category": "People & Vlogs",
+  "yt_id": "9eBhetL8n5Q",
+  "start_s": 222.0,
+  "end_s": 232.0
+}

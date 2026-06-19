@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_09_TF4q9y0rJoc_000000_000010",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_09.mp4",
+  "ad_text_used": "At night, a skier navigates a snowy hill, weaving between flexible poles in a slalom course. The skier moves swiftly, alternating left and right, purposefully making contact with each pole as they descend the slope.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.17728451159853975,
+  "description_gain": -0.5190908440372033,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    18,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 9,
+  "video_id": "TF4q9y0rJoc_000000_000010",
+  "category": "Sports",
+  "duration_s": 16.39,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

@@ -1,0 +1,17 @@
+{
+  "run_at": "2026-05-28T01:25:32.333653+00:00",
+  "source": "vatex_overlap.json",
+  "n_clips": 60,
+  "n_scored": 60,
+  "clip_only": {
+    "spearman_rho": 0.6313563795013782,
+    "spearman_p": 4.263287125570728e-28,
+    "full_order": 16,
+    "full_order_total": 60,
+    "full_order_rate": 0.26666666666666666,
+    "pairwise_wins": 142,
+    "pairwise_total": 180,
+    "n_rows": 240,
+    "n_clips": 60
+  }
+}
