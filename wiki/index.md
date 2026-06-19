@@ -7,7 +7,8 @@ _Last updated: 2026-06-19_
 - [Paper evidence check](../output/reports/scenetwin-paper-evidence-check.md) — verification of corrected 3-tier metrics, market/baseline comparison, safety artifacts, and VLM-as-judge baselines.
 
 ## Papers
-- [SceneTwin audit-framework submission draft](../output/reports/paper-scenetwin-audit-framework.md) — **current recommended same-day submission draft.** Uses corrected 3-tier ladder as primary; frames ranking as competitive with reference-style baselines and emphasizes human-reference-free audit, safety gates, and review triage.
+- [SceneTwin audit-framework manuscript](../output/reports/paper-scenetwin-audit-framework.md) — **current recommended submission draft.** Full paper-style manuscript with corrected 3-tier ladder, related work citations, human-reference-free audit framing, safety gates, and review triage.
+- [SceneTwin audit citation map](../output/reports/scenetwin-citation-map.md) — maps every external paper/source used in the manuscript to the claim and section it supports.
 - [SceneTwin consolidated submission draft](../output/reports/paper-scenetwin-consolidated.md) — earlier broader draft with brain-grounded steering; useful source material, but too sprawling as the primary same-day submission target.
 
 ## Findings — 2026-06 ladder / generalization work (cursor/findings/)
