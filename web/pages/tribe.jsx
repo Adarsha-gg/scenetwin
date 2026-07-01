@@ -159,19 +159,100 @@ function RoiBars({ rois }) {
   );
 }
 
+function blindCaseLabel(caseId) {
+  const labels = {
+    scene_layout_replay: 'scene layout',
+    agent_action_cue: 'agent/action',
+    dynamic_type_shift: 'type shift',
+    moment_level_authoring: 'peak window',
+    low_gap_skip: 'low gap',
+    audio_language_confound_check: 'audio/control',
+  };
+  return labels[caseId] || String(caseId || 'unknown').replace(/_/g, ' ');
+}
+
+function blindCaseColor(caseId) {
+  if (caseId === 'scene_layout_replay') return 'var(--accent)';
+  if (caseId === 'agent_action_cue') return 'var(--warn)';
+  if (caseId === 'dynamic_type_shift' || caseId === 'moment_level_authoring') return 'var(--bad)';
+  if (caseId === 'low_gap_skip') return 'var(--good)';
+  return 'var(--fg-muted)';
+}
+
+function BlindSpotRouterPanel({ router }) {
+  if (!router) return null;
+  const cases = Object.entries(router.case_counts || {}).sort((a, b) => b[1] - a[1]);
+  const routes = Object.entries(router.route_counts || {}).sort((a, b) => b[1] - a[1]);
+  const topCases = router.top_cases || [];
+  return (
+    <div className="card" style={{ padding: 14, marginBottom: 12 }}>
+      <div className="row justify-between items-baseline gap-16">
+        <div>
+          <div className="eyebrow">Neural Blind Spot Map</div>
+          <div style={{ marginTop: 5, fontSize: 18, fontWeight: 500 }}>
+            Tensor-derived access routing across 78 clips
+          </div>
+        </div>
+        <span className="mono" style={{ color: 'var(--fg-muted)', fontSize: 10 }}>P_AV vs P_A · 3s windows</span>
+      </div>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr 1.4fr', gap: 12, marginTop: 12 }}>
+        <div className="card" style={{ padding: 10 }}>
+          <div className="eyebrow">Cases found</div>
+          <div className="col gap-6" style={{ marginTop: 8 }}>
+            {cases.map(([caseId, count]) => (
+              <div key={caseId} className="row justify-between gap-8" style={{ fontSize: 12 }}>
+                <span style={{ color: blindCaseColor(caseId) }}>{blindCaseLabel(caseId)}</span>
+                <span className="mono" style={{ color: 'var(--fg-muted)' }}>{count}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="card" style={{ padding: 10 }}>
+          <div className="eyebrow">Window routes</div>
+          <div className="col gap-6" style={{ marginTop: 8 }}>
+            {routes.map(([route, count]) => (
+              <div key={route} className="row justify-between gap-8" style={{ fontSize: 12 }}>
+                <span>{String(route).replace(/_/g, ' ')}</span>
+                <span className="mono" style={{ color: 'var(--fg-muted)' }}>{count}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="card" style={{ padding: 10, minWidth: 0 }}>
+          <div className="eyebrow">Highest-priority examples</div>
+          <div className="col gap-7" style={{ marginTop: 8, maxHeight: 138, overflowY: 'auto' }}>
+            {topCases.slice(0, 5).map((c, i) => (
+              <div key={`${c.video_id}-${c.case_id}-${i}`} className="row justify-between gap-10" style={{ fontSize: 12 }}>
+                <div style={{ minWidth: 0 }}>
+                  <div className="mono" style={{ color: blindCaseColor(c.case_id), fontSize: 10, textTransform: 'uppercase' }}>
+                    {blindCaseLabel(c.case_id)} · {c.window}
+                  </div>
+                  <div style={{ color: 'var(--fg-muted)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                    {c.video_id} · {c.category}
+                  </div>
+                </div>
+                <span className="mono" style={{ color: 'var(--fg-muted)' }}>{Number(c.priority_score).toFixed(2)}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function TribeRiskPage() {
   const [data, setData] = useState(null);
   const [selected, setSelected] = useState(null);
   const [error, setError] = useState('');
 
   useEffect(() => {
-    fetch(`${TRIBE_API_BASE}/api/tribe-risk`)
-      .then(r => r.json())
-      .then(json => {
+    fetchSceneTwinJson('/api/tribe-risk', '../cursor/data/tribe-risk.json')
+      .then(({ json }) => {
         setData(json);
         setSelected(json.clips?.[0] || null);
       })
-      .catch(() => setError('TRIBE risk endpoint is not reachable.'));
+      .catch(() => setError('TRIBE risk data unavailable (start API or run cursor/export_static_api.py).'));
   }, []);
 
   const clips = data?.clips || [];
@@ -196,11 +277,33 @@ function TribeRiskPage() {
 
       {error && <div className="card card-pad" style={{ borderColor: 'var(--bad)', color: 'var(--bad)', marginBottom: 12 }}>{error}</div>}
 
+      {data?.correlations?.length > 0 && (
+        <div className="card" style={{ padding: 14, marginBottom: 12 }}>
+          <div className="row justify-between items-baseline">
+            <div className="eyebrow">TRIBE ↔ ADQA correlations</div>
+            <span className="mono" style={{ color: 'var(--fg-muted)', fontSize: 10 }}>significant pairs, n=18</span>
+          </div>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: 8, marginTop: 10 }}>
+            {data.correlations.slice(0, 6).map((c, i) => (
+              <div key={i} className="card" style={{ padding: 10 }}>
+                <div className="mono" style={{ fontSize: 10, color: 'var(--fg-muted)', lineHeight: 1.35 }}>{c.tribe_feature}</div>
+                <div style={{ fontSize: 11, marginTop: 4, color: 'var(--fg-muted)' }}>vs {String(c.outcome).replace(/all4_mean_/g, '')}</div>
+                <div className="mono" style={{ marginTop: 6, fontSize: 14, color: c.spearman_rho < 0 ? 'var(--warn)' : 'var(--accent)' }}>
+                  ρ = {Number(c.spearman_rho).toFixed(2)}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <BlindSpotRouterPanel router={data?.blind_spot_router} />
+
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, minmax(0, 1fr))', gap: 10, marginBottom: 12 }}>
-        <div className="card" style={{ padding: 12 }}><Stat label="Recall@2" value={data ? `${Math.round(data.recall_at_topk * 100)}` : '—'} unit="%" sub="both known failures caught" /></div>
+        <div className="card" style={{ padding: 12 }}><Stat label="Pilot recall@2" value={data ? `${data.review_budget_clips}/${data.positives}` : '—'} sub="both known failures caught; n=2" /></div>
         <div className="card" style={{ padding: 12 }}><Stat label="p value" value={data ? data.p_value.toFixed(4) : '—'} sub="hypergeometric top-k" /></div>
         <div className="card" style={{ padding: 12 }}><Stat label="Risk clips" value={data ? `${highRisk}/${data.n}` : '—'} sub="quality failure targets" /></div>
-        <div className="card" style={{ padding: 12 }}><Stat label="Review budget" value={data ? data.review_budget_clips : '—'} sub="clips a human checks first" /></div>
+        <div className="card" style={{ padding: 12 }}><Stat label="Review queue" value={data ? data.review_budget_clips : '—'} sub="pilot clips checked first" /></div>
         <div className="card" style={{ padding: 12 }}>
           <Stat
             label="ρ (TRIBE vs judges)"
@@ -336,6 +439,19 @@ function TribeRiskPage() {
                 <p style={{ margin: '7px 0 0', color: 'var(--fg-muted)', lineHeight: 1.42, fontSize: 12, overflowY: 'auto', minHeight: 0 }}>
                   {selected.pro_ad_text}
                 </p>
+                {selected.blind_spot_cases?.length > 0 && (
+                  <>
+                    <div className="eyebrow" style={{ marginTop: 12 }}>Blind spot routes</div>
+                    <div className="col gap-6" style={{ marginTop: 7 }}>
+                      {selected.blind_spot_cases.map((c, i) => (
+                        <div key={i} className="row justify-between gap-8" style={{ fontSize: 11 }}>
+                          <span style={{ color: blindCaseColor(c.case_id) }}>{blindCaseLabel(c.case_id)}</span>
+                          <span className="mono" style={{ color: 'var(--fg-muted)' }}>{c.window}</span>
+                        </div>
+                      ))}
+                    </div>
+                  </>
+                )}
               </div>
 
               <div className="card" style={{ padding: 14, minHeight: 0, display: 'flex', flexDirection: 'column' }}>

@@ -1,0 +1,26 @@
+{
+  "script": "cursor/research/cheap_baseline_gauntlet.py",
+  "rng_seed": 20260623,
+  "n_permutations": 5000,
+  "external_n": 60,
+  "transcript_coverage": 56,
+  "external_targets": {
+    "adqa_fail": 10,
+    "ensemble_fail": 2,
+    "clip_fail": 20,
+    "t3_lost_any": 6
+  },
+  "route_n": 18,
+  "route_positives": 10,
+  "outputs": {
+    "external_features": "C:\\Users\\adars\\Coding\\scenetwin\\cursor\\research\\output\\parallel_research\\cheap_baselines\\external_features.csv",
+    "auc_summary": "C:\\Users\\adars\\Coding\\scenetwin\\cursor\\research\\output\\parallel_research\\cheap_baselines\\auc_summary.csv",
+    "topk_curves": "C:\\Users\\adars\\Coding\\scenetwin\\cursor\\research\\output\\parallel_research\\cheap_baselines\\topk_curves.csv",
+    "family_winners": "C:\\Users\\adars\\Coding\\scenetwin\\cursor\\research\\output\\parallel_research\\cheap_baselines\\family_winners.csv",
+    "route_label_rows": "C:\\Users\\adars\\Coding\\scenetwin\\cursor\\research\\output\\parallel_research\\cheap_baselines\\route_label_rows.csv",
+    "route_label_auc": "C:\\Users\\adars\\Coding\\scenetwin\\cursor\\research\\output\\parallel_research\\cheap_baselines\\route_label_auc.csv",
+    "matched_question_lift": "C:\\Users\\adars\\Coding\\scenetwin\\cursor\\research\\output\\parallel_research\\cheap_baselines\\matched_question_lift.csv",
+    "report": "C:\\Users\\adars\\Coding\\scenetwin\\output\\reports\\parallel-research-cheap-baseline-gauntlet.md",
+    "subagent_report": "C:\\Users\\adars\\Coding\\scenetwin\\subagent-reports\\parallel-cheap-baselines.md"
+  }
+}

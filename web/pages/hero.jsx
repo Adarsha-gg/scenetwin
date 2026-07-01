@@ -36,38 +36,39 @@ function HeroPage({ setPage }) {
               lineHeight: 1.5,
               color: 'var(--fg-muted)',
             }}>
-              Paste a YouTube clip and get a visual-access audit: sampled frames, generated or supplied AD, CLIP grounding, and frame-grounded ADQA.
+              Start from the cached benchmark: local clips, frame-grounded ADQA, CLIP grounding, and TRIBE review triage with no API keys or live model calls.
             </p>
           </div>
 
           <div className="row gap-12 wrap" style={{ marginTop: 32 }}>
-            <button className="btn primary lg" onClick={() => setPage('audit')}>Open live audit</button>
+            <button className="btn primary lg" onClick={() => setPage('cached')}>Open cached clips</button>
             <button className="btn lg" onClick={() => setPage('benchmark')}>View benchmark</button>
+            <button className="btn lg" onClick={() => setPage('audit')}>Optional live audit</button>
           </div>
         </div>
 
         <div className="card" style={{ padding: 18, minHeight: 500 }}>
           <div className="row justify-between items-center">
-            <div className="eyebrow">Live audit preview</div>
-            <Tag color="var(--good)">API READY</Tag>
+            <div className="eyebrow">Cached benchmark preview</div>
+            <Tag color="var(--good)">LOCAL READY</Tag>
           </div>
           <div style={{ marginTop: 18 }}>
-            <iframe
-              title="SceneTwin demo preview"
-              src="https://www.youtube.com/embed/avz06PDqDbM?start=0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowFullScreen
+            <img
+              title="SceneTwin cached benchmark preview"
+              src="../output/charts/scenetwin_per_tier_heatmap.png"
+              alt="SceneTwin per-tier benchmark heatmap"
               style={{
                 width: '100%',
                 aspectRatio: '16 / 9',
+                objectFit: 'contain',
                 display: 'block',
                 border: '1px solid var(--border)',
                 background: 'var(--panel-2)',
               }}
             />
             <div className="row justify-between items-center" style={{ marginTop: 10, color: 'var(--fg-muted)', fontSize: 12 }}>
-              <span>Mission Impossible trailer from start</span>
-              <span className="mono">t=0</span>
+              <span>18 cached clips · local JSON fallback</span>
+              <span className="mono">no keys</span>
             </div>
           </div>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: 12, marginTop: 16 }}>

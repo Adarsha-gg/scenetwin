@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_eb-ufaFcUas_000008_000018",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/eb-ufaFcUas_000008_000018.mp4",
+  "ad_text_used": "In a bustling shopping mall, a young boy is harnessed to elastic cords, bouncing energetically on a trampoline. The setup allows him to soar high into the air, suspended by the bungee cords. Surrounding him are various store signs, including a prominent advertisement for watches. The scene captures the lively atmosphere of the mall as the boy enjoys his thrilling jumps.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.055594638105383676,
+  "description_gain": -0.45566396364880446,
+  "alignment_cosine": 0.9958715294168635,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    29,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "eb-ufaFcUas_000008_000018",
+  "category": "Entertainment",
+  "yt_id": "eb-ufaFcUas",
+  "start_s": 8.0,
+  "end_s": 18.0
+}

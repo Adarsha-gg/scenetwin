@@ -1,0 +1,15 @@
+feature,auc_high_bad,auc_low_bad,best_auc,best_direction
+duration_s,0.71875,0.28125,0.71875,high_bad
+mean_need,0.75,0.25,0.75,high_bad
+max_need,0.71875,0.28125,0.71875,high_bad
+need_entropy,0.5,0.5,0.5,high_bad
+high_need_frac,0.765625,0.234375,0.765625,high_bad
+high_need_seconds_frac,0.78125,0.21875,0.78125,high_bad
+extended_seconds_frac,0.671875,0.328125,0.671875,high_bad
+mean_speech_density,0.0625,0.9375,0.9375,low_bad
+mean_standard_slot_score,1.0,0.0,1.0,high_bad
+mean_extended_need_score,0.25,0.75,0.75,low_bad
+tribe_pressure,0.75,0.25,0.75,high_bad
+tier3_va11y_words,0.625,0.375,0.625,high_bad
+pro_minus_short_words,0.671875,0.328125,0.671875,high_bad
+pro_minus_long_words,0.734375,0.265625,0.734375,high_bad

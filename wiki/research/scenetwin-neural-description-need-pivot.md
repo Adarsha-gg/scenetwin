@@ -31,6 +31,33 @@ This asks where the full audiovisual scene contains predicted neural signal that
 
 This lines up with accessibility guidance from UWM, Harvard, and the University of Washington: AD is for key visual content that is not accessible or obvious from audio alone. It also matches the "Describe Now" user-study direction: BLV users benefit from control over timing and detail, not just one fixed description track.
 
+## Corpus-wide extension (2026-05-29)
+
+The need curve / scheduling above originally existed only for 2-18 in-bench
+clips, because per-timestep `P_AV`/`P_A` were never saved at scale. The
+`tribe_tensors_all78` dump fixes that: the same `need_score` formula
+(`0.5*minmax(residual_norm)+0.5*minmax(cosine_gap)`, 3s windows) now runs on all
+**78 clips, including 60 EXTERNAL** -- the first time TRIBE's actual deliverable
+generalizes out of bench.
+
+- Script: `cursor/research/tribe_ad_need_schedule.py` -> `output/tribe_ad_need_schedule.csv`
+- 334 windows; ~75% flag an AD need; ~80% of flagged windows are spatial/scene
+  type (consistent with audio carrying agents/actions but not layout, see
+  [[research/scenetwin-tribe-roi-localization]]).
+- Each window carries `need_score`, `scene_gap`, `agent_gap`, and a
+  recommendation (`{high,moderate}_ad_need:{spatial/scene|agent/action}` or
+  `low_ad_need`). Speech-based standard-vs-extended slot typing still needs
+  transcripts (in-bench only) and is omitted; need level + content type degrade
+  gracefully to external.
+
+This reframes TRIBE for the papers as a **generative/authoring** contribution
+(when + what-kind to describe), NOT an evaluation metric. Confirmed 2026-05-29
+that TRIBE does not predict AD quality (3 independent nulls: scalar features,
+neural closure, typed-demand routing) -- which is expected, since it scores
+demand, not supply. Next, to make TRIBE a differentiator with this data:
+[[research/scenetwin-need-weighted-grounding]] (0.976 vs 0.878 on 2 clips, now
+runnable at scale) and [[research/scenetwin-gap-targeted-ad-loop]].
+
 ## Metrics
 
 For each time window:

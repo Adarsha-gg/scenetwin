@@ -1,0 +1,13 @@
+{
+  "n_records": 5,
+  "n_refs": 5,
+  "n_similarity_rows": 100,
+  "tiers": [
+    "tier0_cross",
+    "tier1_vatex_short",
+    "tier2_vatex_long",
+    "tier3_va11y"
+  ],
+  "failures": [],
+  "elapsed_seconds": 454.4
+}

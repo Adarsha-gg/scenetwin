@@ -1,0 +1,7 @@
+source,comparison,matched,n_questions,n_videos,mean_delta,wins,losses,ties
+surgical_adqa,gap_targeted_minus_baseline,1,60,43,0.16666666666666666,20,2,38
+surgical_adqa,gap_targeted_minus_baseline,0,235,59,0.05106382978723404,48,28,159
+necessity_rematch,tribe_minus_baseline,1,62,44,0.008064516129032258,1,0,61
+necessity_rematch,tribe_minus_baseline,0,158,44,0.0031645569620253164,6,4,148
+necessity_rematch,vlm_minus_baseline,1,62,44,-0.056451612903225805,2,8,52
+necessity_rematch,vlm_minus_baseline,0,158,44,0.0,5,4,149

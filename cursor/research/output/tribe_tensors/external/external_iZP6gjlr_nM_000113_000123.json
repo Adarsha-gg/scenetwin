@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_iZP6gjlr_nM_000113_000123",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/iZP6gjlr_nM_000113_000123.mp4",
+  "ad_text_used": "In a room, two people are working on an ice sculpture. One person, wearing a patterned shirt, observes while the other, in a dark jacket, uses a chisel to shape large blocks of ice stacked on a table. The blocks are clear and rectangular, resembling oversized ice cubes. The scene takes place indoors, possibly in a cooler environment to prevent the ice from melting.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.23138371134517244,
+  "description_gain": -0.4365709788667665,
+  "alignment_cosine": 0.998157530018204,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    30,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "iZP6gjlr_nM_000113_000123",
+  "category": "How-to & Instructional",
+  "yt_id": "iZP6gjlr_nM",
+  "start_s": 113.0,
+  "end_s": 123.0
+}

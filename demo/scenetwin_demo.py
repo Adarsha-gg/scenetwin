@@ -33,6 +33,7 @@ import gradio as gr
 
 import live_pipeline as lp
 from live_presets import LIVE_DEMO_DEFAULT, LIVE_DEMO_PRESETS
+import qc_gate as qg
 
 
 # Paths.
@@ -76,6 +77,9 @@ CACHE_READY = (
     not ensemble_df.empty and not questions_df.empty
     and not grades_df.empty and not tribe_df.empty
 )
+
+QC_BENCHMARK = qg.load_qc_benchmark()
+QC_BY_CLIP = {int(c["clip_idx"]): c for c in QC_BENCHMARK.get("clips", [])}
 
 
 text_cols = {
@@ -194,14 +198,15 @@ def need_curve_plot(idx: int):
 def render_clip(clip_opt: str):
     blank = (
         "## Pick a clip", None, [], "_no questions cached_",
-        "<i>no scores cached</i>", "<i>no TRIBE data</i>", None, None,
+        "<i>no scores cached</i>", "<i>no TRIBE data</i>", "<i>no QC data</i>",
+        None, None,
     )
     if not CACHE_READY:
         return (
             "### Cached benchmark data is missing.\n"
             "Expected files under `output/scenetwin_timing_20clip/`. "
             "The Live YouTube tab can still run.",
-            None, [], "", "", "", None, None,
+            None, [], "", "", "", "", None, None,
         )
     idx = OPT_TO_IDX.get(clip_opt)
     if idx is None:
@@ -219,6 +224,7 @@ def render_clip(clip_opt: str):
             f"`{r['required_visual_evidence']}`\n\n"
         )
 
+    qc = QC_BY_CLIP.get(idx)
     tier_md_parts = []
     for tier in TIER_ORDER:
         row = ensemble_df[(ensemble_df["clip_idx"] == idx) &
@@ -237,9 +243,16 @@ def render_clip(clip_opt: str):
                   for s in grades["score"]]
             grades_str = " ".join(yn)
         color = TIER_COLOR[tier]
-        ensemble = row["ensemble"]
-        clip_s = row["clip_mean"]
-        adqa_s = row["adqa_score"]
+        ensemble = float(row["ensemble"])
+        clip_s = float(row["clip_mean"])
+        adqa_s = float(row["adqa_score"])
+        ens_note = ""
+        if qc and qc.get("flagged") and tier == "tier3_va11y":
+            gated = qg.gate_ensemble(ensemble, qc["risk_score"])
+            ens_note = (
+                f' <span style="color:#b73558 !important">'
+                f'(gated {gated:.2f})</span>'
+            )
         bar = int(round(ensemble * 100))
         tier_md_parts.append(dedent(f"""
         <div class="st-card" style="border-left:6px solid {color}">
@@ -248,7 +261,7 @@ def render_clip(clip_opt: str):
           </div>
           <div style="margin:0.3em 0;font-style:italic">"{text}"</div>
           <div style="display:flex;gap:1.5em;font-size:0.95em">
-            <span><b>Ensemble:</b> {ensemble:.2f}</span>
+            <span><b>Ensemble:</b> {ensemble:.2f}{ens_note}</span>
             <span><b>CLIP:</b> {clip_s:.2f}</span>
             <span><b>ADQA:</b> {adqa_s:.2f}  {grades_str}</span>
           </div>
@@ -291,6 +304,8 @@ def render_clip(clip_opt: str):
     </div>
     """)
 
+    qc_md = qg.render_qc_html(qc) if qc else "<i>QC data not loaded</i>"
+
     cat = str(tr.get("category_feature", tr.get("category", "")))
     duration = float(tr.get("duration_s", 0))
     header_md = (
@@ -299,7 +314,7 @@ def render_clip(clip_opt: str):
     )
 
     fig = need_curve_plot(idx)
-    return header_md, video, frames, questions_md, tiers_html, risk_md, idx, fig
+    return header_md, video, frames, questions_md, tiers_html, risk_md, qc_md, idx, fig
 
 
 def example_choices_for(idx: int | None) -> list[tuple[str, str]]:
@@ -356,6 +371,15 @@ def grade_cached(clip_opt: str, example_tier: str):
             f"&nbsp;&nbsp;{rat_md}"
         )
     bar = int(round(ensemble * 100))
+    qc_banner = ""
+    qc = QC_BY_CLIP.get(idx)
+    if qc and qc.get("flagged"):
+        gated = qg.gate_ensemble(ensemble, qc["risk_score"]) if example_tier == "tier3_va11y" else ensemble
+        qc_banner = qg.render_qc_html(qc) + (
+            f"<p class='st-muted' style='font-size:0.9em'>"
+            f"Gated ensemble for this tier: <b>{gated:.2f}</b></p>"
+            if example_tier == "tier3_va11y" else ""
+        )
     header = dedent(f"""
     <div class="st-card" style="border-left:8px solid {color}">
       <div class="st-muted" style="font-size:0.95em;font-weight:700">
@@ -376,7 +400,7 @@ def grade_cached(clip_opt: str, example_tier: str):
       </div>
     </div>
     """)
-    return header + "\n\n".join(lines)
+    return qc_banner + header + "\n\n".join(lines)
 
 
 # Live YouTube tab.
@@ -489,6 +513,8 @@ def run_live_pipeline(url: str, candidate_ad: str, run_tribe: bool,
             f"Frame grounded ADQA, score {aq['score']:.2f}</div>"
             + "".join(rows) + "</div>"
         )
+        live_qc = qg.assess_live(cl["top3"], aq["score"], ad_text)
+        adqa_html += qg.render_qc_html(live_qc)
     else:
         adqa_html = f"<i>{msg}</i>"
     yield (stages_html, video, frames, ad_text, clip_html, adqa_html,
@@ -548,25 +574,6 @@ def load_live_preset(label: str):
 def build_app():
     with gr.Blocks(
         title="SceneTwin demo",
-        theme=gr.themes.Soft(primary_hue="teal", secondary_hue="amber"),
-        css="""
-        .gradio-container { max-width: 1400px !important }
-        h1 { color: #0d7f83 }
-        .small-note { color:#666; font-size:0.9em }
-        /* Panels stay legible in both light and dark themes. */
-        .st-card {
-          background: #ffffff !important;
-          color: #1a1a1a !important;
-          border-radius: 6px;
-          padding: 0.7em 0.9em;
-          margin: 0.4em 0;
-          box-shadow: 0 1px 2px rgba(0,0,0,0.08);
-        }
-        .st-card * { color: inherit !important; }
-        .st-card b, .st-card strong { color: #000 !important; font-weight:700 }
-        .st-muted { color: #555 !important; }
-        .st-note  { color: #444 !important; }
-        """,
     ) as app:
         gr.Markdown(
             "# SceneTwin\n"
@@ -605,6 +612,7 @@ def build_app():
                             object_fit="cover", show_label=True,
                         )
                         risk_md = gr.HTML()
+                        qc_md = gr.HTML(label="Research QC gate")
 
                 with gr.Row():
                     need_plot = gr.Plot(label="TRIBE need curve")
@@ -648,7 +656,7 @@ def build_app():
                     fn=on_clip_change,
                     inputs=clip_picker,
                     outputs=[header_md, video, frames, questions_md,
-                             tiers_html, risk_md, clip_idx_state,
+                             tiers_html, risk_md, qc_md, clip_idx_state,
                              need_plot, example_picker],
                 )
                 grade_btn.click(
@@ -661,7 +669,7 @@ def build_app():
                         fn=render_clip,
                         inputs=clip_picker,
                         outputs=[header_md, video, frames, questions_md,
-                                 tiers_html, risk_md, clip_idx_state,
+                                 tiers_html, risk_md, qc_md, clip_idx_state,
                                  need_plot],
                     )
 
@@ -759,4 +767,4 @@ if __name__ == "__main__":
     app = build_app()
     app.queue()
     app.launch(server_name="0.0.0.0", server_port=7860,
-               inbrowser=False, show_api=False, share=False)
+               inbrowser=False, share=False)

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_1HUWWCLza0w_000000_000010",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/1HUWWCLza0w_000000_000010.mp4",
+  "ad_text_used": "In a schoolyard, a young man in a white t-shirt and black shorts plays hopscotch on a painted court. Holding a basketball, he skillfully navigates the hopscotch pattern. After completing the sequence, he steps back and launches the basketball from a distance. The ball arcs through the air and successfully swishes through the hoop. The young man smiles, clearly pleased with his impressive shot.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.13448063106879748,
+  "description_gain": -0.25827869415906424,
+  "alignment_cosine": 0.97476659377902,
+  "P_AV_shape": [
+    9,
+    20484
+  ],
+  "P_A_shape": [
+    9,
+    20484
+  ],
+  "P_AD_shape": [
+    30,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "1HUWWCLza0w_000000_000010",
+  "category": "Sports",
+  "yt_id": "1HUWWCLza0w",
+  "start_s": 0.0,
+  "end_s": 10.0
+}

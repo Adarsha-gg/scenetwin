@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_A0e7Z55s8pE_000008_000018",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/A0e7Z55s8pE_000008_000018.mp4",
+  "ad_text_used": "A man stands on a ladder, clearing snow from a sloped roof. Suddenly, the snow gives way, causing both the man and the ladder to slide down into a snowbank below. The scene takes place outside a house during a snowy day.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.20038740685368284,
+  "description_gain": -0.21432209918925038,
+  "alignment_cosine": 0.9840620116192864,
+  "P_AV_shape": [
+    6,
+    20484
+  ],
+  "P_A_shape": [
+    6,
+    20484
+  ],
+  "P_AD_shape": [
+    18,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "A0e7Z55s8pE_000008_000018",
+  "category": "How-to & Instructional",
+  "yt_id": "A0e7Z55s8pE",
+  "start_s": 8.0,
+  "end_s": 18.0
+}

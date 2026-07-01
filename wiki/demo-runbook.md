@@ -1,14 +1,14 @@
 # SceneTwin Presenter Runbook
 
-Use the cached path for the main demo. Keep Live Audit as the optional proof that the same pipeline can run on a fresh YouTube URL.
+Use the cached/static path for the main demo. Keep Live Audit as an optional stress test only.
 
-## 0. Start The Demo
+## 0. Local-only start
 
 From the repo root:
 
 ```bash
-.venv39/bin/python -m uvicorn api.server:app --host 127.0.0.1 --port 8000
-python3 -m http.server 5174
+python cursor/export_static_api.py
+python -m http.server 5174
 ```
 
 Open:
@@ -17,12 +17,7 @@ Open:
 http://localhost:5174/web/
 ```
 
-Quick health checks:
-
-```bash
-curl -s http://127.0.0.1:8000/health
-curl -s http://127.0.0.1:8000/api/cached-clips
-```
+This path uses cached JSON and local chart/frame assets only. It does not need API keys, paid APIs, YouTube download, browser cookies, Colab/GPU, or human-subject collection.
 
 ## 1. Overview
 
@@ -31,10 +26,10 @@ Open `Overview`.
 Say:
 
 ```text
-SceneTwin audits audio description by checking whether the AD preserves the visual information needed to understand a clip. It combines visual grounding, question answering, and a TRIBE-backed accessibility risk signal.
+SceneTwin audits audio description by checking whether the AD preserves the visual information needed to understand a clip. The stable demo is cached: CLIP grounding, frame-grounded ADQA, and TRIBE-backed review triage are already computed.
 ```
 
-Keep this short. The goal is to orient the room before showing clips.
+Use the `Open cached clips` button. Do not start with Live Audit.
 
 ## 2. Cached Clips
 
@@ -49,7 +44,8 @@ Click the first two or three clips and show:
 - `VATEX short`
 - `VATEX long`
 - ADQA question grades
-- CLIP top matches
+- CLIP scores
+- QC/review gate if present
 
 Suggested line:
 
@@ -63,7 +59,17 @@ Backup if a browser video does not play:
 Some cached clips are stored as MKV, so the frame preview is the reliable artifact. The scoring was computed from these sampled visual frames and the AD candidates.
 ```
 
-## 3. TRIBE Risk
+## 3. Benchmark
+
+Open `Benchmark`.
+
+Show the poster-ready charts and keep the claim narrow:
+
+```text
+The core score is CLIP plus frame-grounded ADQA. TRIBE is not the final ranker; it is a cached risk/triage signal.
+```
+
+## 4. TRIBE Risk
 
 Open `TRIBE risk`.
 
@@ -80,16 +86,16 @@ Show:
 Suggested line:
 
 ```text
-TRIBE is not the final caption grader. It is the triage signal: it tells us where visual information is neurologically important enough that an AD miss is more expensive.
+TRIBE is not the final caption grader. It tells us where visual information is important enough that an AD miss is more expensive, so those clips deserve review first.
 ```
 
-Keep the claim precise:
+Precise claim:
 
 ```text
-The pilot result is that TRIBE risk ranked both known ADQA failure cases at the top of the 18-clip benchmark.
+In the cached 18-clip benchmark, the TRIBE risk queue ranked both known ADQA full-order failure clips at the top.
 ```
 
-## 4. Compare
+## 5. Compare
 
 Open `Compare`.
 
@@ -107,7 +113,26 @@ Point to the three-part distinction:
 - ADQA checks whether the AD answers scene-specific questions.
 - TRIBE risk prioritizes where missing visual information matters most.
 
-## 5. Optional Live Audit
+## 6. Optional API backend
+
+Only start the backend if you want live endpoints or want to prove the static JSON matches API payloads.
+
+```bash
+python -m venv .venv
+.venv/Scripts/python -m pip install -r requirements.txt
+.venv/Scripts/python -m uvicorn api.server:app --host 127.0.0.1 --port 8000
+```
+
+Quick health checks:
+
+```bash
+curl -s http://127.0.0.1:8000/health
+curl -s http://127.0.0.1:8000/api/cached-clips
+curl -s http://127.0.0.1:8000/api/tribe-risk
+curl -s http://127.0.0.1:8000/api/qc-gate
+```
+
+## 7. Optional Live Audit
 
 Only use `Live audit` if there is time and the network/API path is behaving.
 
@@ -122,21 +147,29 @@ Do not click a preset and expect it to run automatically. Preset click selects a
 Suggested framing:
 
 ```text
-The cached benchmark is the stable result. Live Audit shows the same stack running on a new YouTube clip, but YouTube download and model APIs make this less deterministic during a live presentation.
+The cached benchmark is the stable result. Live Audit shows the same stack running on a new YouTube clip, but YouTube download, model weights, and model APIs make it less deterministic during a live presentation.
 ```
 
-## 6. If Something Breaks
+For a no-key live attempt, paste a candidate AD. Leaving Candidate AD blank asks the backend to call a model API.
 
-If the API is down:
+## 8. If Something Breaks
+
+If static data is stale or missing:
 
 ```bash
-.venv39/bin/python -m uvicorn api.server:app --host 127.0.0.1 --port 8000
+python cursor/export_static_api.py
 ```
 
 If the frontend is down:
 
 ```bash
-python3 -m http.server 5174
+python -m http.server 5174
+```
+
+If the API is down:
+
+```bash
+.venv/Scripts/python -m uvicorn api.server:app --host 127.0.0.1 --port 8000
 ```
 
 If Live Audit fails:
@@ -151,7 +184,7 @@ If TRIBE images do not load:
 Use Cached clips and Compare. The TRIBE tab is a visual explanation layer, not required for the core ADQA/CLIP demo.
 ```
 
-## 7. Closing
+## 9. Closing
 
 End with:
 

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_BHxn3qfPAl4_000018_000028",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/BHxn3qfPAl4_000018_000028.mp4",
+  "ad_text_used": "A woman lies on a massage table, her eyes closed, as a massage therapist gently stretches and massages her neck. The therapist uses their arm to carefully tilt her head to the side, providing a relaxing experience.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.24304902467431522,
+  "description_gain": -0.44231971182387236,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    18,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "BHxn3qfPAl4_000018_000028",
+  "category": "Health & Wellness",
+  "yt_id": "BHxn3qfPAl4",
+  "start_s": 18.0,
+  "end_s": 28.0
+}

@@ -1,0 +1,15 @@
+clip_idx,target_q_idx,target_type,tribe_need,target_question,hallucination_risk
+0,2,spatial_relation,0.5147801711429377,What is visible on the wooden board or surface shown in the later frames?,wrong location/position/direction
+1,0,action_relation,0.850572211723672,What is the man in the gray hoodie doing with his hands in the opening seconds?,wrong action/event
+4,0,action_relation,0.5703806972135831,What is the child holding and doing with it at the kitchen counter?,wrong object or tool used in the action
+6,0,spatial_relation,0.7612562725764201,"What vehicles are visible on the snowy surface, and what are they doing?",wrong action/event
+7,0,action_relation,0.939134955406189,"What is the person doing in the snow, and what equipment are they using?",wrong object or tool used in the action
+9,0,spatial_relation,0.7643380457852659,What sport or activity is the person performing on the snow-covered surface?,wrong action/event
+11,2,action_relation,0.5907285764954471,What is the person attempting to do with the high jump bar?,wrong action/event
+12,2,count,0.8593496250851108,How many players are visible on the court at the moment shown in these frames?,wrong number/count
+13,1,spatial_relation,0.6316933209115256,Describe the main player's position and movement during the opening seconds.,wrong location/position/direction
+14,2,action_relation,0.5349318782000374,What happens to the curler between the first and final frames shown?,wrong action/event
+15,2,spatial_relation,0.633079272327266,What is the person doing with the wooden fence as they move along the path?,wrong action/event
+17,2,action_relation,0.9884878385277255,What happens to the person in the red hat during the sequence?,wrong action/event
+18,3,who_role,0.79355584785525,What is the person wearing on their upper body?,wrong person/role
+19,0,action_relation,0.5760032161779703,"What animals are visible on the wooden floor, and what are they doing?",wrong action/event

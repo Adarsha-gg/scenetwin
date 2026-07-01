@@ -1,0 +1,7 @@
+{
+  "metadata_path": "/content/ncr_external_metadata.json",
+  "out_dir": "/content/tribe_ncr",
+  "limit": null,
+  "min_refs": 2,
+  "video_height": 360
+}

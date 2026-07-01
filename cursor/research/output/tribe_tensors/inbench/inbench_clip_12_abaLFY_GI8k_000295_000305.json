@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_12_abaLFY_GI8k_000295_000305",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_12.mp4",
+  "ad_text_used": "A group of boys is playing volleyball on an outdoor dirt court. The net is slightly broken, and the setting is casual. One boy serves the ball, and another jumps to spike it over the net. The players are wearing shorts and are engaged in the game, communicating in a foreign language. The scene is lively, with the boys moving energetically across the court.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.2719454709480146,
+  "description_gain": -0.07203530430871374,
+  "alignment_cosine": 0.9970966668619787,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    28,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 12,
+  "video_id": "abaLFY_GI8k_000295_000305",
+  "category": "Sports",
+  "duration_s": 23.84,
+  "all4_fail": 1,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 1
+}

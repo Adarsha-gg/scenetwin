@@ -1,0 +1,101 @@
+{
+  "n_clips": 338,
+  "n_texts": 3718,
+  "pro_vs_avg_caption_axis_wins": 314,
+  "pro_vs_avg_caption_axis_losses": 18,
+  "pro_vs_avg_caption_axis_ties": 6,
+  "pro_vs_avg_caption_axis_sign_p": 5.687526796247494e-71,
+  "pro_at_least_max_caption_axes": 269,
+  "mean_pro_scene_axes": 3.026627218934911,
+  "mean_avg_caption_scene_axes": 1.9257396449704143,
+  "median_axis_delta": 1.2,
+  "mean_axis_delta": 1.100887573964497,
+  "mean_density_delta": -5.784714518115828,
+  "median_density_delta": -5.6250383628671905,
+  "pro_all_four_axes": 85,
+  "avg_caption_all_four_axes_equiv": 0,
+  "axis_presence": {
+    "who_role": {
+      "pro_rate": 0.9349112426035503,
+      "caption_any_rate": 1,
+      "caption_avg_rate": 0.8414201183431953
+    },
+    "action_relation": {
+      "pro_rate": 0.9260355029585798,
+      "caption_any_rate": 0.9792899408284024,
+      "caption_avg_rate": 0.5792899408284023
+    },
+    "spatial_relation": {
+      "pro_rate": 0.8076923076923077,
+      "caption_any_rate": 0.8905325443786982,
+      "caption_avg_rate": 0.292603550295858
+    },
+    "count": {
+      "pro_rate": 0.35798816568047337,
+      "caption_any_rate": 0.5680473372781065,
+      "caption_avg_rate": 0.21242603550295858
+    }
+  },
+  "by_category": {
+    "Entertainment": {
+      "n": 50,
+      "mean_axis_delta": 0.988,
+      "wins": 48,
+      "losses": 1
+    },
+    "Event": {
+      "n": 16,
+      "mean_axis_delta": 1.2625,
+      "wins": 16,
+      "losses": 0
+    },
+    "Film & Animation": {
+      "n": 5,
+      "mean_axis_delta": 0.88,
+      "wins": 5,
+      "losses": 0
+    },
+    "Food & Cooking": {
+      "n": 22,
+      "mean_axis_delta": 1.2181818181818183,
+      "wins": 21,
+      "losses": 1
+    },
+    "Health & Wellness": {
+      "n": 30,
+      "mean_axis_delta": 1.1766666666666665,
+      "wins": 29,
+      "losses": 0
+    },
+    "How-to & Instructional": {
+      "n": 93,
+      "mean_axis_delta": 1.1494623655913978,
+      "wins": 85,
+      "losses": 6
+    },
+    "Music": {
+      "n": 18,
+      "mean_axis_delta": 0.8722222222222222,
+      "wins": 15,
+      "losses": 3
+    },
+    "People & Vlogs": {
+      "n": 29,
+      "mean_axis_delta": 1.0448275862068965,
+      "wins": 26,
+      "losses": 3
+    },
+    "Pets & Animals": {
+      "n": 19,
+      "mean_axis_delta": 0.8842105263157894,
+      "wins": 16,
+      "losses": 2
+    },
+    "Sports": {
+      "n": 46,
+      "mean_axis_delta": 1.123913043478261,
+      "wins": 43,
+      "losses": 2
+    }
+  }
+}

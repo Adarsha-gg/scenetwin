@@ -1,0 +1,34 @@
+{
+  "n_hallucination_clips": 23,
+  "n_scene_model_probes": 76,
+  "clip_gate_by_slice": {
+    "object_scene": {
+      "clips": 18,
+      "caught": 16,
+      "catch_rate": 0.8888888888888888,
+      "probes": 54
+    },
+    "scene_model": {
+      "clips": 5,
+      "caught": 2,
+      "catch_rate": 0.4,
+      "probes": 22
+    }
+  },
+  "probe_types": {
+    "action_relation": 52,
+    "who_role": 10,
+    "count": 13,
+    "spatial_relation": 1
+  },
+  "adqa_questions_total": 684,
+  "adqa_scene_model_question_rate": 0.5102339181286549,
+  "adqa_question_types": {
+    "action_relation": 111,
+    "other": 152,
+    "who_role": 102,
+    "object_attr": 183,
+    "spatial_relation": 95,
+    "count": 41
+  }
+}

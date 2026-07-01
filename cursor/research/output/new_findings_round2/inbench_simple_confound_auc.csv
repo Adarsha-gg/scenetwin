@@ -1,0 +1,10 @@
+feature,auc_high_bad,auc_low_bad
+mean_standard_slot_score,1.0,0.0
+mean_speech_density,0.0625,0.9375
+duration_s,0.71875,0.28125
+need_entropy,0.5,0.5
+category_eq_Food & Cooking,0.34375,0.65625
+category_eq_Pets & Animals,0.625,0.375
+category_eq_Sports,0.625,0.375
+category_eq_Travel,0.40625,0.59375
+category_sports_or_pets,0.75,0.25

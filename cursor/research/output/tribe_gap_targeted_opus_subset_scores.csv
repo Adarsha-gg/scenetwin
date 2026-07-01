@@ -1,0 +1,157 @@
+video_id,window,condition,dominant_type,second_type,ad_text,profile_alignment,dominant_keyword_coverage,weighted_keyword_coverage,specificity_score,word_count
+0t0DB1B1w8Y_000000_000010,2,baseline,motion_action,object_body,"She clears hurdles, landing on red pad.",0.2782597561475071,0.0,0.704079514212186,0.2857142857142857,7
+0t0DB1B1w8Y_000000_000010,2,gap_targeted,motion_action,object_body,"She clears the hurdle, landing on pad.",0.27798373992756764,0.0,0.49736555370611724,0.14285714285714285,7
+0t0DB1B1w8Y_000000_000010,1,baseline,scene_spatial,face_character,"She clears hurdles, landing on red pad.",0.3452016974873999,0.0,0.043812312940099685,0.2857142857142857,7
+0t0DB1B1w8Y_000000_000010,1,gap_targeted,scene_spatial,face_character,"On an outdoor track, onlookers watch her.",0.25015996950204655,0.0,0.02245050300681789,0.14285714285714285,7
+0t0DB1B1w8Y_000000_000010,0,baseline,scene_spatial,visual_form,"Athlete leaps hurdles, lands on red pad.",0.35140191082730343,0.0,0.011807960625018044,0.14285714285714285,7
+0t0DB1B1w8Y_000000_000010,0,gap_targeted,scene_spatial,visual_form,"Sunny outdoor track, hurdles ahead, spectators watching.",,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,4,baseline,scene_spatial,visual_form,Workers seal bags along the conveyor belt.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,4,gap_targeted,scene_spatial,visual_form,Workers line a conveyor; bags stacked nearby.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,3,baseline,scene_spatial,visual_form,Workers seal bags along busy conveyor belt.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,3,gap_targeted,scene_spatial,visual_form,Workers line a conveyor; bags stacked nearby.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,2,baseline,scene_spatial,face_character,Workers seal bags along a conveyor belt.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,2,gap_targeted,scene_spatial,face_character,"Workers line a conveyor belt, bags stacked nearby.",,0.0,0.0,0.0,8
+1-jIze6gy0g_000026_000036,0,baseline,visual_form,motion_action,Workers seal material bags along conveyor belt.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,0,gap_targeted,visual_form,motion_action,Bulging bags stacked beside a humming conveyor.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,1,baseline,visual_form,scene_spatial,Workers seal bags along the conveyor belt.,,0.0,0.0,0.0,7
+1-jIze6gy0g_000026_000036,1,gap_targeted,visual_form,scene_spatial,Bulging bags line the long conveyor belt.,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,2,baseline,scene_spatial,visual_form,A needle scratches grooves into blue mittens.,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,2,gap_targeted,scene_spatial,visual_form,Tiny blue clay mittens rest on workspace.,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,3,baseline,scene_spatial,visual_form,A needle texturizes tiny blue clay mittens.,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,3,gap_targeted,scene_spatial,visual_form,Tiny blue mittens rest on the workspace.,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,0,baseline,scene_spatial,visual_form,Needle texturizes tiny blue clay mittens.,,0.0,0.0,0.0,6
+N-LZPc27kjM_000229_000239,0,gap_targeted,scene_spatial,visual_form,Tiny blue clay mittens rest on workspace.,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,1,baseline,scene_spatial,visual_form,A needle textures tiny blue clay mittens.,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,1,gap_targeted,scene_spatial,visual_form,Two small blue clay mittens on table,,0.0,0.0,0.0,7
+N-LZPc27kjM_000229_000239,4,baseline,scene_spatial,visual_form,A needle texturizes the small blue clay mittens.,,0.0,0.0,0.0,8
+N-LZPc27kjM_000229_000239,4,gap_targeted,scene_spatial,visual_form,Tiny blue mittens rest on her workspace.,0.04094499483545017,0.0,0.023526847318078414,0.14285714285714285,7
+RjPp0ZPW0yc_000000_000010,0,baseline,scene_spatial,face_character,Worker guides orange saw cutting metal pipe.,,0.0,0.0,0.0,7
+RjPp0ZPW0yc_000000_000010,0,gap_targeted,scene_spatial,face_character,"In a workshop, an orange stationary saw.",,0.0,0.0,0.0,7
+RjPp0ZPW0yc_000000_000010,4,baseline,visual_form,scene_spatial,"Person pulls lever on orange saw, cutting pipe.",,0.0,0.0,0.0,8
+RjPp0ZPW0yc_000000_000010,4,gap_targeted,visual_form,scene_spatial,Orange saw blade descends onto metal pipe.,,0.0,0.0,0.0,7
+RjPp0ZPW0yc_000000_000010,2,baseline,scene_spatial,visual_form,A person guides an orange saw cutting pipe.,,0.0,0.0,0.0,8
+RjPp0ZPW0yc_000000_000010,2,gap_targeted,scene_spatial,visual_form,Workshop saw bay; orange machine grips pipe.,,0.0,0.0,0.0,7
+RjPp0ZPW0yc_000000_000010,3,baseline,visual_form,scene_spatial,Worker pulls orange saw's lever down.,,0.0,0.0,0.0,6
+RjPp0ZPW0yc_000000_000010,3,gap_targeted,visual_form,scene_spatial,Orange saw clamps a metal pipe steady.,,0.0,0.0,0.0,7
+RjPp0ZPW0yc_000000_000010,1,baseline,scene_spatial,visual_form,Orange stationary saw cuts through metal pipe.,,0.0,0.0,0.0,7
+RjPp0ZPW0yc_000000_000010,1,gap_targeted,scene_spatial,visual_form,"In a workshop, an orange stationary saw.",,0.0,0.0,0.0,7
+RjPp0ZPW0yc_000000_000010,5,baseline,object_body,visual_form,Orange saw cuts pipe,,0.0,0.0,0.0,4
+RjPp0ZPW0yc_000000_000010,5,gap_targeted,object_body,visual_form,Hands grip saw lever,,0.0,0.0,0.0,4
+RlfVK8z5wJ0_000000_000010,4,baseline,scene_spatial,visual_form,"She kneels, lifting a device from ice.",0.04912338855986395,0.0,0.07251243498454041,0.14285714285714285,7
+RlfVK8z5wJ0_000000_000010,4,gap_targeted,scene_spatial,visual_form,"On the frozen lake, a yellow marker.",,0.0,0.0,0.0,7
+RlfVK8z5wJ0_000000_000010,3,baseline,scene_spatial,visual_form,"She kneels, lifting a device from ice.",0.10244208299609077,0.0,0.066443765063809,0.14285714285714285,7
+RlfVK8z5wJ0_000000_000010,3,gap_targeted,scene_spatial,visual_form,"Across the frozen lake, a yellow marker.",,0.0,0.0,0.0,7
+RlfVK8z5wJ0_000000_000010,0,baseline,visual_form,scene_spatial,Woman kneels at frozen lake's ice hole.,,0.0,0.0,0.0,7
+RlfVK8z5wJ0_000000_000010,0,gap_targeted,visual_form,scene_spatial,"Pink jacket, gray overalls beside yellow marker.",0.9844287950229498,1.5,0.8102885341483722,0.14285714285714285,7
+RlfVK8z5wJ0_000000_000010,2,baseline,visual_form,scene_spatial,"She kneels, lifting a device from ice.",0.1729894968709761,0.0,0.06556399452760053,0.14285714285714285,7
+RlfVK8z5wJ0_000000_000010,2,gap_targeted,visual_form,scene_spatial,"Pink jacket, gray overalls, yellow marker ahead.",0.831071164474316,1.5,0.3149806564284113,0.14285714285714285,7
+RlfVK8z5wJ0_000000_000010,1,baseline,visual_form,scene_spatial,"She kneels, lifting a device from ice.",0.14671780947670796,0.0,0.05582603072559156,0.14285714285714285,7
+RlfVK8z5wJ0_000000_000010,1,gap_targeted,visual_form,scene_spatial,"Pink jacket, gray overalls; yellow marker ahead.",0.9600186663370772,1.5,0.3652864758220329,0.14285714285714285,7
+ZcYB6tPK2Eo_000138_000148,0,baseline,scene_spatial,visual_form,Hands turn a brightly colored Rubik's cube.,,0.0,0.0,0.0,7
+ZcYB6tPK2Eo_000138_000148,0,gap_targeted,scene_spatial,visual_form,"Hands hold a vibrant cube, fingers turning blocks.",,0.0,0.0,0.0,8
+ZcYB6tPK2Eo_000138_000148,4,baseline,visual_form,scene_spatial,Hands swiftly turn a colorful Rubik's cube.,,0.0,0.0,0.0,7
+ZcYB6tPK2Eo_000138_000148,4,gap_targeted,visual_form,scene_spatial,"Bright orange, green, pink, blue cube turns",,0.0,0.0,0.0,7
+ZcYB6tPK2Eo_000138_000148,3,baseline,visual_form,scene_spatial,Hands swiftly turn a colorful Rubik's cube.,,0.0,0.0,0.0,7
+ZcYB6tPK2Eo_000138_000148,3,gap_targeted,visual_form,scene_spatial,"Bright cube: orange, green, pink, blue squares.",,0.0,0.0,0.0,7
+ZcYB6tPK2Eo_000138_000148,2,baseline,scene_spatial,visual_form,Hands twist a brightly colored Rubik's cube.,,0.0,0.0,0.0,7
+ZcYB6tPK2Eo_000138_000148,2,gap_targeted,scene_spatial,visual_form,"Hands grip a vivid orange-green cube, turning.",,0.0,0.0,0.0,7
+ZcYB6tPK2Eo_000138_000148,1,baseline,scene_spatial,visual_form,"Hands turn a colorful cube, pointing carefully.",,0.0,0.0,0.0,7
+ZcYB6tPK2Eo_000138_000148,1,gap_targeted,scene_spatial,visual_form,Hands turn a vivid multicolored cube close.,,0.0,0.0,0.0,7
+c_gQ9CSaZY4_000000_000010,4,baseline,scene_spatial,visual_form,"Kneeling, they pack folded clothes into bag.",,0.0,0.0,0.0,7
+c_gQ9CSaZY4_000000_000010,4,gap_targeted,scene_spatial,visual_form,"Clothes piled on wooden floor, green bag.",0.9259723423296411,1.5,1.3690400984786888,0.14285714285714285,7
+c_gQ9CSaZY4_000000_000010,0,baseline,scene_spatial,face_character,Capped person packs folded clothes into bag.,,0.0,0.0,0.0,7
+c_gQ9CSaZY4_000000_000010,0,gap_targeted,scene_spatial,face_character,Clothes piled on wooden floor; green bag.,0.6335523513889724,1.5,0.20028853608457414,0.14285714285714285,7
+c_gQ9CSaZY4_000000_000010,1,baseline,scene_spatial,motion_action,Capped person packs folded clothes into bag.,,0.0,0.0,0.0,7
+c_gQ9CSaZY4_000000_000010,1,gap_targeted,scene_spatial,motion_action,Clothes piled on wooden floor beside bag.,0.8122316999187282,1.5,0.3876752282390601,0.14285714285714285,7
+c_gQ9CSaZY4_000000_000010,2,baseline,scene_spatial,motion_action,"Kneeling, they pack clothes into green bag.",,0.0,0.0,0.0,7
+c_gQ9CSaZY4_000000_000010,2,gap_targeted,scene_spatial,motion_action,Clothes piled on wooden floor beside bag.,0.9524572706898153,1.5,0.7568506100570814,0.14285714285714285,7
+c_gQ9CSaZY4_000000_000010,3,baseline,scene_spatial,visual_form,"Kneeling, they pack folded clothes into bag.",,0.0,0.0,0.0,7
+c_gQ9CSaZY4_000000_000010,3,gap_targeted,scene_spatial,visual_form,Clothes piled on wooden floor; green bag.,0.9791782264915166,1.5,0.9355330753268176,0.14285714285714285,7
+c_gQ9CSaZY4_000000_000010,5,baseline,scene_spatial,motion_action,"Kneeling, packing clothes neatly",,0.0,0.0,0.0,4
+c_gQ9CSaZY4_000000_000010,5,gap_targeted,scene_spatial,motion_action,"Clothes piled, bag waiting",,0.0,0.0,0.0,4
+d7_SY48r__8_000060_000070,4,baseline,face_character,motion_action,A person shears a calm sheep's wool.,,0.0,0.0,0.0,7
+d7_SY48r__8_000060_000070,4,gap_targeted,face_character,motion_action,"Focused, the person guides clippers across wool.",,0.0,0.0,0.0,7
+d7_SY48r__8_000060_000070,3,baseline,scene_spatial,motion_action,A person shears a calmly lying sheep.,,0.0,0.0,0.0,7
+d7_SY48r__8_000060_000070,3,gap_targeted,scene_spatial,motion_action,"Indoors, sheep on floor; person shears wool.",,0.0,0.0,0.0,7
+d7_SY48r__8_000060_000070,1,baseline,scene_spatial,motion_action,A person shears a calmly lying sheep.,,0.0,0.0,0.0,7
+d7_SY48r__8_000060_000070,1,gap_targeted,scene_spatial,motion_action,"On the floor, a sheep lies still.",,0.0,0.0,0.0,7
+d7_SY48r__8_000060_000070,0,baseline,scene_spatial,motion_action,A person shears a calmly lying sheep.,,0.0,0.0,0.0,7
+d7_SY48r__8_000060_000070,0,gap_targeted,scene_spatial,motion_action,"Indoors, a sheep lies on the floor.",,0.0,0.0,0.0,7
+d7_SY48r__8_000060_000070,2,baseline,scene_spatial,motion_action,A person shears a calmly lying sheep.,,0.0,0.0,0.0,7
+d7_SY48r__8_000060_000070,2,gap_targeted,scene_spatial,motion_action,"In a room, sheep lies on floor.",,0.0,0.0,0.0,7
+h8wsO9A9v_c_000016_000026,0,baseline,scene_spatial,visual_form,Boy pedals orange training-wheel bike in circles.,,0.0,0.0,0.0,7
+h8wsO9A9v_c_000016_000026,0,gap_targeted,scene_spatial,visual_form,Sunlit paved lot; orange training-wheel bike circles.,,0.0,0.0,0.0,7
+h8wsO9A9v_c_000016_000026,4,baseline,scene_spatial,visual_form,A boy pedals an orange training-wheel bike.,,0.0,0.0,0.0,7
+h8wsO9A9v_c_000016_000026,4,gap_targeted,scene_spatial,visual_form,Boy circles sunlit pavement on orange bike.,,0.0,0.0,0.0,7
+h8wsO9A9v_c_000016_000026,1,baseline,scene_spatial,motion_action,Boy pedals orange training-wheel bike in circles.,,0.0,0.0,0.0,7
+h8wsO9A9v_c_000016_000026,1,gap_targeted,scene_spatial,motion_action,Sunlit paved lot; boy circles on orange bike.,,0.0,0.0,0.0,8
+h8wsO9A9v_c_000016_000026,2,baseline,scene_spatial,motion_action,A boy pedals his orange bike in circles.,0.27728220617956695,0.0,0.026421717338704465,0.125,8
+h8wsO9A9v_c_000016_000026,2,gap_targeted,scene_spatial,motion_action,"On sunny pavement, boy circles his orange bike.",0.27728220617956695,0.0,0.026421717338704465,0.125,8
+h8wsO9A9v_c_000016_000026,3,baseline,scene_spatial,visual_form,A boy pedals an orange training-wheels bike.,,0.0,0.0,0.0,7
+h8wsO9A9v_c_000016_000026,3,gap_targeted,scene_spatial,visual_form,Sunlit paved lot; orange bike circles around.,0.37356678065133797,1.5,0.06102935339905585,0.14285714285714285,7
+h8wsO9A9v_c_000016_000026,5,baseline,object_body,motion_action,Boy pedals orange bike,,0.0,0.0,0.0,4
+h8wsO9A9v_c_000016_000026,5,gap_targeted,object_body,motion_action,"Orange bike, training wheels",,0.0,0.0,0.0,4
+iGmGQxox43I_000000_000010,0,baseline,scene_spatial,motion_action,Woman in orange grooms horse's face mitt.,,0.0,0.0,0.0,7
+iGmGQxox43I_000000_000010,0,gap_targeted,scene_spatial,motion_action,"Beside a horse, she brushes its face.",0.3425204783177733,0.0,0.4793618924299488,0.14285714285714285,7
+iGmGQxox43I_000000_000010,3,baseline,visual_form,scene_spatial,A woman gently brushes the horse's face.,,0.0,0.0,0.0,7
+iGmGQxox43I_000000_000010,3,gap_targeted,visual_form,scene_spatial,"Orange-topped woman brushes horse's face, toothed mitt.",,0.0,0.0,0.0,7
+iGmGQxox43I_000000_000010,1,baseline,face_character,scene_spatial,A woman grooms a calm horse's face.,,0.0,0.0,0.0,7
+iGmGQxox43I_000000_000010,1,gap_targeted,face_character,scene_spatial,Focused woman grooms calm horse's face mitt.,,0.0,0.0,0.0,7
+iGmGQxox43I_000000_000010,2,baseline,visual_form,face_character,She gently brushes the calm horse's face.,0.4372850642868771,0.0,0.06374179112966333,0.14285714285714285,7
+iGmGQxox43I_000000_000010,2,gap_targeted,visual_form,face_character,Orange-topped woman grooms horse's face with mitt.,,0.0,0.0,0.0,7
+iGmGQxox43I_000000_000010,4,baseline,scene_spatial,visual_form,She brushes the calm horse's face gently.,0.18106627881258744,0.0,0.03770494832567939,0.14285714285714285,7
+iGmGQxox43I_000000_000010,4,gap_targeted,scene_spatial,visual_form,"She stands beside the horse, orange top.",0.18106627881258744,0.0,0.03770494832567939,0.14285714285714285,7
+iGmGQxox43I_000000_000010,5,baseline,scene_spatial,visual_form,She brushes horse's face.,0.05832896326798283,0.0,0.034784274006118054,0.25,4
+iGmGQxox43I_000000_000010,5,gap_targeted,scene_spatial,visual_form,She stands beside horse,0.05832896326798283,0.0,0.034784274006118054,0.25,4
+j4CKRgv3jUg_000000_000010,0,baseline,visual_form,scene_spatial,A backpacked teen crosses toward waiting friends.,,0.0,0.0,0.0,7
+j4CKRgv3jUg_000000_000010,0,gap_targeted,visual_form,scene_spatial,Backpacked teen crosses wet street toward friends.,,0.0,0.0,0.0,7
+j4CKRgv3jUg_000000_000010,1,baseline,scene_spatial,visual_form,A backpacked teen crosses toward waiting friends.,,0.0,0.0,0.0,7
+j4CKRgv3jUg_000000_000010,1,gap_targeted,scene_spatial,visual_form,"Teens cluster at a bus stop, wet street.",,0.0,0.0,0.0,8
+j4CKRgv3jUg_000000_000010,4,baseline,scene_spatial,visual_form,Backpacked teen crosses wet street toward friends.,,0.0,0.0,0.0,7
+j4CKRgv3jUg_000000_000010,4,gap_targeted,scene_spatial,visual_form,He crosses the wet street toward friends.,0.07394862430071433,0.0,0.10387332089328871,0.14285714285714285,7
+j4CKRgv3jUg_000000_000010,3,baseline,scene_spatial,visual_form,A backpacked teen crosses toward waiting friends.,,0.0,0.0,0.0,7
+j4CKRgv3jUg_000000_000010,3,gap_targeted,scene_spatial,visual_form,A wet street fronts a crowded bus stop.,,0.0,0.0,0.0,8
+j4CKRgv3jUg_000000_000010,2,baseline,scene_spatial,visual_form,A backpacked youth crosses toward waiting teens.,,0.0,0.0,0.0,7
+j4CKRgv3jUg_000000_000010,2,gap_targeted,scene_spatial,visual_form,"Across the wet street, teens cluster waiting.",,0.0,0.0,0.0,7
+j6CgiNeWQwM_000842_000852,4,baseline,scene_spatial,visual_form,Chef scrapes batter into a cake pan.,0.03709106915092265,0.0,0.06955291426978966,0.14285714285714285,7
+j6CgiNeWQwM_000842_000852,4,gap_targeted,scene_spatial,visual_form,"In the kitchen, batter fills round pan.",0.5920365138297685,1.5,1.1101827430057436,0.14285714285714285,7
+j6CgiNeWQwM_000842_000852,0,baseline,scene_spatial,face_character,A chef spatulas cake batter into pan.,0.3263832868968454,0.0,0.2162797130638237,0.14285714285714285,7
+j6CgiNeWQwM_000842_000852,0,gap_targeted,scene_spatial,face_character,"In a kitchen, chef pans cake batter.",0.8749641674265639,1.5,0.8199608905685005,0.2857142857142857,7
+j6CgiNeWQwM_000842_000852,1,baseline,scene_spatial,visual_form,Chef scrapes batter into pan from bowl.,0.08154557448018021,0.0,0.08137416553569837,0.14285714285714285,7
+j6CgiNeWQwM_000842_000852,1,gap_targeted,scene_spatial,visual_form,"In a kitchen, two work at counter.",0.9822713135895356,1.5,0.980206577518566,0.14285714285714285,7
+j6CgiNeWQwM_000842_000852,2,baseline,scene_spatial,visual_form,Chef scrapes batter from bowl into pan.,0.04746309324125846,0.0,0.05584653860684324,0.14285714285714285,7
+j6CgiNeWQwM_000842_000852,2,gap_targeted,scene_spatial,visual_form,"In a kitchen, chef pans round cake.",0.7270555154919368,1.5,1.209825664992501,0.2857142857142857,7
+j6CgiNeWQwM_000842_000852,3,baseline,scene_spatial,motion_action,Chef scrapes batter from bowl into pan.,0.031014780962051586,0.0,0.02983681395143767,0.14285714285714285,7
+j6CgiNeWQwM_000842_000852,3,gap_targeted,scene_spatial,motion_action,"In a kitchen, two stand at counter.",0.6304204955152151,1.5,0.6064766041351521,0.14285714285714285,7
+rGQ64NXktF8_000006_000016,4,baseline,scene_spatial,motion_action,Two boys swat each other with bottle.,,0.0,0.0,0.0,7
+rGQ64NXktF8_000006_000016,4,gap_targeted,scene_spatial,motion_action,"Two boys sit facing each other, bicycle nearby.",,0.0,0.0,0.0,8
+rGQ64NXktF8_000006_000016,3,baseline,scene_spatial,visual_form,Two boys swap bottle taps on heads.,,0.0,0.0,0.0,7
+rGQ64NXktF8_000006_000016,3,gap_targeted,scene_spatial,visual_form,"Two boys face off on floor, bicycle behind.",,0.0,0.0,0.0,8
+rGQ64NXktF8_000006_000016,2,baseline,scene_spatial,visual_form,Two boys playfully tap heads with bottle.,,0.0,0.0,0.0,7
+rGQ64NXktF8_000006_000016,2,gap_targeted,scene_spatial,visual_form,"Two boys face off on floor, bicycle nearby.",,0.0,0.0,0.0,8
+rGQ64NXktF8_000006_000016,0,baseline,scene_spatial,visual_form,Two boys swat each other with bottle.,,0.0,0.0,0.0,7
+rGQ64NXktF8_000006_000016,0,gap_targeted,scene_spatial,visual_form,"Two boys face off, bicycle behind them.",,0.0,0.0,0.0,7
+rGQ64NXktF8_000006_000016,1,baseline,scene_spatial,visual_form,Two boys swat each other with bottles.,,0.0,0.0,0.0,7
+rGQ64NXktF8_000006_000016,1,gap_targeted,scene_spatial,visual_form,"Two boys sit facing each other, bicycle nearby.",,0.0,0.0,0.0,8
+v2Hr1CH-yb0_000076_000086,4,baseline,motion_action,face_character,Masked workers fill bags in vast warehouse.,,0.0,0.0,0.0,7
+v2Hr1CH-yb0_000076_000086,4,gap_targeted,motion_action,face_character,"Masked workers fill bags; woman passes, laughing.",0.4646355003207621,1.5,2.4409837454385337,0.14285714285714285,7
+v2Hr1CH-yb0_000076_000086,0,baseline,scene_spatial,visual_form,Masked workers fill bags in spacious warehouse.,,0.0,0.0,0.0,7
+v2Hr1CH-yb0_000076_000086,0,gap_targeted,scene_spatial,visual_form,"Spacious warehouse, conveyor belts lining workers filling bags.",,0.0,0.0,0.0,8
+v2Hr1CH-yb0_000076_000086,1,baseline,scene_spatial,face_character,Masked workers fill bags in spacious warehouse.,,0.0,0.0,0.0,7
+v2Hr1CH-yb0_000076_000086,1,gap_targeted,scene_spatial,face_character,"Spacious warehouse, conveyor belts line bagging machinery.",,0.0,0.0,0.0,7
+v2Hr1CH-yb0_000076_000086,3,baseline,scene_spatial,face_character,Masked workers fill bags in spacious warehouse.,,0.0,0.0,0.0,7
+v2Hr1CH-yb0_000076_000086,3,gap_targeted,scene_spatial,face_character,"Spacious warehouse, conveyor belts; masked workers fill bags.",,0.0,0.0,0.0,8
+v2Hr1CH-yb0_000076_000086,2,baseline,scene_spatial,face_character,Masked workers fill bags in spacious warehouse.,,0.0,0.0,0.0,7
+v2Hr1CH-yb0_000076_000086,2,gap_targeted,scene_spatial,face_character,Conveyor belts line the spacious warehouse interior.,,0.0,0.0,0.0,7
+xW6hpK-DBMY_000080_000090,5,baseline,face_character,visual_form,He sharpens a knife.,0.33918587177412324,1.5,0.3761326621003644,0.5,4
+xW6hpK-DBMY_000080_000090,5,gap_targeted,face_character,visual_form,"He demonstrates, eyes focused",0.37298987154561086,1.5,0.41361885914384566,0.5,4
+xW6hpK-DBMY_000080_000090,3,baseline,visual_form,face_character,A man sharpens a knife with rod.,0.3575145368388153,0.0,0.10532943654403254,0.2857142857142857,7
+xW6hpK-DBMY_000080_000090,3,gap_targeted,visual_form,face_character,"Long steel rod, broad blade angled against.",,0.0,0.0,0.0,7
+xW6hpK-DBMY_000080_000090,4,baseline,face_character,visual_form,A man demonstrates sharpening a knife.,0.34693992671355833,1.5,0.15213884105924064,0.5,6
+xW6hpK-DBMY_000080_000090,4,gap_targeted,face_character,visual_form,He faces us; tattooed figure watches behind.,0.48785967320320506,1.5,0.12351511708273166,0.14285714285714285,7
+xW6hpK-DBMY_000080_000090,2,baseline,visual_form,face_character,A man sharpens a knife on rod.,0.4699761910564788,0.0,0.1287433604157429,0.2857142857142857,7
+xW6hpK-DBMY_000080_000090,2,gap_targeted,visual_form,face_character,Long steel rod glides against gleaming blade.,,0.0,0.0,0.0,7
+xW6hpK-DBMY_000080_000090,1,baseline,object_body,face_character,A man slides a knife along sharpening rod.,0.8152214193577526,1.5,0.39852863967765034,0.25,8
+xW6hpK-DBMY_000080_000090,1,gap_targeted,object_body,face_character,"He glides knife along rod, focused intently.",0.8152214193577526,1.5,0.39852863967765034,0.2857142857142857,7
+xW6hpK-DBMY_000080_000090,0,baseline,motion_action,object_body,A man sharpens a knife on rod.,0.6216241825644785,0.0,0.886191278471723,0.2857142857142857,7
+xW6hpK-DBMY_000080_000090,0,gap_targeted,motion_action,object_body,He glides the blade along the rod.,0.3158211194867696,0.0,0.31836531115004424,0.14285714285714285,7

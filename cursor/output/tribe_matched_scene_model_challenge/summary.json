@@ -1,0 +1,21 @@
+{
+  "n_tribe_high_need_scene_model_targets": 14,
+  "by_source": {
+    "generic_claude": {
+      "strict_target_coverage": 4,
+      "loose_target_coverage": 11,
+      "n": 14
+    },
+    "generic_gpt4o": {
+      "strict_target_coverage": 3,
+      "loose_target_coverage": 10,
+      "n": 14
+    }
+  },
+  "target_types": {
+    "spatial_relation": 5,
+    "action_relation": 7,
+    "count": 1,
+    "who_role": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_Z5w-wkrjHuw_000345_000355",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/Z5w-wkrjHuw_000345_000355.mp4",
+  "ad_text_used": "In a lively roller skating rink, groups of people glide smoothly across the wooden floor. They hold hands and skate in synchronized circles, creating a vibrant and energetic atmosphere. The rink is filled with colorful lights and music, enhancing the joyful experience as skaters move in unison around the perimeter.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.08805246984084747,
+  "description_gain": -0.3962320615444055,
+  "alignment_cosine": 0.9999999999983852,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    24,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "Z5w-wkrjHuw_000345_000355",
+  "category": "Entertainment",
+  "yt_id": "Z5w-wkrjHuw",
+  "start_s": 345.0,
+  "end_s": 355.0
+}

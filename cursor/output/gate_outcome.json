@@ -1,0 +1,100 @@
+{
+  "source": "/Users/adarsha/Coding/SceneTwin/cursor/output/external_ensemble_eval.csv",
+  "random_baseline_catch": 0.25,
+  "ensemble": {
+    "n_clips": 60,
+    "catch_rate": 1.0,
+    "false_reject_rate": 0.0,
+    "ship_best_rate": 0.9,
+    "coverage_reliability": [
+      {
+        "coverage": 0.5,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.6,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.7,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.8,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.9,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 1.0,
+        "catch_rate": 1.0
+      }
+    ]
+  },
+  "adqa_only": {
+    "n_clips": 60,
+    "catch_rate": 1.0,
+    "false_reject_rate": 0.0,
+    "ship_best_rate": 0.8833333333333333,
+    "coverage_reliability": [
+      {
+        "coverage": 0.5,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.6,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.7,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.8,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.9,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 1.0,
+        "catch_rate": 1.0
+      }
+    ]
+  },
+  "clip_only": {
+    "n_clips": 60,
+    "catch_rate": 1.0,
+    "false_reject_rate": 0.0,
+    "ship_best_rate": 0.5333333333333333,
+    "coverage_reliability": [
+      {
+        "coverage": 0.5,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.6,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.7,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.8,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 0.9,
+        "catch_rate": 1.0
+      },
+      {
+        "coverage": 1.0,
+        "catch_rate": 1.0
+      }
+    ]
+  }
+}

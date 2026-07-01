@@ -1,0 +1,9 @@
+corpus,video_id,category,tier,gt,visual_fidelity,completeness,informativeness,overall,raw_text
+inbench,abaLFY_GI8k_000295_000305,Sports,tier0_cross,0,0.0,0.0,0.0,0.0,
+inbench,abaLFY_GI8k_000295_000305,Sports,tier1_vatex_short,1,70.0,30.0,30.0,45.0,
+inbench,abaLFY_GI8k_000295_000305,Sports,tier2_vatex_long,2,25.0,20.0,20.0,22.0,
+inbench,abaLFY_GI8k_000295_000305,Sports,tier3_va11y,3,42.0,52.0,48.0,45.0,
+inbench,OGWuj_FtaQc_000010_000020,Pets & Animals,tier0_cross,0,0.0,0.0,0.0,0.0,
+inbench,OGWuj_FtaQc_000010_000020,Pets & Animals,tier1_vatex_short,1,90.0,55.0,65.0,70.0,
+inbench,OGWuj_FtaQc_000010_000020,Pets & Animals,tier2_vatex_long,2,55.0,40.0,45.0,48.0,
+inbench,OGWuj_FtaQc_000010_000020,Pets & Animals,tier3_va11y,3,80.0,68.0,70.0,74.0,

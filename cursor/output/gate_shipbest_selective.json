@@ -1,0 +1,50 @@
+{
+  "source": "/Users/adarsha/Coding/SceneTwin/cursor/output/external_ensemble_eval.csv",
+  "n_clips": 60,
+  "full_coverage_shipbest_adqa": 0.8833333333333333,
+  "full_coverage_shipbest_ensemble": 0.9,
+  "cross_signal_agreement_gate": {
+    "n_agree": 34,
+    "n_disagree": 26,
+    "coverage": 0.5666666666666667,
+    "shipbest_acc_on_agree": 0.8823529411764706,
+    "disagree_clip_correct": 2,
+    "disagree_adqa_correct": 23,
+    "disagree_ensemble_correct": 24
+  },
+  "adqa_margin_risk_coverage": [
+    {
+      "coverage": 1.0,
+      "n_kept": 60,
+      "shipbest_acc": 0.8833333333333333
+    },
+    {
+      "coverage": 0.9,
+      "n_kept": 54,
+      "shipbest_acc": 0.9814814814814815
+    },
+    {
+      "coverage": 0.8,
+      "n_kept": 48,
+      "shipbest_acc": 1.0
+    },
+    {
+      "coverage": 0.7,
+      "n_kept": 42,
+      "shipbest_acc": 1.0
+    },
+    {
+      "coverage": 0.6,
+      "n_kept": 36,
+      "shipbest_acc": 1.0
+    },
+    {
+      "coverage": 0.5,
+      "n_kept": 30,
+      "shipbest_acc": 1.0
+    }
+  ],
+  "adqa_tie_clips": 6,
+  "adqa_tie_errors": 6,
+  "total_errors": 7
+}

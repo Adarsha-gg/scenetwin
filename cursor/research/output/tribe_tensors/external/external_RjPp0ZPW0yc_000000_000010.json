@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_RjPp0ZPW0yc_000000_000010",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/RjPp0ZPW0yc_000000_000010.mp4",
+  "ad_text_used": "In a workshop, a person operates an orange-colored stationary saw. They pull down the lever, activating the machine, which emits a loud grinding sound as it cuts through a metal pipe. The person carefully maneuvers the handle to guide the saw, ensuring a precise cut.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.2282156072672632,
+  "description_gain": -0.4170288343487258,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    21,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "RjPp0ZPW0yc_000000_000010",
+  "category": "How-to & Instructional",
+  "yt_id": "RjPp0ZPW0yc",
+  "start_s": 0.0,
+  "end_s": 10.0
+}

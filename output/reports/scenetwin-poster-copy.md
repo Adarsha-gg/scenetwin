@@ -20,7 +20,7 @@ Drop into Marp / HTML / PPT as-is. Lengths chosen to read comfortably at 36×48.
 > Two complementary signals — visual grounding and frame-grounded comprehension — score whether AD preserves the visual content blind and low-vision viewers can't access.
 
 **Byline:**
-> Adarsha Subedi · West Liberty University · adarsha.zz.work@gmail.com
+> Adarsha Mishra · William Paterson University · adarsha.zz.work@gmail.com
 > NJBDA 13th Annual Symposium, Rowan University · May 20 2026
 
 ---

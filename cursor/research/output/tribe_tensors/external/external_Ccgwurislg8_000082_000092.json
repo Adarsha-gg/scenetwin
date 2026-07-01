@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_Ccgwurislg8_000082_000092",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/Ccgwurislg8_000082_000092.mp4",
+  "ad_text_used": "A person in a tank top and cap is shearing a sheep that is lying on its back on a table. Using electric clippers, they carefully remove the wool, which is then set aside. The setting appears to be outdoors, with the sheep calmly positioned as the shearing continues.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.26079431953837284,
+  "description_gain": -0.29950687525160175,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    21,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "Ccgwurislg8_000082_000092",
+  "category": "How-to & Instructional",
+  "yt_id": "Ccgwurislg8",
+  "start_s": 82.0,
+  "end_s": 92.0
+}

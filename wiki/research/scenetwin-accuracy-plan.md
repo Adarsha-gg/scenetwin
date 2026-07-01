@@ -197,8 +197,8 @@ Keep CLIP in reserve as a robustness check, but the lead metric should be the on
 
 ## See Also
 
-- [[scenetwin]]
-- [[scene twin codex]]
+- [[research/scenetwin]]
+- [[research/scene twin codex]]
 
 ## Sources
 

@@ -1,0 +1,29 @@
+{
+  "clip_key": "inbench_clip_04_B0EKYDSv_yQ_000002_000012",
+  "video_path_local": "/content/scenetwin/workspace/vatex_clips/clip_04.mp4",
+  "ad_text_used": "In a cozy kitchen, a young girl stands at the stove, skillfully stirring scrambled eggs in a frying pan with a spatula. She mentions that the eggs are for her and her mother, if her mother wants some. The girl is focused and seems to enjoy the cooking process, occasionally glancing at the camera with a smile. The kitchen is warm and inviting, with a granite countertop and wooden cabinets in the background.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.2986524298433463,
+  "description_gain": -0.13870976286210657,
+  "alignment_cosine": 0.9932085395363259,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    30,
+    20484
+  ],
+  "corpus": "inbench",
+  "clip_idx": 4,
+  "video_id": "B0EKYDSv_yQ_000002_000012",
+  "category": "Food & Cooking",
+  "duration_s": 19.37,
+  "all4_fail": 0,
+  "low_tier3_margin": 0,
+  "tier2_tier1_inversion": 0
+}

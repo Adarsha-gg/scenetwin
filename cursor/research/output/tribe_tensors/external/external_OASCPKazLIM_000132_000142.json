@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_OASCPKazLIM_000132_000142",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/OASCPKazLIM_000132_000142.mp4",
+  "ad_text_used": "On a wooden table, a person demonstrates how to wrap a book using colorful wrapping paper. The book is placed on a sheet of shiny foil paper. The person carefully folds the paper over the book, ensuring it is neatly covered. The process is shown step-by-step, highlighting the technique for a tidy wrap.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.18390168094751747,
+  "description_gain": -0.1474455029442422,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    24,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "OASCPKazLIM_000132_000142",
+  "category": "How-to & Instructional",
+  "yt_id": "OASCPKazLIM",
+  "start_s": 132.0,
+  "end_s": 142.0
+}

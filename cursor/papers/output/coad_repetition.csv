@@ -1,0 +1,73 @@
+clip_idx,category,tier,gt,n_sentences,repeated_bigram_rate,self_similarity
+12,Sports,tier0_cross,0,3,0.02702702702702703,0.0462962962962963
+12,Sports,tier1_vatex_short,1,1,0.0,0.0
+12,Sports,tier2_vatex_long,2,1,0.0,0.0
+12,Sports,tier3_va11y,3,5,0.01694915254237288,0.015384615384615385
+15,Pets & Animals,tier0_cross,0,3,0.0,0.0
+15,Pets & Animals,tier1_vatex_short,1,1,0.0,0.0
+15,Pets & Animals,tier2_vatex_long,2,1,0.0,0.0
+15,Pets & Animals,tier3_va11y,3,3,0.02,0.018518518518518517
+11,Sports,tier0_cross,0,3,0.02702702702702703,0.0462962962962963
+11,Sports,tier1_vatex_short,1,1,0.0,0.0
+11,Sports,tier2_vatex_long,2,1,0.0,0.0
+11,Sports,tier3_va11y,3,5,0.0625,0.017310924369747897
+4,Food & Cooking,tier0_cross,0,2,0.0,0.04
+4,Food & Cooking,tier1_vatex_short,1,1,0.0,0.0
+4,Food & Cooking,tier2_vatex_long,2,1,0.0,0.0
+4,Food & Cooking,tier3_va11y,3,4,0.07246376811594203,0.04984937090200248
+3,Food & Cooking,tier0_cross,0,2,0.0,0.04
+3,Food & Cooking,tier1_vatex_short,1,1,0.0,0.0
+3,Food & Cooking,tier2_vatex_long,2,1,0.0,0.0
+3,Food & Cooking,tier3_va11y,3,3,0.0196078431372549,0.014492753623188406
+19,Pets & Animals,tier0_cross,0,3,0.0,0.0
+19,Pets & Animals,tier1_vatex_short,1,1,0.0,0.0
+19,Pets & Animals,tier2_vatex_long,2,1,0.0,0.0
+19,Pets & Animals,tier3_va11y,3,4,0.020833333333333332,0.011904761904761904
+14,Sports,tier0_cross,0,3,0.02702702702702703,0.0462962962962963
+14,Sports,tier1_vatex_short,1,1,0.0,0.0
+14,Sports,tier2_vatex_long,2,1,0.0,0.0
+14,Sports,tier3_va11y,3,3,0.023255813953488372,0.027777777777777776
+17,Pets & Animals,tier0_cross,0,3,0.0,0.0
+17,Pets & Animals,tier1_vatex_short,1,1,0.0,0.0
+17,Pets & Animals,tier2_vatex_long,2,1,0.0,0.0
+17,Pets & Animals,tier3_va11y,3,4,0.017857142857142856,0.03541666666666667
+5,Food & Cooking,tier0_cross,0,2,0.0,0.04
+5,Food & Cooking,tier1_vatex_short,1,1,0.0,0.0
+5,Food & Cooking,tier2_vatex_long,2,1,0.0,0.0
+5,Food & Cooking,tier3_va11y,3,4,0.0,0.053968253968253964
+8,Travel,tier0_cross,0,3,0.02,0.018518518518518517
+8,Travel,tier1_vatex_short,1,1,0.0,0.0
+8,Travel,tier2_vatex_long,2,1,0.0,0.0
+8,Travel,tier3_va11y,3,4,0.0,0.027183600713012474
+1,Food & Cooking,tier0_cross,0,2,0.0,0.04
+1,Food & Cooking,tier1_vatex_short,1,1,0.0,0.0
+1,Food & Cooking,tier2_vatex_long,2,1,0.0,0.0
+1,Food & Cooking,tier3_va11y,3,5,0.017543859649122806,0.0125
+6,Travel,tier0_cross,0,3,0.02,0.018518518518518517
+6,Travel,tier1_vatex_short,1,1,0.0,0.0
+6,Travel,tier2_vatex_long,2,1,0.0,0.0
+6,Travel,tier3_va11y,3,3,0.0,0.0
+13,Sports,tier0_cross,0,3,0.02702702702702703,0.0462962962962963
+13,Sports,tier1_vatex_short,1,1,0.0,0.0
+13,Sports,tier2_vatex_long,2,1,0.0,0.0
+13,Sports,tier3_va11y,3,5,0.016129032258064516,0.0714232886136911
+7,Travel,tier0_cross,0,3,0.02,0.018518518518518517
+7,Travel,tier1_vatex_short,1,1,0.0,0.0
+7,Travel,tier2_vatex_long,2,1,0.0,0.0
+7,Travel,tier3_va11y,3,3,0.0,0.046474358974358976
+9,Sports,tier0_cross,0,3,0.02702702702702703,0.0462962962962963
+9,Sports,tier1_vatex_short,1,1,0.0,0.0
+9,Sports,tier2_vatex_long,2,1,0.0,0.0
+9,Sports,tier3_va11y,3,2,0.0,0.04
+0,Food & Cooking,tier0_cross,0,2,0.0,0.04
+0,Food & Cooking,tier1_vatex_short,1,1,0.0,0.0
+0,Food & Cooking,tier2_vatex_long,2,1,0.0,0.0
+0,Food & Cooking,tier3_va11y,3,3,0.02702702702702703,0.0462962962962963
+18,Pets & Animals,tier0_cross,0,3,0.0,0.0
+18,Pets & Animals,tier1_vatex_short,1,1,0.0,0.0
+18,Pets & Animals,tier2_vatex_long,2,1,0.0,0.0
+18,Pets & Animals,tier3_va11y,3,4,0.0196078431372549,0.0
+16,Pets & Animals,tier0_cross,0,3,0.0,0.0
+16,Pets & Animals,tier1_vatex_short,1,1,0.0,0.0
+16,Pets & Animals,tier2_vatex_long,2,1,0.0,0.0
+16,Pets & Animals,tier3_va11y,3,3,0.025,0.023809523809523808

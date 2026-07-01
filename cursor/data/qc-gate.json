@@ -1,0 +1,591 @@
+{
+  "clips": [
+    {
+      "category": "Sports",
+      "clip_idx": 12,
+      "ensemble_gated": 0.7815790963077165,
+      "ensemble_raw": 0.9815790963077164,
+      "flagged": true,
+      "flags": [
+        {
+          "id": "known_benchmark_failure",
+          "label": "Known full-order failure",
+          "norm": 1.0,
+          "reason": "Cached ADQA/CLIP ensemble misordered at least one tier on this benchmark clip.",
+          "value": 1.0
+        },
+        {
+          "id": "top_review_budget",
+          "label": "Top TRIBE review priority",
+          "norm": 1.0,
+          "reason": "Ranks #1 in the cached TRIBE risk queue.",
+          "value": 1.0
+        },
+        {
+          "id": "tier_inversion",
+          "label": "Long caption does not beat short caption",
+          "norm": 1.0,
+          "reason": "The long VATEX-style candidate fails to clearly beat the short one.",
+          "value": -0.0208333333333333
+        }
+      ],
+      "quality_risk": "tier2/tier1 inversion risk",
+      "risk_rank": 1,
+      "risk_score": 1.0,
+      "risk_score_raw": 0.280861072744793,
+      "signals": {
+        "high_need_seconds_frac": 0.625,
+        "max_need": 0.8755344451155387,
+        "mean_need": 0.5182596900896645,
+        "mean_speech_density": 0.5000000000000001,
+        "tier2_vs_tier1": -0.0208333333333333,
+        "tier3_margin": 0.5104166666666667,
+        "tribe_risk_norm": 1.0,
+        "tribe_risk_raw": 0.280861072744793
+      },
+      "summary": "Review before trusting the raw score: Known full-order failure; Top TRIBE review priority; Long caption does not beat short caption.",
+      "video_id": "abaLFY_GI8k_000295_000305"
+    },
+    {
+      "category": "Pets & Animals",
+      "clip_idx": 15,
+      "ensemble_gated": 0.825511544551917,
+      "ensemble_raw": 1.0,
+      "flagged": true,
+      "flags": [
+        {
+          "id": "known_benchmark_failure",
+          "label": "Known full-order failure",
+          "norm": 1.0,
+          "reason": "Cached ADQA/CLIP ensemble misordered at least one tier on this benchmark clip.",
+          "value": 1.0
+        },
+        {
+          "id": "top_review_budget",
+          "label": "Top TRIBE review priority",
+          "norm": 0.5,
+          "reason": "Ranks #2 in the cached TRIBE risk queue.",
+          "value": 2.0
+        },
+        {
+          "id": "low_professional_margin",
+          "label": "Professional AD barely leads",
+          "norm": 1.0,
+          "reason": "The professional-AD tier has a small or negative score margin.",
+          "value": -0.025
+        }
+      ],
+      "quality_risk": "professional AD barely leads",
+      "risk_rank": 2,
+      "risk_score": 0.8724422772404151,
+      "risk_score_raw": 0.2450350738936531,
+      "signals": {
+        "high_need_seconds_frac": 0.9090909090909092,
+        "max_need": 0.7493147206590085,
+        "mean_need": 0.5596241940798036,
+        "mean_speech_density": 0.5454545454545454,
+        "tier2_vs_tier1": 0.45,
+        "tier3_margin": -0.025,
+        "tribe_risk_norm": 0.8724422772404151,
+        "tribe_risk_raw": 0.2450350738936531
+      },
+      "summary": "Review before trusting the raw score: Known full-order failure; Top TRIBE review priority; Professional AD barely leads.",
+      "video_id": "OGWuj_FtaQc_000010_000020"
+    },
+    {
+      "category": "Sports",
+      "clip_idx": 11,
+      "ensemble_gated": 0.8467462737280875,
+      "ensemble_raw": 1.0,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 3,
+      "risk_score": 0.7662686313595622,
+      "risk_score_raw": 0.215215029814331,
+      "signals": {
+        "high_need_seconds_frac": 0.7272727272727273,
+        "max_need": 0.6204962039553747,
+        "mean_need": 0.4782412280361204,
+        "mean_speech_density": 0.6363636363636364,
+        "tier2_vs_tier1": 0.3833333333333333,
+        "tier3_margin": 0.2833333333333333,
+        "tribe_risk_norm": 0.7662686313595622,
+        "tribe_risk_raw": 0.215215029814331
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "z8Q-s8AthrA_000002_000012"
+    },
+    {
+      "category": "Food & Cooking",
+      "clip_idx": 4,
+      "ensemble_gated": 0.8431351067382639,
+      "ensemble_raw": 0.9312900797784914,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 4,
+      "risk_score": 0.44077486520113784,
+      "risk_score_raw": 0.1237965014793331,
+      "signals": {
+        "high_need_seconds_frac": 0.3076923076923076,
+        "max_need": 0.5713254998961601,
+        "mean_need": 0.1987337515089805,
+        "mean_speech_density": 0.3076923076923077,
+        "tier2_vs_tier1": 0.0625,
+        "tier3_margin": 0.5208333333333333,
+        "tribe_risk_norm": 0.44077486520113784,
+        "tribe_risk_raw": 0.1237965014793331
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "B0EKYDSv_yQ_000002_000012"
+    },
+    {
+      "category": "Food & Cooking",
+      "clip_idx": 3,
+      "ensemble_gated": 0.9163667903789467,
+      "ensemble_raw": 1.0,
+      "flagged": true,
+      "flags": [
+        {
+          "id": "low_professional_margin",
+          "label": "Professional AD barely leads",
+          "norm": 0.8095238095238091,
+          "reason": "The professional-AD tier has a small or negative score margin.",
+          "value": 0.0666666666666668
+        }
+      ],
+      "quality_risk": "clean",
+      "risk_rank": 5,
+      "risk_score": 0.4181660481052659,
+      "risk_score_raw": 0.1174465648562957,
+      "signals": {
+        "high_need_seconds_frac": 0.1818181818181818,
+        "max_need": 0.710663123229123,
+        "mean_need": 0.3732172811284784,
+        "mean_speech_density": 0.8181818181818181,
+        "tier2_vs_tier1": 0.2333333333333332,
+        "tier3_margin": 0.0666666666666668,
+        "tribe_risk_norm": 0.4181660481052659,
+        "tribe_risk_raw": 0.1174465648562957
+      },
+      "summary": "Review before trusting the raw score: Professional AD barely leads.",
+      "video_id": "vLGOZvJ_v4Q_000285_000295"
+    },
+    {
+      "category": "Pets & Animals",
+      "clip_idx": 19,
+      "ensemble_gated": 0.9165522978432465,
+      "ensemble_raw": 1.0,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 6,
+      "risk_score": 0.41723851078376706,
+      "risk_score_raw": 0.1171860557291687,
+      "signals": {
+        "high_need_seconds_frac": 0.4285714285714285,
+        "max_need": 0.5766175841764636,
+        "mean_need": 0.333624183997777,
+        "mean_speech_density": 0.5714285714285714,
+        "tier2_vs_tier1": 0.3452380952380952,
+        "tier3_margin": 0.3928571428571428,
+        "tribe_risk_norm": 0.41723851078376706,
+        "tribe_risk_raw": 0.1171860557291687
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "qIWQHyOIpEY_000003_000013"
+    },
+    {
+      "category": "Sports",
+      "clip_idx": 14,
+      "ensemble_gated": 0.919470813402194,
+      "ensemble_raw": 0.9653425827980382,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 7,
+      "risk_score": 0.22935884697922052,
+      "risk_score_raw": 0.0644179718060927,
+      "signals": {
+        "high_need_seconds_frac": 0.7272727272727273,
+        "max_need": 0.5376238514689752,
+        "mean_need": 0.4003728105074168,
+        "mean_speech_density": 0.9090909090909092,
+        "tier2_vs_tier1": 0.15,
+        "tier3_margin": 0.2999999999999999,
+        "tribe_risk_norm": 0.22935884697922052,
+        "tribe_risk_raw": 0.0644179718060927
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "UDD6YcChywc_000000_000010"
+    },
+    {
+      "category": "Pets & Animals",
+      "clip_idx": 17,
+      "ensemble_gated": 0.96731206016657,
+      "ensemble_raw": 1.0,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 8,
+      "risk_score": 0.16343969916715,
+      "risk_score_raw": 0.045903849237172,
+      "signals": {
+        "high_need_seconds_frac": 0.7692307692307692,
+        "max_need": 0.989735822398962,
+        "mean_need": 0.5719618255815417,
+        "mean_speech_density": 0.9230769230769232,
+        "tier2_vs_tier1": 0.0669642857142857,
+        "tier3_margin": 0.7366071428571429,
+        "tribe_risk_norm": 0.16343969916715,
+        "tribe_risk_raw": 0.045903849237172
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "gjoZic4WjiQ_000012_000022"
+    },
+    {
+      "category": "Food & Cooking",
+      "clip_idx": 5,
+      "ensemble_gated": 1.0,
+      "ensemble_raw": 1.0,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 9,
+      "risk_score": 0.0,
+      "risk_score_raw": 0.0,
+      "signals": {
+        "high_need_seconds_frac": 0.9090909090909092,
+        "max_need": 0.8559741095030897,
+        "mean_need": 0.6596447063981404,
+        "mean_speech_density": 1.0,
+        "tier2_vs_tier1": 0.5317460317460319,
+        "tier3_margin": 0.1339285714285714,
+        "tribe_risk_norm": 0.0,
+        "tribe_risk_raw": 0.0
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "PbGvLf7HvXQ_000063_000073"
+    },
+    {
+      "category": "Travel",
+      "clip_idx": 8,
+      "ensemble_gated": 1.0,
+      "ensemble_raw": 1.0,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 10,
+      "risk_score": 0.0,
+      "risk_score_raw": 0.0,
+      "signals": {
+        "high_need_seconds_frac": 0.3636363636363636,
+        "max_need": 0.7014957045919514,
+        "mean_need": 0.3789945682630365,
+        "mean_speech_density": 1.0,
+        "tier2_vs_tier1": 0.3645833333333334,
+        "tier3_margin": 0.28125,
+        "tribe_risk_norm": 0.0,
+        "tribe_risk_raw": 0.0
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "hOirknJr3os_000001_000011"
+    },
+    {
+      "category": "Food & Cooking",
+      "clip_idx": 1,
+      "ensemble_gated": 1.0,
+      "ensemble_raw": 1.0,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 11,
+      "risk_score": 0.0,
+      "risk_score_raw": 0.0,
+      "signals": {
+        "high_need_seconds_frac": 0.3636363636363636,
+        "max_need": 0.8527670466409736,
+        "mean_need": 0.3472245020802409,
+        "mean_speech_density": 1.0,
+        "tier2_vs_tier1": 0.4611111111111112,
+        "tier3_margin": 0.4361111111111111,
+        "tribe_risk_norm": 0.0,
+        "tribe_risk_raw": 0.0
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "058y9xGmmTQ_000206_000216"
+    },
+    {
+      "category": "Travel",
+      "clip_idx": 6,
+      "ensemble_gated": 0.9674497637033133,
+      "ensemble_raw": 0.9674497637033133,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 12,
+      "risk_score": 0.0,
+      "risk_score_raw": 0.0,
+      "signals": {
+        "high_need_seconds_frac": 0.5,
+        "max_need": 0.7646262287500899,
+        "mean_need": 0.3976061903273661,
+        "mean_speech_density": 1.0,
+        "tier2_vs_tier1": 0.1571428571428572,
+        "tier3_margin": 0.432142857142857,
+        "tribe_risk_norm": 0.0,
+        "tribe_risk_raw": 0.0
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "0HEi6q3bGaw_000011_000021"
+    },
+    {
+      "category": "Sports",
+      "clip_idx": 13,
+      "ensemble_gated": 0.9596276314370183,
+      "ensemble_raw": 0.9596276314370183,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 13,
+      "risk_score": 0.0,
+      "risk_score_raw": 0.0,
+      "signals": {
+        "high_need_seconds_frac": 0.4,
+        "max_need": 0.6344394468570758,
+        "mean_need": 0.3757655783862,
+        "mean_speech_density": 1.0,
+        "tier2_vs_tier1": 0.2603174603174604,
+        "tier3_margin": 0.2218253968253968,
+        "tribe_risk_norm": 0.0,
+        "tribe_risk_raw": 0.0
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "KFcH6BYZWhc_000011_000021"
+    },
+    {
+      "category": "Travel",
+      "clip_idx": 7,
+      "ensemble_gated": 1.0,
+      "ensemble_raw": 1.0,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 14,
+      "risk_score": 0.0,
+      "risk_score_raw": 0.0,
+      "signals": {
+        "high_need_seconds_frac": 0.4545454545454546,
+        "max_need": 0.939134955406189,
+        "mean_need": 0.3871231532659878,
+        "mean_speech_density": 1.0,
+        "tier2_vs_tier1": 0.0416666666666666,
+        "tier3_margin": 0.3541666666666667,
+        "tribe_risk_norm": 0.0,
+        "tribe_risk_raw": 0.0
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "09dQut5GJ68_000049_000059"
+    },
+    {
+      "category": "Sports",
+      "clip_idx": 9,
+      "ensemble_gated": 1.0,
+      "ensemble_raw": 1.0,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 15,
+      "risk_score": 0.0,
+      "risk_score_raw": 0.0,
+      "signals": {
+        "high_need_seconds_frac": 0.9090909090909092,
+        "max_need": 0.7650085708250683,
+        "mean_need": 0.5830793296168879,
+        "mean_speech_density": 1.0,
+        "tier2_vs_tier1": 0.2428571428571428,
+        "tier3_margin": 0.0999999999999999,
+        "tribe_risk_norm": 0.0,
+        "tribe_risk_raw": 0.0
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "TF4q9y0rJoc_000000_000010"
+    },
+    {
+      "category": "Food & Cooking",
+      "clip_idx": 0,
+      "ensemble_gated": 0.9272444758898801,
+      "ensemble_raw": 0.9272444758898801,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 16,
+      "risk_score": 0.0,
+      "risk_score_raw": 0.0,
+      "signals": {
+        "high_need_seconds_frac": 0.6000000000000001,
+        "max_need": 0.5841811642054016,
+        "mean_need": 0.3883963677748515,
+        "mean_speech_density": 1.0,
+        "tier2_vs_tier1": 0.0773809523809523,
+        "tier3_margin": 0.1845238095238096,
+        "tribe_risk_norm": 0.0,
+        "tribe_risk_raw": 0.0
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "Q76JRCyTnSc_000007_000017"
+    },
+    {
+      "category": "Pets & Animals",
+      "clip_idx": 18,
+      "ensemble_gated": 1.0,
+      "ensemble_raw": 1.0,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 17,
+      "risk_score": 0.0,
+      "risk_score_raw": 0.0,
+      "signals": {
+        "high_need_seconds_frac": 0.8181818181818181,
+        "max_need": 0.7941592025899242,
+        "mean_need": 0.5679584541079548,
+        "mean_speech_density": 1.0,
+        "tier2_vs_tier1": 0.3375000000000001,
+        "tier3_margin": 0.4125,
+        "tribe_risk_norm": 0.0,
+        "tribe_risk_raw": 0.0
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "q2ZBVyR1k-U_000021_000031"
+    },
+    {
+      "category": "Pets & Animals",
+      "clip_idx": 16,
+      "ensemble_gated": 1.0,
+      "ensemble_raw": 1.0,
+      "flagged": false,
+      "flags": [],
+      "quality_risk": "clean",
+      "risk_rank": 18,
+      "risk_score": 0.0,
+      "risk_score_raw": 0.0,
+      "signals": {
+        "high_need_seconds_frac": 0.1818181818181818,
+        "max_need": 0.644815716432821,
+        "mean_need": 0.2185619742134476,
+        "mean_speech_density": 1.0,
+        "tier2_vs_tier1": 0.2948412698412699,
+        "tier3_margin": 0.5468253968253969,
+        "tribe_risk_norm": 0.0,
+        "tribe_risk_raw": 0.0
+      },
+      "summary": "No cached QC flags; use the CLIP+ADQA score normally for this demo clip.",
+      "video_id": "kOf-vl-GmVI_000115_000125"
+    }
+  ],
+  "flagged_n": 3,
+  "method": "cached local QC gate; review prompt, not a validated replacement metric",
+  "n": 18,
+  "ok": true,
+  "p_value": 0.0065359477124183,
+  "recall_at_topk": 1.0,
+  "review_budget_clips": 2,
+  "source": "output\\scenetwin_timing_20clip\\tribe_native\\tribe_failure_forecast.csv",
+  "summary": "Cached QC marks 3 of 18 clips for review. CLIP+ADQA remains the scorer; TRIBE/QC only tells presenters where to slow down.",
+  "top_flagged": [
+    {
+      "category": "Sports",
+      "clip_idx": 12,
+      "ensemble_gated": 0.7815790963077165,
+      "ensemble_raw": 0.9815790963077164,
+      "flagged": true,
+      "flags": [
+        {
+          "id": "known_benchmark_failure",
+          "label": "Known full-order failure",
+          "norm": 1.0,
+          "reason": "Cached ADQA/CLIP ensemble misordered at least one tier on this benchmark clip.",
+          "value": 1.0
+        },
+        {
+          "id": "top_review_budget",
+          "label": "Top TRIBE review priority",
+          "norm": 1.0,
+          "reason": "Ranks #1 in the cached TRIBE risk queue.",
+          "value": 1.0
+        },
+        {
+          "id": "tier_inversion",
+          "label": "Long caption does not beat short caption",
+          "norm": 1.0,
+          "reason": "The long VATEX-style candidate fails to clearly beat the short one.",
+          "value": -0.0208333333333333
+        }
+      ],
+      "quality_risk": "tier2/tier1 inversion risk",
+      "risk_rank": 1,
+      "risk_score": 1.0,
+      "risk_score_raw": 0.280861072744793,
+      "signals": {
+        "high_need_seconds_frac": 0.625,
+        "max_need": 0.8755344451155387,
+        "mean_need": 0.5182596900896645,
+        "mean_speech_density": 0.5000000000000001,
+        "tier2_vs_tier1": -0.0208333333333333,
+        "tier3_margin": 0.5104166666666667,
+        "tribe_risk_norm": 1.0,
+        "tribe_risk_raw": 0.280861072744793
+      },
+      "summary": "Review before trusting the raw score: Known full-order failure; Top TRIBE review priority; Long caption does not beat short caption.",
+      "video_id": "abaLFY_GI8k_000295_000305"
+    },
+    {
+      "category": "Pets & Animals",
+      "clip_idx": 15,
+      "ensemble_gated": 0.825511544551917,
+      "ensemble_raw": 1.0,
+      "flagged": true,
+      "flags": [
+        {
+          "id": "known_benchmark_failure",
+          "label": "Known full-order failure",
+          "norm": 1.0,
+          "reason": "Cached ADQA/CLIP ensemble misordered at least one tier on this benchmark clip.",
+          "value": 1.0
+        },
+        {
+          "id": "top_review_budget",
+          "label": "Top TRIBE review priority",
+          "norm": 0.5,
+          "reason": "Ranks #2 in the cached TRIBE risk queue.",
+          "value": 2.0
+        },
+        {
+          "id": "low_professional_margin",
+          "label": "Professional AD barely leads",
+          "norm": 1.0,
+          "reason": "The professional-AD tier has a small or negative score margin.",
+          "value": -0.025
+        }
+      ],
+      "quality_risk": "professional AD barely leads",
+      "risk_rank": 2,
+      "risk_score": 0.8724422772404151,
+      "risk_score_raw": 0.2450350738936531,
+      "signals": {
+        "high_need_seconds_frac": 0.9090909090909092,
+        "max_need": 0.7493147206590085,
+        "mean_need": 0.5596241940798036,
+        "mean_speech_density": 0.5454545454545454,
+        "tier2_vs_tier1": 0.45,
+        "tier3_margin": -0.025,
+        "tribe_risk_norm": 0.8724422772404151,
+        "tribe_risk_raw": 0.2450350738936531
+      },
+      "summary": "Review before trusting the raw score: Known full-order failure; Top TRIBE review priority; Professional AD barely leads.",
+      "video_id": "OGWuj_FtaQc_000010_000020"
+    }
+  ]
+}

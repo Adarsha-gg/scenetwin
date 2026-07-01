@@ -1,0 +1,5 @@
+tribe_type,n,mean_delta,wins,losses,ties,sign_p_one_sided
+face_character,3,0.3333333333333333,2,0,1,0.25
+motion_action,3,0.3333333333333333,1,0,2,0.5
+scene_spatial,50,0.15,16,2,32,0.0006561279296875
+visual_form,4,0.125,1,0,3,0.5

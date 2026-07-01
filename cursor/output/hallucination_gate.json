@@ -1,0 +1,56 @@
+{
+  "run_at": "2026-06-08T00:00:49.402596+00:00",
+  "grader": "gemini/gemini-2.5-flash",
+  "n_clips": 60,
+  "chance": 0.5,
+  "length_delta_words_mean": 0.8333333333333334,
+  "hallucination": {
+    "adqa_only": {
+      "rate": 0.7,
+      "tie": 0.2833333333333333,
+      "margin": 0.16833333333333333,
+      "n": 60
+    },
+    "clip_only": {
+      "rate": 0.95,
+      "tie": 0.0,
+      "margin": 0.03688090393940608,
+      "n": 60
+    }
+  },
+  "paraphrase_control": {
+    "adqa_only": {
+      "rate": 0.18333333333333332,
+      "tie": 0.6833333333333333,
+      "margin": -0.018333333333333333,
+      "n": 60
+    },
+    "clip_only": {
+      "rate": 0.65,
+      "tie": 0.0,
+      "margin": 0.007724261283874512,
+      "n": 60
+    }
+  },
+  "clip_halluc_detect_ci95": [
+    0.8833333333333333,
+    1.0
+  ],
+  "clip_para_falsealarm_ci95": [
+    0.5166666666666667,
+    0.7666666666666667
+  ],
+  "clip_specificity": {
+    "halluc_margin_mean": 0.03688090393940608,
+    "para_margin_mean": 0.007724261283874512,
+    "halluc_drops_more_than_para_p": 3.137572639953828e-08
+  },
+  "complementarity": {
+    "adqa_blindspot_clips": 17,
+    "adqa_blindspot_frac": 0.2833333333333333,
+    "clip_catch_on_blindspot": 1.0,
+    "clip_grounding_drop_halluc": 0.034784258288495684,
+    "clip_grounding_drop_para": 0.005781089558320887,
+    "specificity_p_on_blindspot": 7.62939453125e-05
+  }
+}

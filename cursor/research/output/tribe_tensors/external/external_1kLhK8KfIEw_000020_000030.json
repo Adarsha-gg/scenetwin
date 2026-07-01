@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_1kLhK8KfIEw_000020_000030",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/1kLhK8KfIEw_000020_000030.mp4",
+  "ad_text_used": "In a parking lot surrounded by parked cars, a man wearing headphones uses a backpack leaf blower to clear away leaves and debris. He moves methodically around the area, ensuring the space is clean.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.3315123449046128,
+  "description_gain": -0.47696340627222894,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    16,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "1kLhK8KfIEw_000020_000030",
+  "category": "How-to & Instructional",
+  "yt_id": "1kLhK8KfIEw",
+  "start_s": 20.0,
+  "end_s": 30.0
+}

@@ -170,3 +170,36 @@ paper. All four is enough for a venue paper.
 
 Phase 1 is a half-day of work after the LLM wrapper is written. It does not need
 GPU. It is the first experiment that can falsify or support the controller pitch.
+
+## Phase 1 RESULT — supported, and scaled to 60 external clips (2026-05-29)
+
+Phase 1 ran on 2 in-bench clips with Claude Haiku 4.5 (21 windows): gap-targeted
+prompts raised `dominant_keyword_coverage` +1.29 (Wilcoxon p=0.0026) and
+`profile_alignment` +0.12 (p=0.105). The 2-clip ceiling was the per-window ROI
+typing; the `tribe_tensors_all78` dump (per-timestep P_AV/P_A for all 78 clips)
+removed it.
+
+Scaled to the **60 external clips**, 112 paired windows
+(`cursor/research/tribe_gap_targeted_external.py` ->
+`cursor/research/output/tribe_gap_targeted_external_scores.csv`):
+
+| metric | baseline | gap-targeted | delta | W/L | Wilcoxon p |
+|---|---:|---:|---:|---:|---:|
+| dominant_keyword_coverage | 0.134 | 0.429 | +0.295 | 23/2 | <0.0001 |
+| profile_alignment | 0.338 | 0.434 | +0.096 | 17/4 | 0.0095 |
+| weighted_keyword_coverage | 0.240 | 0.416 | +0.176 | 37/24 | 0.0099 |
+| specificity_score | 0.077 | 0.072 | -0.005 | 35/36 | 0.69 |
+
+The in-bench effect replicates and strengthens: dominant-content coverage now
+p<1e-4, profile alignment becomes significant. The in-bench specificity drop
+(0.89->0.50) does NOT replicate at scale -- gap-targeting steers content without
+losing lexical diversity. **TRIBE's ROI need profile causally steers LLM AD
+content, validated external.** This is the controller pitch supported: a
+generative/authoring contribution, not an evaluation metric (TRIBE's metric/
+calibration/grounding-weight roles were all null or n.s., see
+[[research/scenetwin-tribe-role-analysis]], [[research/scenetwin-neural-description-need-pivot]]).
+
+Open (the "Gap shrinks but human prefers baseline" row above is still untested):
+the lexical scorer shows content COVERAGE shifts to the targeted type, not that
+the AD is better for BLV users. Next real step is BLV/ADQA rating of the paired
+AD set.

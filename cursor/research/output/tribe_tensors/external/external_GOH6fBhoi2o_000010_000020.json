@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_GOH6fBhoi2o_000010_000020",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/GOH6fBhoi2o_000010_000020.mp4",
+  "ad_text_used": "In a dimly lit room, a toddler sits close to a television, captivated by the screen. The child giggles and fidgets, occasionally falling over and sitting back up. Music plays softly in the background, adding to the playful atmosphere.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.3961782650029143,
+  "description_gain": -0.6411825201878115,
+  "alignment_cosine": 0.0,
+  "P_AV_shape": [
+    10,
+    20484
+  ],
+  "P_A_shape": [
+    10,
+    20484
+  ],
+  "P_AD_shape": [
+    19,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "GOH6fBhoi2o_000010_000020",
+  "category": "Entertainment",
+  "yt_id": "GOH6fBhoi2o",
+  "start_s": 10.0,
+  "end_s": 20.0
+}

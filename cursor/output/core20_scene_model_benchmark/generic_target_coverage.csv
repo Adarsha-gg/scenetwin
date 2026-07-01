@@ -1,0 +1,41 @@
+clip_idx,video_id,source,axis,target_question,best_generic_question,best_generic_type,jaccard,type_match,strict_covers_target,loose_covers_target
+0,Q76JRCyTnSc_000007_000017,generic_claude,action_relation,"What does the chef throw at the wall, and what happens after the knife is thrown?",What is the man in the white shirt holding and demonstrating?,action_relation,0.0,1,0,0
+1,058y9xGmmTQ_000206_000216,generic_claude,action_relation,What is the man in the gray hoodie doing with his hands in the opening seconds?,What is the man in the gray hoodie doing?,action_relation,0.5714285714285714,1,1,1
+2,FtBS6OZSGMI_000028_000038,generic_claude,action_relation,What is the person doing with the bottle and glass?,,,0.0,0,0,0
+3,vLGOZvJ_v4Q_000285_000295,generic_claude,action_relation,What is the man doing to the food in the skillet?,What is the person cooking in the skillet?,who_role,0.16666666666666666,0,0,1
+4,B0EKYDSv_yQ_000002_000012,generic_claude,action_relation,What is the child holding and doing with it at the kitchen counter?,What is the child doing in the kitchen?,action_relation,0.6,1,1,1
+5,PbGvLf7HvXQ_000063_000073,generic_claude,action_relation,What are the two people doing with the garlic and spinach?,What is the main subject doing?,action_relation,0.16666666666666666,1,0,1
+6,0HEi6q3bGaw_000011_000021,generic_claude,spatial_relation,"What vehicles are visible on the snowy surface, and what are they doing?",What is the terrain like where the snowmobiler is riding?,spatial_relation,0.0,1,0,0
+7,09dQut5GJ68_000049_000059,generic_claude,action_relation,"What is the person doing in the snow, and what equipment are they using?",What is the main subject doing in these frames?,action_relation,0.16666666666666666,1,0,1
+8,hOirknJr3os_000001_000011,generic_claude,action_relation,How does the scene change from the ranch sign to the people on horses?,,,0.0,0,0,0
+9,TF4q9y0rJoc_000000_000010,generic_claude,spatial_relation,What sport or activity is the person performing on the snow-covered surface?,What sport or activity is the person performing?,action_relation,0.5714285714285714,0,0,1
+10,Fx3vWgjENJg_000055_000065,generic_claude,who_role,Who is spotting the young gymnasts as they flip on the mat?,,,0.0,0,0,0
+11,z8Q-s8AthrA_000002_000012,generic_claude,action_relation,What is the person attempting to do with the high jump bar?,What is the young person in the yellow shirt doing in these video clips?,action_relation,0.1,1,0,1
+12,abaLFY_GI8k_000295_000305,generic_claude,count,How many players are visible on the volleyball court at the moment shown?,What structures or barriers are visible around the court?,spatial_relation,0.16666666666666666,0,0,1
+13,KFcH6BYZWhc_000011_000021,generic_claude,spatial_relation,Describe the main player's position and movement during the opening seconds.,What is the setting where this activity takes place?,spatial_relation,0.0,1,0,0
+14,UDD6YcChywc_000000_000010,generic_claude,action_relation,What happens to the curler between the first and final frames shown?,What happens to the player after releasing the stone?,action_relation,0.14285714285714285,1,0,1
+15,OGWuj_FtaQc_000010_000020,generic_claude,spatial_relation,What is the person doing with the wooden fence as they move along the path?,What is visible on the fence in the background?,spatial_relation,0.125,1,0,1
+16,kOf-vl-GmVI_000115_000125,generic_claude,action_relation,What is the woman doing while riding the horse in the paddock?,What is the main subject doing in these frames?,action_relation,0.14285714285714285,1,0,1
+17,gjoZic4WjiQ_000012_000022,generic_claude,action_relation,What happens to the person in the red hat during the sequence?,What is the person wearing on their head?,who_role,0.14285714285714285,0,0,1
+18,q2ZBVyR1k-U_000021_000031,generic_claude,who_role,What is the person wearing on their upper body?,What is the person wearing on their head and upper body?,who_role,0.8333333333333334,1,1,1
+19,qIWQHyOIpEY_000003_000013,generic_claude,action_relation,"What animals are visible on the wooden floor, and what are they doing?",What is the primary action taking place in the video?,action_relation,0.0,1,0,0
+0,Q76JRCyTnSc_000007_000017,generic_gpt4o,action_relation,"What does the chef throw at the wall, and what happens after the knife is thrown?",What is the main subject doing?,action_relation,0.0,1,0,0
+1,058y9xGmmTQ_000206_000216,generic_gpt4o,action_relation,What is the man in the gray hoodie doing with his hands in the opening seconds?,What is the main subject doing?,action_relation,0.125,1,0,1
+2,FtBS6OZSGMI_000028_000038,generic_gpt4o,action_relation,What is the person doing with the bottle and glass?,,,0.0,0,0,0
+3,vLGOZvJ_v4Q_000285_000295,generic_gpt4o,action_relation,What is the man doing to the food in the skillet?,What is the main subject doing?,action_relation,0.2,1,0,1
+4,B0EKYDSv_yQ_000002_000012,generic_gpt4o,action_relation,What is the child holding and doing with it at the kitchen counter?,What is the main subject doing?,action_relation,0.16666666666666666,1,0,1
+5,PbGvLf7HvXQ_000063_000073,generic_gpt4o,action_relation,What are the two people doing with the garlic and spinach?,What is the main subject doing?,action_relation,0.16666666666666666,1,0,1
+6,0HEi6q3bGaw_000011_000021,generic_gpt4o,spatial_relation,"What vehicles are visible on the snowy surface, and what are they doing?",What is the main subject doing?,action_relation,0.2,0,0,1
+7,09dQut5GJ68_000049_000059,generic_gpt4o,action_relation,"What is the person doing in the snow, and what equipment are they using?",What is the main subject doing?,action_relation,0.16666666666666666,1,0,1
+8,hOirknJr3os_000001_000011,generic_gpt4o,action_relation,How does the scene change from the ranch sign to the people on horses?,,,0.0,0,0,0
+9,TF4q9y0rJoc_000000_000010,generic_gpt4o,spatial_relation,What sport or activity is the person performing on the snow-covered surface?,What is visible in the background?,spatial_relation,0.0,1,0,0
+10,Fx3vWgjENJg_000055_000065,generic_gpt4o,who_role,Who is spotting the young gymnasts as they flip on the mat?,,,0.0,0,0,0
+11,z8Q-s8AthrA_000002_000012,generic_gpt4o,action_relation,What is the person attempting to do with the high jump bar?,What is the main subject doing?,action_relation,0.0,1,0,0
+12,abaLFY_GI8k_000295_000305,generic_gpt4o,count,How many players are visible on the volleyball court at the moment shown?,How many people are visible in the frames?,count,0.0,1,0,0
+13,KFcH6BYZWhc_000011_000021,generic_gpt4o,spatial_relation,Describe the main player's position and movement during the opening seconds.,,,0.0,0,0,0
+14,UDD6YcChywc_000000_000010,generic_gpt4o,action_relation,What happens to the curler between the first and final frames shown?,What happens to the main subject after sliding the stone?,action_relation,0.14285714285714285,1,0,1
+15,OGWuj_FtaQc_000010_000020,generic_gpt4o,spatial_relation,What is the person doing with the wooden fence as they move along the path?,What type of fence is visible?,spatial_relation,0.14285714285714285,1,0,1
+16,kOf-vl-GmVI_000115_000125,generic_gpt4o,action_relation,What is the woman doing while riding the horse in the paddock?,What is the main subject doing?,action_relation,0.14285714285714285,1,0,1
+17,gjoZic4WjiQ_000012_000022,generic_gpt4o,action_relation,What happens to the person in the red hat during the sequence?,What is the main subject doing?,action_relation,0.0,1,0,0
+18,q2ZBVyR1k-U_000021_000031,generic_gpt4o,who_role,What is the person wearing on their upper body?,What is the second person doing?,action_relation,0.14285714285714285,0,0,1
+19,qIWQHyOIpEY_000003_000013,generic_gpt4o,action_relation,"What animals are visible on the wooden floor, and what are they doing?",What are the two animals doing?,action_relation,0.4,1,1,1

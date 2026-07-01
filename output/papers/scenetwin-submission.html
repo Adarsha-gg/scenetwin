@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SceneTwin: Human-Reference-Free Audio Description Auditing with Visual Grounding, Frame-Grounded QA, and Review Triage</title>
+<style>
+@page { size: Letter; margin: 0.65in; }
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; color: #111; font-size: 10.2pt; line-height: 1.36; margin: 0 auto; max-width: 7.3in; }
+h1 { font-size: 20pt; line-height: 1.08; margin: 0 0 0.25in; text-align: center; }
+.author { text-align: center; margin-bottom: 0.25in; }
+h2 { font-size: 13pt; margin: 0.22in 0 0.06in; border-bottom: 1px solid #aaa; padding-bottom: 2px; }
+h3 { font-size: 11pt; margin: 0.16in 0 0.04in; }
+p { margin: 0 0 0.075in; }
+.abstract { border: 1px solid #bbb; padding: 0.12in; margin-bottom: 0.14in; background: #f7f7f7; }
+.abstract h2 { border: 0; margin-top: 0; padding: 0; }
+table { width: 100%; border-collapse: collapse; font-size: 8.5pt; margin: 0.10in 0 0.15in; page-break-inside: avoid; }
+th, td { border: 1px solid #ccc; padding: 3px 4px; vertical-align: top; }
+th { background: #efefef; font-weight: 700; }
+figure { margin: 0.12in 0; page-break-inside: avoid; }
+figure img { max-width: 100%; display: block; margin: 0 auto; border: 1px solid #ddd; }
+figcaption { font-size: 8.7pt; color: #333; margin-top: 4px; }
+blockquote { margin: 0.1in 0.2in; color: #333; font-style: italic; }
+code, pre { font-family: Consolas, monospace; }
+pre { background: #f4f4f4; padding: 0.08in; white-space: pre-wrap; }
+ul, ol { margin-top: 0.04in; margin-bottom: 0.08in; padding-left: 0.22in; }
+li { margin-bottom: 0.035in; }
+</style>
+</head>
+<body>
+<h1>SceneTwin: Human-Reference-Free Audio Description Auditing with Visual Grounding, Frame-Grounded QA, and Review Triage</h1>
+<div class="author"><strong>Adarsha Mishra</strong><br>William Paterson University<br>June 26, 2026</div>
+<section class="abstract"><h2>Abstract</h2><p>Audio description (AD) makes video accessible to blind and low-vision viewers by narrating visual information that the soundtrack alone does not convey. As multimodal systems begin to generate AD at scale, the deployment bottleneck shifts from authoring to <strong>auditing</strong>: a system must determine whether a candidate AD is visually grounded, whether it omits or fabricates important scene evidence, and which clips require scarce human review. Existing evaluation approaches are useful but incomplete for this setting. Reference-based metrics can be strong when a trusted professional AD exists, but newly generated AD for undescribed videos usually lacks such a reference. Holistic VLM judges are flexible, but in our measurements they trail structured visual evidence checks. User studies remain essential, but they cannot be run for every generated clip.</p>
+<p>We present <strong>SceneTwin</strong>, a human-reference-free AD audit framework with three layers: (1) a CLIP + frame-grounded ADQA score for ranking candidate descriptions against the video itself; (2) safety gates for hallucination and wrong-content failures; and (3) a TRIBE-v2 neural side-car for review triage rather than scoring. We first correct our benchmark construction by removing an invalid “long VATEX” rung that measured verbosity rather than known quality. On the corrected three-tier ladder — cross-decoy &lt; crowd caption &lt; professional AD — SceneTwin reaches Spearman ρ = 0.952 on a 60-clip primary evaluation set spanning broad categories (58/60 clips fully ordered), with the original 18-clip pilot benchmark corroborating at ρ = 0.957 (17/18 fully ordered). A reference-style LLM-AD-Eval proxy nearly ties the ranking result (ρ = 0.942 / 0.941, primary / pilot) but requires the trusted professional AD reference that SceneTwin intentionally does not use. The contribution is therefore not a large leaderboard win; it is a deployable audit stack without human reference AD, plus operational gates.</p>
+<p>For safety, a CLIP grounding-drop gate reaches AUC = 0.835 with 70% recall at 10% false-positive rate for controlled visual hallucinations, while a raw-CLIP wrong-content gate catches 98.3% of catastrophic wrong-clip descriptions at 2.2% false alarm. For triage, TRIBE is deliberately excluded from the AD-level score: a clip-level neural gap cannot alter within-clip candidate ranking. Its useful role is review prioritization. In cached external validation, TRIBE/gap-route features predict corrected ADQA failures at AUC = 0.794 with category-shuffle p = 0.003, outperforming category, transcript/speech, duration, and word-count confounds on the key target. SceneTwin is an audit layer for hybrid AI+human AD workflows, not a replacement for professional describers or blind-user validation.</p><p><strong>Keywords:</strong> audio description; blind and low-vision accessibility; reference-free evaluation; video understanding; hallucination detection; human-AI authoring; review triage</p></section>
+<h2>Introduction</h2>
+
+<p>Audio description translates visual information into language so blind and low-vision viewers can access video content that is not available through the soundtrack alone. Automated AD generation is improving rapidly, driven by video-language models, AD-specific generation systems, and human-AI authoring tools. But better generation does not remove the need for quality control. A generated AD can be fluent, plausible, and well written while still omitting the visual action that matters, fabricating visible facts, or describing a different clip.</p>
+<p>This is the deployment problem SceneTwin targets. A platform generating AD for previously undescribed videos usually does not have a professional reference AD available for every clip. A human review panel cannot inspect every candidate. A single VLM score may sound convincing but does not necessarily expose the underlying visual evidence. The practical question is therefore:</p>
+<blockquote>Given a candidate audio description and the source video, can an audit system score visual preservation, catch unsafe failures, and route the right clips to review without already having a professional reference AD?</blockquote>
+<p>Prior work motivates each part of this question. CLIP-style vision-language models provide scalable grounding between text and frames [1]. ADQA argues that AD evaluation should ask whether descriptions support answers to visual questions rather than merely match a reference sentence [3]. AutoAD III and related AD systems introduce AD-specific metrics and reference-style evaluators such as LLM-AD-Eval [2]. Human-AI accessibility work such as Describe Now, DescribePro, CustomAD, WorldScribe, and ADx3 emphasizes that AD is not a fully automated one-shot product: users and describers need control, timing awareness, review, and iteration [9, 10, 11, 12, 13]. RNIB’s study of AI-generated AD similarly reports that AI can expand coverage but still needs human review for accuracy, cohesion, and context [5].</p>
+<p>SceneTwin reframes AD evaluation as an <strong>audit stack</strong>. Instead of producing only a scalar score, it answers three operational questions:</p>
+<ol>
+<li><strong>Score:</strong> Which candidate description best preserves visible content for this clip without comparing to a human reference AD?</li>
+<li><strong>Gate:</strong> Is the candidate unsafe because it hallucinates visible facts or describes the wrong content?</li>
+<li><strong>Triage:</strong> Which clips deserve scarce human or expensive model review first?</li>
+</ol>
+<h3>Contributions</h3>
+<p>This paper contributes:</p>
+<ol>
+<li><strong>A corrected AD audit benchmark.</strong> We identify and remove an invalid verbosity rung from an earlier four-tier setup. The active benchmark is the corrected three-tier ladder: cross-decoy &lt; crowd caption &lt; professional AD.</li>
+<li><strong>A human-reference-free CLIP+ADQA scoring stack.</strong> SceneTwin combines frame-text visual grounding with frame-grounded visual question answering and reaches ρ = 0.952 on the 60-clip primary evaluation set, corroborated by ρ = 0.957 on the original 18-clip pilot benchmark.</li>
+<li><strong>An honest baseline comparison.</strong> A reference-style LLM-AD-Eval proxy nearly ties SceneTwin. We therefore claim deployability without a human reference AD, not large superiority over all baselines.</li>
+<li><strong>Deployment safety gates.</strong> SceneTwin reports operating points for hallucination grounding-drop detection and catastrophic wrong-content detection.</li>
+<li><strong>Brain-grounded review triage.</strong> TRIBE-v2 is used as a clip/window triage side-car and access-surface router, not as an AD ranker. External cached validation supports triage beyond category, transcript/speech, duration, and word-count baselines.</li>
+</ol>
+<h2>Related Work</h2>
+
+<h3>Automated audio description generation</h3>
+<p>AutoAD III develops AD generation and evaluation methods including LLM-AD-Eval, CRITIC, multi-reference recall, and action coverage [2]. ADx3 frames AD creation as a collaborative workflow that combines generation, refinement, and adaptive querying [13]. VideoA11y and AD timing work emphasize that AD quality depends not only on semantic correctness but also on synchronization, brevity, and delivery constraints [4].</p>
+<p>SceneTwin is complementary. It is not an AD generator. It is an audit layer that can score generated, crowd, or professional-style candidate descriptions and decide what should be shipped, rejected, or reviewed.</p>
+<h3>Reference-based and question-based evaluation</h3>
+<p>Reference-based metrics compare a candidate AD to a trusted target. LLM-AD-Eval is useful in this setting, and our experiments confirm that a reference-style proxy is strong. However, the deployment setting for newly generated AD often lacks a trusted professional reference. SceneTwin therefore scores candidates against visual evidence instead of T3 text.</p>
+<p>ADQA motivates this shift by arguing that AD should be evaluated by whether it supports visual and narrative comprehension questions [3]. SceneTwin adapts that idea for candidate ranking and deployment audit: frame-grounded questions define what visual evidence a blind or low-vision viewer should receive.</p>
+<p>CoAD, StoryRecall, and AVBench broaden evaluation toward narrative coherence and fine-grained audio-video/text-video consistency [6, 7]. We explored related proxy features and fusions, but the final stack remains intentionally small: CLIP + ADQA for scoring, explicit gates for safety, and TRIBE only for review triage.</p>
+<h3>Human-AI workflows and user agency</h3>
+<p>Recent accessibility systems show that AD cannot be reduced to a single universal caption. CustomAD reports that blind and low-vision users want control over length, emphasis, voice, speed, and format [10]. Describe Now studies user-triggered concise and detailed descriptions, showing both agency benefits and cognitive-load tradeoffs [11]. DescribePro studies authoring workflows where human describers use AI drafts, forks, tags, and editorial control rather than full automation [12]. WorldScribe studies live visual description and emphasizes intent, sound context, latency, and uncertainty [9].</p>
+<p>SceneTwin is designed for this hybrid workflow. The goal is not to replace describers. The goal is to provide evidence about which descriptions preserve the scene and which clips deserve review.</p>
+<h3>Neural side-cars for accessibility triage</h3>
+<p>TRIBE-v2 predicts cortical responses to vision, audio, and language streams [8]. AD exists precisely where the audio track does not carry visual information, so the predicted gap between audiovisual and audio-only responses is a plausible signal of visual-access load. SceneTwin uses this signal conservatively. We do not claim TRIBE measures BLV user utility directly. We use it to prioritize clips/windows for review and authoring hypotheses that ADQA, VLMs, or humans must verify.</p>
+<h2>Task and Benchmark</h2>
+
+<h3>Correcting the ladder</h3>
+<p>An earlier SceneTwin benchmark used four tiers. The fourth rung, “long VATEX,” was built by selecting the longest among equal-status crowd captions. That construction does not represent known higher quality. It represents verbosity. Both CLIP and ADQA score the short-caption-to-long-caption step near chance, confirming that the rung is invalid as an ordered quality label.</p>
+<p>The paper therefore uses a corrected three-tier ladder:</p>
+<ul>
+<li><strong>T0 — cross-decoy:</strong> description/caption from another clip.</li>
+<li><strong>T1 — crowd caption:</strong> short visual caption-style description.</li>
+<li><strong>T3 — professional AD:</strong> professional or professional-style audio description.</li>
+</ul>
+<p>This correction matters. The paper does not claim that SceneTwin solves every AD quality axis. It claims that, on a valid controlled ladder where tiers have defensible semantics, SceneTwin can rank candidate descriptions by visual-access quality without a professional reference AD.</p>
+<h3>Corpora</h3>
+<p>The corrected benchmark contains:</p>
+<table><thead><tr><th>Corpus</th><th>Clips</th><th>Candidate observations</th><th>Tiers</th></tr></thead><tbody><tr><td>Primary (60-clip)</td><td>60</td><td>180</td><td>T0, T1, T3</td></tr><tr><td>Pilot (18-clip)</td><td>18</td><td>54</td><td>T0, T1, T3</td></tr></tbody></table>
+<p>The 60-clip set spans broad categories and is the primary evaluation. The 18-clip set is the original pilot benchmark. The two sets are disjoint by construction — the 60-clip set was built to exclude the original 18 pilot clips — so agreement between them shows the ranking result is not an artifact of the smaller initial benchmark.</p>
+<h3>Metrics</h3>
+<p>The primary statistic is Spearman rank correlation between candidate score and tier label. Because the deployment task is within-clip selection, we also report:</p>
+<ul>
+<li><strong>fully ordered clips:</strong> T0 &lt; T1 &lt; T3;</li>
+<li><strong>T3-vs-lower wins:</strong> T3 beats both lower tiers;</li>
+<li><strong>all pairwise wins:</strong> all ordered candidate pairs are correctly ranked.</li>
+</ul>
+<p>These pairwise counts are meaningful for SceneTwin because the score compares each candidate to visual evidence, not to the professional AD text. For reference-style baselines, T3-vs-lower wins are partly privileged because T3 is the reference.</p>
+<h2>Method</h2>
+<figure><img src="../charts/scenetwin_methodology.png" alt=""><figcaption>SceneTwin audit stack: CLIP visual grounding, frame-grounded ADQA, safety gates, and TRIBE review triage.</figcaption></figure>
+<h3>CLIP visual grounding</h3>
+<p>SceneTwin samples frames from each clip and computes text-frame similarity using CLIP [1]. The visual-grounding leg uses the top frames rather than a full-video dense model:</p>
+<pre><code>
+clip_top3 = mean(top 3 frame-text similarities)
+</code></pre>
+<p>CLIP is useful because it is relatively deterministic and grader-free. It is not sufficient alone: it can miss relational, temporal, and count errors, and it can reward visually plausible but incomplete descriptions. SceneTwin therefore pairs it with frame-grounded QA.</p>
+<h3>Frame-grounded ADQA</h3>
+<p>The ADQA leg creates visual questions from sampled frames and grades whether each candidate AD answers them. A candidate earns credit for mentioning frame-evidenced information, not for matching a reference phrasing. The score is the fraction of questions answered.</p>
+<p>This makes the metric more aligned with the viewer question: does the AD preserve what is visually needed to understand the scene?</p>
+<h3>Two-signal score</h3>
+<p>For each clip, CLIP and ADQA scores are normalized across candidate tiers and averaged:</p>
+<pre><code>
+SceneTwinScore = 0.5 * CLIP_norm + 0.5 * ADQA_norm
+</code></pre>
+<p>The score is within-clip. It ranks candidate ADs for the same video. It is not meant to compare absolute AD quality across unrelated clips.</p>
+<h3>Safety gates</h3>
+<p>A ranker can still miss unsafe deployment failures. SceneTwin therefore includes two gates.</p>
+<p>The <strong>hallucination gate</strong> uses CLIP grounding drop between a clip-relevant anchor and a candidate:</p>
+<pre><code>
+drop = CLIP(anchor AD, frames) - CLIP(candidate AD, frames)
+</code></pre>
+<p>The anchor can be trusted human AD or a generated clip-relevant candidate. The strict no-anchor hallucination gate is a negative result and is reported as such.</p>
+<p>The <strong>wrong-content gate</strong> uses raw, unnormalized CLIP grounding for a single candidate AD. It targets catastrophic cases where the candidate describes the wrong clip and requires no candidate pool or reference AD.</p>
+<h3>TRIBE triage side-car</h3>
+<p>TRIBE-v2 predicts neural responses to audiovisual and audio-only inputs [8]. SceneTwin derives a clip-level accessibility gap:</p>
+<pre><code>
+gap = 1 - cos(P_AV, P_A)
+</code></pre>
+<p>where <code>P_AV</code> is the predicted response to full audiovisual input and <code>P_A</code> is the predicted response to audio-only input. This gap is constant across candidate ADs for a clip. It cannot improve within-clip ranking, so it is not included in SceneTwinScore. Its purpose is review triage: high-gap clips/windows are more likely to need careful authoring or review because the visual channel carries information the soundtrack does not.</p>
+<h3>Implementation details</h3>
+<p>The visual-grounding leg uses CLIP ViT-L-14 (LAION-2B weights). We uniformly sample 8 frames per clip and compute frame-text cosine similarity; <code>clip_top3</code> is the mean of the three highest frame-text similarities. The ADQA leg generates 5 frame-grounded multiple-choice questions per clip from the sampled frames and grades each candidate AD's answers against those frames with an instruction-tuned multimodal LLM; to limit same-model bias the pipeline supports cross-model question generation and grading (e.g., Claude and GPT-4o). The ADQA score is the fraction of questions answered correctly. Each leg is min-max normalized within clip across the candidate tiers before fusion, and the headline weight is the untuned 0.5/0.5 average. The primary statistic is within-clip Spearman ρ between score and tier label; we additionally report Kendall τ, within-clip ordering counts, within-clip label-permutation tests (<em>B</em> = 5000), and clip-clustered bootstrap 95% confidence intervals. All headline numbers are regenerated by <code>cursor/research/recompute_corrected_ladder.py</code> from the released per-tier score CSVs.</p>
+<h2>Main Results</h2>
+<figure><img src="../charts/scenetwin_per_tier_heatmap.png" alt=""><figcaption>Corrected-ladder score structure across cross-decoy, crowd-caption, and professional-AD candidates.</figcaption></figure>
+<h3>Corrected-ladder ranking</h3>
+<table><thead><tr><th>Corpus</th><th>Clips</th><th>Observations</th><th>Spearman ρ</th><th>Fully ordered</th><th>T3-vs-lower wins</th><th>All pairwise wins</th></tr></thead><tbody><tr><td>Primary (60-clip)</td><td>60</td><td>180</td><td>0.952</td><td>58/60</td><td>118/120</td><td>178/180</td></tr><tr><td>Pilot (18-clip)</td><td>18</td><td>54</td><td>0.957</td><td>17/18</td><td>36/36</td><td>53/54</td></tr></tbody></table>
+<p>SceneTwin generalizes on the corrected task. The 60-clip primary result is close to the original 18-clip pilot, which indicates that the earlier apparent generalization gap was largely tied to the invalid long-caption rung.</p>
+<h3>Robustness</h3>
+<p>The corrected-ladder result is not a narrow tuning artifact. Robustness checks in <code>cursor/output/corrected_ladder_robustness.json</code> show a stable plateau across ensemble weights and normalization choices. The result also survives bootstrap and within-clip permutation checks. The final 0.5/0.5 score is chosen for simplicity rather than post-hoc optimization.</p>
+<h2>Baselines and Negative Results</h2>
+
+<h3>Corrected-ladder metric comparison</h3>
+<table><thead><tr><th>Metric</th><th>Primary (60) ρ</th><th>Pilot (18) ρ</th><th>Deployment note</th></tr></thead><tbody><tr><td><strong>SceneTwin CLIP+ADQA</strong></td><td><strong>0.952</strong></td><td><strong>0.957</strong></td><td>no human reference AD</td></tr><tr><td>LLM-AD-Eval proxy</td><td>0.942</td><td>0.941</td><td>needs trusted T3/pro reference</td></tr><tr><td>ADQA alone</td><td>0.869</td><td>0.856</td><td>no human reference AD; model grader</td></tr><tr><td>CLIP alone</td><td>0.747</td><td>0.835</td><td>grader-free; useful for gates</td></tr><tr><td>Best frontier VLM judge</td><td>0.847</td><td>0.863</td><td>no reference, weaker here</td></tr><tr><td>CRITIC entity</td><td>0.688</td><td>0.625</td><td>weaker</td></tr></tbody></table>
+<p>The strongest baseline is the LLM-AD-Eval proxy from the AutoAD III family. It nearly ties SceneTwin. This is not a failure; it clarifies the claim. Reference-style comparison is strong when a trusted reference AD exists. SceneTwin is valuable when that reference does not exist.</p>
+<p><em>Normalization note:</em> the ensemble and reference-style rows use per-clip min-max normalization; the single-signal &ldquo;ADQA alone&rdquo; and &ldquo;CLIP alone&rdquo; rows report pooled raw Spearman to show unnormalized single-signal behavior. Under matched per-clip normalization the single signals are higher (ρ: ADQA 0.946 / 0.888, CLIP 0.828 / 0.900 for primary / pilot), and ADQA alone (0.946) is close to the full ensemble (0.952) on the primary set &mdash; consistent with our signal-decomposition finding that ADQA is the backbone and CLIP adds category-specific lift rather than uniform gain.</p>
+<h3>VLM-as-judge comparison</h3>
+<p>Three frontier VLM judges trail the structured audit on the corrected ladder. The best VLM judge on the 60-clip primary set reaches ρ = 0.847 compared with SceneTwin’s ρ = 0.952. This suggests that asking a general VLM for holistic AD quality is less aligned with this controlled tier task than explicit frame-grounded evidence checks.</p>
+<h3>Fusion negative result</h3>
+<p>We tested multiple fusions inspired by ADQA, AutoAD III, CoAD, AVBench, timing rubrics, and neural side-cars. None improved the headline enough to justify extra complexity. The final architecture is intentionally small: CLIP+ADQA for scoring, explicit gates for safety, and TRIBE for triage only.</p>
+<h2>Deployment Safety Gates</h2>
+<figure><img src="../charts/scenetwin_gate_summary.png" alt=""><figcaption>Safety-gate summary for hallucination and grounding-drop checks.</figcaption></figure>
+<figure><img src="../charts/scenetwin_wrong_content_global_gate.png" alt=""><figcaption>Wrong-content gate separates cross-decoy descriptions from legitimate same-clip descriptions.</figcaption></figure>
+<h3>Hallucination grounding-drop gate</h3>
+<p>Controlled hallucination tests compare truthful expert ADs to same-length corrupted versions with two or three changed visual facts, plus faithful paraphrase controls. The strongest grader-free operating point is the CLIP grounding-drop gate:</p>
+<table><thead><tr><th>Gate</th><th>Signal</th><th>n</th><th>AUC</th><th>Recall @ 10% FPR</th></tr></thead><tbody><tr><td>Grounding-drop vs clip-relevant anchor</td><td>CLIP only</td><td>60</td><td>0.835</td><td>70.0%</td></tr><tr><td>Fused drop vs clip-relevant anchor</td><td>CLIP + ADQA</td><td>60</td><td>0.904</td><td>71.7%</td></tr><tr><td>Absolute weakest-claim grounding</td><td>CLIP only, no anchor</td><td>60</td><td>0.585</td><td>16.9%</td></tr></tbody></table>
+<p>The CLIP-only grounding-drop gate is the clean deployment result because it is grader-free. The fused result is secondary because the ADQA leg uses a model grader. The no-anchor result is a negative control: absolute grounding alone is too noisy for hallucination detection.</p>
+<h3>Generated-anchor deployment path</h3>
+<p>A strict objection is that grounding drop appears to require a human expert anchor. Reference-substitution experiments show that the gate needs a clip-relevant anchor, not necessarily a human one. Model-generated or paraphrase anchors can support consistency checks, though current generated-anchor evidence is smaller-sample and should not be overstated.</p>
+<h3>Wrong-content gate</h3>
+<p>The cross-decoy tier simulates catastrophic wrong-content AD. A raw-CLIP threshold catches wrong-clip descriptions without any reference or candidate pool. On the 60-clip primary set, wrong-content ADs average raw <code>clip_top3</code> 0.074 versus 0.311 for legitimate ADs. Leave-one-clip-out thresholding catches 98.3% of wrong-content ADs at 2.2% false alarm.</p>
+<p>This gate is a high-recall review trigger, not an autonomous rejection oracle. At low base rates, precision can be poor, so flagged outputs should route to review.</p>
+<h3>Selective ship-best policy</h3>
+<p>ADQA margin is useful for confidence. On the 60-clip primary set, abstaining on the lowest-margin 20% sends 12/60 clips to review and ships the remaining 48 at 100% ship-best accuracy in the cached analysis. This supports a three-way deployment policy:</p>
+<ul>
+<li><strong>Ship</strong> when candidate margin is high and safety gates are clean.</li>
+<li><strong>Review</strong> when margin is low or TRIBE triage marks high visual-access load.</li>
+<li><strong>Reject/review</strong> when wrong-content or hallucination gates fire.</li>
+</ul>
+<h2>TRIBE Review Triage and Access-Surface Routing</h2>
+<figure><img src="../charts/scenetwin_failure_forecast.png" alt=""><figcaption>TRIBE review-priority visualization for cached benchmark clips; main text reports the safer external cheap-baseline triage result.</figcaption></figure>
+<h3>Why TRIBE is not a score</h3>
+<p>TRIBE-derived accessibility gap is a clip-level value. It is identical for every candidate AD of the same clip. It therefore cannot improve within-clip rank correlation. Earlier attempts to frame TRIBE as a calibration layer or AD ranker failed for this structural reason. SceneTwin uses TRIBE only as a side-car for review triage and authoring hypotheses.</p>
+<h3>External cheap-baseline gauntlet</h3>
+<p>The strongest current TRIBE result is not the old 18-clip pilot AUC=1 result. The stronger paper-safe result is cached validation against cheap confounds on the primary set. On the 60-clip primary set, <code>accessibility_gap</code> predicts corrected ADQA failures at AUC = 0.794 with category-shuffle p = 0.003.</p>
+<table><thead><tr><th>Target</th><th>Family</th><th>Best feature</th><th>AUC</th><th>Direction</th><th>Category-shuffle p</th></tr></thead><tbody><tr><td>ADQA failure</td><td>TRIBE/gap-route</td><td>accessibility_gap</td><td>0.794</td><td>high gap = higher risk</td><td>0.003</td></tr><tr><td>ADQA failure</td><td>category-only</td><td>category_loo_adqa_fail_rate</td><td>0.700</td><td>high bad</td><td>1.000</td></tr><tr><td>ADQA failure</td><td>transcript/speech</td><td>transcript_char_count</td><td>0.733</td><td>low bad</td><td>0.995</td></tr><tr><td>ADQA failure</td><td>duration/word count</td><td>tier3_word_count</td><td>0.714</td><td>low bad</td><td>0.990</td></tr></tbody></table>
+<p>This supports TRIBE as a review-budget signal beyond category, transcript/speech, duration, and word-count baselines. It does not support automatic skipping, automatic failure detection, or score replacement.</p>
+<h3>Review-budget curves</h3>
+<p>Sorting clips by mean visual gap catches more ADQA failures than random review at practical budgets:</p>
+<table><thead><tr><th>Queue</th><th>Budget</th><th>Clips reviewed</th><th>ADQA failures caught</th><th>Recall</th><th>Precision</th></tr></thead><tbody><tr><td>mean_visual_gap</td><td>10%</td><td>6</td><td>2/10</td><td>0.20</td><td>0.33</td></tr><tr><td>mean_visual_gap</td><td>20%</td><td>12</td><td>3/10</td><td>0.30</td><td>0.25</td></tr><tr><td>mean_visual_gap</td><td>25%</td><td>15</td><td>4/10</td><td>0.40</td><td>0.27</td></tr><tr><td>mean_visual_gap</td><td>33%</td><td>20</td><td>5/10</td><td>0.50</td><td>0.25</td></tr></tbody></table>
+<p>These numbers are moderate, not magical. They are still useful because the operational goal is prioritization: if review capacity is limited, inspect high visual-gap clips first.</p>
+<h3>Access-surface routing</h3>
+<p>TRIBE windows and cases can be mapped into product-facing review/authoring surfaces. The cached router contains 334 windows and 133 cases. Window-level routes are:</p>
+<table><thead><tr><th>Route</th><th>Windows</th><th>Access surface</th></tr></thead><tbody><tr><td>static_ad_ok_low_gap</td><td>218</td><td>static AD / lower review pressure</td></tr><tr><td>layout_replay_or_scene_cue</td><td>78</td><td>layout replay or keyframe</td></tr><tr><td>action_state_or_agent_cue</td><td>38</td><td>concise action-state cue</td></tr></tbody></table>
+<p>Case-level mappings include peak-window review cards, action-state cues, layout/keyframe replay, segmented scene/action treatment, and evidence-sidecar QC. This is the product implication of TRIBE: it proposes where and how to inspect, while ADQA, VLMs, or humans verify.</p>
+<h2>Discussion</h2>
+
+<p>SceneTwin’s result is strongest when framed as deployment infrastructure. It is not a claim that a small metric replaces all human judgment. It is not a claim that TRIBE measures blind-user utility. It is not a claim that CLIP+ADQA dominates every reference-based evaluator.</p>
+<p>Instead, SceneTwin shows that a human-reference-free audit stack can approach a strong reference-style evaluator on controlled ranking while adding safety and triage tools that matter at deployment time. If a professional reference AD already exists, reference comparison is appropriate and strong. If a system is generating AD for undescribed videos, SceneTwin provides a way to audit candidates against visual evidence, catch gross failures, and prioritize review.</p>
+<p>This matches the direction of recent accessibility work. DescribePro, Describe Now, CustomAD, WorldScribe, ADx3, and RNIB all argue implicitly or explicitly against fully autonomous one-shot AD replacement. SceneTwin supplies an evidence layer for that hybrid workflow.</p>
+<h2>Threats to Validity and Limitations</h2>
+
+<ol>
+<li><strong>No BLV user-utility study yet.</strong> The corrected ladder measures agreement with tier construction and proxy comprehension evidence, not actual BLV viewer outcomes.</li>
+<li><strong>Professional AD is not a universal gold standard.</strong> Human descriptions vary in timing, emphasis, and style. The corrected ladder is a controlled audit task, not the full space of AD quality.</li>
+<li><strong>The corrected ladder is easier than the excluded four-tier task.</strong> This is intentional because the old long-caption rung was invalid, but the results should not be compared as if both tasks had equal semantics.</li>
+<li><strong>LLM-AD-Eval nearly ties ranking.</strong> SceneTwin’s advantage is human-reference-free deployment and safety gates, not raw rank-correlation dominance.</li>
+<li><strong>ADQA uses model grading.</strong> It can inherit model bias, prompt sensitivity, and blind spots.</li>
+<li><strong>CLIP misses relation, count, and temporal errors.</strong> Gates are strongest for object/scene grounding and weaker for subtle relational lies.</li>
+<li><strong>Hallucination drop needs an anchor.</strong> The fully no-anchor hallucination gate fails. Generated-anchor evidence is promising but not yet the headline.</li>
+<li><strong>TRIBE is indirect.</strong> It is trained on naturalistic brain responses, not BLV user outcomes. Its supported role is triage and routing hypotheses.</li>
+<li><strong>Short clips.</strong> Long-form narrative memory, timing slots, user preferences, and cognitive load remain future work.</li>
+<li><strong>Human review remains required.</strong> SceneTwin should route and assist human review; it should not replace professional describers.</li>
+</ol>
+<h2>Reproducibility</h2>
+
+<p>Primary artifacts:</p>
+<ul>
+<li><code>cursor/output/external_ensemble_eval.csv</code> — 60-clip primary scores.</li>
+<li><code>output/scenetwin_timing_20clip/ensemble/adqa_clip_ensemble_scores.csv</code> — 18-clip pilot scores.</li>
+<li><code>cursor/output/corrected_ladder_robustness.json</code> — robustness checks.</li>
+<li><code>cursor/research/recompute_corrected_ladder.py</code> — regenerates all corrected-ladder headline numbers (ρ, ordering, pairwise, permutation, bootstrap, per-category) from the per-tier CSVs; stdlib-only, deterministic.</li>
+<li><code>cursor/output/gate_summary.json</code> — hallucination grounding-drop gate.</li>
+<li><code>cursor/output/ref_subst/reference_substitution.json</code> — anchor substitution.</li>
+<li><code>cursor/output/wrong_content_global_gate.json</code> — wrong-content gate.</li>
+<li><code>cursor/output/gate_shipbest_selective.json</code> — selective ship-best.</li>
+<li><code>cursor/research/output/vlm_as_judge_leaderboard.csv</code> — VLM judge comparison.</li>
+<li><code>cursor/research/output/parallel_research/cheap_baselines/auc_summary.csv</code> — TRIBE cheap-baseline gauntlet.</li>
+<li><code>cursor/research/output/parallel_research/access_surface/</code> — access-surface routing tables.</li>
+</ul>
+<p>Supporting reports:</p>
+<ul>
+<li><code>output/reports/scenetwin-paper-evidence-check.md</code></li>
+<li><code>output/reports/scenetwin-citation-map.md</code></li>
+<li><code>output/reports/parallel-research-cheap-baseline-gauntlet.md</code></li>
+<li><code>output/reports/parallel-research-access-surface-triage.md</code></li>
+<li><code>output/reports/parallel-research-synthesis.md</code></li>
+<li><code>output/reports/tribe-claims-audit.md</code></li>
+</ul>
+<h2>Conclusion</h2>
+
+<p>SceneTwin is a human-reference-free audit framework for audio description. On a corrected three-tier ladder, it ranks AD candidates strongly on a 60-clip primary set, corroborated by the original 18-clip pilot. But its central contribution is not overwhelming leaderboard superiority. The central contribution is deployable audit infrastructure: competitive ranking without a professional reference AD, safety gates for hallucination and wrong-content failures, and brain-grounded triage for deciding where human review should go first. This is the layer AI-assisted AD workflows need before generated descriptions can be shipped responsibly at scale.</p>
+<h2>References</h2>
+
+<p>[1] Alec Radford et al. 2021. *Learning Transferable Visual Models From Natural Language Supervision*. ICML.</p>
+<p>[2] Tengda Han et al. 2024. *AutoAD III: Back to the Pixels*. arXiv:2404.14412.</p>
+<p>[3] Divy Kala et al. 2025. *ADQA: What You See Is What You Ask*. arXiv:2510.00808.</p>
+<p>[4] Chaoyu Li et al. 2025. *VideoA11y and G7/G8 Timing Guidelines for Audio Description*. arXiv:2502.20480.</p>
+<p>[5] RNIB. 2025. *Exploring AI-generated audio description: can emerging technologies help expand access to broadcast media?* Research report, 1 September 2025.</p>
+<p>[6] Eshika Khandelwal et al. 2025. *CoAD: Coherent Audio Description and StoryRecall*. arXiv:2510.25440.</p>
+<p>[7] Jialiang Yang et al. 2026. *AVBench: Audio-Video Evaluation Benchmark*. arXiv:2605.24652.</p>
+<p>[8] Stéphane d’Ascoli et al. 2026. *TRIBE: A Foundation Model of Vision, Audition, and Language for In-Silico Neuroscience*. arXiv:2605.04326.</p>
+<p>[9] Ruei-Che Chang et al. 2024. *WorldScribe: Toward Context-Aware Live Visual Descriptions*. UIST 2024 / arXiv:2408.06627.</p>
+<p>[10] Rosiana Natalie et al. 2024. *CustomAD: Audio Description Customization*. arXiv:2408.11406.</p>
+<p>[11] Maryam Cheema et al. 2024. *Describe Now: User-Driven Audio Description for BLV Individuals*. arXiv:2411.11835.</p>
+<p>[12] Maryam Cheema et al. 2025. *DescribePro: Collaborative Audio Description with Human-AI Interaction*. arXiv:2508.01092.</p>
+<p>[13] Lana Do et al. 2026. *ADx3: A Collaborative Workflow for High-Quality Accessible Audio Description*. arXiv:2602.02684.</p>
+</body>
+</html>

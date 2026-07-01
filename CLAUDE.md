@@ -95,9 +95,11 @@ Produce `output/reports/lint-YYYY-MM-DD.md` flagging contradictions, stale claim
 
 ---
 
-## Project Context (as of 2026-05-12)
+## Project Context (as of 2026-06-27)
 
-Headline result: Spearman rho = 0.929 [0.90, 0.96] on 18 clips x 4 tiers. 54/54 pairwise tier wins, 15/18 fully ordered, permutation p < 0.0005. CLIP-only rho = 0.801, ADQA-only rho = 0.789. Ensemble lifts past either with non-overlapping CIs. TRIBE risk forecast: AUC = 1.00, recall@2/18 = 100%, p = 0.0065 (Bonferroni p = 0.065).
+Headline result (corrected three-tier ladder, T0 cross-decoy < T1 crowd caption < T3 professional AD): Spearman rho = 0.952 on the **60-clip primary set** (58/60 fully ordered, 178/180 pairwise, hard T1-vs-T3 pair 58/60), corroborated by rho = 0.957 on the **original 18-clip pilot** (17/18 fully ordered, 53/54 pairwise). Regenerate all headline numbers with `python cursor/research/recompute_corrected_ladder.py`. The 60-clip set is the headline; the 18-clip set is the first/original result and the two are disjoint by construction (60 excludes the 18), so agreement shows generalization. Component metrics on the primary set: ADQA-only rho = 0.869, CLIP-only rho = 0.747. TRIBE is review-triage only (not a scorer): on the 60-clip set `accessibility_gap` predicts corrected ADQA failures at AUC = 0.794, category-shuffle p = 0.003.
+
+Superseded: the old "18 clips x 4 tiers, rho = 0.929" headline and the in-benchmark TRIBE AUC = 1.00 pilot. The fourth "long VATEX" rung was removed as an invalid verbosity tier; do not cite it as current.
 
 Advisors: Dr. Nan Wang, Bohan Fan, Xiaoshan Wang.
 

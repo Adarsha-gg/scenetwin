@@ -1,0 +1,15 @@
+# Agent-loop gate synthesis
+
+The agent-loop result is a paper subsection about deployment gates, not another tier-correlation result. The defensible lead is the CLIP-only hallucination gate: on 60 held-out clips with same-length corrupted twins and faithful paraphrase controls, the local CLIP grounding-drop signal reaches AUC 0.835 and 70% recall at 10% false-positive rate. This is the headline because the decision is grader-free. The stronger CLIP+ADQA fusion reaches AUC 0.904, but it should be footnoted because ADQA uses a grader. The zero-reference weakest-claim gate is an honest negative: AUC 0.585 and 16.9% recall at 10% FPR, so absolute claim grounding is not a deployable reject signal.
+
+The wrong-content safety gate is the second major result. The original four-candidate ensemble catches `tier0_cross` on all 60 clips, has 0% false reject, and ships the best genuine AD 90% of the time. Claude round 68 addressed the normalization objection by converting this into a single-AD raw-CLIP global threshold: leave-one-clip-out validation gives 98.3% catch at 2.2% false alarm, with wrong-content raw CLIP mean 0.074 vs legitimate mean 0.311. This should be reported as "global raw-CLIP LOCO 98%/2%" rather than only "100% pool catch."
+
+Deployment precision is base-rate dependent. At a 1% wrong-content prevalence, the LOCO operating point has PPV 30.9%, recall 98.3%, alert rate 3.2%, and 3.2 reviews per true catch. This is low precision, but still reasonable as an asymmetric-cost safety screen: at 1% prevalence the gate beats ship-all if a missed wrong-content AD costs at least 2.2 wasted reviews.
+
+The reference-free story is strongest as anchor substitution, not no-anchor scoring. A human expert anchor gives AUC 0.835; a model paraphrase anchor gives 0.849; an independent model-generated AD catches hand-authored lies at AUC 0.815 on n = 9. Cross-clip anchors collapse to the no-anchor floor around 0.60-0.66. Codex's expanded self-consistency result reaches AUC 0.895 on 16 clips and 48 clean pairs, with mean lie drop +0.0724 vs clean drop +0.0016.
+
+The dual-signal story is now specific. CLIP is load-bearing for reject decisions: it catches ADQA's hallucination blind spots and separates wrong-content from thin-but-genuine ADs with AUC 0.998, rescuing seven ADQA inversions. ADQA is load-bearing for ship-best: it reaches 88.3% full-coverage ship-best vs CLIP's 53.3%, and ADQA margin yields 100% ship-best at 80% coverage. Cross-signal agreement fails for ship-best.
+
+The major limitation is CLIP object bias. Human object/scene swaps score AUC 0.914, but relational/action/count lies score AUC 0.320. The paper should say the gate catches grounded wrong-content and object/scene hallucinations, not all visual lies.
+
+Sources: `cursor/output/gate_summary.json`, `cursor/output/gate_review_holes.json`, `cursor/output/gate_outcome.json`, `cursor/output/wrong_content_global_gate.json`, `cursor/output/gate_deployment_precision.json`, `cursor/output/ref_subst/reference_substitution.json`, `cursor/output/wrong_content_confounder.json`, `cursor/output/gate_shipbest_selective.json`, `cursor/findings/human-lies-relational-stratum.md`.

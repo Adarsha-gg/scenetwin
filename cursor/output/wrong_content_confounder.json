@@ -1,0 +1,57 @@
+{
+  "n_clips": 60,
+  "wrong_tier": "tier0_cross",
+  "confounder_tier": "tier1_vatex_short",
+  "question": "separate wrong-content from thin-but-genuine without falsely rejecting the genuine",
+  "signals": {
+    "clip": {
+      "two_class_auc": 0.9983,
+      "global_thr_acc": 0.9833,
+      "global_thr": 0.2236,
+      "gap_mean": 0.2316,
+      "gap_median": 0.235,
+      "gap_min": 0.0901,
+      "inversions": 0,
+      "inversion_clips": []
+    },
+    "adqa": {
+      "two_class_auc": 0.9278,
+      "global_thr_acc": 0.9167,
+      "global_thr": 0.1,
+      "gap_mean": 0.2167,
+      "gap_median": 0.2,
+      "gap_min": 0.0,
+      "inversions": 7,
+      "inversion_clips": [
+        "1YemrpNBpf4_000001_000011",
+        "1kLhK8KfIEw_000020_000030",
+        "8vkNr_eysXY_000002_000012",
+        "Ccgwurislg8_000082_000092",
+        "ShSSAEfnyDs_000000_000010",
+        "crjesEwF0Ks_000197_000207",
+        "g8Idd47kGqo_000037_000047"
+      ]
+    },
+    "fused": {
+      "two_class_auc": 0.9931,
+      "global_thr_acc": 0.975,
+      "global_thr": 0.2251,
+      "gap_min": 0.0901,
+      "inversions": 0
+    }
+  },
+  "complementarity": {
+    "adqa_only_fails": [
+      "1YemrpNBpf4_000001_000011",
+      "1kLhK8KfIEw_000020_000030",
+      "8vkNr_eysXY_000002_000012",
+      "Ccgwurislg8_000082_000092",
+      "ShSSAEfnyDs_000000_000010",
+      "crjesEwF0Ks_000197_000207",
+      "g8Idd47kGqo_000037_000047"
+    ],
+    "clip_only_fails": [],
+    "both_fail": [],
+    "clip_rescues_adqa_min_gap": 0.0901
+  }
+}

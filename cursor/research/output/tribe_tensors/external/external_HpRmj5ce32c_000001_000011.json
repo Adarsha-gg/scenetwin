@@ -1,0 +1,27 @@
+{
+  "clip_key": "external_HpRmj5ce32c_000001_000011",
+  "video_path_local": "/content/scenetwin/workspace/external_clips/HpRmj5ce32c_000001_000011.mp4",
+  "ad_text_used": "In an indoor ice rink, a group of people is engaged in a curling game. One person slides a curling stone across the ice while others, equipped with brooms, prepare to sweep the path ahead. The rink is spacious, with high ceilings and empty bleachers in the background. The focus is on the coordination and technique involved in the game.",
+  "audio_only_ok": true,
+  "accessibility_gap": 0.276380794057565,
+  "description_gain": -0.5413952395316871,
+  "alignment_cosine": 0.9969033955437425,
+  "P_AV_shape": [
+    11,
+    20484
+  ],
+  "P_A_shape": [
+    11,
+    20484
+  ],
+  "P_AD_shape": [
+    26,
+    20484
+  ],
+  "corpus": "external",
+  "video_id": "HpRmj5ce32c_000001_000011",
+  "category": "Sports",
+  "yt_id": "HpRmj5ce32c",
+  "start_s": 1.0,
+  "end_s": 11.0
+}

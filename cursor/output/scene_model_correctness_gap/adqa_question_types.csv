@@ -1,0 +1,685 @@
+source,video_id,q_idx,question_type,is_scene_model_question,question
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,Q76JRCyTnSc_000007_000017,0,action_relation,1,"What object does the chef throw at the wall, and what happens to it?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,Q76JRCyTnSc_000007_000017,1,other,0,What language does the chef use when counting down before throwing?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,Q76JRCyTnSc_000007_000017,2,other,0,What does the chef's facial expression convey after the tomato is pinned?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,058y9xGmmTQ_000206_000216,0,who_role,1,"What is the man in the gray hoodie doing, and what physical signs of difficulty does he show?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,058y9xGmmTQ_000206_000216,1,who_role,1,How are the people around the man reacting to what he is doing?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,058y9xGmmTQ_000206_000216,2,object_attr,0,"What text is written on the tray liner, and what is used to write it?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,vLGOZvJ_v4Q_000285_000295,0,who_role,1,What color is the man's shirt and what type of cookware is he using?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,vLGOZvJ_v4Q_000285_000295,1,other,0,What ingredients are being cooked together in the skillet?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,vLGOZvJ_v4Q_000285_000295,2,who_role,1,"What utensil does the man use to cook, and what cooking technique does he demonstrate?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,B0EKYDSv_yQ_000002_000012,0,who_role,1,"What is the girl doing with the eggs, and what utensil is she using?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,B0EKYDSv_yQ_000002_000012,1,who_role,1,Who does the girl say the eggs are for?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,B0EKYDSv_yQ_000002_000012,2,who_role,1,Describe the kitchen setting and the girl's demeanor while cooking.
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,PbGvLf7HvXQ_000063_000073,0,other,0,"What ingredient is being dropped into the bowl, and what tool is used to drop it?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,PbGvLf7HvXQ_000063_000073,1,other,0,"What type of bowl is used, and what ingredient is already in it?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,PbGvLf7HvXQ_000063_000073,2,who_role,1,How does the second person combine the garlic and spinach together?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,0HEi6q3bGaw_000011_000021,0,other,0,"What are the two people riding on, and what is the landscape like?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,0HEi6q3bGaw_000011_000021,1,other,0,What does one of the riders do while they are paused and conversing?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,0HEi6q3bGaw_000011_000021,2,action_relation,1,What happens after the riders finish their conversation?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,09dQut5GJ68_000049_000059,0,who_role,1,What is the man doing on the motorcycle?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,09dQut5GJ68_000049_000059,1,other,0,What connects the sled to the motorcycle?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,09dQut5GJ68_000049_000059,2,object_attr,0,What color is the sled being pulled?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,hOirknJr3os_000001_000011,0,object_attr,0,What animal is featured on the KOA Ranch sign?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,hOirknJr3os_000001_000011,1,action_relation,1,Describe what the horses are doing in the pasture scene.
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,hOirknJr3os_000001_000011,2,action_relation,1,What activity are the people shown doing on the wooded trail?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,TF4q9y0rJoc_000000_000010,0,other,0,What type of winter sport is being performed in this clip?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,TF4q9y0rJoc_000000_000010,1,other,0,Describe the skier's movement pattern as they descend the slope.
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,TF4q9y0rJoc_000000_000010,2,other,0,What time of day is this skiing event taking place?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,z8Q-s8AthrA_000002_000012,0,who_role,1,What color clothing is the girl wearing during the track and field event?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,z8Q-s8AthrA_000002_000012,1,who_role,1,What two athletic activities does the girl perform in this clip?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,z8Q-s8AthrA_000002_000012,2,who_role,1,What is the girl doing when she stands on the track speaking?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,abaLFY_GI8k_000295_000305,0,spatial_relation,1,What sport are the boys playing and where does it take place?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,abaLFY_GI8k_000295_000305,1,other,0,Describe the two main actions that occur during the game.
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,abaLFY_GI8k_000295_000305,2,other,0,What is the condition of the net and what is the overall tone of the game?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,KFcH6BYZWhc_000011_000021,0,spatial_relation,1,"What sport are the players practicing, and where does this take place?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,KFcH6BYZWhc_000011_000021,1,action_relation,1,Describe what one player is doing with the puck during the scene.
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,KFcH6BYZWhc_000011_000021,2,other,0,What type of drills are the other players engaged in?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,UDD6YcChywc_000000_000010,0,who_role,1,What sport is being played and what object does the man slide down the ice?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,UDD6YcChywc_000000_000010,1,who_role,1,What happens to the man after he releases the curling stone?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,UDD6YcChywc_000000_000010,2,who_role,1,How do the onlookers react to the man falling?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,OGWuj_FtaQc_000010_000020,0,who_role,1,"What is the man wearing, and what is he doing along the fence?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,OGWuj_FtaQc_000010_000020,1,who_role,1,"What animal is on the other side of the fence, and how does it respond to the man?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,OGWuj_FtaQc_000010_000020,2,who_role,1,What type of game or interaction is happening between the man and the deer?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,kOf-vl-GmVI_000115_000125,0,who_role,1,"What is the woman wearing on her head, and what color is it?"
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,kOf-vl-GmVI_000115_000125,1,who_role,1,What action does the woman perform with the horse while riding?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,kOf-vl-GmVI_000115_000125,2,spatial_relation,1,Describe the setting where this scene takes place.
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,gjoZic4WjiQ_000012_000022,0,who_role,1,What happens to the first girl as she runs up the snowy hill?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,gjoZic4WjiQ_000012_000022,1,other,0,Describe the playground setting and what's between the two blue slides.
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,gjoZic4WjiQ_000012_000022,2,who_role,1,What does the second girl do after the first girl's attempt?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,q2ZBVyR1k-U_000021_000031,0,who_role,1,What does the man in the beekeeper's suit do with his protective hood?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,q2ZBVyR1k-U_000021_000031,1,who_role,1,What is the casually dressed man holding and doing?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,q2ZBVyR1k-U_000021_000031,2,spatial_relation,1,Where does this scene take place and what is the beekeeper standing in?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,qIWQHyOIpEY_000003_000013,0,action_relation,1,What is the orange cat doing to the black and white cat?
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,qIWQHyOIpEY_000003_000013,1,other,0,Describe the positions of the cats in the scene.
+output\scenetwin_timing_20clip\adqa\adqa_questions.csv,qIWQHyOIpEY_000003_000013,2,object_attr,0,What type of flooring and lighting are visible in the room?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,0,who_role,1,What is the man in the white shirt holding and demonstrating?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,1,spatial_relation,1,Where is this demonstration taking place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,2,spatial_relation,1,What is visible on the wooden board or surface in the background?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,3,who_role,1,What is the man's apparent role or profession based on the setting?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,4,who_role,1,What containers or equipment are visible on the shelves behind the man?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,0,who_role,1,What is the man in the gray hoodie doing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,1,other,0,What fast food restaurant is referenced in the video?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,2,object_attr,0,What text appears on the food packaging shown?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,3,spatial_relation,1,Where does this video appear to take place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,4,who_role,1,What is the man wearing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,0,who_role,1,What is the person cooking in the skillet?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,1,other,0,What cooking ingredient is being added to the omelet?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,2,spatial_relation,1,Where is this cooking taking place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,3,who_role,1,What utensil is the person using to cook the omelet?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,4,object_attr,0,What beverage bottle is visible on the counter?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,0,action_relation,1,What is the child doing in the kitchen?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,1,other,0,What type of food is being cooked in the pan?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,2,spatial_relation,1,Where is this scene taking place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,3,action_relation,1,What utensil is the child using to cook?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,4,spatial_relation,1,What is on the counter next to the stove?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,1,other,0,What type of container holds the greens?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,2,other,0,What is the primary ingredient being prepared?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,3,count,1,How many hands are visible performing the action?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,4,object_attr,0,What is visible on the work surface to the right of the bowl?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,0,who_role,1,What winter sport activity is the person in the center engaged in?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,1,spatial_relation,1,What is the terrain like where the snowmobiler is riding?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,2,object_attr,0,What other snowmobiles are visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,3,spatial_relation,1,What is visible on the left side of the frames in the foreground?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,4,other,0,What time of day does the lighting suggest in these frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,0,action_relation,1,What is the main subject doing in these frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,1,object_attr,0,What is the setting or environment shown?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,2,object_attr,0,What blue object is visible in the later frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,3,who_role,1,What is the person wearing that stands out visually?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,4,who_role,1,Is the person in control or losing control during this action?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,0,object_attr,0,What type of facility or venue is shown in the middle frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,1,object_attr,0,What animals are visible in the pasture scenes?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,2,object_attr,0,What is displayed on the entrance sign in the first frame?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,3,object_attr,0,What is visible in the wooded area shown in the final frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,4,other,0,What logo appears consistently throughout the video frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,0,who_role,1,What sport or activity is the person performing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,1,object_attr,0,What type of course markers are visible on the slope?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,2,other,0,What is the lighting condition during this skiing activity?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,3,object_attr,0,What is visible on the snow surface in the early frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,4,object_attr,0,What color is the skier's clothing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,0,who_role,1,What is the young person in the yellow shirt doing in these video clips?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,1,spatial_relation,1,What type of athletic facility is shown in the background?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,2,object_attr,0,What equipment is visible on the track field?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,3,other,0,What is the surface of the running area made of?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,4,other,0,What time of day are these training activities taking place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,0,other,0,What sport or activity are the people playing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,1,other,0,What type of surface is the playing area made of?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,2,object_attr,0,What structures or barriers are visible around the court?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,3,other,0,What is dividing the two sides of the playing area?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,4,other,0,What natural features are present in the setting?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,0,other,0,What sport is being played in this video?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,1,spatial_relation,1,What is the setting where this activity takes place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,2,other,0,What equipment do the players have in their hands?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,3,count,1,How many players are visible on the ice during gameplay?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,4,action_relation,1,What is the primary action occurring on the ice?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,0,other,0,What sport is being played in this video?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,1,action_relation,1,What is the player doing in the first frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,2,spatial_relation,1,Where does this curling match take place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,3,action_relation,1,What happens to the player after releasing the stone?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,4,count,1,How many other people are visible on or near the rink?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,0,action_relation,1,What is the main subject doing in these frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,1,object_attr,0,What type of setting or location is shown?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,2,who_role,1,What is the man wearing on his upper body?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,3,object_attr,0,What key objects are visible in the immediate area?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,4,spatial_relation,1,What is visible on the fence in the background?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,0,action_relation,1,What is the main subject doing in these frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,1,object_attr,0,What type of setting or location is shown?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,2,object_attr,0,What color is the horse in these frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,3,who_role,1,What is the person wearing on their head?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,4,who_role,1,What key object separates the person from the horse's body?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,0,other,0,What is the main activity taking place in these video frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,1,spatial_relation,1,What is the setting or location where this activity occurs?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,2,other,0,What equipment or structure is used for the main activity?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,3,count,1,How many people are visible participating in this activity?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,4,who_role,1,What is the person wearing on their head?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,0,who_role,1,What is the person wearing on their head and upper body?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,1,action_relation,1,What is the primary action being performed in these clips?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,2,spatial_relation,1,What is the setting or location where this activity takes place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,3,object_attr,0,What color is the large cylindrical object being examined?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,4,count,1,How many people are visible in these video frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,0,object_attr,0,What animals are visible in this video clip?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,1,action_relation,1,What is the primary action taking place in the video?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,2,spatial_relation,1,Where does this scene take place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,3,count,1,How many cats are present in the scene?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,4,spatial_relation,1,What furniture or architectural features are visible in the background?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,Q76JRCyTnSc_000007_000017,0,who_role,1,What is the man in the white shirt holding and demonstrating?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,Q76JRCyTnSc_000007_000017,1,object_attr,0,What type of setting or location is shown in the video?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,Q76JRCyTnSc_000007_000017,2,spatial_relation,1,What is visible on the wooden board or surface in the background?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,Q76JRCyTnSc_000007_000017,3,who_role,1,Describe the man's appearance and attire.
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,Q76JRCyTnSc_000007_000017,4,who_role,1,What is the man's primary action throughout the video frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,058y9xGmmTQ_000206_000216,0,who_role,1,What is the man in the gray hoodie doing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,058y9xGmmTQ_000206_000216,1,other,0,What fast food restaurant is referenced in the video?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,058y9xGmmTQ_000206_000216,2,spatial_relation,1,What is the setting or location where this takes place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,058y9xGmmTQ_000206_000216,3,object_attr,0,What text appears on the promotional material shown?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,058y9xGmmTQ_000206_000216,4,who_role,1,What is the man wearing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,vLGOZvJ_v4Q_000285_000295,0,who_role,1,What is the person cooking in the skillet?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,vLGOZvJ_v4Q_000285_000295,1,other,0,What cooking ingredient is being added to the omelet?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,vLGOZvJ_v4Q_000285_000295,2,spatial_relation,1,Where is this cooking taking place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,vLGOZvJ_v4Q_000285_000295,3,who_role,1,What utensil is the person using to cook the omelet?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,vLGOZvJ_v4Q_000285_000295,4,object_attr,0,What beverage bottle is visible on the counter?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,B0EKYDSv_yQ_000002_000012,0,action_relation,1,What is the child doing in the kitchen?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,B0EKYDSv_yQ_000002_000012,1,object_attr,0,What type of food is visible in the skillet?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,B0EKYDSv_yQ_000002_000012,2,spatial_relation,1,Where is this scene taking place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,B0EKYDSv_yQ_000002_000012,3,spatial_relation,1,What is on the counter next to the skillet?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,B0EKYDSv_yQ_000002_000012,4,action_relation,1,What utensil is the child using to cook?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,PbGvLf7HvXQ_000063_000073,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,PbGvLf7HvXQ_000063_000073,1,other,0,What type of container holds the greens?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,PbGvLf7HvXQ_000063_000073,2,other,0,What is the primary ingredient being prepared?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,PbGvLf7HvXQ_000063_000073,3,count,1,How many hands are visible performing the action?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,PbGvLf7HvXQ_000063_000073,4,object_attr,0,What is visible on the work surface to the right?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,0HEi6q3bGaw_000011_000021,0,who_role,1,What winter sport activity is the person in the center engaged in?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,0HEi6q3bGaw_000011_000021,1,spatial_relation,1,What is the terrain like where the snowmobiler is riding?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,0HEi6q3bGaw_000011_000021,2,object_attr,0,What other snowmobiles are visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,0HEi6q3bGaw_000011_000021,3,other,0,What is the weather and lighting condition during this snowmobiling activity?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,0HEi6q3bGaw_000011_000021,4,other,0,What perspective are these video frames shot from?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,09dQut5GJ68_000049_000059,0,action_relation,1,What is the main subject doing in these frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,09dQut5GJ68_000049_000059,1,object_attr,0,What type of environment or setting is shown?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,09dQut5GJ68_000049_000059,2,who_role,1,What equipment or objects are visible with the person?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,09dQut5GJ68_000049_000059,3,count,1,How many people are visible in these frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,09dQut5GJ68_000049_000059,4,object_attr,0,What is the weather condition visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,hOirknJr3os_000001_000011,0,object_attr,0,What type of facility or venue is shown in the middle frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,hOirknJr3os_000001_000011,1,object_attr,0,What animals are visible in the pasture scenes?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,hOirknJr3os_000001_000011,2,object_attr,0,What does the entrance sign display?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,hOirknJr3os_000001_000011,3,object_attr,0,What is visible in the wooded area scenes?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,hOirknJr3os_000001_000011,4,other,0,What logo appears consistently throughout the video?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,TF4q9y0rJoc_000000_000010,0,who_role,1,What sport is the person participating in?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,TF4q9y0rJoc_000000_000010,1,other,0,What time of day is this activity taking place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,TF4q9y0rJoc_000000_000010,2,object_attr,0,What markers are visible on the ski slope?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,TF4q9y0rJoc_000000_000010,3,other,0,What is the surface condition of the slope?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,TF4q9y0rJoc_000000_000010,4,object_attr,0,What is the skier wearing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,z8Q-s8AthrA_000002_000012,0,who_role,1,What is the young person in the yellow shirt doing in these video clips?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,z8Q-s8AthrA_000002_000012,1,spatial_relation,1,What type of athletic facility is shown in the background?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,z8Q-s8AthrA_000002_000012,2,object_attr,0,What equipment is visible on the track field?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,z8Q-s8AthrA_000002_000012,3,other,0,What is the time of day when this training occurs?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,z8Q-s8AthrA_000002_000012,4,spatial_relation,1,What visible text or signage appears in the stadium background?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,abaLFY_GI8k_000295_000305,0,other,0,What sport or activity are the people playing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,abaLFY_GI8k_000295_000305,1,other,0,What type of surface is the playing area made of?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,abaLFY_GI8k_000295_000305,2,object_attr,0,What structures or barriers are visible around the playing area?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,abaLFY_GI8k_000295_000305,3,count,1,How many players are actively visible on the court?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,abaLFY_GI8k_000295_000305,4,other,0,What natural features are present in the setting?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,KFcH6BYZWhc_000011_000021,0,other,0,What sport is being played in this video?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,KFcH6BYZWhc_000011_000021,1,object_attr,0,What is the primary setting or location shown?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,KFcH6BYZWhc_000011_000021,2,other,0,What equipment do the players have in their hands?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,KFcH6BYZWhc_000011_000021,3,count,1,How many teams appear to be playing?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,KFcH6BYZWhc_000011_000021,4,object_attr,0,What is the small object players are trying to control?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,UDD6YcChywc_000000_000010,0,other,0,What sport is being played in this video?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,UDD6YcChywc_000000_000010,1,action_relation,1,What is the player doing in the first frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,UDD6YcChywc_000000_000010,2,spatial_relation,1,Where is this curling match taking place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,UDD6YcChywc_000000_000010,3,action_relation,1,What happens to the player after releasing the stone?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,UDD6YcChywc_000000_000010,4,count,1,How many other people are visible on the rink during the play?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,OGWuj_FtaQc_000010_000020,0,action_relation,1,What is the main subject doing in these frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,OGWuj_FtaQc_000010_000020,1,object_attr,0,What type of setting or location is shown?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,OGWuj_FtaQc_000010_000020,2,who_role,1,What is the man wearing on his upper body?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,OGWuj_FtaQc_000010_000020,3,object_attr,0,What key objects are visible in the immediate area?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,OGWuj_FtaQc_000010_000020,4,spatial_relation,1,What is visible on the fence in the background?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,kOf-vl-GmVI_000115_000125,0,action_relation,1,What is the main subject doing in these frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,kOf-vl-GmVI_000115_000125,1,object_attr,0,What type of setting or location is shown?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,kOf-vl-GmVI_000115_000125,2,object_attr,0,What color is the horse in the frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,kOf-vl-GmVI_000115_000125,3,who_role,1,What is the person wearing on their head?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,kOf-vl-GmVI_000115_000125,4,object_attr,0,What key object is used to contain or control the horse?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,gjoZic4WjiQ_000012_000022,0,other,0,What is the main activity taking place in these video frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,gjoZic4WjiQ_000012_000022,1,spatial_relation,1,What is the setting or location where this activity occurs?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,gjoZic4WjiQ_000012_000022,2,other,0,What equipment or structure is used for the main activity?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,gjoZic4WjiQ_000012_000022,3,count,1,How many people are visible participating in the activity?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,gjoZic4WjiQ_000012_000022,4,who_role,1,What is the person sliding wearing on their head?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,q2ZBVyR1k-U_000021_000031,0,who_role,1,What is the person wearing on their head and upper body?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,q2ZBVyR1k-U_000021_000031,1,object_attr,0,What is the primary activity shown in these video frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,q2ZBVyR1k-U_000021_000031,2,spatial_relation,1,What type of environment or setting is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,q2ZBVyR1k-U_000021_000031,3,who_role,1,What is the cylindrical object the person is holding or displaying?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,q2ZBVyR1k-U_000021_000031,4,count,1,How many people are visible in these frames?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,qIWQHyOIpEY_000003_000013,0,object_attr,0,What animals are visible in this video clip?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,qIWQHyOIpEY_000003_000013,1,action_relation,1,What is the primary action occurring in this scene?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,qIWQHyOIpEY_000003_000013,2,spatial_relation,1,Where does this scene take place?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,qIWQHyOIpEY_000003_000013,3,spatial_relation,1,What furniture or structural elements are visible in the background?
+output\scenetwin_timing_20clip\adqa_q-claude-haiku-4-5_g-gpt-4o\questions.csv,qIWQHyOIpEY_000003_000013,4,count,1,How many cats appear to be present in this scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,1,spatial_relation,1,Where is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,2,action_relation,1,What key object is the subject holding?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,3,object_attr,0,What is visible on the board?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,4,other,0,What is the subject's reaction after throwing the knife?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,1,other,0,What is the setting or location?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,2,action_relation,1,What key object is the subject holding?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,3,object_attr,0,What text is visible on the tray?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,4,object_attr,0,What is the subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,1,spatial_relation,1,What kitchen appliance is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,2,spatial_relation,1,What ingredient is visible next to the stove?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,3,object_attr,0,What brand of salt is visible on the counter?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,4,other,0,What is the main ingredient in the pan?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,1,spatial_relation,1,What kitchen appliance is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,2,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,3,spatial_relation,1,What is on the counter next to the stove?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,4,other,0,What is the main subject's expression?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,1,object_attr,0,What is the main object being used?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,2,other,0,What is on the cutting board?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,3,count,1,How many hands are involved in the action?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,4,other,0,What type of leaves are being mixed?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,1,object_attr,0,What type of terrain is visible?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,2,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,3,object_attr,0,What key objects are visible besides the snowmobile?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,4,object_attr,0,What text is visible on the snowmobile?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,2,object_attr,0,What key object is visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,3,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,4,object_attr,0,Is there any visible text on screen?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,0,other,0,What animals are prominently featured in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,1,other,0,What is the setting of the video?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,2,object_attr,0,What text is visible on the sign in the first frame?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,3,object_attr,0,What flags are visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,4,other,0,What activity are the horses engaged in?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,2,action_relation,1,What equipment is the main subject using?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,3,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,4,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,1,spatial_relation,1,Where is the scene taking place?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,2,action_relation,1,What key object is involved in the action?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,3,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,4,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,0,other,0,What activity are the people engaged in?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,1,other,0,What is the setting of the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,2,object_attr,0,What key object is used in the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,3,count,1,How many people are visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,4,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,0,other,0,What activity is taking place in the images?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,1,action_relation,1,What is the main action happening in the images?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,2,other,0,What is the setting of the images?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,3,object_attr,0,What key objects are visible in the images?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,4,object_attr,0,What on-screen text is visible in the images?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,1,other,0,What is the setting of the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,2,action_relation,1,What happens to the main subject after sliding the stone?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,3,object_attr,0,What key object is involved in the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,4,count,1,How many people are visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,1,object_attr,0,What type of fence is visible?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,2,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,3,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,4,object_attr,0,What text is visible on signs?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,1,object_attr,0,What type of setting is shown?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,2,action_relation,1,What is the main object involved in the action?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,3,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,4,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,2,object_attr,0,What key object is prominently featured?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,3,count,1,How many people are visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,4,object_attr,0,What type of clothing is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,1,other,0,What is the setting of the video?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,2,who_role,1,What is the second person doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,3,who_role,1,What key object is the second person holding?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,4,object_attr,0,What is visible on the vehicle's window?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,0,action_relation,1,What are the two animals doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,2,object_attr,0,What furniture is visible in the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,3,count,1,How many animals are visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,4,spatial_relation,1,What is the position of the third animal?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,Q76JRCyTnSc_000007_000017,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,Q76JRCyTnSc_000007_000017,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,Q76JRCyTnSc_000007_000017,2,object_attr,0,What object does the main subject throw?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,Q76JRCyTnSc_000007_000017,3,spatial_relation,1,What is visible on the board where the object hits?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,Q76JRCyTnSc_000007_000017,4,object_attr,0,What is the main subject's reaction after throwing the object?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,058y9xGmmTQ_000206_000216,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,058y9xGmmTQ_000206_000216,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,058y9xGmmTQ_000206_000216,2,other,0,What brand is prominently featured?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,058y9xGmmTQ_000206_000216,3,other,0,What is written on the tray liner?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,058y9xGmmTQ_000206_000216,4,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,vLGOZvJ_v4Q_000285_000295,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,vLGOZvJ_v4Q_000285_000295,1,spatial_relation,1,What kitchen appliance is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,vLGOZvJ_v4Q_000285_000295,2,other,0,What container is near the stove?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,vLGOZvJ_v4Q_000285_000295,3,other,0,What is the main ingredient being cooked?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,vLGOZvJ_v4Q_000285_000295,4,object_attr,0,What brand is visible on the salt container?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,B0EKYDSv_yQ_000002_000012,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,B0EKYDSv_yQ_000002_000012,1,spatial_relation,1,Where is the main subject located?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,B0EKYDSv_yQ_000002_000012,2,action_relation,1,What key object is the main subject using?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,B0EKYDSv_yQ_000002_000012,3,spatial_relation,1,What is on the counter next to the main subject?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,B0EKYDSv_yQ_000002_000012,4,object_attr,0,What is visible on the subject's shirt?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,PbGvLf7HvXQ_000063_000073,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,PbGvLf7HvXQ_000063_000073,1,other,0,What type of bowl is being used?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,PbGvLf7HvXQ_000063_000073,2,other,0,What is on the cutting board?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,PbGvLf7HvXQ_000063_000073,3,count,1,How many hands are involved in the action?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,PbGvLf7HvXQ_000063_000073,4,other,0,What is the setting of the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,0HEi6q3bGaw_000011_000021,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,0HEi6q3bGaw_000011_000021,1,other,0,What type of terrain is the scene set in?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,0HEi6q3bGaw_000011_000021,2,object_attr,0,What is the main object being used?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,0HEi6q3bGaw_000011_000021,3,object_attr,0,What is visible on the snowmobile?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,0HEi6q3bGaw_000011_000021,4,other,0,What is the weather condition in the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,09dQut5GJ68_000049_000059,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,09dQut5GJ68_000049_000059,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,09dQut5GJ68_000049_000059,2,object_attr,0,What key object is visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,09dQut5GJ68_000049_000059,3,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,09dQut5GJ68_000049_000059,4,object_attr,0,Is there any visible text on screen?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,hOirknJr3os_000001_000011,0,object_attr,0,What is depicted on the sign in the first frame?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,hOirknJr3os_000001_000011,1,object_attr,0,What animals are shown in the third and fourth frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,hOirknJr3os_000001_000011,2,object_attr,0,What flags are visible in the second frame?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,hOirknJr3os_000001_000011,3,other,0,What activity is happening in the fifth to seventh frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,hOirknJr3os_000001_000011,4,other,0,What logo is present in all frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,TF4q9y0rJoc_000000_000010,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,TF4q9y0rJoc_000000_000010,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,TF4q9y0rJoc_000000_000010,2,object_attr,0,What key objects are visible on the slope?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,TF4q9y0rJoc_000000_000010,3,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,TF4q9y0rJoc_000000_000010,4,other,0,What is the lighting condition in the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,z8Q-s8AthrA_000002_000012,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,z8Q-s8AthrA_000002_000012,1,spatial_relation,1,Where is the activity taking place?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,z8Q-s8AthrA_000002_000012,2,object_attr,0,What key object is involved in the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,z8Q-s8AthrA_000002_000012,3,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,z8Q-s8AthrA_000002_000012,4,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,abaLFY_GI8k_000295_000305,0,other,0,What activity are the people engaged in?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,abaLFY_GI8k_000295_000305,1,other,0,What is the setting of the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,abaLFY_GI8k_000295_000305,2,object_attr,0,What key object is used in the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,abaLFY_GI8k_000295_000305,3,count,1,How many people are visible participating in the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,abaLFY_GI8k_000295_000305,4,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,KFcH6BYZWhc_000011_000021,0,other,0,What activity is taking place on the ice?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,KFcH6BYZWhc_000011_000021,1,action_relation,1,What is the main action of the players?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,KFcH6BYZWhc_000011_000021,2,object_attr,0,What equipment is visible on the ice?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,KFcH6BYZWhc_000011_000021,3,other,0,What is the setting of the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,KFcH6BYZWhc_000011_000021,4,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,UDD6YcChywc_000000_000010,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,UDD6YcChywc_000000_000010,1,action_relation,1,What happens to the main subject after releasing the stone?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,UDD6YcChywc_000000_000010,2,other,0,What is the setting of the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,UDD6YcChywc_000000_000010,3,object_attr,0,What key object is involved in the activity?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,UDD6YcChywc_000000_000010,4,count,1,How many people are visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,OGWuj_FtaQc_000010_000020,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,OGWuj_FtaQc_000010_000020,1,object_attr,0,What type of fence is visible?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,OGWuj_FtaQc_000010_000020,2,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,OGWuj_FtaQc_000010_000020,3,who_role,1,What is the person wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,OGWuj_FtaQc_000010_000020,4,object_attr,0,What signs are visible on the fence?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,kOf-vl-GmVI_000115_000125,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,kOf-vl-GmVI_000115_000125,1,object_attr,0,What type of setting is shown in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,kOf-vl-GmVI_000115_000125,2,object_attr,0,What key object is the main subject interacting with?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,kOf-vl-GmVI_000115_000125,3,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,kOf-vl-GmVI_000115_000125,4,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,gjoZic4WjiQ_000012_000022,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,gjoZic4WjiQ_000012_000022,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,gjoZic4WjiQ_000012_000022,2,object_attr,0,What key objects are visible in the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,gjoZic4WjiQ_000012_000022,3,count,1,How many people are visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,gjoZic4WjiQ_000012_000022,4,object_attr,0,What are the people wearing on their heads?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,q2ZBVyR1k-U_000021_000031,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,q2ZBVyR1k-U_000021_000031,1,other,0,What is the setting of the video?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,q2ZBVyR1k-U_000021_000031,2,who_role,1,What is the second person holding?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,q2ZBVyR1k-U_000021_000031,3,object_attr,0,What is visible on the vehicle?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,q2ZBVyR1k-U_000021_000031,4,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,qIWQHyOIpEY_000003_000013,0,action_relation,1,What are the two animals doing?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,qIWQHyOIpEY_000003_000013,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,qIWQHyOIpEY_000003_000013,2,object_attr,0,What furniture is visible in the room?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,qIWQHyOIpEY_000003_000013,3,count,1,How many animals are visible in the frames?
+output\scenetwin_timing_20clip\adqa_q-gpt-4o_g-gpt-4o\questions.csv,qIWQHyOIpEY_000003_000013,4,spatial_relation,1,What is the position of the third animal?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,0,who_role,1,What is the man in the white shirt holding and demonstrating?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,1,who_role,1,What type of setting or environment is the man in?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,2,object_attr,0,What is visible on the wooden board or surface shown in the later frames?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,3,count,1,How many times does the man's facial expression or gesture change across the frames?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,Q76JRCyTnSc_000007_000017,4,object_attr,0,What organizational or planning materials are visible in the workspace?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,0,who_role,1,What is the man in the gray hoodie doing with his hands in the opening seconds?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,1,object_attr,0,What food brand or restaurant signage is visible in the final frame?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,2,who_role,1,Describe the man's appearance and clothing in the opening shots.
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,3,spatial_relation,1,What type of setting or location is shown in the background?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,058y9xGmmTQ_000206_000216,4,who_role,1,What is the man holding or consuming in the high-need opening sequence?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,0,who_role,1,What is the person cooking in the black skillet?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,1,who_role,1,What cooking utensil is the person using to manipulate the omelet?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,2,spatial_relation,1,What type of cooking surface or appliance is visible in the background?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,3,who_role,1,What liquid ingredient is the person pouring into the second skillet?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,vLGOZvJ_v4Q_000285_000295,4,count,1,How many black skillets are on the stovetop during this cooking sequence?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,0,action_relation,1,What is the child holding and doing with it at the kitchen counter?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,1,object_attr,0,What type of food is visible in the skillet?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,2,spatial_relation,1,Where is this scene taking place?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,3,spatial_relation,1,What is on the counter next to the skillet?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,B0EKYDSv_yQ_000002_000012,4,other,0,What is the child's apparent emotional state during this activity?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,0,other,0,What is being prepared in the wooden bowl?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,1,other,0,Describe the hand motions being used to prepare the vegetables.
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,2,other,0,What container holds the vegetables being prepared?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,3,object_attr,0,What is visible on the wooden surface to the right of the bowl?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,PbGvLf7HvXQ_000063_000073,4,count,1,How many people are visible preparing the food in this clip?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,0,action_relation,1,"What vehicles are visible on the snowy surface, and what are they doing?"
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,1,object_attr,0,Describe the landscape and weather conditions visible in this scene.
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,2,spatial_relation,1,What color are the snowmobiles visible in the foreground of the frames?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,3,spatial_relation,1,What is the relative position of the snowmobiles as the sequence progresses?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,0HEi6q3bGaw_000011_000021,4,object_attr,0,What terrain features or obstacles are visible on the snowy surface?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,0,who_role,1,"What is the person doing in the snow, and what equipment are they using?"
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,1,object_attr,0,What color is the main equipment visible in the frames?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,2,spatial_relation,1,What is the setting or terrain where this activity is taking place?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,3,object_attr,0,What visual pattern or marks are visible on the snow surface?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,09dQut5GJ68_000049_000059,4,other,0,What is the perspective or camera angle showing in these frames?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,0,object_attr,0,What type of facility or venue is shown in the video?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,1,object_attr,0,What animals are visible in the middle section of the video?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,2,other,0,What signage or branding appears throughout the video?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,3,object_attr,0,What structures or infrastructure are visible at the facility?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,hOirknJr3os_000001_000011,4,other,0,What is happening in the final frames of the video?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,0,who_role,1,What sport or activity is the person performing on the snow-covered surface?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,1,other,0,Describe the lighting conditions and time of day for this skiing activity.
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,2,object_attr,0,What markers or boundary indicators are visible on the ski slope?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,3,spatial_relation,1,What is the skier's body position and movement direction as they descend?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,TF4q9y0rJoc_000000_000010,4,spatial_relation,1,What structures or buildings are visible in the background of the ski area?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,0,who_role,1,What is the young person in the yellow shirt doing at the track?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,1,object_attr,0,What athletic equipment is visible on the track field?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,2,who_role,1,What is the person attempting to do with the high jump bar?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,3,spatial_relation,1,Describe the location and setting where this athletic activity takes place.
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,z8Q-s8AthrA_000002_000012,4,object_attr,0,What color is the landing mat beneath the high jump bar?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,0,other,0,What sport or activity are the young people playing in this outdoor setting?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,1,other,0,Describe the playing surface and immediate surroundings of the volleyball court.
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,2,count,1,How many players are visible on the court at the moment shown in these frames?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,3,object_attr,0,What color clothing are the players wearing?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,abaLFY_GI8k_000295_000305,4,spatial_relation,1,What infrastructure or structures are visible in the background of the court?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,0,other,0,What sport is being played in this indoor facility?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,1,spatial_relation,1,Describe the main player's position and movement during the opening seconds.
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,2,object_attr,0,What is visible on the ice surface that the player is tracking?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,3,object_attr,0,What equipment or structures are visible in the rink during the later sequence?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,KFcH6BYZWhc_000011_000021,4,count,1,How many players are actively visible on the ice in the final frames?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,0,other,0,What sport or activity is taking place on the marked surface?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,1,who_role,1,Describe the person's body position and movement in the opening frames.
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,2,action_relation,1,What happens to the curler between the first and final frames shown?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,3,other,0,What is the setting or venue for this activity?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,UDD6YcChywc_000000_000010,4,count,1,How many people are visible as active participants or observers in the scene?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,0,who_role,1,What is the person wearing and what is their body position in the opening frames?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,1,who_role,1,What type of fencing and setting surrounds the person during the activity?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,2,who_role,1,What is the person doing with the wooden fence as they move along the path?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,3,object_attr,0,What object is visible on the ground near the fence in the later frames?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,OGWuj_FtaQc_000010_000020,4,object_attr,0,What is visible on the fence that provides information about the location?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,0,who_role,1,What is the person wearing on their head?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,1,who_role,1,What animal is the person interacting with?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,2,spatial_relation,1,Where is this scene taking place?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,3,who_role,1,What is the person doing with the horse?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,kOf-vl-GmVI_000115_000125,4,other,0,What type of barrier separates the horse area from the surroundings?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,0,other,0,What winter sport or activity are the people participating in?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,1,action_relation,1,Describe the structure people are using to slide down.
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,2,who_role,1,What happens to the person in the red hat during the sequence?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,3,count,1,How many people are visible actively sledding or waiting to sled?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,gjoZic4WjiQ_000012_000022,4,other,0,What is the ground surface covered with throughout the scene?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,0,who_role,1,What is covering the person's head and face in the first image?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,1,who_role,1,What is the person holding in their hands during the middle sequence?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,2,object_attr,0,What type of outdoor setting is visible in these images?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,3,who_role,1,What is the person wearing on their upper body?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,q2ZBVyR1k-U_000021_000031,4,action_relation,1,What happens to the basket covering in the final images?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,0,action_relation,1,"What animals are visible on the wooden floor, and what are they doing?"
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,1,count,1,How many cats are present in this scene?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,2,spatial_relation,1,What is the setting or location where this activity takes place?
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,3,object_attr,0,"What colors are the cats, and are they all the same color?"
+output\scenetwin_timing_20clip\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\questions.csv,qIWQHyOIpEY_000003_000013,4,other,0,What is the primary type of interaction happening between the cats?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,Q76JRCyTnSc_000007_000017,0,who_role,1,What is the man in the white shirt holding and demonstrating?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,Q76JRCyTnSc_000007_000017,1,object_attr,0,What type of setting or location is shown in most of the frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,Q76JRCyTnSc_000007_000017,2,object_attr,0,What is visible on the wooden board or surface in one of the frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,Q76JRCyTnSc_000007_000017,3,count,1,How many people are clearly visible as the main focus throughout the video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,Q76JRCyTnSc_000007_000017,4,who_role,1,What is the man's apparent role or activity in this setting?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,058y9xGmmTQ_000206_000216,0,who_role,1,What is the man in the gray hoodie doing in the first sequence?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,058y9xGmmTQ_000206_000216,1,spatial_relation,1,Where does this video take place?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,058y9xGmmTQ_000206_000216,2,object_attr,0,What restaurant or brand is visible on the packaging shown?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,058y9xGmmTQ_000206_000216,3,object_attr,0,What text appears on the Burger King packaging?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,058y9xGmmTQ_000206_000216,4,who_role,1,What is the man wearing?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,vLGOZvJ_v4Q_000285_000295,0,who_role,1,What is the person cooking in the skillet?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,vLGOZvJ_v4Q_000285_000295,1,other,0,What liquid is being poured into the pan?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,vLGOZvJ_v4Q_000285_000295,2,spatial_relation,1,Where is this cooking activity taking place?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,vLGOZvJ_v4Q_000285_000295,3,object_attr,0,What cooking equipment is visible on the stovetop?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,vLGOZvJ_v4Q_000285_000295,4,other,0,What brand of oil is being used?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,B0EKYDSv_yQ_000002_000012,0,action_relation,1,What is the child doing with the cooking pan?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,B0EKYDSv_yQ_000002_000012,1,spatial_relation,1,Where is this activity taking place?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,B0EKYDSv_yQ_000002_000012,2,other,0,What type of food appears to be in the pan?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,B0EKYDSv_yQ_000002_000012,3,action_relation,1,What utensil is the child using to cook?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,B0EKYDSv_yQ_000002_000012,4,object_attr,0,What is visible on the counter near the cooking area?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,PbGvLf7HvXQ_000063_000073,0,action_relation,1,What is the main action being performed with the greens in the wooden bowl?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,PbGvLf7HvXQ_000063_000073,1,other,0,What type of container holds the greens being prepared?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,PbGvLf7HvXQ_000063_000073,2,object_attr,0,What is visible on the cutting board to the right of the bowl?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,PbGvLf7HvXQ_000063_000073,3,count,1,How many hands are visible performing the action in the bowl?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,PbGvLf7HvXQ_000063_000073,4,other,0,What is the primary ingredient being handled in the wooden bowl?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,0HEi6q3bGaw_000011_000021,0,action_relation,1,What is the main subject doing in this video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,0HEi6q3bGaw_000011_000021,1,object_attr,0,What type of environment or setting is shown?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,0HEi6q3bGaw_000011_000021,2,spatial_relation,1,What vehicles are visible in the foreground of the frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,0HEi6q3bGaw_000011_000021,3,other,0,What is the perspective or camera viewpoint in this video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,0HEi6q3bGaw_000011_000021,4,object_attr,0,What visible text or branding appears on the snowmobiles?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,09dQut5GJ68_000049_000059,0,action_relation,1,What is the main subject doing in these frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,09dQut5GJ68_000049_000059,1,spatial_relation,1,What is the setting or environment where this action takes place?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,09dQut5GJ68_000049_000059,2,object_attr,0,What blue object is visible in the later frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,09dQut5GJ68_000049_000059,3,who_role,1,What is the person wearing that makes them visible against the snow?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,09dQut5GJ68_000049_000059,4,who_role,1,Is the person in control of their movement or falling uncontrollably?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,hOirknJr3os_000001_000011,0,object_attr,0,What animals are shown grazing in the pasture?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,hOirknJr3os_000001_000011,1,object_attr,0,What type of facility or location is shown in the middle frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,hOirknJr3os_000001_000011,2,other,0,What logo or branding appears in the bottom left corner of the frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,hOirknJr3os_000001_000011,3,object_attr,0,What is depicted on the sign at the entrance of the property?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,hOirknJr3os_000001_000011,4,action_relation,1,What is the horse doing in the final frames among the trees?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,TF4q9y0rJoc_000000_000010,0,who_role,1,What sport or activity is the person performing on the snowy surface?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,TF4q9y0rJoc_000000_000010,1,object_attr,0,What type of location or venue is shown in these frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,TF4q9y0rJoc_000000_000010,2,object_attr,0,What objects are visible on the slope that mark the course?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,TF4q9y0rJoc_000000_000010,3,other,0,What time of day is this skiing activity taking place?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,TF4q9y0rJoc_000000_000010,4,object_attr,0,What is the skier wearing that is visible in the frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,z8Q-s8AthrA_000002_000012,0,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,z8Q-s8AthrA_000002_000012,1,who_role,1,What sport or activity is the person participating in?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,z8Q-s8AthrA_000002_000012,2,spatial_relation,1,What is the setting or location where this takes place?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,z8Q-s8AthrA_000002_000012,3,object_attr,0,What equipment or objects are visible on the track?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,z8Q-s8AthrA_000002_000012,4,who_role,1,What is the person's main action in the later frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,abaLFY_GI8k_000295_000305,0,other,0,What sport or activity are the people playing?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,abaLFY_GI8k_000295_000305,1,other,0,What is the playing surface made of?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,abaLFY_GI8k_000295_000305,2,other,0,What structure divides the two sides of the playing area?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,abaLFY_GI8k_000295_000305,3,spatial_relation,1,What is visible in the background of this outdoor venue?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,abaLFY_GI8k_000295_000305,4,count,1,How many players are actively visible on the court at once?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,KFcH6BYZWhc_000011_000021,0,other,0,What sport or activity is taking place in this video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,KFcH6BYZWhc_000011_000021,1,action_relation,1,What is the main subject holding and using?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,KFcH6BYZWhc_000011_000021,2,spatial_relation,1,Where is this activity taking place?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,KFcH6BYZWhc_000011_000021,3,other,0,What is the main player attempting to do with the puck?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,KFcH6BYZWhc_000011_000021,4,count,1,How many players are visible on the ice during the action?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,UDD6YcChywc_000000_000010,0,other,0,What sport or activity is taking place in this venue?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,UDD6YcChywc_000000_000010,1,action_relation,1,What is the main subject doing in the sequence of frames?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,UDD6YcChywc_000000_000010,2,spatial_relation,1,Where is this activity taking place?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,UDD6YcChywc_000000_000010,3,object_attr,0,What object does the curler release during the slide?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,UDD6YcChywc_000000_000010,4,count,1,How many other people are visible observing or assisting during the play?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,OGWuj_FtaQc_000010_000020,0,action_relation,1,What is the main subject doing in this video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,OGWuj_FtaQc_000010_000020,1,object_attr,0,What type of location or setting is shown in the video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,OGWuj_FtaQc_000010_000020,2,who_role,1,What is the man wearing?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,OGWuj_FtaQc_000010_000020,3,spatial_relation,1,What prominent objects are visible in the foreground of the video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,OGWuj_FtaQc_000010_000020,4,object_attr,0,What type of fencing is visible in this video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,kOf-vl-GmVI_000115_000125,0,action_relation,1,What is the main subject doing in this video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,kOf-vl-GmVI_000115_000125,1,who_role,1,What is the person wearing on their head?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,kOf-vl-GmVI_000115_000125,2,spatial_relation,1,Describe the setting where this activity takes place.
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,kOf-vl-GmVI_000115_000125,3,object_attr,0,What color is the horse being ridden?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,kOf-vl-GmVI_000115_000125,4,other,0,What type of fence is the horse jumping over?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,gjoZic4WjiQ_000012_000022,0,action_relation,1,What is the main subject doing in this video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,gjoZic4WjiQ_000012_000022,1,who_role,1,What type of structure or equipment is the person sliding on?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,gjoZic4WjiQ_000012_000022,2,other,0,What is the ground surface covered with?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,gjoZic4WjiQ_000012_000022,3,spatial_relation,1,What is visible in the background of this outdoor scene?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,gjoZic4WjiQ_000012_000022,4,count,1,How many people are visible participating in or observing the activity?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,q2ZBVyR1k-U_000021_000031,0,object_attr,0,What is the main subject wearing on their head?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,q2ZBVyR1k-U_000021_000031,1,who_role,1,What is the person's primary action throughout the video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,q2ZBVyR1k-U_000021_000031,2,spatial_relation,1,What is the setting or location where this takes place?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,q2ZBVyR1k-U_000021_000031,3,object_attr,0,What clothing is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,q2ZBVyR1k-U_000021_000031,4,who_role,1,"Is there another person visible in the video, and what are they doing?"
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,qIWQHyOIpEY_000003_000013,0,other,0,What animals are the main subjects in this video?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,qIWQHyOIpEY_000003_000013,1,action_relation,1,What is the primary action the cats are performing?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,qIWQHyOIpEY_000003_000013,2,object_attr,0,What type of flooring is visible in this indoor setting?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,qIWQHyOIpEY_000003_000013,3,spatial_relation,1,What architectural features are visible in the background?
+output\scenetwin_timing_20clip\adqa_v2\adqa_v2_questions.csv,qIWQHyOIpEY_000003_000013,4,count,1,How many cats can be clearly identified in the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,Q76JRCyTnSc_000007_000017,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,Q76JRCyTnSc_000007_000017,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,Q76JRCyTnSc_000007_000017,2,spatial_relation,1,What key objects are visible in the background?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,Q76JRCyTnSc_000007_000017,3,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,Q76JRCyTnSc_000007_000017,4,object_attr,0,What text is visible on the subject's coat?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,058y9xGmmTQ_000206_000216,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,058y9xGmmTQ_000206_000216,1,spatial_relation,1,Where is the main subject located?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,058y9xGmmTQ_000206_000216,2,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,058y9xGmmTQ_000206_000216,3,action_relation,1,What key object is the subject holding?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,058y9xGmmTQ_000206_000216,4,object_attr,0,What text is visible on the tray?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,vLGOZvJ_v4Q_000285_000295,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,vLGOZvJ_v4Q_000285_000295,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,vLGOZvJ_v4Q_000285_000295,2,other,0,What key objects are involved in the cooking?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,vLGOZvJ_v4Q_000285_000295,3,object_attr,0,What visible text is on the container?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,vLGOZvJ_v4Q_000285_000295,4,action_relation,1,What is the main subject using to stir the food?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,B0EKYDSv_yQ_000002_000012,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,B0EKYDSv_yQ_000002_000012,1,spatial_relation,1,Where is the main subject located?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,B0EKYDSv_yQ_000002_000012,2,action_relation,1,What key object is the main subject using?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,B0EKYDSv_yQ_000002_000012,3,spatial_relation,1,What is on the counter next to the stove?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,B0EKYDSv_yQ_000002_000012,4,object_attr,0,What is visible on the subject's shirt?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,PbGvLf7HvXQ_000063_000073,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,PbGvLf7HvXQ_000063_000073,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,PbGvLf7HvXQ_000063_000073,2,action_relation,1,What key objects are involved in the action?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,PbGvLf7HvXQ_000063_000073,3,other,0,What is on the cutting board?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,PbGvLf7HvXQ_000063_000073,4,count,1,How many hands are involved in the action?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,0HEi6q3bGaw_000011_000021,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,0HEi6q3bGaw_000011_000021,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,0HEi6q3bGaw_000011_000021,2,other,0,What key objects are involved in the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,0HEi6q3bGaw_000011_000021,3,object_attr,0,What is visible on the snowmobile?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,0HEi6q3bGaw_000011_000021,4,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,09dQut5GJ68_000049_000059,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,09dQut5GJ68_000049_000059,1,other,0,What is the setting or location?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,09dQut5GJ68_000049_000059,2,action_relation,1,What key object is involved in the action?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,09dQut5GJ68_000049_000059,3,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,09dQut5GJ68_000049_000059,4,object_attr,0,Is there any visible on-screen text?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,hOirknJr3os_000001_000011,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,hOirknJr3os_000001_000011,1,other,0,What is the setting or location?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,hOirknJr3os_000001_000011,2,other,0,What key objects are involved?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,hOirknJr3os_000001_000011,3,object_attr,0,What text is visible on the sign?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,hOirknJr3os_000001_000011,4,spatial_relation,1,What flags are visible in the background?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,TF4q9y0rJoc_000000_000010,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,TF4q9y0rJoc_000000_000010,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,TF4q9y0rJoc_000000_000010,2,other,0,What key objects are involved in the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,TF4q9y0rJoc_000000_000010,3,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,TF4q9y0rJoc_000000_000010,4,object_attr,0,Is there any visible on-screen text?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,z8Q-s8AthrA_000002_000012,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,z8Q-s8AthrA_000002_000012,1,spatial_relation,1,Where is the scene taking place?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,z8Q-s8AthrA_000002_000012,2,action_relation,1,What key objects are involved in the action?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,z8Q-s8AthrA_000002_000012,3,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,z8Q-s8AthrA_000002_000012,4,object_attr,0,What visible text is on the banners?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,abaLFY_GI8k_000295_000305,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,abaLFY_GI8k_000295_000305,1,other,0,What is the setting of the activity?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,abaLFY_GI8k_000295_000305,2,object_attr,0,What key object is involved in the activity?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,abaLFY_GI8k_000295_000305,3,count,1,How many people are actively participating?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,abaLFY_GI8k_000295_000305,4,spatial_relation,1,What is visible on the buildings in the background?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,KFcH6BYZWhc_000011_000021,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,KFcH6BYZWhc_000011_000021,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,KFcH6BYZWhc_000011_000021,2,action_relation,1,What key object is the main subject using?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,KFcH6BYZWhc_000011_000021,3,spatial_relation,1,What is visible in the background?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,KFcH6BYZWhc_000011_000021,4,object_attr,0,What text is visible on the boards?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,UDD6YcChywc_000000_000010,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,UDD6YcChywc_000000_000010,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,UDD6YcChywc_000000_000010,2,action_relation,1,What happens to the main subject at the end?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,UDD6YcChywc_000000_000010,3,action_relation,1,What key object is involved in the action?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,UDD6YcChywc_000000_000010,4,object_attr,0,What is visible on the ice surface?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,OGWuj_FtaQc_000010_000020,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,OGWuj_FtaQc_000010_000020,1,object_attr,0,What type of fence is visible?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,OGWuj_FtaQc_000010_000020,2,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,OGWuj_FtaQc_000010_000020,3,other,0,What key objects are near the fence?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,OGWuj_FtaQc_000010_000020,4,object_attr,0,What text is visible on the signs?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,kOf-vl-GmVI_000115_000125,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,kOf-vl-GmVI_000115_000125,1,spatial_relation,1,Where is the main subject located?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,kOf-vl-GmVI_000115_000125,2,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,kOf-vl-GmVI_000115_000125,3,object_attr,0,What key object is the main subject interacting with?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,kOf-vl-GmVI_000115_000125,4,object_attr,0,Is there any visible on-screen text?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,gjoZic4WjiQ_000012_000022,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,gjoZic4WjiQ_000012_000022,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,gjoZic4WjiQ_000012_000022,2,object_attr,0,What key object is involved in the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,gjoZic4WjiQ_000012_000022,3,object_attr,0,What is the main subject wearing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,gjoZic4WjiQ_000012_000022,4,object_attr,0,Is there any visible on-screen text?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,q2ZBVyR1k-U_000021_000031,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,q2ZBVyR1k-U_000021_000031,1,other,0,What is the setting or location?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,q2ZBVyR1k-U_000021_000031,2,who_role,1,What key object is the second person holding?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,q2ZBVyR1k-U_000021_000031,3,who_role,1,What is the second person doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,q2ZBVyR1k-U_000021_000031,4,who_role,1,What visible text is on the second person's shirt?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,qIWQHyOIpEY_000003_000013,0,action_relation,1,What is the main subject doing?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,qIWQHyOIpEY_000003_000013,1,other,0,What is the setting of the scene?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,qIWQHyOIpEY_000003_000013,2,object_attr,0,What key objects are visible in the room?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,qIWQHyOIpEY_000003_000013,3,spatial_relation,1,What is the position of the second cat?
+output\scenetwin_timing_20clip\adqa_v4\adqa_v4_questions.csv,qIWQHyOIpEY_000003_000013,4,object_attr,0,Is there any visible on-screen text?
