@@ -1,0 +1,4 @@
+top_window_route,n_clips,clip_halluc_drop_mean,clip_para_drop_mean,clip_specific_margin_mean,clip_halluc_detect_rate,clip_specific_rate,adqa_halluc_drop_mean,adqa_para_drop_mean,adqa_specific_margin_mean,adqa_detect_rate,adqa_blind_rate,mean_visual_gap,max_visual_gap
+layout_replay_or_scene_cue,26,0.0347295008,0.007169008255,0.02756049255,0.9615384615,0.7692307692,0.1653846154,-0.04615384615,0.2115384615,0.7692307692,0.1923076923,0.3120356322,0.6926523916
+action_state_or_agent_cue,18,0.04067733222,0.008210389151,0.03246694307,0.9444444444,0.8888888889,0.2,0,0.2,0.6666666667,0.3333333333,0.2913411288,0.9551353501
+static_ad_ok_low_gap,16,0.03610595223,0.008079653606,0.02802629862,0.9375,0.8125,0.1375,0.00625,0.13125,0.625,0.375,0.09035010851,0.1904207082

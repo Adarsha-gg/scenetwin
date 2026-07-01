@@ -2,100 +2,116 @@
 title: SceneTwin Next Steps / Pending Experiments
 category: research
 tags: [SceneTwin, todo, pending, reproducibility]
-updated: 2026-06-07
+updated: 2026-06-23
 ---
 
-# Pending Experiments — read before re-running
+# SceneTwin Next Steps — current research queue
 
-These are queued because of an external blocker (LLM credits), not because they
-failed. Everything is wired and one command away.
+Status after the 2026-06-23 Colab/TRIBE + parallel cached-data run. Old “NCR needs Colab” instructions are superseded: the L4 TTS-audio NCR run completed and was near-null as a ranker.
 
-## 1. Rerun the graders with Opus / GPT (HIGH PRIORITY)
+## What is now locked
 
-**Why:** All 2026-06-07 ADQA results (completeness ladder, machine-AD tier) used
-**Gemini 2.5 Flash** because Anthropic and OpenAI were both out of credits
-(`Anthropic: credit balance too low`; `OpenAI: 429 insufficient_quota`).
-Gemini is the weak link: it ties `full == half` on 45% of clips and returned no
-questions on 2 clips. A stronger grader should raise the `full > half` rung and
-lift ensemble rho from the current **0.870 Gemini-floor** toward the in-domain 0.95.
+- **CLIP+ADQA remains the scorer.** TRIBE should not be framed as a ranker, rho booster, or continuous calibration layer.
+- **TRIBE survives as review triage / blind-spot routing / Access Surface input.** The best new external support is the cheap-baseline gauntlet: `accessibility_gap` predicts corrected external ADQA failures at AUC `0.794` with category-shuffle p=`0.003`.
+- **NCR is a negative/guardrail result for now.** Full 60-clip L4 TTS-audio NCR produced near-chance tier separation: 4-tier Spearman `0.035`, corrected 3-tier Spearman `0.031`. Keep the weak T3>short and source-leakage hints as exploratory only.
+- **Low-gap should reduce review pressure, not skip scoring.** Bottom-third max-gap clips show low fail rates, but this is not enough to claim “no AD needed” or CLIP-only replacement.
 
-**How (one flag, results cached separately by model so Gemini stays intact):**
+## Highest-priority next actions
 
-```bash
-# Opus grader
-.venv/bin/python cursor/pipeline/finer_completeness_ladder.py \
-    --provider anthropic --model claude-opus-4-20250514
+### 1. Run type-swapped prompt control when scoring is approved
 
-# GPT grader
-.venv/bin/python cursor/pipeline/finer_completeness_ladder.py \
-    --provider openai --model gpt-4o
-```
+**Why:** This is the cleanest test that TRIBE route type matters rather than “more detailed prompt helps.”
 
-Then re-make the chart/finding from `cursor/output/finer_completeness_ladder.json`
-and compare to the Gemini row in `cursor/findings/completeness-ladder.md`.
+**Current state:** No cached result exists for same-clip/same-question `generic`, `matched`, and `swapped` conditions. A fixed future batch was prepared:
 
-**Prereq:** top up Anthropic and/or OpenAI credits. Verify with:
-```bash
-.venv/bin/python - <<'PY'
-import os; from pathlib import Path
-[os.environ.__setitem__(k, l.split('=',1)[1].strip().strip('"'))
- for l in Path('.env').read_text().splitlines()
- for k in ('ANTHROPIC_API_KEY','OPENAI_API_KEY') if l.startswith(k)]
-from anthropic import Anthropic
-try: Anthropic().messages.create(model='claude-haiku-4-5-20251001',max_tokens=5,messages=[{'role':'user','content':'ok'}]); print('ANTHROPIC OK')
-except Exception as e: print('ANTHROPIC', str(e)[:60])
-PY
-```
+- `cursor/research/output/parallel_research/type_swapped_prompt_batch.jsonl`
+- report: `output/reports/parallel-research-type-swapped.md`
 
-## 2. Machine-AD tier with an INDEPENDENT grader
+**Next:** Use the JSONL as the frozen candidate set; run generation/judging only after explicit approval for external API/human scoring.
 
-The machine-AD rung (`cursor/pipeline/machine_ad_tier.py`) was confounded: Gemini
-both wrote and graded the AD (self-preference) on top of frame-grounding
-circularity, so `expert > machine` was only 22%. Re-run with a *different* model
-grading than the one that generated the AD to remove self-grading bias:
+### 2. Fill the top-25 reviewer worksheet
 
-```bash
-.venv/bin/python cursor/pipeline/machine_ad_tier.py --provider anthropic --model claude-opus-4-20250514
-```
-Frame-circularity remains a caveat regardless; report it.
+**Why:** The Access Surface queue is ready; the next useful evidence is review labels, not another re-rank.
 
-## 3. Finish the 2 dropped clips
+Inputs:
 
-`9eBhetL8n5Q_000222_000232` and `BHxn3qfPAl4_000018_000028` are **hard-blocked by
-Gemini at the input level**: `prompt_feedback.block_reason = OTHER`, no candidates
-returned, deterministic across 4 retries (verified 2026-06-07). This is a Gemini
-content-filter refusal on those clips' frames, not a transient error or a bug in
-our code — so it cannot be retried away on Gemini. Re-running with Opus or GPT
-(item 1) will almost certainly process them and complete the set to 60. Until
-then the ladder is reported on **58 clips**.
+- `cursor/research/output/parallel_research/access_surface/top25_reviewer_cases.csv`
+- `cursor/research/output/parallel_research/access_surface/top25_reviewer_cases.md`
+- report: `output/reports/parallel-research-access-surface-triage.md`
 
-## 4. Neural Contrastive Retrieval (NCR) — needs a Colab TRIBE run
+Fill the blank reviewer fields with VLM or human review. Do not call it BLV validation unless actual BLV participants are approved and recruited.
 
-Highest-ceiling open swing. Built and self-tested; blocked only on a TRIBE GPU run.
+### 3. Promote the cheap-baseline gauntlet into paper/demo evidence
 
-1. Colab (existing TRIBE notebook through Step 4): run `cursor/research/tribe_ncr_dump_cell.py`
-   (~300 calls, ~3–4h T4, npz-cached).
-2. Download `ncr_similarity.csv` → `cursor/research/output/`.
-3. `python cursor/pipeline/neural_contrastive_retrieval.py` → results + chart.
+**Why:** This is the strongest confound-controlled external TRIBE triage result.
 
-Tests whether an AD's TRIBE response retrieves the right clip's video response
-(rank-percentile rising tier0<tier1<tier3, tier0_cross at chance). Designed to beat
-the verbosity + language-injection confounds that killed neural closure. May hit
-chance (TTS-text is OOD for TRIBE) — that's a reportable honest negative.
-Design + rationale: `cursor/findings/neural-contrastive-retrieval.md`.
+Key numbers:
 
-## Done this session (for context)
+- ADQA failure target: `accessibility_gap` AUC `0.794`, category-shuffle p=`0.003`.
+- Top-20% mean-gap queue catches `3/10` ADQA failures vs random expected `2/10`.
+- Ensemble-failure result catches `2/2`, but n=2, so use only as corroboration.
 
-- Fake tier rung found + corrected ladder: rho 0.93->0.95 in-domain, 0.87->0.95 OOD
-  (`cursor/findings/fake-tier-rung.md`).
-- Valid 4-tier completeness ladder (Gemini): rho=0.870, 37/58 ordered
-  (`cursor/findings/completeness-ladder.md`).
-- Full CLIP+ADQA ensemble on 60 VATEX OOD clips: rho=0.873
-  (`cursor/findings/vatex60-generalization.md`).
-- Selective/abstention angle tested and de-prioritized (`cursor/findings/selective-audit.md`).
+Report/artifacts:
+
+- `output/reports/parallel-research-cheap-baseline-gauntlet.md`
+- `cursor/research/output/parallel_research/cheap_baselines/`
+
+### 4. Fix TRIBE-guided frame sampling before any new scoring claim
+
+**Current result is mixed-to-negative:** high-need coverage improves (`70.8%` vs `57.4%`), but action-route coverage does not (`18.6%` vs `20.9%`), and cached ADQA rho drops slightly (`0.782` vs `0.801`). Existing TRIBE frame folders also have budget mismatch.
+
+Before rerunning ADQA, regenerate parity-matched frame sets: 8 uniform frames and 8 TRIBE-window frames per clip.
+
+Report:
+
+- `output/reports/parallel-research-tribe-frame-sampling.md`
+
+### 5. Treat route-specific hallucination as appendix/triage context
+
+The cached join is complete and useful, but not detector-grade:
+
+- 60/60 hallucination clips joined to TRIBE summaries.
+- Best high-gap AUC for top-quartile CLIP hallucination drop: `0.659`.
+- Action-route top windows have the largest mean CLIP hallucination drop.
+
+Use as stratified analysis, not a standalone hallucination detector.
+
+Report:
+
+- `output/reports/parallel-research-route-hallucination-gate.md`
+
+## Approval-gated work
+
+### BLV micro-study packet
+
+Highest value for credibility, but human-subjects/recruitment approval is required before collecting data. Local prep is safe:
+
+- protocol
+- consent draft
+- stimuli CSV
+- randomization CSV
+- screen-reader/playback dry-run notes
+
+Reference plan: `output/reports/parallel-research-blocked-next-steps.md`.
+
+### `P_silence` condition
+
+Do not spend GPU until the method is defined. Decide whether `P_silence` means same-duration silent audio-only, black-video+silence, or another control. Then create a Colab runner and manifest.
+
+### Full text-extractor NCR
+
+Lower priority unless a reviewer specifically challenges TTS-audio NCR. Requires explicit approval to use gated Hugging Face/Llama access via a secure runtime secret plus GPU. Do not use pasted chat tokens.
+
+## Superseded / de-prioritized
+
+- **Old NCR runbook:** completed on L4 as TTS-audio; results are near-null. See `cursor/findings/neural-contrastive-retrieval.md`, `output/reports/tribe-ncr-results.md`, and `output/reports/tribe-ncr-hidden-patterns.md`.
+- **TRIBE as global AD ranker / rho lift:** structurally wrong for clip-level features and empirically unsupported.
+- **TRIBE-guided frame sampling as solved temporal blind spot:** not supported until frame-budget parity and action coverage improve.
 
 ## See Also
 
-- [[findings/completeness-ladder]]
-- [[findings/fake-tier-rung]]
-- [[findings/vatex60-generalization]]
+- `output/reports/new-findings.md`
+- `output/reports/parallel-research-cheap-baseline-gauntlet.md`
+- `output/reports/parallel-research-access-surface-triage.md`
+- `output/reports/parallel-research-type-swapped.md`
+- `output/reports/parallel-research-blocked-next-steps.md`

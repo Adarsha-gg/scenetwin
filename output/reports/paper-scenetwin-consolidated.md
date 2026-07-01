@@ -1,6 +1,6 @@
 ---
 title: "SceneTwin: Reference-Free Audio Description Auditing, a Deployment Safety Gate, and Brain-Grounded Description Steering"
-status: consolidated submission draft v1 — supersedes paper-A / paper-B / paper-combined
+status: SUPERSEDED (old 4-tier / n=18-primary numbers) — canonical manuscript is output/papers/scenetwin-submission.tex (60-clip primary, corrected 3-tier)
 created: 2026-06-09
 updated: 2026-06-09
 sources:

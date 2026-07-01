@@ -1,5 +1,12 @@
 # SceneTwin Wiki Index
-_Last updated: 2026-06-19_
+_Last updated: 2026-06-27_
+
+> **Canonical result (corrected 3-tier ladder):** the **60-clip set is the primary evaluation**
+> (ρ = 0.952), with the original **18-clip benchmark as the corroborating pilot** (ρ = 0.957); the
+> two sets are disjoint by construction. Canonical write-up: `output/papers/scenetwin-submission.tex`.
+> Many research pages below were authored under the older 4-tier, n=18-primary framing (ρ = 0.929 /
+> 0.873); where reconciled, each page carries a banner. Pages still tied to the retired 4-tier
+> sweep are labelled as such.
 
 ## Recovery / audit
 - [60-clip artifact audit](../output/reports/scenetwin-60clip-artifact-audit.md) — recovered the missing 60-clip external-eval CSV/JSON and paper/finding pages from `origin/agent-loop/claude-round-70` (`8a4139a2efe4b05d3085add18786e7e9686b728b`).
@@ -7,11 +14,29 @@ _Last updated: 2026-06-19_
 - [Paper evidence check](../output/reports/scenetwin-paper-evidence-check.md) — verification of corrected 3-tier metrics, market/baseline comparison, safety artifacts, and VLM-as-judge baselines.
 
 ## Papers
-- [SceneTwin audit-framework manuscript](../output/reports/paper-scenetwin-audit-framework.md) — **current recommended submission draft.** Full paper-style manuscript with corrected 3-tier ladder, related work citations, human-reference-free audit framing, safety gates, and review triage.
+- [SceneTwin submission draft](../output/reports/paper-scenetwin-submission-draft.md) — **current recommended submission draft.** Updated 2026-06-26 with corrected 3-tier ladder, honest LLM-AD-Eval comparison, safety gates, external TRIBE cheap-baseline triage, and Access Surface routing.
+- [SceneTwin submission package](../output/reports/paper-scenetwin-submission-package.md) — title/abstract, contribution bullets, safe-claim checklist, tables, figure plan, and reviewer-objection stubs.
+- [SceneTwin audit-framework manuscript](../output/reports/paper-scenetwin-audit-framework.md) — prior full paper-style manuscript with corrected 3-tier ladder, related work citations, human-reference-free audit framing, safety gates, and review triage.
 - [SceneTwin audit citation map](../output/reports/scenetwin-citation-map.md) — maps every external paper/source used in the manuscript to the claim and section it supports.
 - [SceneTwin consolidated submission draft](../output/reports/paper-scenetwin-consolidated.md) — earlier broader draft with brain-grounded steering; useful source material, but too sprawling as the primary same-day submission target.
 
 ## Findings — 2026-06 ladder / generalization work (cursor/findings/)
+- [New findings backlog](../output/reports/new-findings.md) — 100 candidate TRIBE/SceneTwin research ideas plus validation loops, plus cached-data local run #1 results.
+- [TRIBE new findings local run](../output/reports/tribe-new-findings-local-run.md) — first actual cached-data pass: feature-selection-corrected pilot p-value, low-gap external safety signal, route-confidence negative, route-type support split, tensor health caveats.
+- [TRIBE new findings round 2](../output/reports/tribe-new-findings-round2.md) — cross-judge cluster bootstrap, length-control check, triage budget curves, low-pressure early-exit, tie-target audit, simple confound checks, low-alignment sensitivity.
+- [TRIBE new findings round 3](../output/reports/tribe-new-findings-round3.md) — ROI/profile dominance, category-residual threshold negative, fair VLM rematch, and generated review worksheet.
+- [TRIBE review worksheet](../output/reports/tribe-review-worksheet.md) — top 25 non-low-gap blind-spot cases queued for human/VLM review.
+- [TRIBE claims audit](../output/reports/tribe-claims-audit.md) — claim matrix plus overclaim-risk scan for stale rho/calibration/VLM/AUC wording.
+- [Colab TRIBE NCR full run](../output/reports/colab-tribe-ncr-full-run.md) — L4 Colab runbook/results for self-contained 60-clip TTS-audio NCR; A100/H100 unavailable, L4 used, no active sessions left.
+- [TRIBE NCR results](../output/reports/tribe-ncr-results.md) — full 60-clip NCR metrics: near-chance global rank signal, small T3>short and source-specificity pilot effects.
+- [TRIBE NCR hidden patterns](../output/reports/tribe-ncr-hidden-patterns.md) — hubness, category splits, source-vs-target leakage, and paper-safe guardrails for NCR.
+- [Parallel research synthesis](../output/reports/parallel-research-synthesis.md) — go-forward decisions from the 2026-06-23 parallel cached-data runs; promote cheap-baseline triage, demote frame-sampling/hallucination claims, and gate NCR/P_silence/BLV work.
+- [Parallel route hallucination gate](../output/reports/parallel-research-route-hallucination-gate.md) — cached local route-stratified hallucination-gate analysis; TRIBE high-gap modestly stratifies gate strength but is not standalone risk.
+- [Parallel TRIBE frame sampling](../output/reports/parallel-research-tribe-frame-sampling.md) — cached uniform-vs-TRIBE frame overlap/ADQA comparison; high-gap coverage improves but action-window coverage does not.
+- [Parallel cheap baseline gauntlet](../output/reports/parallel-research-cheap-baseline-gauntlet.md) — cached TRIBE triage vs category/transcript/duration baselines; accessibility_gap wins ADQA-failure triage with category-shuffle support.
+- [Parallel access-surface triage](../output/reports/parallel-research-access-surface-triage.md) — review-budget, low-gap early-exit, route counts, and reviewer-ready Access Surface OS case mapping.
+- [Parallel type-swapped blocker/batch](../output/reports/parallel-research-type-swapped.md) — no cached type-swapped prompt-control result exists; generated future JSONL batch.
+- [Parallel blocked next steps](../output/reports/parallel-research-blocked-next-steps.md) — feasibility and approval blockers for full text-extractor NCR, P_silence, and BLV micro-study.
 - [Agent loop (Claude + Codex breakthrough hunt)](../cursor/agent_loop/README.md) — supervisor polls every 4m, assigns next tasks until credits die. State: `cursor/agent_loop/state.json`, log: `cursor/agent_loop/log.md`.
 - [Agent-loop gate synthesis](../cursor/findings/agent-loop-gate-synthesis.md) — loop stopped by user on 2026-06-09; Codex consolidated the output into the AD safety gate subsection at commit `0d1a633`. Lead result: grader-free CLIP grounding-drop gate AUC 0.835 with 70% recall @ 10% FPR; fused CLIP+ADQA AUC 0.904 is footnoted as grader-dependent; zero-reference weakest-claim gate remains a negative (AUC 0.585).
 - [Gate review-hole closure](../cursor/findings/gate-review-holes.md) — pre-subsection validation: 18 **hand-authored** fabrications break Gemini circularity (CLIP drop AUC 0.91 vs paraphrase); self-consistency gate with 2nd model-gen reference (n=5, AUC 0.76). Paper subsection locked at `output/reports/paper-ad-safety-gate.md` — headline **CLIP-only AUC 0.84 @ 70% recall / 10% FPR**; fusion 0.90 footnoted as grader-dependent.
@@ -23,13 +48,13 @@ _Last updated: 2026-06-19_
 - [Corrected ladder — robustness](../cursor/findings/corrected-ladder-robustness.md) — the 0.95 is not a tuned config: flat plateau across ensemble weights w∈[0.2,0.8], holds under min-max/z-score/rank norms, bootstrap 95% CI [0.93,0.98] in-domain / [0.93,0.97] OOD (overlapping), permutation p=0.0002. Direct reviewer-defense.
 - [TRIBE is clip-level triage, not a ρ booster](../cursor/findings/tribe-clip-level-triage.md) — TRIBE's gap is one value PER CLIP so it CANNOT lift within-clip ρ (why calibration was always null), but it flags which clips the metric misorders OOD: AUC=0.79 p=0.0018 for ADQA-only failures (top-20% gap catches 60%). Two-layer framing: ADQA+CLIP score, TRIBE triages.
 - [Marginal Description Value (MDV)](../cursor/findings/marginal-description-value.md) — new reference-free metric: credit the AD only for visual info it adds OVER the soundtrack (transcript-answerability gate). Honest negative: audio leak is only 5.3% (narration genres up to 15%), MDV ≈ ADQA. Positive read: frame-grounded ADQA is audio-robust (a vision metric, not soundtrack paraphrase) — a validity check, not a new scorer.
-- [Neural Contrastive Retrieval (NCR)](../cursor/findings/neural-contrastive-retrieval.md) — NEW AD-dependent brain-grounded score: does the AD's TRIBE response retrieve the right clip's video response among 60? Cosine+rank kills the verbosity confound; language-injection becomes the signal (wrong-content control closure failed). Producer cell + analyzer built & selftested; **results pending a Colab TRIBE run**.
+- [Neural Contrastive Retrieval (NCR)](../cursor/findings/neural-contrastive-retrieval.md) — AD-dependent brain-grounded score design. Full L4 TTS-audio-only run completed 2026-06-23: global rank signal is near chance; keep only as negative/guardrail plus weak source-specificity pilot.
 - [Completeness ladder (valid 4-tier)](../cursor/findings/completeness-ladder.md) — {cross < 1-sentence < half < full AD} with 10 frame-grounded questions (4 core + 6 secondary). Gemini grader: rho=0.870, 37/58 fully ordered on OOD clips. Gemini-floor result; stronger graders queued.
 - [VATEX-60 generalization](../cursor/findings/vatex60-generalization.md) — full CLIP+ADQA ensemble on 60 held-out VATEX OOD clips: rho=0.873.
 - [Selective / abstention audit](../cursor/findings/selective-audit.md) — reference-free min-margin confidence beats random abstention but is a modest result on n=18; de-prioritized.
 
 ## Reference
-- [Presenter demo runbook](demo-runbook.md) — stable NJBDA walkthrough: Overview, Cached clips, TRIBE risk, Compare, optional Live Audit
+- [Presenter demo runbook](demo-runbook.md) — local-only static walkthrough: Overview, Cached clips, Benchmark, TRIBE risk, Compare; optional API/Live Audit
 - [TRIBE metric glossary](../output/reports/tribe-metric-glossary.md) — plain English of every number on the TRIBE page: rho sign, route badge, speech chip, need timeline, per-ROI gap
 - [TRIBE demo additions plan](../output/reports/tribe-demo-additions.md) — the five TRIBE signals wired into the web page on 2026-05-14
 
@@ -66,28 +91,28 @@ _Last updated: 2026-06-19_
 - [[research/scenetwin-tribe-only-analysis]] — TRIBE-only inspection on 20 clips and 2-clip tensors: no AD-verbosity correlation, no significant category fingerprint, no hard-case CLIP rescue; per-window timing remains the only surviving TRIBE-only contribution
 - [[research/scenetwin-stage4-llm-adqa]] — Stage 4 LLM-ADQA comprehension audit: 54 questions, 216 grades, rho=0.942, null p<0.0005 using professional AD as reference answer key
 - [[research/scenetwin-stage4-frame-grounded-adqa]] — corrected blind frame-grounded ADQA: 8 frames/clip, 5 questions/clip, anonymized candidates, unfiltered rho=0.803, tau=0.696, 51/54 tier3 wins, 8/18 fully ordered, null p<0.0005
-- [[research/scenetwin-adqa-clip-ensemble]] — CLIP + frame-grounded ADQA ensemble: rho=0.929 [95% CI 0.90, 0.96], 54/54 tier3 wins, 15/18 fully ordered, non-overlapping CI vs CLIP-only, per-clip CLIP/ADQA rho=0.76 (complementary, not redundant)
+- [[research/scenetwin-adqa-clip-ensemble]] — CLIP + frame-grounded ADQA ensemble (now the 18-clip PILOT, secondary to the 60-clip primary). Corrected 3-tier ladder: rho=0.954, 17/18 fully ordered, 53/54 pairwise. Leaderboard tables on the page are the retired 4-tier sweep (rho=0.929).
 - [[research/scenetwin-multijudge-adqa]] — multi-judge ADQA + VLM rater: fair all-judge rho=0.933 (53/54, 16/18), optimized rho=0.944, VLM-augmented rho=0.965 (54/54, 18/18); length bias checked; TRIBE reframed as content-type controller. Poster headline.
 - [[research/scenetwin-tribe-failure-forecast]] — TRIBE as pre-scoring risk module: mean_standard_slot_score ranks both all4-ADQA full-order failures #1 and #2 out of 18; recall@2=100%, ROC-AUC=1.0, p=0.0065 (Bonferroni p=0.065); 11.1% review budget. Pilot evidence, secondary finding.
-- [[research/scenetwin-tier-ordering-failures]] — 3/18 mis-ordered clips all violate at the T1->T2 boundary; T3 wins every clip; pattern shows ensemble penalises length without specificity. Paper failure-analysis subsection.
-- [[research/scenetwin-external-validation]] — External generalization on 60 unseen clips x 10 categories: ensemble rho=0.873, 173/180 pairwise T3 wins, only -0.056 drop from in-benchmark 0.929. Defends n=18 against overfit critique.
-- [[research/scenetwin-statistical-power]] — Power defense for n=18: 4 significance tests all p<1e-15, cluster bootstrap CI [0.881, 0.962], min detectable rho ~0.325 vs observed 0.929. Paper Methods/Power Analysis subsection.
+- [[research/scenetwin-tier-ordering-failures]] — RETIRED 4-tier rationale: the 3/18 T1->T2 violations were the evidence for removing the invalid T2 rung. Corrected 3-tier pilot: 17/18 ordered (1 violation, clip 0 tie). Paper failure-analysis subsection.
+- [[research/scenetwin-external-validation]] — PRIMARY 60-clip evaluation (corrected 3-tier): ensemble rho=0.952, 178/180 pairwise (hard T1-vs-T3 pair 58/60), 58/60 fully ordered; 18-clip pilot corroborates at 0.957. Sets are disjoint by construction.
+- [[research/scenetwin-statistical-power]] — Power on the 60-clip primary (and 18 pilot): perm p<2e-4, bootstrap CI [0.93,0.97], min detectable rho ~0.21 vs observed ~0.95; combined-78 rho=0.954. Paper Methods/Power Analysis subsection.
 - [[research/scenetwin-tribe-role-analysis]] — Honest measurement: TRIBE features do NOT correlate with continuous ensemble noise (all p>0.16) but DO predict binary all4_fail at AUC=1.00. Reframe TRIBE from "calibration layer" to "binary review triage flag" (11% review budget, recall@2=100%).
 - [[research/scenetwin-tribe-roi-localization]] — TRIBE use-case: the AV-vs-A accessibility gap concentrates in visual cortex (retrosplenial/V1/scene-PPA) vs auditory/language controls (~2x), and HOLDS external (perm p=5e-5, n=60) where scalar calibration died. First anatomical, externally-generalizing TRIBE result; a validity/interpretability story, not calibration.
 - [[research/scenetwin-tribe-blind-spot-router]] — Tensor-derived Neural Blind Spot Map: converts P_AV vs P_A into typed 3s authoring/review windows and product routes across 78 clips.
 - [[research/scenetwin-tribe-router-validation]] — Validation of the router story: matched TRIBE-targeted questions improve across VLM/ADQA/judge comparisons, while global pro-AD priority matching is negative. Supports a surgical routing claim, not a rho claim.
-- [[research/scenetwin-external-baselines]] — Paper baselines on 60-clip external set. Ensemble lift over LLM-AD-Eval holds in both corpora (+0.030 in-bench, +0.016 external). Critical caveat: reference-based metrics get 180/180 T3 wins trivially; only ensemble's 173/180 is meaningful.
-- [[research/scenetwin-external-t3-losses]] — 7/180 external T3 pairwise losses characterized. Pattern: T3 abstracts editorial framing while T1/T2 are literal about visible content; CLIP rewards literal. 5/7 within margin 0.04 (ties); 2/7 are real editorial trade-off losses.
-- [[research/scenetwin-metric-landscape]] — 10 paper-derived baselines on the 18-clip benchmark + 60-clip external; cluster correlations; fusion experiments. Ensemble at the local optimum, +0.030 over LLM-AD-Eval in-bench and +0.016 external. Paper Related Work / Baselines table.
+- [[research/scenetwin-external-baselines]] — Paper baselines (leaderboards are retired 4-tier). Corrected 3-tier: SceneTwin 0.952 (60) / 0.957 (18) vs LLM-AD-Eval 0.942/0.941 — near-tie (lift +0.010/+0.016). Critical caveat still holds: reference-based metrics get 180/180 T3 wins trivially; ensemble's 178/180 is the meaningful number.
+- [[research/scenetwin-external-t3-losses]] — Corrected 3-tier: only 2/180 T3 pairwise losses on the 60-clip primary (both to T1; one a near-tie). The retired 4-tier "7/180" had 5 losses to the removed T2 rung.
+- [[research/scenetwin-metric-landscape]] — 10 paper-derived baselines (leaderboards are retired 4-tier). Corrected ladder: near-tie with LLM-AD-Eval (lift +0.010 on the 60-clip primary); fusion experiments find no lift. Paper Related Work / Baselines table.
 - [[research/scenetwin-negative-results]] — What we tried that did NOT beat the ensemble: 6 fusion strategies, TRIBE calibration (all p>0.16), gated pipeline (every threshold hurts rho), closure dead branch. Argues parsimony over metric zoo. Paper Negative Results subsection.
-- [[research/scenetwin-signal-decomposition]] — Honest CLIP-vs-ADQA decomposition. CLIP lift over ADQA-only: +0.14 in-bench, +0.006 external. CLIP earns +0.034 on How-to (n=21), neutral elsewhere. Reframes the contribution from "dual-signal" to "ADQA backbone + CLIP for controlled benchmarks and visual-object content."
+- [[research/scenetwin-signal-decomposition]] — Honest CLIP-vs-ADQA decomposition (corrected 3-tier). CLIP lift over ADQA-only: +0.069 on the 18 pilot, +0.005 on the 60 primary. CLIP earns +0.024 on How-to (n=21), neutral elsewhere. Reframes the contribution from "dual-signal" to "ADQA backbone + CLIP for controlled benchmarks and visual-object content."
 - [[research/scenetwin-method-inventory]] — Audit of 28 method scripts; 22 ran with measurements, 12 paper-derived stubs deferred. Splits cleanly into Paper A (metric+benchmark) and Paper B (Access Surface OS). 5 routing scripts have target-recall >=88% on n=58 external clips -- Paper B evidence is real.
 - [[research/scenetwin-paper-outline]] — Master outline for Papers A and B. Section-by-section with evidence pages cited, figure/table inventory, blocker list. Writing roadmap: Paper A first (~2-3 weeks), Paper B during A's review.
 - [[research/scenetwin-combined-paper-draft]] — Combined one-paper draft: reference-free AD scoring plus TRIBE Neural Blind Spot routing as one deployable BLV access system.
 - [[research/scenetwin-paper-corpus]] — 37 papers reviewed; 6 clusters (semantic, narrative, agency, identity, assistant, evidence loop); Paper A baselines map to clusters A-D, Paper B Related Work spine is clusters E-I. Ready-to-paste Related Work skeletons for both papers.
 - [[research/scenetwin-access-surface-os]] — Paper B empirical evidence consolidated. 5 routing claims on n=58: surface (92%), assistant mode (96.3%), task loop (88.9%), evidence sidecar (100%), commentary residual. Cross-claim consistency shows the 5 dimensions are not redundant. Paper B Section 4 ready.
 - [[research/scenetwin-vlm-as-judge-protocol]] — Frontier VLM-as-judge baseline protocol + cost matrix. Full 78-clip run: $1 (Gemini Flash) to $50 (Claude Opus). Runner ready at cursor/research/vlm_as_judge_runner.py. Decision rule covers all 3 outcomes (VLM loses, ties, or beats ensemble).
-- [[research/scenetwin-vlm-as-judge-results]] — All 3 frontier VLMs (Claude Sonnet 4.6, GPT-5, Gemini 2.5 Pro) land at rho 0.71-0.76 vs our ensemble 0.929 in-bench / 0.873 external. Inter-VLM agreement is 0.83-0.88 but they disagree with the tier ladder. The "VLM beats us" reviewer challenge collapses.
+- [[research/scenetwin-vlm-as-judge-results]] — All 3 frontier VLMs trail the structured audit. Corrected 3-tier (manuscript): best VLM judge rho=0.847 (60 primary) / 0.863 (18 pilot) vs SceneTwin 0.952/0.957. Per-model tables on the page are the retired 4-tier sweep (VLMs 0.71-0.76); per-model corrected leaderboard CSV still needs regenerating.
 - [[research/scenetwin-tribe-balanced-text-feel-audit]] — text-feel audit for tribe-balanced AD generation
 - [[research/scenetwin-tribe-text-feel-audit]] — earlier text-feel audit pass
 - [[research/scenetwin-tribe-policy-validation]] — TRIBE policy validation on tribe-native and balanced sets

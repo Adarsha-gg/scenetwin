@@ -1,0 +1,11 @@
+run,feature,spearman_vs_matched_delta
+surgical_haiku,max_peak_visual_gap,-0.4639476114519456
+surgical_haiku,max_visual_minus_control,-0.42313473288988535
+surgical_haiku,top_control_ratio,0.29929444278844186
+surgical_haiku,mean_control_ratio,0.43541982158836406
+surgical_haiku,top_dominance_margin,-0.19384056060485588
+surgical_haiku,active_window_frac,-0.37342505924492025
+surgical_haiku,top1_vs_uniform,-0.17858726255640914
+surgical_haiku,scene_agent_peak_apart,0.19036311589982177
+surgical_haiku,mean_visual_gap,-0.4824164696295244
+surgical_haiku,max_visual_gap,-0.4639476114519456

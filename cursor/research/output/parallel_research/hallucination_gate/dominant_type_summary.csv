@@ -1,0 +1,3 @@
+dominant_clip_type,n_clips,clip_halluc_drop_mean,clip_para_drop_mean,clip_specific_margin_mean,clip_halluc_detect_rate,clip_specific_rate,adqa_halluc_drop_mean,adqa_para_drop_mean,adqa_specific_margin_mean,adqa_detect_rate,adqa_blind_rate,mean_visual_gap,max_visual_gap
+scene_spatial,46,0.03418382419,0.007526456014,0.02665736818,0.9565217391,0.8043478261,0.1565217391,-0.03260869565,0.1891304348,0.6956521739,0.2826086957,0.241494971,0.5723948305
+agent_action,14,0.0457427374,0.008374192885,0.03736854451,0.9285714286,0.8571428571,0.2071428571,0.02857142857,0.1785714286,0.7142857143,0.2857142857,0.2638499876,0.8512834008

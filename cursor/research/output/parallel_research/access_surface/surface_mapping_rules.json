@@ -1,0 +1,58 @@
+{
+  "case_surface": {
+    "agent_action_cue": {
+      "access_surface": "action_state_or_agent_cue",
+      "review_action": "Review who/what moved, state changes, tool use, and object interaction in the peak window.",
+      "surface_family": "concise_cue",
+      "validation_target": "Does the AD preserve the agent/action state enough to answer a frame-grounded question?"
+    },
+    "audio_language_confound_check": {
+      "access_surface": "evidence_sidecar_qc",
+      "review_action": "Treat as an audio/language anomaly; inspect ASR/control signal before visual-AD decisions.",
+      "surface_family": "creator_qc",
+      "validation_target": "Is the apparent visual need actually an audio/transcript/control artifact?"
+    },
+    "dynamic_type_shift": {
+      "access_surface": "segmented_scene_action_surface",
+      "review_action": "Check whether separate scene/layout and action/state treatments are needed across windows.",
+      "surface_family": "defer_replay",
+      "validation_target": "Does a single global AD miss a later/earlier route-type shift?"
+    },
+    "low_gap_skip": {
+      "access_surface": "static_ad_low_pressure",
+      "review_action": "Defer expensive review unless another safety/OCR/identity gate fires.",
+      "surface_family": "static_ad",
+      "validation_target": "Confirm no safety-critical visual text, identity, or task step is lost in the suggested low-gap window."
+    },
+    "moment_level_authoring": {
+      "access_surface": "peak_window_review_card",
+      "review_action": "Spend scarce reviewer/authoring budget on the named moment rather than the whole clip.",
+      "surface_family": "creator_qc",
+      "validation_target": "Can a reviewer identify the missing moment and propose a concise fix?"
+    },
+    "scene_layout_replay": {
+      "access_surface": "layout_replay_or_keyframe",
+      "review_action": "Review spatial layout, key objects, setting, and camera/geography in the peak window.",
+      "surface_family": "defer_replay",
+      "validation_target": "Does the AD or replay surface preserve where things are and how the scene is arranged?"
+    }
+  },
+  "note": "Local deterministic mapping for EXPERIMENT 7 counts/prep; not learned and not user-validated.",
+  "route_surface": {
+    "action_state_or_agent_cue": {
+      "access_surface": "action_state_or_agent_cue",
+      "review_action": "Route to concise who-does-what/action-state cue.",
+      "surface_family": "concise_cue"
+    },
+    "layout_replay_or_scene_cue": {
+      "access_surface": "layout_replay_or_keyframe",
+      "review_action": "Route to layout cue, keyframe, or replay surface.",
+      "surface_family": "defer_replay"
+    },
+    "static_ad_ok_low_gap": {
+      "access_surface": "static_ad_low_pressure",
+      "review_action": "Use normal scoring; avoid human/frontier review unless other gates fire.",
+      "surface_family": "static_ad"
+    }
+  }
+}

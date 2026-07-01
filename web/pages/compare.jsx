@@ -28,7 +28,7 @@ function ComparePage({ setPage }) {
         eyebrow="Comparison"
         title="Why this is more than a VLM vibe check"
         sub="SceneTwin is built around accessibility failure modes: what visual evidence is missing, whether a blind viewer receives it in the AD, and which clips deserve human review first."
-        right={<button className="btn primary" onClick={() => setPage('audit')}>Try live audit</button>}
+        right={<button className="btn primary" onClick={() => setPage('cached')}>Open cached clips</button>}
       />
 
       <section style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 18 }}>
@@ -47,9 +47,9 @@ function ComparePage({ setPage }) {
           <div className="row justify-between items-center" style={{ marginBottom: 14 }}>
             <div>
               <div className="eyebrow">Failure routing</div>
-              <h2 style={{ margin: '6px 0 0', fontSize: 24, fontWeight: 500 }}>TRIBE cuts review work</h2>
+              <h2 style={{ margin: '6px 0 0', fontSize: 24, fontWeight: 500 }}>TRIBE pilots review triage</h2>
             </div>
-            <Tag color="var(--accent)">recall@2 100%</Tag>
+            <Tag color="var(--accent)">pilot recall@2 2/2</Tag>
           </div>
           <img src="../output/charts/scenetwin_failure_forecast.png" style={{ width: '100%', display: 'block', border: '1px solid var(--border)', background: '#fff' }} />
         </div>
@@ -58,7 +58,7 @@ function ComparePage({ setPage }) {
       <section style={{ marginTop: 18, display: 'grid', gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', gap: 12 }}>
         <div className="card card-pad"><Stat label="No reference AD" value="0" sub="human gold scripts required for live clips" /></div>
         <div className="card card-pad"><Stat label="Evidence questions" value="3" sub="visual checks per live audit" /></div>
-        <div className="card card-pad"><Stat label="Human review cut" value="2/18" sub="TRIBE review budget in benchmark" /></div>
+        <div className="card card-pad"><Stat label="Pilot review queue" value="2/18" sub="caught 2 known failures; not a standalone metric" /></div>
       </section>
 
       <section className="card" style={{ marginTop: 18, overflow: 'hidden' }}>

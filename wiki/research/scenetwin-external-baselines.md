@@ -4,10 +4,19 @@ category: research
 tags: [scenetwin, baselines, generalization, paper-section]
 sources: [cursor/research/output/external_paper_baselines.csv, cursor/research/output/external_paper_baselines_leaderboard.csv]
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-27
 ---
 
-## Headline
+> **The leaderboard tables below are the retired 4-tier sweep** (n = 72/240). On the **corrected
+> 3-tier ladder** (manuscript), the **60-clip set is primary**: SceneTwin ρ = **0.952** vs
+> LLM-AD-Eval ρ = **0.942** — a lift of only **+0.010**; on the 18-clip pilot SceneTwin **0.957**
+> vs LLM-AD-Eval **0.941**, lift **+0.016**. So on the corrected ladder LLM-AD-Eval **nearly ties**
+> SceneTwin (the manuscript says this explicitly), and the contribution is reframed as
+> *deployability without a human reference AD*, not a rank-correlation win. The
+> reference-leakage insight below still holds; the **per-baseline corrected leaderboard CSV needs
+> regenerating**.
+
+## Headline (retired 4-tier sweep)
 
 We re-ran the text-only paper baselines on the 60-clip external corpus (240 obs, 10 categories) so the generalization story is apples-to-apples. The CLIP+ADQA ensemble holds rho = 0.873 across an unseen set; the strongest reference-free baseline (LLM-AD-Eval at rho = 0.857) trails by **+0.016**. In-benchmark the gap is **+0.030**. The ensemble lift over the closest competitor holds across both corpora.
 

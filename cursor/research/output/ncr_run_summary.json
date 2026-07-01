@@ -1,0 +1,14 @@
+{
+  "n_records": 60,
+  "n_refs": 60,
+  "n_similarity_rows": 14400,
+  "tiers": [
+    "tier0_cross",
+    "tier1_vatex_short",
+    "tier2_vatex_long",
+    "tier3_va11y"
+  ],
+  "failures": [],
+  "elapsed_seconds": 8348.7,
+  "recovered_from": "cursor/research/output/ncr_full60/colab_exec_full60.log"
+}

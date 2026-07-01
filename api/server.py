@@ -471,10 +471,15 @@ def qc_gate_benchmark() -> dict[str, Any]:
 def review_priority() -> dict[str, Any]:
     rows = _read_review_priority()
     top3 = sorted(rows, key=lambda r: int(r.get("review_rank") or 999))[:3]
+    note = (
+        "Both known ADQA failures rank #1 and #2 in composite score"
+        if rows else
+        "No combined review-priority CSV is present; use /api/qc-gate or the TRIBE risk page for cached review triage."
+    )
     return {
         "n": len(rows),
         "source": "cursor/combined_review_priority.py",
-        "recall_at_3_note": "Both known ADQA failures rank #1 and #2 in composite score",
+        "recall_at_3_note": note,
         "clips": rows,
         "top_review": top3,
     }

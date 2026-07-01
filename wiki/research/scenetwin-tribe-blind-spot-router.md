@@ -3,7 +3,7 @@ title: "TRIBE Blind Spot Router"
 category: research
 tags: [SceneTwin, TRIBE, tensors, accessibility, routing, audio-description]
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-23
 sources:
   - cursor/research/output/tribe_tensors/
   - output/scenetwin_description_gain/glasser_roi_mask.csv
@@ -22,9 +22,10 @@ typed blind-spot router: compare TRIBE's audiovisual prediction (`P_AV`) against
 audio-only prediction (`P_A`) to identify **when** audio drops visual information
 and **what kind** of visual information is lost.
 
-This makes TRIBE operationally necessary because CLIP+ADQA can rank candidate
-descriptions, but it cannot expose cortical, time-localized, ROI-typed access
-gaps before a description exists.
+This makes TRIBE operationally useful as a side-car: CLIP+ADQA can rank candidate
+descriptions, while TRIBE exposes cortical, time-localized, ROI-typed access
+gaps before a description exists. Avoid stronger “necessary” wording unless a
+future ablation proves no cheaper proxy can cover the same deployment need.
 
 ## Outputs
 
@@ -104,6 +105,15 @@ is insufficient: the access need is typed and moment-specific.
 | inbench | kOf-vl-GmVI_000115_000125 | Pets & Animals | 13.410 | 16.390 | agent_action | 1.079 | action_state_or_agent_cue |
 | external | 8vkNr_eysXY_000002_000012 | How-to & Instructional | 6.000 | 9.000 | scene_spatial | 1.035 | layout_replay_or_scene_cue |
 | external | zTJ0Zbv1jBo_000045_000055 | Health & Wellness | 0.000 | 3.636 | scene_spatial | 1.026 | layout_replay_or_scene_cue |
+
+## 2026-06-23 validation update
+
+Parallel cached-data passes sharpen the safe claim:
+
+- Cheap baseline gauntlet: external corrected ADQA-failure triage is strongest for `accessibility_gap` (AUC=0.794, category-shuffle p=0.003), beating category/transcript/duration baselines in this cache.
+- Access Surface mapping: 334 windows map to 218 static/low-pressure, 78 layout/keyframe, and 38 action-cue windows; top-25 cases are ready for reviewer validation.
+- TRIBE-guided frame sampling is not yet a solved temporal-action fix: high-need coverage rises, but action-window coverage and cached rho do not improve.
+- Route-specific hallucination is descriptive: route stratifies gate strength modestly, but does not form a standalone hallucination detector.
 
 ## Product Use
 

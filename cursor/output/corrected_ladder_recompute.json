@@ -1,0 +1,117 @@
+{
+  "primary_60": {
+    "label": "PRIMARY 60-clip",
+    "n_clips": 60,
+    "n_obs": 180,
+    "w_adqa": 0.5,
+    "ensemble_rho": 0.9516,
+    "adqa_norm_rho": 0.9462,
+    "clip_norm_rho": 0.8283,
+    "adqa_pooled_raw_rho": 0.8689,
+    "clip_pooled_raw_rho": 0.7473,
+    "kendall_tau": 0.8762,
+    "fully_ordered": "58/60",
+    "t3_vs_lower": "118/120",
+    "all_pairwise": "178/180",
+    "hard_pair_T1_vs_T3": "58/60",
+    "perm_p": 0.0001999600079984003,
+    "bootstrap_ci95": [
+      0.927,
+      0.968
+    ],
+    "min_detectable_rho": 0.207,
+    "ensemble_losses": [
+      [
+        "GOH6fBhoi2o_000010_000020",
+        "T1<T3",
+        1.0,
+        0.602
+      ],
+      [
+        "d7_SY48r__8_000060_000070",
+        "T1<T3",
+        1.0,
+        0.972
+      ]
+    ],
+    "per_category": {
+      "Education, Seminar & Talks": {
+        "n": 1,
+        "ens_rho": 1.0
+      },
+      "Entertainment": {
+        "n": 10,
+        "ens_rho": 0.91
+      },
+      "Event": {
+        "n": 3,
+        "ens_rho": 0.969
+      },
+      "Film & Animation": {
+        "n": 2,
+        "ens_rho": 0.985
+      },
+      "Food & Cooking": {
+        "n": 3,
+        "ens_rho": 0.982
+      },
+      "Health & Wellness": {
+        "n": 4,
+        "ens_rho": 0.97
+      },
+      "How-to & Instructional": {
+        "n": 21,
+        "ens_rho": 0.953
+      },
+      "Music": {
+        "n": 2,
+        "ens_rho": 0.97
+      },
+      "People & Vlogs": {
+        "n": 8,
+        "ens_rho": 0.966
+      },
+      "Sports": {
+        "n": 6,
+        "ens_rho": 0.967
+      }
+    }
+  },
+  "pilot_18": {
+    "label": "PILOT 18-clip",
+    "n_clips": 18,
+    "n_obs": 54,
+    "w_adqa": 0.5,
+    "ensemble_rho": 0.957,
+    "adqa_norm_rho": 0.8878,
+    "clip_norm_rho": 0.8997,
+    "adqa_pooled_raw_rho": 0.8558,
+    "clip_pooled_raw_rho": 0.8353,
+    "kendall_tau": 0.8869,
+    "fully_ordered": "17/18",
+    "t3_vs_lower": "36/36",
+    "all_pairwise": "53/54",
+    "hard_pair_T1_vs_T3": "18/18",
+    "perm_p": 0.0001999600079984003,
+    "bootstrap_ci95": [
+      0.923,
+      0.977
+    ],
+    "min_detectable_rho": 0.373,
+    "ensemble_losses": [
+      [
+        "0",
+        "T0<T1",
+        0.5,
+        0.5
+      ]
+    ]
+  },
+  "combined_78": {
+    "label": "COMBINED 78-clip",
+    "n_clips": 78,
+    "n_obs": 234,
+    "ensemble_rho": 0.9542,
+    "min_detectable_rho": 0.182
+  }
+}

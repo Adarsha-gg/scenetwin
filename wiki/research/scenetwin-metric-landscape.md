@@ -4,10 +4,17 @@ category: research
 tags: [scenetwin, paper-section, baselines, related-work]
 sources: [cursor/papers/output/metric_leaderboard.csv, cursor/research/output/external_paper_baselines_leaderboard.csv, cursor/papers/output/paper_fusion_leaderboard.csv]
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-27
 ---
 
-## Headline
+> **The leaderboards below are the retired 4-tier sweep.** On the **corrected 3-tier ladder** the
+> **60-clip set is primary**: SceneTwin ρ = **0.952** vs LLM-AD-Eval **0.942** (lift **+0.010**);
+> 18-clip pilot SceneTwin **0.957** vs LLM-AD-Eval **0.941** (lift **+0.016**). The corrected-ladder
+> claim is **near-tie with the reference-style LLM-AD-Eval**, reframed as deployability without a
+> human reference AD (see manuscript). Per-baseline corrected values for the other eight metrics
+> need regenerating; the 4-tier numbers here are superseded.
+
+## Headline (retired 4-tier sweep)
 
 We implemented and ran ten paper-derived reference-free metrics on the 18-clip benchmark. Across all of them, the 2-signal CLIP+ADQA ensemble achieves rho = 0.929 -- **+0.030 over the closest published competitor (LLM-AD-Eval proxy at 0.899)**. We then ran the same baselines on the 60-clip external corpus; the lift held at **+0.016** (ensemble 0.873 vs LLM-AD-Eval 0.857). Five additional metrics did not beat the ensemble even with grid-searched blends.
 

@@ -3,7 +3,7 @@ title: "TRIBE Router Validation"
 category: research
 tags: [SceneTwin, TRIBE, routing, validation, negative-results]
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-23
 sources:
   - cursor/research/output/tribe_router_validation_summary.json
   - cursor/research/output/tribe_necessity_perq.csv
@@ -23,9 +23,12 @@ The paper-worthy TRIBE claim is **not** global score improvement. The tiny rho
 lift is the wrong story.
 
 The defensible claim is narrower: TRIBE-derived blind-spot targets improve the
-questions/windows they explicitly target. This survives several judging runs,
-especially on matched questions. The claim does **not** extend to predicting the
-overall content distribution of professional AD; that test is negative.
+questions/windows they explicitly target and help prioritize review. This survives
+several judging runs, especially on matched questions, and the 2026-06-23 cheap-
+baseline gauntlet adds external triage support (`accessibility_gap` AUC=0.794 for
+corrected ADQA failures, category-shuffle p=0.003). The claim does **not** extend
+to predicting the overall content distribution of professional AD; that test is
+negative.
 
 ## Router Inventory
 
@@ -72,6 +75,13 @@ it should move targeted questions more than unrelated questions.
 | Gap-targeted AD vs generic AD (Opus judge, 17 clips) | 17 | 85 | 0.04706 | 14 | 6 | 65 | 0.05766 |
 | Gap-targeted AD vs generic AD (Opus judge, 15-clip subset) | 15 | 75 | 0.09333 | 13 | 3 | 59 | 0.01064 |
 | Surgical TRIBE ADQA target vs generic AD | 59 | 295 | 0.07458 | 68 | 30 | 197 | 7.808e-05 |
+
+## 2026-06-23 control updates
+
+- **Type-swapped prompt control is still pending.** No cached data has same-clip/same-question `generic`, `matched`, and `swapped` conditions; a future batch is prepared at `cursor/research/output/parallel_research/type_swapped_prompt_batch.jsonl`.
+- **Cheap baselines do not explain the key external triage result.** `accessibility_gap` beats category-only, transcript/speech, and duration/word-count baselines for corrected external ADQA failures in cached data.
+- **Frame-sampling route is not validated yet.** Current TRIBE-guided sampling shifts frames into high-need windows but does not improve action-route coverage or cached ADQA rho.
+- **Route-specific hallucination remains a modest stratified analysis.** It is useful route context, not standalone hallucination detection.
 
 ## Negative Result: Professional AD Priority
 

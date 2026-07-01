@@ -4,12 +4,19 @@ category: research
 tags: [scenetwin, tribe, paper-section, calibration, abstention, triage]
 sources: [output/scenetwin_timing_20clip/ensemble/adqa_clip_ensemble_scores.csv, output/scenetwin_timing_20clip/tribe_native/tribe_failure_forecast.csv]
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-23
 ---
 
 ## Headline
 
-After measurement: **TRIBE-derived per-clip features do NOT correlate significantly with continuous ensemble noise**, but they DO predict a specific binary failure event (`all4_fail`) at AUC=1.00. TRIBE's role is **binary review triage**, not continuous calibration. The published forecast is real; the calibration story we initially considered is not supported by data.
+After measurement: **TRIBE-derived per-clip features do NOT correlate significantly with continuous ensemble noise**. TRIBE's role is **review triage / blind-spot routing**, not continuous calibration or AD ranking. The original in-benchmark `all4_fail` forecast remains pilot/supporting evidence (AUC=1.00 on n=2 positives, with family-wise caveat), while the stronger current external support is the 60-clip cheap-baseline gauntlet: `accessibility_gap` predicts corrected ADQA failures at AUC=0.794 and survives within-category shuffling (p=0.003).
+
+## 2026-06-23 update — current safe role
+
+- **Use TRIBE as a side-car queue/router.** It can prioritize review and expose typed access windows before a candidate AD exists.
+- **Do not call it a scorer.** Per-clip TRIBE features cannot change within-clip AD rank order; TTS-audio NCR also landed near chance globally.
+- **Do not call it necessary or VLM-superior.** The fair wording is: distinct, competitive, and useful for triage/authoring hypotheses that CLIP+ADQA or humans/VLMs verify.
+- **Report operational metrics.** External ADQA failure triage by `accessibility_gap` (AUC=0.794, category-shuffle p=0.003) and mean-gap review-budget curves are safer than the old in-benchmark AUC=1.00 headline.
 
 ## What we tested
 
@@ -67,13 +74,13 @@ Curve is flat within 0.013. Abstaining does not reliably improve rho.
 
 ## Where TRIBE actually works
 
-The published TRIBE forecast targets `all4_fail` (all-4-judge ADQA ensemble fails full ordering). This is a *binary* event affecting 2/18 clips: clips 12 and 15.
+The original TRIBE forecast targets `all4_fail` (all-4-judge ADQA ensemble fails full ordering). This is a *binary* pilot event affecting only 2/18 clips: clips 12 and 15.
 
-- `mean_standard_slot_score` ranks clip 12 #1 and clip 15 #2 -> **recall@2 = 100%, AUC = 1.00**
-- Review budget: 2/18 = 11.1%
-- Bonferroni-corrected p < 0.07 across multiple test corrections
+- `mean_standard_slot_score` ranks clip 12 #1 and clip 15 #2 -> recall@2 = 100%, AUC = 1.00 on n=2 positives.
+- Review budget: 2/18 = 11.1%.
+- Treat as pilot/supporting evidence because feature-family correction weakens the claim; the external 60-clip ADQA-failure triage result is the safer current headline.
 
-This is real. It's just *not* the same task as continuous ranking quality calibration.
+This is useful triage evidence. It's just *not* the same task as continuous ranking quality calibration.
 
 ## The mismatch: TRIBE's target vs the ensemble's failure mode
 
@@ -90,7 +97,7 @@ A deployable AD audit pipeline cares about both: the metric tells you which AD t
 
 > We contribute two reference-free components: (1) a CLIP + frame-grounded ADQA ensemble that ranks AD candidates at Spearman rho = 0.929 in-benchmark and 0.873 on 60 external clips, and (2) a brain-aligned binary review-triage flag derived from TRIBE need-window features that recalls 100% of all-4-judge ranking failures at an 11% review budget (AUC = 1.00). Together they constitute a deployable AD audit pipeline: the ensemble scores AD candidates, and the triage flag identifies the small subset where ranking confidence cannot be inferred from the ensemble alone. Without the triage flag, safe deployment requires exhaustive human review; with it, 11% review suffices to catch all severe failures observed in the benchmark.
 
-This framing is honest, supported by measurement, and makes TRIBE structurally necessary for the deployment claim.
+This framing is partly superseded by the 2026-06-23 update above: keep the two-component audit-pipeline framing, but avoid “structurally necessary” language. TRIBE should be presented as a useful, distinct review-priority and routing side-car whose claims are strongest in external ADQA-failure triage and matched-window mechanisms.
 
 ## Open question — RESOLVED 2026-05-29 (Colab notebook returned)
 
@@ -106,7 +113,7 @@ Spearman correlation with per-clip continuous ensemble noise (`within_clip_rho`)
 | `alignment_cosine` | -0.392 | 0.108 | direction correct; weaker |
 | `description_gain` | -0.192 | 0.444 | not significant |
 
-**The calibration-layer story is no longer dead.** The new `accessibility_gap` reaches **|r| = 0.453**, 33% larger than the previous best across 12 existing TRIBE features (|r| = 0.342). It just misses the p<0.05 threshold at n=18 — but the minimum detectable r at n=18, alpha=0.05, power=0.80 is approximately 0.45. We are at the detection floor.
+**Superseded interim result.** At this point, `accessibility_gap` looked promising on n=18 (`|r| = 0.453`, p=0.059), but the later 60-clip external rerun below killed the calibration-layer interpretation. Keep this paragraph only as methodological history, not as active paper framing.
 
 ### AUC vs existing failure targets
 
@@ -119,15 +126,9 @@ Spearman correlation with per-clip continuous ensemble noise (`within_clip_rho`)
 
 **Headline:** `description_gain` matches the published top forecast feature on `low_tier3_margin`. This is a theoretically motivated brain-counterfactual replacement for a slot-score heuristic, at parity AUC.
 
-### What this means for the paper
+### What this meant before external validation
 
-Three updates to the framing:
-
-1. **Calibration framing is back on the table.** Paper A §8 should reflect that the new counterfactual gets within striking distance of the calibration threshold. Recommended language: "The new counterfactual proxy `accessibility_gap` shows the strongest TRIBE calibration signal observed (r = -0.453, p = 0.059, n=18). At this sample size the test is at the boundary of its detection floor; we anticipate that an external 60-clip re-run will resolve whether the calibration story is supportable."
-
-2. **Binary triage framing still holds as the safe claim.** AUC for the binary `all4_fail` flag (the published 11% review budget result) is still anchored on `mean_standard_slot_score`, not on the new counterfactual. The new feature `accessibility_gap` reaches AUC=0.875 on the same target — strong but not top.
-
-3. **`description_gain` matches existing top on `low_tier3_margin`.** This is the cleanest "we replace a slot-score heuristic with a theoretically grounded neural counterfactual feature at parity AUC" claim. Paper-relevant.
+At the n=18 stage, calibration looked borderline and `description_gain` matched existing features on `low_tier3_margin`. The external 60-clip rerun below supersedes this: calibration framing is closed, and counterfactual features should be described only as moderate triage/interpretability signals.
 
 ### External 60-clip re-run — RESOLVED 2026-05-29 (calibration story closed)
 

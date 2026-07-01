@@ -1,0 +1,209 @@
+{
+  "necessity": {
+    "rows": [
+      {
+        "ci_high": 0.04318181818181818,
+        "ci_low": -0.0022727272727272726,
+        "comparison": "tribe_minus_vlm",
+        "group": "all",
+        "losses": 5,
+        "mean": 0.020454545454545454,
+        "n_questions": 220,
+        "n_videos": 44,
+        "sign_p_one_sided": 0.048126220703125,
+        "ties": 202,
+        "wins": 13
+      },
+      {
+        "ci_high": 0.11290322580645161,
+        "ci_low": 0.017241379310344827,
+        "comparison": "tribe_minus_vlm",
+        "group": "matched",
+        "losses": 1,
+        "mean": 0.06451612903225806,
+        "n_questions": 62,
+        "n_videos": 44,
+        "sign_p_one_sided": 0.01953125,
+        "ties": 53,
+        "wins": 8
+      },
+      {
+        "ci_high": 0.025,
+        "ci_low": -0.01592356687898089,
+        "comparison": "tribe_minus_vlm",
+        "group": "unmatched",
+        "losses": 4,
+        "mean": 0.0031645569620253164,
+        "n_questions": 158,
+        "n_videos": 44,
+        "sign_p_one_sided": 0.5,
+        "ties": 149,
+        "wins": 5
+      },
+      {
+        "ci_high": 0.020454545454545454,
+        "ci_low": -0.011363636363636364,
+        "comparison": "tribe_minus_baseline",
+        "group": "all",
+        "losses": 4,
+        "mean": 0.004545454545454545,
+        "n_questions": 220,
+        "n_videos": 44,
+        "sign_p_one_sided": 0.2744140625,
+        "ties": 209,
+        "wins": 7
+      },
+      {
+        "ci_high": 0.026785714285714284,
+        "ci_low": 0.0,
+        "comparison": "tribe_minus_baseline",
+        "group": "matched",
+        "losses": 0,
+        "mean": 0.008064516129032258,
+        "n_questions": 62,
+        "n_videos": 44,
+        "sign_p_one_sided": 0.5,
+        "ties": 61,
+        "wins": 1
+      },
+      {
+        "ci_high": 0.024844720496894408,
+        "ci_low": -0.018870909959398136,
+        "comparison": "tribe_minus_baseline",
+        "group": "unmatched",
+        "losses": 4,
+        "mean": 0.0031645569620253164,
+        "n_questions": 158,
+        "n_videos": 44,
+        "sign_p_one_sided": 0.376953125,
+        "ties": 148,
+        "wins": 6
+      },
+      {
+        "ci_high": 0.006818181818181818,
+        "ci_low": -0.04090909090909091,
+        "comparison": "vlm_minus_baseline",
+        "group": "all",
+        "losses": 12,
+        "mean": -0.015909090909090907,
+        "n_questions": 220,
+        "n_videos": 44,
+        "sign_p_one_sided": 0.9164657592773438,
+        "ties": 201,
+        "wins": 7
+      },
+      {
+        "ci_high": -0.007692307692307693,
+        "ci_low": -0.109375,
+        "comparison": "vlm_minus_baseline",
+        "group": "matched",
+        "losses": 8,
+        "mean": -0.056451612903225805,
+        "n_questions": 62,
+        "n_videos": 44,
+        "sign_p_one_sided": 0.9892578125,
+        "ties": 52,
+        "wins": 2
+      },
+      {
+        "ci_high": 0.02243951612903227,
+        "ci_low": -0.02581064097193129,
+        "comparison": "vlm_minus_baseline",
+        "group": "unmatched",
+        "losses": 4,
+        "mean": 0.0,
+        "n_questions": 158,
+        "n_videos": 44,
+        "sign_p_one_sided": 0.5,
+        "ties": 149,
+        "wins": 5
+      }
+    ],
+    "type_disagree_rate": 0.9090909090909091,
+    "type_pair_n": 220,
+    "type_pairs": {
+      "face_character vs motion_action": 5,
+      "motion_action vs motion_action": 10,
+      "scene_spatial vs face_character": 15,
+      "scene_spatial vs motion_action": 110,
+      "scene_spatial vs object_body": 50,
+      "scene_spatial vs scene_spatial": 10,
+      "scene_spatial vs visual_form": 5,
+      "visual_form vs motion_action": 15
+    }
+  },
+  "roi": {
+    "by_dominant_roi": [
+      {
+        "adqa_fail_rate": 0.23333333333333334,
+        "dominant_roi": "retrosplenial_pos",
+        "ensemble_fail_rate": 0.03333333333333333,
+        "mean_visual_minus_control": 0.07574301454100445,
+        "n": 30
+      },
+      {
+        "adqa_fail_rate": 0.17647058823529413,
+        "dominant_roi": "early_visual_v1",
+        "ensemble_fail_rate": 0.058823529411764705,
+        "mean_visual_minus_control": 0.08327211021230035,
+        "n": 17
+      },
+      {
+        "adqa_fail_rate": 0,
+        "dominant_roi": "scene_ppa",
+        "ensemble_fail_rate": 0,
+        "mean_visual_minus_control": 0.1776182299991025,
+        "n": 9
+      },
+      {
+        "adqa_fail_rate": 0,
+        "dominant_roi": "lateral_object_loc",
+        "ensemble_fail_rate": 0,
+        "mean_visual_minus_control": 0.41843927821281757,
+        "n": 2
+      },
+      {
+        "adqa_fail_rate": 0,
+        "dominant_roi": "body_eba_region",
+        "ensemble_fail_rate": 0,
+        "mean_visual_minus_control": -0.2963630296389669,
+        "n": 1
+      },
+      {
+        "adqa_fail_rate": 0,
+        "dominant_roi": "higher_visual_v2v3v4",
+        "ensemble_fail_rate": 0,
+        "mean_visual_minus_control": -0.015994223756102155,
+        "n": 1
+      }
+    ],
+    "category_residual_gap_auc_adqa_fail": 0.646,
+    "category_z_gap_auc_adqa_fail": 0.684,
+    "dominant_roi_counts": {
+      "body_eba_region": 1,
+      "early_visual_v1": 17,
+      "higher_visual_v2v3v4": 1,
+      "lateral_object_loc": 2,
+      "retrosplenial_pos": 30,
+      "scene_ppa": 9
+    },
+    "mean_gap_auc_adqa_fail": 0.672,
+    "n_external": 60,
+    "visual_minus_control_mean_external": 0.09685002804769546,
+    "visual_minus_control_mean_inbench": 0.06637371656975591
+  },
+  "worksheet": {
+    "n_cases": 25,
+    "top_case": {
+      "case_id": "moment_level_authoring",
+      "category": "How-to & Instructional",
+      "clip_key": "external_iGmGQxox43I_000000_000010",
+      "corpus": "external",
+      "priority_score": "5.964753580129161",
+      "video_id": "iGmGQxox43I_000000_000010",
+      "why": "Gap is temporally concentrated; spend AD/review budget on the peak window.",
+      "window": "0.0-3.6s"
+    },
+    "worksheet_path": "C:\\Users\\adars\\Coding\\scenetwin\\output\\reports\\tribe-review-worksheet.md"
+  }
+}

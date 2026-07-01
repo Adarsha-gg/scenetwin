@@ -106,7 +106,7 @@ function AuditPage() {
           setSelectedPreset(items[0]);
         }
       })
-      .catch(() => setError('API is not reachable on port 8000.'));
+      .catch(() => setError('Optional live API is not reachable on port 8000. Cached pages still work from static JSON.'));
   }, []);
 
   useEffect(() => {
@@ -169,13 +169,20 @@ function AuditPage() {
         <aside className="card" style={{ padding: 18, position: 'sticky', top: 72 }}>
           <div className="row justify-between items-center">
             <div>
-              <div className="eyebrow accent">Live YouTube</div>
-              <h1 style={{ margin: '8px 0 0', fontSize: 30, fontWeight: 500, letterSpacing: 0 }}>Audit a clip</h1>
+              <div className="eyebrow accent">Optional live YouTube</div>
+              <h1 style={{ margin: '8px 0 0', fontSize: 30, fontWeight: 500, letterSpacing: 0 }}>Audit a fresh clip</h1>
             </div>
-            <Tag color="var(--good)">FastAPI</Tag>
+            <Tag color="var(--warn)">optional</Tag>
           </div>
 
-          <div className="col gap-12" style={{ marginTop: 22 }}>
+          <div className="card card-pad" style={{ marginTop: 16, borderColor: 'var(--warn)' }}>
+            <div className="eyebrow">Not part of local-only finish</div>
+            <p style={{ margin: '6px 0 0', color: 'var(--fg-muted)', fontSize: 13, lineHeight: 1.5 }}>
+              Cached clips are the stable demo. Live audit can need YouTube access, model downloads, and OpenAI/Anthropic keys if you leave Candidate AD blank.
+            </p>
+          </div>
+
+          <div className="col gap-12" style={{ marginTop: 16 }}>
             <label className="col gap-6">
               <span className="eyebrow">YouTube URL</span>
               <input
@@ -252,7 +259,7 @@ function AuditPage() {
               <textarea
                 value={ad}
                 onChange={e => setAd(e.target.value)}
-                placeholder="Leave blank to generate one."
+                placeholder="Local-only: paste an AD here. Leaving blank asks the backend to generate one with an API key."
                 rows={4}
                 style={{
                   resize: 'vertical',

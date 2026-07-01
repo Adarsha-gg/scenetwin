@@ -1,6 +1,6 @@
 ---
 title: SceneTwin paper A draft skeleton
-status: scaffold — fill in prose; numbers and figures locked
+status: SUPERSEDED (old 4-tier / n=18-primary numbers) — canonical manuscript is output/papers/scenetwin-submission.tex (60-clip primary, corrected 3-tier)
 created: 2026-05-29
 ---
 

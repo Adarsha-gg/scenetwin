@@ -1,6 +1,6 @@
 ---
 title: "SceneTwin: Human-Reference-Free Audio Description Auditing with Visual Grounding, Frame-Grounded QA, and Safety Gates"
-status: manuscript draft with references
+status: SUPERSEDED (old 4-tier / n=18-primary numbers) — canonical manuscript is output/papers/scenetwin-submission.tex (60-clip primary, corrected 3-tier)
 created: 2026-06-09
 updated: 2026-06-19
 author: Adarsha Mishra, William Paterson University

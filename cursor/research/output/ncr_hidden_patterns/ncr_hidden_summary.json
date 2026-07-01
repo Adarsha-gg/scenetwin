@@ -1,0 +1,321 @@
+{
+  "self_top1_by_tier": {
+    "tier0_cross": {
+      "hits": 1,
+      "n": 60,
+      "rate": 0.016666666666666666
+    },
+    "tier1_vatex_short": {
+      "hits": 0,
+      "n": 60,
+      "rate": 0.0
+    },
+    "tier2_vatex_long": {
+      "hits": 1,
+      "n": 60,
+      "rate": 0.016666666666666666
+    },
+    "tier3_va11y": {
+      "hits": 1,
+      "n": 60,
+      "rate": 0.016666666666666666
+    }
+  },
+  "tier0_source_top1": {
+    "hits": 1,
+    "n": 60,
+    "rate": 0.016666666666666666
+  },
+  "tier0_source_gt_target": {
+    "wins": 37,
+    "losses": 23,
+    "ties": 0,
+    "one_sided_sign_p": 0.04623049053646186
+  },
+  "top_ref_counts": [
+    [
+      "0m0-Q0zz_-c_000112_000122",
+      158
+    ],
+    [
+      "xW6hpK-DBMY_000080_000090",
+      31
+    ],
+    [
+      "GOH6fBhoi2o_000010_000020",
+      30
+    ],
+    [
+      "EA3HCx0yTIY_000281_000291",
+      10
+    ],
+    [
+      "S-C86j0keqc_000217_000227",
+      6
+    ],
+    [
+      "_TKzyWZHjm8_000002_000012",
+      3
+    ],
+    [
+      "zTJ0Zbv1jBo_000045_000055",
+      2
+    ]
+  ],
+  "top_ref_by_tier": {
+    "tier0_cross": [
+      [
+        "0m0-Q0zz_-c_000112_000122",
+        57
+      ],
+      [
+        "xW6hpK-DBMY_000080_000090",
+        2
+      ],
+      [
+        "_TKzyWZHjm8_000002_000012",
+        1
+      ]
+    ],
+    "tier1_vatex_short": [
+      [
+        "0m0-Q0zz_-c_000112_000122",
+        21
+      ],
+      [
+        "GOH6fBhoi2o_000010_000020",
+        16
+      ],
+      [
+        "xW6hpK-DBMY_000080_000090",
+        13
+      ],
+      [
+        "EA3HCx0yTIY_000281_000291",
+        9
+      ],
+      [
+        "S-C86j0keqc_000217_000227",
+        1
+      ]
+    ],
+    "tier2_vatex_long": [
+      [
+        "0m0-Q0zz_-c_000112_000122",
+        23
+      ],
+      [
+        "xW6hpK-DBMY_000080_000090",
+        14
+      ],
+      [
+        "GOH6fBhoi2o_000010_000020",
+        14
+      ],
+      [
+        "S-C86j0keqc_000217_000227",
+        5
+      ],
+      [
+        "zTJ0Zbv1jBo_000045_000055",
+        2
+      ]
+    ],
+    "tier3_va11y": [
+      [
+        "0m0-Q0zz_-c_000112_000122",
+        57
+      ],
+      [
+        "xW6hpK-DBMY_000080_000090",
+        2
+      ],
+      [
+        "_TKzyWZHjm8_000002_000012",
+        1
+      ]
+    ]
+  },
+  "category_rows": [
+    {
+      "category": "Education, Seminar & Talks",
+      "n": 1,
+      "mean_t3_minus_t1": 0.35593220338983056,
+      "t3_gt_t1_w_l_t": "1/0/0",
+      "mean_source_minus_target": 0.13559322033898302,
+      "source_gt_target": "1/1",
+      "mean_t3_rank_pct": 0.4067796610169492
+    },
+    {
+      "category": "Entertainment",
+      "n": 10,
+      "mean_t3_minus_t1": -0.0745762711864407,
+      "t3_gt_t1_w_l_t": "4/5/1",
+      "mean_source_minus_target": 0.1440677966101695,
+      "source_gt_target": "7/10",
+      "mean_t3_rank_pct": 0.4067796610169492
+    },
+    {
+      "category": "Event",
+      "n": 3,
+      "mean_t3_minus_t1": 0.0,
+      "t3_gt_t1_w_l_t": "2/1/0",
+      "mean_source_minus_target": 0.03954802259887006,
+      "source_gt_target": "2/3",
+      "mean_t3_rank_pct": 0.4180790960451977
+    },
+    {
+      "category": "Film & Animation",
+      "n": 2,
+      "mean_t3_minus_t1": -0.07627118644067798,
+      "t3_gt_t1_w_l_t": "1/1/0",
+      "mean_source_minus_target": -0.3220338983050848,
+      "source_gt_target": "0/2",
+      "mean_t3_rank_pct": 0.7542372881355932
+    },
+    {
+      "category": "Food & Cooking",
+      "n": 3,
+      "mean_t3_minus_t1": 0.15254237288135594,
+      "t3_gt_t1_w_l_t": "3/0/0",
+      "mean_source_minus_target": -0.07909604519774012,
+      "source_gt_target": "2/3",
+      "mean_t3_rank_pct": 0.6271186440677966
+    },
+    {
+      "category": "Health & Wellness",
+      "n": 4,
+      "mean_t3_minus_t1": -0.09745762711864406,
+      "t3_gt_t1_w_l_t": "2/2/0",
+      "mean_source_minus_target": 0.09745762711864404,
+      "source_gt_target": "1/4",
+      "mean_t3_rank_pct": 0.521186440677966
+    },
+    {
+      "category": "How-to & Instructional",
+      "n": 21,
+      "mean_t3_minus_t1": 0.14527845036319614,
+      "t3_gt_t1_w_l_t": "16/3/2",
+      "mean_source_minus_target": -0.0387409200968523,
+      "source_gt_target": "14/21",
+      "mean_t3_rank_pct": 0.5690072639225182
+    },
+    {
+      "category": "Music",
+      "n": 2,
+      "mean_t3_minus_t1": 0.16101694915254242,
+      "t3_gt_t1_w_l_t": "2/0/0",
+      "mean_source_minus_target": -0.14406779661016952,
+      "source_gt_target": "1/2",
+      "mean_t3_rank_pct": 0.7203389830508475
+    },
+    {
+      "category": "People & Vlogs",
+      "n": 8,
+      "mean_t3_minus_t1": -0.09957627118644068,
+      "t3_gt_t1_w_l_t": "2/6/0",
+      "mean_source_minus_target": -0.17796610169491528,
+      "source_gt_target": "4/8",
+      "mean_t3_rank_pct": 0.5550847457627118
+    },
+    {
+      "category": "Sports",
+      "n": 6,
+      "mean_t3_minus_t1": -0.059322033898305086,
+      "t3_gt_t1_w_l_t": "3/3/0",
+      "mean_source_minus_target": 0.4435028248587571,
+      "source_gt_target": "5/6",
+      "mean_t3_rank_pct": 0.3361581920903955
+    }
+  ],
+  "correlations": [
+    {
+      "feature": "tier3_rank_pct",
+      "target": "adqa_fail",
+      "spearman": 0.02713161688618671,
+      "auc_high_predicts_fail": 0.521,
+      "n": 60,
+      "positives": 10
+    },
+    {
+      "feature": "tier3_rank_pct",
+      "target": "ensemble_fail",
+      "spearman": 0.18776317862676747,
+      "auc_high_predicts_fail": 0.8017241379310345,
+      "n": 60,
+      "positives": 2
+    },
+    {
+      "feature": "tier3_minus_tier0",
+      "target": "adqa_fail",
+      "spearman": 0.08795882015751752,
+      "auc_high_predicts_fail": 0.568,
+      "n": 60,
+      "positives": 10
+    },
+    {
+      "feature": "tier3_minus_tier0",
+      "target": "ensemble_fail",
+      "spearman": 0.20678413489188938,
+      "auc_high_predicts_fail": 0.8318965517241379,
+      "n": 60,
+      "positives": 2
+    },
+    {
+      "feature": "tier3_minus_tier1",
+      "target": "adqa_fail",
+      "spearman": 0.3087192316004228,
+      "auc_high_predicts_fail": 0.739,
+      "n": 60,
+      "positives": 10
+    },
+    {
+      "feature": "tier3_minus_tier1",
+      "target": "ensemble_fail",
+      "spearman": 0.12067972309362707,
+      "auc_high_predicts_fail": 0.6939655172413793,
+      "n": 60,
+      "positives": 2
+    },
+    {
+      "feature": "tier0_source_minus_target",
+      "target": "adqa_fail",
+      "spearman": 0.04261347150816264,
+      "auc_high_predicts_fail": 0.533,
+      "n": 60,
+      "positives": 10
+    },
+    {
+      "feature": "tier0_source_minus_target",
+      "target": "ensemble_fail",
+      "spearman": -0.06434283981143712,
+      "auc_high_predicts_fail": 0.39655172413793105,
+      "n": 60,
+      "positives": 2
+    },
+    {
+      "feature": "mean_visual_gap",
+      "target": "tier3_minus_tier1",
+      "spearman": -0.218012527637599,
+      "auc_high_predicts_fail": "",
+      "n": 60,
+      "positives": ""
+    },
+    {
+      "feature": "max_visual_gap",
+      "target": "tier3_minus_tier1",
+      "spearman": -0.22721336234983225,
+      "auc_high_predicts_fail": "",
+      "n": 60,
+      "positives": ""
+    },
+    {
+      "feature": "top1_vs_uniform",
+      "target": "tier3_minus_tier1",
+      "spearman": -0.07377346020020245,
+      "auc_high_predicts_fail": "",
+      "n": 60,
+      "positives": ""
+    }
+  ]
+}

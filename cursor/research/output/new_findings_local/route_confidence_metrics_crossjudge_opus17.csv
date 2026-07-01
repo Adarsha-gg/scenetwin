@@ -1,0 +1,11 @@
+run,feature,spearman_vs_matched_delta
+crossjudge_opus17,max_peak_visual_gap,-0.3331734484412507
+crossjudge_opus17,max_visual_minus_control,-0.2692041463405306
+crossjudge_opus17,top_control_ratio,0.014659631731415032
+crossjudge_opus17,mean_control_ratio,0.5157524981870562
+crossjudge_opus17,top_dominance_margin,-0.5224159671558811
+crossjudge_opus17,active_window_frac,-0.3647738066374132
+crossjudge_opus17,top1_vs_uniform,-0.18790982492086541
+crossjudge_opus17,scene_agent_peak_apart,-0.29184924779216587
+crossjudge_opus17,mean_visual_gap,-0.3611600181103158
+crossjudge_opus17,max_visual_gap,-0.3331734484412507

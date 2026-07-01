@@ -3,7 +3,7 @@ title: "SceneTwin ADQA + CLIP Ensemble"
 category: research
 tags: [SceneTwin, ADQA, CLIP, ensemble, audio-description, NJBDA-2026]
 created: 2026-05-04
-updated: 2026-05-04
+updated: 2026-06-27
 sources:
   - output/scenetwin_timing_20clip/clip_scores/need_weighted_grounding_results.csv
   - output/scenetwin_timing_20clip/adqa_v2/adqa_v2_tier_scores.csv
@@ -14,11 +14,18 @@ sources:
 
 # SceneTwin ADQA + CLIP Ensemble
 
+> **This is the 18-clip PILOT, now the secondary corroborating set.** The headline evaluation is
+> the **60-clip primary set** ([[research/scenetwin-external-validation]]). The leaderboard tables
+> below are the **retired 4-tier sweep** (ρ = 0.929, n = 72). On the **corrected 3-tier ladder**
+> the 18-clip pilot scores **ρ = 0.957, 17/18 fully ordered, 53/54 pairwise,
+> 36/36 T3-vs-lower, Kendall τ = 0.887, perm p < 2e-4**. Use those numbers, not the 4-tier ones,
+> as current.
+
 This checks whether frame-grounded ADQA and CLIP-L14 provide complementary
 ranking signal. Scores are normalized within clip before fusion so each clip's
-four tiers are compared on the same 0-1 scale.
+tiers are compared on the same 0-1 scale.
 
-Rows evaluated: 72 across 18 clips.
+Rows evaluated below: 72 across 18 clips × 4 tiers (retired ladder).
 
 ## Baselines
 
@@ -139,10 +146,9 @@ is statistically distinguishable from CLIP alone.
 
 ### Poster-safe claim
 
-> Frame-grounded LLM comprehension (ADQA) and visual grounding (CLIP-L14)
-> capture complementary signal (per-clip ρ=0.76). A simple equal-weight
-> ensemble reaches ρ=0.929 [95% CI: 0.90–0.96], 54/54 pairwise tier wins,
-> permutation p<0.0005, on 18 clips × 4 quality tiers.
+> (Retired 4-tier framing.) On the corrected 3-tier ladder the equal-weight
+> ensemble reaches ρ = 0.954 on the 18-clip pilot (17/18 ordered, 53/54 pairwise,
+> perm p < 2e-4), corroborating the 60-clip primary result of ρ = 0.952.
 
 ## See Also
 - [[research/scenetwin-stage4-frame-grounded-adqa]]

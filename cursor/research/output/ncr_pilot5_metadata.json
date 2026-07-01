@@ -1,0 +1,97 @@
+[
+  {
+    "video_id": "0m0-Q0zz_-c_000112_000122",
+    "yt_id": "0m0-Q0zz_-c",
+    "start_s": 112.0,
+    "end_s": 122.0,
+    "category": "How-to & Instructional",
+    "tier1_vatex_short": "A man in a suit tying a bow on his leg",
+    "tier2_vatex_long": "A fancy man is showing and demonstrating how to properly tie a bow tie.",
+    "tier3_va11y": "A man in a formal suit demonstrates how to tie a bow tie using his knee as a surface. He carefully wraps the fabric around his leg, explaining each step of the process. The bow tie is white and stands out against his dark suit. He finishes by showing the perfectly tied bow resting on his thigh.",
+    "source_key": "0m0-Q0zz_-c_112.0_122.0",
+    "word_counts": {
+      "tier1_vatex_short": 11,
+      "tier2_vatex_long": 14,
+      "tier3_va11y": 57,
+      "tier0_cross": 53
+    },
+    "tier0_cross": "On a sunny day at an outdoor track, a young woman in athletic gear demonstrates her agility. She leaps over a series of hurdles, each jump precise and fluid. After clearing the final hurdle, she lands gracefully on a large red foam pad. In the background, a group of people watches her performance.",
+    "tier0_source_vid": "0t0DB1B1w8Y_000000_000010"
+  },
+  {
+    "video_id": "0t0DB1B1w8Y_000000_000010",
+    "yt_id": "0t0DB1B1w8Y",
+    "start_s": 0.0,
+    "end_s": 10.0,
+    "category": "Sports",
+    "tier1_vatex_short": "In an outdoor area, a women is jumping over one obstacles to another then lands on foam pad.",
+    "tier2_vatex_long": "A woman expertly demonstrates how she jumps over every hurdle and makes it from the platform to the mat.",
+    "tier3_va11y": "On a sunny day at an outdoor track, a young woman in athletic gear demonstrates her agility. She leaps over a series of hurdles, each jump precise and fluid. After clearing the final hurdle, she lands gracefully on a large red foam pad. In the background, a group of people watches her performance.",
+    "source_key": "0t0DB1B1w8Y_0.0_10.0",
+    "word_counts": {
+      "tier1_vatex_short": 18,
+      "tier2_vatex_long": 19,
+      "tier3_va11y": 53,
+      "tier0_cross": 62
+    },
+    "tier0_cross": "In a bustling factory, several workers are stationed along an assembly line. They efficiently handle bags of material as they move down a conveyor belt, sealing them before placing them with the rest. The environment is noisy, and one worker raises their voice to communicate over the sound. Large bags are stacked nearby, and the machinery hums steadily as the process continues.",
+    "tier0_source_vid": "1-jIze6gy0g_000026_000036"
+  },
+  {
+    "video_id": "1-jIze6gy0g_000026_000036",
+    "yt_id": "1-jIze6gy0g",
+    "start_s": 26.0,
+    "end_s": 36.0,
+    "category": "How-to & Instructional",
+    "tier1_vatex_short": "Several people are working together on a factory line filling bags.",
+    "tier2_vatex_long": "workers wait patiently  for bags of unknown materials to move down conveyor belt so they can seal them and be placed with the rest.",
+    "tier3_va11y": "In a bustling factory, several workers are stationed along an assembly line. They efficiently handle bags of material as they move down a conveyor belt, sealing them before placing them with the rest. The environment is noisy, and one worker raises their voice to communicate over the sound. Large bags are stacked nearby, and the machinery hums steadily as the process continues.",
+    "source_key": "1-jIze6gy0g_26.0_36.0",
+    "word_counts": {
+      "tier1_vatex_short": 11,
+      "tier2_vatex_long": 24,
+      "tier3_va11y": 62,
+      "tier0_cross": 64
+    },
+    "tier0_cross": "In a schoolyard, a young man in a white t-shirt and black shorts plays hopscotch on a painted court. Holding a basketball, he skillfully navigates the hopscotch pattern. After completing the sequence, he steps back and launches the basketball from a distance. The ball arcs through the air and successfully swishes through the hoop. The young man smiles, clearly pleased with his impressive shot.",
+    "tier0_source_vid": "1HUWWCLza0w_000000_000010"
+  },
+  {
+    "video_id": "1HUWWCLza0w_000000_000010",
+    "yt_id": "1HUWWCLza0w",
+    "start_s": 0.0,
+    "end_s": 10.0,
+    "category": "Sports",
+    "tier1_vatex_short": "A boy plays hopscotch and then throws a basketball into a hoop from far away",
+    "tier2_vatex_long": "A man maneuvers through a hopscotch pattern on the ground, throws a basketball at a basketball goal, and makes the shot successfully.",
+    "tier3_va11y": "In a schoolyard, a young man in a white t-shirt and black shorts plays hopscotch on a painted court. Holding a basketball, he skillfully navigates the hopscotch pattern. After completing the sequence, he steps back and launches the basketball from a distance. The ball arcs through the air and successfully swishes through the hoop. The young man smiles, clearly pleased with his impressive shot.",
+    "source_key": "1HUWWCLza0w_0.0_10.0",
+    "word_counts": {
+      "tier1_vatex_short": 15,
+      "tier2_vatex_long": 22,
+      "tier3_va11y": 64,
+      "tier0_cross": 49
+    },
+    "tier0_cross": "A young man with white face paint stands in a room, holding up his shirt to reveal a waxing strip on his chest. A person in a pink sleeve approaches and quickly pulls off the strip. The man screams in pain, his expression a mix of surprise and discomfort.",
+    "tier0_source_vid": "1YemrpNBpf4_000001_000011"
+  },
+  {
+    "video_id": "1YemrpNBpf4_000001_000011",
+    "yt_id": "1YemrpNBpf4",
+    "start_s": 1.0,
+    "end_s": 11.0,
+    "category": "Entertainment",
+    "tier1_vatex_short": "A guy has a waxing strip on his chest and screams when someone pulls it off.",
+    "tier2_vatex_long": "A boy is applying cream on his face and showing his chest place, something is pasted there another person is taking it away from there and he is shouting because of the pain.",
+    "tier3_va11y": "A young man with white face paint stands in a room, holding up his shirt to reveal a waxing strip on his chest. A person in a pink sleeve approaches and quickly pulls off the strip. The man screams in pain, his expression a mix of surprise and discomfort.",
+    "source_key": "1YemrpNBpf4_1.0_11.0",
+    "word_counts": {
+      "tier1_vatex_short": 16,
+      "tier2_vatex_long": 33,
+      "tier3_va11y": 49,
+      "tier0_cross": 34
+    },
+    "tier0_cross": "In a parking lot surrounded by parked cars, a man wearing headphones uses a backpack leaf blower to clear away leaves and debris. He moves methodically around the area, ensuring the space is clean.",
+    "tier0_source_vid": "1kLhK8KfIEw_000020_000030"
+  }
+]

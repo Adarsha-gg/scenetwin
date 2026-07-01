@@ -1,0 +1,47 @@
+{
+  "cached_scoring": {
+    "full_order_flips_against_tribe": [
+      6,
+      12
+    ],
+    "full_order_flips_to_tribe": [
+      16,
+      18
+    ],
+    "tribe_full_order": "9/18",
+    "tribe_pairwise_wins": "53/54",
+    "tribe_spearman_rho": 0.7817136403062965,
+    "uniform_full_order": "9/18",
+    "uniform_pairwise_wins": "49/54",
+    "uniform_spearman_rho": 0.8013665609387834
+  },
+  "counts": {
+    "action_route_clips": 9,
+    "clips_with_any_frames": 18,
+    "clips_with_tribe_under_8_frames": 17,
+    "clips_with_uniform_and_tribe_frames": 18,
+    "clips_with_uniform_under_8_frames": 9,
+    "high_need_windows_ge_0_4": 66,
+    "materially_different_clips": 5,
+    "router_blindspot_windows": 25,
+    "tribe_frames": 89,
+    "uniform_frames": 129
+  },
+  "coverage": {
+    "mean_clip_high_need_frame_rate_delta": 0.11964285714285716,
+    "mean_clip_router_frame_rate_delta": 0.012698412698412705,
+    "tribe_action_frame_rate_on_action_clips": 0.18604651162790697,
+    "tribe_high_need_frame_rate": 0.7078651685393258,
+    "tribe_router_frame_rate": 0.30337078651685395,
+    "uniform_action_frame_rate_on_action_clips": 0.208955223880597,
+    "uniform_high_need_frame_rate": 0.5736434108527132,
+    "uniform_router_frame_rate": 0.3023255813953488
+  },
+  "inputs": {
+    "frames_dir": "output\\scenetwin_timing_20clip\\adqa_frames",
+    "need_csv": "output\\scenetwin_timing_20clip\\need\\coarse_need_windows.csv",
+    "router_csv": "cursor\\research\\output\\tribe_blind_spot_windows.csv",
+    "tribe_adqa_aggregate": "output\\scenetwin_timing_20clip\\adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5\\aggregate_results.csv",
+    "uniform_adqa_aggregate": "output\\scenetwin_timing_20clip\\adqa_q-claude-haiku-4-5_g-claude-haiku-4-5\\aggregate_results.csv"
+  }
+}

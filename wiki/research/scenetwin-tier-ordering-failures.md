@@ -1,15 +1,23 @@
 ---
-title: SceneTwin tier ordering failures (3/18 clips)
+title: SceneTwin tier ordering failures (retired 4-tier ladder)
 category: research
-tags: [scenetwin, benchmark, failure-analysis, paper-section]
+tags: [scenetwin, benchmark, failure-analysis, paper-section, superseded]
 sources: [output/scenetwin_timing_20clip/ensemble/adqa_clip_ensemble_scores.csv, output/scenetwin_timing_20clip/tribe_native/tribe_failure_forecast.csv]
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-27
 ---
 
-## Headline
+> **This page analyzes the RETIRED 4-tier ladder.** The T2 ("long VATEX") rung has since been
+> removed as an invalid verbosity tier — and the T1 > T2 violations documented below were
+> themselves the evidence that justified removing it. On the **corrected 3-tier ladder** the
+> 18-clip pilot has **17/18 fully ordered (1 violation: clip 0, a T0 = T1 tie)** and **53/54
+> pairwise wins**; the 60-clip primary set has 58/60 ordered. See
+> [[research/scenetwin-external-validation]]. The 4-tier analysis is kept here as the rationale
+> for the ladder correction.
 
-15/18 benchmark clips are fully tier-ordered (T0 < T1 < T2 < T3) by `ensemble_mean_clip_mean`. The 3 violations are clip 0, 12, and 14 — and every violation lives at the **T1 -> T2** boundary, not anywhere else. T3 (professional AD) wins every clip.
+## Headline (retired 4-tier ladder)
+
+15/18 benchmark clips were fully tier-ordered (T0 < T1 < T2 < T3) by `ensemble_mean_clip_mean`. The 3 violations were clip 0, 12, and 14 — and every violation lived at the **T1 -> T2** boundary, not anywhere else. T3 (professional AD) won every clip. **All three violations involve the now-removed T2 rung**, which is exactly why it was retired.
 
 ## The 3 mis-ordered clips
 

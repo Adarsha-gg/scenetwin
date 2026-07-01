@@ -1,0 +1,13 @@
+corpus,route,dominant_type,windows
+all,action_state_or_agent_cue,agent_action,38
+all,layout_replay_or_scene_cue,scene_spatial,78
+all,static_ad_ok_low_gap,agent_action,37
+all,static_ad_ok_low_gap,scene_spatial,181
+external,action_state_or_agent_cue,agent_action,28
+external,layout_replay_or_scene_cue,scene_spatial,63
+external,static_ad_ok_low_gap,agent_action,27
+external,static_ad_ok_low_gap,scene_spatial,118
+inbench,action_state_or_agent_cue,agent_action,10
+inbench,layout_replay_or_scene_cue,scene_spatial,15
+inbench,static_ad_ok_low_gap,agent_action,10
+inbench,static_ad_ok_low_gap,scene_spatial,63

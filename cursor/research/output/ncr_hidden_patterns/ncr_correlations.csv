@@ -1,0 +1,12 @@
+feature,target,spearman,auc_high_predicts_fail,n,positives
+tier3_rank_pct,adqa_fail,0.02713161688618671,0.521,60,10
+tier3_rank_pct,ensemble_fail,0.18776317862676747,0.8017241379310345,60,2
+tier3_minus_tier0,adqa_fail,0.08795882015751752,0.568,60,10
+tier3_minus_tier0,ensemble_fail,0.20678413489188938,0.8318965517241379,60,2
+tier3_minus_tier1,adqa_fail,0.3087192316004228,0.739,60,10
+tier3_minus_tier1,ensemble_fail,0.12067972309362707,0.6939655172413793,60,2
+tier0_source_minus_target,adqa_fail,0.04261347150816264,0.533,60,10
+tier0_source_minus_target,ensemble_fail,-0.06434283981143712,0.39655172413793105,60,2
+mean_visual_gap,tier3_minus_tier1,-0.218012527637599,,60,
+max_visual_gap,tier3_minus_tier1,-0.22721336234983225,,60,
+top1_vs_uniform,tier3_minus_tier1,-0.07377346020020245,,60,

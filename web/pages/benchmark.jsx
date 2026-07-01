@@ -24,15 +24,15 @@ function BenchmarkPage() {
       <SectionHead
         eyebrow="Cached benchmark"
         title="Poster-ready results"
-        sub="The live demo audits arbitrary YouTube clips. The benchmark tab keeps the NJBDA evidence in one clean view."
+        sub="The benchmark tab is the local-only evidence bundle. Live YouTube is optional and not needed for the stable demo."
         right={<a className="btn" href="../output/scenetwin_njbda_poster.pdf" target="_blank">Open poster PDF</a>}
       />
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, minmax(0, 1fr))', gap: 12 }}>
-        <div className="card card-pad"><Stat label="Held-out rho" value="0.84" sub="live frame-based demo" /></div>
+        <div className="card card-pad"><Stat label="CLIP gate AUC" value="0.84" sub="wrong-content safety gate" /></div>
         <div className="card card-pad"><Stat label="Benchmark rho" value="0.929" sub="poster headline" /></div>
-        <div className="card card-pad"><Stat label="TRIBE AUC" value="1.00" sub="cached fMRI benchmark" /></div>
-        <div className="card card-pad"><Stat label="Recall@2" value="100" unit="%" sub="18-clip benchmark" /></div>
+        <div className="card card-pad"><Stat label="Pilot TRIBE AUC" value="1.00" sub="n=2 failure-triage caveat" /></div>
+        <div className="card card-pad"><Stat label="Recall@2" value="2/2" sub="known cached failures" /></div>
       </div>
 
       <section style={{ marginTop: 28, display: 'grid', gridTemplateColumns: '1.2fr 0.8fr', gap: 18 }}>

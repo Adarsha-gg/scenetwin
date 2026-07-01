@@ -74,8 +74,8 @@ function IntroReel({ onClose, setPage }) {
       img: '../output/charts/tribe_clip_brains/clip_14_tribe_gap.png',
     },
     {
-      label: 'Contest-ready workflow',
-      sub: 'Cached clips for the stable story, Live Audit for fresh YouTube stress tests.',
+      label: 'Local-ready workflow',
+      sub: 'Cached clips are the stable story; Live Audit is an optional YouTube/API stress test.',
       img: '../output/charts/scenetwin_failure_forecast.png',
     },
   ];
@@ -128,14 +128,14 @@ function IntroReel({ onClose, setPage }) {
                 <span>professional AD wins in pairwise checks</span>
               </div>
               <div className="intro-metric">
-                <strong>100%</strong>
-                <span>TRIBE recall@2 for known failure clips</span>
+                <strong>2/2</strong>
+                <span>pilot TRIBE queue caught both known failure clips</span>
               </div>
             </div>
             <div className="intro-actions">
               <button className="intro-button primary" onClick={() => jump('cached')}>Start with cached clips</button>
               <button className="intro-button" onClick={() => jump('tribe')}>Show TRIBE risk</button>
-              <button className="intro-button" onClick={() => jump('audit')}>Live YouTube audit</button>
+              <button className="intro-button" onClick={() => jump('audit')}>Optional live audit</button>
             </div>
           </div>
 
@@ -172,7 +172,7 @@ function IntroReel({ onClose, setPage }) {
             </div>
             <div className="intro-ticker">
               <span>
-                DOWNLOAD ok / SAMPLE FRAMES ok / GENERATE AD ok / CLIP ok / ADQA ok / TRIBE RISK ready / cached benchmark ready / live YouTube optional
+                STATIC JSON ready / CACHED CLIPS ready / BENCHMARK ready / TRIBE RISK ready / LIVE YOUTUBE optional
               </span>
             </div>
           </div>

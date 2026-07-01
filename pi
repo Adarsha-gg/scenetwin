@@ -1,0 +1,26 @@
+SceneTwin pi scratchpad
+
+2026-06-16
+- Repo found at C:/Users/adars/Coding/scenetwin.
+- main is up to date with origin/main.
+- Latest research branch with incoming work is origin/agent-loop/claude-round-70 (local branch pi/research-improvement now tracks it).
+- Testing target: free/no-LLM analyses over existing cached ADQA/model-pair outputs; avoid repeating locked gate numbers.
+
+2026-06-16 later
+- User correctly rejected ADQA cascade as too operational/trivial for a paper headline.
+- New target: method-level contribution. Tested whether ADQA question generation itself is the hidden variable.
+- Result: unconstrained GPT ADQA drifts into object inventory. Object-only questions are near-noise (rho 0.268); narrative-access action+setting questions lift ADQA+CLIP from rho 0.854 to 0.877 on cached v4.
+- Next loop should push further: manual question taxonomy, stronger rubric, and whether TRIBE can predict which narrative slots/questions matter per clip.
+
+2026-06-16 consolidation
+- User called out duplicate TRIBE routing work. I checked existing TRIBE reports before proceeding.
+- Consolidated authoring/beacon experiments into one system: cursor/pipeline/tribe_access_system.py + cursor/output/tribe_access_system/.
+- New actual use case: access-debt ledger. High visual need under dense speech accumulates debt; player preserves audio, emits haptic/detail cue, and repays with recap at next safe gap/end.
+- Removed earlier untracked tribe_authoring_cues / tribe_attention_beacons / adqa_cascade_policy clutter.
+
+2026-06-16 correction
+- User was right: access-system/player widgets were not research. Removed those artifacts.
+- Real TRIBE lane from existing log: counterfactual neural need targeting for AD generation.
+- Consolidated into cursor/research/TRIBE_RESEARCH_THESIS.md.
+- Strong evidence from prior log: external gap-targeted ADQA +0.080 p=0.0006; surgical matched-q +0.167 p=0.0001; GPT-5 crossjudge matched +0.113 p=0.0011; necessity TRIBE>VLM p=0.023.
+- Next experiment: fair VLM+transcript baseline vs TRIBE, same generator/judge.

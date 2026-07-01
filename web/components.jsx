@@ -16,11 +16,11 @@ function mulberry32(seed) {
 function TopBar({ page, setPage, onIntro }) {
   const links = [
     { id: 'hero', label: 'Overview' },
-    { id: 'audit', label: 'Live audit' },
     { id: 'cached', label: 'Cached clips' },
     { id: 'benchmark', label: 'Benchmark' },
     { id: 'tribe', label: 'TRIBE risk' },
     { id: 'compare', label: 'Compare' },
+    { id: 'audit', label: 'Live audit' },
   ];
   return (
     <header className="topbar">
@@ -88,12 +88,12 @@ function Footer() {
           </ul>
         </div>
         <div>
-          <h5>Product</h5>
+          <h5>Demo</h5>
           <ul>
-            <li><a>Live audit</a></li>
-            <li><a>Gallery</a></li>
-            <li><a>API (beta)</a></li>
-            <li><a>Pricing</a></li>
+            <li><a>Cached clips</a></li>
+            <li><a>Benchmark</a></li>
+            <li><a>TRIBE risk</a></li>
+            <li><a>Live audit (optional)</a></li>
           </ul>
         </div>
         <div>

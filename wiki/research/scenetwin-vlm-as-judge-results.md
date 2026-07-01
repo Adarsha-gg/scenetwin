@@ -4,10 +4,18 @@ category: research
 tags: [scenetwin, baselines, vlm, paper-a]
 sources: [cursor/research/output/vlm_as_judge_*.csv]
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-27
 ---
 
-## Headline
+> **The per-model tables below are the retired 4-tier sweep** (ensemble 0.929/0.873; VLMs
+> 0.71–0.76). On the **corrected 3-tier ladder** the manuscript reports the best VLM judge at
+> **ρ = 0.847 on the 60-clip primary set / 0.863 on the 18-clip pilot**, versus SceneTwin
+> **0.952 / 0.957** — a gap of roughly **+0.09–0.10**. The qualitative conclusion is unchanged
+> (all three frontier VLMs trail the structured audit), but the **per-model corrected leaderboard
+> CSV still needs regenerating** — `vlm_as_judge_leaderboard.csv` currently holds 4-tier values.
+> Treat the granular numbers below as the retired ladder.
+
+## Headline (retired 4-tier sweep)
 
 We ran three frontier multimodal models (Anthropic Claude Sonnet 4.6, OpenAI GPT-5, Google Gemini 2.5 Pro) as zero-shot AD-quality judges across the combined 78-clip corpus. All three trail the 2-signal CLIP+ADQA ensemble by **0.13–0.17 Spearman ρ** in-benchmark and by similar margins externally. The three models agree with each other at ρ = 0.83–0.88 inter-provider but fail to reproduce the tier ranking that our smaller 2-signal ensemble captures. **This is the cleanest possible answer to the "a frontier VLM would beat your ensemble" reviewer challenge.**
 

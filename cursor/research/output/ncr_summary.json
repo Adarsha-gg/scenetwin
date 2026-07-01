@@ -1,0 +1,89 @@
+{
+  "n_queries": 240,
+  "n_clips": 60,
+  "tiers": {
+    "tier0_cross": {
+      "n": 60,
+      "mean_rank_pct": 0.49519774011299433,
+      "rank_pct_ci95": [
+        0.41920903954802263,
+        0.5689265536723164
+      ],
+      "median_rank": 32.0,
+      "mean_cos_margin": -0.001787362383333336
+    },
+    "tier1_vatex_short": {
+      "n": 60,
+      "mean_rank_pct": 0.4884180790960452,
+      "rank_pct_ci95": [
+        0.4175141242937853,
+        0.5624293785310734
+      ],
+      "median_rank": 29.5,
+      "mean_cos_margin": -0.014881565375706214
+    },
+    "tier2_vatex_long": {
+      "n": 60,
+      "mean_rank_pct": 0.515819209039548,
+      "rank_pct_ci95": [
+        0.4403954802259887,
+        0.5892655367231638
+      ],
+      "median_rank": 32.0,
+      "mean_cos_margin": 0.009804789537005651
+    },
+    "tier3_va11y": {
+      "n": 60,
+      "mean_rank_pct": 0.5175141242937853,
+      "rank_pct_ci95": [
+        0.44378531073446326,
+        0.5957627118644068
+      ],
+      "median_rank": 29.5,
+      "mean_cos_margin": 0.012255080989548021
+    }
+  },
+  "spearman_gt_rank_pct": 0.03497296475912737,
+  "spearman_gt_cos_margin": 0.025927730673908526,
+  "spearman_gt_rank_pct_3tier": 0.030583640966878416,
+  "spearman_gt_rank_pct_length_residual": 0.03526071439932693,
+  "spearman_word_count_rank_pct": -0.00807361631563684,
+  "tier3_pairwise": {
+    "tier3_gt_tier0_cross": {
+      "n": 60,
+      "mean_diff_rank_pct": 0.022316384180790957,
+      "wins": 32,
+      "losses": 20,
+      "ties": 8,
+      "one_sided_sign_p": 0.06317353790696068
+    },
+    "tier3_gt_tier1_vatex_short": {
+      "n": 60,
+      "mean_diff_rank_pct": 0.029096045197740117,
+      "wins": 36,
+      "losses": 21,
+      "ties": 3,
+      "one_sided_sign_p": 0.03136834017791425
+    },
+    "tier3_gt_tier2_vatex_long": {
+      "n": 60,
+      "mean_diff_rank_pct": 0.0016949152542372818,
+      "wins": 34,
+      "losses": 23,
+      "ties": 3,
+      "one_sided_sign_p": 0.09242524120820922
+    }
+  },
+  "tier0_source_leakage": {
+    "n": 60,
+    "mean_target_rank_pct": 0.49519774011299433,
+    "mean_source_rank_pct": 0.5175141242937853,
+    "source_gt_target_count": 37
+  },
+  "alignment_sensitivity": {
+    "high_alignment_queries": 156,
+    "low_alignment_queries": 84,
+    "high_alignment_spearman_rank_pct": 0.033366549203583534,
+    "low_alignment_spearman_rank_pct": 0.04437407899826374
+  }
+}

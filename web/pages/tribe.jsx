@@ -300,10 +300,10 @@ function TribeRiskPage() {
       <BlindSpotRouterPanel router={data?.blind_spot_router} />
 
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, minmax(0, 1fr))', gap: 10, marginBottom: 12 }}>
-        <div className="card" style={{ padding: 12 }}><Stat label="Recall@2" value={data ? `${Math.round(data.recall_at_topk * 100)}` : '—'} unit="%" sub="both known failures caught" /></div>
+        <div className="card" style={{ padding: 12 }}><Stat label="Pilot recall@2" value={data ? `${data.review_budget_clips}/${data.positives}` : '—'} sub="both known failures caught; n=2" /></div>
         <div className="card" style={{ padding: 12 }}><Stat label="p value" value={data ? data.p_value.toFixed(4) : '—'} sub="hypergeometric top-k" /></div>
         <div className="card" style={{ padding: 12 }}><Stat label="Risk clips" value={data ? `${highRisk}/${data.n}` : '—'} sub="quality failure targets" /></div>
-        <div className="card" style={{ padding: 12 }}><Stat label="Review budget" value={data ? data.review_budget_clips : '—'} sub="clips a human checks first" /></div>
+        <div className="card" style={{ padding: 12 }}><Stat label="Review queue" value={data ? data.review_budget_clips : '—'} sub="pilot clips checked first" /></div>
         <div className="card" style={{ padding: 12 }}>
           <Stat
             label="ρ (TRIBE vs judges)"

@@ -8,8 +8,10 @@ updated: 2026-06-07
 # Neural Contrastive Retrieval (NCR)
 
 A genuinely new, AD-dependent, brain-grounded AD score designed to survive the two
-confounds that killed every prior neural metric. **Results pending a Colab TRIBE run**;
-the producer cell and analyzer are written and the analysis pipeline is verified.
+confounds that killed every prior neural metric. **Full 60-clip L4 Colab run completed
+2026-06-23 as a TTS-audio-only variant.** It is an honest near-null as a ranker,
+with only weak source-specificity/pairwise hints; do not headline it as a working
+brain-grounded AD score.
 
 ## The idea
 
@@ -41,24 +43,57 @@ silent-video `P_AV`. NCR neutralizes both:
 NCR is also **AD-dependent** (varies per candidate), unlike the per-clip
 `accessibility_gap` that mathematically cannot enter within-clip ρ.
 
-## How to run
+## How it was run
 
-1. Colab: load TRIBE (existing notebook through Step 4), then paste and run
-   `cursor/research/tribe_ncr_dump_cell.py`. ~300 TRIBE calls (~3–4h T4), npz-cached.
-2. Download `ncr_similarity.csv` into `cursor/research/output/`.
-3. Local: `python cursor/pipeline/neural_contrastive_retrieval.py` → JSON + chart +
-   fills in the results below.
+The original notebook cell `cursor/research/tribe_ncr_dump_cell.py` assumed missing
+Colab globals and missing external clip MP4s, so the actual run used a self-contained
+runner:
 
-Validate the analyzer now without Colab: `--selftest` (synthetic; clearly labeled).
+1. Build metadata locally: `python cursor/pipeline/build_ncr_metadata.py`.
+2. Colab L4 setup: `tools/colab_tribe_setup.py`, restart kernel, then
+   `tools/colab_tribe_smoke.py`.
+3. Upload `cursor/research/output/ncr_external60_metadata.json` and run
+   `tools/colab_tribe_ncr_runner.py`.
+4. Analyze locally: `python cursor/pipeline/neural_contrastive_retrieval.py` and
+   `python cursor/research/tribe_ncr_hidden_patterns.py`.
 
-## Expected output shape (from the synthetic self-test — NOT a result)
+Important deviation: the full TRIBE text extractor requires gated
+`meta-llama/Llama-3.2-3B`, so the completed run used **TTS-audio AD queries** and
+video+audio references with text stages disabled.
 
-A positive outcome looks like: `tier0` rank-pct ≈ chance, `tier3` ≫ chance,
-ρ(tier, rank-pct) > 0, control p ≪ 0.05. If instead all tiers sit at chance, NCR is an
-**honest negative** (60-way retrieval from mean-pooled, OOD-for-TRIBE text is too noisy)
-and we report that — it does not get buried.
+## Result
 
-![ncr selftest](../../output/charts/scenetwin_ncr.png)
+Full 60-clip output: `cursor/research/output/ncr_similarity.csv` (14,400 rows).
+Reports:
+
+- `output/reports/colab-tribe-ncr-full-run.md`
+- `output/reports/tribe-ncr-results.md`
+- `output/reports/tribe-ncr-hidden-patterns.md`
+
+Rank-percentile means stayed near chance:
+
+| Tier | mean correct-rank percentile |
+|---|---:|
+| tier0_cross | 0.495 |
+| tier1_vatex_short | 0.488 |
+| tier2_vatex_long | 0.516 |
+| tier3_va11y | 0.518 |
+
+Aggregate signal:
+
+- Spearman(tier, correct-rank percentile), 4-tier: `0.035`
+- Spearman(tier, cosine margin), 4-tier: `0.026`
+- Spearman(tier, correct-rank percentile), corrected 3-tier: `0.031`
+- Spearman(word count, rank pct): `-0.008`
+- Spearman(tier, length-residual rank pct): `0.035`
+
+Small mechanism hints:
+
+- T3 > short caption on 36/57 non-tie clips, one-sided sign p=`0.0314`.
+- Wrong-content source rank > target rank on 37/60, one-sided sign p=`0.0462`.
+
+Top-1 retrieval is heavily hubbed (one reference attracted 158/240 top-1 assignments),
+so this is **not** a deployable scorer.
 
 ## Risk (stated up front)
 
