@@ -162,18 +162,21 @@ a drop-in "Reference-Free Audio-Description Error Detection" manuscript section 
 **D18 (unused-data hunt) and D19 (unblock scaffold) — INCOMPLETE.** Both subagents died on a
 session/rate limit before writing outputs (resets 10:20pm ET). Carried to round 5.
 
-**D21 — Cheap visual proxies vs TRIBE neural gap (done — UNBLOCKED the round-1 D4 fight).**
-Detail: `scenetwin-loop-d21-visual-proxy.md`. Installed a numpy+Pillow venv (`.venv_np`,
-user-authorized) and computed frame-difference motion / scene-cut / brightness / detail
-proxies from cached JPG frames for the 18 clips with both frames and a TRIBE signal.
-- **TRIBE's accessibility GAP is NOT reducible to cheap visual motion** — no proxy predicts
-  `tr_mean_cosine_gap` at significance (best motion_max ρ=+0.44 p=0.069, duration +0.45
-  p=0.059; both fail an honest permutation test at n=18). **Defends TRIBE's necessity**:
-  combined with round-1 D4 (beat cheap text/metadata proxies, AUC 0.794), the neural gap
-  now also survives cheap *visual* proxies.
-- **Honest nuance:** the TRIBE *need timeline* partly tracks **brightness variability**
-  (ρ≈+0.6, p<0.01); the triage "gap" signal does not. Caveat: n=18, frame-sample stats not
-  dense optical flow.
+**D21 — Cheap visual proxies vs TRIBE gap + ADQA failure, at n=57 (done — UNBLOCKED).**
+Detail: `scenetwin-loop-d21-visual-proxy.md`. Installed numpy+Pillow+yt-dlp+ffmpeg
+(`.venv_np`, user-authorized), **downloaded the 60 external clips** (57/60 succeeded, 3
+unavailable) and extracted frames, so this now runs at the primary external scale — with
+real `adqa_fail` labels, not the disjoint 18-clip timing set.
+- **Neural signal not replaceable by cheap visual proxies:** for predicting real ADQA
+  failure, `accessibility_gap` AUC=**0.796** vs every cheap frame proxy ≤0.628 (Δ≥0.17).
+  With round-1 D4 (beat cheap text/metadata proxies) TRIBE survives the fair fight on both
+  axes **at full scale**.
+- **New finding only visible at scale:** visual motion / scene-cuts **negatively and
+  significantly** predict the TRIBE visual gap (motion ρ=−0.38 p=0.004, scene_spatial
+  ρ=−0.42 p=0.002) — high-motion clips have *lower* AV-vs-A gap.
+- **Corrects the earlier n=18 pass**, which showed a weak *positive* motion trend (+0.44):
+  small sample was underpowered AND wrong-signed. n=57 is canonical. Caveat: 8 frames/clip,
+  frame-diff not dense optical flow; 10 fail positives.
 
 ### Round 4 synthesis
 

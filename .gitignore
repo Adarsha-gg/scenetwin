@@ -50,3 +50,7 @@ workspace/sintel_frames/
 *.nii
 *.nii.gz
 *.mgz
+
+# downloaded frames for D21 n=60 visual-proxy (re-fetchable)
+cursor/research/output/ext60_frames/
+cursor/research/output/ext60_fetch.log
