@@ -21,6 +21,7 @@ _Last updated: 2026-06-27_
 - [SceneTwin consolidated submission draft](../output/reports/paper-scenetwin-consolidated.md) — earlier broader draft with brain-grounded steering; useful source material, but too sprawling as the primary same-day submission target.
 
 ## Findings — 2026-06 ladder / generalization work (cursor/findings/)
+- [New research directions — first run](../output/reports/scenetwin-new-directions-run.md) — 2026-07-02 cached-data run of 5 new directions: grader-free error detector (CLIP fab-detection AUC 0.835, ADQA type-selectively blind), gold ADs omit 38% of key visual facts (comprehension-target motivation), TRIBE wins cheap-proxy triage fight (0.794, thin margin over cheap ensemble). Repro: `cursor/research/new_directions_run.py`.
 - [New findings backlog](../output/reports/new-findings.md) — 100 candidate TRIBE/SceneTwin research ideas plus validation loops, plus cached-data local run #1 results.
 - [TRIBE new findings local run](../output/reports/tribe-new-findings-local-run.md) — first actual cached-data pass: feature-selection-corrected pilot p-value, low-gap external safety signal, route-confidence negative, route-type support split, tensor health caveats.
 - [TRIBE new findings round 2](../output/reports/tribe-new-findings-round2.md) — cross-judge cluster bootstrap, length-control check, triage budget curves, low-pressure early-exit, tie-target audit, simple confound checks, low-alignment sensitivity.

@@ -1,0 +1,60 @@
+======================================================================
+D16  QUESTION-TYPE-REWEIGHTED ADQA
+======================================================================
+joined graded instances (tier2 dropped): matched=2052, unmatched=0
+coverage: 18 clips x 3 kept tiers, pooled over 8 ADQA variants
+question-type instance counts: object_attr=549, other=456, action_relation=333, who_role=306, spatial_relation=285, count=123
+
+----------------------------------------------------------------------
+TASK 1+2: tier-ranking Spearman rho vs tier order (pooled clip,tier obs)
+----------------------------------------------------------------------
+  equal (baseline)       rho=+0.9319  (n_obs=54)
+  linear AUC             rho=+0.9338  (n_obs=54)
+  AUC^2                  rho=+0.9338  (n_obs=54)
+  AUC-0.5 (excess)       rho=+0.9338  (n_obs=54)
+  drop 2 weakest         rho=+0.9293  (n_obs=54)
+
+  baseline (equal-weight) rho = +0.9319
+  deltas vs equal-weight:
+    linear AUC             d_rho = +0.0019
+    AUC^2                  d_rho = +0.0019
+    AUC-0.5 (excess)       d_rho = +0.0019
+    drop 2 weakest         d_rho = -0.0026
+
+----------------------------------------------------------------------
+TASK 3: ablation by scene-model flag (equal weight within subset)
+----------------------------------------------------------------------
+  all questions          rho=+0.9319  (n_obs=54)
+  scene-model only       rho=+0.9146  (n_obs=54)
+  non-scene-model only   rho=+0.8852  (n_obs=54)
+
+----------------------------------------------------------------------
+TASK 4: bootstrap (resample clips) CI on rho and on delta vs equal
+----------------------------------------------------------------------
+  bootstrap B=5000, resample 18 clips with replacement (seed=7)
+  equal-weight rho=+0.9319  95% CI [+0.9172, +0.9485]
+
+  scheme                 rho     d_rho   95% CI(d_rho)      P(d_rho>0)
+  linear AUC             +0.9338 +0.0019  [-0.0007, +0.0053]   0.724
+  AUC^2                  +0.9338 +0.0019  [-0.0007, +0.0053]   0.724
+  drop 2 weakest         +0.9293 -0.0026  [-0.0203, +0.0144]   0.393
+  scene-model only       +0.9146 -0.0174  [-0.0449, +0.0141]   0.133
+  non-scene-model only   +0.8852 -0.0467  [-0.0729, -0.0157]   0.001
+
+  permutation null for equal-weight rho (shuffle tier labels within clip):
+    equal-weight rho=+0.9319, within-clip label-perm p=0.00005 (20000 perms)
+
+----------------------------------------------------------------------
+ROBUSTNESS: per-variant rho (equal vs linear-AUC vs drop-2-weakest)
+----------------------------------------------------------------------
+  variant                                        equal  linAUC   drop2
+  adqa                                         +0.9626 +0.9599 +0.9416
+  adqa_q-claude-haiku-4-5_g-claude-haiku-4-5   +0.8447 +0.8326 +0.7694
+  adqa_q-claude-haiku-4-5_g-gpt-4o             +0.8250 +0.8197 +0.7838
+  adqa_q-gpt-4o_g-claude-haiku-4-5             +0.8982 +0.9122 +0.9307
+  adqa_q-gpt-4o_g-gpt-4o                       +0.9125 +0.9107 +0.9301
+  adqa_tribe_q-claude-haiku-4-5_g-claude-haiku-4-5 +0.8525 +0.8579 +0.8111
+  adqa_v2                                      +0.8558 +0.8494 +0.7572
+  adqa_v4                                      +0.8756 +0.8803 +0.9018
+
+DONE.
