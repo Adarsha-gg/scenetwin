@@ -17,12 +17,33 @@ live in `cursor/research/`; per-direction detail in `output/reports/scenetwin-lo
 
 ---
 
+## Sample sizes (read this)
+
+Each experiment's n is set by which dataset it needs, not by choice. **Full external scale
+(n≈57–60)** wherever the analysis only needs the `halluc_gate` / `external_features` /
+`external_ensemble_eval` sets. Some sub-analyses are **capped subsets** because their
+auxiliary labels were only ever generated for part of the corpus, and extending them to
+n=60 needs paid LLM calls — **declined (no budget)**, so they are labeled as subsets and
+stay that way.
+
+| Experiment | n | Why |
+|---|---|---|
+| D1 detection (headline), D4, D7, D8, D9, D11, D14, D15 | **60** | full external set |
+| D21 visual proxies | **57** | downloaded 57/60 clips' frames (3 unavailable) |
+| D2, D6, D10, D13 (omission / error-type) | **23 clips / 76 probes** | the entire relational-probe set; more needs LLM probe generation (declined) |
+| D12, D16 (per-question reliability / rerank) | **18** | per-question grades exist only for the timing set; more needs LLM grading (declined) |
+
+The 23- and 18-clip results are reported **as subsets** and should be read as pilot/support
+evidence, not full-scale claims.
+
+---
+
 ## Round 1 (done) — see `scenetwin-new-directions-run.md`
 
 | Dir | Result | Status |
 |---|---|---|
 | D1 error-taxonomy detector | CLIP fab-vs-paraphrase AUC **0.835**, ADQA 0.801; ADQA blind 30%, CLIP catches those 18/18 | done |
-| D2 comprehension target | gold ADs state the key visual fact only **61.8%** of the time (38% omissions) | done |
+| D2 comprehension target | gold ADs state the key visual fact only **61.8%** of the time (38% omissions) | done (SUBSET n=23/76; n=60 declined—no budget) |
 | D3 video-native scorer | 51% of QA is relation/action/count; ADQA 30% blind → motivated | BLOCKED (GPU) |
 | D4 cheap-proxy fight | accessibility_gap AUC **0.794** (p=0.0023) > best cheap 0.714, thin vs cheap-ensemble 0.778 | done (visual proxies BLOCKED) |
 | D5 cost Pareto | ρ 0.952 @ ~$1 no-ref vs frontier VLM 0.847 @ ~$50 | done (real-AD eval BLOCKED) |
@@ -49,7 +70,7 @@ Directions under test this round (implemented by parallel subagents):
 
 ### Round 2 results
 
-**D6 — Reference-free omission scorer (done).** Detail: `scenetwin-loop-d6-omission.md`.
+**D6 — Reference-free omission scorer (done, SUBSET n=23 clips/76 probes; n=60 declined—no budget).** Detail: `scenetwin-loop-d6-omission.md`.
 - Expert/gold AD omits the probed key fact **38.2%** of probes; hallucinated AD omits **96.1%**.
 - Separation (hallucinated = higher omission): probe-level AUC **0.789** (perm p<0.0001); **clip-level AUC 0.945** (21/23 clips, 0 reversals).
 - Experts omit **who_role (50%)** and **action (43%)** most, counts least (15%).
@@ -61,7 +82,7 @@ Directions under test this round (implemented by parallel subagents):
 - **Magnitude** thresholding is the deployable signal: at a fixed 10% paraphrase false-alarm budget, CLIP catches **65%** of fabrications, ADQA 53%.
 - Distributions confirm separation (CLIP fab mean +0.037 vs para +0.008). **Ship the CLIP-magnitude gate, never a sign rule.**
 
-**D10 — Severity-weighted error score (done, NEGATIVE).**
+**D10 — Severity-weighted error score (done, NEGATIVE; SUBSET n=23/5; n=60 declined—no budget).**
 - Not supported: severity (probe-type) vs drop magnitude Spearman CLIP +0.148 (p=0.50), ADQA +0.010 (p=0.97). High-severity clips show *slightly smaller* drops — signals are weakest exactly on the errors judged most severe. n=5 relation/action/count, so directional only. Honest negative; a real severity target likely needs a video-native signal (D3).
 
 **D7 — Fused error detector (done).** Detail: `scenetwin-loop-d7d8-fusion-oppoints.md`.
@@ -75,7 +96,7 @@ Directions under test this round (implemented by parallel subagents):
 **D11 — Combined triage queue (done, NEGATIVE).** Detail: `scenetwin-loop-d11d12-triage-qtype.md`.
 - Fusing signals does **not** beat `accessibility_gap` alone for ADQA-failure triage: best honest rank-fusion AUC 0.800 vs 0.794 (Δ+0.006, within n=10 noise); accessibility_gap alone wins recall@10/20/30% budgets (0.40/0.60/0.70). **Ship accessibility_gap as the single triage signal.**
 
-**D12 — Question-type ADQA reliability (done, UNBLOCKED).**
+**D12 — Question-type ADQA reliability (done; SUBSET n=18 timing clips; n=60 declined—no budget).**
 - Per-question grades were cached (`output/scenetwin_timing_20clip/*/grades.csv`); joined 684 typed questions → 2,736 graded instances, 0 unmatched.
 - Tier3-vs-tier0 discrimination AUC by type: **action_relation 0.959**, count 0.920, other 0.917, who_role 0.899, spatial_relation 0.818, object_attr 0.811. All types work; the two weakest (spatial/attribute) have pro-AD yes-rates ~0.53–0.56 — **even gold ADs omit fine spatial/attribute detail** (converges with D2/D6 omission finding).
 
@@ -98,7 +119,7 @@ _Results appended below as subagents report._
 
 ### Round 3 results
 
-**D13 — Combined omission+fabrication scorer (done, NEGATIVE for fusion).** Detail: `scenetwin-loop-d13-combined-scorer.md`.
+**D13 — Combined omission+fabrication scorer (done, NEGATIVE; SUBSET n=23; n=60 declined—no budget).** Detail: `scenetwin-loop-d13-combined-scorer.md`.
 - Detection (gold vs hallucinated, 23 probe clips, per-AD): omission alone **AUC 0.945** (reproduces D6), fabrication alone (per-AD fused −z CLIP/ADQA) 0.809, **combined 0.941** — combining does **not** beat omission alone; it slightly dilutes it. Signals correlated (Spearman 0.595, co-occur by construction).
 - Fusion still wins its own task (fab-vs-paraphrase z-drop on 23 clips, mean-fusion **0.921** ≈ D7 0.904).
 - Ranking baseline: `ensemble_mean_clip_top3` vs gt pooled Spearman **0.947** (3-tier corrected; 0.873 with invalid T2; canonical recompute 0.9516). Omission-aware ranking term **BLOCKED** — no per-tier AD texts cached for the full ladder (spec in detail report).
@@ -110,7 +131,7 @@ _Results appended below as subagents report._
 - Reference-COMPARISON path works: sentence diff recovers a changed sentence **100%**; probe swaps are lexically clean **52.6%** (cached fuzzy labels). Note: probe `swap_text` foils are QA distractors, not literal edits (exact foil-in-halluc only 3.9%) — use the alignment diff as GT.
 - **BLOCKED:** a genuine zero-reference localizer needs per-sentence visual grounding (per-claim CLIP frame-match / frame-grounded ADQA) = video+CLIP/API calls, uncached here. Only that can separate a *wrong* claim from a merely *detailed* one.
 
-**D16 — Question-type-reweighted ADQA (done, NULL — equal-weight wins).** Detail: `scenetwin-loop-d16-qtype-reweight.md`.
+**D16 — Question-type-reweighted ADQA (done, NULL; SUBSET n=18; n=60 declined—no budget).** Detail: `scenetwin-loop-d16-qtype-reweight.md`.
 - Equal-weight ADQA ranks tiers at **ρ = 0.932** (perm p=0.00005). Reweighting by D12 per-type discrimination gains at most **+0.0019 ρ** (bootstrap Δρ CI includes zero); dropping weak types *hurts* (−0.0026).
 - Ablation: **all questions 0.932 > scene-model-only 0.915 > non-scene-model-only 0.885** — discarding questions hurts. Per-type reliability is a useful diagnostic, **not** a ranking weight. Ship equal-weight (parsimony). Caveat: small n, near-ceiling ladder, in-sample weights.
 
