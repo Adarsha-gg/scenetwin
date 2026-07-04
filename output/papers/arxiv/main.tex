@@ -15,7 +15,7 @@
 \setlength{\parskip}{0.45em}
 \hypersetup{colorlinks=true,linkcolor=black,citecolor=black,urlcolor=blue}
 \title{\textbf{SceneTwin: Human-Reference-Free Audio Description Auditing with Visual Grounding, Frame-Grounded QA, and Review Triage}}
-\author{Adarsha Mishra\\William Paterson University}
+\author{Adarsha Mishra\\William Paterson University\\\texttt{adarsha.zz.work@gmail.com}}
 \date{July 2, 2026}
 \begin{document}
 \maketitle
@@ -24,7 +24,7 @@ Audio description (AD) makes video accessible to blind and low-vision viewers by
 
 We present \textbf{SceneTwin}, a human-reference-free AD audit framework with three layers: (1) a CLIP + frame-grounded ADQA score for ranking candidate descriptions against the video itself; (2) safety gates for hallucination and wrong-content failures; and (3) a TRIBE-v2 neural side-car for review triage rather than scoring. We first correct our benchmark construction by removing an invalid ``long VATEX'' rung that measured verbosity rather than known quality. On the corrected three-tier ladder --- cross-decoy $<$ crowd caption $<$ professional AD --- SceneTwin reaches Spearman $\rho$ = 0.952 on a 60-clip primary evaluation set spanning broad categories (58/60 clips fully ordered), with the original 18-clip pilot benchmark corroborating at $\rho$ = 0.957 (17/18 fully ordered). A reference-style LLM-AD-Eval proxy nearly ties the ranking result ($\rho$ = 0.942 / 0.941, primary / pilot) but requires the trusted professional AD reference that SceneTwin intentionally does not use. The contribution is therefore not a large leaderboard win; it is a deployable audit stack without human reference AD, plus operational gates.
 
-For safety, a CLIP grounding-drop gate reaches AUC = 0.835 with 70\% recall at 10\% false-positive rate for controlled visual hallucinations, while a raw-CLIP wrong-content gate catches 98.3\% of catastrophic wrong-clip descriptions at 2.2\% false alarm. Beyond ranking, we add a reference-free \textbf{error-detection} layer: a fused CLIP+ADQA fabrication detector reaches AUC = 0.904 (75\% recall at 10\% false-positive rate), and a lexical omission detector separates professional from corrupted descriptions at clip-level AUC = 0.945 on a 23-clip probe pilot --- revealing that even professional ADs state the probed key visual fact only 61.8\% of the time, an omission blind spot that reference-keyed scoring cannot see. For triage, TRIBE is deliberately excluded from the AD-level score: a clip-level neural gap cannot alter within-clip candidate ranking. Its useful role is review prioritization. In cached external validation, TRIBE/gap-route features predict corrected ADQA failures at AUC = 0.794 with category-shuffle p = 0.003, outperforming category, transcript/speech, duration, and word-count confounds; the same neural gap also resists cheap \emph{visual}-motion proxies (AUC = 0.796 vs $\le$0.63 for frame-difference statistics on 57 downloaded clips), so it is not a motion detector in disguise. SceneTwin is an audit layer for hybrid AI+human AD workflows, not a replacement for professional describers or blind-user validation.
+For safety, a CLIP grounding-drop gate reaches AUC = 0.835 with 70\% recall at 10\% false-positive rate for controlled visual hallucinations, while a raw-CLIP wrong-content gate catches 98.3\% of catastrophic wrong-clip descriptions at 2.2\% false alarm. Beyond ranking, we add a reference-free \textbf{error-detection} layer: a fused CLIP+ADQA fabrication detector reaches AUC = 0.904 (72\% recall at 10\% false-positive rate), and a lexical omission detector separates professional from corrupted descriptions at clip-level AUC = 0.945 on a 23-clip probe pilot --- revealing that even professional ADs state the probed key visual fact only 61.8\% of the time, an omission blind spot that reference-keyed scoring cannot see. For triage, TRIBE is deliberately excluded from the AD-level score: a clip-level neural gap cannot alter within-clip candidate ranking. Its useful role is review prioritization. In cached external validation, TRIBE/gap-route features predict corrected ADQA failures at AUC = 0.794 with category-shuffle p = 0.003, outperforming category, transcript/speech, duration, and word-count confounds; the same neural gap also resists cheap \emph{visual}-motion proxies (AUC = 0.796 vs $\le$0.63 for frame-difference statistics on 57 downloaded clips), so it is not a motion detector in disguise. SceneTwin is an audit layer for hybrid AI+human AD workflows, not a replacement for professional describers or blind-user validation.
 \end{abstract}
 
 \noindent\textbf{Keywords:} audio description; blind and low-vision accessibility; reference-free evaluation; video understanding; hallucination detection; omission detection; human-AI authoring; review triage
@@ -343,7 +343,7 @@ A strict objection is that grounding drop appears to require a human expert anch
 
 \subsection{Operating points and decision curve}
 
-Because the gate is a deployment tool, we report operating points rather than only AUC. The fused detector's AUC is 0.904 (clustered-bootstrap 95\% CI [0.85, 0.95]) versus 0.835 [0.76, 0.91] for the grader-free CLIP-only drop, so the CIs overlap and the fusion gain, while consistent, is not decisive. On the 60-clip fabrication set, recall at a fixed paraphrase false-positive rate is 66.7 / 75.0 / 86.7\% (FPR = 5 / 10 / 20\%) for the fused CLIP+ADQA detector, exceeding CLIP-only and ADQA-only at every point. Precision, however, is base-rate limited: at 10\% FPR the positive predictive value is 28 / 57 / 76\% for fabrication base rates of 5 / 15 / 30\%. The gate is therefore a high-recall \emph{triage} trigger, not an autonomous auto-reject oracle; a decision-curve analysis shows flagging beats review-all/review-none for harm thresholds from roughly 1--28\% (5\% base rate) widening to 11--76\% (30\% base rate). A separate audit confirms the deployable signal is the grounding-drop \emph{magnitude}, not its sign: a naive sign rule flags 65\% of faithful paraphrases, whereas a magnitude threshold at 10\% paraphrase false-alarm still catches 65\% of fabrications.
+Because the gate is a deployment tool, we report operating points rather than only AUC. The fused detector's AUC is 0.904 (clustered-bootstrap 95\% CI [0.85, 0.95]) versus 0.835 [0.76, 0.91] for the grader-free CLIP-only drop, so the CIs overlap and the fusion gain, while consistent, is not decisive. At the fixed 10\% false-positive operating point (measured on the paraphrase negatives), the fused detector recalls 71.7\% of fabrications versus 70.0\% for the CLIP-only drop, and recall rises monotonically as the allowed false-alarm budget is relaxed. Recall at exactly 10\% FPR is read on 60 discrete negatives and is therefore tie-sensitive by one to two clips. Precision is base-rate limited: at this operating point the positive predictive value is 27 / 56 / 75\% for fabrication base rates of 5 / 15 / 30\%. The gate is therefore a high-recall \emph{triage} trigger, not an autonomous auto-reject oracle; a decision-curve analysis shows flagging beats review-all/review-none for harm thresholds from roughly 1--27\% (5\% base rate) widening to 11--75\% (30\% base rate). A separate audit confirms the deployable signal is the grounding-drop \emph{magnitude}, not its sign: a naive sign rule flags 65\% of faithful paraphrases, whereas a magnitude threshold at 10\% paraphrase false-alarm still catches 65\% of fabrications.
 
 \subsection{Reference-free omission detection}
 
@@ -484,6 +484,14 @@ This matches the direction of recent accessibility work. DescribePro, Describe N
 \item \textbf{Human review remains required.} SceneTwin should route and assist human review; it should not replace professional describers.
 \end{enumerate}
 
+\section{Ethical Considerations and Positionality}
+
+\textbf{Positionality.} The author is sighted and not a member of the blind or low-vision (BLV) community, and no BLV participants were involved in this work. The claims are therefore about a computational audit method evaluated against constructed tiers and model-graded evidence, not about validated lived experience or measured viewer benefit. We have tried to state this boundary explicitly wherever a result could be misread as a user-outcome claim.
+
+\textbf{Intended use and misuse.} SceneTwin is intended to \emph{assist} human review of AI-generated AD, not to replace professional describers or to auto-approve descriptions. Because gate precision is base-rate limited (Section~7), deploying any gate as an autonomous accept/reject oracle at realistic low failure rates would produce many false rejections or false approvals; the supported use is prioritization and flagging for human review. Over-trust in an unvalidated automated metric is a real risk for an accessibility product, and we discourage shipping generated AD on the strength of these scores alone.
+
+\textbf{Data and content.} Clips derive from VATEX [14], and the underlying videos remain the property of their original uploaders; we reference them by identifier and do not redistribute media. The corrupted and paraphrased descriptions used to probe the gates are synthetic test stimuli generated for evaluation and are never presented to end users. Model-generated text may reflect biases of its source models; audit scores should not be treated as neutral ground truth.
+
 \section{Reproducibility}
 
 
@@ -518,6 +526,18 @@ Supporting reports:
 \item \texttt{output/reports/parallel-research-synthesis.md}
 \item \texttt{output/reports/tribe-claims-audit.md}
 \end{itemize}
+
+\subsection{Code and data availability}
+
+All headline numbers regenerate deterministically from released per-tier score CSVs via
+stdlib-only scripts (\texttt{recompute\_corrected\_ladder.py} for the ranking ladder;
+\texttt{loop\_d6\_omission.py}, \texttt{loop\_d7d8\_fusion\_oppoints.py}, and
+\texttt{loop\_harden\_cis.py} for the error-detection and confidence-interval results). We
+verified this session that the ranking, fabrication-detection, omission, and gate numbers
+reproduce exactly from these scripts. The evaluation code, derived score tables, and the
+per-experiment findings log are available in the project repository
+(\texttt{[repository URL to be inserted on release]}); the underlying videos are not
+redistributed and are obtained from their original sources by identifier.
 
 \section{Conclusion}
 

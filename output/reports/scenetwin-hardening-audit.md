@@ -72,6 +72,26 @@ the n=57 triage AUC 0.796 is not inflated by dropping hard cases. No action need
 - **Grader dependence** of ADQA (Gemini/Claude/GPT) — cross-model gen/grade mitigates but
   does not eliminate circularity.
 
+## Pass 2 (2026-07-03) — consistency + journal-readiness
+
+**H7 — Internal recall inconsistency (FIXED).** The gate table reported fused recall = 71.7%
+at 10% FPR (from the canonical `gate_summary.json`: `with_reference_clip_plus_adqa.recall_at_10pct_fpr`
+= 0.7167), but the abstract and the operating-points subsection I added this week said 75.0%
+(from the loop recompute, which reads the threshold differently on 60 discrete points — same
+AUC 0.904). Anchored everything to the canonical `gate_summary.json` value: abstract 75→72%,
+operating-points reworded to the 10% point (71.7% fused / 70.0% CLIP) with a tie-sensitivity
+note, and PPV recomputed from TPR=0.717 (27 / 56 / 75% at base rates 5/15/30%).
+
+**Added for journal-readiness:**
+- **Ethics & Positionality section** (sighted author, no BLV participants; assist-not-replace;
+  base-rate misuse risk; VATEX data-by-identifier).
+- **Code & data availability** statement (scripts regenerate all headline numbers; repo URL
+  placeholder to fill on release).
+- **Corresponding-author email** in the author block.
+
+Consistency after Pass 2: refs 19/19 defined=cited, braces 266/266, environments 34/34,
+recall numbers reconciled, no stale operating-point values.
+
 ## Net
 
 No headline number failed to reproduce. One overclaim I had introduced (omission = grader-free)
